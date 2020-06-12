@@ -44,5 +44,5 @@ body
 */
 
 .post-preview a {
-  color: {{ site.link-col | default: "#1e4586"  }};
+  color: "#1e4586";
 }
