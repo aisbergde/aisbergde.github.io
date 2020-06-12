@@ -5,12 +5,7 @@ subtitle: Meine Erfahrungen mit dem AnalyticsCreator zur DWH-Automatisierung (EL
 share-img: /assets/img/AisbergLogo.svg
 ---
 
-<div class="list-filters">
-  <a href="/" class="list-filter">All posts</a>
-  <span class="list-filter filter-selected">Most Popular</span>
-  <a href="/sas" class="list-filter">SSAS</a>
-  <a href="/tags" class="list-filter">Index</a>
-</div>
+
 
 <div class="posts-list">
   {% for post in site.tags.ssas %}

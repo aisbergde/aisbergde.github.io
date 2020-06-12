@@ -12,7 +12,11 @@ author: Germo Görtz
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  Germo Görtz: "aboutme"
+  Germo Görtz:
+    - Profil (de): "goertz_profile_de"
+    - Projekthistorie: "goertz_project_history_de"
+    - Referenen / Bewertungen: "goertz_references"
+  Tag Index: "tags"
   AnalyticsCreator:
     - AnalyticsCreator: "https://www.analyticscreator.com/"
     - AnalyticsCreator Toolkit: "https://github.com/aisbergde/AnalyticsCreator_Toolkit"
