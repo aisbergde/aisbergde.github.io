@@ -1,10 +1,10 @@
 body
 ,.navbar-custom
 ,.post-preview .post-entry
+/*
 ,.blog-tags
 , .intro-header .page-heading .page-subheading
 , .intro-header .post-heading .post-subheading
-/*
 , .intro-header.big-img .img-desc
 , .pagination .page-item .page-link
 , #full-tags-list
@@ -43,3 +43,6 @@ body
 }
 */
 
+.post-preview a {
+  color: {{ site.link-col }};
+}
