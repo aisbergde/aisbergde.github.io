@@ -1,39 +1,35 @@
 # --- Basic options --- #
 
 # Name of website
-title: AISBERG über AnalyticsCreator
+title: My website
 
 # Short description of your site
-description: Meine Erfahrungen mit dem AnalyticsCreator zur DWH-Automatisierung (ELT, DWH, SSAS)
+description: A virtual proof that I'm awesome
 
 # Your name to show in the footer
-author: Germo Görtz
+author: Some Person
 
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  Über mich: "aboutme"
+  About Me: "aboutme"
   Resources:
-    - AnalyticsCreator: "https://www.analyticscreator.com/"
-    - AnalyticsCreator Toolkit: "https://github.com/aisbergde/AnalyticsCreator_Toolkit"
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://www.aisberg.de"
+  Author's home: "https://deanattali.com"
 
 # --- Logo --- #
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-# avatar: "/assets/img/AisbergLogo.png"
+avatar: "/assets/img/avatar-icon.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour here.
-# round-avatar: true
+round-avatar: true
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
-# Funktioniert nicht, vielleicht mit ""
-# svg funktioniert, ist aber zu klein
-# title-img: "/assets/img/AisbergLogo.svg"
+#title-img: /path/to/image
 
 
 # --- Footer options --- #
@@ -42,26 +38,25 @@ navbar-links:
 # Uncomment the links you want to show and add your information to each one.
 # If you don't want to show a link to an RSS feed, set rss to "false".
 social-network-links:
-  email: "web@eaisberg.de"
-  facebook: germo.goertz
-  github: aisbergde
-#  twitter: GermoGortz
+  email: "someone@example.com"
+  facebook: deanattali
+  github: daattali
+  twitter: daattali
   rss: true
 #  reddit: yourname
-  linkedin: germo-görtz
-  xing: Germo_Goertz
+#  linkedin: daattali
+#  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
-#  instagram: germogoertz
-  youtube: user/GermoGoertz
+#  instagram: deanat78
+#  youtube: user/deanat78
 #  spotify: yourname
 #  telephone: +14159998888
 #  steam: deanat78
 #  twitch: yourname
 #  yelp: yourname
-  telegram: germo_goertz
+#  telegram: yourname
 #  calendly: yourname
-#  mastodon: instance.url/@username
 
 # --- General options --- #
 
@@ -70,11 +65,10 @@ share-links-active:
   twitter: true
   facebook: true
   linkedin: true
-  vk: true
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "aisberg.de"
+url-pretty: "MyWebsite.com"
 
 # Create a "tags" index page and make tags on each post clickable
 link-tags: true
@@ -86,16 +80,15 @@ excerpt_length: 50
 
 # Personalize the colors in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#FFFFFF"
-navbar-text-col: "#1e4586"
-# unklar, was das ist:
-navbar-border-col: "#8fadd1"
+navbar-col: "#F5F5F5"
+navbar-text-col: "#404040"
+navbar-border-col: "#EAEAEA"
 page-col: "#FFFFFF"
-link-col: "#1e4586"
-hover-col: "#d62b34"
-footer-col: "#FFFFFF"
-footer-text-col: "#000000"
-footer-link-col: "#1e4586"
+link-col: "#008AFF"
+hover-col: "#0085A1"
+footer-col: "#F5F5F5"
+footer-text-col: "#777777"
+footer-link-col: "#404040"
 
 # Alternatively, the navbar, footer, and page background can be set to use background images
 # instead of colour
@@ -162,7 +155,7 @@ footer-link-col: "#1e4586"
 title-separator: "-"
 
 # Ruby Date Format to show dates of posts
-date_format: "%-d %B %Y"
+date_format: "%B %-d, %Y"
 
 # Facebook App ID
 #fb_app_id: ""
@@ -171,7 +164,7 @@ date_format: "%-d %B %Y"
 # --- You don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "	Europe/Berlin"
+timezone: "America/Vancouver"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
