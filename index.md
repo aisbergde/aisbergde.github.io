@@ -6,11 +6,3 @@ share-img: /assets/img/AisbergLogo.svg
 ---
 
 ![AISBERG - Analytische Informationssysteme und BERatung im Gesundheitswesen](assets/img/AisbergLogo.svg)
-
-und ein wenig Text
-
-image: /assets/img/AisbergLogo.svg
-
-führt nur dazu, dass der Kreis mit dem Bild gefüllt wird
-
-bla bla bla
