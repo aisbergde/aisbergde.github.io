@@ -1,4 +1,5 @@
 body
+/*
 ,h1,h2,h3,h4,h5,h6
 ,.navbar-custom
 ,.post-preview .post-entry
@@ -8,16 +9,7 @@ body
 , .intro-header.big-img .img-desc
 , .pagination .page-item .page-link
 , #full-tags-list
+*/
 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif
-}
-
-.navbar-custom .navbar-brand,
-.navbar-custom .navbar-nav .nav-link {
-  font-weight: 800;
-  color: {{ site.navbar-text-col | default: "#1e4586" }}
-}
-
-footer a {
-  color: {{ site.footer-link-col | default: "#1e4586" }}
 }
