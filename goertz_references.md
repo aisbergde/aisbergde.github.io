@@ -2,8 +2,6 @@
 title: Referenzen / Bewertungen Germo Görtz
 ---
 
-# Referenzen / Bewertungen Germo Görtz
-
 ## Würth Logistics AG
 
 Business Analyst ( Matthias Gerber )

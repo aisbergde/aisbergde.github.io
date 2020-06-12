@@ -2,8 +2,6 @@
 title: Projekthistorie Germo Görtz (de)
 ---
 
-# Projekthistorie Germo Görtz
-
 ## 02/2020 - bis jetzt; MEAG Munich ERGO Assetmanagement GmbH
 
 500-1000 Mitarbeiter

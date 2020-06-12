@@ -1,9 +1,8 @@
 ---
 title: IT Profil Germo Görtz (de)
 subtitle: DWH Automatisierung mit AnalyticsCreator. Microsoft BI Architekt + Entwickler. MS SQL Server, SSAS
+tags: [SSAS, MS SQL Server, AnalyticsCreator, DWH Automatisierung]
 ---
-
-# DWH Automatisierung mit AnalyticsCreator. Microsoft BI Architekt + Entwickler. MS SQL Server, SSAS
 
 ![Germo Görtz](assets/img/Germo_Goertz_459x612.jpg)
 
