@@ -20,9 +20,17 @@ navbar-links:
   AnalyticsCreator:
     - AnalyticsCreator: "https://www.analyticscreator.com/"
     - AnalyticsCreator Toolkit: "https://github.com/aisbergde/AnalyticsCreator_Toolkit"
+  SQL Server Tools:
+    - SchemaSpy: "http://schemaspy.org/"
+    - Elsasoft SqlSpec Database documentation tool: "https://elsasoft.com/"
+    - ApexSQL developer tools: "https://www.apexsql.com/sql-tools-dev.aspx"
   Andere:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
+    Android Apps:
+      - Markor: "https://gsantner.net/project/markor.html"
+      - Epsilon Notes: "http://epsilonexpert.com/e/index.php"
+      - SimpleTask: "https://github.com/mpcjanssen/simpletask-android"
   AISBERG: "https://www.aisberg.de"
   Impressum: "impressum"
 

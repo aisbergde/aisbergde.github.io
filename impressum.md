@@ -1,6 +1,5 @@
 ---
 title: Impressum
-subtitle: Meine Erfahrungen mit dem AnalyticsCreator zur DWH-Automatisierung (ELT, DWH, SSAS)
 ---
 
 ## Angaben gemäß § 5 TMG
