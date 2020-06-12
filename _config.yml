@@ -20,20 +20,22 @@ navbar-links:
   AnalyticsCreator:
     - AnalyticsCreator: "https://www.analyticscreator.com/"
     - AnalyticsCreator Toolkit: "https://github.com/aisbergde/AnalyticsCreator_Toolkit"
-  SQL Server Tools:
-    - SchemaSpy: "http://schemaspy.org/"
+  Datenbank Werkzeuge:
+    - SQL Examiner Suite: https://www.sqlaccessories.com/sql-examiner-suite/
+    - SchemaSpy Database documentation tool: "http://schemaspy.org/"
     - Elsasoft SqlSpec Database documentation tool: "https://elsasoft.com/"
     - ApexSQL developer tools: "https://www.apexsql.com/sql-tools-dev.aspx"
-  Andere:
+    - Azure Data Studio: "https://docs.microsoft.com/de-de/sql/azure-data-studio/?view=sql-server-ver15"
+  Andere Werkzeuge:
+    - Visual Studio Code: "https://code.visualstudio.com/"
+    - Markor (Android Markdown Tool): "https://gsantner.net/project/markor.html"
+    - Epsilon Notes (Android Markdown Tool): "http://epsilonexpert.com/e/index.php"
+    - SimpleTask (todotxt Tool): "https://github.com/mpcjanssen/simpletask-android"
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
-  Android Apps:
-    - Markor: "https://gsantner.net/project/markor.html"
-    - Epsilon Notes: "http://epsilonexpert.com/e/index.php"
-    - SimpleTask: "https://github.com/mpcjanssen/simpletask-android"
   AISBERG: "https://www.aisberg.de"
   Impressum: "impressum"
-nav-search: "search"
+# nav-search: "search"
 
 # --- Logo --- #
 
