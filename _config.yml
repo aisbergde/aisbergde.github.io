@@ -27,12 +27,13 @@ navbar-links:
   Andere:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
-    Android Apps:
-      - Markor: "https://gsantner.net/project/markor.html"
-      - Epsilon Notes: "http://epsilonexpert.com/e/index.php"
-      - SimpleTask: "https://github.com/mpcjanssen/simpletask-android"
+  Android Apps:
+    - Markor: "https://gsantner.net/project/markor.html"
+    - Epsilon Notes: "http://epsilonexpert.com/e/index.php"
+    - SimpleTask: "https://github.com/mpcjanssen/simpletask-android"
   AISBERG: "https://www.aisberg.de"
   Impressum: "impressum"
+nav-search: "search"
 
 # --- Logo --- #
 
@@ -121,10 +122,10 @@ footer-link-col: "#1e4586"
 # --- Web Statistics Section --- #
 
 # Fill in your Google Analytics gtag.js ID to track your website using gtag
-#gtag: ""
+gtag: "UA-169285367-1"
 
 # Fill in your Google Analytics ID to track your website using GA
-#google_analytics: ""
+google_analytics: "UA-169285367-1"
 
 # Google Tag Manager ID
 #gtm: ""
