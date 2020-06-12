@@ -12,13 +12,14 @@ author: Germo Görtz
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  Über mich: "aboutme"
-  Resources:
+  Germo Görtz: "aboutme"
+  AnalyticsCreator:
     - AnalyticsCreator: "https://www.analyticscreator.com/"
     - AnalyticsCreator Toolkit: "https://github.com/aisbergde/AnalyticsCreator_Toolkit"
+  Andere:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://www.aisberg.de"
+  AISBERG: "https://www.aisberg.de"
 
 # --- Logo --- #
 
