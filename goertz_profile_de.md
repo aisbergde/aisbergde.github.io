@@ -20,13 +20,15 @@ Diplom-Mediziner, Biophysiker, [Arzt-Kybernetiker](http://pirogov-university.com
 
 ## Sprachkenntnisse
 
-deutsch (Muttersprache) | russisch (verhandlungssicher) | englisch (gut)
+- deutsch (Muttersprache)
+- russisch (verhandlungssicher)
+- englisch
 
 ## BI-Architekt und -Entwickler mit Microsoft BI
 
 * AISBERG - **A**nalytische **I**nformations**S**ysteme und **BER**atung im **G**esundheitswesen (und in anderen Branchen)
-* ich bevorzuge Projekte, in denen ich den **[AnalyticsCreator](www.AnalyticsCreator.com)** einsetzen kann
-* falls der **[AnalyticsCreator](www.AnalyticsCreator.com)** nicht eingesetzt werden kann, geht es auch zeitaufwendiger auf "klassische" Art und Weise
+* ich bevorzuge Projekte, in denen ich den **[AnalyticsCreator](https://www.AnalyticsCreator.com)** einsetzen kann
+* falls der **[AnalyticsCreator](https://www.AnalyticsCreator.com)** nicht eingesetzt werden kann, geht es auch zeitaufwendiger auf "klassische" Art und Weise
 * Business Intelligence (BI, Geschäftsanalyse):
     * Anforderungsanalyse
     * Architektur
