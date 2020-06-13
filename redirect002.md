@@ -1,5 +1,5 @@
 ---
-permalink: {% raw %}http://analyticscreator.aisberg.de/index.php?/archives/1-Warum-ich-seit-2017-den-AnalyticsCreator-verwende.html{% endraw %}
+permalink: /{% raw %}index.php?{% endraw %}/archives/1-Warum-ich-seit-2017-den-AnalyticsCreator-verwende
 ---
 
 ```
