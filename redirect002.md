@@ -1,5 +1,5 @@
 ---
-permalink: /index.php?/archives/1-Warum-ich-seit-2017-den-AnalyticsCreator-verwende
+permalink: {% raw %}/index.php?/archives/1-Warum-ich-seit-2017-den-AnalyticsCreator-verwende{% endraw %}
 ---
 
 ```
