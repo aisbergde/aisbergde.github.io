@@ -56,7 +56,6 @@ Erfolgreich durch Exzellenz
 Fokussierung auf Kernkompetenz
 
 Als [Arzt-Kybernetiker](http://pirogov-university.com/academics/programs-and-degrees/undergraduate/medical-cybernetics/) bin ich "kybernetisch im Denken und Handeln"
-
 * Soll und Ist analysieren,
 * verschiedene Wege identifizieren,
 * Ursachen und Wirkungen berücksichtigen,
@@ -75,7 +74,6 @@ Ich habe _kein_ Interesse an einer festen Anstellung, auch nicht an einer Arbeit
 ## Anmerkungen zu SSAS - SQL Server Analysis Services
 
 Unter dem gleichen Oberbegriff SSAS ([SQL Server Analysis Services](http://docs.microsoft.com/de-de/analysis-services/analysis-services-overview?view=asallproducts-allversions)) vereint Microsoft zwei unterschiedliche Technologien
-
 * **multidimensionale** Datenbanken und
 * **tabellarische** Datenbanken. Das kann (und soll?) verwirren, da es sich um unterschiedliche Technologien handelt.
 
@@ -96,6 +94,6 @@ Die Abfragesprache [MDX - Multidimensional Expressions](http://de.wikipedia.org/
 ## Warum ich seit 2017 den AnalyticsCreator verwende
 
 Dieser Link führt zu meinem gleichnamigen Blog-Eintrag:  
-[Warum ich seit 2017 den AnalyticsCreator verwende](http://analyticscreator.aisberg.de/index.php?/archives/1-Warum-ich-seit-2017-den-AnalyticsCreator-verwende.html)
+[Warum ich seit 2017 den AnalyticsCreator verwende](/2020-04-26-warum-analyticscreator/)
 
 Der [AnalyticsCreator](www.AnalyticsCreator.com) ist seit 2017 mein Standard-Werkzeug zur Automatisierung der Erstellung von DWH (data warehouse) inklusive ELT (oder ETL) und optionaler analytischer Datenbanken (mit SSAS Tabular), nachdem mich diverse andere Automatisierungs-Tools nicht so recht überzeugen konnten ([Wherescape](http://www.wherescape.com/), [DeltaMaster Modeler](http://www.bissantz.de/know-how/crew/deltamaster-modeler-individuelle-datenmodel-lanpassung-nach-deploy/), [PowerBuilder](http://www.appeon.com/products/powerbuilder), verschiedene Mindmap-to-Datenbank-Programme, ...)
