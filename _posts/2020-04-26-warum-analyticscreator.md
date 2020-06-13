@@ -2,6 +2,8 @@
 title: Warum ich seit 2017 den AnalyticsCreator verwende
 subtitle: Und wartum mich Wherscape nicht überzeugt hat
 tags: [analyticscreator, dwh-automatisierung, etl, elt, dwh, wherescape, data-lineage, slow-changing-dimension, scd, ssas-tabular, ssas]
+redirect_from:
+  -/index.php?/archives/1-Warum-ich-seit-2017-den-AnalyticsCreator-verwende.html
 ---
 
 Der AnalyticsCreator ist seit 2017 mein Standard-Werkzeug zur Automatisierung der Erstellung von DWH (data warehouse) inklusive ELT (oder ETL) und optionaler analytischer Datenbanken (mit SSAS Tabular), nachdem mich diverse andere Automatisierungs-Tools nicht so recht überzeugen konnten ([Wherescape](https://www.wherescape.com/), [DeltaMaster Modeler](https://www.bissantz.de/know-how/crew/deltamaster-modeler-individuelle-datenmodel-lanpassung-nach-deploy/), [PowerBuilder](https://www.appeon.com/products/powerbuilder), verschiedene Mindmap-to-Datenbank-Programme, ...).
