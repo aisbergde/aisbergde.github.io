@@ -1,6 +1,6 @@
 ---
 layout: 'redirect'
 permalink: /test002
-redir_to: '/2020-04-26-warum-analyticscreator/'
+redir_to: 'http://www.steinberg-design.de'
 sitemap: false
 ---
