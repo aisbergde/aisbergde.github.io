@@ -1,9 +1,8 @@
 ---
 title: Warum ich seit 2017 den AnalyticsCreator verwende
-subtitle: Und wartum mich Wherscape nicht überzeugt hat
+subtitle: Und warum mich Wherscape nicht überzeugt hat
 tags: [analyticscreator, dwh-automatisierung, etl, elt, dwh, wherescape, data-lineage, slow-changing-dimension, scd, ssas-tabular, ssas]
 redirect_from:
-  -/index.php?/archives/1-Warum-ich-seit-2017-den-AnalyticsCreator-verwende.html
   -/test/001.html
 ---
 
