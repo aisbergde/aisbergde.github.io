@@ -1,6 +1,8 @@
 ---
-title: Projekthistorie Germo Görtz (de)
+tags: [Projekthistorie]
 ---
+
+# Projekthistorie Germo Görtz (de)
 
 ## 02/2020 - bis jetzt; MEAG Munich ERGO Assetmanagement GmbH
 

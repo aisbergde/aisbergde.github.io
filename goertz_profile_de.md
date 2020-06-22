@@ -2,6 +2,7 @@
 title: IT Profil Germo Görtz (de)
 subtitle: DWH Automatisierung mit AnalyticsCreator. Microsoft BI Architekt + Entwickler. MS SQL Server, SSAS
 tags: [SSAS, MS SQL Server, AnalyticsCreator, DWH Automatisierung]
+date: '2020-05-29'
 ---
 
 ![Germo Görtz](assets/img/Germo_Goertz_459x612.jpg)
@@ -94,6 +95,6 @@ Die Abfragesprache [MDX - Multidimensional Expressions](http://de.wikipedia.org/
 ## Warum ich seit 2017 den AnalyticsCreator verwende
 
 Dieser Link führt zu meinem gleichnamigen Blog-Eintrag:  
-[Warum ich seit 2017 den AnalyticsCreator verwende](/2020-04-26-warum-analyticscreator/)
+[Warum ich seit 2017 den AnalyticsCreator verwende](http://analyticscreator.aisberg.de/2020-04-26-warum-analyticscreator/)
 
 Der [AnalyticsCreator](www.AnalyticsCreator.com) ist seit 2017 mein Standard-Werkzeug zur Automatisierung der Erstellung von DWH (data warehouse) inklusive ELT (oder ETL) und optionaler analytischer Datenbanken (mit SSAS Tabular), nachdem mich diverse andere Automatisierungs-Tools nicht so recht überzeugen konnten ([Wherescape](http://www.wherescape.com/), [DeltaMaster Modeler](http://www.bissantz.de/know-how/crew/deltamaster-modeler-individuelle-datenmodel-lanpassung-nach-deploy/), [PowerBuilder](http://www.appeon.com/products/powerbuilder), verschiedene Mindmap-to-Datenbank-Programme, ...)

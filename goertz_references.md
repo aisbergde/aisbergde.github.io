@@ -1,6 +1,8 @@
 ---
-title: Referenzen / Bewertungen für Germo Görtz
+tags: [Referenzen, Bewertungen]
 ---
+
+# Referenzen / Bewertungen für Germo Görtz
 
 ## Würth Logistics AG
 
