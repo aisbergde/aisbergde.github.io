@@ -10,7 +10,7 @@ date: '2020-05-29'
 Germo Görtz  
 14089 Berlin
 
-## Download des IT-Profils
+## Download des IT-Profils (inklusive Projekthistorie und Referenzen)
 
 [Germo_Goertz_IT_profile.docx](http://analyticscreator.aisberg.de/Germo_Goertz_IT_profile.docx)
 
