@@ -1,20 +1,23 @@
+[![](https://i.imgur.com/zNBkzj1.png)](https://xscode.com/daattali/beautiful-jekyll)
+
 # Beautiful Jekyll
 
-[![Beautiful Jekyll CI](https://github.com/daattali/beautiful-jekyll/workflows/Beautiful%20Jekyll%20CI/badge.svg)](https://github.com/daattali/beautiful-jekyll/actions?query=branch%3Amaster+event%3Apush+workflow%3A%22Beautiful+Jekyll+CI%22)
+[![xscode](https://img.shields.io/badge/Available%20on-xs%3Acode-blue?style=?style=plastic&logo=appveyor&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRF////////VXz1bAAAAAJ0Uk5T/wDltzBKAAAAlUlEQVR42uzXSwqAMAwE0Mn9L+3Ggtgkk35QwcnSJo9S+yGwM9DCooCbgn4YrJ4CIPUcQF7/XSBbx2TEz4sAZ2q1RAECBAiYBlCtvwN+KiYAlG7UDGj59MViT9hOwEqAhYCtAsUZvL6I6W8c2wcbd+LIWSCHSTeSAAECngN4xxIDSK9f4B9t377Wd7H5Nt7/Xz8eAgwAvesLRjYYPuUAAAAASUVORK5CYII=)](https://xscode.com/daattali/beautiful-jekyll)
 [![Gem Version](https://badge.fury.io/rb/beautiful-jekyll-theme.svg)](https://badge.fury.io/rb/beautiful-jekyll-theme)
 
-> *Copyright 2020 [Dean Attali](https://deanattali.com)*
+> *Created by [Dean Attali](https://deanattali.com)* &middot; [Demo](https://beautifuljekyll.com/)
 
 **Beautiful Jekyll** is a ready-to-use template to help you create a beautiful website quickly. Perfect for personal sites, blogs, or simple project websites.  [Check out a demo](https://beautifuljekyll.com) of what you'll get after just two minutes.  You can also look at [my personal website](https://deanattali.com) to see it in use, or see examples of websites other people created using this theme [below](#showcased-users-success-stories).
 
-**If you enjoy this theme, please consider [supporting me](http://paypal.me/daattali) or [sponsoring me](https://github.com/sponsors/daattali) for developing and maintaining it for over 5 years.**
+**If you enjoy this theme, please consider [supporting me](https://github.com/sponsors/daattali) for developing and maintaining it for over 5 years.**
 
 <p align="center">
-  <a style="display: inline-block;" href="https://paypal.me/daattali">
-    <img height="40" src="https://camo.githubusercontent.com/0e9e5cac101f7093336b4589c380ab5dcfdcbab0/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f74776f6c66736f6e2f70617970616c2d6769746875622d627574746f6e40312e302e302f646973742f627574746f6e2e737667" />
-  </a>&nbsp;&nbsp;
   <a style="display: inline-block;" href="https://github.com/sponsors/daattali">
     <img height="40" src="https://i.imgur.com/034B8vq.png" />
+  </a>
+  &nbsp;&nbsp;
+  <a style="display: inline-block;" href="https://paypal.me/daattali">
+    <img height="40" src="https://camo.githubusercontent.com/0e9e5cac101f7093336b4589c380ab5dcfdcbab0/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f74776f6c66736f6e2f70617970616c2d6769746875622d627574746f6e40312e302e302f646973742f627574746f6e2e737667" />
   </a>
 </p>
 
@@ -129,7 +132,7 @@ Parameter   | Description
 title       | Page or blog post title
 subtitle    | Short description of page or blog post that goes under the title
 tags        | List of tags to categorize the post. Separate the tags with commas and place them inside square brackets. Example: `[personal, analysis, finance]`
-cover-img   | Include a large full-width image at the top of the page.  You can either give the path to a single image, or provide a list of images to cycle through (see [my personal website](https://deanattali.com/) as an example).
+cover-img   | Include a large full-width image at the top of the page. You can either provide the path to a single image (eg. `"/path/to/img"`) , or a list of images to cycle through (eg. `["/path/img1", "/path/img2"]`). If you want to add a caption to an image, then the image should be provided as `{"/path/to/img" : "Caption of image"}`.
 comments    | If you want do add comments to a specific page, use `comments: true`. Comments only work if you enable one of the comments providers (Facebook, disqus, staticman, utterances) in `_config.yml` file. Comments are automatically enabled on blog posts but not on other pages; to turn comments off for a specific post, use `comments: false`. 
 
 ## Less commonly used parameters
@@ -140,8 +143,8 @@ Parameter   | Description
 ----------- | -----------
 readtime    | If you want a post to show how many minutes it will take to read it, use `readtime: true`.
 show-avatar | If you have an avatar configured in the `_config.yml` but you want to turn it off on a specific page, use `show-avatar: false`.
-image       | If you want to add an image to your blog post that will show up next to the post's excerpt on the feed and in the post page itself, use `image: /path/to/img`.
-share-img   | If you want to specify an image to use when sharing the page on Facebook or Twitter, then provide the image's full URL here.
+thumbnail-img | For blog posts, if you want to add a thumbnail that'll show up next to the post's excerpt in the feed, use `thumbnail-img: /path/to/image`. If no thumbnail is provided, then `cover-img` will be used as the thumbnail. You can use `thumbnail-img: ""` to disable a thumbnail.
+share-img   | The image to use when sharing the page to social media. If not provided, then `cover-img` or `thumbnail-img` will be used.
 social-share | By default, every blog post has buttons to share the page on social media. If you want to turn this feature off, use `social-share: false`.
 nav-short   | By default, the navigation bar gets shorter after scrolling down the page. If you want the navigation bar to always be short on a certain page, use `nav-short: true` 
 gh-repo   | If you want to show GitHub buttons at the top of a post, this sets the GitHub repo name (eg. `daattali/beautiful-jekyll`). You must also use the `gh-badge` parameter to specify what buttons to show.
@@ -172,7 +175,7 @@ ext-css      | List of external CSS files to include in the page. External CSS f
 
 # Showcased users (success stories!)
 
-Beautiful Jekyll has been used in over 500 websites in its first 6 months, and tens of thousands of times since its inception.  Here is a sample of some websites that use Beautiful Jekyll.
+Beautiful Jekyll has been used in tens of thousands of websites since 2015.  Here is a sample of some websites that use Beautiful Jekyll. If you'd like to showcase yourself and join this list, any level of [sponsorship](https://github.com/sponsors/daattali) will grant you that perk!
 
 ## Project/company websites
 
@@ -212,6 +215,8 @@ Beautiful Jekyll has been used in over 500 websites in its first 6 months, and t
 If you need any help, I suggest heading over to the [Jekyll support forum](https://talk.jekyllrb.com/).
 
 Beautiful Jekyll is actively used by thousands of people with wildly varying degrees of competency, so it's impossible to answer all the questions that may arise. Below are answers to a few very common questions. Most questions that I get asked are not directly related to this theme, and instead are more general questions about Jekyll or web development. Many such questions can be answered by reading the [Jekyll documentation](https://jekyllrb.com/) or with Google.
+
+**If you really wany my personal help, please visit https://xscode.com/daattali/beautiful-jekyll to hire my services.**
 
 ### What if I don't want the website to be `https://<yourusername>.github.io`?
 
