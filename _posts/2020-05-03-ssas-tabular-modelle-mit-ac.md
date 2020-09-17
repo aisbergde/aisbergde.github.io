@@ -224,7 +224,7 @@ Natürlich können auch Hierarchien definiert werden:
 - Main Menu
 - Datamart
 - Button "Hierarchies"
-- Auswahl des entsprechenden Hierarchie per Doppelklick
+- Auswahl des entsprechenden Hierarchie per Doppelklick  
 ![AnalyticsCreator: Definition von SSAS Hierarchien](/assets/img/blog/ac_hierarchies_01.jpg)
 
 ### Partitionen
