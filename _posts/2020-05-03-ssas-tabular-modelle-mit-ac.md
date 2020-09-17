@@ -1,9 +1,10 @@
 ---
 title: SSAS Tabular Modelle mit dem AnalyticsCreator erstellen
 tags: [analyticscreator, ssas, ssas-tabular, mdx, dax, sqlserver, measure, dimension, xmla]
+last-updated: 2020-09-18
 ---
 
-Da ich in letzer Zeit immer öfter auch SSAS Tabular Modelle erstelle, habe ich mich vom Chefentwickler des AnalyticsCreators überzeugen lassen, den SSAS Geneartor für Tabular Modelle zu evaluieren. Tabular-Modelle sind technisch einfacher aufgebaut, als multidimensionale Modelle. Ein Tabular-Modell besteht aus Tabellen, die miteinander verbunden sind. Die Verbindung kann ein- oder zweiseitig sein. Es gibt Measures mit ein paar Eigenschaften, und das lässt sich recht gut automatisieren. Also habe ich ab September 2019 einige SSAS Tabular Modelle mit dem AnalyticsCreator erstellt und war positiv beeindruckt.
+Da ich in letzter Zeit immer öfter auch SSAS Tabular Modelle erstelle, habe ich mich vom Chefentwickler des AnalyticsCreators überzeugen lassen, den SSAS Generator für Tabular Modelle zu evaluieren. Tabular-Modelle sind technisch einfacher aufgebaut, als multidimensionale Modelle. Ein Tabular-Modell besteht aus Tabellen, die miteinander verbunden sind. Die Verbindung kann ein- oder zweiseitig sein. Es gibt Measures mit ein paar Eigenschaften, und das lässt sich recht gut automatisieren. Also habe ich ab September 2019 einige SSAS Tabular Modelle mit dem AnalyticsCreator erstellt und war positiv beeindruckt.
 
 - [SSAS multidimensional vs Tabular](#ssas-multidimensional-vs-tabular)
 - [Warum ich den AnalyticsCreator nicht für die Erstellung multidimensionaler Modelle verwende](#warum-ich-den-analyticscreator-nicht-für-die-erstellung-multidimensionaler-modelle-verwende)
@@ -194,7 +195,7 @@ Die Verwendung von "Referenced Column" ist aber nicht zwingend nötig, man kann 
 
 Um nun tatsächlich eine Tabellen-Beziehung herzustellen, ist eine Referenz zwar notwendig, aber nicht ausreichend. Ob aus einer Referenz tatsächlich eine Beziehung wird, wird über die Eigenschaft einer Spalte auf der "n"-Seite einer 1:n-Beziehung festgelegt:
 
-![AnalyticsCreator: Datamart Tabellen - Definition von SSAS Tabellen-Beziehungen](uploads/ac_dm_table_02.jpg)
+![AnalyticsCreator: Datamart Tabellen - Definition von SSAS Tabellen-Beziehungen](/assets/img/blog/ac_dm_table_02.jpg)
 
 - mit der Eigenschaft "OLAP Reference" wird über eine Auswahlliste festgelegt, mit welcher (Dimensions)-Tabelle die Verbindung hergestellt werden soll
 - über "2-sided" wird festgelegt, ob es sich um eine ein- oder ein zweiseitige Verbindung handeln soll
