@@ -19,6 +19,6 @@ Um dieses Ziel zu erreichen, gibt es nun:
 
 Die Wiki wird hoffentlich sowohl von der Community als auch vom Hersteller mit Inhalt befüllt. Aktuell ist die Wiki noch recht leer und enthält nur einige Einträge von mir.
 
-Unter anderen habe ich die [Repository Extension](https://dev.azure.com/AnalyticsCreator/AnalyticsCreator/_wiki/wikis/AnalyticsCreator.wiki/73/repository-extension) entwickelt, bereitgestellt und dokumentiert.
+Unter anderen habe ich bereits die [Repository Extension](https://dev.azure.com/AnalyticsCreator/AnalyticsCreator/_wiki/wikis/AnalyticsCreator.wiki/73/repository-extension) entwickelt, bereitgestellt und dokumentiert.
 
 [Repository Templates](https://dev.azure.com/AnalyticsCreator/AnalyticsCreator/_wiki/wikis/AnalyticsCreator.wiki/75/repository-templates) erleichtern den Start neuer Projekte und die Übernahme von Entwicklungen aus einem Projekt in ein anderes. Dazu habe ich auch ein Vidoe erstellt: [AnalyticsCreator Projekt aus Template - Repository Daten Synchronisation](https://youtu.be/-cwCsKq-488).
