@@ -1,14 +1,14 @@
 ---
 title: AnalyticsCreator Forum, Community und WIKI
 tags: [analyticscreator, forum, community, wiki]
-last-updated: 2020-09-27
+last-updated: 2020-09-30
 ---
 
 Es ist mir wichtig, eine AnalyticsCreator Community aufzubauen. Je mehr Entwickler den AC verwenden, desto mehr AC-Projekte wird es geben, das sollte zu mehr Verkäufen führen und dann können mehr Ressourcen für die Entwicklung bereitgestellt werden. Und so ergibt sich ein Kreislauf, eine größere Wahrscheinlichkeit, dass ich den AC in Projekten einsetzen kann.
 
 Um dieses Ziel zu erreichen, gibt es nun:
 
-- ein [AnylyticsCreator Forum](https://analyticscreator.flarum.cloud/)
+- ein [AnylyticsCreator Forum](https://forum.analyticscreator.com/)
 - die [AnalyticsCreator Wiki](https://dev.azure.com/AnalyticsCreator/AnalyticsCreator/_wiki/wikis/AnalyticsCreator.wiki)
 - als Teil des [AnalyticsCreator Community Project](https://dev.azure.com/AnalyticsCreator/AnalyticsCreator)  
   einige meiner Pläne sind dort als Features im Bord beschrieben
