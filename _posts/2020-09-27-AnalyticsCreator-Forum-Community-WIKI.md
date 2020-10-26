@@ -2,6 +2,7 @@
 title: AnalyticsCreator Forum, Community und WIKI
 tags: [analyticscreator, forum, community, wiki]
 last-updated: 2020-09-30
+head-extra: head_extra.html
 ---
 
 Es ist mir wichtig, eine AnalyticsCreator Community aufzubauen. Je mehr Entwickler den AC verwenden, desto mehr AC-Projekte wird es geben, das sollte zu mehr Verkäufen führen und dann können mehr Ressourcen für die Entwicklung bereitgestellt werden. Und so ergibt sich ein Kreislauf, eine größere Wahrscheinlichkeit, dass ich den AC in Projekten einsetzen kann.
