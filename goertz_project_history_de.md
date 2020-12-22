@@ -12,7 +12,8 @@ Banken und Finanzdienstleistungen
 
 ### Performancemessung Reporting: Microsoft BI Architekt und Entwickler
 
-Entwicklung eines Reporting-Tools mittels Power BI, mit dem Ziel der automatisierten Report-Erstellung aus Sim Corp Dimension anstelle des bisherigen Reportings mittels Excel-Sheets.
+- Entwicklung eines Reporting-Tools mittels Power BI, mit dem Ziel der automatisierten Report-Erstellung aus Sim Corp Dimension anstelle des bisherigen Reportings mittels Excel-Sheets.
+- DWH, ELT und SSAS werden mit AnalyticsCreator erstellt.
 
 ## 09/2019 - bis jetzt; binovis
 
@@ -22,11 +23,12 @@ Sonstiges
 
 ### Microsoft BI Architekt und Entwickler
 
-* Prozess- und Zeitanalysen in Krankenhäusern (beispielsweise OP Zeiten, OP Wechselzeiten, OP Auslastungen)
-* Healthcare-Control-Center-Tool  
+- Prozess- und Zeitanalysen in Krankenhäusern (beispielsweise OP Zeiten, OP Wechselzeiten, OP Auslastungen)
+- Healthcare-Control-Center-Tool  
   Übertragung von Steuerungsmethoden aus der Aviation-Branche in ein innovatives IT-Tool zur Planung, Steuerung und Optimierung von Krankenhaus-Prozessen  
  <http://www.visality.de/healthcarecontrolcenter.html?&L=0%22Dirk>
-* smarte Stromzähler, Zeitanalysen von Stromverbräuchen
+- smarte Stromzähler, Zeitanalysen von Stromverbräuchen
+- DWH, ELT und SSAS werden mit AnalyticsCreator erstellt.
 
 ## 09/2019 – 03/2020; Swisscom
 
@@ -36,10 +38,11 @@ Telekommunikation
 
 ### Import und Verarbeitung von Daten aus Service Now für ein Reporting, Erstellung DWH mit AnalyticsCreator, Berichte mit Power BI
 
-* Import von Daten aus Service Now über die API
-* Import, Integration und Transformation in einem DWH im SQL Server
-* Analytische Datenbank mit SSAS
-* Berichte im Power BI
+- Import von Daten aus Service Now über die API
+- Import, Integration und Transformation in einem DWH im SQL Server
+- Analytische Datenbank mit SSAS
+- Berichte im Power BI
+- DWH, ELT und SSAS werden mit AnalyticsCreator erstellt.
 
 ## 11/2010 - 12/2019; DRK Kliniken Berlin
 
@@ -51,28 +54,28 @@ Sonstiges
 
 Projektinhalte:
 
-* Materialwirtschafts-
-* Belegungs-
-* Operations- und
-* DRG-Informationssystem
-* Bau- und Investitionscontrolling
-* OP-Management (Planung, Nutzung, Wechselzeiten, ...),
-* monatliches Berichtswesen
-* Finanzplanung und Hochrechnungen
-* Migration BI Anwendungen von SQL Server 2000 auf SQL Server2008 R2
-* Schulung der Anwender
+- Materialwirtschafts-
+- Belegungs-
+- Operations- und
+- DRG-Informationssystem
+- Bau- und Investitionscontrolling
+- OP-Management (Planung, Nutzung, Wechselzeiten, ...),
+- monatliches Berichtswesen
+- Finanzplanung und Hochrechnungen
+- Migration BI Anwendungen von SQL Server 2000 auf SQL Server2008 R2
+- Schulung der Anwender
 
 Datenquellen:
 
-* Orbis (KIS = KrankenhausInformationsSystem) u. a.
+- Orbis (KIS = KrankenhausInformationsSystem) u. a.
 
 Kenntnisse:
 
-* Planung, Controlling, Anforderungsanalyse, Konzeption, Kommunikation mit Fachbereich, Performance Optimierung, Berichtswesen, Dokumentation, Test
+- Planung, Controlling, Anforderungsanalyse, Konzeption, Kommunikation mit Fachbereich, Performance Optimierung, Berichtswesen, Dokumentation, Test
 
 Produkte:
 
-* Microsoft SQL Server 2008 R2 (relational, SSAS, SSIS, SSRS), Microsoft Access, Cubeplayer
+- Microsoft SQL Server 2008 R2 (relational, SSAS, SSIS, SSRS), Microsoft Access, Cubeplayer
 
 Aktuell: regelmäßiger Support, um das System "am Laufen zu halten", bis irgendwann die vollständige Migration in ein klinisches DWH des KISAnbieters abgeschlossen sein wird.
 
@@ -90,7 +93,7 @@ Coaching der internen Entwickler zur selbständigen Weiterentwicklung des DWH mi
 
 Datenquelle:
 
-* operatives Logistik-DWH (Oracle), eine Anbindung weiterer Datenquellen ist geplant: SAP u. a.
+- operatives Logistik-DWH (Oracle), eine Anbindung weiterer Datenquellen ist geplant: SAP u. a.
 
 Das schweizer Logistik-Unternehmen ist zuständig für die weltweite Koordination der Logistik eines deutschen Großkonzerns, des Weltmarktführers für den Vertrieb von Montage- und Befestigungsmaterial.
 
@@ -114,13 +117,14 @@ Industrie und Maschinenbau
 
 ### Durchlaufzeiten von Produktionsschritten: Microsoft BI Architekt und Entwickler, Microsoft BI-Analyse-Plattform, Analyticscreator
 
-* Durchlaufzeiten von Produktionsschritten
-* Re-Design einer bestehenden SSAS Tabular Lösung zwecks Performance-Optimierung und Verbesserung der Auswertungsmöglichkeiten.
-* Kombination von Logik im DWH (Microsoft SQL Server) und in SSAS Tabular
+- Durchlaufzeiten von Produktionsschritten
+- Re-Design einer bestehenden SSAS Tabular Lösung zwecks Performance-Optimierung und Verbesserung der Auswertungsmöglichkeiten.
+- Kombination von Logik im DWH (Microsoft SQL Server) und in SSAS Tabular
+- DWH, ELT und SSAS werden mit AnalyticsCreator erstellt.
 
 andere Projekte:
 
-* Microsoft Azure - Unterstützung bei Verwendung von Azure Diensten, Migration von SSAS Lösungen zu Azure, ETL / ELT, diverses
+- Microsoft Azure - Unterstützung bei Verwendung von Azure Diensten, Migration von SSAS Lösungen zu Azure, ETL / ELT, diverses
 
 ## 03/2016 - 09/2018; ZEISS Group
 
@@ -130,12 +134,12 @@ Industrie und Maschinenbau
 
 ### BICC (BI Competence Center) - Dashboards mit Datazen, Microsoft BI-Analyse- Plattform: Microsoft BI Architekt und Entwickler
 
-* ETL, DWH und Berichte: Dashboards für das Projekt-Controlling mit Datazen
-* Import von Daten aus SAP und Essbase
+- ETL, DWH und Berichte: Dashboards für das Projekt-Controlling mit Datazen
+- Import von Daten aus SAP und Essbase
 
 Produkte:
 
-* Datazen, Microsoft SQL Server (relational)
+- Datazen, Microsoft SQL Server (relational)
 
 Kernprojekt 03.2016 - 04.0216, Danach bis 09.2018 laufender Support bis und einschließlich Migration auf ServiceNow
 
@@ -149,16 +153,17 @@ Sonstiges
 
 Das bestehende Datawarehouse soll um ein "Candidate-Cube" erweitert werden:
 
-* Aufnahme von fachlichen Anforderungen
-* Spezifikationserstellung
-* technische Umsetzung
-* Erstellung der ETL-Prozesse (SSIS)
-* Cube Erstellung (SSAS)
-* Reporterstellung (SSRS)
+- Aufnahme von fachlichen Anforderungen
+- Spezifikationserstellung
+- technische Umsetzung
+- Erstellung der ETL-Prozesse (SSIS)
+- Cube Erstellung (SSAS)
+- Reporterstellung (SSRS)
+- DWH, ELT und SSAS werden mit AnalyticsCreator erstellt.
 
 Produkte:
 
-* Microsoft SQL Server (relational, SSAS, SSIS), Power BI, AnalyticsCreator
+- Microsoft SQL Server (relational, SSAS, SSIS), Power BI, AnalyticsCreator
 
 ## 05/2017 - 11/2017; Adam Opel GmbH
 
@@ -168,11 +173,10 @@ Automobil und Fahrzeugbau
 
 ### Churn-Prevention: Microsoft BI Architekt und Entwickler, Microsoft BI-Analyse-Plattform, Analyticscreator
 
-Vorhersage von Churn-Quoten (Wechsel zu anderen Herstellern), Auswertungen
-
-Data Vault, Data Mining, Prediction
-
-Microsoft SQL Server (relational, SSAS, SSIS), Power BI, AnalyticsCreator
+- Vorhersage von Churn-Quoten (Wechsel zu anderen Herstellern), Auswertungen
+- Data Vault, Data Mining, Prediction
+- Microsoft SQL Server (relational, SSAS, SSIS), Power BI, AnalyticsCreator
+- DWH, ELT und SSAS werden mit AnalyticsCreator erstellt.
 
 ## 07/2016 - 06/2017; Kelvion
 
@@ -232,14 +236,14 @@ Automobil und Fahrzeugbau
 
 DML: Data Mining Leasing, DM VGSG - Data Mining VGSG (junge Gebrauchte)
 
-* Datamining mit Statistica
-* neuronale Netze
-* Prognose von Marktwerten (Restwertmanagement) und Verkaufsmengen für gebrauchte Volkswagen-Nutzfahrzeuge und Leasingfahrzeuge
-* HIS: Händler Informationssystem
-* PuRAS: Profitabilitäts- und Rechnungsanalyse After Sales
-* Stammdaten-Management
-* Visualisierungen mit Tableau
-* BI Entwicklung mit Microsoft SQL Server (relational, SSAS, SSIS), Wherescape.
+- Datamining mit Statistica
+- neuronale Netze
+- Prognose von Marktwerten (Restwertmanagement) und Verkaufsmengen für gebrauchte Volkswagen-Nutzfahrzeuge und Leasingfahrzeuge
+- HIS: Händler Informationssystem
+- PuRAS: Profitabilitäts- und Rechnungsanalyse After Sales
+- Stammdaten-Management
+- Visualisierungen mit Tableau
+- BI Entwicklung mit Microsoft SQL Server (relational, SSAS, SSIS), Wherescape.
 
 der wissenschaftliche Hintergrund wird hier genauer erklärt:  
 <https://www.wi2017.ch/images/wi2017-0173.pdf>  
@@ -256,13 +260,13 @@ Konsumgüter und Handel
 
 ### SCOUT (= Supply Chain Optimization Unified Toolbox), Microsoft BI-Analyse- Plattform: Microsoft BI Architekt und Entwickler
 
-* Inventory
-* Order to Cash
-* Physical Distribution
-* Forecast Accuracy
-* Product Availability
-* Days of Supply
-* Slow Mover Detection for financial devaluation
+- Inventory
+- Order to Cash
+- Physical Distribution
+- Forecast Accuracy
+- Product Availability
+- Days of Supply
+- Slow Mover Detection for financial devaluation
 
 Migration und vor allem Erweiterung einer Anwendung von SAP BW auf MS SQL Server
 
@@ -282,11 +286,11 @@ Psychiatrische Krankenhäuser, Ressort Controlling, Zentrales Personalwesen
 
 Konzeption und Realisierung analytischer Anwendungen für:
 
-* Finanzcontrolling
-* Wirtschaftsplanung
-* Personaldatencontrolling
-* Belegungscontrolling
-* Medizincontrolling der psychiatrischen und somatischen Fälle
+- Finanzcontrolling
+- Wirtschaftsplanung
+- Personaldatencontrolling
+- Belegungscontrolling
+- Medizincontrolling der psychiatrischen und somatischen Fälle
 
 laufende Betreuung
 
@@ -294,10 +298,10 @@ Migration MS SQL Server 2000 auf MS SQL Server 2005 bzw. 2008
 
 Datenquellen:
 
-* Orbis (KrankenhausInformaionsSystem)
-* PWS (Personaldaten)
-* Excel
-* andere
+- Orbis (KrankenhausInformaionsSystem)
+- PWS (Personaldaten)
+- Excel
+- andere
 
 ## 02/2011 - 05/2012; Nestlé Suisse S.A
 
@@ -307,8 +311,8 @@ Konsumgüter und Handel
 
 ### Dynamic Planning Framework - Dynamic Forecast: Microsoft BI Architekt und Entwickler
 
-* BI Konzeption, Design und Entwicklung mit Microsoft SQL Server 2005 bzw. 2008 (ETL, Staging, Datawarehouse)
-* Performance Tuning
+- BI Konzeption, Design und Entwicklung mit Microsoft SQL Server 2005 bzw. 2008 (ETL, Staging, Datawarehouse)
+- Performance Tuning
 
 Anforderungsanalyse, Konzeption, Kommunikation mit Fachbereich, Entwicklung, Dokumentation, Test, Performance Optimierung, Wartung, Beratung
 
@@ -322,9 +326,9 @@ Telekommunikation
 
 ### Einkaufscontrolling - Procurement Performance Management (PPM), Spend Control, Supplier Consolidation: BI Entwickler
 
-* Procurement Performance Management (PPM)
-* Spend Control
-* Supplier Consolidation
+- Procurement Performance Management (PPM)
+- Spend Control
+- Supplier Consolidation
 
 Details: <http://www.orpheus-it.com/>
 
@@ -336,24 +340,24 @@ Kunde: GfS (Gesellschaft für Standortsicherung) => HGC GesundheitsConsult GmbH 
 
 Projektinhalte:
 
-* Krankenhauscontrolling
-* Medizincontrolling
-* Konzeption und Entwicklung von Datenmodellen, Analyseverfahren und Berichtssystemen für folgende Einsatzgebiete:
-  * Markt- und Wettbewerbscontrolling der medizinischen Leistungen
-  * Leistungsstrukturvergleiche
-  * Kennzahlen-Leistungsvergleiche (Benchmark)
-  * Einweisercontrolling
-  * Controlling medizinischer Behandlungspfade / Versorgungspfade
-  * Finanzcontrolling
-  * Fallbezogene Kostenträgerrechnung mit Fallroherträgen und Deckungsbeiträgen oder als Vollkostenrechnung
-  * Wirtschaftsplanung
-  * Personaldatencontrolling
-  * Belegungscontrolling
-  * Leistungsvergleiche zwischen Abteilungen und Häusern innerhalb eines Konzerns oder Klinikverbundes
+- Krankenhauscontrolling
+- Medizincontrolling
+- Konzeption und Entwicklung von Datenmodellen, Analyseverfahren und Berichtssystemen für folgende Einsatzgebiete:
+  - Markt- und Wettbewerbscontrolling der medizinischen Leistungen
+  - Leistungsstrukturvergleiche
+  - Kennzahlen-Leistungsvergleiche (Benchmark)
+  - Einweisercontrolling
+  - Controlling medizinischer Behandlungspfade / Versorgungspfade
+  - Finanzcontrolling
+  - Fallbezogene Kostenträgerrechnung mit Fallroherträgen und Deckungsbeiträgen oder als Vollkostenrechnung
+  - Wirtschaftsplanung
+  - Personaldatencontrolling
+  - Belegungscontrolling
+  - Leistungsvergleiche zwischen Abteilungen und Häusern innerhalb eines Konzerns oder Klinikverbundes
 
 Datenquellen:
 
-* diverse (SAP, ORBIS, Textdateien, Excel, ...)
+- diverse (SAP, ORBIS, Textdateien, Excel, ...)
 
 Microsoft SQL Server (2000, 2005, 2008) relational, MSAS, SSAS, DTS, SSIS, Bissantz Deltamaster
 
@@ -365,9 +369,9 @@ Konsumgüter und Handel
 
 ### P4P CoreDWH - Datamarts/Reports, Microsoft BI-Analyse-Plattform: Microsoft BI Architekt und Entwickler
 
-* Multichannel-Einzelhandel
-* Finanzdienstleistungen
-* Service
+- Multichannel-Einzelhandel
+- Finanzdienstleistungen
+- Service
 
 BI Konzeption, Design und Entwicklung mit Microsoft SQL Server
 
@@ -411,27 +415,27 @@ Projektinhalte:
 
 Bereiche
 
-* Controlling
-* Kostenträgerrechnung
-* Qualitäts- und Prozessmanagement
-* ...
+- Controlling
+- Kostenträgerrechnung
+- Qualitäts- und Prozessmanagement
+- ...
 
 Inhalte
 
-* technische Konzeption
-* Modellierung und Betreuung des zentralen Finanz-Berichtswesens und des DRG-Berichtswesens
-* Coaching bei der Verwendung der Benutzerschnittstellen (Frontends) zum Aufbau des Berichtswesens
-* laufende Betreuung
-* Durchführung von Schulungen und Trainings zur praktischen Arbeit mit den OLAP-Datenbanken
-* Migration MS SQL Server 2000 auf MS SQL Server 2005
+- technische Konzeption
+- Modellierung und Betreuung des zentralen Finanz-Berichtswesens und des DRG-Berichtswesens
+- Coaching bei der Verwendung der Benutzerschnittstellen (Frontends) zum Aufbau des Berichtswesens
+- laufende Betreuung
+- Durchführung von Schulungen und Trainings zur praktischen Arbeit mit den OLAP-Datenbanken
+- Migration MS SQL Server 2000 auf MS SQL Server 2005
 
 Datenquellen:
 
-* SAP
-* Excel
-* Textdateien
-* Access
-* ...
+- SAP
+- Excel
+- Textdateien
+- Access
+- ...
 
 Anforderungsanalyse, Konzeption, Kommunikation mit Fachbereich, Entwicklung, Dokumentation, Test, Performance Optimierung, Wartung, Beratung, Berichtswesen
 
@@ -447,13 +451,13 @@ Konsumgüter und Handel
 
 Projektinhalte:
 
-* Personalcontrolling
-* Personaleinsatzplanung
-* Migration MS SQL Server 2000, 2005 auf MS SQL Server 2008
+- Personalcontrolling
+- Personaleinsatzplanung
+- Migration MS SQL Server 2000, 2005 auf MS SQL Server 2008
 
 Datenquellen:
 
-* diverse
+- diverse
 
 ## 09/2005 - 01/2009; Landwirtschaftliche Rentenbank
 
@@ -465,22 +469,22 @@ Banken und Finanzdienstleistungen
 
 Projektinhalte:
 
-* Konzeption von Produktionseinsatzverfahren
-* Entwicklungsstandards
-* Testkonzepten
-* Weiterentwicklung des Datawarehouse und der OLAP-Anwendungen
-* Migration SQL Server 2000 auf SQL Server 2005
-* Situations- und Bedarfsanalyse der Anforderungen von Fachanwendern
-* Erarbeitung fachlicher und technischer Konzepte zur Umsetzung
-* Konzeption und Durchführung von Schulungen zur praktischen Arbeit mit den OLAP-Datenbanken
-* fachliche Schwerpunkte:
-* IAS- und HGB-Bilanzen
-* Controlling
-* Geldhandel und Emissionsgeschäft (Wertpapiere)
+- Konzeption von Produktionseinsatzverfahren
+- Entwicklungsstandards
+- Testkonzepten
+- Weiterentwicklung des Datawarehouse und der OLAP-Anwendungen
+- Migration SQL Server 2000 auf SQL Server 2005
+- Situations- und Bedarfsanalyse der Anforderungen von Fachanwendern
+- Erarbeitung fachlicher und technischer Konzepte zur Umsetzung
+- Konzeption und Durchführung von Schulungen zur praktischen Arbeit mit den OLAP-Datenbanken
+- fachliche Schwerpunkte:
+- IAS- und HGB-Bilanzen
+- Controlling
+- Geldhandel und Emissionsgeschäft (Wertpapiere)
 
 Datenquellen:
 
-* iSeries (AS 400)
+- iSeries (AS 400)
 
 Anforderungsanalyse, Konzeption, Kommunikation mit Fachbereich, Entwicklung, Dokumentation, Test, Performance Optimierung, Wartung, Beratung, Berichtswesen
 
@@ -496,10 +500,10 @@ Sonstiges
 
 Datenquellen:
 
-* §21 Daten
-* IMC Daten oder andere Formate
-* obige Quellen Input für DRG-Grouper
-* zusätzlich optional fallbezogene Kosten-Daten
+- §21 Daten
+- IMC Daten oder andere Formate
+- obige Quellen Input für DRG-Grouper
+- zusätzlich optional fallbezogene Kosten-Daten
 
 Microsoft SQL Server 2000 (relational, DTS, MSAS), Excel, Cubeware Analysesystem
 
@@ -515,23 +519,23 @@ Projektinhalte:
 
 Kunden- und Projektakquisition
 
-* Führen von Erstkontaktgesprächen
-* Präsentation des MIS Leistungsangebotes
-* Betreuung von Interessenten auf Akquisitionsveranstaltungen mit dem Ziel der Neukundengewinnung
-* Durchführung von Akquisitionsworkshops
-* Angebotserstellung
-* Situationsanalyse beim Kunden
-* Erfassen der betriebswirtschaftlichen u. technischen Kundenanforderungen an DV-Systeme
-* Erarbeitung von betriebswirtschaftlichen u. technischen Konzepten gemeinsam mit dem Kunden
-* Durchführung von Konzeptionsworkshops
+- Führen von Erstkontaktgesprächen
+- Präsentation des MIS Leistungsangebotes
+- Betreuung von Interessenten auf Akquisitionsveranstaltungen mit dem Ziel der Neukundengewinnung
+- Durchführung von Akquisitionsworkshops
+- Angebotserstellung
+- Situationsanalyse beim Kunden
+- Erfassen der betriebswirtschaftlichen u. technischen Kundenanforderungen an DV-Systeme
+- Erarbeitung von betriebswirtschaftlichen u. technischen Konzepten gemeinsam mit dem Kunden
+- Durchführung von Konzeptionsworkshops
 
 Implementierung von Analyse- und Reportingsystemen
 
-* Übernahme von Projektverantwortung
-* Realisierung von Aufgabenlösungen unter Zuhilfenahme gängiger Datenbank-Technologien und Programmiersprachen
-* Abstimmung der Aufgabenlösung im Hinblick auf die Gesamtlösung gegenüber dem Projektteam
-* Abstimmung der Aufgabenlösung in Hinsicht auf das betriebswirtschaftliche Konzept mit den Kunden
-* Konzeption und Durchführung von individuellen Kundenschulungen
+- Übernahme von Projektverantwortung
+- Realisierung von Aufgabenlösungen unter Zuhilfenahme gängiger Datenbank-Technologien und Programmiersprachen
+- Abstimmung der Aufgabenlösung im Hinblick auf die Gesamtlösung gegenüber dem Projektteam
+- Abstimmung der Aufgabenlösung in Hinsicht auf das betriebswirtschaftliche Konzept mit den Kunden
+- Konzeption und Durchführung von individuellen Kundenschulungen
 
 mehrfache Migrationen von MIS Alea auf MSAS 2000 (Microsoft Analysis Services)
 
@@ -541,7 +545,7 @@ mehrfache Migrationen von MIS Alea auf MSAS 2000 (Microsoft Analysis Services)
 
 Datenquellen:
 
-* 21 Daten, IMC Daten; Bewertungsdaten von DRG-Groupern; zusätzlich optional fallbezogene Kosten-Leistungsdaten
+- 21 Daten, IMC Daten; Bewertungsdaten von DRG-Groupern; zusätzlich optional fallbezogene Kosten-Leistungsdaten
 
 Datawarehouse: Microsoft SQL Server
 
