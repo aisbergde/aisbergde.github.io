@@ -5,13 +5,13 @@ title: Impressum
 ## Angaben gemäß § 5 TMG
 
 Germo Görtz  
-Selbitzer Str. 118  
+Adresse: Fragen Sie den WHOIS Eintrag ab.  
 14089 Berlin
 
 ## Kontakt
 
 Telefon: 0179-5460319  
-E-Mail: web@aisberg.de
+E-Mail: web *AT* aisberg *DOT* de
 
 ## Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV
 
