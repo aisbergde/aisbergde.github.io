@@ -6,7 +6,7 @@ title: Impressum
 
 Germo Görtz  
 Adresse: Fragen Sie den WHOIS Eintrag ab.  
-14089 Berlin
+Berlin
 
 ## Kontakt
 

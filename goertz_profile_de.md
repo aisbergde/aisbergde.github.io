@@ -1,8 +1,13 @@
 ---
 title: IT Profil Germo Görtz (de)
-subtitle: Microsoft BI Architekt + Entwickler. MS SQL Server, SSAS; AnalyticsCreator
-tags: [SSAS, MS SQL Server, AnalyticsCreator, DWH Automatisierung]
-date: '2020-05-29'
+subtitle: 'Microsoft BI Architekt + Entwickler. MS SQL Server, SSAS, DWH'
+tags:
+    - MS SQL Server
+    - DWH
+    - SSAS
+    - AnalyticsCreator
+date: '2021-01-06'
+slug: profil-germo-gortz-de-
 ---
 
 ![](assets/img/Germo_Goertz_459x612.jpg)
@@ -19,7 +24,7 @@ Diplom-Mediziner, Biophysiker, [Arzt-Kybernetiker](http://pirogov-university.com
 [Pirogov Russian National Research Medical University](http://pirogov-university.com/)
 
 на русском:  
-[Программа специалитета «Медицинская кибернетика»](http://rsmu.ru/17409.html)  
+[Программа специалитета «Медицинская кибернетика»](https://rsmu.ru/academics/undergraduate/medical-cybernetics/)  
 [Российский национальный исследовательский медицинский университет имени Н.И. Пирогова](http://rsmu.ru/)
 
 ## Sprachkenntnisse
@@ -31,8 +36,6 @@ Diplom-Mediziner, Biophysiker, [Arzt-Kybernetiker](http://pirogov-university.com
 ## BI-Architekt und -Entwickler mit Microsoft BI
 
 - AISBERG - **A**nalytische **I**nformations**S**ysteme und **BER**atung im **G**esundheitswesen (und in anderen Branchen)
-- Gerne setze ich den [AnalyticsCreator](https://www.AnalyticsCreator.com) ein
-- oder arbeite auf "klassische" Art und Weise mit weniger Automatisierung
 - Business Intelligence (BI, Geschäftsanalyse):
     - Anforderungsanalyse
     - Architektur
@@ -86,21 +89,12 @@ Unter dem gleichen Oberbegriff **SSAS** ([SQL Server Analysis Services](http://d
 
 Die Dokumentation von Microsoft: [Vergleichen von tabellarischen und mehrdimensionalen Lösungen](http://docs.microsoft.com/de-de/analysis-services/comparing-tabular-and-multidimensional-solutions-ssas?view=asallproducts-allversions)
 
-Und noch ein paar Anmerkungen von mir:
-
-Mit den **multidimensionalen** Datenbanken arbeite ich seit 1999, damals noch "OLAP Services 7.0", ab 2000 "MSAS" (Microsoft Analysis Services). Ab 2005 gab es mit "SSAS" (SQL Server Analysis Services) wieder eine neue Technologie, welche grundsätzlich der heutigen mehrdimensionalen Technologie entspricht. Typische Begriffe dieser multidimensionalen Technologie sind **Würfel (Cubes)** und **Dimensionen**. Ich bin ein sehr guter Experte für diese mehrdimensionalen Modelle, die langsam aussterben.
+Mit den **multidimensionalen** Datenbanken arbeite ich seit 1999, damals noch "OLAP Services 7.0", ab 2000 "MSAS" (Microsoft Analysis Services). Ab 2005 gab es mit "SSAS" (SQL Server Analysis Services) wieder eine neue Technologie, welche grundsätzlich der heutigen mehrdimensionalen Technologie entspricht. Typische Begriffe dieser multidimensionalen Technologie sind **Würfel (Cubes)** und **Dimensionen**. Ich bin ein sehr guter Experte für diese mehrdimensionalen Modelle.
 
 Seit SQL Server 2012 gibt es zusätzlich **SSAS Tabular**, eine auf Tabellen basierende Technologie, wie sie auch in Power Pivot und [Power BI](http://powerbi.microsoft.com/de-de/) verwendet wird.
 
-Die Tabular Technologie wird von Microsoft gepusht, für die ausgereifte multidimensionale Technologie gibt es in letzter Zeit kaum Änderungen. SSAS Tabular hat einige Stärken und wird besser von Power BI unterstützt, welches intern auch diese Technologie verwendet. Die Unterstützung von Power BI für multidimensionale Datenbanken ist mangelhaft; vielleicht, um diese Technologie langsam sterben zu lassen. Allerdings gibt es immer noch viele Stärken der multidimensionalen Technologie, welche sich mit der tabularischen Technologie (noch) nicht umsetzen lassen.
+Die Tabular Technologie wird von Microsoft gepusht. SSAS Tabular hat einige Stärken und wird besser von Power BI unterstützt, welches intern auch diese Technologie verwendet. Die Unterstützung von Power BI für multidimensionale Datenbanken ist mangelhaft; vielleicht, um diese Technologie langsam sterben zu lassen. Allerdings gibt es immer noch viele Stärken der multidimensionalen Technologie, welche sich mit der tabularischen Technologie (noch) nicht umsetzen lassen.
 
 => Was sich mit SSAS Tabular sinnvoll realisieren lässt, wird von mir pragmatisch mit Tabular gemacht. Falls es damit nicht so recht geht, gibt es weiter die multidimensionale Technologie.
 
 Die Abfragesprache [MDX - Multidimensional Expressions](http://de.wikipedia.org/wiki/Multidimensional_Expressions) kann für beide Technologien verwendet werden, DAX (Data Analysis Expressions) kann nur für SSAS Tabular verwendet werden.
-
-## Warum ich seit 2017 den AnalyticsCreator verwende
-
-Der [AnalyticsCreator](www.AnalyticsCreator.com) ist seit 2017 mein Werkzeug zur Automatisierung der Erstellung von DWH (data warehouse) inklusive ELT (oder ETL) und optionaler analytischer Datenbanken (mit SSAS Tabular), nachdem mich diverse andere Automatisierungs-Tools nicht so recht überzeugen konnten ([Wherescape](http://www.wherescape.com/), [DeltaMaster Modeler](http://www.bissantz.de/know-how/crew/deltamaster-modeler-individuelle-datenmodel-lanpassung-nach-deploy/), [PowerBuilder](http://www.appeon.com/products/powerbuilder), verschiedene Mindmap-to-Datenbank-Programme, ... Allerdings schränkt auch der AnalyticsCreator die Möglichkeiten des Entwicklers ein.
-
-Dieser Link führt zu meinem gleichnamigen Blog-Eintrag:  
-[Warum ich seit 2017 den AnalyticsCreator verwende](http://analyticscreator.aisberg.de/2020-04-26-warum-analyticscreator/)
