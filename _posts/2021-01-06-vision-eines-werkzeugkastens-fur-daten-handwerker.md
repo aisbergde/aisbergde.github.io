@@ -12,10 +12,7 @@ head-extra: head_extra.html
 slug: meine-vision-eines-werkzeugkastens-fur-daten-handwerker
 ---
 
-## Handwerk statt Massenproduktion
-
-Als Handwerk werden zahlreiche gewerbliche Tätigkeiten bezeichnet, die Produkte meist auf Bestellung fertigen oder Dienstleistungen auf Nachfrage erbringen. Die handwerkliche Tätigkeit steht der industriellen Massenproduktion gegenüber.
-
+Als Handwerk werden zahlreiche gewerbliche Tätigkeiten bezeichnet, die Produkte meist auf Bestellung fertigen oder Dienstleistungen auf Nachfrage erbringen. Die handwerkliche Tätigkeit steht der industriellen Massenproduktion gegenüber.  
 "Handwerk" entspricht somit meiner Arbeit in BI-Projekten. Das ausdrückliche Ziel "meines" Werkzeugkastens ist die Unterstützung der Arbeit eines Daten-Handwerkers und nicht die Fabrik mit automatischer Fertigung.
 
 ![Deutsches_Handwerkszeichen_Hindenburg](../assets/img/Deutsches_Handwerkszeichen_Hindenburg.svg.200x200.png)
