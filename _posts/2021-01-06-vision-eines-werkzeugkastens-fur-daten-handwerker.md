@@ -18,7 +18,7 @@ Als Handwerk werden zahlreiche gewerbliche Tätigkeiten bezeichnet, die Produkte
 
 "Handwerk" entspricht somit meiner Arbeit in BI-Projekten. Das ausdrückliche Ziel "meines" Werkzeugkastens ist die Unterstützung der Arbeit eines Daten-Handwerkers und nicht die Fabrik mit automatischer Fertigung.
 
-![](../assets/img/Deutsches_Handwerkszeichen_Hindenburg.svg)
+![Deutsches_Handwerkszeichen_Hindenburg](../assets/img/Deutsches_Handwerkszeichen_Hindenburg.svg.200x200.png)
 
 ## AnalyticsCreator und Daten-Handwerker
 
