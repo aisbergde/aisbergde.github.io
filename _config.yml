@@ -6,32 +6,48 @@
 # --- Required options --- #
 
 # Name of website
-title: My Website
+title: AISBERG über AnalyticsCreator
+
+# Short description of your site
+# gibt es im aktuellen Template nicht mehr, funktioniert es noch?
+description: Meine Erfahrungen mit dem AnalyticsCreator zur DWH-Automatisierung (ELT, DWH, SSAS)
 
 # Your name to show in the footer
-author: Some Person
+author: Germo Görtz
 
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  Germo Görtz:
+    - Profil (de): "goertz_profile_de"
+    - Projekthistorie: "goertz_project_history_de"
+    - Referenzen / Bewertungen: "goertz_references"
+  Tag Index: "tags"
+  AnalyticsCreator:
+    - WebPage: "https://www.analyticscreator.com/"
+    - Forum: "https://forum.analyticscreator.com/"
+    - WIKI: "https://dev.azure.com/AnalyticsCreator/AnalyticsCreator/_wiki/wikis/AnalyticsCreator.wiki"
+    - Community Project: "https://dev.azure.com/AnalyticsCreator/AnalyticsCreator"
+    - YouTube: "https://www.youtube.com/channel/UC95xNZUE2e7Wr8n3IluXgrQ"
+    - (Github - old) AnalyticsCreator Toolkit: "https://github.com/aisbergde/AnalyticsCreator_Toolkit"
+  Impressum: "impressum"
+#  AISBERG: "https://www.aisberg.de"
+# nav-search: "search"
 
 # --- Logo --- #
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/avatar-icon.png"
+# avatar: "/assets/img/AisbergLogo.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
-round-avatar: true
+round-avatar: false
 
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
-#title-img: /path/to/image
+# Funktioniert nicht, vielleicht mit ""
+# svg funktioniert, ist aber zu klein
+# title-img: "/assets/img/AisbergLogo.svg"
 
 
 # --- Footer social media links --- #
@@ -39,24 +55,25 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: c/daattali
+  email: "web@eaisberg.de"
+  facebook: germo.goertz
+  github: aisbergde
+#  twitter: GermoGortz
+#  patreon:
+  rss: true
 #  reddit: yourname
-#  linkedin: daattali
-#  xing: yourname
+  linkedin: germo-görtz
+  xing: Germo_Goertz
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
-#  instagram: deanat78
+#  instagram: germogoertz
+  youtube: user/GermoGoertz
 #  spotify: yourname
 #  telephone: +14159998888
 #  steam: deanat78
 #  twitch: yourname
 #  yelp: yourname
-#  telegram: yourname
+  telegram: germo_goertz
 #  calendly: yourname
 #  mastodon: instance.url/@username
 #  ORCID: your ORCID ID
@@ -64,7 +81,7 @@ social-network-links:
 
 # If you want to show a link to an RSS in the footer, add the site description here.
 # If you don't want to show an RSS link, remove the following line.
-rss-description: This website is a virtual proof that I'm awesome
+rss-description: Aisberg über AnalyticsCreator
 
 # --- General options --- #
 
@@ -73,14 +90,14 @@ share-links-active:
   twitter: true
   facebook: true
   linkedin: true
-  vk: false
+  vk: true
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+# url-pretty: "aisberg.de"
 
-# Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
-excerpt_length: 50
+# Excerpt Word Length - Truncates the excerpt to the specified number of words on the index page
+excerpt_length: 100
 
 # Whether or not to show an excerpt for every blog post in the feed page
 feed_show_excerpt: true
@@ -95,16 +112,17 @@ feed_show_tags: true
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#EAEAEA"
-navbar-text-col: "#404040"
-navbar-border-col: "#DDDDDD"
+navbar-col: "#FFFFFF"
+navbar-text-col: "#1e4586"
+# unklar, was das ist:
+navbar-border-col: "#8fadd1"
 page-col: "#FFFFFF"
 text-col: "#404040"
-link-col: "#008AFF"
-hover-col: "#0085A1"
-footer-col: "#EAEAEA"
-footer-text-col: "#777777"
-footer-link-col: "#404040"
+link-col: "#1e4586"
+hover-col: "#d62b34"
+footer-col: "#FFFFFF"
+footer-text-col: "#000000"
+footer-link-col: "#1e4586"
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
@@ -117,8 +135,8 @@ footer-link-col: "#404040"
 #mobile-theme-col: "#0085A1"
 
 # For any extra visual customization, you can include additional CSS files in every page on your site. List any custom CSS files here
-#site-css:
-#  - "/assets/css/custom-styles.css"
+site-css:
+  - "/assets/css/custom-styles.css"
 
 # If you have common JavaScript files that should be included in every page, list them here
 #site-js:
@@ -127,10 +145,10 @@ footer-link-col: "#404040"
 # --- Web Analytics Section --- #
 
 # Fill in your Google Analytics gtag.js ID to track your website using gtag
-#gtag: ""
+gtag: "UA-169285367-1"
 
-# Fill in your Google Analytics ID to track your website using Google Analytics
-#google_analytics: ""
+# Fill in your Google Analytics ID to track your website using GA
+google_analytics: "UA-169285367-1"
 
 # Google Tag Manager ID
 #gtm: ""
@@ -155,11 +173,11 @@ footer-link-col: "#404040"
 # "repository" (make sure the repository is public), (2) Enable Issues in your repository,
 # (3) Install the Utterances app in your repository https://github.com/apps/utterances
 # See more details about the parameters below at https://utteranc.es/
-#utterances:
-#  repository: # GitHub username/repository eg. "daattali/beautiful-jekyll"
-#  issue-term: title   # Mapping between blog posts and GitHub issues
-#  theme: github-light # Utterances theme
-#  label: blog-comments # Label that will be assigned to GitHub Issues created by Utterances
+utterances:
+  repository: aisbergde/aisbergde.github.io # GitHub username/repository eg. "daattali/beautiful-jekyll"
+  issue-term: title   # Mapping between blog posts and GitHub issues
+  theme: github-light # Utterances theme
+  label: blog-comments # Label that will be assigned to GitHub Issues created by Utterances
 
 # To use Staticman comments, first invite `staticmanlab` as a collaborator to your repository and
 # accept the invitation by going to `https://staticman3.herokuapp.com/v3/connect/github/<username>/<repo-name>`.
@@ -178,7 +196,7 @@ footer-link-col: "#404040"
 # --- Misc --- #
 
 # Ruby Date Format to show dates of posts
-date_format: "%B %-d, %Y"
+date_format: "%-d %B %Y"
 
 # Facebook App ID
 #fb_app_id: ""
@@ -186,7 +204,7 @@ date_format: "%B %-d, %Y"
 # --- You don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Toronto"
+timezone: "	Europe/Berlin"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
@@ -210,6 +228,8 @@ defaults:
       path: "" # any file that's not a post will be a "page" layout by default
     values:
       layout: "page"
+      show-avatar: true
+      language: de
 
 # Exclude these files from production site
 exclude:
@@ -229,3 +249,6 @@ plugins:
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
 
+# funktioniert hier nicht
+# muss auf jede Seite einzeln rauf
+# head-extra: head_extra.html
