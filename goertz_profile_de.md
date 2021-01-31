@@ -12,7 +12,7 @@ slug: profil-germo-gortz-de-
 
 ![](assets/img/Germo_Goertz_459x612.jpg)
 
-14089 Berlin
+Berlin
 
 ## Download des IT-Profils (inklusive Projekthistorie und Referenzen)
 
