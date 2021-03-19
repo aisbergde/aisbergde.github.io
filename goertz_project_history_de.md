@@ -4,17 +4,6 @@ tags: [Projekthistorie]
 
 # Projekthistorie Germo Görtz (de)
 
-## 02/2020 - bis jetzt; MEAG Munich ERGO Assetmanagement GmbH
-
-500-1000 Mitarbeiter
-
-Banken und Finanzdienstleistungen
-
-### Performancemessung Reporting: Microsoft BI Architekt und Entwickler
-
-- Entwicklung eines Reporting-Tools mittels Power BI, mit dem Ziel der automatisierten Report-Erstellung aus Sim Corp Dimension anstelle des bisherigen Reportings mittels Excel-Sheets.
-- DWH, ELT und SSAS werden mit AnalyticsCreator erstellt.
-
 ## 09/2019 - bis jetzt; binovis
 
 10-50 Mitarbeiter
@@ -28,6 +17,16 @@ Sonstiges
   Übertragung von Steuerungsmethoden aus der Aviation-Branche in ein innovatives IT-Tool zur Planung, Steuerung und Optimierung von Krankenhaus-Prozessen  
  <http://www.visality.de/healthcarecontrolcenter.html?&L=0%22Dirk>
 - smarte Stromzähler, Zeitanalysen von Stromverbräuchen
+
+## 02/2020 - bis 03/2021; MEAG Munich ERGO Assetmanagement GmbH
+
+500-1000 Mitarbeiter
+
+Banken und Finanzdienstleistungen
+
+### Performancemessung Reporting: Microsoft BI Architekt und Entwickler
+
+- Entwicklung eines Reporting-Tools mittels Power BI, mit dem Ziel der automatisierten Report-Erstellung aus Sim Corp Dimension anstelle des bisherigen Reportings mittels Excel-Sheets.
 - DWH, ELT und SSAS werden mit AnalyticsCreator erstellt.
 
 ## 09/2019 – 03/2020; Swisscom
