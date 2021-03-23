@@ -1,15 +1,16 @@
 ---
 title: Meine Vision eines Werkzeugkastens für Daten-Handwerker
-subtitle: Handwerk statt Massenproduktion, Werkzeugkasten statt beengendem Korsett
+subtitle: 'Handwerk statt Massenproduktion, Werkzeugkasten statt beengendem Korsett'
 tags:
   - Handwerk
   - DWH
   - mssql
   - DataHandwerk
   - DHW
-last-updated: 2021-01-06T00:00:00.000Z
+last-updated: 2021-03-23T12:20:18.822Z
 head-extra: head_extra.html
 slug: meine-vision-eines-werkzeugkastens-fur-daten-handwerker
+lastmod: 2021-03-23T12:20:18.822Z
 ---
 
 Als Handwerk werden zahlreiche gewerbliche Tätigkeiten bezeichnet, die Produkte meist auf Bestellung fertigen oder Dienstleistungen auf Nachfrage erbringen. Die handwerkliche Tätigkeit steht der industriellen Massenproduktion gegenüber.  

@@ -13,59 +13,7 @@ slug: docs-code-mit-asciidoc-und-antora
 lastmod: 2021-03-23T10:18:19.373Z
 ---
 
-Der AnalyticsCreator (AC) hat einen vorgesehenen Kontext: die Automatisierung der Erstellung von DWH, inklusive ETL und SSAS Datenbanken. Oft habe ich über Feature Requests versucht, den AC in ein Instrument für die Erstellung beliebiger Datenbanken zu verwandeln. Viele Features wurden implementiert und ich denke, dass ich mit meinen Ideen sehr zur Vielseitigkeit des AC beigetragen habe. Gleichzeitig kann ich vom Produkt-Management nicht erwarten, dass sich der AC nur an meinen Bedürfnissen orientiert. Der AC hat Kunden mit zum Teil anderen Bedürfnissen, und die Priorisierung der Entwicklung obliegt dem AC.
-
-In den letzten 4 Jahren habe ich den AC für alle Arten von Datenbank-Entwicklungen verwendet. Dabei musste ich auf einige Features des SQL Servers verzichten, wie temporale Tabellen (die in den SQL Server eingebaute Historisierung von Daten) oder Graph-Tabellen (Node und Edge). **Azure Synapse Analytics** hat eine teilweise andere Syntax, als der *normale* SQL Server, und nicht einmal Microsoft selbst schafft es, eine einfache Migration vom normalen SQL Server zu Synapse zu ermöglichen. Da wäre es vermessen, so etwas von Fremdprodukten wie dem AC zu verlangen.
-
-Statt mich zu ärgern, dass der AC nicht alles unterstützt, was ich mir wünsche, werde ich den AC zukünftig gemäß seinem vorgesehenen Kontext verwenden und für die allgemeine Arbeit mit Datenbanken mein eigenes Toolkit. So entstand das Open-Source-Projekt [DataHandwerk-toolkit-mssql (Dokumentation)](https://datahandwerk.github.io/docs).
-
-## Warum dieser Name und dieses Logo
-
->Als **Handwerk** werden zahlreiche gewerbliche Tätigkeiten bezeichnet, die Produkte meist auf Bestellung fertigen oder Dienstleistungen auf Nachfrage erbringen. Die handwerkliche Tätigkeit steht der industriellen Massenproduktion gegenüber.
-
-Ein passendes Logo gibt es auch, denn das Deutsche Handwerkszeichen wurde 1934 vom Reichspräsidenten Paul von Hindenburg für das deutsche Handwerk gestiftet.
-
-Im Jahrbuch des deutschen Handwerks von 1935 heißt es dazu:
-
->Der Hammer, der den offenen Ring schließt, bringt zum Ausdruck, wie das unfertige Material vom Handwerk zum schönen, ganzen Stück vollendet wird. Das Malkreuz auf dem Hammer deutet als altes Symbol schöpferischen Geschehens auf das Wesen deutscher Handwerksarbeit hin… Eichenblatt und Eichel, die zusammen mit dem Hammerstiel in Form der alten Hagal-Rune angeordnet sind, sollen die Einfügung des Handwerks in die völkische Lebensordnung … versinnbildlichen. Die Farben des Zeichens sind Blau in Gold, Blau ist die Farbe der Treue, Beständigkeit und Klarheit, Gold ist die Farbe der Vollendung. Durch Klarheit zur Vollendung ist der Sinn dieser Farben.
-
-Das Handwerkszeichen war von 1934 war bis 1994 das offizielle Emblem des deutschen Handwerks, auch in der DDR, in abgewandelter Form dort auch als Symbol der Produktionsgenossenschaften des Handwerks (PGH). Es wird auch heute noch verschiedentlich benutzt. 
-
-![DHW](../assets/img/blog/DatenHandwerk-toolkit-mssql.svg)
-
-## Architektur des Projekts
-
-Die [Architektur](https://datahandwerk.github.io/docs/dhw/0.1.0/arc/architecture.html) wird in der Dokumentation ausführlich auf Englisch beschrieben. Hier die Grundideen.
-
-Meine wichtigste Anforderung ist, dass man in einer Datenbank selbst entwickeln kann, mit all ihren Features, und dass das Toolkit bei Bedarf eingesetzt werden *kann*, wenn sich dadurch ein Vorteil für den Entwickler ergibt. Eine Grundidee dabei ist es, dass über **extended Properties** Metadaten mit einem **Repository** abgeglichen werden. Mit diesem Konzept können Entwicklungen in der Datenbank mit solchen, die im **Repository** verwaltet werden, kombiniert werden. Diese Metadaten bleiben auch mit den Datenbank-Objekten verknüpft, wenn man Objekte mit ihren extended Properties in eine andere Datenbank kopiert.
-
-Hier einige Diagramme aus der Architekturbeschreibung:
-
-![structurizr-SystemLandscape](../assets/img/blog/structurizr-SystemLandscape.svg)
-
-![structurizr-DWHBDevelopment-Container](../assets/img/blog/structurizr-DWHBDevelopment-Container.svg)
-
-![structurizr-DWHBDevelopment-DWHdbDevelopmentProjectB-Component](../assets/img/blog/structurizr-DWHBDevelopment-DWHdbDevelopmentProjectB-Component.svg)
-
-![structurizr-DWHBDevelopment-RepositorydbProjectB-Component](../assets/img/blog/structurizr-DWHBDevelopment-RepositorydbProjectB-Component.svg)
-
-## Stand der Entwicklung
-
-Es gibt bereits
-
-- die Verbindung und Synchronisation zwischen Rpeository- und DWH-Datenbank
-- einen Generator für Prozeduren (mit Konditionen, Unter-Prozeduren, eingebautem Logging)
-- Unterstützung zur Erstellung von Persistierungen (mit oder ohne Historisierung in temporalen Tabellen) einschließlich der dafür verwendeten Prozeduren
-- die Extraktion von Spalten-Abhängigkeiten durch Parsen des SQL Codes von Sichten
-- Die Ablage und Verwendung von Abhängigkeiten zwischen Objekten, Spalten, Prozeduraufrufen  
-  auch unter Verwendung von Graph-Tabellen
-- virtuelle Indizies (PK, unique, normal)
-- Vererbung von Eigenschaften unter Verwendung von Objekt- und Spalten-Referenzen
-- ein optionales Logging-System, aus dem heraus auch Sequenzdiagramme in PlantUML erstellt werden können
-
-## Dokumentation
-
-Mit diesem open-Source-Projekt möchte ich auch Erfahrungen zur Dokumentation zukünftiger anderer Projekte aufbauen.
+Mit meinem open-Source-Projekt [DataHandwerk-toolkit-mssql (Dokumentation)](https://datahandwerk.github.io/docs) möchte ich auch Erfahrungen zur Dokumentation zukünftiger anderer Projekte aufbauen. Warum habe ich mich für [Asciidoc](https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/) und [Antora](https://antora.org/) entschieden? Wie wurden einie Diagramme in der [Architektur-Beschreibung](https://datahandwerk.github.io/docs/dhw/0.1.0/arc/architecture.html) erstellt?
 
 ### Auszeichungssprache Markdown?
 
