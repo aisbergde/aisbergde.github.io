@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="420px" preserveAspectRatio="none" style="width:1072px;height:420px;" version="1.1" viewBox="0 0 1072 420" width="1072px" zoomAndPan="magnify"><defs/><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="260" x="412.5" y="18.6855">System Landscape for Customer</text><!--MD5=[a81f7aca4c07b9194780aa67bf6d0525]
+cluster Customer--><polygon fill="#FFFFFF" points="392.5,46.6406,466.5,46.6406,473.5,70.25,1050.5,70.25,1050.5,408.6406,392.5,408.6406,392.5,46.6406" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="392.5" x2="473.5" y1="70.25" y2="70.25"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="68" x="396.5" y="63.1738">Customer</text><!--MD5=[13c7745981a6abb6004f7738a8ca5078]
+entity 1--><rect fill="#DDDDDD" height="87.9219" style="stroke: #9A9A9A; stroke-width: 1.5;" width="175" x="811" y="82.6406"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="121" x="838" y="109.25">DWH Developer</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="38" x="879.5" y="123.1465">[Person]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="900.5" y="139.877"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="155" x="821" y="157.4863">Developer of some DWH</text><!--MD5=[773709cb2207c097691e7e7d3d2cc787]
+entity 2--><rect fill="#DDDDDD" height="52.7031" style="stroke: #9A9A9A; stroke-width: 1.5;" width="158" x="617.5" y="100.1406"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="138" x="627.5" y="126.75">Deployment Team</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="38" x="677.5" y="140.6465">[Person]</text><!--MD5=[5721696d2af8d327c8f4e7ea88061d17]
+entity 3--><rect fill="#DDDDDD" height="87.9219" style="stroke: #9A9A9A; stroke-width: 1.5;" width="173" x="409" y="82.6406"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="153" x="419" y="109.25">Project B DWH User</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="38" x="476.5" y="123.1465">[Person]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="497.5" y="139.877"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="151" x="420" y="157.4863">user of DWH (Project B)</text><!--MD5=[ca8cb0432c9090f8973c99138b4c3ca0]
+entity 4--><rect fill="#DDDDDD" height="52.7031" style="stroke: #9A9A9A; stroke-width: 1.5;" width="180" x="854.5" y="303.1406"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="160" x="864.5" y="329.75">DWH B Development</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="84" x="902.5" y="343.6465">[Software System]</text><!--MD5=[97c8e0130c2d715783067debb066512a]
+entity 24--><rect fill="#DDDDDD" height="52.7031" style="stroke: #9A9A9A; stroke-width: 1.5;" width="164" x="408.5" y="303.1406"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="144" x="418.5" y="329.75">DWH B Production</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="84" x="448.5" y="343.6465">[Software System]</text><!--MD5=[8682619d0b3ec5a366d9ada435446ff3]
+entity 26--><polygon fill="#DDDDDD" points="607.5,266.6406,653.5,266.6406,660.5,287.6406,819.5,287.6406,819.5,392.7813,607.5,392.7813,607.5,266.6406" style="stroke: #9A9A9A; stroke-width: 1.5;"/><line style="stroke: #9A9A9A; stroke-width: 1.5;" x1="607.5" x2="660.5" y1="287.6406" y2="287.6406"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="78" x="669.5" y="311.25">DWH B git</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="84" x="666.5" y="325.1465">[Software System]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="710.5" y="341.877"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="178" x="617.5" y="359.4863">Code of Project B in Version</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="172" x="622.5" y="377.0957">Control (git, subversion, ...)</text><!--MD5=[cbe81bb5a050b34488dc8ac73fc39a81]
+entity 27--><rect fill="#DDDDDD" height="105.5313" style="stroke: #9A9A9A; stroke-width: 1.5;" width="201" x="43" y="73.6406"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="121" x="83" y="100.25">DHW Developer</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="38" x="124.5" y="114.1465">[Person]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="145.5" y="130.877"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="177" x="53" y="148.4863">Developer of DataHandwerk</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="42" x="122.5" y="166.0957">Toolkit</text><!--MD5=[b6d0185b0422599d1d13f977d85ea789]
+entity 28--><rect fill="#DDDDDD" height="72.8281" style="stroke: #9A9A9A; stroke-width: 1.5;" width="137" x="6" y="293.1406"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="113" x="16" y="319.75">DataHandwerk</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="101" x="24" y="339.875">Development</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="84" x="32.5" y="353.7715">[Software System]</text><!--MD5=[604c8a276bea794422450a1868c0825f]
+entity 31--><polygon fill="#DDDDDD" points="178,266.6406,224,266.6406,231,287.6406,373,287.6406,373,392.7813,178,392.7813,178,266.6406" style="stroke: #9A9A9A; stroke-width: 1.5;"/><line style="stroke: #9A9A9A; stroke-width: 1.5;" x1="178" x2="231" y1="287.6406" y2="287.6406"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="136" x="202.5" y="311.25">DataHandwerk git</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="84" x="228.5" y="325.1465">[Software System]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="272.5" y="341.877"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="161" x="188" y="359.4863">Code of DataHandwerk in</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="98" x="221.5" y="377.0957">Version Control</text><!--MD5=[cdcb702247ab665117a4c82a2d0c7e23]
+link 27 to 28--><path d="M117.55,179.9906 C113.22,189.7206 109,199.8906 105.5,209.6406 C96.35,235.1406 88.66,264.6006 83.22,287.8306 " fill="none" id="27-&gt;28" style="stroke: #707070; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#707070" points="82.03,292.9906,87.958,285.1256,83.1585,288.1196,80.1645,283.3201,82.03,292.9906" style="stroke: #707070; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="90" x="106.5" y="221.0215">uses for testing and</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="62" x="122" y="233.5996">development</text><!--MD5=[5ecbc2990ed86459cfb4e5d5c3cf677c]
+link 27 to 31--><path d="M183.68,180.0106 C190.79,189.7306 198,199.9006 204.5,209.6406 C215.65,226.3306 227.07,244.7806 237.4,262.0706 " fill="none" id="27-&gt;31" style="stroke: #707070; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#707070" points="240.01,266.4406,238.8478,256.6606,237.4543,262.1431,231.9718,260.7496,240.01,266.4406" style="stroke: #707070; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="20" x="222.5" y="227.5215">uses</text><!--MD5=[a94a78a4bcab98299a720253a19623a8]
+link 1 to 4--><path d="M908.37,170.7606 C917.11,208.9706 929.67,263.8306 937.44,297.8006 " fill="none" id="1-&gt;4" style="stroke: #707070; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#707070" points="938.65,303.0606,940.5425,293.3953,937.5351,298.1865,932.7439,295.1791,938.65,303.0606" style="stroke: #707070; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="48" x="923.5" y="227.5215">developes</text><!--MD5=[79b8df1b813c0fd13c8bfc56e677fac2]
+link 1 to 26--><path d="M864.73,170.7606 C848.28,191.1806 827.9,215.6406 808.5,236.6406 C800.53,245.2706 791.94,254.1306 783.31,262.7806 " fill="none" id="1-&gt;26" style="stroke: #707070; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#707070" points="779.61,266.4706,788.8024,262.9351,783.1455,262.9351,783.1455,257.2782,779.61,266.4706" style="stroke: #707070; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="20" x="832.5" y="227.5215">uses</text><!--MD5=[114fd3e2b2db2cb5fe3d02efa7467813]
+link 1 to 31--><path d="M819.5,170.7006 C810.9,174.1906 802.13,177.2806 793.5,179.6406 C706.66,203.3906 470.93,171.2606 389.5,209.6406 C364.04,221.6406 341.31,241.9906 322.98,262.5006 " fill="none" id="1-&gt;31" style="stroke: #707070; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#707070" points="319.61,266.3306,328.5712,262.2444,322.9247,262.5873,322.5818,256.9408,319.61,266.3306" style="stroke: #707070; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="93" x="390.5" y="227.5215">takes code or builds</text><!--MD5=[4227f914df69bc1afa13ca9240e25669]
+link 2 to 24--><path d="M668.11,153.1406 C650.47,169.1506 627.43,190.3506 607.5,209.6406 C576.68,239.4806 542.36,274.6106 518.91,298.9306 " fill="none" id="2-&gt;24" style="stroke: #707070; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#707070" points="515.25,302.7406,524.3766,299.0386,518.7207,299.1414,518.6178,293.4855,515.25,302.7406" style="stroke: #707070; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="57" x="621" y="221.0215">deployes on</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="85" x="608.5" y="233.5996">production system</text><!--MD5=[de3d8c7aa7aeccf6bd3aef8a91992e66]
+link 2 to 26--><path d="M698.69,153.5106 C700.98,180.5906 704.67,224.2406 707.79,261.1906 " fill="none" id="2-&gt;26" style="stroke: #707070; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#707070" points="708.25,266.5906,711.4888,257.2895,707.8348,261.6079,703.5164,257.9539,708.25,266.5906" style="stroke: #707070; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="93" x="706.5" y="227.5215">takes code or builds</text><!--MD5=[c7f812ac6978bc0f6c23ba60d18e5113]
+link 3 to 24--><path d="M494.43,170.7606 C493.48,208.9706 492.11,263.8306 491.27,297.8006 " fill="none" id="3-&gt;24" style="stroke: #707070; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#707070" points="491.14,303.0606,495.37,294.1664,491.2685,298.0623,487.3727,293.9608,491.14,303.0606" style="stroke: #707070; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="20" x="493.5" y="227.5215">uses</text><!--MD5=[84f30fda176198b031bcc84cb5d5910e]
+@startuml(id=SystemLandscape)
+title System Landscape for Customer
+
+skinparam {
+  shadowing false
+  arrowFontSize 10
+  defaultTextAlignment center
+  wrapWidth 200
+  maxMessageSize 100
+}
+hide stereotype
+top to bottom direction
+skinparam rectangle<<1>> {
+  BackgroundColor #dddddd
+  FontColor #000000
+  BorderColor #9A9A9A
+}
+skinparam rectangle<<24>> {
+  BackgroundColor #dddddd
+  FontColor #000000
+  BorderColor #9A9A9A
+}
+skinparam rectangle<<2>> {
+  BackgroundColor #dddddd
+  FontColor #000000
+  BorderColor #9A9A9A
+}
+skinparam rectangle<<3>> {
+  BackgroundColor #dddddd
+  FontColor #000000
+  BorderColor #9A9A9A
+}
+skinparam rectangle<<4>> {
+  BackgroundColor #dddddd
+  FontColor #000000
+  BorderColor #9A9A9A
+}
+skinparam folder<<26>> {
+  BackgroundColor #dddddd
+  FontColor #000000
+  BorderColor #9A9A9A
+}
+skinparam rectangle<<27>> {
+  BackgroundColor #dddddd
+  FontColor #000000
+  BorderColor #9A9A9A
+}
+skinparam rectangle<<28>> {
+  BackgroundColor #dddddd
+  FontColor #000000
+  BorderColor #9A9A9A
+}
+skinparam folder<<31>> {
+  BackgroundColor #dddddd
+  FontColor #000000
+  BorderColor #9A9A9A
+}
+rectangle "==DHW Developer\n<size:10>[Person]</size>\n\nDeveloper of DataHandwerk Toolkit" <<27>> as 27
+rectangle "==DataHandwerk Development\n<size:10>[Software System]</size>" <<28>> as 28
+folder "==DataHandwerk git\n<size:10>[Software System]</size>\n\nCode of DataHandwerk in Version Control" <<31>> as 31
+package "Customer" {
+  rectangle "==DWH Developer\n<size:10>[Person]</size>\n\nDeveloper of some DWH" <<1>> as 1
+  rectangle "==Deployment Team\n<size:10>[Person]</size>" <<2>> as 2
+  rectangle "==Project B DWH User\n<size:10>[Person]</size>\n\nuser of DWH (Project B)" <<3>> as 3
+  rectangle "==DWH B Development\n<size:10>[Software System]</size>" <<4>> as 4
+  rectangle "==DWH B Production\n<size:10>[Software System]</size>" <<24>> as 24
+  folder "==DWH B git\n<size:10>[Software System]</size>\n\nCode of Project B in Version Control (git, subversion, ...)" <<26>> as 26
+}
+27 .[#707070].> 28 : "uses for testing and development"
+27 .[#707070].> 31 : "uses"
+1 .[#707070].> 4 : "developes"
+1 .[#707070].> 26 : "uses"
+1 .[#707070].> 31 : "takes code or builds"
+2 .[#707070].> 24 : "deployes on production system"
+2 .[#707070].> 26 : "takes code or builds"
+3 .[#707070].> 24 : "uses"
+@enduml
+
+PlantUML version 1.2020.06(Sun Apr 05 14:38:32 CEST 2020)
+(APACHE source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.8.0_281-b09
+Operating System: Windows 10
+Default Encoding: Cp1252
+Language: de
+Country: DE
+--></g></svg>

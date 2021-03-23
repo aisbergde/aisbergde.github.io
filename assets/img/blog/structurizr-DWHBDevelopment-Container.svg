@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="377px" preserveAspectRatio="none" style="width:482px;height:377px;" version="1.1" viewBox="0 0 482 377" width="482px" zoomAndPan="magnify"><defs/><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="273" x="110.5" y="18.6855">DWH B Development - Containers</text><!--MD5=[255faa2be7dd1589dace60483080b12d]
+cluster DWH B Development\n[Software System]--><polygon fill="#FFFFFF" points="22,46.6406,173,46.6406,180,87.8594,460,87.8594,460,365.6406,22,365.6406,22,46.6406" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="22" x2="180" y1="87.8594" y2="87.8594"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="145" x="26" y="63.1738">DWH B Development</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="126" x="35.5" y="80.7832">[Software System]</text><!--MD5=[dc00b6f0bfcb3e33cce0c0c30000e56b]
+entity 17--><path d="M246.5,113.6406 C246.5,103.6406 345,103.6406 345,103.6406 C345,103.6406 443.5,103.6406 443.5,113.6406 L443.5,175.4688 C443.5,185.4688 345,185.4688 345,185.4688 C345,185.4688 246.5,185.4688 246.5,175.4688 L246.5,113.6406 " fill="#DDDDDD" style="stroke: #9A9A9A; stroke-width: 1.5;"/><path d="M246.5,113.6406 C246.5,123.6406 345,123.6406 345,123.6406 C345,123.6406 443.5,123.6406 443.5,113.6406 " fill="none" style="stroke: #9A9A9A; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="177" x="256.5" y="144.25">DWH db Development (</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="75" x="307.5" y="164.375">Project B)</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="102" x="294" y="178.2715">[Container: Database]</text><!--MD5=[fd8726c1533af164f5322e0f7898e501]
+entity 21--><rect fill="#DDDDDD" height="87.9219" style="stroke: #9A9A9A; stroke-width: 1.5;" width="173" x="38.5" y="100.6406"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="28" x="111" y="127.25">GUI</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="76" x="87" y="141.1465">[Container: GUI]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="127" y="157.877"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="153" x="48.5" y="175.4863">Graphical User Interface</text><!--MD5=[fad6a9c1e4f80769a7fea8e2093188d9]
+entity 5--><path d="M104,297.6406 C104,287.6406 210,287.6406 210,287.6406 C210,287.6406 316,287.6406 316,297.6406 L316,339.3438 C316,349.3438 210,349.3438 210,349.3438 C210,349.3438 104,349.3438 104,339.3438 L104,297.6406 " fill="#DDDDDD" style="stroke: #9A9A9A; stroke-width: 1.5;"/><path d="M104,297.6406 C104,307.6406 210,307.6406 210,307.6406 C210,307.6406 316,307.6406 316,297.6406 " fill="none" style="stroke: #9A9A9A; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="192" x="114" y="328.25">Repository db (Project B)</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="102" x="159" y="342.1465">[Container: Database]</text><!--MD5=[32e0e19703e482a1cb6eec8da929eee3]
+link 17 to 5--><path d="M246.42,180.3806 C230.7,190.3006 216.51,202.8506 207,218.6406 C195.63,237.5106 196.4,262.3006 199.99,282.3506 " fill="none" id="17-&gt;5" style="stroke: #707070; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#707070" points="200.97,287.3406,203.1756,277.7419,200.0141,282.4328,195.3232,279.2713,200.97,287.3406" style="stroke: #707070; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="57" x="224.5" y="230.0215">RepoObject</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="74" x="216" y="242.5996">correspond with</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="93" x="208" y="255.1777">extended properties</text><!--MD5=[269561589d4f1f8d1cf9e2fd8c643996]
+link 5 to 17--><path d="M272.32,287.3506 C284.76,279.0806 296.8,269.1606 306,257.6406 C321.4,238.3406 330.93,212.5406 336.71,190.5706 " fill="none" id="5-&gt;17" style="stroke: #707070; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#707070" points="337.96,185.6606,331.8697,193.4007,336.7305,190.5071,339.6241,195.3679,337.96,185.6606" style="stroke: #707070; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="79" x="331" y="236.0215">Synonyms link to</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="90" x="327" y="248.5996">DWH System Views</text><!--MD5=[4222a7cf03282a3b4af70fa433fb5fbe]
+link 21 to 5--><path d="M126.24,188.7406 C128.42,210.5106 133.52,236.6806 145,257.6406 C150.2,267.1306 157.46,275.9406 165.26,283.7306 " fill="none" id="21-&gt;5" style="stroke: #707070; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#707070" points="169.12,287.4706,165.4361,278.3367,165.5277,283.9928,159.8716,284.0844,169.12,287.4706" style="stroke: #707070; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="20" x="146" y="242.5215">uses</text><!--MD5=[5ff525e2e67384766211f25e4456e71a]
+@startuml(id=DWHBDevelopment-Container)
+title DWH B Development - Containers
+
+skinparam {
+  shadowing false
+  arrowFontSize 10
+  defaultTextAlignment center
+  wrapWidth 200
+  maxMessageSize 100
+}
+hide stereotype
+top to bottom direction
+skinparam database<<5>> {
+  BackgroundColor #dddddd
+  FontColor #000000
+  BorderColor #9A9A9A
+}
+skinparam database<<17>> {
+  BackgroundColor #dddddd
+  FontColor #000000
+  BorderColor #9A9A9A
+}
+skinparam rectangle<<21>> {
+  BackgroundColor #dddddd
+  FontColor #000000
+  BorderColor #9A9A9A
+}
+package "DWH B Development\n[Software System]" {
+  database "==DWH db Development (Project B)\n<size:10>[Container: Database]</size>" <<17>> as 17
+  rectangle "==GUI\n<size:10>[Container: GUI]</size>\n\nGraphical User Interface" <<21>> as 21
+  database "==Repository db (Project B)\n<size:10>[Container: Database]</size>" <<5>> as 5
+}
+17 .[#707070].> 5 : "RepoObject correspond with extended properties"
+21 .[#707070].> 5 : "uses"
+5 .[#707070].> 17 : "Synonyms link to DWH System Views"
+@enduml
+
+PlantUML version 1.2020.06(Sun Apr 05 14:38:32 CEST 2020)
+(APACHE source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.8.0_281-b09
+Operating System: Windows 10
+Default Encoding: Cp1252
+Language: de
+Country: DE
+--></g></svg>

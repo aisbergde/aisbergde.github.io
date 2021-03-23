@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="398px" preserveAspectRatio="none" style="width:445px;height:398px;" version="1.1" viewBox="0 0 445 398" width="445px" zoomAndPan="magnify"><defs/><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="225" x="116" y="18.6855">DWH B git - System Context</text><!--MD5=[a81f7aca4c07b9194780aa67bf6d0525]
+cluster Customer--><polygon fill="#FFFFFF" points="22,46.6406,96,46.6406,103,70.25,423,70.25,423,386.6406,22,386.6406,22,46.6406" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="22" x2="103" y1="70.25" y2="70.25"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="68" x="26" y="63.1738">Customer</text><!--MD5=[13c7745981a6abb6004f7738a8ca5078]
+entity 1--><rect fill="#DDDDDD" height="87.9219" style="stroke: #9A9A9A; stroke-width: 1.5;" width="175" x="231.5" y="82.6406"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="121" x="258.5" y="109.25">DWH Developer</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="38" x="300" y="123.1465">[Person]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="321" y="139.877"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="155" x="241.5" y="157.4863">Developer of some DWH</text><!--MD5=[773709cb2207c097691e7e7d3d2cc787]
+entity 2--><rect fill="#DDDDDD" height="52.7031" style="stroke: #9A9A9A; stroke-width: 1.5;" width="158" x="38" y="100.1406"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="138" x="48" y="126.75">Deployment Team</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="38" x="98" y="140.6465">[Person]</text><!--MD5=[8682619d0b3ec5a366d9ada435446ff3]
+entity 26--><polygon fill="#DDDDDD" points="108,244.6406,154,244.6406,161,265.6406,320,265.6406,320,370.7813,108,370.7813,108,244.6406" style="stroke: #9A9A9A; stroke-width: 1.5;"/><line style="stroke: #9A9A9A; stroke-width: 1.5;" x1="108" x2="161" y1="265.6406" y2="265.6406"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="78" x="170" y="289.25">DWH B git</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="84" x="167" y="303.1465">[Software System]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="211" y="319.877"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="178" x="118" y="337.4863">Code of Project B in Version</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="172" x="123" y="355.0957">Control (git, subversion, ...)</text><!--MD5=[79b8df1b813c0fd13c8bfc56e677fac2]
+link 1 to 26--><path d="M293.58,170.9706 C281.46,191.6306 266.69,216.8106 253.18,239.8506 " fill="none" id="1-&gt;26" style="stroke: #707070; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#707070" points="250.5,244.4206,258.5159,238.6983,253.0388,240.1132,251.6239,234.6361,250.5,244.4206" style="stroke: #707070; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="20" x="276" y="212.0215">uses</text><!--MD5=[de3d8c7aa7aeccf6bd3aef8a91992e66]
+link 2 to 26--><path d="M130.76,153.1506 C140.12,170.5006 152.8,193.9606 164,214.6406 C168.38,222.7306 172.99,231.2206 177.56,239.6306 " fill="none" id="2-&gt;26" style="stroke: #707070; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#707070" points="180.09,244.3006,179.3031,234.4833,177.7008,239.9084,172.2756,238.306,180.09,244.3006" style="stroke: #707070; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="93" x="165" y="212.0215">takes code or builds</text><!--MD5=[c5be94869e8d743b249bc56cf1fdc355]
+@startuml(id=DWHBgit-SystemContext)
+title DWH B git - System Context
+
+skinparam {
+  shadowing false
+  arrowFontSize 10
+  defaultTextAlignment center
+  wrapWidth 200
+  maxMessageSize 100
+}
+hide stereotype
+top to bottom direction
+skinparam rectangle<<1>> {
+  BackgroundColor #dddddd
+  FontColor #000000
+  BorderColor #9A9A9A
+}
+skinparam rectangle<<2>> {
+  BackgroundColor #dddddd
+  FontColor #000000
+  BorderColor #9A9A9A
+}
+skinparam folder<<26>> {
+  BackgroundColor #dddddd
+  FontColor #000000
+  BorderColor #9A9A9A
+}
+package "Customer" {
+  rectangle "==DWH Developer\n<size:10>[Person]</size>\n\nDeveloper of some DWH" <<1>> as 1
+  rectangle "==Deployment Team\n<size:10>[Person]</size>" <<2>> as 2
+  folder "==DWH B git\n<size:10>[Software System]</size>\n\nCode of Project B in Version Control (git, subversion, ...)" <<26>> as 26
+}
+1 .[#707070].> 26 : "uses"
+2 .[#707070].> 26 : "takes code or builds"
+@enduml
+
+PlantUML version 1.2020.06(Sun Apr 05 14:38:32 CEST 2020)
+(APACHE source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.8.0_281-b09
+Operating System: Windows 10
+Default Encoding: Cp1252
+Language: de
+Country: DE
+--></g></svg>

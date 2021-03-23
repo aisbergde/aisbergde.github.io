@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="373px" preserveAspectRatio="none" style="width:547px;height:373px;" version="1.1" viewBox="0 0 547 373" width="547px" zoomAndPan="magnify"><defs/><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="334" x="112.5" y="18.6855">DWH B Development - GUI - Components</text><!--MD5=[44fd954af5ac629ab008946af0ca9213]
+cluster GUI\n[Container: GUI]--><polygon fill="#FFFFFF" points="22,46.6406,140,46.6406,147,87.8594,525,87.8594,525,239.6406,22,239.6406,22,46.6406" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="22" x2="147" y1="87.8594" y2="87.8594"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="25" x="69.5" y="63.1738">GUI</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="112" x="26" y="80.7832">[Container: GUI]</text><!--MD5=[8fdd73d54a3a4d53cbcefcd0beb9d8d1]
+entity 23--><rect fill="#DDDDDD" height="105.5313" style="stroke: #9A9A9A; stroke-width: 1.5;" width="218" x="291" y="109.1406"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="80" x="360" y="135.75">CRUD GUI</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="73" x="363.5" y="149.6465">[Component: ?]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="402" y="166.377"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="194" x="301" y="183.9863">CRUD - Create, Read, Update,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="41" x="379.5" y="201.5957">Delete</text><!--MD5=[f23e27573c7a8d7e934deb9fe4d73a5f]
+entity 22--><rect fill="#DDDDDD" height="123.1406" style="stroke: #9A9A9A; stroke-width: 1.5;" width="217" x="38.5" y="100.6406"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="130" x="82" y="127.25">Visualization GUI</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="73" x="110.5" y="141.1465">[Component: ?]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="149" y="157.877"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="185" x="54.5" y="175.4863">Visualization of data lineage (</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="197" x="48.5" y="193.0957">references), real and virtual PK</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="49" x="122.5" y="210.7051">, FK-PK</text><!--MD5=[fad6a9c1e4f80769a7fea8e2093188d9]
+entity 5--><path d="M41,309.6406 C41,299.6406 147,299.6406 147,299.6406 C147,299.6406 253,299.6406 253,309.6406 L253,351.3438 C253,361.3438 147,361.3438 147,361.3438 C147,361.3438 41,361.3438 41,351.3438 L41,309.6406 " fill="#DDDDDD" style="stroke: #9A9A9A; stroke-width: 1.5;"/><path d="M41,309.6406 C41,319.6406 147,319.6406 147,319.6406 C147,319.6406 253,319.6406 253,309.6406 " fill="none" style="stroke: #9A9A9A; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="192" x="51" y="340.25">Repository db (Project B)</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="102" x="96" y="354.1465">[Container: Database]</text><!--MD5=[6d12cf3bae391c171d3369b41c60b120]
+link 22 to 5--><path d="M147,223.7206 C147,247.3806 147,273.6806 147,294.1606 " fill="none" id="22-&gt;5" style="stroke: #707070; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#707070" points="147,299.2306,151,290.2306,147,294.2306,143,290.2306,147,299.2306" style="stroke: #707070; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="20" x="148" y="267.0215">uses</text><!--MD5=[e5eeec281b5645b102d0f1417c87bf8d]
+@startuml(id=DWHBDevelopment-GUI-Component)
+title DWH B Development - GUI - Components
+
+skinparam {
+  shadowing false
+  arrowFontSize 10
+  defaultTextAlignment center
+  wrapWidth 200
+  maxMessageSize 100
+}
+hide stereotype
+top to bottom direction
+skinparam rectangle<<22>> {
+  BackgroundColor #dddddd
+  FontColor #000000
+  BorderColor #9A9A9A
+}
+skinparam rectangle<<23>> {
+  BackgroundColor #dddddd
+  FontColor #000000
+  BorderColor #9A9A9A
+}
+skinparam database<<5>> {
+  BackgroundColor #dddddd
+  FontColor #000000
+  BorderColor #9A9A9A
+}
+database "==Repository db (Project B)\n<size:10>[Container: Database]</size>" <<5>> as 5
+package "GUI\n[Container: GUI]" {
+  rectangle "==CRUD GUI\n<size:10>[Component: ?]</size>\n\nCRUD - Create, Read, Update, Delete" <<23>> as 23
+  rectangle "==Visualization GUI\n<size:10>[Component: ?]</size>\n\nVisualization of data lineage (references), real and virtual PK, FK-PK" <<22>> as 22
+}
+22 .[#707070].> 5 : "uses"
+@enduml
+
+PlantUML version 1.2020.06(Sun Apr 05 14:38:32 CEST 2020)
+(APACHE source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.8.0_281-b09
+Operating System: Windows 10
+Default Encoding: Cp1252
+Language: de
+Country: DE
+--></g></svg>
