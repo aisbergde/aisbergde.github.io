@@ -22,7 +22,7 @@ Statt zu hoffen, dass der AC alles unterstützt, was ich mir wünsche, und hunde
 
 ## Warum dieser Name und dieses Logo
 
-in meinem Artikel ["Meine Vision eines Werkzeugkastens für Daten-Handwerker"](_posts/2021-01-06-vision-eines-werkzeugkastens-fur-daten-handwerker.md) hatte ich schon einiges zum Thema **Handwerk** geschrieben. Seit diesem Artikel arbeite ich an diesem open-source-Projekt.
+in meinem Artikel ["Meine Vision eines Werkzeugkastens für Daten-Handwerker"](2021-01-06-vision-eines-werkzeugkastens-fur-daten-handwerker.md) hatte ich schon einiges zum Thema **Handwerk** geschrieben. Seit diesem Artikel arbeite ich an diesem open-source-Projekt.
 
 >Als **Handwerk** werden zahlreiche gewerbliche Tätigkeiten bezeichnet, die Produkte meist auf Bestellung fertigen oder Dienstleistungen auf Nachfrage erbringen. Die handwerkliche Tätigkeit steht der industriellen Massenproduktion gegenüber.
 
