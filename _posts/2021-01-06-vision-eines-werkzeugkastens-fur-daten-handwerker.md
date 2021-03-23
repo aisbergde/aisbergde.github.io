@@ -19,7 +19,7 @@ Als Handwerk werden zahlreiche gewerbliche Tätigkeiten bezeichnet, die Produkte
 
 ## AnalyticsCreator und Daten-Handwerker
 
-Seit 2017 verwende ich den [AnalyticsCreator](www.analyticscreator.com). Das Konzept des AnalyticsCreators besteht u. a. darin, ein DWH mit den dazugehörigen ETL-Prozessen und sogar SSAS-Datenbanken *vollständig* über ein Repository zu definieren und mit dem AnalyticsCreator zu erstellen. Neben vielen Vorteilen, die ich in einem anderen Artikel ["Warum AnalyticsCreator"](2020-04-26-warum-analyticscreator.md) beschrieb, gibt es auch *Einschränkungen*:
+Seit 2017 verwende ich den [AnalyticsCreator](www.analyticscreator.com). Das Konzept des AnalyticsCreators besteht u. a. darin, ein DWH mit den dazugehörigen ETL-Prozessen und sogar SSAS-Datenbanken *vollständig* über ein Repository zu definieren und mit dem AnalyticsCreator zu erstellen. Neben vielen Vorteilen, die ich in einem anderen Artikel ["Warum AnalyticsCreator"](../2020-04-26-warum-analyticscreator.md) beschrieb, gibt es auch *Einschränkungen*:
 
 - Es können nur die **Features und Methoden** des SQL Server oder der Azure Produkte verwendet werden, die sich im Repository und durch den AC abbilden lassen.
 - Wenn etwas nicht funktionieren sollte oder man nicht weiß, wie man es mit dem AC realisieren kann, ist man auf **Sofort-Support** angewiesen oder benötigt ausreichende Erfahrung, um einen Workaround zu finden und anzuwenden.
