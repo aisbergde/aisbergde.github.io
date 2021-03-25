@@ -7,10 +7,9 @@ tags:
   - mssql
   - DHW
   - open source
-last-updated: 2021-03-23T10:20:04.347Z
+last-updated: 2021-03-25T23:09:49.452Z
 head-extra: head_extra.html
 slug: datahandwerk-toolkit-mssql
-lastmod: 2021-03-23T11:50:57.123Z
 ---
 
 Der AnalyticsCreator (AC) hat einen vorgesehenen Kontext: die Automatisierung der Erstellung von DWH, inklusive ETL und SSAS Datenbanken. In den letzten 4 Jahren habe ich versucht, den AC für alle Arten von Datenbank-Entwicklungen zu verwenden. Dabei musste ich auf einige Features des SQL Servers verzichten, wie temporale Tabellen (die in den SQL Server eingebaute Historisierung von Daten) oder Graph-Tabellen (Node und Edge). Oft habe ich über Feature Requests angeregt, den AC in ein Instrument für die Erstellung beliebiger Datenbanken erweitern zu lassen. Viele Features wurden implementiert und ich denke, dass ich mit meinen Ideen sehr zur Vielseitigkeit des AC beigetragen habe, der ein ganz hervorragendes Produkt ist und bleibt. Gleichzeitig kann ich vom Produkt-Management nicht erwarten, dass sich der AC nur an meinen Bedürfnissen orientiert. Der AC hat zahlende Kunden mit zum Teil anderen Bedürfnissen, und die Priorisierung der Entwicklung obliegt dem AC.
@@ -18,7 +17,7 @@ Der AnalyticsCreator (AC) hat einen vorgesehenen Kontext: die Automatisierung de
 
 **Azure Synapse Analytics** hat eine teilweise andere Syntax, als der *normale* SQL Server, und nicht einmal Microsoft selbst schafft es, eine einfache Migration vom normalen SQL Server zu Synapse zu ermöglichen. Da wäre es vermessen, so etwas von Fremdprodukten wie dem AC zu verlangen.
 
-Statt zu hoffen, dass der AC alles unterstützt, was ich mir wünsche, und hunderte Feature Requests zu erstellen, werde ich den AC zukünftig gemäß seinem vorgesehenen Kontext verwenden und für die allgemeine Arbeit mit Datenbanken mein eigenes Toolkit. So entstand das Open-Source-Projekt [DataHandwerk-toolkit-mssql (Dokumentation)](https://datahandwerk.github.io/docs).
+Statt zu hoffen, dass der AC alles unterstützt, was ich mir wünsche, und hunderte Feature Requests zu erstellen, werde ich den AC zukünftig gemäß seinem vorgesehenen Kontext verwenden und für die allgemeine Arbeit mit Datenbanken mein eigenes Toolkit. So entstand das Open-Source-Projekt [DataHandwerk-toolkit-mssql (Dokumentation)](https://datahandwerk.github.io).
 
 ## Warum dieser Name und dieses Logo
 
@@ -38,7 +37,7 @@ Das Handwerkszeichen war von 1934 war bis 1994 das offizielle Emblem des deutsch
 
 ## Architektur des Projekts
 
-Die [Architektur](https://datahandwerk.github.io/docs/dhw/0.1.0/arc/architecture.html) wird in der Dokumentation ausführlich auf Englisch beschrieben. Hier die Grundideen:
+Die [Architektur](https://datahandwerk.github.io/dhw/0.1.0/arc/architecture.html) wird in der Dokumentation ausführlich auf Englisch beschrieben. Hier die Grundideen:
 
 Statt eine fertige Datenbank vollständig (und reproduzierbar) aus einem Repository zu erstellen, wie es der AC und einige andere Tools zu Automatisierung machen, liegt bei mir der Fokus auf der selbständigen Arbeit in der Datenbank, die um ein Repository ergänzt wird.
 
@@ -74,7 +73,7 @@ Es gibt bereits die Komponenten
 - Logging  
   ein optionales Logging-System, aus dem heraus auch Sequenzdiagramme in PlantUML erstellt werden können
 
-Aktuell arbeite ich an einer [Dokumentation](https://datahandwerk.github.io/docs), denn Features sind nur dann brauchbar, wenn sie auch dokumentiert werden. Die Beschreibung der Architektur ist schon ganz brauchbar. Mit dem Handbuch habe ich heute angefangen.
+Aktuell arbeite ich an einer [Dokumentation](https://datahandwerk.github.io), denn Features sind nur dann brauchbar, wenn sie auch dokumentiert werden. Die Beschreibung der Architektur ist schon ganz brauchbar. Mit dem Handbuch habe ich heute angefangen.
 
 ## GUI, Visualisierung
 
