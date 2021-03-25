@@ -6,11 +6,11 @@
 # --- Required options --- #
 
 # Name of website
-title: AISBERG über AnalyticsCreator
+title: AISBERG über DataHandwerk und AnalyticsCreator
 
-# Short description of your site
-# gibt es im aktuellen Template nicht mehr, funktioniert es noch?
-description: Meine Erfahrungen mit dem AnalyticsCreator zur DWH-Automatisierung (ELT, DWH, SSAS)
+# # Short description of your site
+# # gibt es im aktuellen Template nicht mehr, funktioniert es noch?
+# description: Meine Erfahrungen mit dem AnalyticsCreator zur DWH-Automatisierung (ELT, DWH, SSAS)
 
 # Your name to show in the footer
 author: Germo Görtz
