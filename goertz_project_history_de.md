@@ -17,6 +17,7 @@ Sonstiges
   Übertragung von Steuerungsmethoden aus der Aviation-Branche in ein innovatives IT-Tool zur Planung, Steuerung und Optimierung von Krankenhaus-Prozessen  
  <http://www.visality.de/healthcarecontrolcenter.html?&L=0%22Dirk>
 - smarte Stromzähler, Zeitanalysen von Stromverbräuchen
+- IoT, dafür auch Python
 
 ## 02/2020 - bis 03/2021; MEAG Munich ERGO Assetmanagement GmbH
 
@@ -28,6 +29,7 @@ Banken und Finanzdienstleistungen
 
 - Entwicklung eines Reporting-Tools mittels Power BI, mit dem Ziel der automatisierten Report-Erstellung aus Sim Corp Dimension anstelle des bisherigen Reportings mittels Excel-Sheets.
 - DWH, ELT und SSAS werden mit AnalyticsCreator erstellt.
+- einzelne Module mit Python, Powershell
 
 ## 09/2019 – 03/2020; Swisscom
 
@@ -37,11 +39,11 @@ Telekommunikation
 
 ### Import und Verarbeitung von Daten aus Service Now für ein Reporting, Erstellung DWH mit AnalyticsCreator, Berichte mit Power BI
 
-- Import von Daten aus Service Now über die API
+- Import von Daten aus Service Now über die API (mit Python)
 - Import, Integration und Transformation in einem DWH im SQL Server
 - Analytische Datenbank mit SSAS
 - Berichte im Power BI
-- DWH, ELT und SSAS werden mit AnalyticsCreator erstellt.
+- DWH, ELT und SSAS werden mit AnalyticsCreator erstellt
 
 ## 11/2010 - 12/2019; DRK Kliniken Berlin
 
@@ -104,9 +106,11 @@ Versicherungen
 
 ### Aufbau neues DWH: Microsoft BI Architekt und Entwickler, Microsoft BI-Analyse-Plattform, Analyticscreator
 
-Aufbau eines neuen DWH, basierend auf Microsoft SQL BI Technologien inklusive Azure Diensten
+Aufbau eines neuen DWH, gehostet auf Microsoft Azure, basierend auf Microsoft SQL BI Technologien
 
 Microsoft SQL Server (relational, SSAS, SSIS), Power BI, AnalyticsCreator
+
+Big Data
 
 ## 08/2018 - 10/2018; ZEISS Group
 
@@ -117,7 +121,7 @@ Industrie und Maschinenbau
 ### Durchlaufzeiten von Produktionsschritten: Microsoft BI Architekt und Entwickler, Microsoft BI-Analyse-Plattform, Analyticscreator
 
 - Durchlaufzeiten von Produktionsschritten
-- Re-Design einer bestehenden SSAS Tabular Lösung zwecks Performance-Optimierung und Verbesserung der Auswertungsmöglichkeiten.
+- Re-Design einer bestehenden Power BI Lösung: Konvertierung in DWH + SSAS Tabular zwecks Performance-Optimierung und Verbesserung der Auswertungsmöglichkeiten.
 - Kombination von Logik im DWH (Microsoft SQL Server) und in SSAS Tabular
 - DWH, ELT und SSAS werden mit AnalyticsCreator erstellt.
 
@@ -159,6 +163,7 @@ Das bestehende Datawarehouse soll um ein "Candidate-Cube" erweitert werden:
 - Cube Erstellung (SSAS)
 - Reporterstellung (SSRS)
 - DWH, ELT und SSAS werden mit AnalyticsCreator erstellt.
+- Vorbereitung einer möglichen Migration in Azure
 
 Produkte:
 

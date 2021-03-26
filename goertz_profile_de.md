@@ -40,19 +40,29 @@ Diplom-Mediziner, Biophysiker, [Arzt-Kybernetiker](http://pirogov-university.com
         - Analyseverfahren
         - Planungssystemen
         - Berichtssystemen
-- unter Verwendung von [**Microsoft SQL Server**](https://www.microsoft.com/de-de/sql-server/sql-server-2019) einschließlich [**SSAS** (Sql Server Analysis Services)](https://docs.microsoft.com/de-de/analysis-services/analysis-services-overview?view=asallproducts-allversions), [**SSIS** (SQL Server Integration Services)](https://docs.microsoft.com/de-de/sql/integration-services/sql-server-integration-services?view=sql-server-ver15), [SSRS (SQL Server Reporting Services)](https://docs.microsoft.com/de-de/sql/reporting-services/create-deploy-and-manage-mobile-and-paginated-reports?view=sql-server-ver15)
+- unter Verwendung von [**Microsoft SQL Server**](https://www.microsoft.com/de-de/sql-server/sql-server-2019) einschließlich [**SSAS** (Sql Server Analysis Services)](https://docs.microsoft.com/de-de/analysis-services/analysis-services-overview?view=asallproducts-allversions), [**SSIS** (SQL Server Integration Services)](https://docs.microsoft.com/de-de/sql/integration-services/sql-server-integration-services?view=sql-server-ver15), [SSRS (SQL Server Reporting Services)](https://docs.microsoft.com/de-de/sql/reporting-services/create-deploy-and-manage-mobile-and-paginated-reports?view=sql-server-ver15) und verschiedener [Microsoft Azure](https://azure.microsoft.com/de-de/) Technologien
 - und von Software und Technologie rund um die Microsoft BI Plattform oder zur Entwicklung
-    - [**DataHandwerk-toolkit-mssql**](https://datahandwerk.github.io/docs) - mein open source Projekt
-    - [Azure DevOps](https://azure.microsoft.com/de-de/services/devops/)
-    - [Microsoft Azure](https://azure.microsoft.com/de-de/)
-    - [Microsoft Power BI](https://powerbi.microsoft.com/de-de/)
-    - [git (Versionskontrollsystem)](https://git-scm.com/)
-    - [Antora (Docs as Code)]([https:](https://antora.org/))
-    - [Deltamaster (SSAS Frontend)](https://www.bissantz.de/software/)
+    - [**DataHandwerk-toolkit-mssql**](https://datahandwerk.github.io)  
+    mein open source Projekt
+    - [Azure DevOps](https://azure.microsoft.com/de-de/services/devops/)  
+    bevorzugtes Tool für DevOps, agiles Projekt-Controlling, Issue-Tracking, Code-Versionisierung, interne Wiki
+    - [Microsoft Power BI](https://powerbi.microsoft.com/de-de/)  
+    Microsoft Frontend für Berichtswesen
+    - [Antora (Docs as Code)]([https:](https://antora.org/))  
+    open Source Dokumentations-Framework insbesondere für technische Dokumentation
+    - [arc42](https://arc42.org/)  
+    Template zur Entwicklung, Dokumentation und Kommunikation von Softwarearchitekturen
+    - [Structurizr](https://structurizr.com/)  
+    Structurizr is specifically designed to support the C4 model for visualising software architecture
+    - [Deltamaster (SSAS Frontend)](https://www.bissantz.de/software/)  
+    Spitzen-Frontend der deutschen Firma Bissantz für analytische Datenbanken
     - [CubePlayer (SSAS Frontend)](https://www.oreus.hr/products/cubeplayer)
-    - [XLcubed (Excel-Addin für SSAS)](https://www.xlcubed.com/)
-    - [AnalyticsCreator (DWH Automatisierung)](https://www.analyticscreator.com/)
-    - [arc42](https://arc42.org/) - Template zur Entwicklung, Dokumentation und Kommunikation von Softwarearchitekturen
+    - [XLcubed](https://www.xlcubed.com/)  
+    einziges brauchbares Excel-Addin für SSAS
+    - [AnalyticsCreator](https://www.analyticscreator.com/)  
+    DWH Automatisierung
+    - [git (Versionskontrollsystem)](https://git-scm.com/)  
+    alle meine Projekte werden grundsätzlich mit git versionisiert
     - ...
 
 ## Soft Skills
