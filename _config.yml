@@ -25,7 +25,8 @@ navbar-links:
   Tag Index: "tags"
   DataHandwerk:
     - Dokumentation: "https://datahandwerk.github.io"
-    - Discussions: "https://github.com/DataHandwerk/DataHandwerk-toolkit-mssql/discussions"
+    - Community (Zulip: streams with topics): "https://datahandwerk.zulipchat.com/"
+    # - Discussions: "https://github.com/DataHandwerk/DataHandwerk-toolkit-mssql/discussions"
     - GitHub Projekt: "https://github.com/DataHandwerk/DataHandwerk-toolkit-mssql"
     - Azure Boards: "https://dev.azure.com/DataHandwerk/89a7b008-69b9-42e4-b31f-4c2dfb6bd49a/_boards/board/t/f3077374-71b6-4a5b-bfd6-24a792bbc352/Microsoft.RequirementCategory/"
   AnalyticsCreator:

@@ -44,8 +44,10 @@ Diplom-Mediziner, Biophysiker, [Arzt-Kybernetiker](http://pirogov-university.com
 - und von Software und Technologie rund um die Microsoft BI Plattform oder zur Entwicklung
     - [**DataHandwerk-toolkit-mssql**](https://datahandwerk.github.io)  
     mein open source Projekt
+    - [AnalyticsCreator](https://www.analyticscreator.com/)  
+    DWH Automatisierung
     - [Azure DevOps](https://azure.microsoft.com/de-de/services/devops/)  
-    bevorzugtes Tool für DevOps, agiles Projekt-Controlling, Issue-Tracking, Code-Versionisierung, interne Wiki
+    bevorzugtes Tool für DevOps, agiles Projekt-Controlling, Issue-Tracking, Code-Versionisierung
     - [Microsoft Power BI](https://powerbi.microsoft.com/de-de/)  
     Microsoft Frontend für Berichtswesen
     - [Antora (Docs as Code)]([https:](https://antora.org/))  
@@ -59,10 +61,10 @@ Diplom-Mediziner, Biophysiker, [Arzt-Kybernetiker](http://pirogov-university.com
     - [CubePlayer (SSAS Frontend)](https://www.oreus.hr/products/cubeplayer)
     - [XLcubed](https://www.xlcubed.com/)  
     einziges brauchbares Excel-Addin für SSAS
-    - [AnalyticsCreator](https://www.analyticscreator.com/)  
-    DWH Automatisierung
     - [git (Versionskontrollsystem)](https://git-scm.com/)  
-    alle meine Projekte werden grundsätzlich mit git versionisiert
+    alle meine Projekte werden grundsätzlich mit **git** versionisiert
+    - Datenmodellierung mit [Dimensional modeling (DM)](https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/) als Bestandteil der "Business Dimensional Lifecycle methodology" entwickelt von  Ralph **Kimball**
+    - Datenmodellierung nach **Data Vault**
     - ...
 
 ## Soft Skills
@@ -95,7 +97,7 @@ Ich halte viel von **DevOps** (**Dev**elopment + IT **Op**eration**s** in Kombin
 Ich habe _kein_ Interesse an einer festen Anstellung, auch nicht an einer Arbeitnehmerüberlassung (AÜL), da ich jeden unnötigen Kontakt mit der "Deutschen Rentenversicherung" vermeiden will, die gemeinsam mit der Politik dafür verantwortlich ist, dass immer mehr Kunden Angst haben, in Deutschland mit Freiberuflern zusammenzuarbeiten.  
 Die Gefahr der sogenannten "Scheinselbständigkeit" ist auch ein Grund dafür, warum ich möglichst nicht mehr in einem einzigen Projekt vollzeit tätig sein will, sondern zwecks Risiko-Minimierung lieber in mehreren Projekten gleichzeitig.
 
-## Anmerkungen zu SSAS - SQL Server Analysis Services
+## Anmerkungen zu SSAS (SQL Server Analysis Services) und Kimball
 
 Unter dem gleichen Oberbegriff **SSAS** ([SQL Server Analysis Services](http://docs.microsoft.com/de-de/analysis-services/analysis-services-overview?view=asallproducts-allversions)) vereint Microsoft zwei unterschiedliche Technologien:
 
@@ -113,3 +115,4 @@ Die Tabular Technologie wird von Microsoft gepusht. SSAS Tabular hat einige Stä
 => Was sich mit SSAS Tabular sinnvoll realisieren lässt, wird von mir pragmatisch mit Tabular gemacht. Falls es damit nicht so recht geht, gibt es weiter die multidimensionale Technologie.
 
 Die Abfragesprache [MDX - Multidimensional Expressions](http://de.wikipedia.org/wiki/Multidimensional_Expressions) kann für beide Technologien verwendet werden, DAX (Data Analysis Expressions) kann nur für SSAS Tabular verwendet werden.
+
