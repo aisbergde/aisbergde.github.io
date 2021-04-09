@@ -45,7 +45,7 @@ Diplom-Mediziner, Biophysiker, [Arzt-Kybernetiker](http://pirogov-university.com
     - [**DataHandwerk-toolkit-mssql**](https://datahandwerk.github.io)  
     mein open source Projekt
     - [AnalyticsCreator](https://www.analyticscreator.com/)  
-    DWH Automatisierung
+    DWH Automatisierung - besser, flexibler und preiswerter als [Wherescape](https://www.wherescape.com/), mit dem ich auch gearbeitet habe
     - [Azure DevOps](https://azure.microsoft.com/de-de/services/devops/)  
     bevorzugtes Tool für DevOps, agiles Projekt-Controlling, Issue-Tracking, Code-Versionisierung
     - [Microsoft Power BI](https://powerbi.microsoft.com/de-de/)  
