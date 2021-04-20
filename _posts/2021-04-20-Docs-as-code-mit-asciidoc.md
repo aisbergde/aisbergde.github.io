@@ -45,7 +45,7 @@ Und ich bin begeistert von den Möglichkeiten, die AsciiDoc im Vergleich zu Mark
 Allerdings werde ich für normale Notizen vorerst weiter Markdown verwenden müssen, wenn ich sowohl auf Android als auch am Rechner an diesen Dokumenten arbeiten will. Denn mein Android-Editor **Markor** hat leider noch keine AsciiDoc-Unterstütung implementiert: [Add format: AsciiDoc (Highlighter, TextActions)](https://github.com/gsantner/markor/issues/808)  
 Und ich habe auch noch keinen anderen Android-AscciDoc-Editor gefunden.
 
-### Docs-as-Code und Code-as-Docs
+### 'Docs-as-Code' und 'Code-as-Docs'
 
 Über AsciiDoc fand ich das Konzept "Docs-as-Code".
 
