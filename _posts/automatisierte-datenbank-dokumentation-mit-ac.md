@@ -20,39 +20,40 @@ tags: [analyticscreator, schemaspy, markdown, dokumentation]
 
 ## Ziel: vollständige, verständliche und mit geringem Aufwand aktualisierbare Datenbankdokumentation mit MarkDown-Beschreibungen
 
-Zu jedem meiner BI-Projekte gehört eine Dokumentation. Um Prozesse, allgemeine Zusammenhänge, Ideen oder analytischen Datenbanken zu erklären, verwende ich sehr gerne **WIKI**'s, die viele Vorteile haben:
+Zu jedem meiner BI-Projekte gehört eine Dokumentation. Um Prozesse, allgemeine Zusammenhänge, Ideen oder analytischen Datenbanken zu erklären, verwendete ich bisher gerne **WIKI**'s, die einige Vorteile haben:
 
 * Anwender können dort kommentieren und Fragen stellen
 * Screenshots aus Frontends erleichtern das Verständnis
 * mehrere Personen können gemeinsam dokumentieren
-* Ich finde **Markdown** als Auszeichnungssprache einfach und ausreichend mächtig
+* Ich fand **Markdown** als Auszeichnungssprache einfach und ausreichend
 * ...
 
-Ein vollständiges DWH würde ich allerdings nicht manuell dokumentieren, da sich früher oder später Dokumentation und DWH voneinander unterscheiden würden. Daraus ergeben sich einige Ziele für die Dokumentation meiner Datenbanken. Im folgenden geht es um die Dokumentation relationaler Datenbanken:
+Ein vollständiges DWH würde ich nicht manuell dokumentieren, da sich früher oder später Dokumentation und DWH voneinander unterscheiden würden. Daraus ergeben sich einige Ziele für die Dokumentation meiner Datenbanken. Im folgenden geht es um die Dokumentation relationaler Datenbanken:
 
 * Eine vollständige Dokumentation der Datenbank soll **per Knopfdruck** erstellt und aktualisiert werden
 * Es muss einen **einzigen Punkt der Wahrheit** geben
     * Möglichst viele Informationen und Metadaten sollen **direkt in der Datenbank** enthalten sein
 * Jede für das Verständnis wichtige Tabelle und Spalte soll eine sinnvolle **Beschreibung** erhalten
     * **Zeilenumbrüche** in Beschreibungen müssen möglich sein und angezeigt werden
-    * die optionale Verwendung von **Markdown** in Beschreibungen wäre gut:  
-    Markdown lässt sich auch dann noch gut lesen, wenn es nicht für die Darstellung gerendert wird
+    * die optionale Verwendung von **Auszeichnungssprachen** (Markdown, Asciidoc) in Beschreibungen wäre gut:  
+    Diese Sprachen lassen sich auch dann noch gut lesen, wenn sie nicht für die Darstellung gerendert werden
     * Beschreibungen sollen erstellt werden, **während ich die Datenbank entwickle**
 * **Beziehungen** zwischen Objekten sollen dokumentiert werden
 * **Abhängigkeiten** zwischen Objekten sollen dokumentiert werden
 
 Um **Beschreibungen** im der Datenbank zu speichern, bieten sich im MS SQL Server die [**extended properties**](https://www.mssqltips.com/sqlservertip/5384/working-with-sql-server-extended-properties/) an. erweiterten Eigenschaften
 
-* gibt es für alle Objekte (Tabellen, Sichten, Spalten, Prozeduren, Schemas, ...)
+* gibt es für alle Objekte und "Unter-Objekte" (Tabellen, Sichten, Spalten, Prozeduren, Schemas, ...)
 * können per sql hinzugefügt und geändert werden
 * können im SSMS hinzugefügt und geändert werden
-* können sehr lang sein, Zeilenumbrüche und was auch immer enthalten, also auch Markdown-Formatierungen, XML Code, ...
+* können sehr lang sein (sql_variant: nvarchar(4000) oder varchar(8000)), Zeilenumbrüche und was auch immer bleiben enthalten, ...
 
-**Abhängigkeiten** werden vom SQL Server erkannt:
+Einige **Abhängigkeiten** werden vom SQL Server erkannt:
 
-* technische Abhängigkeiten werden gut erkannt
+* Abhängigkeiten zwischen Objekten werden gut erkannt
     * Sichten basieren auf Quell-Sichten
     * Prozeduren haben Abhängigkeiten von anderen Objekten.
+* recht schwer ist die Extraktion von Spalten-Abhängigkeiten
 * Nicht erkannt werden können viele *logische* Abhängigkeiten
     * So erkennt der SQL Server zwar folgende *technische* Abhängigkeiten
         * Quelle => Historisierungs-Prozedur
@@ -64,11 +65,11 @@ Um **Beschreibungen** im der Datenbank zu speichern, bieten sich im MS SQL Serve
 **Beziehungen** zwischen Objekten lassen sich nur schwer in der Datenbank abbilden.
 
 * Man kann **"echte"** Fremdschlüsselbeziehungen zwischen Tabellen erstellen, dabei müssen die verknüpften Spalten den gleichen Datentyp haben (bei Zeichenfolgen auch die gleiche Länge).
-* Es gibt keine "Boardmittel" zur Hinterlegung von **"virtuellen"** Beziehungen, beispielsweise zwischen Sichten, zwischen Sichten und Tabellen.
+* Es gibt keine "Boardmittel" zur Hinterlegung von **"virtuellen"** Indizes oder Beziehungen, beispielsweise zwischen Sichten und Sichten, zwischen Sichten und Tabellen.
 
 ### Programme zur Erstellung der Dokumentation per Knopfdruck
 
-[System Informations Schema-Sichten des SQL Servers](https://docs.microsoft.com/de-de/sql/relational-databases/system-information-schema-views/system-information-schema-views-transact-sql?view=sql-server-ver15) enthalten die benötigten Informationen. Man kann also alles auslesen und wie auch immer verwenden. 
+[System Informations Schema-Sichten des SQL Servers](https://docs.microsoft.com/de-de/sql/relational-databases/system-information-schema-views/system-information-schema-views-transact-sql?view=sql-server-ver15) enthalten einige benötigten Informationen. Man kann diese auslesen und wie auch immer verwenden.
 
 Man kann auch Tools verwenden, die solche und weitere Informationen auslesen. Es gibt viele Tools, kostenlose und kostenpflichtige, verschiedene Projekte auf github und vielleicht auch an anderen Stellen. Hier eine unvollständige Übersicht:
 
@@ -80,7 +81,7 @@ Auf zwei Tools möchte ich näher eingehen
 
 [SqlSpec von elsasoft.org](http://elsasoft.org/)
 
-2005 gab es bei Microsoft einen Technologie-Wechsel von MSAS zu SSAS. Das kostenlose Excel-Tool, welches in der Lage war, MSAS vollständig zu dokumentieren, funktionierte nicht mehr mit SSAS. Ich brauchte ein neues Dokumentations-Tool für SSAS, verglich verschiedene Tools und sqlspec hatte die besten Möglichlichkeiten, SSAS-Modelle zu dokumentieren. Und gleichzeitig konnten damit hauptsächlich relationale Datenbanken dokumentiert werden. Der Funktionsumfang ist auch in der Evaluierungsversion vollständig. Ich habe 2005 eine Vollversion gekauft.
+2005 gab es bei Microsoft einen Technologie-Wechsel von MSAS zu SSAS. Das kostenlose Excel-Tool, welches in der Lage war, MSAS vollständig zu dokumentieren, funktionierte nicht mehr mit SSAS. Ich brauchte ein neues Dokumentations-Tool für SSAS, verglich verschiedene Tools und sqlspec hatte die besten Möglichlichkeiten, SSAS-Modelle zu dokumentieren. Und gleichzeitig konnten damit relationale Datenbanken dokumentiert werden. Der Funktionsumfang ~~ist~~ war auch in der Evaluierungsversion vollständig. Ich habe 2005 eine Vollversion gekauft.
 
 * **XML Kommentare** werden unterstützt und können von SqlSpec geparst werden
 * **FK-PK-Beziehungen** werden erkannt, dargestellt, auch in *ER-Diagrammen*, allerdings sind das statische Diagramme ohne Verlinkung
@@ -90,9 +91,9 @@ Auf zwei Tools möchte ich näher eingehen
 * Die Dokumentation wird als html erstellt
 * Die html-Dokumente können in eine Windows-Hilfe-Datei umgewandelt werden, wobei dabei Umlaute in Namen von Tabellen, Sichten und Prozeduren zu ungültigen Links führen. Das ist ein Problem des Microsoft-Hilfe-Konverters.
 
-[Hier ein Beispiel für eine SQL Server Datenbank](http://elsasoft.org/samples/sqlserver_adventureworks/AdventureWorks.htm)
+~~[Hier ein Beispiel für eine SQL Server Datenbank](http://elsasoft.org/samples/sqlserver_adventureworks/AdventureWorks.htm)~~ Leider gibt es die Website und das Produkt nicht mehr.
 
-SqlSpec ist ein hervorragendes Tool, wird allerdings leider nicht mehr weiterentwickelt. Es ist also so, wie es ist:
+SqlSpec ~~ist~~ war ein hervorragendes Tool. Es ist in der mir vorliegenden letzten Version also so, wie es ist:
 
 * **ohne Markdown** Unterstützung in Beschreibungen
 * kann man virtuelle PK für Sichten hinzufügen?
@@ -105,9 +106,12 @@ Auf der Suche nach Markdown-Unterstützung für Datenbank-Dokumentationen fand i
 
 Hier sieht man die Darstellung einer [Tabellen-Beschreibung, die Markdown verwendet](http://schemaspy.org/sample/index.html)
 
-Es gibt eine [aktive Entwicklung auf GitHub](https://github.com/schemaspy/schemaspy), womit es möglich ist, gewünschte Features implementieren zu lassen.
+Es gibt eine [aktive Entwicklung auf GitHub](https://github.com/schemaspy/schemaspy), womit es theoretisch möglich wäre, gewünschte Features implementieren zu lassen. Ich habe vor einem Jahr diverse Feature Requests erstellt, leider tut sich da nichts. Und da man mit SchemaSpy nicht einmal das Schema anzeigen lassen kann, ist es weniger gut geeignet, Datenbankan mit mehreren Schemas zu dokumentieren. Ich habe die Hoffnung aufgegeben, dass das implementiert wird:
 
-Also habe ich das ausprobiert. Es wird JDBC verwendet und es war gar nicht so einfach einen funktionierenden JDBC-Treiber für den SQL Server auszuwählen. Folgende Kombination funktionierte:
+* [current schema must be shown on the page](https://github.com/schemaspy/schemaspy/issues/682)
+* [option to include the Schema Name everywhere](https://github.com/schemaspy/schemaspy/issues/683)
+
+Dennoch habe ich das Tool vor einem Jahr ausführlich getestet. Es wird JDBC verwendet und es war gar nicht so einfach einen funktionierenden JDBC-Treiber für den SQL Server auszuwählen. Folgende Kombination funktionierte:
 
 ```
 ## funktioniert mit sqljdbc_7.2

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="102px" preserveAspectRatio="none" style="width:1049px;height:102px;" version="1.1" viewBox="0 0 1049 102" width="1049px" zoomAndPan="magnify"><defs><filter height="300%" id="f10eeeihtthezx" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[287866919f375b0f7ae03bd9ccd1b257]
+class sqlparse.RepoObject_SqlModules_20_statement_children--><rect codeLine="26" fill="#F5F5F5" filter="url(#f10eeeihtthezx)" height="81.2" id="sqlparse.RepoObject_SqlModules_20_statement_children" style="stroke:#A80036;stroke-width:1.5;" width="312" x="7" y="7"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="18" x="154" y="24.0001">«V»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="306" x="10" y="38.4002">sqlparse.RepoObject_SqlModules_20_statement_children</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="318" y1="45.8002" y2="45.8002"/><ellipse cx="18" cy="56.8002" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="93" x="27" y="60.8001">RepoObject_guid</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="78" x="123" y="60.8001">: uniqueidentifier</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="318" y1="67.0001" y2="67.0001"/><ellipse cx="18" cy="78.0001" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="47" x="27" y="82">json_key</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="81" x="77" y="82">: nvarchar(4000)</text><!--MD5=[00f3b763cf1fe15773e41f9a66abdfc0]
+class sqlparse.RepoObject_SqlModules_21_statement_children_helper--><rect codeLine="31" fill="#F5F5F5" filter="url(#f10eeeihtthezx)" height="81.2" id="sqlparse.RepoObject_SqlModules_21_statement_children_helper" style="stroke:#A80036;stroke-width:1.5;" width="351" x="379" y="7"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="18" x="545.5" y="24.0001">«V»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="345" x="382" y="38.4002">sqlparse.RepoObject_SqlModules_21_statement_children_helper</text><line style="stroke:#A80036;stroke-width:1.5;" x1="380" x2="729" y1="45.8002" y2="45.8002"/><ellipse cx="390" cy="56.8002" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="93" x="399" y="60.8001">RepoObject_guid</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="78" x="495" y="60.8001">: uniqueidentifier</text><line style="stroke:#A80036;stroke-width:1.5;" x1="380" x2="729" y1="67.0001" y2="67.0001"/><ellipse cx="390" cy="78.0001" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="47" x="399" y="82">json_key</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="81" x="449" y="82">: nvarchar(4000)</text><!--MD5=[7e008c8eb8b850f7614a22fe1ecd2e25]
+class sqlparse.RepoObject_SqlModules_31_object--><rect codeLine="36" fill="#F5F5F5" filter="url(#f10eeeihtthezx)" height="68.0001" id="sqlparse.RepoObject_SqlModules_31_object" style="stroke:#A80036;stroke-width:1.5;" width="245" x="790" y="13.5"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="18" x="903.5" y="30.5001">«V»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="239" x="793" y="44.9002">sqlparse.RepoObject_SqlModules_31_object</text><line style="stroke:#A80036;stroke-width:1.5;" x1="791" x2="1034" y1="52.3002" y2="52.3002"/><ellipse cx="801" cy="63.3002" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="93" x="810" y="67.3001">RepoObject_guid</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="78" x="906" y="67.3001">: uniqueidentifier</text><line style="stroke:#A80036;stroke-width:1.5;" x1="791" x2="1034" y1="73.5001" y2="73.5001"/><!--MD5=[3b232b94f4cd83c5e322a885793d56e4]
+reverse link sqlparse.RepoObject_SqlModules_20_statement_children to sqlparse.RepoObject_SqlModules_21_statement_children_helper--><path codeLine="40" d="M324.13,47.5 C342.15,47.5 360.58,47.5 378.77,47.5 " fill="none" id="sqlparse.RepoObject_SqlModules_20_statement_children-backto-sqlparse.RepoObject_SqlModules_21_statement_children_helper" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="319.06,47.5,328.06,51.5,324.06,47.5,328.06,43.5,319.06,47.5" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[87c0c90dc77e8ba2b001da29d891da17]
+reverse link sqlparse.RepoObject_SqlModules_21_statement_children_helper to sqlparse.RepoObject_SqlModules_31_object--><path codeLine="41" d="M735.33,47.5 C753.83,47.5 772.31,47.5 789.96,47.5 " fill="none" id="sqlparse.RepoObject_SqlModules_21_statement_children_helper-backto-sqlparse.RepoObject_SqlModules_31_object" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="730.11,47.5,739.11,51.5,735.11,47.5,739.11,43.5,730.11,47.5" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[8334965d4c5c9ebdca527c8230b0721d]
+@startuml
+left to right direction
+hide circle
+'avoide "." issues:
+set namespaceSeparator none
+
+
+skinparam class {
+  BackgroundColor White
+  BackgroundColor<<FN>> Yellow
+  BackgroundColor<<FS>> Yellow
+  BackgroundColor<<FT>> LightGray
+  BackgroundColor<<IF>> Yellow
+  BackgroundColor<<IS>> Yellow
+  BackgroundColor<<P>> Aqua
+  BackgroundColor<<PC>> Aqua
+  BackgroundColor<<SN>> Yellow
+  BackgroundColor<<SO>> SlateBlue
+  BackgroundColor<<TF>> LightGray
+  BackgroundColor<<TR>> Tomato
+  BackgroundColor<<U>> White
+  BackgroundColor<<V>> WhiteSmoke
+  BackgroundColor<<X>> Aqua
+}
+
+
+entity sqlparse.RepoObject_SqlModules_20_statement_children << V >> {
+  * **RepoObject_guid** : uniqueidentifier
+  * **json_key** : nvarchar(4000)
+}
+
+entity sqlparse.RepoObject_SqlModules_21_statement_children_helper << V >> {
+  * **RepoObject_guid** : uniqueidentifier
+  * **json_key** : nvarchar(4000)
+}
+
+entity sqlparse.RepoObject_SqlModules_31_object << V >> {
+  * **RepoObject_guid** : uniqueidentifier
+}
+
+sqlparse.RepoObject_SqlModules_20_statement_children <.. sqlparse.RepoObject_SqlModules_21_statement_children_helper
+sqlparse.RepoObject_SqlModules_21_statement_children_helper <.. sqlparse.RepoObject_SqlModules_31_object
+@enduml
+
+@startuml
+left to right direction
+hide circle
+set namespaceSeparator none
+
+
+skinparam class {
+  BackgroundColor White
+  BackgroundColor<<FN>> Yellow
+  BackgroundColor<<FS>> Yellow
+  BackgroundColor<<FT>> LightGray
+  BackgroundColor<<IF>> Yellow
+  BackgroundColor<<IS>> Yellow
+  BackgroundColor<<P>> Aqua
+  BackgroundColor<<PC>> Aqua
+  BackgroundColor<<SN>> Yellow
+  BackgroundColor<<SO>> SlateBlue
+  BackgroundColor<<TF>> LightGray
+  BackgroundColor<<TR>> Tomato
+  BackgroundColor<<U>> White
+  BackgroundColor<<V>> WhiteSmoke
+  BackgroundColor<<X>> Aqua
+}
+
+
+entity sqlparse.RepoObject_SqlModules_20_statement_children << V >> {
+  * **RepoObject_guid** : uniqueidentifier
+  * **json_key** : nvarchar(4000)
+}
+
+entity sqlparse.RepoObject_SqlModules_21_statement_children_helper << V >> {
+  * **RepoObject_guid** : uniqueidentifier
+  * **json_key** : nvarchar(4000)
+}
+
+entity sqlparse.RepoObject_SqlModules_31_object << V >> {
+  * **RepoObject_guid** : uniqueidentifier
+}
+
+sqlparse.RepoObject_SqlModules_20_statement_children <.. sqlparse.RepoObject_SqlModules_21_statement_children_helper
+sqlparse.RepoObject_SqlModules_21_statement_children_helper <.. sqlparse.RepoObject_SqlModules_31_object
+@enduml
+
+PlantUML version 1.2021.4(Sun Apr 04 08:49:39 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

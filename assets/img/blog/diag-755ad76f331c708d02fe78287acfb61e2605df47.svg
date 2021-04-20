@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="2317px" preserveAspectRatio="none" style="width:1533px;height:2317px;" version="1.1" viewBox="0 0 1533 2317" width="1533px" zoomAndPan="magnify"><defs><filter height="300%" id="f1rgcgiwm2yn8k" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[ce44fffbf267acea1df7059ac4332ee3]
+class reference.ftv_RepoObject_ColumReferenceRepoObject--><rect codeLine="26" fill="#FFFF00" filter="url(#f1rgcgiwm2yn8k)" height="54.8002" id="reference.ftv_RepoObject_ColumReferenceRepoObject" style="stroke:#A80036;stroke-width:1.5;" width="292" x="7" y="1717.5"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="20" x="143" y="1734.5001">«IF»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="286" x="10" y="1748.9002">reference.ftv_RepoObject_ColumReferenceRepoObject</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="298" y1="1756.3002" y2="1756.3002"/><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="298" y1="1764.3002" y2="1764.3002"/><!--MD5=[ad098525013976dc8a4e08fe49bc0026]
+class reference.RepoObjectColumn_reference_SqlModules--><rect codeLine="29" fill="#F5F5F5" filter="url(#f1rgcgiwm2yn8k)" height="107.5998" id="reference.RepoObjectColumn_reference_SqlModules" style="stroke:#A80036;stroke-width:1.5;" width="281" x="348.5" y="1261"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="18" x="480" y="1278.0001">«V»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="275" x="351.5" y="1292.4002">reference.RepoObjectColumn_reference_SqlModules</text><line style="stroke:#A80036;stroke-width:1.5;" x1="349.5" x2="628.5" y1="1299.8002" y2="1299.8002"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="76" x="354.5" y="1314.8001">referencing_id</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="17" x="433.5" y="1314.8001">: int</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="113" x="354.5" y="1328">referencing_minor_id</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="17" x="470.5" y="1328">: int</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="72" x="354.5" y="1341.1999">referenced_id</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="17" x="429.5" y="1341.1999">: int</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="109" x="354.5" y="1354.3998">referenced_minor_id</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="17" x="466.5" y="1354.3998">: int</text><line style="stroke:#A80036;stroke-width:1.5;" x1="349.5" x2="628.5" y1="1360.5998" y2="1360.5998"/><!--MD5=[09a4e05c0df69c899f9c1d3c0d8ea1f4]
+class reference.RepoObjectColumn_reference_union--><rect codeLine="36" fill="#F5F5F5" filter="url(#f1rgcgiwm2yn8k)" height="54.8002" id="reference.RepoObjectColumn_reference_union" style="stroke:#A80036;stroke-width:1.5;" width="246" x="366" y="1429"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="18" x="480" y="1446.0001">«V»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="240" x="369" y="1460.4002">reference.RepoObjectColumn_reference_union</text><line style="stroke:#A80036;stroke-width:1.5;" x1="367" x2="611" y1="1467.8002" y2="1467.8002"/><line style="stroke:#A80036;stroke-width:1.5;" x1="367" x2="611" y1="1475.8002" y2="1475.8002"/><!--MD5=[25ad608f226952f04dc13c0988867925]
+class reference.RepoObjectColumn_RelationScript--><rect codeLine="39" fill="#F5F5F5" filter="url(#f1rgcgiwm2yn8k)" height="54.8002" id="reference.RepoObjectColumn_RelationScript" style="stroke:#A80036;stroke-width:1.5;" width="239" x="46.5" y="1563.5"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="18" x="157" y="1580.5001">«V»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="233" x="49.5" y="1594.9002">reference.RepoObjectColumn_RelationScript</text><line style="stroke:#A80036;stroke-width:1.5;" x1="47.5" x2="284.5" y1="1602.3002" y2="1602.3002"/><line style="stroke:#A80036;stroke-width:1.5;" x1="47.5" x2="284.5" y1="1610.3002" y2="1610.3002"/><!--MD5=[642d7fce0825fb4e01c9d57db2c25554]
+class repo.check_IndexColumn_virtual_referenced_setpoint--><rect codeLine="42" fill="#F5F5F5" filter="url(#f1rgcgiwm2yn8k)" height="81.2" id="repo.check_IndexColumn_virtual_referenced_setpoint" style="stroke:#A80036;stroke-width:1.5;" width="284" x="720" y="1993"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="18" x="853" y="2010.0001">«V»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="278" x="723" y="2024.4002">repo.check_IndexColumn_virtual_referenced_setpoint</text><line style="stroke:#A80036;stroke-width:1.5;" x1="721" x2="1003" y1="2031.8002" y2="2031.8002"/><ellipse cx="731" cy="2042.8002" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="59" x="740" y="2046.8001">index_guid</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="78" x="802" y="2046.8001">: uniqueidentifier</text><ellipse cx="731" cy="2056.0001" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="91" x="740" y="2060">index_column_id</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="17" x="834" y="2060">: int</text><line style="stroke:#A80036;stroke-width:1.5;" x1="721" x2="1003" y1="2066.2" y2="2066.2"/><!--MD5=[cf435beb00eba7825c1150f6f18b510c]
+class repo.Index_referencing_IndexPatternColumnGuid--><rect codeLine="47" fill="#F5F5F5" filter="url(#f1rgcgiwm2yn8k)" height="81.2" id="repo.Index_referencing_IndexPatternColumnGuid" style="stroke:#A80036;stroke-width:1.5;" width="261" x="1215.5" y="1852"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="18" x="1337" y="1869.0001">«V»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="255" x="1218.5" y="1883.4002">repo.Index_referencing_IndexPatternColumnGuid</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1216.5" x2="1475.5" y1="1890.8002" y2="1890.8002"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="101" x="1221.5" y="1905.8001">source_index_guid</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="78" x="1325.5" y="1905.8001">: uniqueidentifier</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="159" x="1221.5" y="1919">referencing_RepoObject_guid</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="78" x="1383.5" y="1919">: uniqueidentifier</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1216.5" x2="1475.5" y1="1925.2" y2="1925.2"/><!--MD5=[60cc25b40228486f4f3d89540c83ff64]
+class repo.IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing--><rect codeLine="52" fill="#F5F5F5" filter="url(#f1rgcgiwm2yn8k)" height="94.3999" id="repo.IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing" style="stroke:#A80036;stroke-width:1.5;" width="393" x="430.5" y="1544"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="18" x="618" y="1561.0001">«V»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="387" x="433.5" y="1575.4002">repo.IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing</text><line style="stroke:#A80036;stroke-width:1.5;" x1="431.5" x2="822.5" y1="1582.8002" y2="1582.8002"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="59" x="450.5" y="1597.8001">index_guid</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="78" x="512.5" y="1597.8001">: uniqueidentifier</text><ellipse cx="441.5" cy="1607.0001" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="91" x="450.5" y="1611">index_column_id</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="17" x="544.5" y="1611">: int</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="140" x="450.5" y="1624.1999">RowNumberInReferencing</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="31" x="593.5" y="1624.1999">: bigint</text><line style="stroke:#A80036;stroke-width:1.5;" x1="431.5" x2="822.5" y1="1630.3999" y2="1630.3999"/><!--MD5=[3a6fc997557acf2b40a51bf093e91e5e]
+class repo.IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing_T--><rect codeLine="58" fill="#FFFFFF" filter="url(#f1rgcgiwm2yn8k)" height="94.3999" id="repo.IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing_T" style="stroke:#A80036;stroke-width:1.5;" width="408" x="853" y="1698"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="19" x="1047.5" y="1715.0001">«U»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="402" x="856" y="1729.4002">repo.IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing_T</text><line style="stroke:#A80036;stroke-width:1.5;" x1="854" x2="1260" y1="1736.8002" y2="1736.8002"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="59" x="873" y="1751.8001">index_guid</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="78" x="935" y="1751.8001">: uniqueidentifier</text><ellipse cx="864" cy="1761.0001" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="91" x="873" y="1765">index_column_id</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="17" x="967" y="1765">: int</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="140" x="873" y="1778.1999">RowNumberInReferencing</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="31" x="1016" y="1778.1999">: bigint</text><line style="stroke:#A80036;stroke-width:1.5;" x1="854" x2="1260" y1="1784.3999" y2="1784.3999"/><!--MD5=[b92d5c5894dc206fa9c4b0b0b677b232]
+class repo.IndexColumn_virtual_referenced_setpoint--><rect codeLine="64" fill="#F5F5F5" filter="url(#f1rgcgiwm2yn8k)" height="81.2" id="repo.IndexColumn_virtual_referenced_setpoint" style="stroke:#A80036;stroke-width:1.5;" width="247" x="933.5" y="1852"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="18" x="1048" y="1869.0001">«V»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="241" x="936.5" y="1883.4002">repo.IndexColumn_virtual_referenced_setpoint</text><line style="stroke:#A80036;stroke-width:1.5;" x1="934.5" x2="1179.5" y1="1890.8002" y2="1890.8002"/><ellipse cx="944.5" cy="1901.8002" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="59" x="953.5" y="1905.8001">index_guid</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="78" x="1015.5" y="1905.8001">: uniqueidentifier</text><ellipse cx="944.5" cy="1915.0001" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="91" x="953.5" y="1919">index_column_id</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="17" x="1047.5" y="1919">: int</text><line style="stroke:#A80036;stroke-width:1.5;" x1="934.5" x2="1179.5" y1="1925.2" y2="1925.2"/><!--MD5=[3334c2be86d14e7b53e22736a824957e]
+class repo.IndexReferencedReferencing_HasFullColumnsInReferencing--><rect codeLine="69" fill="#F5F5F5" filter="url(#f1rgcgiwm2yn8k)" height="54.8002" id="repo.IndexReferencedReferencing_HasFullColumnsInReferencing" style="stroke:#A80036;stroke-width:1.5;" width="346" x="1173" y="2006"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="18" x="1337" y="2023.0001">«V»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="340" x="1176" y="2037.4002">repo.IndexReferencedReferencing_HasFullColumnsInReferencing</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1174" x2="1518" y1="2044.8002" y2="2044.8002"/><line style="stroke:#A80036;stroke-width:1.5;" x1="1174" x2="1518" y1="2052.8002" y2="2052.8002"/><!--MD5=[90e0556dcb66c98bedd3b58615953f00]
+class repo.RepoObjectColumn_MissingSource_TypeV--><rect codeLine="72" fill="#F5F5F5" filter="url(#f1rgcgiwm2yn8k)" height="68.0001" id="repo.RepoObjectColumn_MissingSource_TypeV" style="stroke:#A80036;stroke-width:1.5;" width="260" x="859" y="1557"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="18" x="980" y="1574.0001">«V»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="254" x="862" y="1588.4002">repo.RepoObjectColumn_MissingSource_TypeV</text><line style="stroke:#A80036;stroke-width:1.5;" x1="860" x2="1118" y1="1595.8002" y2="1595.8002"/><ellipse cx="870" cy="1606.8002" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="135" x="879" y="1610.8001">RepoObjectColumn_guid</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="78" x="1017" y="1610.8001">: uniqueidentifier</text><line style="stroke:#A80036;stroke-width:1.5;" x1="860" x2="1118" y1="1617.0001" y2="1617.0001"/><!--MD5=[41c92b7e9ea902507dcc75772e6d8599]
+class repo.usp_index_inheritance--><rect codeLine="76" fill="#00FFFF" filter="url(#f1rgcgiwm2yn8k)" height="54.8002" id="repo.usp_index_inheritance" style="stroke:#A80036;stroke-width:1.5;" width="149" x="786.5" y="2134"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="18" x="852" y="2151.0001">«P»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="143" x="789.5" y="2165.4002">repo.usp_index_inheritance</text><line style="stroke:#A80036;stroke-width:1.5;" x1="787.5" x2="934.5" y1="2172.8002" y2="2172.8002"/><line style="stroke:#A80036;stroke-width:1.5;" x1="787.5" x2="934.5" y1="2180.8002" y2="2180.8002"/><!--MD5=[4452eacb8c1804d4dea234bf1d108de9]
+class repo.usp_main--><rect codeLine="79" fill="#00FFFF" filter="url(#f1rgcgiwm2yn8k)" height="54.8002" id="repo.usp_main" style="stroke:#A80036;stroke-width:1.5;" width="84" x="460" y="2249"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="18" x="493" y="2266.0001">«P»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="78" x="463" y="2280.4002">repo.usp_main</text><line style="stroke:#A80036;stroke-width:1.5;" x1="461" x2="543" y1="2287.8002" y2="2287.8002"/><line style="stroke:#A80036;stroke-width:1.5;" x1="461" x2="543" y1="2295.8002" y2="2295.8002"/><!--MD5=[446404422e9a0d4d9be89f3b66720bec]
+class repo.usp_PERSIST_IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing_T--><rect codeLine="82" fill="#00FFFF" filter="url(#f1rgcgiwm2yn8k)" height="54.8002" id="repo.usp_PERSIST_IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing_T" style="stroke:#A80036;stroke-width:1.5;" width="493" x="405.5" y="1865"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="18" x="643" y="1882.0001">«P»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="487" x="408.5" y="1896.4002">repo.usp_PERSIST_IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing_T</text><line style="stroke:#A80036;stroke-width:1.5;" x1="406.5" x2="897.5" y1="1903.8002" y2="1903.8002"/><line style="stroke:#A80036;stroke-width:1.5;" x1="406.5" x2="897.5" y1="1911.8002" y2="1911.8002"/><!--MD5=[00f3b763cf1fe15773e41f9a66abdfc0]
+class sqlparse.RepoObject_SqlModules_21_statement_children_helper--><rect codeLine="85" fill="#F5F5F5" filter="url(#f1rgcgiwm2yn8k)" height="81.2" id="sqlparse.RepoObject_SqlModules_21_statement_children_helper" style="stroke:#A80036;stroke-width:1.5;" width="351" x="610.5" y="7"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="18" x="777" y="24.0001">«V»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="345" x="613.5" y="38.4002">sqlparse.RepoObject_SqlModules_21_statement_children_helper</text><line style="stroke:#A80036;stroke-width:1.5;" x1="611.5" x2="960.5" y1="45.8002" y2="45.8002"/><ellipse cx="621.5" cy="56.8002" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="93" x="630.5" y="60.8001">RepoObject_guid</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="78" x="726.5" y="60.8001">: uniqueidentifier</text><line style="stroke:#A80036;stroke-width:1.5;" x1="611.5" x2="960.5" y1="67.0001" y2="67.0001"/><ellipse cx="621.5" cy="78.0001" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="47" x="630.5" y="82">json_key</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="81" x="680.5" y="82">: nvarchar(4000)</text><!--MD5=[7e008c8eb8b850f7614a22fe1ecd2e25]
+class sqlparse.RepoObject_SqlModules_31_object--><rect codeLine="90" fill="#F5F5F5" filter="url(#f1rgcgiwm2yn8k)" height="68.0001" id="sqlparse.RepoObject_SqlModules_31_object" style="stroke:#A80036;stroke-width:1.5;" width="245" x="663.5" y="148"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="18" x="777" y="165.0001">«V»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="239" x="666.5" y="179.4002">sqlparse.RepoObject_SqlModules_31_object</text><line style="stroke:#A80036;stroke-width:1.5;" x1="664.5" x2="907.5" y1="186.8002" y2="186.8002"/><ellipse cx="674.5" cy="197.8002" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="93" x="683.5" y="201.8001">RepoObject_guid</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="78" x="779.5" y="201.8001">: uniqueidentifier</text><line style="stroke:#A80036;stroke-width:1.5;" x1="664.5" x2="907.5" y1="208.0001" y2="208.0001"/><!--MD5=[08d603a365aaf7b244abf654b87ecfb6]
+class sqlparse.RepoObject_SqlModules_39_object--><rect codeLine="94" fill="#F5F5F5" filter="url(#f1rgcgiwm2yn8k)" height="68.0001" id="sqlparse.RepoObject_SqlModules_39_object" style="stroke:#A80036;stroke-width:1.5;" width="245" x="663.5" y="276"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="18" x="777" y="293.0001">«V»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="239" x="666.5" y="307.4002">sqlparse.RepoObject_SqlModules_39_object</text><line style="stroke:#A80036;stroke-width:1.5;" x1="664.5" x2="907.5" y1="314.8002" y2="314.8002"/><ellipse cx="674.5" cy="325.8002" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="93" x="683.5" y="329.8001">RepoObject_guid</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="78" x="779.5" y="329.8001">: uniqueidentifier</text><line style="stroke:#A80036;stroke-width:1.5;" x1="664.5" x2="907.5" y1="336.0001" y2="336.0001"/><!--MD5=[4f0994c2cef17ea9c56a4639f0898a97]
+class sqlparse.RepoObject_SqlModules_41_from--><rect codeLine="98" fill="#F5F5F5" filter="url(#f1rgcgiwm2yn8k)" height="81.2" id="sqlparse.RepoObject_SqlModules_41_from" style="stroke:#A80036;stroke-width:1.5;" width="237" x="556.5" y="404"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="18" x="666" y="421.0001">«V»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="231" x="559.5" y="435.4002">sqlparse.RepoObject_SqlModules_41_from</text><line style="stroke:#A80036;stroke-width:1.5;" x1="557.5" x2="792.5" y1="442.8002" y2="442.8002"/><ellipse cx="567.5" cy="453.8002" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="93" x="576.5" y="457.8001">RepoObject_guid</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="78" x="672.5" y="457.8001">: uniqueidentifier</text><line style="stroke:#A80036;stroke-width:1.5;" x1="557.5" x2="792.5" y1="464.0001" y2="464.0001"/><ellipse cx="567.5" cy="475.0001" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="47" x="576.5" y="479">json_key</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="81" x="626.5" y="479">: nvarchar(4000)</text><!--MD5=[04c2494322e11d3f81ac92acfa2a96ad]
+class sqlparse.RepoObject_SqlModules_41_from_T--><rect codeLine="103" fill="#FFFFFF" filter="url(#f1rgcgiwm2yn8k)" height="81.2" id="sqlparse.RepoObject_SqlModules_41_from_T" style="stroke:#A80036;stroke-width:1.5;" width="252" x="370" y="545"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="19" x="486.5" y="562.0001">«U»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="246" x="373" y="576.4002">sqlparse.RepoObject_SqlModules_41_from_T</text><line style="stroke:#A80036;stroke-width:1.5;" x1="371" x2="621" y1="583.8002" y2="583.8002"/><ellipse cx="381" cy="594.8002" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="93" x="390" y="598.8001">RepoObject_guid</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="78" x="486" y="598.8001">: uniqueidentifier</text><line style="stroke:#A80036;stroke-width:1.5;" x1="371" x2="621" y1="605.0001" y2="605.0001"/><ellipse cx="381" cy="616.0001" fill="#000000" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="47" x="390" y="620">json_key</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="81" x="440" y="620">: nvarchar(4000)</text><!--MD5=[fe904106a24f0d9ca502131dd095ea84]
+class sqlparse.RepoObject_SqlModules_42_from_Identifier--><rect codeLine="108" fill="#F5F5F5" filter="url(#f1rgcgiwm2yn8k)" height="54.8002" id="sqlparse.RepoObject_SqlModules_42_from_Identifier" style="stroke:#A80036;stroke-width:1.5;" width="288" x="158" y="686"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="18" x="293" y="703.0001">«V»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="282" x="161" y="717.4002">sqlparse.RepoObject_SqlModules_42_from_Identifier</text><line style="stroke:#A80036;stroke-width:1.5;" x1="159" x2="445" y1="724.8002" y2="724.8002"/><line style="stroke:#A80036;stroke-width:1.5;" x1="159" x2="445" y1="732.8002" y2="732.8002"/><!--MD5=[e6888d09a40829cdafc144baeadff9ba]
+class sqlparse.RepoObject_SqlModules_43_from_Identifier--><rect codeLine="111" fill="#F5F5F5" filter="url(#f1rgcgiwm2yn8k)" height="54.8002" id="sqlparse.RepoObject_SqlModules_43_from_Identifier" style="stroke:#A80036;stroke-width:1.5;" width="288" x="158" y="801"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="18" x="293" y="818.0001">«V»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="282" x="161" y="832.4002">sqlparse.RepoObject_SqlModules_43_from_Identifier</text><line style="stroke:#A80036;stroke-width:1.5;" x1="159" x2="445" y1="839.8002" y2="839.8002"/><line style="stroke:#A80036;stroke-width:1.5;" x1="159" x2="445" y1="847.8002" y2="847.8002"/><!--MD5=[9cebd01e9dffdbe27dbbb1a894a986c8]
+class sqlparse.RepoObject_SqlModules_44_from_Identifier_QuoteName--><rect codeLine="114" fill="#F5F5F5" filter="url(#f1rgcgiwm2yn8k)" height="54.8002" id="sqlparse.RepoObject_SqlModules_44_from_Identifier_QuoteName" style="stroke:#A80036;stroke-width:1.5;" width="357" x="123.5" y="916"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="18" x="293" y="933.0001">«V»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="351" x="126.5" y="947.4002">sqlparse.RepoObject_SqlModules_44_from_Identifier_QuoteName</text><line style="stroke:#A80036;stroke-width:1.5;" x1="124.5" x2="479.5" y1="954.8002" y2="954.8002"/><line style="stroke:#A80036;stroke-width:1.5;" x1="124.5" x2="479.5" y1="962.8002" y2="962.8002"/><!--MD5=[7dd30c344223c794619545e9723b0cd1]
+class sqlparse.RepoObject_SqlModules_61_SelectIdentifier_Union--><rect codeLine="117" fill="#F5F5F5" filter="url(#f1rgcgiwm2yn8k)" height="54.8002" id="sqlparse.RepoObject_SqlModules_61_SelectIdentifier_Union" style="stroke:#A80036;stroke-width:1.5;" width="327" x="708.5" y="801"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="18" x="863" y="818.0001">«V»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="321" x="711.5" y="832.4002">sqlparse.RepoObject_SqlModules_61_SelectIdentifier_Union</text><line style="stroke:#A80036;stroke-width:1.5;" x1="709.5" x2="1034.5" y1="839.8002" y2="839.8002"/><line style="stroke:#A80036;stroke-width:1.5;" x1="709.5" x2="1034.5" y1="847.8002" y2="847.8002"/><!--MD5=[29ce3b4220c7c3af11d97f32dc472147]
+class sqlparse.RepoObject_SqlModules_61_SelectIdentifier_Union_T--><rect codeLine="120" fill="#FFFFFF" filter="url(#f1rgcgiwm2yn8k)" height="54.8002" id="sqlparse.RepoObject_SqlModules_61_SelectIdentifier_Union_T" style="stroke:#A80036;stroke-width:1.5;" width="342" x="609" y="916"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="19" x="770.5" y="933.0001">«U»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="336" x="612" y="947.4002">sqlparse.RepoObject_SqlModules_61_SelectIdentifier_Union_T</text><line style="stroke:#A80036;stroke-width:1.5;" x1="610" x2="950" y1="954.8002" y2="954.8002"/><line style="stroke:#A80036;stroke-width:1.5;" x1="610" x2="950" y1="962.8002" y2="962.8002"/><!--MD5=[b3f4fff3cd64509e6ccf8bc2d57edc2a]
+class sqlparse.RepoObject_SqlModules_71_reference_ExpliciteTableAlias--><rect codeLine="123" fill="#F5F5F5" filter="url(#f1rgcgiwm2yn8k)" height="54.8002" id="sqlparse.RepoObject_SqlModules_71_reference_ExpliciteTableAlias" style="stroke:#A80036;stroke-width:1.5;" width="371" x="108.5" y="1031"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="18" x="285" y="1048.0001">«V»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="365" x="111.5" y="1062.4002">sqlparse.RepoObject_SqlModules_71_reference_ExpliciteTableAlias</text><line style="stroke:#A80036;stroke-width:1.5;" x1="109.5" x2="478.5" y1="1069.8002" y2="1069.8002"/><line style="stroke:#A80036;stroke-width:1.5;" x1="109.5" x2="478.5" y1="1077.8002" y2="1077.8002"/><!--MD5=[3439881e8df4160d3bbae330ae283d7f]
+class sqlparse.RepoObject_SqlModules_72_reference_NoTableAlias--><rect codeLine="126" fill="#F5F5F5" filter="url(#f1rgcgiwm2yn8k)" height="54.8002" id="sqlparse.RepoObject_SqlModules_72_reference_NoTableAlias" style="stroke:#A80036;stroke-width:1.5;" width="341" x="514.5" y="1031"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="18" x="676" y="1048.0001">«V»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="335" x="517.5" y="1062.4002">sqlparse.RepoObject_SqlModules_72_reference_NoTableAlias</text><line style="stroke:#A80036;stroke-width:1.5;" x1="515.5" x2="854.5" y1="1069.8002" y2="1069.8002"/><line style="stroke:#A80036;stroke-width:1.5;" x1="515.5" x2="854.5" y1="1077.8002" y2="1077.8002"/><!--MD5=[cd911e368e85df119f7b3eb641bd79cd]
+class sqlparse.RepoObject_SqlModules_79_reference_union--><rect codeLine="129" fill="#F5F5F5" filter="url(#f1rgcgiwm2yn8k)" height="54.8002" id="sqlparse.RepoObject_SqlModules_79_reference_union" style="stroke:#A80036;stroke-width:1.5;" width="295" x="341.5" y="1146"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="18" x="480" y="1163.0001">«V»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="289" x="344.5" y="1177.4002">sqlparse.RepoObject_SqlModules_79_reference_union</text><line style="stroke:#A80036;stroke-width:1.5;" x1="342.5" x2="635.5" y1="1184.8002" y2="1184.8002"/><line style="stroke:#A80036;stroke-width:1.5;" x1="342.5" x2="635.5" y1="1192.8002" y2="1192.8002"/><!--MD5=[0df4a528a342327fdbcb062520bbcda8]
+class sqlparse.usp_PERSIST_RepoObject_SqlModules_41_from_T--><rect codeLine="132" fill="#00FFFF" filter="url(#f1rgcgiwm2yn8k)" height="54.8002" id="sqlparse.usp_PERSIST_RepoObject_SqlModules_41_from_T" style="stroke:#A80036;stroke-width:1.5;" width="337" x="481.5" y="686"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="18" x="641" y="703.0001">«P»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="331" x="484.5" y="717.4002">sqlparse.usp_PERSIST_RepoObject_SqlModules_41_from_T</text><line style="stroke:#A80036;stroke-width:1.5;" x1="482.5" x2="817.5" y1="724.8002" y2="724.8002"/><line style="stroke:#A80036;stroke-width:1.5;" x1="482.5" x2="817.5" y1="732.8002" y2="732.8002"/><!--MD5=[e7da71c04ce1fd831b2ca7bcd552aba0]
+class sqlparse.usp_PERSIST_RepoObject_SqlModules_61_SelectIdentifier_Union_T--><rect codeLine="135" fill="#00FFFF" filter="url(#f1rgcgiwm2yn8k)" height="54.8002" id="sqlparse.usp_PERSIST_RepoObject_SqlModules_61_SelectIdentifier_Union_T" style="stroke:#A80036;stroke-width:1.5;" width="427" x="890.5" y="1031"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="18" x="1095" y="1048.0001">«P»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="421" x="893.5" y="1062.4002">sqlparse.usp_PERSIST_RepoObject_SqlModules_61_SelectIdentifier_Union_T</text><line style="stroke:#A80036;stroke-width:1.5;" x1="891.5" x2="1316.5" y1="1069.8002" y2="1069.8002"/><line style="stroke:#A80036;stroke-width:1.5;" x1="891.5" x2="1316.5" y1="1077.8002" y2="1077.8002"/><!--MD5=[c2bed9f2826a81c75958d9cde937e43f]
+reverse link reference.RepoObjectColumn_reference_SqlModules to reference.RepoObjectColumn_reference_union--><path codeLine="138" d="M489,1374.42 C489,1393.26 489,1413.24 489,1428.65 " fill="none" id="reference.RepoObjectColumn_reference_SqlModules-backto-reference.RepoObjectColumn_reference_union" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="489,1369.14,485,1378.14,489,1374.14,493,1378.14,489,1369.14" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[498ec91695a478db085b2039988e7a0f]
+reverse link reference.RepoObjectColumn_reference_union to repo.IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing--><path codeLine="139" d="M520.76,1488 C538.02,1504.57 559.72,1525.4 578.99,1543.91 " fill="none" id="reference.RepoObjectColumn_reference_union-backto-repo.IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="516.93,1484.31,520.6501,1493.4293,520.5361,1487.7735,526.1918,1487.6595,516.93,1484.31" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[f6e27473590d424903d8b82687c49d0a]
+reverse link reference.RepoObjectColumn_reference_union to repo.RepoObjectColumn_MissingSource_TypeV--><path codeLine="140" d="M609.27,1485.16 C677.5,1501.32 764.32,1522.68 841,1544 C855.39,1548 870.49,1552.43 885.33,1556.91 " fill="none" id="reference.RepoObjectColumn_reference_union-backto-repo.RepoObjectColumn_MissingSource_TypeV" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="604.39,1484,612.218,1489.9768,609.2539,1485.1587,614.072,1482.1946,604.39,1484" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[cf9f0a31241b9387e21f989ff2d97cbd]
+reverse link reference.RepoObjectColumn_reference_union to repo.usp_main--><path codeLine="141" d="M456.21,1488.21 C441.26,1503.72 424.39,1523.56 413,1544 C367.76,1625.18 352,1651.07 352,1744 C352,1744 352,1744 352,2034.5 C352,2123.95 427.4,2207.7 471.28,2248.87 " fill="none" id="reference.RepoObjectColumn_reference_union-backto-repo.usp_main" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="459.97,1484.36,450.8285,1488.0252,456.4848,1487.9452,456.5648,1493.6015,459.97,1484.36" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[9e108f455e62a9a75bb6ef3e814f237c]
+reverse link reference.RepoObjectColumn_reference_union to reference.RepoObjectColumn_RelationScript--><path codeLine="142" d="M419.36,1486.07 C363.44,1509.01 285.49,1540.98 230.87,1563.39 " fill="none" id="reference.RepoObjectColumn_reference_union-backto-reference.RepoObjectColumn_RelationScript" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="424.02,1484.15,414.1752,1483.8673,419.3945,1486.0487,417.2132,1491.2681,424.02,1484.15" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[3b87e24aed9eef539f5c366cb829416b]
+reverse link reference.RepoObjectColumn_RelationScript to reference.ftv_RepoObject_ColumReferenceRepoObject--><path codeLine="143" d="M163.28,1623.86 C160.9,1651.61 157.5,1691.38 155.27,1717.44 " fill="none" id="reference.RepoObjectColumn_RelationScript-backto-reference.ftv_RepoObject_ColumReferenceRepoObject" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="163.71,1618.82,158.9518,1627.4432,163.2806,1623.8015,166.9222,1628.1303,163.71,1618.82" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[6057052c453df2c594a37a633735b75c]
+reverse link repo.Index_referencing_IndexPatternColumnGuid to repo.IndexReferencedReferencing_HasFullColumnsInReferencing--><path codeLine="144" d="M1346,1938.6 C1346,1960.82 1346,1986.85 1346,2005.86 " fill="none" id="repo.Index_referencing_IndexPatternColumnGuid-backto-repo.IndexReferencedReferencing_HasFullColumnsInReferencing" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="1346,1933.33,1342,1942.33,1346,1938.33,1350,1942.33,1346,1933.33" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[c94e1b61b3f9b0f97959d826e6ffe033]
+reverse link repo.IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing to repo.IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing_T--><path codeLine="145" d="M761.92,1639.69 C814.45,1658.26 874.42,1679.46 926.52,1697.88 " fill="none" id="repo.IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing-backto-repo.IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing_T" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="757.18,1638.02,764.326,1644.7975,761.8926,1639.6908,766.9993,1637.2574,757.18,1638.02" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[a84844d03d343e0ea406b1d90800e948]
+reverse link repo.IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing to repo.usp_PERSIST_IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing_T--><path codeLine="146" d="M631.3,1643.46 C636.66,1707.74 645.64,1815.29 649.78,1864.92 " fill="none" id="repo.IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing-backto-repo.usp_PERSIST_IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing_T" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="630.85,1638.14,627.609,1647.4403,631.264,1643.1228,635.5815,1646.7779,630.85,1638.14" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[0d8b3370c0ff496c77fad6c57fd93c2c]
+reverse link repo.IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing_T to repo.usp_PERSIST_IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing_T--><path codeLine="147" d="M924.13,1793.73 C858.29,1817.39 781.26,1845.06 725.99,1864.92 " fill="none" id="repo.IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing_T-backto-repo.usp_PERSIST_IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing_T" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="928.86,1792.04,919.038,1791.3133,924.1536,1793.728,921.7388,1798.8436,928.86,1792.04" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[80e59d7b75c9d9930727740ddec23303]
+reverse link repo.IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing_T to repo.IndexReferencedReferencing_HasFullColumnsInReferencing--><path codeLine="148" d="M1266.21,1771.88 C1363.62,1788.66 1464.52,1814.51 1494,1852 C1516.25,1880.3 1510.93,1901.23 1494,1933 C1476.53,1965.79 1442.92,1989.7 1412.14,2005.86 " fill="none" id="repo.IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing_T-backto-repo.IndexReferencedReferencing_HasFullColumnsInReferencing" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="1261.28,1771.04,1269.4769,1776.4999,1266.2085,1771.8828,1270.8255,1768.6143,1261.28,1771.04" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[abe63644c823863ae2791fabcfc1dda3]
+reverse link repo.IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing_T to repo.IndexColumn_virtual_referenced_setpoint--><path codeLine="149" d="M1057,1797.49 C1057,1815.28 1057,1834.93 1057,1851.65 " fill="none" id="repo.IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing_T-backto-repo.IndexColumn_virtual_referenced_setpoint" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="1057,1792.04,1053,1801.04,1057,1797.04,1061,1801.04,1057,1792.04" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[51ae9b9ca9a82d2a271472181ce33127]
+reverse link repo.IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing_T to repo.Index_referencing_IndexPatternColumnGuid--><path codeLine="150" d="M1152.94,1794.3 C1190.06,1812.99 1232.02,1834.12 1267.32,1851.89 " fill="none" id="repo.IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing_T-backto-repo.Index_referencing_IndexPatternColumnGuid" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="1148.44,1792.04,1154.6913,1799.6506,1152.9093,1794.2818,1158.2781,1792.4998,1148.44,1792.04" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[f48ada4fb8f36b5c1b2cbe6eb815a9e6]
+reverse link repo.IndexColumn_virtual_referenced_setpoint to repo.check_IndexColumn_virtual_referenced_setpoint--><path codeLine="151" d="M997.04,1936.24 C971.75,1954.27 942.5,1975.12 917.69,1992.8 " fill="none" id="repo.IndexColumn_virtual_referenced_setpoint-backto-repo.check_IndexColumn_virtual_referenced_setpoint" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="1001.38,1933.15,991.7334,1935.1358,997.3142,1936.0602,996.3898,1941.641,1001.38,1933.15" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[ad3515a1ee9311bb3e3738d19d5387b7]
+reverse link repo.IndexColumn_virtual_referenced_setpoint to repo.usp_index_inheritance--><path codeLine="152" d="M1058.63,1938.45 C1057.81,1977.79 1050.98,2034.64 1022,2074 C1000.74,2102.87 966.88,2123.11 935.69,2136.71 " fill="none" id="repo.IndexColumn_virtual_referenced_setpoint-backto-repo.usp_index_inheritance" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="1058.7,1933.26,1054.5463,1942.1901,1058.6143,1938.2593,1062.5451,1942.3272,1058.7,1933.26" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[4b4fa44ddee697a60226de14dfa499e2]
+reverse link repo.IndexReferencedReferencing_HasFullColumnsInReferencing to repo.usp_index_inheritance--><path codeLine="153" d="M1238.84,2062.34 C1146.94,2086.22 1016.88,2120 935.81,2141.06 " fill="none" id="repo.IndexReferencedReferencing_HasFullColumnsInReferencing-backto-repo.usp_index_inheritance" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="1243.74,2061.07,1234.0237,2059.4597,1238.9004,2062.3263,1236.0338,2067.203,1243.74,2061.07" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[1dacdf4811700a7af5288268cb5220df]
+reverse link repo.usp_index_inheritance to repo.usp_main--><path codeLine="154" d="M781.4,2187.55 C708.15,2210.61 602.32,2243.92 544.19,2262.22 " fill="none" id="repo.usp_index_inheritance-backto-repo.usp_main" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="786.18,2186.05,776.3947,2184.9332,781.4101,2187.5495,778.7939,2192.565,786.18,2186.05" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[15326a46f8797950915db140b6bf4387]
+reverse link repo.usp_PERSIST_IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing_T to repo.usp_index_inheritance--><path codeLine="155" d="M653.42,1925.37 C656.68,1964.32 667.35,2030.39 702,2074 C723.6,2101.19 756.18,2121.02 786.23,2134.78 " fill="none" id="repo.usp_PERSIST_IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing_T-backto-repo.usp_index_inheritance" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="653.02,1920.3,649.7261,1929.5817,653.4057,1925.2851,657.7023,1928.9647,653.02,1920.3" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[87c0c90dc77e8ba2b001da29d891da17]
+reverse link sqlparse.RepoObject_SqlModules_21_statement_children_helper to sqlparse.RepoObject_SqlModules_31_object--><path codeLine="156" d="M786,93.7 C786,111.5 786,131.57 786,147.97 " fill="none" id="sqlparse.RepoObject_SqlModules_21_statement_children_helper-backto-sqlparse.RepoObject_SqlModules_31_object" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="786,88.25,782,97.25,786,93.25,790,97.25,786,88.25" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[eab9651cb2f84114125a34374d544cf4]
+reverse link sqlparse.RepoObject_SqlModules_31_object to sqlparse.RepoObject_SqlModules_39_object--><path codeLine="157" d="M786,221.38 C786,238.71 786,259 786,275.68 " fill="none" id="sqlparse.RepoObject_SqlModules_31_object-backto-sqlparse.RepoObject_SqlModules_39_object" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="786,216.11,782.0257,225.1214,786.0143,221.11,790.0257,225.0985,786,216.11" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[97e8e96300c4172046ffa806737a2676]
+reverse link sqlparse.RepoObject_SqlModules_39_object to sqlparse.RepoObject_SqlModules_41_from--><path codeLine="158" d="M755.03,347.97 C740.48,365.33 723.12,386.06 708.3,403.75 " fill="none" id="sqlparse.RepoObject_SqlModules_39_object-backto-sqlparse.RepoObject_SqlModules_41_from" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="758.28,344.09,749.4375,348.4271,755.0721,347.9253,755.5739,353.5598,758.28,344.09" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[6245d10c83bc71d5522385864b071621]
+reverse link sqlparse.RepoObject_SqlModules_39_object to sqlparse.RepoObject_SqlModules_61_SelectIdentifier_Union--><path codeLine="159" d="M797.43,349.41 C802.11,366.08 807.28,385.89 811,404 C841.53,552.43 862.14,733.23 869.25,800.55 " fill="none" id="sqlparse.RepoObject_SqlModules_39_object-backto-sqlparse.RepoObject_SqlModules_61_SelectIdentifier_Union" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="796,344.35,794.5995,354.0988,797.3604,349.1614,802.2978,351.9222,796,344.35" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[eda5afe36a35debc3074e1d8eff8fdb8]
+reverse link sqlparse.RepoObject_SqlModules_41_from to sqlparse.RepoObject_SqlModules_41_from_T--><path codeLine="160" d="M619.72,488.43 C596.52,506.44 569.71,527.26 546.99,544.9 " fill="none" id="sqlparse.RepoObject_SqlModules_41_from-backto-sqlparse.RepoObject_SqlModules_41_from_T" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="623.71,485.33,614.1519,487.7052,619.7655,488.4027,619.0681,494.0164,623.71,485.33" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[3233ca45d57b00af84ecf4460487929b]
+reverse link sqlparse.RepoObject_SqlModules_41_from to sqlparse.usp_PERSIST_RepoObject_SqlModules_41_from_T--><path codeLine="161" d="M670.79,490.48 C665.54,546.49 656.76,640.34 652.48,685.97 " fill="none" id="sqlparse.RepoObject_SqlModules_41_from-backto-sqlparse.usp_PERSIST_RepoObject_SqlModules_41_from_T" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="671.28,485.18,666.4482,493.7622,670.808,490.1577,674.4125,494.5174,671.28,485.18" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[cfd3e864f3aeecee4586d0709a748c03]
+reverse link sqlparse.RepoObject_SqlModules_41_from_T to sqlparse.usp_PERSIST_RepoObject_SqlModules_41_from_T--><path codeLine="162" d="M548.25,629.25 C571.17,648 597.37,669.44 617.44,685.86 " fill="none" id="sqlparse.RepoObject_SqlModules_41_from_T-backto-sqlparse.usp_PERSIST_RepoObject_SqlModules_41_from_T" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="544.3,626.02,548.7468,634.8078,548.1749,629.18,553.8027,628.608,544.3,626.02" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[b25f115d127a626a3817fb76e4a7c2f0]
+reverse link sqlparse.RepoObject_SqlModules_41_from_T to sqlparse.RepoObject_SqlModules_42_from_Identifier--><path codeLine="163" d="M430.9,628.78 C401.85,647.65 368.51,669.31 343.01,685.86 " fill="none" id="sqlparse.RepoObject_SqlModules_41_from_T-backto-sqlparse.RepoObject_SqlModules_42_from_Identifier" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="435.15,626.02,425.4261,627.5839,430.9614,628.7505,429.7949,634.2857,435.15,626.02" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[e51c3c19090b2c015e4bfa6bc9472be5]
+reverse link sqlparse.RepoObject_SqlModules_42_from_Identifier to sqlparse.RepoObject_SqlModules_43_from_Identifier--><path codeLine="164" d="M302,746.48 C302,763.68 302,784.62 302,800.91 " fill="none" id="sqlparse.RepoObject_SqlModules_42_from_Identifier-backto-sqlparse.RepoObject_SqlModules_43_from_Identifier" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="302,741.28,298,750.28,302,746.28,306,750.28,302,741.28" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[5e78c691992fcc9ea586201c933ccb6c]
+reverse link sqlparse.RepoObject_SqlModules_43_from_Identifier to sqlparse.RepoObject_SqlModules_44_from_Identifier_QuoteName--><path codeLine="165" d="M302,861.48 C302,878.68 302,899.62 302,915.91 " fill="none" id="sqlparse.RepoObject_SqlModules_43_from_Identifier-backto-sqlparse.RepoObject_SqlModules_44_from_Identifier_QuoteName" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="302,856.28,298,865.28,302,861.28,306,865.28,302,856.28" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[3238d74f1fd45e85ab41137a502bffb7]
+reverse link sqlparse.RepoObject_SqlModules_44_from_Identifier_QuoteName to sqlparse.RepoObject_SqlModules_71_reference_ExpliciteTableAlias--><path codeLine="166" d="M299.74,976.48 C298.52,993.68 297.04,1014.62 295.88,1030.91 " fill="none" id="sqlparse.RepoObject_SqlModules_44_from_Identifier_QuoteName-backto-sqlparse.RepoObject_SqlModules_71_reference_ExpliciteTableAlias" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="300.1,971.28,295.4672,979.9712,299.7427,976.2672,303.4467,980.5428,300.1,971.28" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[6b61611d711ba318e6eb9229778f5158]
+reverse link sqlparse.RepoObject_SqlModules_44_from_Identifier_QuoteName to sqlparse.RepoObject_SqlModules_72_reference_NoTableAlias--><path codeLine="167" d="M397.34,972.63 C457.82,990.47 535.57,1013.41 594.99,1030.94 " fill="none" id="sqlparse.RepoObject_SqlModules_44_from_Identifier_QuoteName-backto-sqlparse.RepoObject_SqlModules_72_reference_NoTableAlias" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="392.28,971.14,399.7825,977.5206,397.0761,972.5531,402.0436,969.8468,392.28,971.14" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[df041f6b00336a9871520a8891277953]
+reverse link sqlparse.RepoObject_SqlModules_61_SelectIdentifier_Union to sqlparse.usp_PERSIST_RepoObject_SqlModules_61_SelectIdentifier_Union_T--><path codeLine="168" d="M907.31,859.77 C925.98,876.08 949.09,896.75 969,916 C1009.03,954.71 1053.18,1001.89 1079.74,1030.81 " fill="none" id="sqlparse.RepoObject_SqlModules_61_SelectIdentifier_Union-backto-sqlparse.usp_PERSIST_RepoObject_SqlModules_61_SelectIdentifier_Union_T" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="903.16,856.15,907.3184,865.0779,906.93,859.4344,912.5735,859.046,903.16,856.15" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[64dbfdc6f33be1a69ff7578d79790c23]
+reverse link sqlparse.RepoObject_SqlModules_61_SelectIdentifier_Union to sqlparse.RepoObject_SqlModules_61_SelectIdentifier_Union_T--><path codeLine="169" d="M847.04,860.16 C832.85,877.59 815.25,899.2 801.65,915.91 " fill="none" id="sqlparse.RepoObject_SqlModules_61_SelectIdentifier_Union-backto-sqlparse.RepoObject_SqlModules_61_SelectIdentifier_Union_T" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="850.2,856.28,841.4202,860.7427,847.047,860.1606,847.6291,865.7874,850.2,856.28" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[a964be196aac5ad1233b552dacc29725]
+reverse link sqlparse.RepoObject_SqlModules_61_SelectIdentifier_Union_T to sqlparse.usp_PERSIST_RepoObject_SqlModules_61_SelectIdentifier_Union_T--><path codeLine="170" d="M861.27,972.84 C912.34,990.66 977.79,1013.48 1027.86,1030.94 " fill="none" id="sqlparse.RepoObject_SqlModules_61_SelectIdentifier_Union_T-backto-sqlparse.usp_PERSIST_RepoObject_SqlModules_61_SelectIdentifier_Union_T" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="856.37,971.14,863.5588,977.8721,861.0931,972.7809,866.1843,970.3152,856.37,971.14" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[91a25824da572b90468a709c18893452]
+reverse link sqlparse.RepoObject_SqlModules_61_SelectIdentifier_Union_T to sqlparse.RepoObject_SqlModules_72_reference_NoTableAlias--><path codeLine="171" d="M754.22,975.16 C739.57,992.59 721.4,1014.2 707.35,1030.91 " fill="none" id="sqlparse.RepoObject_SqlModules_61_SelectIdentifier_Union_T-backto-sqlparse.RepoObject_SqlModules_72_reference_NoTableAlias" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="757.49,971.28,748.6396,975.6009,754.275,975.1094,754.7666,980.7448,757.49,971.28" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[02a7b319e3a84a0ad9260cdd383ac487]
+reverse link sqlparse.RepoObject_SqlModules_61_SelectIdentifier_Union_T to sqlparse.RepoObject_SqlModules_71_reference_ExpliciteTableAlias--><path codeLine="172" d="M660.71,972.24 C583.78,990.12 484.29,1013.26 408.35,1030.91 " fill="none" id="sqlparse.RepoObject_SqlModules_61_SelectIdentifier_Union_T-backto-sqlparse.RepoObject_SqlModules_71_reference_ExpliciteTableAlias" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="665.75,971.06,656.0794,969.1945,660.879,972.1885,657.885,976.988,665.75,971.06" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[ea2f6abc9c6d22f13153dd1baa0925e4]
+reverse link sqlparse.RepoObject_SqlModules_71_reference_ExpliciteTableAlias to sqlparse.RepoObject_SqlModules_79_reference_union--><path codeLine="173" d="M344.65,1088.85 C375.1,1106.5 413.56,1128.78 443.12,1145.91 " fill="none" id="sqlparse.RepoObject_SqlModules_71_reference_ExpliciteTableAlias-backto-sqlparse.RepoObject_SqlModules_79_reference_union" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="340.21,1086.28,345.9833,1094.2593,344.5335,1088.7914,350.0015,1087.3416,340.21,1086.28" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[9df01750869dff5577373b8d2dc1e5fd]
+reverse link sqlparse.RepoObject_SqlModules_72_reference_NoTableAlias to sqlparse.RepoObject_SqlModules_79_reference_union--><path codeLine="174" d="M634.09,1088.85 C603.48,1106.5 564.83,1128.78 535.12,1145.91 " fill="none" id="sqlparse.RepoObject_SqlModules_72_reference_NoTableAlias-backto-sqlparse.RepoObject_SqlModules_79_reference_union" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="638.55,1086.28,628.7559,1087.3174,634.2203,1088.7807,632.757,1094.245,638.55,1086.28" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[3ea2d57a995efae6ca84239be0e43c4f]
+reverse link sqlparse.RepoObject_SqlModules_79_reference_union to reference.RepoObjectColumn_reference_SqlModules--><path codeLine="175" d="M489,1206.39 C489,1222.53 489,1242.57 489,1260.95 " fill="none" id="sqlparse.RepoObject_SqlModules_79_reference_union-backto-reference.RepoObjectColumn_reference_SqlModules" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="489,1201.07,485,1210.07,489,1206.07,493,1210.07,489,1201.07" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[1c0a80d815de1f09d96ba76022f16ed8]
+@startuml
+'Left to right direction
+hide circle
+'avoide "." issues:
+set namespaceSeparator none
+
+
+skinparam class {
+  BackgroundColor White
+  BackgroundColor<<FN>> Yellow
+  BackgroundColor<<FS>> Yellow
+  BackgroundColor<<FT>> LightGray
+  BackgroundColor<<IF>> Yellow
+  BackgroundColor<<IS>> Yellow
+  BackgroundColor<<P>> Aqua
+  BackgroundColor<<PC>> Aqua
+  BackgroundColor<<SN>> Yellow
+  BackgroundColor<<SO>> SlateBlue
+  BackgroundColor<<TF>> LightGray
+  BackgroundColor<<TR>> Tomato
+  BackgroundColor<<U>> White
+  BackgroundColor<<V>> WhiteSmoke
+  BackgroundColor<<X>> Aqua
+}
+
+
+entity reference.ftv_RepoObject_ColumReferenceRepoObject << IF >> {
+}
+
+entity reference.RepoObjectColumn_reference_SqlModules << V >> {
+  **referencing_id** : int
+  **referencing_minor_id** : int
+  **referenced_id** : int
+  **referenced_minor_id** : int
+}
+
+entity reference.RepoObjectColumn_reference_union << V >> {
+}
+
+entity reference.RepoObjectColumn_RelationScript << V >> {
+}
+
+entity repo.check_IndexColumn_virtual_referenced_setpoint << V >> {
+  * **index_guid** : uniqueidentifier
+  * **index_column_id** : int
+}
+
+entity repo.Index_referencing_IndexPatternColumnGuid << V >> {
+  **source_index_guid** : uniqueidentifier
+  **referencing_RepoObject_guid** : uniqueidentifier
+}
+
+entity repo.IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing << V >> {
+  **index_guid** : uniqueidentifier
+  * **index_column_id** : int
+  **RowNumberInReferencing** : bigint
+}
+
+entity repo.IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing_T << U >> {
+  **index_guid** : uniqueidentifier
+  * **index_column_id** : int
+  **RowNumberInReferencing** : bigint
+}
+
+entity repo.IndexColumn_virtual_referenced_setpoint << V >> {
+  * **index_guid** : uniqueidentifier
+  * **index_column_id** : int
+}
+
+entity repo.IndexReferencedReferencing_HasFullColumnsInReferencing << V >> {
+}
+
+entity repo.RepoObjectColumn_MissingSource_TypeV << V >> {
+  * **RepoObjectColumn_guid** : uniqueidentifier
+}
+
+entity repo.usp_index_inheritance << P >> {
+}
+
+entity repo.usp_main << P >> {
+}
+
+entity repo.usp_PERSIST_IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing_T << P >> {
+}
+
+entity sqlparse.RepoObject_SqlModules_21_statement_children_helper << V >> {
+  * **RepoObject_guid** : uniqueidentifier
+  * **json_key** : nvarchar(4000)
+}
+
+entity sqlparse.RepoObject_SqlModules_31_object << V >> {
+  * **RepoObject_guid** : uniqueidentifier
+}
+
+entity sqlparse.RepoObject_SqlModules_39_object << V >> {
+  * **RepoObject_guid** : uniqueidentifier
+}
+
+entity sqlparse.RepoObject_SqlModules_41_from << V >> {
+  * **RepoObject_guid** : uniqueidentifier
+  * **json_key** : nvarchar(4000)
+}
+
+entity sqlparse.RepoObject_SqlModules_41_from_T << U >> {
+  * **RepoObject_guid** : uniqueidentifier
+  * **json_key** : nvarchar(4000)
+}
+
+entity sqlparse.RepoObject_SqlModules_42_from_Identifier << V >> {
+}
+
+entity sqlparse.RepoObject_SqlModules_43_from_Identifier << V >> {
+}
+
+entity sqlparse.RepoObject_SqlModules_44_from_Identifier_QuoteName << V >> {
+}
+
+entity sqlparse.RepoObject_SqlModules_61_SelectIdentifier_Union << V >> {
+}
+
+entity sqlparse.RepoObject_SqlModules_61_SelectIdentifier_Union_T << U >> {
+}
+
+entity sqlparse.RepoObject_SqlModules_71_reference_ExpliciteTableAlias << V >> {
+}
+
+entity sqlparse.RepoObject_SqlModules_72_reference_NoTableAlias << V >> {
+}
+
+entity sqlparse.RepoObject_SqlModules_79_reference_union << V >> {
+}
+
+entity sqlparse.usp_PERSIST_RepoObject_SqlModules_41_from_T << P >> {
+}
+
+entity sqlparse.usp_PERSIST_RepoObject_SqlModules_61_SelectIdentifier_Union_T << P >> {
+}
+
+reference.RepoObjectColumn_reference_SqlModules <.. reference.RepoObjectColumn_reference_union
+reference.RepoObjectColumn_reference_union <.. repo.IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing
+reference.RepoObjectColumn_reference_union <.. repo.RepoObjectColumn_MissingSource_TypeV
+reference.RepoObjectColumn_reference_union <.. repo.usp_main
+reference.RepoObjectColumn_reference_union <.. reference.RepoObjectColumn_RelationScript
+reference.RepoObjectColumn_RelationScript <.. reference.ftv_RepoObject_ColumReferenceRepoObject
+repo.Index_referencing_IndexPatternColumnGuid <.. repo.IndexReferencedReferencing_HasFullColumnsInReferencing
+repo.IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing <.. repo.IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing_T
+repo.IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing <.. repo.usp_PERSIST_IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing_T
+repo.IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing_T <.. repo.usp_PERSIST_IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing_T
+repo.IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing_T <.. repo.IndexReferencedReferencing_HasFullColumnsInReferencing
+repo.IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing_T <.. repo.IndexColumn_virtual_referenced_setpoint
+repo.IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing_T <.. repo.Index_referencing_IndexPatternColumnGuid
+repo.IndexColumn_virtual_referenced_setpoint <.. repo.check_IndexColumn_virtual_referenced_setpoint
+repo.IndexColumn_virtual_referenced_setpoint <.. repo.usp_index_inheritance
+repo.IndexReferencedReferencing_HasFullColumnsInReferencing <.. repo.usp_index_inheritance
+repo.usp_index_inheritance <.. repo.usp_main
+repo.usp_PERSIST_IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing_T <.. repo.usp_index_inheritance
+sqlparse.RepoObject_SqlModules_21_statement_children_helper <.. sqlparse.RepoObject_SqlModules_31_object
+sqlparse.RepoObject_SqlModules_31_object <.. sqlparse.RepoObject_SqlModules_39_object
+sqlparse.RepoObject_SqlModules_39_object <.. sqlparse.RepoObject_SqlModules_41_from
+sqlparse.RepoObject_SqlModules_39_object <.. sqlparse.RepoObject_SqlModules_61_SelectIdentifier_Union
+sqlparse.RepoObject_SqlModules_41_from <.. sqlparse.RepoObject_SqlModules_41_from_T
+sqlparse.RepoObject_SqlModules_41_from <.. sqlparse.usp_PERSIST_RepoObject_SqlModules_41_from_T
+sqlparse.RepoObject_SqlModules_41_from_T <.. sqlparse.usp_PERSIST_RepoObject_SqlModules_41_from_T
+sqlparse.RepoObject_SqlModules_41_from_T <.. sqlparse.RepoObject_SqlModules_42_from_Identifier
+sqlparse.RepoObject_SqlModules_42_from_Identifier <.. sqlparse.RepoObject_SqlModules_43_from_Identifier
+sqlparse.RepoObject_SqlModules_43_from_Identifier <.. sqlparse.RepoObject_SqlModules_44_from_Identifier_QuoteName
+sqlparse.RepoObject_SqlModules_44_from_Identifier_QuoteName <.. sqlparse.RepoObject_SqlModules_71_reference_ExpliciteTableAlias
+sqlparse.RepoObject_SqlModules_44_from_Identifier_QuoteName <.. sqlparse.RepoObject_SqlModules_72_reference_NoTableAlias
+sqlparse.RepoObject_SqlModules_61_SelectIdentifier_Union <.. sqlparse.usp_PERSIST_RepoObject_SqlModules_61_SelectIdentifier_Union_T
+sqlparse.RepoObject_SqlModules_61_SelectIdentifier_Union <.. sqlparse.RepoObject_SqlModules_61_SelectIdentifier_Union_T
+sqlparse.RepoObject_SqlModules_61_SelectIdentifier_Union_T <.. sqlparse.usp_PERSIST_RepoObject_SqlModules_61_SelectIdentifier_Union_T
+sqlparse.RepoObject_SqlModules_61_SelectIdentifier_Union_T <.. sqlparse.RepoObject_SqlModules_72_reference_NoTableAlias
+sqlparse.RepoObject_SqlModules_61_SelectIdentifier_Union_T <.. sqlparse.RepoObject_SqlModules_71_reference_ExpliciteTableAlias
+sqlparse.RepoObject_SqlModules_71_reference_ExpliciteTableAlias <.. sqlparse.RepoObject_SqlModules_79_reference_union
+sqlparse.RepoObject_SqlModules_72_reference_NoTableAlias <.. sqlparse.RepoObject_SqlModules_79_reference_union
+sqlparse.RepoObject_SqlModules_79_reference_union <.. reference.RepoObjectColumn_reference_SqlModules
+@enduml
+
+@startuml
+hide circle
+set namespaceSeparator none
+
+
+skinparam class {
+  BackgroundColor White
+  BackgroundColor<<FN>> Yellow
+  BackgroundColor<<FS>> Yellow
+  BackgroundColor<<FT>> LightGray
+  BackgroundColor<<IF>> Yellow
+  BackgroundColor<<IS>> Yellow
+  BackgroundColor<<P>> Aqua
+  BackgroundColor<<PC>> Aqua
+  BackgroundColor<<SN>> Yellow
+  BackgroundColor<<SO>> SlateBlue
+  BackgroundColor<<TF>> LightGray
+  BackgroundColor<<TR>> Tomato
+  BackgroundColor<<U>> White
+  BackgroundColor<<V>> WhiteSmoke
+  BackgroundColor<<X>> Aqua
+}
+
+
+entity reference.ftv_RepoObject_ColumReferenceRepoObject << IF >> {
+}
+
+entity reference.RepoObjectColumn_reference_SqlModules << V >> {
+  **referencing_id** : int
+  **referencing_minor_id** : int
+  **referenced_id** : int
+  **referenced_minor_id** : int
+}
+
+entity reference.RepoObjectColumn_reference_union << V >> {
+}
+
+entity reference.RepoObjectColumn_RelationScript << V >> {
+}
+
+entity repo.check_IndexColumn_virtual_referenced_setpoint << V >> {
+  * **index_guid** : uniqueidentifier
+  * **index_column_id** : int
+}
+
+entity repo.Index_referencing_IndexPatternColumnGuid << V >> {
+  **source_index_guid** : uniqueidentifier
+  **referencing_RepoObject_guid** : uniqueidentifier
+}
+
+entity repo.IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing << V >> {
+  **index_guid** : uniqueidentifier
+  * **index_column_id** : int
+  **RowNumberInReferencing** : bigint
+}
+
+entity repo.IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing_T << U >> {
+  **index_guid** : uniqueidentifier
+  * **index_column_id** : int
+  **RowNumberInReferencing** : bigint
+}
+
+entity repo.IndexColumn_virtual_referenced_setpoint << V >> {
+  * **index_guid** : uniqueidentifier
+  * **index_column_id** : int
+}
+
+entity repo.IndexReferencedReferencing_HasFullColumnsInReferencing << V >> {
+}
+
+entity repo.RepoObjectColumn_MissingSource_TypeV << V >> {
+  * **RepoObjectColumn_guid** : uniqueidentifier
+}
+
+entity repo.usp_index_inheritance << P >> {
+}
+
+entity repo.usp_main << P >> {
+}
+
+entity repo.usp_PERSIST_IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing_T << P >> {
+}
+
+entity sqlparse.RepoObject_SqlModules_21_statement_children_helper << V >> {
+  * **RepoObject_guid** : uniqueidentifier
+  * **json_key** : nvarchar(4000)
+}
+
+entity sqlparse.RepoObject_SqlModules_31_object << V >> {
+  * **RepoObject_guid** : uniqueidentifier
+}
+
+entity sqlparse.RepoObject_SqlModules_39_object << V >> {
+  * **RepoObject_guid** : uniqueidentifier
+}
+
+entity sqlparse.RepoObject_SqlModules_41_from << V >> {
+  * **RepoObject_guid** : uniqueidentifier
+  * **json_key** : nvarchar(4000)
+}
+
+entity sqlparse.RepoObject_SqlModules_41_from_T << U >> {
+  * **RepoObject_guid** : uniqueidentifier
+  * **json_key** : nvarchar(4000)
+}
+
+entity sqlparse.RepoObject_SqlModules_42_from_Identifier << V >> {
+}
+
+entity sqlparse.RepoObject_SqlModules_43_from_Identifier << V >> {
+}
+
+entity sqlparse.RepoObject_SqlModules_44_from_Identifier_QuoteName << V >> {
+}
+
+entity sqlparse.RepoObject_SqlModules_61_SelectIdentifier_Union << V >> {
+}
+
+entity sqlparse.RepoObject_SqlModules_61_SelectIdentifier_Union_T << U >> {
+}
+
+entity sqlparse.RepoObject_SqlModules_71_reference_ExpliciteTableAlias << V >> {
+}
+
+entity sqlparse.RepoObject_SqlModules_72_reference_NoTableAlias << V >> {
+}
+
+entity sqlparse.RepoObject_SqlModules_79_reference_union << V >> {
+}
+
+entity sqlparse.usp_PERSIST_RepoObject_SqlModules_41_from_T << P >> {
+}
+
+entity sqlparse.usp_PERSIST_RepoObject_SqlModules_61_SelectIdentifier_Union_T << P >> {
+}
+
+reference.RepoObjectColumn_reference_SqlModules <.. reference.RepoObjectColumn_reference_union
+reference.RepoObjectColumn_reference_union <.. repo.IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing
+reference.RepoObjectColumn_reference_union <.. repo.RepoObjectColumn_MissingSource_TypeV
+reference.RepoObjectColumn_reference_union <.. repo.usp_main
+reference.RepoObjectColumn_reference_union <.. reference.RepoObjectColumn_RelationScript
+reference.RepoObjectColumn_RelationScript <.. reference.ftv_RepoObject_ColumReferenceRepoObject
+repo.Index_referencing_IndexPatternColumnGuid <.. repo.IndexReferencedReferencing_HasFullColumnsInReferencing
+repo.IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing <.. repo.IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing_T
+repo.IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing <.. repo.usp_PERSIST_IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing_T
+repo.IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing_T <.. repo.usp_PERSIST_IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing_T
+repo.IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing_T <.. repo.IndexReferencedReferencing_HasFullColumnsInReferencing
+repo.IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing_T <.. repo.IndexColumn_virtual_referenced_setpoint
+repo.IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing_T <.. repo.Index_referencing_IndexPatternColumnGuid
+repo.IndexColumn_virtual_referenced_setpoint <.. repo.check_IndexColumn_virtual_referenced_setpoint
+repo.IndexColumn_virtual_referenced_setpoint <.. repo.usp_index_inheritance
+repo.IndexReferencedReferencing_HasFullColumnsInReferencing <.. repo.usp_index_inheritance
+repo.usp_index_inheritance <.. repo.usp_main
+repo.usp_PERSIST_IndexColumn_ReferencedReferencing_HasFullColumnsInReferencing_T <.. repo.usp_index_inheritance
+sqlparse.RepoObject_SqlModules_21_statement_children_helper <.. sqlparse.RepoObject_SqlModules_31_object
+sqlparse.RepoObject_SqlModules_31_object <.. sqlparse.RepoObject_SqlModules_39_object
+sqlparse.RepoObject_SqlModules_39_object <.. sqlparse.RepoObject_SqlModules_41_from
+sqlparse.RepoObject_SqlModules_39_object <.. sqlparse.RepoObject_SqlModules_61_SelectIdentifier_Union
+sqlparse.RepoObject_SqlModules_41_from <.. sqlparse.RepoObject_SqlModules_41_from_T
+sqlparse.RepoObject_SqlModules_41_from <.. sqlparse.usp_PERSIST_RepoObject_SqlModules_41_from_T
+sqlparse.RepoObject_SqlModules_41_from_T <.. sqlparse.usp_PERSIST_RepoObject_SqlModules_41_from_T
+sqlparse.RepoObject_SqlModules_41_from_T <.. sqlparse.RepoObject_SqlModules_42_from_Identifier
+sqlparse.RepoObject_SqlModules_42_from_Identifier <.. sqlparse.RepoObject_SqlModules_43_from_Identifier
+sqlparse.RepoObject_SqlModules_43_from_Identifier <.. sqlparse.RepoObject_SqlModules_44_from_Identifier_QuoteName
+sqlparse.RepoObject_SqlModules_44_from_Identifier_QuoteName <.. sqlparse.RepoObject_SqlModules_71_reference_ExpliciteTableAlias
+sqlparse.RepoObject_SqlModules_44_from_Identifier_QuoteName <.. sqlparse.RepoObject_SqlModules_72_reference_NoTableAlias
+sqlparse.RepoObject_SqlModules_61_SelectIdentifier_Union <.. sqlparse.usp_PERSIST_RepoObject_SqlModules_61_SelectIdentifier_Union_T
+sqlparse.RepoObject_SqlModules_61_SelectIdentifier_Union <.. sqlparse.RepoObject_SqlModules_61_SelectIdentifier_Union_T
+sqlparse.RepoObject_SqlModules_61_SelectIdentifier_Union_T <.. sqlparse.usp_PERSIST_RepoObject_SqlModules_61_SelectIdentifier_Union_T
+sqlparse.RepoObject_SqlModules_61_SelectIdentifier_Union_T <.. sqlparse.RepoObject_SqlModules_72_reference_NoTableAlias
+sqlparse.RepoObject_SqlModules_61_SelectIdentifier_Union_T <.. sqlparse.RepoObject_SqlModules_71_reference_ExpliciteTableAlias
+sqlparse.RepoObject_SqlModules_71_reference_ExpliciteTableAlias <.. sqlparse.RepoObject_SqlModules_79_reference_union
+sqlparse.RepoObject_SqlModules_72_reference_NoTableAlias <.. sqlparse.RepoObject_SqlModules_79_reference_union
+sqlparse.RepoObject_SqlModules_79_reference_union <.. reference.RepoObjectColumn_reference_SqlModules
+@enduml
+
+PlantUML version 1.2021.4(Sun Apr 04 08:49:39 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
