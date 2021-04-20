@@ -55,7 +55,7 @@ Und ich habe auch noch keinen anderen Android-AscciDoc-Editor gefunden.
 
 **Docs-as-Code** und **AsciiDoc** passen auch sehr gut zu meiner langjährigen Begeisterung für das, was ich **Code-as-Docs** nenne: die Dokumentation direkt aus dem Code oder unter Verwendung des Codes zu erstellen. Denn mit AsciiDoc kann man den Inhalt anderer Dokumente einbeziehen. Diese Inhalte können somit im Code (beispielsweise in Kommentaren) vorbereitet werden.
 
-Ein Beispiel sieht man auf dieser Seite meider DataHandwerk-Projekt-Dokumentation: [Create, update and connect repository database](https://datahandwerk.github.io/dhw/0.1.0/manual/create-update-connect-repo-db.html)  
+Ein Beispiel sieht man auf dieser Seite meiner DataHandwerk-Projekt-Dokumentation: [Create, update and connect repository database](https://datahandwerk.github.io/dhw/0.1.0/manual/create-update-connect-repo-db.html)  
 Hier werden
 
 - Text-Inhalte anderer Dokumente _eingebunden_ und manchmal _zitiert_
