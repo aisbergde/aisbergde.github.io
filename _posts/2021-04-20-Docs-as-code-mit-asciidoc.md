@@ -17,7 +17,7 @@ Mit meinem open-Source-Projekt [DataHandwerk-toolkit-mssql](https://datahandwerk
 
 ### Auszeichungssprache Markdown?
 
-Sehr oft erfolgt die Dokumentation unter Verwendung der Auszeichungssprache Markdown (https://www.markdownguide.org/, https://de.wikipedia.org/wiki/Markdown)
+Sehr oft erfolgt die Dokumentation unter Verwendung der Auszeichungssprache [Markdown](https://www.markdownguide.org/), [Markdown Wikipedia](https://de.wikipedia.org/wiki/Markdown)
 
 - in den mir bekannten Wiki-Systemen wird mit Markdown gearbeitet (manchmal auch zusätzlich mit weiteren Auszeichungssprachen)
 - Es gibt viel und gute Software-Unterstützung für Markdown
@@ -25,7 +25,7 @@ Sehr oft erfolgt die Dokumentation unter Verwendung der Auszeichungssprache Mark
   - Auf Android verwende ich [Markor](https://gsantner.net/project/markor.html), gelegentlich auch [Epsilon Notes](http://epsilonexpert.com/e/index.php?i=1)
 - Diese Website hier wird mit dem Generator für statische Seiten [Jekyll](https://jekyllrb.com/) erstellt und seine Inhalte sind in Markdown geschrieben
 - Meine Notizen schreibe ich in Markdown, womit auch ein sehr einfacher Austausch zwischen Smartphone und PC möglich ist. Die Notizen können auch mit jedem beliebigen Plain-Text-Editor gelesen und bearbeitet werden. Ich werde nicht zum Sklaven einer Notiz-Software.
-- Zur technischen Projektbeschreibung in Markdown gibt ein gutes open-source-Projekt: https://www.mkdocs.org/. Darauf basierend gibt es [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
+- Zur technischen Projektbeschreibung in Markdown gibt ein gutes open-source-Projekt: [mkdocs.org](https://www.mkdocs.org/). Darauf basierend gibt es [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
 
 Doch Markdown hat auch entscheidende Schwächen:
 
@@ -40,29 +40,29 @@ Die GitHub Wiki hat Markdown Support, will oder kann aber nicht einen automatisc
 
 Und ich bin begeistert von den Möglichkeiten, die AsciiDoc im Vergleich zu Markdown bietet, wenn es darum geht, eine gut formatierte Dokumentation zu erstellen. Besonders wertvoll ist die Möglichkeit, auch Inhalte aus anderen Dokumenten als "**includes**" einzubinden. **Variablen** können verwendet werden. Es gibt **_eine_** Syntax, und nicht dutzende Dialekte. Dabei ist die Syntax ähnlich einfach, wie die von Markdown:
 
-https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/
+[AsciiDoc Syntax Quick Reference](https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/)
 
-Allerdings werde ich für normale Notizen vorerst weiter Markdown verwenden müssen, wenn ich sowohl auf Android als auch am Rechner an diesen Dokumenten arbeiten will. Denn mein Android-Editor **Markor** hat leider noch keine AsciiDoc-Unterstütung implementiert: https://github.com/gsantner/markor/issues/808  
+Allerdings werde ich für normale Notizen vorerst weiter Markdown verwenden müssen, wenn ich sowohl auf Android als auch am Rechner an diesen Dokumenten arbeiten will. Denn mein Android-Editor **Markor** hat leider noch keine AsciiDoc-Unterstütung implementiert: [Add format: AsciiDoc (Highlighter, TextActions)](https://github.com/gsantner/markor/issues/808)  
 Und ich habe auch noch keinen anderen Android-AscciDoc-Editor gefunden.
 
 ### Docs-as-Code und Code-as-Docs
 
 Über AsciiDoc fand ich das Konzept "Docs-as-Code".
 
-- https://docs-as-co.de/
-- https://www.informatik-aktuell.de/entwicklung/methoden/docs-as-code-die-grundlagen.html
-- https://www.writethedocs.org/guide/docs-as-code/
+- [docs-as-co.de](https://docs-as-co.de/)
+- [Docs-as-Code – Die Grundlagen](https://www.informatik-aktuell.de/entwicklung/methoden/docs-as-code-die-grundlagen.html)
+- [Docs as Code](https://www.writethedocs.org/guide/docs-as-code/)
 
 **Docs-as-Code** und **AsciiDoc** passen auch sehr gut zu meiner langjährigen Begeisterung für das, was ich **Code-as-Docs** nenne: die Dokumentation direkt aus dem Code oder unter Verwendung des Codes zu erstellen. Denn mit AsciiDoc kann man den Inhalt anderer Dokumente einbeziehen. Diese Inhalte können somit im Code (beispielsweise in Kommentaren) vorbereitet werden.
 
-Ein Beispiel sieht man auf dieser Seite meider DataHandwerk-Projekt-Dokumentation: https://datahandwerk.github.io/dhw/0.1.0/manual/create-update-connect-repo-db.html  
+Ein Beispiel sieht man auf dieser Seite meider DataHandwerk-Projekt-Dokumentation: [Create, update and connect repository database](https://datahandwerk.github.io/dhw/0.1.0/manual/create-update-connect-repo-db.html)  
 Hier werden
 
 - Text-Inhalte anderer Dokumente _eingebunden_ und manchmal _zitiert_
 - die ~~gleichen~~ selben (!) in PlantUML definierten Diagramme verwendet, wie auch in den Architektur-Dokumenten
 - Am Ende des Dokuments wird der SQL Code einer Prozedur eingebunden. Wenn sich der Code ändert, kommen diese Änderungen auch in der Dokumentation an.
 - Eigenschaften wie eine Beschreibung oder ein Anwendungs-Beispiel der Prozedur können im Kommentar einer Prozedur definiert werden, um dann auf der Dokumenations-Seite der Prozedur zu erscheinen:  
-  https://datahandwerk.github.io/dhw/0.1.0/sqldb/config.usp_connect_database.html
+  [config.usp_connect_database](https://datahandwerk.github.io/dhw/0.1.0/sqldb/config.usp_connect_database.html)
 
 ```sql
 /*
@@ -88,17 +88,18 @@ Begin
 
 ### docToolchain
 
-https://doctoolchain.github.io/docToolchain/
+[doctoolchain.github.io/docToolchain](https://doctoolchain.github.io/docToolchain/)
 
 >docToolchain is an implementation of the docs-as-code approach for software architecture plus some additional automation. The basis of docToolchain is the philosophy that software documentation should be treated in the same way as code together with the arc42 template for software architecture.
 
 Ich war begeistert, wie schnell sich docToolchain nicht nur installieren ließ, sondern dass auch sofort alles auf Anhieb funktionierte. Ein Kommando im Terminal, und kurz darauf war alles in schönstem HTML5 gerendert: Die Inhalte eingesammelt aus verschiedenen Dateien, Diagramme in PlantUML definiert. Man kann sogar Excel verwenden, um auch etwas kompliziertere Tabellen in Excel zu erstellen und für AsciiDoc zu exportieren (zur weiteren Verarbeitung durch AsciiDoc).
 
-Einfach ist es auch, basierend auf dem Template https://github.com/docToolchain/arc42-template-project auf Knopfdruck eine fertige Mico-Site zu erstellen: https://arc42-demo.netlify.app/ Diese Idee gefiel mir so gut, dass ich ursprünglich damit auch meine Projekt- und Datenbank-Dokumentation erstellen wollte. Im Beispiel sieht das auch alles sehr schön aus, in der Praxis ist aber der TOC auf der linken Seite fest eingebaut und hat keine vertikale Scrollbar. So dass damit Inhalte am unteren Rand abgeschnitten werden und nicht erreichbar sind:  
+Einfach ist es auch, basierend auf dem Template [github.com/docToolchain/arc42-template-project](https://github.com/docToolchain/arc42-template-project) auf Knopfdruck eine fertige Mico-Site zu erstellen: [arc42-demo.netlify.app](https://arc42-demo.netlify.app/) Diese Idee gefiel mir so gut, dass ich ursprünglich damit auch meine Projekt- und Datenbank-Dokumentation erstellen wollte. Im Beispiel sieht das auch alles sehr schön aus, in der Praxis ist aber der TOC auf der linken Seite fest eingebaut und hat keine vertikale Scrollbar. So dass damit Inhalte am unteren Rand abgeschnitten werden und nicht erreichbar sind:  
 
 ![](/assets/img/blog/Docs-as-code-mit-asciidoc_2021-03-26-01-41-35.png)
 
-Leider habe ich nicht gefunden, wie man das im CSS (oder wo auch immer) ändern könnte oder müsste. Und irgendwann habe ich aufgegeben: https://github.com/docToolchain/arc42-template-project/issues/7  
+Leider habe ich nicht gefunden, wie man das im CSS (oder wo auch immer) ändern könnte oder müsste. Und irgendwann habe ich aufgegeben:  
+[toc is static without scrollbars. long toc are hard to use. very different view in preview and on the website](https://github.com/docToolchain/arc42-template-project/issues/7)  
 Mit ein wenig mehr Energie lässt sich das vielleicht lösen.
 
 ### arc42
@@ -107,27 +108,27 @@ doctoolchain ist mit den Leuten von [arc42](https://arc42.org/) verbandelt.
 
 >arc42 enthält ein erprobtes und pragmatisches Template zur Entwicklung, Dokumentation und Kommunikation von Softwarearchitekturen. Tausende zufriedene Nutzer weltweit.
 
-Also habe ich mir das angeschaut und für gut befunden. Das DataHandwerk-Architektur-Dokument basiert auf diesem Template: https://datahandwerk.github.io/dhw/0.1.0/arc/architecture.html
+Also habe ich mir das angeschaut und für gut befunden. Das DataHandwerk-Architektur-Dokument basiert auf diesem Template: [Architecture](https://datahandwerk.github.io/dhw/0.1.0/arc/architecture.html)
 
 ### Structurizr DSL und das C4 Modell für die Visualizierung von Software-Architektur
 
-Meine ersten Architektur-Diagramme erstellte ich noch manuell und individuell mit [PlantUML](https://plantuml.com/). Dann fand ich https://structurizr.com/ und https://github.com/structurizr/cli , um Software Architektur Diagramme formalisierter zu erstellen. Die Definition erfolgt in _einem_ Skript in einer eigenen und einfachen Skript-Sprache "Structurizr DSL" https://github.com/structurizr/dsl/blob/master/docs/language-reference.md, und aus diesem _einen_ Skript können verschiedene **in sich konsistente Diagramme** erstellt werden. Man ändert beispielsweise Beschreibungen oder Beziehungen im Skript und alle Teil-Diagramme übernehmen diese Änderungen.
+Meine ersten Architektur-Diagramme erstellte ich noch manuell und individuell mit [PlantUML](https://plantuml.com/). Dann fand ich [Structurizr](https://structurizr.com/) und [github.com/structurizr/cli](https://github.com/structurizr/cli), um Software Architektur Diagramme formalisierter zu erstellen. Die Definition erfolgt in _einem_ Skript in einer eigenen und einfachen Skript-Sprache [Structurizr DSL](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md), und aus diesem _einen_ Skript können verschiedene **in sich konsistente Diagramme** erstellt werden. Man ändert beispielsweise Beschreibungen oder Beziehungen im Skript und alle Teil-Diagramme übernehmen diese Änderungen.
 
-Beispiele finden sich in der DataHandwerk-Architektur-Dokumentation: https://datahandwerk.github.io/dhw/0.1.0/arc/architecture.html#section-system-scope-and-context  
-Definition meiner Architektur-Diagramme in "Structurizr DSL": https://github.com/DataHandwerk/DataHandwerk-docs/blob/main/docs/modules/arc/partials/c4_dsl/dhw.dsl
+Beispiele finden sich in der DataHandwerk-Architektur-Dokumentation: [03 System Scope and Context](https://datahandwerk.github.io/dhw/0.1.0/arc/architecture.html#section-system-scope-and-context)  
+Definition meiner Architektur-Diagramme in "Structurizr DSL": [dhw.dsl](https://github.com/DataHandwerk/DataHandwerk-docs/blob/main/docs/modules/arc/partials/c4_dsl/dhw.dsl)
 
 ### Antora
 
 Nachdem ich es mit docToolchain nicht geschafft hatte, eine Website zur Projekt- und Datenbank-Dokumentation mit einem TOC zu erstellen, der meinen Vorstellungen entsprach, schaute ich mir [Antora](https://antora.org/) an, da dieses Werkzeug von den gleichen Entwicklern erstellt und gepflegt wird, die auch AsciiDoctor entwickeln. Folgende Dokumentationen werden ebenfalls mit Antora erstellt und sie bieten das, was ich mir unter einer guten Dokumentation vorstelle. Und sie basieren ausschließlich auf meinem neuen Liebling AsciiDoc
 
-* https://docs.antora.org/
-* https://docs.asciidoctor.org/
+* [Antora Documentation](https://docs.antora.org/)
+* [Asciidoctor Documentation Home](https://docs.asciidoctor.org/)
 
 Allerdings ist der Einstieg in Antora nicht ganz so einfach, wie der in doctoolchain: Die Quellen der Dokumentation müssen in einer bestimmten Struktur vorliegen und es werden nur Inhalte aus dieser Struktur verwendet. Ein großer Vorteil ist allerdings, dass git-Repositories als Quellen verwendet werden und dass man mehrere Repositories gleichzeitig als Quellen verwenden und in einer einheitlichen Dokumentation kombinieren kann.
 
 Ein wichtiges Konzept sind dabei "virtuelle Datei Objekte": Antora sammelt die Daten aus verschiedenen Quell-Repositories ein und verwendet so etwas wie ein internes zusammengesammeltes Repository, wobei für die Referenzen zwischen Inhalten [Page IDs und Cross References](https://docs.antora.org/antora/2.3/page/page-id/) verwendet werden. Die Verwendung dieser Referenzen ist zum einen die Grundidee von Antora, und sie stellt gleichzeitig eine Einbahnstraße dar, weil diese Referenzen außerhalb Antoras nicht mehr funktionieren.
 
-https://docs.antora.org/antora/2.3/how-antora-works/
+[How Antora Works](https://docs.antora.org/antora/2.3/how-antora-works/)
 
 Im DataHandwerk-Projekt beschreibe ich, wie man aus der Repository-Datenbank automatisch generierte Datenbank-Dokumentationen erstellen kann, die final von Antora gerendert werden: [Database documentation generator](https://datahandwerk.github.io/dhw/0.1.0/manual/documentation-generator.html).
 
