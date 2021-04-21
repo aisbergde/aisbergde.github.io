@@ -40,18 +40,18 @@ Diplom-Mediziner, Biophysiker, [Arzt-Kybernetiker](http://pirogov-university.com
         - Analyseverfahren
         - Planungssystemen
         - Berichtssystemen
-- unter Verwendung von [**Microsoft SQL Server**](https://www.microsoft.com/de-de/sql-server/sql-server-2019) einschließlich [**SSAS** (Sql Server Analysis Services)](https://docs.microsoft.com/de-de/analysis-services/analysis-services-overview?view=asallproducts-allversions), [**SSIS** (SQL Server Integration Services)](https://docs.microsoft.com/de-de/sql/integration-services/sql-server-integration-services?view=sql-server-ver15), [SSRS (SQL Server Reporting Services)](https://docs.microsoft.com/de-de/sql/reporting-services/create-deploy-and-manage-mobile-and-paginated-reports?view=sql-server-ver15) und verschiedener [Microsoft Azure](https://azure.microsoft.com/de-de/) Technologien
+- unter Verwendung von [**Microsoft SQL Server**](https://www.microsoft.com/de-de/sql-server/sql-server-2019), einschließlich [**SSAS** (SQL Server Analysis Services)](https://docs.microsoft.com/de-de/analysis-services/analysis-services-overview?view=asallproducts-allversions), [**SSIS** (SQL Server Integration Services)](https://docs.microsoft.com/de-de/sql/integration-services/sql-server-integration-services?view=sql-server-ver15), [SSRS (SQL Server Reporting Services)](https://docs.microsoft.com/de-de/sql/reporting-services/create-deploy-and-manage-mobile-and-paginated-reports?view=sql-server-ver15) und verschiedener [Microsoft Azure](https://azure.microsoft.com/de-de/) Technologien
 - und von Software und Technologie rund um die Microsoft BI Plattform oder zur Entwicklung
     - [**DataHandwerk-toolkit-mssql**](https://datahandwerk.github.io)  
     mein open source Projekt
     - [AnalyticsCreator](https://www.analyticscreator.com/)  
-    DWH Automatisierung - besser, flexibler und preiswerter als [Wherescape](https://www.wherescape.com/), mit dem ich auch gearbeitet habe
+    DWH Automatisierung - besser, flexibler und preiswerter als [WhereScape](https://www.wherescape.com/), mit dem ich auch gearbeitet habe
     - [Azure DevOps](https://azure.microsoft.com/de-de/services/devops/)  
-    bevorzugtes Tool für DevOps, agiles Projekt-Controlling, Issue-Tracking, Code-Versionisierung
+    bevorzugtes Tool für DevOps, agiles Projekt-Controlling, Issue-Tracking, Code-Versionierung
     - [Microsoft Power BI](https://powerbi.microsoft.com/de-de/)  
     Microsoft Frontend für Berichtswesen
     - [Antora (Docs as Code)]([https:](https://antora.org/))  
-    open Source Dokumentations-Framework insbesondere für technische Dokumentation
+    open Source Dokumentations-Framework, insbesondere für technische Dokumentation
     - [arc42](https://arc42.org/)  
     Template zur Entwicklung, Dokumentation und Kommunikation von Softwarearchitekturen
     - [Structurizr](https://structurizr.com/)  
