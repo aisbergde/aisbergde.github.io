@@ -4,6 +4,12 @@ tags: [Projekthistorie]
 
 # Projekthistorie Germo Görtz (de)
 
+## 04/2021 - bis jetzt; Peter Hahn GmbH
+
+\>1.000 Mitarbeiter
+
+Handel (Bekleidung)
+
 ## 09/2019 - bis jetzt; binovis
 
 10-50 Mitarbeiter

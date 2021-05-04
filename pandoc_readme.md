@@ -1,4 +1,5 @@
-Aktuell diesen Code im cmd verwenden (im Ordner, wo sich die Dateien befinden):
+Aktuell diesen Code im cmd verwenden (im Ordner, wo sich die Dateien befinden).
+Funktioniert so nicht in PowerShell, wegen %date%
 
 ```
 pandoc -s -o Germo_Goertz_IT_profile.docx goertz_profile_de.md pandoc_seitenumbruch_docx.md goertz_project_history_de.md pandoc_seitenumbruch_docx.md goertz_references.md --metadata date=%date%
