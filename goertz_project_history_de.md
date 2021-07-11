@@ -4,13 +4,15 @@ tags: [Projekthistorie]
 
 # Projekthistorie Germo Görtz (de)
 
-## 04/2021 - bis jetzt; Peter Hahn GmbH
+## geplant 08/2021 - 10/2021
 
-\>1.000 Mitarbeiter
+- Konzeption und PoC für eine « Source to target » - Dokumentation für das zentrale DWH über die verschiedenen Schichten (u. a. Data Vault, Starschema und tabulare Modelle)  
+  umfasst Versionierung der Dokumentation, Anreicherung mit Metadaten und fachlichen Daten, Bereitstellung von Schnittstellen für Fachbereiche zur Administration und Konsumierung, Verknüpfung mit Informationen aus Quellsystemen im Rahmen der ETL/ELT-Prozesse etc.
+- Unterstützung bei Umsetzung der Lösung
+- Entwicklung entsprechender Prozesse/Workloads für die Erzeugung und Aktualisierung der Dokumentation
+- Einführung eines entsprechenden Werkzeugs
 
-Handel (Bekleidung)
-
-## 09/2019 - bis jetzt; binovis
+## 09/2019 - bis jetzt; iconcare (BInovis & Visality)
 
 10-50 Mitarbeiter
 
@@ -23,9 +25,23 @@ Sonstiges
   Übertragung von Steuerungsmethoden aus der Aviation-Branche in ein innovatives IT-Tool zur Planung, Steuerung und Optimierung von Krankenhaus-Prozessen  
  <http://www.visality.de/healthcarecontrolcenter.html?&L=0%22Dirk>
 - smarte Stromzähler, Zeitanalysen von Stromverbräuchen
-- IoT, dafür auch Python
+  - IoT
+  - SQL Server, Python
 
-## 02/2020 - bis 03/2021; MEAG Munich ERGO Assetmanagement GmbH
+## 04/2021 - 06/2021; Peter Hahn GmbH
+
+\>1.000 Mitarbeiter
+
+Handel (Bekleidung)
+
+### Power BI Expert
+
+- Begleitung von Workshops mit Bezug zu BI Anforderungen
+- Beratung und Erstellung von Mappings & BI Umsetzungen  
+  Umsetzen von Anforderungen in technische BI Lösungen
+- Zusammenarbeit mit anderen Teilprojekten und Zuarbeit von Ergebnissen
+
+## 02/2020 - 03/2021; MEAG Munich ERGO Assetmanagement GmbH
 
 500-1000 Mitarbeiter
 
