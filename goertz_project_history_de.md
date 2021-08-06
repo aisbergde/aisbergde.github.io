@@ -4,7 +4,11 @@ tags: [Projekthistorie]
 
 # Projekthistorie Germo Görtz (de)
 
-## geplant 08/2021 - 10/2021
+## 08/2021 - bis jetzt; SYSKRON - im House of Krones
+
+- Unterstützung im MS SQL Server / BI
+
+## 08/2021 - 12/2021; abcfinance
 
 - Konzeption und PoC für eine « Source to target » - Dokumentation für das zentrale DWH über die verschiedenen Schichten (u. a. Data Vault, Starschema und tabulare Modelle)  
   umfasst Versionierung der Dokumentation, Anreicherung mit Metadaten und fachlichen Daten, Bereitstellung von Schnittstellen für Fachbereiche zur Administration und Konsumierung, Verknüpfung mit Informationen aus Quellsystemen im Rahmen der ETL/ELT-Prozesse etc.
