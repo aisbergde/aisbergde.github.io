@@ -10,7 +10,7 @@ Berlin
 
 ## Kontakt
 
-Telefon: 0179-5460319  
+VoIP (Satellite): +49 15678 682219  
 E-Mail: web *AT* aisberg *DOT* de
 
 ## Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV
