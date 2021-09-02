@@ -53,7 +53,7 @@ Diplom-Mediziner, Biophysiker, [Arzt-Kybernetiker](http://pirogov-university.com
     - [**DataHandwerk-toolkit-mssql**](https://datahandwerk.github.io)  
       mein open source Projekt, enthält auch einen Datenbank-Dokumentations-Generator
     - [Azure DevOps](https://azure.microsoft.com/de-de/services/devops/)  
-    bevorzugtes Tool für DevOps, agiles Projekt-Controlling, Issue-Tracking, Code-Versionierung
+    Tool für DevOps, agiles Projekt-Controlling, Issue-Tracking, Code-Versionierung. Leider keine Asciidoc-Unterstützung in Wiki oder Repository-Preview
     - [Microsoft Power BI](https://powerbi.microsoft.com/de-de/)  
     Microsoft Frontend für Berichtswesen
     - [Antora (Docs as Code)]([https:](https://antora.org/))  
@@ -73,9 +73,12 @@ Diplom-Mediziner, Biophysiker, [Arzt-Kybernetiker](http://pirogov-university.com
 
 ## Soft Skills
 
-Erfolgreich durch Exzellenz
+Erfolgsfaktoren meiner Tätigkeit als BI-Architekt und -Entwickler:
 
-Fokussierung auf Kernkompetenz
+- Erfolgreich durch Exzellenz
+- Fokussierung auf Kernkompetenz
+- Handwerk statt Fließband
+- Technokratie statt Demokratie
 
 Als [Arzt-Kybernetiker](http://pirogov-university.com/academics/programs-and-degrees/undergraduate/medical-cybernetics/) bin ich "kybernetisch im Denken und Handeln"
 
@@ -92,7 +95,8 @@ Ich halte mehr von **DevOps** (**Dev**elopment + IT **Op**eration**s** in Kombin
 
 ## keine AÜL, Rentenversicherung, Scheinselbständigkeit, Vollzeit
 
-Ich habe _kein_ Interesse an einer festen Anstellung, insbesondere auch nicht an einer Arbeitnehmerüberlassung (AÜL), da ich jeden unnötigen Kontakt mit der "Deutschen Rentenversicherung" vermeiden will, die gemeinsam mit der Politik dafür verantwortlich ist, dass immer mehr Kunden Angst haben, in Deutschland mit Freiberuflern zusammenzuarbeiten.  
+Ich habe _kein_ Interesse an einer festen Anstellung, insbesondere auch nicht an einer Arbeitnehmerüberlassung (AÜL), da ich jeden unnötigen Kontakt mit der "Deutschen Rentenversicherung" vermeiden will, die gemeinsam mit der Politik dafür verantwortlich ist, dass immer mehr Kunden Angst haben, in Deutschland mit Freiberuflern zusammenzuarbeiten.
+
 Die Gefahr der sogenannten "Scheinselbständigkeit" ist auch ein Grund dafür, warum ich möglichst nicht mehr in einem einzigen Projekt vollzeit tätig sein will, sondern zwecks Risiko-Minimierung lieber in mehreren Projekten gleichzeitig.
 
 ## Anmerkungen zu SSAS (SQL Server Analysis Services)
@@ -108,8 +112,8 @@ Mit den **multidimensionalen** Datenbanken arbeite ich seit 1999, damals noch "O
 
 Seit SQL Server 2012 gibt es zusätzlich **SSAS Tabular**, eine auf Tabellen basierende Technologie, wie sie auch in Power Pivot und [Power BI](http://powerbi.microsoft.com/de-de/) verwendet wird.
 
-Die Tabular Technologie wird von Microsoft gepusht. SSAS Tabular hat einige Stärken und wird besser von Power BI unterstützt, welches intern auch diese Technologie verwendet. Die Unterstützung von Power BI für multidimensionale Datenbanken ist mangelhaft; vielleicht, um diese Technologie langsam sterben zu lassen. Allerdings gibt es immer noch viele Stärken der multidimensionalen Technologie, welche sich mit der tabularischen Technologie (noch) nicht umsetzen lassen.
+Die Tabular-Technologie wird von Microsoft gepusht. SSAS Tabular hat einige Stärken und wird besser von Power BI unterstützt, welches intern auch diese Technologie verwendet. Die Unterstützung von Power BI für multidimensionale Datenbanken ist mangelhaft; vielleicht, um diese Technologie langsam sterben zu lassen. Allerdings gibt es immer noch viele Stärken der multidimensionalen Technologie, welche sich mit der tabularischen Technologie (noch) nicht umsetzen lassen.
 
 => Was sich mit SSAS Tabular sinnvoll realisieren lässt, wird von mir pragmatisch mit Tabular gemacht. Falls nötig und sinnvoll, gibt es weiter die multidimensionale Technologie.
 
-Die Abfragesprache [MDX - Multidimensional Expressions](http://de.wikipedia.org/wiki/Multidimensional_Expressions) kann für beide Technologien verwendet werden, DAX (Data Analysis Expressions) kann nur für SSAS Tabular verwendet werden.
+Die Abfragesprache [MDX (Multidimensional Expressions)](http://de.wikipedia.org/wiki/Multidimensional_Expressions) kann für beide Technologien verwendet werden, [DAX (Data Analysis Expressions)](https://docs.microsoft.com/de-de/dax/) kann nur für SSAS Tabular verwendet werden.

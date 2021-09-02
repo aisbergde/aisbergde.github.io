@@ -1,4 +1,4 @@
-Aktuell diesen Code im cmd verwenden (im Ordner, wo sich die Dateien befinden).
+Aktuell diesen Code im cmd Terminal verwenden (im Ordner, wo sich die Dateien befinden).
 Funktioniert so nicht in PowerShell, wegen %date%
 
 ```
