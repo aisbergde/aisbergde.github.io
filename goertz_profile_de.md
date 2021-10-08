@@ -1,6 +1,6 @@
 ---
 title: IT Profil Germo Görtz (de)
-subtitle: 'Microsoft BI Architekt + Entwickler. MS SQL Server, SSAS, DWH, ETL/ELT'
+subtitle: 'Microsoft BI Architekt + Entwickler. MS SQL Server, SSAS, DWH, ELT statt ETL'
 tags:
     - MS SQL Server
     - DWH
@@ -43,14 +43,14 @@ Diplom-Mediziner, Biophysiker, [Arzt-Kybernetiker](http://pirogov-university.com
     - Einführung und
     - Umsetzung von
         - Data Warehouse (DWH)
-        - ETL / ELT (Extrahieren, Laden, Transformieren von Daten)
+        - ELT (Extrahieren, Laden, Transformieren von Daten) statt ETL
         - Datenmodellen
         - Analyseverfahren
         - Planungssystemen
         - Berichtssystemen
 - unter Verwendung von [**Microsoft SQL Server**](https://www.microsoft.com/de-de/sql-server/sql-server-2019), einschließlich [**SSAS** (SQL Server Analysis Services)](https://docs.microsoft.com/de-de/analysis-services/analysis-services-overview?view=asallproducts-allversions), [**SSIS** (SQL Server Integration Services)](https://docs.microsoft.com/de-de/sql/integration-services/sql-server-integration-services?view=sql-server-ver15), [SSRS (SQL Server Reporting Services)](https://docs.microsoft.com/de-de/sql/reporting-services/create-deploy-and-manage-mobile-and-paginated-reports?view=sql-server-ver15) und verschiedener [Microsoft Azure](https://azure.microsoft.com/de-de/) Technologien
 - und von Software und Technologie rund um die Microsoft BI Plattform oder zur Entwicklung
-    - [**DataHandwerk-toolkit-mssql**](https://datahandwerk.github.io)  
+    - [**DataHandwerk-toolkit-mssql**](https://datahandwerk.gitlab.io)  
       mein open source Projekt, enthält auch einen Datenbank-Dokumentations-Generator
     - [Azure DevOps](https://azure.microsoft.com/de-de/services/devops/)  
     Tool für DevOps, agiles Projekt-Controlling, Issue-Tracking, Code-Versionierung. Leider keine Asciidoc-Unterstützung in Wiki oder Repository-Preview
@@ -66,7 +66,7 @@ Diplom-Mediziner, Biophysiker, [Arzt-Kybernetiker](http://pirogov-university.com
     - [AnalyticsCreator](https://www.analyticscreator.com/)  
     DWH Automatisierung - besser, flexibler und preiswerter als [WhereScape](https://www.wherescape.com/), mit dem ich auch gearbeitet habe
     - [git (Versionskontrollsystem)](https://git-scm.com/)  
-    alle meine Projekte werden grundsätzlich versionisiert, möglichst mit **git** (manchmal mit TFS oder Subversion)
+    alle meine Projekte werden grundsätzlich versionisiert
     - Datenmodellierung mit [Dimensional modeling (DM)](https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/) als Bestandteil der "Business Dimensional Lifecycle methodology" entwickelt von  Ralph **Kimball**
     - Datenmodellierung nach **Data Vault**
     - ...
@@ -75,10 +75,10 @@ Diplom-Mediziner, Biophysiker, [Arzt-Kybernetiker](http://pirogov-university.com
 
 Erfolgsfaktoren meiner Tätigkeit als BI-Architekt und -Entwickler:
 
-- Erfolgreich durch Exzellenz
-- Fokussierung auf Kernkompetenz
+- Exzellenz durch Kompetenz
 - Handwerk statt Fließband
-- Technokratie statt Demokratie
+- Technokratie statt Demokratie:  
+  Vertrauen in Experten
 
 Als [Arzt-Kybernetiker](http://pirogov-university.com/academics/programs-and-degrees/undergraduate/medical-cybernetics/) bin ich "kybernetisch im Denken und Handeln"
 
@@ -104,9 +104,9 @@ Die Gefahr der sogenannten "Scheinselbständigkeit" ist auch ein Grund dafür, w
 Unter dem gleichen Oberbegriff **SSAS** ([SQL Server Analysis Services](http://docs.microsoft.com/de-de/analysis-services/analysis-services-overview?view=asallproducts-allversions)) vereint Microsoft zwei unterschiedliche Technologien:
 
 - **multidimensionale** Datenbanken und
-- **tabellarische** Datenbanken. Das kann (und soll?) verwirren, da es sich um unterschiedliche Technologien handelt.
+- **tabellarische** Datenbanken.
 
-Die Dokumentation von Microsoft: [Vergleichen von tabellarischen und mehrdimensionalen Lösungen](http://docs.microsoft.com/de-de/analysis-services/comparing-tabular-and-multidimensional-solutions-ssas?view=asallproducts-allversions)
+Das kann (und soll?) verwirren, da es sich um unterschiedliche Technologien handelt. Die Dokumentation von Microsoft: [Vergleichen von tabellarischen und mehrdimensionalen Lösungen](http://docs.microsoft.com/de-de/analysis-services/comparing-tabular-and-multidimensional-solutions-ssas?view=asallproducts-allversions)
 
 Mit den **multidimensionalen** Datenbanken arbeite ich seit 1999, damals noch "OLAP Services 7.0", ab 2000 "MSAS" (Microsoft Analysis Services). Ab 2005 gab es mit "SSAS" (SQL Server Analysis Services) wieder eine neue Technologie, welche grundsätzlich der heutigen mehrdimensionalen Technologie entspricht. Typische Begriffe dieser multidimensionalen Technologie sind **Würfel (Cubes)** und **Dimensionen**.
 

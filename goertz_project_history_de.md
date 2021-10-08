@@ -4,17 +4,22 @@ tags: [Projekthistorie]
 
 # Projekthistorie Germo Görtz (de)
 
-## 08/2021 - bis jetzt; SYSKRON - im House of Krones
-
-- Unterstützung im MS SQL Server / BI
-
 ## 08/2021 - 12/2021; abcfinance
 
-- Konzeption und PoC für eine « Source to target » - Dokumentation für das zentrale DWH über die verschiedenen Schichten (u. a. Data Vault, Starschema und tabulare Modelle)  
-  umfasst Versionierung der Dokumentation, Anreicherung mit Metadaten und fachlichen Daten, Bereitstellung von Schnittstellen für Fachbereiche zur Administration und Konsumierung, Verknüpfung mit Informationen aus Quellsystemen im Rahmen der ETL/ELT-Prozesse etc.
+500-1000 Mitarbeiter
+
+Banken und Finanzdienstleistungen
+
+### Konzeption und PoC für eine «Source to target» - Dokumentation für das zentrale DWH über die verschiedenen Schichten (u. a. Data Vault, Starschema und tabulare Modelle)
+
+- umfasst Versionierung der Dokumentation, Anreicherung mit Metadaten und fachlichen Daten, Bereitstellung von Schnittstellen für Fachbereiche zur Administration und Konsumierung, Verknüpfung mit Informationen aus Quellsystemen im Rahmen der ETL/ELT-Prozesse etc.
 - Unterstützung bei Umsetzung der Lösung
 - Entwicklung entsprechender Prozesse/Workloads für die Erzeugung und Aktualisierung der Dokumentation
 - Einführung eines entsprechenden Werkzeugs
+
+## 08/2021 - bis jetzt; SYSKRON - im House of Krones
+
+- Unterstützung im Bereich MS SQL Server / BI
 
 ## 09/2019 - bis jetzt; iconcare (BInovis & Visality)
 
@@ -45,7 +50,7 @@ Handel (Bekleidung)
   Umsetzen von Anforderungen in technische BI Lösungen
 - Zusammenarbeit mit anderen Teilprojekten und Zuarbeit von Ergebnissen
 
-## 02/2020 - 03/2021; MEAG Munich ERGO Assetmanagement GmbH
+## 02/2020 - 03/2021; MEAG - Munich ERGO Assetmanagement GmbH
 
 500-1000 Mitarbeiter
 
@@ -106,7 +111,7 @@ Produkte:
 
 Aktuell: regelmäßiger Support, um das System "am Laufen zu halten", bis irgendwann die vollständige Migration in ein klinisches DWH des KISAnbieters abgeschlossen sein wird.
 
-## 11/2019 - 11/2019; Würth Logistics AG
+## 11/2019 - 12/2019; Würth Logistics AG
 
 50-250 Mitarbeiter
 
@@ -124,7 +129,7 @@ Datenquelle:
 
 Das schweizer Logistik-Unternehmen ist zuständig für die weltweite Koordination der Logistik eines deutschen Großkonzerns, des Weltmarktführers für den Vertrieb von Montage- und Befestigungsmaterial.
 
-## 10/2018 - 09/2019; Provinzial Nord-West, Münster
+## 10/2018 - 09/2019; Provinzial Nord-West
 
 5000-10.000 Mitarbeiter
 
@@ -366,7 +371,7 @@ Details: <http://www.orpheus-it.com/>
 
 ### freie Mitarbeit als Experte für Geschäftsanalyse (BI) in Krankenhäusern, Microsoft BI-Analyse-Plattform: Microsoft BI Architekt und Entwickler
 
-Kunde: GfS (Gesellschaft für Standortsicherung) => HGC GesundheitsConsult GmbH => Vendus
+Partner: GfS (Gesellschaft für Standortsicherung) => HGC GesundheitsConsult GmbH => Vendus
 
 Projektinhalte:
 
