@@ -16,7 +16,7 @@ Berlin
 
 ## Download des IT-Profils (inklusive Projekthistorie und Referenzen)
 
-[Germo_Goertz_IT_profile.docx](http://analyticscreator.aisberg.de/Germo_Goertz_IT_profile.docx)
+[Germo_Goertz_IT_profile.docx](http://www.aisberg.de/Germo_Goertz_IT_profile.docx)
 
 ## Abschluss
 
