@@ -61,13 +61,23 @@ round-avatar: false
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
+<<<<<<< HEAD
   email: "web@aisberg.de"
   facebook: germo.goertz
-  rss: true  # remove this line if you don't want to show an RSS link at the bottom
   github: aisbergde
 #  twitter: GermoGortz
 #  patreon:
+  rss: true
+=======
+  email: "someone@example.com"
+  rss: true  # remove this line if you don't want to show an RSS link at the bottom
+  facebook: deanattali
+  github: daattali
+  twitter: daattali
+  patreon: DeanAttali
+  youtube: c/daattali
 #  medium: yourname
+>>>>>>> remotes/upstream/master
 #  reddit: yourname
   linkedin: germo-görtz
   xing: Germo_Goertz
@@ -86,11 +96,15 @@ social-network-links:
 #  ORCID: your ORCID ID
 #  google-scholar: your google scholar
 
+<<<<<<< HEAD
 # If you want to show a link to an RSS in the footer, add the site description here.
 # If you don't want to show an RSS link, remove the following line.
+rss-description: Aisberg über AnalyticsCreator
+=======
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: Aisberg über AnalyticsCreator
+rss-description: This website is a virtual proof that I'm awesome
+>>>>>>> remotes/upstream/master
 
 # --- General options --- #
 
@@ -130,12 +144,20 @@ navbar-text-col: "#1e4586"
 navbar-border-col: "#8fadd1"
 page-col: "#FFFFFF"
 text-col: "#404040"
+<<<<<<< HEAD
 link-col: "#1e4586"
 hover-col: "#d62b34"
 footer-col: "#FFFFFF"
 footer-text-col: "#000000"
 footer-link-col: "#1e4586"
-footer-hover-col: "#d62b34"
+=======
+link-col: "#008AFF"
+hover-col: "#0085A1"
+footer-col: "#EAEAEA"
+footer-text-col: "#777777"
+footer-link-col: "#404040"
+footer-hover-col: "#0085A1"
+>>>>>>> remotes/upstream/master
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
