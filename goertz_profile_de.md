@@ -5,7 +5,7 @@ tags:
     - MS SQL Server
     - DWH
     - SSAS
-    - AnalyticsCreator
+    - Antora
 date: '2021-01-06'
 slug: profil-germo-gortz-de-
 ---
