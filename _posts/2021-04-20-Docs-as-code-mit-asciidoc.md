@@ -7,7 +7,7 @@ tags:
   - markdown
   - Antora
   - open source
-last-updated: 2021-04-20T06:16:33.421Z
+last-updated: 2022-01-08
 head-extra: head_extra.html
 slug: docs-code-mit-asciidoc-und-antora
 lastmod: 2021-04-20T06:16:33.421Z
@@ -44,6 +44,9 @@ Und ich bin begeistert von den Möglichkeiten, die AsciiDoc im Vergleich zu Mark
 
 Allerdings werde ich für normale Notizen vorerst weiter Markdown verwenden müssen, wenn ich sowohl auf Android als auch am Rechner an diesen Dokumenten arbeiten will. Denn mein Android-Editor **Markor** hat leider noch keine AsciiDoc-Unterstütung implementiert: [Add format: AsciiDoc (Highlighter, TextActions)](https://github.com/gsantner/markor/issues/808)  
 Und ich habe auch noch keinen anderen Android-AscciDoc-Editor gefunden.
+
+*Update:* obwohl es immer noch keinen Android Editor mit AsciiDoc Unterstützung gibt, habe ich mein Notizen-System von Markdown auf AsciiDoc umgestellt. Die Notizen befinden sich in einem privaten Repository auf Gitlab, es gibt für Android einen Git-Client [MGit](
+https://github.com/maks/Mgit), als Editor verwende ich weiter Markor und der Preview erfolgt über einen lokalen Webserver (NiM Webserver), die Anzeige mit der AsciiDoc Preview Extension für Chrome Desktop. Da man im Chrome Android keine Erweiterungen installieren kann, verwende ich dafür den Kiwi-Browser. Auch einige andere Browser ermöglichen die Verwendung von Erweiterungen (Yandex,...). Das scheint etwas kompliziert, muss aber nur einmal eingerichtet werden. Und AsciiDoc ist auch ohne Preview gut lesbar.
 
 ### 'Docs-as-Code' und 'Code-as-Docs'
 
@@ -101,6 +104,8 @@ Einfach ist es auch, basierend auf dem Template [github.com/docToolchain/arc42-t
 Leider habe ich nicht gefunden, wie man das im CSS (oder wo auch immer) ändern könnte oder müsste. Und irgendwann habe ich aufgegeben:  
 [toc is static without scrollbars. long toc are hard to use. very different view in preview and on the website](https://github.com/docToolchain/arc42-template-project/issues/7)  
 Mit ein wenig mehr Energie lässt sich das vielleicht lösen.
+
+*Update:* Inzwischen wird ein anderes Standard-Thema verwendet und das Problem wurde dadurch gelöst.
 
 ### arc42
 
