@@ -4,18 +4,6 @@ tags: [Projekthistorie]
 
 # Projekthistorie Germo Görtz (de)
 
-## 08/2021 - 12/2021; abcfinance
-
-500-1000 Mitarbeiter
-
-Banken und Finanzdienstleistungen
-
-### Konzeption und PoC für eine «Source to target» - Dokumentation für das zentrale DWH über die verschiedenen Schichten (u. a. Data Vault, Starschema und tabulare Modelle)
-
-- umfasst Versionierung der Dokumentation, Anreicherung mit Metadaten und fachlichen Daten, Bereitstellung von Schnittstellen für Fachbereiche zur Administration und Konsumierung, Verknüpfung mit Informationen aus Quellsystemen im Rahmen der ETL/ELT-Prozesse etc.
-- Unterstützung bei Umsetzung der Lösung
-- Entwicklung entsprechender Prozesse/Workloads für die Erzeugung und Aktualisierung der Dokumentation
-- Einführung eines entsprechenden Werkzeugs
 
 ## 08/2021 - bis jetzt; SYSKRON - im House of Krones
 
@@ -36,6 +24,19 @@ Sonstiges
 - smarte Stromzähler, Zeitanalysen von Stromverbräuchen
   - IoT
   - SQL Server, Python
+
+## 08/2021 - 12/2021; abcfinance
+
+500-1000 Mitarbeiter
+
+Banken und Finanzdienstleistungen
+
+### Konzeption und PoC für eine «Source to target» - Dokumentation für das zentrale DWH über die verschiedenen Schichten (u. a. Data Vault, Starschema und tabulare Modelle)
+
+- umfasst Versionierung der Dokumentation, Anreicherung mit Metadaten und fachlichen Daten, Bereitstellung von Schnittstellen für Fachbereiche zur Administration und Konsumierung, Verknüpfung mit Informationen aus Quellsystemen im Rahmen der ETL/ELT-Prozesse etc.
+- Unterstützung bei Umsetzung der Lösung
+- Entwicklung entsprechender Prozesse/Workloads für die Erzeugung und Aktualisierung der Dokumentation
+- Einführung eines entsprechenden Werkzeugs
 
 ## 04/2021 - 06/2021; Peter Hahn GmbH
 
