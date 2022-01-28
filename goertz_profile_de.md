@@ -64,8 +64,7 @@ Diplom-Mediziner, Biophysiker, [Arzt-Kybernetiker](http://pirogov-university.com
     Microsoft Frontend für Berichtswesen
     - [Antora (Docs as Code)]([https:](https://antora.org/))  
     open Source Dokumentations-Framework, insbesondere für technische versionisierte Dokumentation, basierend auf Asciidoc
-    - [Deltamaster (SSAS Frontend)](https://www.bissantz.de/software/)  
-    Spitzen-Frontend der deutschen Firma Bissantz für analytische Datenbanken
+    - [Deltamaster (SSAS Frontend)](https://www.bissantz.de/software/)
     - [CubePlayer (SSAS Frontend)](https://www.oreus.hr/products/cubeplayer)
     - [XLcubed](https://www.xlcubed.com/)  
     einziges brauchbares Excel-Addin für SSAS
