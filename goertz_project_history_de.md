@@ -17,7 +17,8 @@ Sonstiges
 
 ### Microsoft BI Architekt und Entwickler
 
-- Prozess- und Zeitanalysen in Krankenhäusern (beispielsweise OP Zeiten, OP Wechselzeiten, OP Auslastungen)
+- EventAnalytics  
+  Prozess- und Zeitanalysen in Krankenhäusern (beispielsweise OP Zeiten, OP Wechselzeiten, OP Auslastung, Personal Auslastung)
 - Healthcare-Control-Center-Tool  
   Übertragung von Steuerungsmethoden aus der Aviation-Branche in ein innovatives IT-Tool zur Planung, Steuerung und Optimierung von Krankenhaus-Prozessen  
  <http://www.visality.de/healthcarecontrolcenter.html?&L=0%22Dirk>
