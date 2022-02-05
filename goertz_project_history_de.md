@@ -4,6 +4,9 @@ tags: [Projekthistorie]
 
 # Projekthistorie Germo Görtz (de)
 
+## 01/2022 - bis jetzt; Roller
+
+- Unterstützung im Bereich MS SQL Server / BI
 
 ## 08/2021 - bis jetzt; SYSKRON - im House of Krones
 
