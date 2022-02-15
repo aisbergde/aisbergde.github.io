@@ -1,13 +1,13 @@
 = Sample Adoc Page
 :page-permalink: /sample-adoc/
 :url-asciidoctor: http://asciidoctor.org
-:title: Das ist ein Titel
-:subtitle: und das ist der Untertitel
-:tags: tag1, tag-2, tag 3, tag 4
-:last-updated: 2022-01-08
+:page-title: Das ist ein Titel
+:page-subtitle: und das ist der Untertitel
+:page-tags: [tag1] , [tag-2], [tag 3] , [tag 4] 
+:page-last-updated: 2022-01-08
 :head-extra: head_extra.html
-:slug: docs-code-mit-asciidoc-und-antora
-:lastmod: 2021-04-20T06:16:33.421Z
+:page-slug: docs-code-mit-asciidoc-und-antora
+:page-lastmod: 2021-04-20T06:16:33.421Z
 :toc: auto
 // :page-layout: info
 :page-layout: post
