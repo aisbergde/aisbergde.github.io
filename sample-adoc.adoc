@@ -10,7 +10,7 @@
 :lastmod: 2021-04-20T06:16:33.421Z
 :toc: auto
 // :page-layout: info
-:page-layout: blog
+:layout: post
 
 
 Wenn ein title definiert wurde, dann wird der statt des Header 1 angezeigt. Wenn kein title definiert wurde, wird der Header 1 verwendet.
