@@ -1,13 +1,13 @@
 = Sample Adoc Page
 :page-permalink: /sample-adoc/
 :url-asciidoctor: http://asciidoctor.org
-:page-title: Das ist ein Titel
+//:page-title: Das ist der Titel
 :page-subtitle: und das ist der Untertitel
-:page-tags: [tag1] , [tag-2], [tag 3] , [tag 4] 
-:page-last-updated: 2022-01-08
+:page-tags: [tag1, tag-2, tag 3]
+:page-last-updated: 2022-02-16
+// folgendes kann genutzt werden, um den Wert aus dem Dateinamen zu überschreiben
+:revdate: 2022-02-20 10:30:00 +0200
 :head-extra: head_extra.html
-:page-slug: docs-code-mit-asciidoc-und-antora
-:page-lastmod: 2021-04-20T06:16:33.421Z
 :toc: auto
 // :page-layout: info
 :page-layout: post
@@ -15,12 +15,14 @@
 
 Wenn ein title definiert wurde, dann wird der statt des Header 1 angezeigt. Wenn kein title definiert wurde, wird der Header 1 verwendet.
 
-subtitle erscheint nicht, auch nicht die anderen Attribute. Aber das könnte am gewählten Page-Layout liegen. 
+subtitle erscheint auch. Man muss die richtigen Attribute korrekt definieren. Insbesondere mit prefix "page-"
 
 == Header 2
 
 This is a sample page composed in AsciiDoc.
 Jekyll converts it to HTML using {url-asciidoctor}[Asciidoctor].
+
+Siehe auch: https://github.com/asciidoctor/jekyll-asciidoc[]
 
 === Header 3
 
