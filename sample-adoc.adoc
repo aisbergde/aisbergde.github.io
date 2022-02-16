@@ -1,4 +1,7 @@
 = Sample Adoc Page
+Germo Görtz
+2022-02-20 10:30:00
+:page-category: Test
 :page-permalink: /sample-adoc/
 :url-asciidoctor: http://asciidoctor.org
 //:page-title: Das ist der Titel
@@ -6,7 +9,7 @@
 :page-tags: [tag1, tag-2, tag 3]
 :page-last-updated: 2022-02-16
 // folgendes kann genutzt werden, um den Wert aus dem Dateinamen zu überschreiben
-:revdate: 2022-02-20 10:30:00 +0200
+//:revdate: 2022-02-20 10:30:00 +0200
 :head-extra: head_extra.html
 :toc: auto
 // :page-layout: info
