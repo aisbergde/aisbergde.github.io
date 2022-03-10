@@ -4,6 +4,10 @@ tags: [Projekthistorie]
 
 # Projekthistorie Germo Görtz (de)
 
+## 03/2022 - bis jetzt; Betty Barclay
+
+- Unterstützung im Bereich MS SQL Server / BI
+
 ## 01/2022 - bis jetzt; Roller
 
 - Unterstützung im Bereich MS SQL Server / BI
