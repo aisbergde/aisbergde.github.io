@@ -20,10 +20,13 @@ Berlin
 
 ## Abschluss
 
+in English:
+
 Diplom-Mediziner, Biophysiker, [Arzt-Kybernetiker](http://pirogov-university.com/academics/programs-and-degrees/undergraduate/medical-cybernetics/)  
 [Pirogov Russian National Research Medical University](http://pirogov-university.com/)
 
-на русском:  
+на русском:
+
 [Программа специалитета «Медицинская кибернетика»](https://rsmu.ru/academics/undergraduate/medical-cybernetics/)  
 [Российский национальный исследовательский медицинский университет имени Н.И. Пирогова](http://rsmu.ru/)
 

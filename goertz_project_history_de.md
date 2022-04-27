@@ -4,11 +4,9 @@ tags: [Projekthistorie]
 
 # Projekthistorie Germo Görtz (de)
 
-## 03/2022 - bis jetzt; Betty Barclay
+zeitlich sortiert nach Projekt-Ende
 
-- Unterstützung im Bereich MS SQL Server / BI
-
-## 01/2022 - bis jetzt; Roller
+## 05/2022 - bis jetzt; Nomura Asset Management Europe KVG mbH
 
 - Unterstützung im Bereich MS SQL Server / BI
 
@@ -32,6 +30,14 @@ Sonstiges
 - smarte Stromzähler, Zeitanalysen von Stromverbräuchen
   - IoT
   - SQL Server, Python
+
+## 01/2022 - bis 05/2022; Roller
+
+- Unterstützung im Bereich MS SQL Server / BI
+
+## 03/2022 - bis 04/2022; Betty Barclay
+
+- Unterstützung im Bereich MS SQL Server / BI
 
 ## 08/2021 - 12/2021; abcfinance
 
