@@ -10,10 +10,6 @@ zeitlich sortiert nach Projekt-Ende
 
 - Unterstützung im Bereich MS SQL Server / BI
 
-## 08/2021 - bis jetzt; SYSKRON - im House of Krones
-
-- Unterstützung im Bereich MS SQL Server / BI
-
 ## 09/2019 - bis jetzt; iconcare (BInovis & Visality)
 
 10-50 Mitarbeiter
@@ -31,11 +27,15 @@ Sonstiges
   - IoT
   - SQL Server, Python
 
-## 01/2022 - bis 05/2022; Roller
+## 08/2021 - 06/2022; SYSKRON - im House of Krones
 
 - Unterstützung im Bereich MS SQL Server / BI
 
-## 03/2022 - bis 04/2022; Betty Barclay
+## 01/2022 - 04/2022; Roller
+
+- Unterstützung im Bereich MS SQL Server / BI
+
+## 03/2022 - 04/2022; Betty Barclay
 
 - Unterstützung im Bereich MS SQL Server / BI
 
