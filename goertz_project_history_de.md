@@ -8,7 +8,8 @@ zeitlich sortiert nach Projekt-Ende
 
 ## 05/2022 - bis jetzt; Nomura Asset Management Europe KVG mbH
 
-- Unterstützung im Bereich MS SQL Server / BI
+- Aufbau neues DWH, Migration aus altem DWH
+- DWH und ELT werden mit AnalyticsCreator erstellt
 
 ## 09/2019 - bis jetzt; iconcare (BInovis & Visality)
 
