@@ -28,17 +28,24 @@ Man müsste das mit einer Option versehen und den jeweiligen Konverter abfragen 
 https://docs.asciidoctor.org/asciidoc/latest/attributes/document-attributes-ref/#intrinsic-attributes[] +
 aktueller Inhalt: `./assets/img`
 
-`{backend}` {backend}
+`\{backend\}` {backend}
 
 ist beim Export in Word: `docbook5` +
-und im Web?
+und im Web? `html5`
 
 
-`{basebackend}` {basebackend}
+`\{basebackend\}` {basebackend}
 
 ist beim Export in Word: `docbook` +
-und im Web?
+und im Web? `html`
 
+Das ist es zwar auch im VSC Browser, aber dann ist das eben so.
+
+\{safe-mode-name\} {safe-mode-name} +
+ist im VSC: `unsafe`
+
+\{user-home\} {user-home} +
+ist im VSC: `C:\Users\ggoer`
 
 `image::Germo_Goertz_345x460.jpg[]`
 
