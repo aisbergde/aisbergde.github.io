@@ -25,7 +25,20 @@ image::../assets/img/Germo_Goertz_345x460.jpg[]
 folgendes kann zusammen mit dem Attribute imagesdir getestet werden. +
 If an image macro’s target is an absolute path or URL, the value of imagesdir is not added to the target path. +
 Man müsste das mit einer Option versehen und den jeweiligen Konverter abfragen +
+https://docs.asciidoctor.org/asciidoc/latest/attributes/document-attributes-ref/#intrinsic-attributes[] +
 aktueller Inhalt: `./assets/img`
+
+`{backend}` {backend}
+
+ist beim Export in Word: `docbook5` +
+und im Web?
+
+
+`{basebackend}` {basebackend}
+
+ist beim Export in Word: `docbook` +
+und im Web?
+
 
 `image::Germo_Goertz_345x460.jpg[]`
 
