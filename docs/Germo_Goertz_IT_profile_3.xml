@@ -15,7 +15,11 @@
 <simpara>die zweite Variante funktioniert für den Export in Word, aber nicht im Web</simpara>
 </listitem>
 </itemizedlist>
-<simpara>Wenn es sich im Unterordner <literal>docs</literal> befindet, dann funktioniert Variante 3 mit AscciDoc local und Word</simpara>
+<simpara>Wenn es sich im Unterordner <literal>docs</literal> befindet, dann funktioniert Variante 3 mit AscciDoc local und Word, aber im Web funktioniert dann nur Variante 1</simpara>
+<simpara>Man könnte aber noch versuchen, de Export in Word aus dem Hauptverzeichnis heraus zu erstellen. Dann wird es zwar im VSC nicht angezeigt, aber der Word-Export müsste funktionieren?</simpara>
+<simpara>Also im Hauptverzeichnis</simpara>
+<simpara><literal>.convert-adoc-to-docx.bat docs/Germo_Goertz_IT_profile_3.adoc</literal></simpara>
+<simpara>Mal testen&#8230;&#8203;</simpara>
 <simpara><literal>image::/assets/img/Germo_Goertz_345x460.jpg[]</literal></simpara>
 <informalfigure>
 <mediaobject>

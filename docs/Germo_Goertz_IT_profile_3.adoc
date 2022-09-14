@@ -9,7 +9,15 @@ Probleme mit Bildern:
 * die erste und dritte Variante funktionieren im Web, aber nicht hier im Editor oder im Word Export
 * die zweite Variante funktioniert für den Export in Word, aber nicht im Web
 
-Wenn es sich im Unterordner `docs` befindet, dann funktioniert Variante 3 mit AscciDoc local und Word
+Wenn es sich im Unterordner `docs` befindet, dann funktioniert Variante 3 mit AscciDoc local und Word, aber im Web funktioniert dann nur Variante 1
+
+Man könnte aber noch versuchen, den Export in Word aus dem Hauptverzeichnis heraus zu erstellen. Dann wird es zwar im VSC nicht angezeigt, aber der Word-Export müsste funktionieren?
+
+Also im Hauptverzeichnis
+
+`.convert-adoc-to-docx.bat docs/Germo_Goertz_IT_profile_3.adoc`
+
+Mal testen... jetzt funktioniert nur das zweite Bild
 
 `image::/assets/img/Germo_Goertz_345x460.jpg[]`
 

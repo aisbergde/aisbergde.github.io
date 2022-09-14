@@ -3,6 +3,7 @@
 :slug: profil-germo-gortz-de-
 :subtitle: Microsoft BI Architekt + Entwickler. MS SQL Server, SSAS, DWH, ELT statt ETL, automatisierte Dokumentation
 :tags: ["MS SQL Server", "DWH", "SSAS", "Antora"]
+:imagesdir: ./assets/img
 
 Probleme mit Bildern:
 
@@ -20,6 +21,22 @@ image::./assets/img/Germo_Goertz_345x460.jpg[]
 `image::../assets/img/Germo_Goertz_345x460.jpg[]`
 
 image::../assets/img/Germo_Goertz_345x460.jpg[]
+
+folgendes kann zusammen mit dem Attribute imagesdir getestet werden. +
+If an image macro’s target is an absolute path or URL, the value of imagesdir is not added to the target path. +
+Man müsste das mit einer Option versehen und den jeweiligen Konverter abfragen +
+aktueller Inhalt: `./assets/img`
+
+`image::Germo_Goertz_345x460.jpg[]`
+
+image::Germo_Goertz_345x460.jpg[]
+
+Und jetzt den Inhalt des Attributs ändern in `/assets/img`
+
+:imagesdir: /assets/img
+
+image::Germo_Goertz_345x460.jpg[]
+
 
 Berlin
 

@@ -11,7 +11,7 @@ permalink: /index.php?/archives/1-Warum-ich-seit-2017-den-AnalyticsCreator-verwe
 
 
 layout: 'redirect'
-permalink: /test001
+permalink: /test002
 redir_to: 'http://www.steinberg-design.de'
 sitemap: false
 ```
