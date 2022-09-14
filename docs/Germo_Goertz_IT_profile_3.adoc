@@ -9,6 +9,8 @@ Probleme mit Bildern:
 * die erste und dritte Variante funktionieren im Web, aber nicht hier im Editor oder im Word Export
 * die zweite Variante funktioniert für den Export in Word, aber nicht im Web
 
+Wenn es sich im Unterordner `docs` befindet, dann funktioniert Variante 3 mit AscciDoc local und Word
+
 `image::/assets/img/Germo_Goertz_345x460.jpg[]`
 
 image::/assets/img/Germo_Goertz_345x460.jpg[]
