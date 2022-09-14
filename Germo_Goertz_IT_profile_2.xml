@@ -1,0 +1,1400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?asciidoc-toc?>
+<?asciidoc-numbered?>
+<article xmlns="http://docbook.org/ns/docbook" xmlns:xl="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en">
+<info>
+<title>IT Profil Germo Görtz (de)</title>
+<date>2022-09-14</date>
+</info>
+<simpara><literal>image::/assets/img/Germo_Goertz_345x460.jpg[]</literal></simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="/assets/img/Germo_Goertz_345x460.jpg"/>
+</imageobject>
+<textobject><phrase>Germo Goertz 345x460</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara><literal>image::./assets/img/Germo_Goertz_345x460.jpg[]</literal></simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="./assets/img/Germo_Goertz_345x460.jpg"/>
+</imageobject>
+<textobject><phrase>Germo Goertz 345x460</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara><literal>image::../assets/img/Germo_Goertz_345x460.jpg[]</literal></simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="../assets/img/Germo_Goertz_345x460.jpg"/>
+</imageobject>
+<textobject><phrase>Germo Goertz 345x460</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>Berlin</simpara>
+<section xml:id="_download_des_it_profils_inklusive_projekthistorie_und_referenzen">
+<title>Download des IT-Profils (inklusive Projekthistorie und Referenzen)</title>
+<simpara><link xl:href="https://datahandwerk.aisberg.de/Germo_Goertz_IT_profile.docx">Germo_Goertz_IT_profile.docx</link></simpara>
+</section>
+<section xml:id="_abschluss">
+<title>Abschluss</title>
+<simpara>in English:</simpara>
+<simpara>Diplom-Mediziner, Biophysiker, <link xl:href="http://pirogov-university.com/academics/programs-and-degrees/undergraduate/medical-cybernetics/">Arzt-Kybernetiker</link><?asciidoc-br?>
+<link xl:href="http://pirogov-university.com/">Pirogov Russian National Research Medical University</link></simpara>
+<simpara>на русском:</simpara>
+<simpara><link xl:href="https://rsmu.ru/academics/undergraduate/medical-cybernetics/">Программа специалитета «Медицинская кибернетика»</link><?asciidoc-br?>
+<link xl:href="http://rsmu.ru/">Российский национальный исследовательский медицинский университет имени Н.И. Пирогова</link></simpara>
+</section>
+<section xml:id="_sprachkenntnisse">
+<title>Sprachkenntnisse</title>
+<itemizedlist>
+<listitem>
+<simpara>deutsch (Muttersprache)</simpara>
+</listitem>
+<listitem>
+<simpara>russisch (studiert und gearbeitet in Russland)</simpara>
+</listitem>
+<listitem>
+<simpara>englisch</simpara>
+</listitem>
+</itemizedlist>
+<simpara><?asciidoc-hr?></simpara>
+</section>
+<section xml:id="_bi_architekt_und_entwickler_mit_microsoft_bi">
+<title>BI-Architekt und -Entwickler mit Microsoft BI</title>
+<itemizedlist>
+<listitem>
+<simpara>AISBERG - <emphasis role="strong">A</emphasis>nalytische <emphasis role="strong">I</emphasis>nformations<emphasis role="strong">S</emphasis>ysteme und <emphasis role="strong">BER</emphasis>atung im <emphasis role="strong">G</emphasis>esundheitswesen (und in anderen Branchen)</simpara>
+</listitem>
+<listitem>
+<simpara>Business Intelligence (BI, Geschäftsanalyse):</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Anforderungsanalyse</simpara>
+</listitem>
+<listitem>
+<simpara>Architektur</simpara>
+</listitem>
+<listitem>
+<simpara>Konzeption</simpara>
+</listitem>
+<listitem>
+<simpara>Einführung und</simpara>
+</listitem>
+<listitem>
+<simpara>Umsetzung von</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Data Warehouse (DWH)</simpara>
+</listitem>
+<listitem>
+<simpara>ELT (Extrahieren, Laden, Transformieren von Daten) statt ETL</simpara>
+</listitem>
+<listitem>
+<simpara>Datenmodellen</simpara>
+</listitem>
+<listitem>
+<simpara>Analyseverfahren</simpara>
+</listitem>
+<listitem>
+<simpara>Planungssystemen</simpara>
+</listitem>
+<listitem>
+<simpara>Berichtssystemen</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Implementierung von Geschäftsprozessen und -logiken</simpara>
+</listitem>
+<listitem>
+<simpara>automatisierte versionisierte Dokumentation mit <link xl:href="https://datahandwerk.gitlab.io/">DataHandwerk DocsGenerator</link> (Kombination von technischer und fachlicher Dokumentation; <link xl:href="https://docs.asciidoctor.org/asciidoc/latest/">Asciidoc</link>, <link xl:href="">https:</link>(<link xl:href="https://antora.org/)">Antora (Docs as Code)</link>)</simpara>
+</listitem>
+<listitem>
+<simpara>technische Umsetzung regulatorischer Anforderungen (Historisierung, Versionierung, Data Lineage, DSGVO, &#8230;&#8203;)</simpara>
+</listitem>
+<listitem>
+<simpara>Automatisierung (Import, ELT, Code-Generierung, DWH, Dokumentation)</simpara>
+</listitem>
+<listitem>
+<simpara>unter Verwendung von <link xl:href="https://www.microsoft.com/de-de/sql-server/sql-server-2019"><emphasis role="strong">Microsoft SQL Server</emphasis></link>, einschließlich <link xl:href="https://docs.microsoft.com/de-de/analysis-services/analysis-services-overview?view=asallproducts-allversions"><emphasis role="strong">SSAS</emphasis> (SQL Server Analysis Services)</link>, <link xl:href="https://docs.microsoft.com/de-de/sql/integration-services/sql-server-integration-services?view=sql-server-ver15"><emphasis role="strong">SSIS</emphasis> (SQL Server Integration Services)</link>, <link xl:href="https://docs.microsoft.com/de-de/sql/reporting-services/create-deploy-and-manage-mobile-and-paginated-reports?view=sql-server-ver15">SSRS (SQL Server Reporting Services)</link> und verschiedener <link xl:href="https://azure.microsoft.com/de-de/">Microsoft Azure</link> Technologien</simpara>
+</listitem>
+<listitem>
+<simpara>und von Software und Technologie rund um die Microsoft BI Plattform oder zur Entwicklung</simpara>
+<itemizedlist>
+<listitem>
+<simpara><link xl:href="https://datahandwerk.gitlab.io"><emphasis role="strong">DataHandwerk-toolkit-mssql</emphasis></link><?asciidoc-br?>
+mein open source Projekt, enthält auch einen Datenbank-Dokumentations-Generator</simpara>
+</listitem>
+<listitem>
+<simpara><link xl:href="https://azure.microsoft.com/de-de/services/devops/">Azure DevOps</link><?asciidoc-br?>
+Tool für DevOps, agiles Projekt-Controlling, Issue-Tracking, Code-Versionierung. Leider keine Asciidoc-Unterstützung in Wiki oder Repository-Preview</simpara>
+</listitem>
+<listitem>
+<simpara><link xl:href="https://powerbi.microsoft.com/de-de/">Microsoft Power BI</link><?asciidoc-br?>
+Microsoft Frontend für Berichtswesen</simpara>
+</listitem>
+<listitem>
+<simpara><link xl:href="">https:</link>(<link xl:href="https://antora.org/)">Antora (Docs as Code)</link><?asciidoc-br?>
+open Source Dokumentations-Framework, insbesondere für technische versionisierte Dokumentation, basierend auf Asciidoc</simpara>
+</listitem>
+<listitem>
+<simpara><link xl:href="https://www.bissantz.de/software/">Deltamaster (SSAS Frontend)</link></simpara>
+</listitem>
+<listitem>
+<simpara><link xl:href="https://www.oreus.hr/products/cubeplayer">CubePlayer (SSAS Frontend)</link></simpara>
+</listitem>
+<listitem>
+<simpara><link xl:href="https://www.xlcubed.com/">XLcubed</link><?asciidoc-br?>
+einziges brauchbares Excel-Addin für SSAS</simpara>
+</listitem>
+<listitem>
+<simpara><link xl:href="https://www.analyticscreator.com/">AnalyticsCreator</link><?asciidoc-br?>
+DWH Automatisierung - besser, flexibler und preiswerter als <link xl:href="https://www.wherescape.com/">WhereScape</link>, mit dem ich auch gearbeitet habe</simpara>
+</listitem>
+<listitem>
+<simpara><link xl:href="https://git-scm.com/">git (Versionskontrollsystem)</link><?asciidoc-br?>
+alle meine Projekte werden grundsätzlich versionisiert</simpara>
+</listitem>
+<listitem>
+<simpara>Datenmodellierung mit <link xl:href="https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/">Dimensional modeling (DM)</link> als Bestandteil der "Business Dimensional Lifecycle methodology" entwickelt von  Ralph <emphasis role="strong">Kimball</emphasis></simpara>
+</listitem>
+<listitem>
+<simpara>Datenmodellierung nach <emphasis role="strong">Data Vault</emphasis></simpara>
+</listitem>
+<listitem>
+<simpara>&#8230;&#8203;</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_soft_skills">
+<title>Soft Skills</title>
+<simpara>Erfolgsfaktoren meiner Tätigkeit als BI-Architekt und -Entwickler:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Exzellenz durch Kompetenz</simpara>
+</listitem>
+<listitem>
+<simpara>Handwerk statt Fließband</simpara>
+</listitem>
+<listitem>
+<simpara>Technokratie statt Demokratie:<?asciidoc-br?>
+Vertrauen in Experten</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Als <link xl:href="http://pirogov-university.com/academics/programs-and-degrees/undergraduate/medical-cybernetics/">Arzt-Kybernetiker</link> bin ich "kybernetisch im Denken und Handeln"</simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">Soll</emphasis> und <emphasis role="strong">Ist</emphasis> analysieren,</simpara>
+</listitem>
+<listitem>
+<simpara>verschiedene Wege identifizieren,</simpara>
+</listitem>
+<listitem>
+<simpara>Ursachen und Wirkungen berücksichtigen,</simpara>
+</listitem>
+<listitem>
+<simpara>Störgrößen ermitteln und auf diese reagieren.</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Soziale Kompetenz, Auffassungsgabe und Ehrgeiz sorgen dafür, dass fachliche Anforderungen genau erfasst und mit maximaler Kunden-Zufriedenheit umgesetzt werden:<?asciidoc-br?>
+kompetent, zielorientiert, auch querdenkend und nonkonformistisch,<?asciidoc-br?>
+analytisch, exakt, verantwortungsbewusst, selbständig, schnell, effektiv und effizient.</simpara>
+<simpara>Ich halte mehr von <emphasis role="strong">DevOps</emphasis> (<emphasis role="strong">Dev</emphasis>elopment + IT <emphasis role="strong">Op</emphasis>eration<emphasis role="strong">s</emphasis> in Kombination) und weniger von einer Trennung in Entwicklung und späteren Betrieb (durch Offshore- oder Nearshore-Mitarbeiter).</simpara>
+</section>
+<section xml:id="_sonstiges">
+<title>Sonstiges</title>
+<section xml:id="_keine_aül_rentenversicherung_scheinselbständigkeit_vollzeit">
+<title>keine AÜL, Rentenversicherung, Scheinselbständigkeit, Vollzeit</title>
+<simpara>Ich habe <emphasis>kein</emphasis> Interesse an einer festen Anstellung, insbesondere auch nicht an einer Arbeitnehmerüberlassung (AÜL), da ich jeden unnötigen Kontakt mit der "Deutschen Rentenversicherung" vermeiden will, die gemeinsam mit der Politik dafür verantwortlich ist, dass immer mehr Kunden Angst haben, in Deutschland mit Freiberuflern zusammenzuarbeiten.</simpara>
+<simpara>Die Gefahr der sogenannten "Scheinselbständigkeit" ist auch ein Grund dafür, warum ich möglichst nicht mehr in einem einzigen Projekt vollzeit tätig sein will, sondern zwecks Risiko-Minimierung lieber in mehreren Projekten gleichzeitig.</simpara>
+</section>
+<section xml:id="_anmerkungen_zu_ssas_sql_server_analysis_services">
+<title>Anmerkungen zu SSAS (SQL Server Analysis Services)</title>
+<simpara>Unter dem gleichen Oberbegriff <emphasis role="strong">SSAS</emphasis> (<link xl:href="http://docs.microsoft.com/de-de/analysis-services/analysis-services-overview?view=asallproducts-allversions">SQL Server Analysis Services</link>) vereint Microsoft zwei unterschiedliche Technologien:</simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">multidimensionale</emphasis> Datenbanken und</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">tabellarische</emphasis> Datenbanken.</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Das kann (und soll?) verwirren, da es sich um unterschiedliche Technologien handelt. Die Dokumentation von Microsoft: <link xl:href="http://docs.microsoft.com/de-de/analysis-services/comparing-tabular-and-multidimensional-solutions-ssas?view=asallproducts-allversions">Vergleichen von tabellarischen und mehrdimensionalen Lösungen</link></simpara>
+<simpara>Mit den <emphasis role="strong">multidimensionalen</emphasis> Datenbanken arbeite ich seit 1999, damals noch "OLAP Services 7.0", ab 2000 "MSAS" (Microsoft Analysis Services). Ab 2005 gab es mit "SSAS" (SQL Server Analysis Services) wieder eine neue Technologie, welche grundsätzlich der heutigen mehrdimensionalen Technologie entspricht. Typische Begriffe dieser multidimensionalen Technologie sind <emphasis role="strong">Würfel (Cubes)</emphasis> und <emphasis role="strong">Dimensionen</emphasis>.</simpara>
+<simpara>Seit SQL Server 2012 gibt es zusätzlich <emphasis role="strong">SSAS Tabular</emphasis>, eine auf Tabellen basierende Technologie, wie sie auch in Power Pivot und <link xl:href="http://powerbi.microsoft.com/de-de/">Power BI</link> verwendet wird.</simpara>
+<simpara>Die Tabular-Technologie wird von Microsoft gepusht. SSAS Tabular hat einige Stärken und wird besser von Power BI unterstützt, welches intern auch diese Technologie verwendet. Die Unterstützung von Power BI für multidimensionale Datenbanken ist mangelhaft; vielleicht, um diese Technologie langsam sterben zu lassen. Allerdings gibt es immer noch viele Stärken der multidimensionalen Technologie, welche sich mit der tabularischen Technologie (noch) nicht umsetzen lassen.</simpara>
+<simpara>=&gt; Was sich mit SSAS Tabular sinnvoll realisieren lässt, wird von mir pragmatisch mit Tabular gemacht. Falls nötig und sinnvoll, gibt es weiter die multidimensionale Technologie.</simpara>
+<simpara>Die Abfragesprache <link xl:href="http://de.wikipedia.org/wiki/Multidimensional_Expressions">MDX (Multidimensional Expressions)</link> kann für beide Technologien verwendet werden, <link xl:href="https://docs.microsoft.com/de-de/dax/">DAX (Data Analysis Expressions)</link> kann nur für SSAS Tabular verwendet werden.</simpara>
+</section>
+</section>
+<section xml:id="_projekthistorie_germo_görtz_de">
+<title>Projekthistorie Germo Görtz (de)</title>
+<simpara>zeitlich sortiert nach Projekt-Ende</simpara>
+<section xml:id="_052022_bis_jetzt_nomura_asset_management_europe_kvg_mbh">
+<title>05/2022 - bis jetzt; Nomura Asset Management Europe KVG mbH</title>
+<itemizedlist>
+<listitem>
+<simpara>Aufbau neues DWH, Migration aus altem DWH</simpara>
+</listitem>
+<listitem>
+<simpara>DWH und ELT werden mit AnalyticsCreator erstellt</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_092019_bis_jetzt_iconcare_binovis_visality">
+<title>09/2019 - bis jetzt; iconcare (BInovis &amp; Visality)</title>
+<simpara>10-50 Mitarbeiter</simpara>
+<simpara>Sonstiges</simpara>
+<section xml:id="_microsoft_bi_architekt_und_entwickler">
+<title>Microsoft BI Architekt und Entwickler</title>
+<itemizedlist>
+<listitem>
+<simpara>EventAnalytics<?asciidoc-br?>
+Prozess- und Zeitanalysen in Krankenhäusern (beispielsweise OP Zeiten, OP Wechselzeiten, OP Auslastung, Personal Auslastung)</simpara>
+</listitem>
+<listitem>
+<simpara>Healthcare-Control-Center-Tool<?asciidoc-br?>
+Übertragung von Steuerungsmethoden aus der Aviation-Branche in ein innovatives IT-Tool zur Planung, Steuerung und Optimierung von Krankenhaus-Prozessen</simpara>
+</listitem>
+</itemizedlist>
+<simpara><link xl:href="http://www.visality.de/healthcarecontrolcenter.html?&amp;L=0%22Dirk">http://www.visality.de/healthcarecontrolcenter.html?&amp;L=0%22Dirk</link></simpara>
+<itemizedlist>
+<listitem>
+<simpara>smarte Stromzähler, Zeitanalysen von Stromverbräuchen</simpara>
+<itemizedlist>
+<listitem>
+<simpara>IoT</simpara>
+</listitem>
+<listitem>
+<simpara>SQL Server, Python</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+</itemizedlist>
+</section>
+</section>
+<section xml:id="_082021_062022_syskron_im_house_of_krones">
+<title>08/2021 - 06/2022; SYSKRON - im House of Krones</title>
+<itemizedlist>
+<listitem>
+<simpara>Unterstützung im Bereich MS SQL Server / BI</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_012022_042022_roller">
+<title>01/2022 - 04/2022; Roller</title>
+<itemizedlist>
+<listitem>
+<simpara>Unterstützung im Bereich MS SQL Server / BI</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_032022_042022_betty_barclay">
+<title>03/2022 - 04/2022; Betty Barclay</title>
+<itemizedlist>
+<listitem>
+<simpara>Unterstützung im Bereich MS SQL Server / BI</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_082021_122021_abcfinance">
+<title>08/2021 - 12/2021; abcfinance</title>
+<simpara>500-1000 Mitarbeiter</simpara>
+<simpara>Banken und Finanzdienstleistungen</simpara>
+<section xml:id="_konzeption_und_poc_für_eine_source_to_target_dokumentation_für_das_zentrale_dwh_über_die_verschiedenen_schichten_u_a_data_vault_starschema_und_tabulare_modelle">
+<title>Konzeption und PoC für eine «Source to target» - Dokumentation für das zentrale DWH über die verschiedenen Schichten (u. a. Data Vault, Starschema und tabulare Modelle)</title>
+<itemizedlist>
+<listitem>
+<simpara>umfasst Versionierung der Dokumentation, Anreicherung mit Metadaten und fachlichen Daten, Bereitstellung von Schnittstellen für Fachbereiche zur Administration und Konsumierung, Verknüpfung mit Informationen aus Quellsystemen im Rahmen der ETL/ELT-Prozesse etc.</simpara>
+</listitem>
+<listitem>
+<simpara>Unterstützung bei Umsetzung der Lösung</simpara>
+</listitem>
+<listitem>
+<simpara>Entwicklung entsprechender Prozesse/Workloads für die Erzeugung und Aktualisierung der Dokumentation</simpara>
+</listitem>
+<listitem>
+<simpara>Einführung eines entsprechenden Werkzeugs</simpara>
+</listitem>
+</itemizedlist>
+</section>
+</section>
+<section xml:id="_042021_062021_peter_hahn_gmbh">
+<title>04/2021 - 06/2021; Peter Hahn GmbH</title>
+<simpara>&gt;1.000 Mitarbeiter</simpara>
+<simpara>Handel (Bekleidung)</simpara>
+<section xml:id="_power_bi_expert">
+<title>Power BI Expert</title>
+<itemizedlist>
+<listitem>
+<simpara>Begleitung von Workshops mit Bezug zu BI Anforderungen</simpara>
+</listitem>
+<listitem>
+<simpara>Beratung und Erstellung von Mappings &amp; BI Umsetzungen<?asciidoc-br?>
+Umsetzen von Anforderungen in technische BI Lösungen</simpara>
+</listitem>
+<listitem>
+<simpara>Zusammenarbeit mit anderen Teilprojekten und Zuarbeit von Ergebnissen</simpara>
+</listitem>
+</itemizedlist>
+</section>
+</section>
+<section xml:id="_022020_032021_meag_munich_ergo_assetmanagement_gmbh">
+<title>02/2020 - 03/2021; MEAG - Munich ERGO Assetmanagement GmbH</title>
+<simpara>500-1000 Mitarbeiter</simpara>
+<simpara>Banken und Finanzdienstleistungen</simpara>
+<section xml:id="_performancemessung_reporting_microsoft_bi_architekt_und_entwickler">
+<title>Performancemessung Reporting: Microsoft BI Architekt und Entwickler</title>
+<itemizedlist>
+<listitem>
+<simpara>Entwicklung eines Reporting-Tools mittels Power BI, mit dem Ziel der automatisierten Report-Erstellung aus Sim Corp Dimension anstelle des bisherigen Reportings mittels Excel-Sheets.</simpara>
+</listitem>
+<listitem>
+<simpara>DWH, ELT und SSAS werden mit AnalyticsCreator erstellt.</simpara>
+</listitem>
+<listitem>
+<simpara>einzelne Module mit Python, Powershell</simpara>
+</listitem>
+</itemizedlist>
+</section>
+</section>
+<section xml:id="_092019032020_swisscom">
+<title>09/2019&#8201;&#8212;&#8201;03/2020; Swisscom</title>
+<simpara>&gt;10.000 Mitarbeiter</simpara>
+<simpara>Telekommunikation</simpara>
+<section xml:id="_import_und_verarbeitung_von_daten_aus_service_now_für_ein_reporting_erstellung_dwh_mit_analyticscreator_berichte_mit_power_bi">
+<title>Import und Verarbeitung von Daten aus Service Now für ein Reporting, Erstellung DWH mit AnalyticsCreator, Berichte mit Power BI</title>
+<itemizedlist>
+<listitem>
+<simpara>Import von Daten aus Service Now über die API (mit Python)</simpara>
+</listitem>
+<listitem>
+<simpara>Import, Integration und Transformation in einem DWH im SQL Server</simpara>
+</listitem>
+<listitem>
+<simpara>Analytische Datenbank mit SSAS</simpara>
+</listitem>
+<listitem>
+<simpara>Berichte im Power BI</simpara>
+</listitem>
+<listitem>
+<simpara>DWH, ELT und SSAS werden mit AnalyticsCreator erstellt</simpara>
+</listitem>
+</itemizedlist>
+</section>
+</section>
+<section xml:id="_112010_122019_drk_kliniken_berlin">
+<title>11/2010 - 12/2019; DRK Kliniken Berlin</title>
+<simpara>1000-5000 Mitarbeiter</simpara>
+<simpara>Sonstiges</simpara>
+<section xml:id="_krankenhaus_dwh_microsoft_bi_architekt_und_entwickler">
+<title>Krankenhaus DWH: Microsoft BI Architekt und Entwickler</title>
+<simpara>Projektinhalte:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Materialwirtschafts-</simpara>
+</listitem>
+<listitem>
+<simpara>Belegungs-</simpara>
+</listitem>
+<listitem>
+<simpara>Operations- und</simpara>
+</listitem>
+<listitem>
+<simpara>DRG-Informationssystem</simpara>
+</listitem>
+<listitem>
+<simpara>Bau- und Investitionscontrolling</simpara>
+</listitem>
+<listitem>
+<simpara>OP-Management (Planung, Nutzung, Wechselzeiten, &#8230;&#8203;),</simpara>
+</listitem>
+<listitem>
+<simpara>monatliches Berichtswesen</simpara>
+</listitem>
+<listitem>
+<simpara>Finanzplanung und Hochrechnungen</simpara>
+</listitem>
+<listitem>
+<simpara>Migration BI Anwendungen von SQL Server 2000 auf SQL Server2008 R2</simpara>
+</listitem>
+<listitem>
+<simpara>Schulung der Anwender</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Datenquellen:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Orbis (KIS = KrankenhausInformationsSystem) u. a.</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Kenntnisse:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Planung, Controlling, Anforderungsanalyse, Konzeption, Kommunikation mit Fachbereich, Performance Optimierung, Berichtswesen, Dokumentation, Test</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Produkte:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Microsoft SQL Server 2008 R2 (relational, SSAS, SSIS, SSRS), Microsoft Access, Cubeplayer</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Aktuell: regelmäßiger Support, um das System "am Laufen zu halten", bis irgendwann die vollständige Migration in ein klinisches DWH des KISAnbieters abgeschlossen sein wird.</simpara>
+</section>
+</section>
+<section xml:id="_112019_122019_würth_logistics_ag">
+<title>11/2019 - 12/2019; Würth Logistics AG</title>
+<simpara>50-250 Mitarbeiter</simpara>
+<simpara>Transport und Logistik</simpara>
+<section xml:id="_erstellung_eines_dwh_mit_dem_analyticscreator">
+<title>Erstellung eines DWH mit dem AnalyticsCreator</title>
+<simpara>Verwendung des <emphasis role="strong">AnalyticsCreator</emphasis> zur Erstellung eines Reporting-DWH für Daten der Logistik im SQL Server + Analytische Datenbank (SSAS Tabular) als Grundlage eines flexiblen Berichtswesens mit PowerBI oder anderen Frontends.</simpara>
+<simpara>Coaching der internen Entwickler zur selbständigen Weiterentwicklung des DWH mit dem AnalyticsCreator</simpara>
+<simpara>Datenquelle:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>operatives Logistik-DWH (Oracle), eine Anbindung weiterer Datenquellen ist geplant: SAP u. a.</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Das schweizer Logistik-Unternehmen ist zuständig für die weltweite Koordination der Logistik eines deutschen Großkonzerns, des Weltmarktführers für den Vertrieb von Montage- und Befestigungsmaterial.</simpara>
+</section>
+</section>
+<section xml:id="_102018_092019_provinzial_nord_west">
+<title>10/2018 - 09/2019; Provinzial Nord-West</title>
+<simpara>5000-10.000 Mitarbeiter</simpara>
+<simpara>Versicherungen</simpara>
+<section xml:id="_aufbau_neues_dwh_microsoft_bi_architekt_und_entwickler_microsoft_bi_analyse_plattform_analyticscreator">
+<title>Aufbau neues DWH: Microsoft BI Architekt und Entwickler, Microsoft BI-Analyse-Plattform, Analyticscreator</title>
+<simpara>Aufbau eines neuen DWH, gehostet auf Microsoft Azure, basierend auf Microsoft SQL BI Technologien</simpara>
+<simpara>Microsoft SQL Server (relational, SSAS, SSIS), Power BI, AnalyticsCreator</simpara>
+<simpara>Big Data</simpara>
+</section>
+</section>
+<section xml:id="_082018_102018_zeiss_group">
+<title>08/2018 - 10/2018; ZEISS Group</title>
+<simpara>&gt;10.000 Mitarbeiter</simpara>
+<simpara>Industrie und Maschinenbau</simpara>
+<section xml:id="_durchlaufzeiten_von_produktionsschritten_microsoft_bi_architekt_und_entwickler_microsoft_bi_analyse_plattform_analyticscreator">
+<title>Durchlaufzeiten von Produktionsschritten: Microsoft BI Architekt und Entwickler, Microsoft BI-Analyse-Plattform, Analyticscreator</title>
+<itemizedlist>
+<listitem>
+<simpara>Durchlaufzeiten von Produktionsschritten</simpara>
+</listitem>
+<listitem>
+<simpara>Re-Design einer bestehenden Power BI Lösung: Konvertierung in DWH + SSAS Tabular zwecks Performance-Optimierung und Verbesserung der Auswertungsmöglichkeiten.</simpara>
+</listitem>
+<listitem>
+<simpara>Kombination von Logik im DWH (Microsoft SQL Server) und in SSAS Tabular</simpara>
+</listitem>
+<listitem>
+<simpara>DWH, ELT und SSAS werden mit AnalyticsCreator erstellt.</simpara>
+</listitem>
+</itemizedlist>
+<simpara>andere Projekte:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Microsoft Azure - Unterstützung bei Verwendung von Azure Diensten, Migration von SSAS Lösungen zu Azure, ETL / ELT, diverses</simpara>
+</listitem>
+</itemizedlist>
+</section>
+</section>
+<section xml:id="_032016_092018_zeiss_group">
+<title>03/2016 - 09/2018; ZEISS Group</title>
+<simpara>&gt;10.000 Mitarbeiter</simpara>
+<simpara>Industrie und Maschinenbau</simpara>
+<section xml:id="_bicc_bi_competence_center_dashboards_mit_datazen_microsoft_bi_analyse_plattform_microsoft_bi_architekt_und_entwickler">
+<title>BICC (BI Competence Center) - Dashboards mit Datazen, Microsoft BI-Analyse- Plattform: Microsoft BI Architekt und Entwickler</title>
+<itemizedlist>
+<listitem>
+<simpara>ETL, DWH und Berichte: Dashboards für das Projekt-Controlling mit Datazen</simpara>
+</listitem>
+<listitem>
+<simpara>Import von Daten aus SAP und Essbase</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Produkte:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Datazen, Microsoft SQL Server (relational)</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Kernprojekt 03.2016 - 04.0216, Danach bis 09.2018 laufender Support bis und einschließlich Migration auf ServiceNow</simpara>
+</section>
+</section>
+<section xml:id="_112017_072018_adecco_germany_holding_sa_co_kg">
+<title>11/2017 - 07/2018; Adecco Germany Holding SA &amp; Co. KG</title>
+<simpara>&gt;10.000 Mitarbeiter</simpara>
+<simpara>Sonstiges</simpara>
+<section xml:id="_candidate_cube_microsoft_bi_architekt_und_entwickler_microsoft_bi_analyse_plattform_analyticscreator">
+<title>"Candidate-Cube": Microsoft BI Architekt und Entwickler, Microsoft BI-Analyse-Plattform, Analyticscreator</title>
+<simpara>Das bestehende Datawarehouse soll um ein "Candidate-Cube" erweitert werden:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Aufnahme von fachlichen Anforderungen</simpara>
+</listitem>
+<listitem>
+<simpara>Spezifikationserstellung</simpara>
+</listitem>
+<listitem>
+<simpara>technische Umsetzung</simpara>
+</listitem>
+<listitem>
+<simpara>Erstellung der ETL-Prozesse (SSIS)</simpara>
+</listitem>
+<listitem>
+<simpara>Cube Erstellung (SSAS)</simpara>
+</listitem>
+<listitem>
+<simpara>Reporterstellung (SSRS)</simpara>
+</listitem>
+<listitem>
+<simpara>DWH, ELT und SSAS werden mit AnalyticsCreator erstellt.</simpara>
+</listitem>
+<listitem>
+<simpara>Vorbereitung einer möglichen Migration in Azure</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Produkte:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Microsoft SQL Server (relational, SSAS, SSIS), Power BI, AnalyticsCreator</simpara>
+</listitem>
+</itemizedlist>
+</section>
+</section>
+<section xml:id="_052017_112017_adam_opel_gmbh">
+<title>05/2017 - 11/2017; Adam Opel GmbH</title>
+<simpara>&gt;10.000 Mitarbeiter</simpara>
+<simpara>Automobil und Fahrzeugbau</simpara>
+<section xml:id="_churn_prevention_microsoft_bi_architekt_und_entwickler_microsoft_bi_analyse_plattform_analyticscreator">
+<title>Churn-Prevention: Microsoft BI Architekt und Entwickler, Microsoft BI-Analyse-Plattform, Analyticscreator</title>
+<itemizedlist>
+<listitem>
+<simpara>Vorhersage von Churn-Quoten (Wechsel zu anderen Herstellern), Auswertungen</simpara>
+</listitem>
+<listitem>
+<simpara>Data Vault, Data Mining, Prediction</simpara>
+</listitem>
+<listitem>
+<simpara>Microsoft SQL Server (relational, SSAS, SSIS), Power BI, AnalyticsCreator</simpara>
+</listitem>
+<listitem>
+<simpara>DWH, ELT und SSAS werden mit AnalyticsCreator erstellt.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+</section>
+<section xml:id="_072016_062017_kelvion">
+<title>07/2016 - 06/2017; Kelvion</title>
+<simpara>1000-5000 Mitarbeiter</simpara>
+<simpara>Industrie und Maschinenbau</simpara>
+<section xml:id="_ssas_datenbanken_für_planungssystem_im_zusammenhang_mit_tagetik_microsoft_bi_architekt_und_entwickler_microsoft_bi_analyse_plattform">
+<title>SSAS Datenbanken für Planungssystem im Zusammenhang mit Tagetik: Microsoft BI Architekt und Entwickler, Microsoft BI-Analyse-Plattform</title>
+<simpara>Microsoft SQL Server 2016 (relational, SSAS, SSIS, SSRS), cMORE/Connect for SAP, cMORE/XL (XLCubed), Targit</simpara>
+</section>
+</section>
+<section xml:id="_042017_052017_kuhn_und_bülow_versicherungsmakler_group">
+<title>04/2017 - 05/2017; Kuhn und Bülow Versicherungsmakler Group</title>
+<simpara>10-50 Mitarbeiter</simpara>
+<simpara>Versicherungen</simpara>
+<section xml:id="_berichtswesen_und_statistiken_mit_power_bi">
+<title>Berichtswesen und Statistiken mit Power BI</title>
+<simpara>Grundlagen für Statistiken und Berichte erstellen, um basierend auf Daten des operativen Systems Auswertungen nach Versicherungsnehmern, Versicherern, Schäden und Prämien zu ermöglichen.</simpara>
+</section>
+</section>
+<section xml:id="_092016_122016_airberlin">
+<title>09/2016 - 12/2016; airberlin</title>
+<simpara>5000-10.000 Mitarbeiter</simpara>
+<simpara>Transport und Logistik</simpara>
+<section xml:id="_customer_segmentation_ancillaries_microsoft_bi_architekt_und_entwickler">
+<title>Customer Segmentation, Ancillaries: Microsoft BI Architekt und Entwickler</title>
+<simpara>Microsoft SQL Server 2014 (relational, SSAS, SSIS)</simpara>
+</section>
+</section>
+<section xml:id="_062016_072016_proxcel_gmbh">
+<title>06/2016 - 07/2016; proXcel GmbH</title>
+<simpara>10-50 Mitarbeiter</simpara>
+<simpara>Sonstiges</simpara>
+<section xml:id="_unterstützung_bei_analyse_bearbeitung_und_auswertung_komplexer_datenpakete_eines_produktionsprozesses_mit_microsoft_bi_analyse_plattform_data_mining">
+<title>Unterstützung bei Analyse, Bearbeitung und Auswertung komplexer Datenpakete eines Produktionsprozesses mit Microsoft-BI-Analyse-Plattform, Data Mining</title>
+
+</section>
+</section>
+<section xml:id="_052016_052016_heraeus_kulzer">
+<title>05/2016 - 05/2016; Heraeus Kulzer</title>
+<simpara>1000-5000 Mitarbeiter</simpara>
+<simpara>Industrie und Maschinenbau</simpara>
+<section xml:id="_bi_support_microsoft_bi_analyse_plattform">
+<title>BI Support, Microsoft BI-Analyse-Plattform</title>
+<simpara>Microsoft SQL Server (relational, SSAS, SSIS)</simpara>
+</section>
+</section>
+<section xml:id="_062015_032016_volkswagen_gebrauchtfahrzeughandels_und_service_gmbh_vgsg">
+<title>06/2015 - 03/2016; Volkswagen Gebrauchtfahrzeughandels und Service GmbH (VGSG)</title>
+<simpara>&gt;10.000 Mitarbeiter</simpara>
+<simpara>Automobil und Fahrzeugbau</simpara>
+<section xml:id="_bi_competence_center_volkswagen_nutzfahrzeuge_datamining_neuronale_netze_visualisierung_microsoft_bi_analyse_plattform_microsoft_bi_architekt_und_entwickler">
+<title>BI Competence Center Volkswagen Nutzfahrzeuge, Datamining, neuronale Netze, Visualisierung, Microsoft BI-Analyse-Plattform: Microsoft BI Architekt und Entwickler</title>
+<simpara>DML: Data Mining Leasing, DM VGSG - Data Mining VGSG (junge Gebrauchte)</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Datamining mit Statistica</simpara>
+</listitem>
+<listitem>
+<simpara>neuronale Netze</simpara>
+</listitem>
+<listitem>
+<simpara>Prognose von Marktwerten (Restwertmanagement) und Verkaufsmengen für gebrauchte Volkswagen-Nutzfahrzeuge und Leasingfahrzeuge</simpara>
+</listitem>
+<listitem>
+<simpara>HIS: Händler Informationssystem</simpara>
+</listitem>
+<listitem>
+<simpara>PuRAS: Profitabilitäts- und Rechnungsanalyse After Sales</simpara>
+</listitem>
+<listitem>
+<simpara>Stammdaten-Management</simpara>
+</listitem>
+<listitem>
+<simpara>Visualisierungen mit Tableau</simpara>
+</listitem>
+<listitem>
+<simpara>BI Entwicklung mit Microsoft SQL Server (relational, SSAS, SSIS), Wherescape.</simpara>
+</listitem>
+</itemizedlist>
+<simpara>der wissenschaftliche Hintergrund wird hier genauer erklärt:<?asciidoc-br?>
+<link xl:href="https://www.wi2017.ch/images/wi2017-0173.pdf">https://www.wi2017.ch/images/wi2017-0173.pdf</link><?asciidoc-br?>
+Gleue, C.; Eilers, D.; von Mettenheim, H.-J.; Breitner, M. H. (2017):<?asciidoc-br?>
+Decision Support for the Automotive Industry: Forecasting Residual Values using Artificial Neural Networks,<?asciidoc-br?>
+in Leimeister, J.M.; Brenner, W. (Hrsg.): Proceedings der 13. Internationalen Tagung<?asciidoc-br?>
+Wirtschaftsinformatik (WI 2017), St. Gallen, S. 1205-1219</simpara>
+</section>
+</section>
+<section xml:id="_082012_052015_henkel_ag_co_kgaa">
+<title>08/2012 - 05/2015; Henkel AG &amp; Co. KGaA</title>
+<simpara>&gt;10.000 Mitarbeiter</simpara>
+<simpara>Konsumgüter und Handel</simpara>
+<section xml:id="_scout_supply_chain_optimization_unified_toolbox_microsoft_bi_analyse_plattform_microsoft_bi_architekt_und_entwickler">
+<title>SCOUT (= Supply Chain Optimization Unified Toolbox), Microsoft BI-Analyse- Plattform: Microsoft BI Architekt und Entwickler</title>
+<itemizedlist>
+<listitem>
+<simpara>Inventory</simpara>
+</listitem>
+<listitem>
+<simpara>Order to Cash</simpara>
+</listitem>
+<listitem>
+<simpara>Physical Distribution</simpara>
+</listitem>
+<listitem>
+<simpara>Forecast Accuracy</simpara>
+</listitem>
+<listitem>
+<simpara>Product Availability</simpara>
+</listitem>
+<listitem>
+<simpara>Days of Supply</simpara>
+</listitem>
+<listitem>
+<simpara>Slow Mover Detection for financial devaluation</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Migration und vor allem Erweiterung einer Anwendung von SAP BW auf MS SQL Server</simpara>
+<simpara>BI Design und Entwicklung mit Microsoft SQL Server 2012</simpara>
+<simpara>Hauptfokus: SSAS, Datamart, auch SSIS</simpara>
+</section>
+</section>
+<section xml:id="_102005_082012_bezirkskliniken_mittelfranken_ansbach">
+<title>10/2005 - 08/2012; Bezirkskliniken Mittelfranken, Ansbach</title>
+<simpara>1000-5000 Mitarbeiter</simpara>
+<simpara>Sonstiges</simpara>
+<section xml:id="_krankenhaus_konzeption_und_realisierung_analytischer_anwendungen_für_das_controlling_und_personalwesen_microsoft_bi_analyse_plattform_microsoft_bi_architekt_und_entwickler">
+<title>Krankenhaus: Konzeption und Realisierung analytischer Anwendungen für das Controlling und Personalwesen, Microsoft BI-Analyse-Plattform: Microsoft BI Architekt und Entwickler</title>
+<simpara>Psychiatrische Krankenhäuser, Ressort Controlling, Zentrales Personalwesen</simpara>
+<simpara>Konzeption und Realisierung analytischer Anwendungen für:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Finanzcontrolling</simpara>
+</listitem>
+<listitem>
+<simpara>Wirtschaftsplanung</simpara>
+</listitem>
+<listitem>
+<simpara>Personaldatencontrolling</simpara>
+</listitem>
+<listitem>
+<simpara>Belegungscontrolling</simpara>
+</listitem>
+<listitem>
+<simpara>Medizincontrolling der psychiatrischen und somatischen Fälle</simpara>
+</listitem>
+</itemizedlist>
+<simpara>laufende Betreuung</simpara>
+<simpara>Migration MS SQL Server 2000 auf MS SQL Server 2005 bzw. 2008</simpara>
+<simpara>Datenquellen:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Orbis (KrankenhausInformaionsSystem)</simpara>
+</listitem>
+<listitem>
+<simpara>PWS (Personaldaten)</simpara>
+</listitem>
+<listitem>
+<simpara>Excel</simpara>
+</listitem>
+<listitem>
+<simpara>andere</simpara>
+</listitem>
+</itemizedlist>
+</section>
+</section>
+<section xml:id="_022011_052012_nestlé_suisse_s_a">
+<title>02/2011 - 05/2012; Nestlé Suisse S.A</title>
+<simpara>&gt;10.000 Mitarbeiter</simpara>
+<simpara>Konsumgüter und Handel</simpara>
+<section xml:id="_dynamic_planning_framework_dynamic_forecast_microsoft_bi_architekt_und_entwickler">
+<title>Dynamic Planning Framework - Dynamic Forecast: Microsoft BI Architekt und Entwickler</title>
+<itemizedlist>
+<listitem>
+<simpara>BI Konzeption, Design und Entwicklung mit Microsoft SQL Server 2005 bzw. 2008 (ETL, Staging, Datawarehouse)</simpara>
+</listitem>
+<listitem>
+<simpara>Performance Tuning</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Anforderungsanalyse, Konzeption, Kommunikation mit Fachbereich, Entwicklung, Dokumentation, Test, Performance Optimierung, Wartung, Beratung</simpara>
+<simpara>Microsoft SQL Server 2005, MS SQL Server 2008 R2</simpara>
+</section>
+</section>
+<section xml:id="_102011_042012_mts_mobile_telesystems_ojsc_moskau_russland">
+<title>10/2011 - 04/2012; MTS (Mobile TeleSystems OJSC), Moskau (Russland)</title>
+<simpara>&gt;10.000 Mitarbeiter</simpara>
+<simpara>Telekommunikation</simpara>
+<section xml:id="_einkaufscontrolling_procurement_performance_management_ppm_spend_control_supplier_consolidation_bi_entwickler">
+<title>Einkaufscontrolling - Procurement Performance Management (PPM), Spend Control, Supplier Consolidation: BI Entwickler</title>
+<itemizedlist>
+<listitem>
+<simpara>Procurement Performance Management (PPM)</simpara>
+</listitem>
+<listitem>
+<simpara>Spend Control</simpara>
+</listitem>
+<listitem>
+<simpara>Supplier Consolidation</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Details: <link xl:href="http://www.orpheus-it.com/">http://www.orpheus-it.com/</link></simpara>
+</section>
+</section>
+<section xml:id="_102005_122011_hgc_gesundheitsconsult_gmbh">
+<title>10/2005 - 12/2011; HGC GesundheitsConsult GmbH</title>
+<section xml:id="_freie_mitarbeit_als_experte_für_geschäftsanalyse_bi_in_krankenhäusern_microsoft_bi_analyse_plattform_microsoft_bi_architekt_und_entwickler">
+<title>freie Mitarbeit als Experte für Geschäftsanalyse (BI) in Krankenhäusern, Microsoft BI-Analyse-Plattform: Microsoft BI Architekt und Entwickler</title>
+<simpara>Partner: GfS (Gesellschaft für Standortsicherung) =&gt; HGC GesundheitsConsult GmbH =&gt; Vendus</simpara>
+<simpara>Projektinhalte:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Krankenhauscontrolling</simpara>
+</listitem>
+<listitem>
+<simpara>Medizincontrolling</simpara>
+</listitem>
+<listitem>
+<simpara>Konzeption und Entwicklung von Datenmodellen, Analyseverfahren und Berichtssystemen für folgende Einsatzgebiete:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Markt- und Wettbewerbscontrolling der medizinischen Leistungen</simpara>
+</listitem>
+<listitem>
+<simpara>Leistungsstrukturvergleiche</simpara>
+</listitem>
+<listitem>
+<simpara>Kennzahlen-Leistungsvergleiche (Benchmark)</simpara>
+</listitem>
+<listitem>
+<simpara>Einweisercontrolling</simpara>
+</listitem>
+<listitem>
+<simpara>Controlling medizinischer Behandlungspfade / Versorgungspfade</simpara>
+</listitem>
+<listitem>
+<simpara>Finanzcontrolling</simpara>
+</listitem>
+<listitem>
+<simpara>Fallbezogene Kostenträgerrechnung mit Fallroherträgen und Deckungsbeiträgen oder als Vollkostenrechnung</simpara>
+</listitem>
+<listitem>
+<simpara>Wirtschaftsplanung</simpara>
+</listitem>
+<listitem>
+<simpara>Personaldatencontrolling</simpara>
+</listitem>
+<listitem>
+<simpara>Belegungscontrolling</simpara>
+</listitem>
+<listitem>
+<simpara>Leistungsvergleiche zwischen Abteilungen und Häusern innerhalb eines Konzerns oder Klinikverbundes</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+</itemizedlist>
+<simpara>Datenquellen:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>diverse (SAP, ORBIS, Textdateien, Excel, &#8230;&#8203;)</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Microsoft SQL Server (2000, 2005, 2008) relational, MSAS, SSAS, DTS, SSIS, Bissantz Deltamaster</simpara>
+</section>
+</section>
+<section xml:id="_112010_022011_otto_group">
+<title>11/2010 - 02/2011; otto group</title>
+<simpara>&gt;10.000 Mitarbeiter</simpara>
+<simpara>Konsumgüter und Handel</simpara>
+<section xml:id="_p4p_coredwh_datamartsreports_microsoft_bi_analyse_plattform_microsoft_bi_architekt_und_entwickler">
+<title>P4P CoreDWH - Datamarts/Reports, Microsoft BI-Analyse-Plattform: Microsoft BI Architekt und Entwickler</title>
+<itemizedlist>
+<listitem>
+<simpara>Multichannel-Einzelhandel</simpara>
+</listitem>
+<listitem>
+<simpara>Finanzdienstleistungen</simpara>
+</listitem>
+<listitem>
+<simpara>Service</simpara>
+</listitem>
+</itemizedlist>
+<simpara>BI Konzeption, Design und Entwicklung mit Microsoft SQL Server</simpara>
+<simpara>Anforderungsanalyse, Konzeption, Kommunikation mit Fachbereich, Entwicklung, Dokumentation, Test, Performance Optimierung, Wartung, Beratung, Berichtswesen</simpara>
+<simpara>Microsoft SQL Server 2008 R2 (relational, SSAS, SSIS)</simpara>
+</section>
+</section>
+<section xml:id="_092010_112010_krones_ag">
+<title>09/2010 - 11/2010; Krones AG</title>
+<simpara>&gt;10.000 Mitarbeiter</simpara>
+<simpara>Industrie und Maschinenbau</simpara>
+<section xml:id="_migration_auftragseingangsstatistik_von_sap_bw_auf_microsoft_sql_server_microsoft_bi_architekt_und_entwickler">
+<title>Migration Auftragseingangsstatistik von SAP BW auf Microsoft SQL Server: Microsoft BI Architekt und Entwickler</title>
+<simpara>BI Design und Entwicklung mit Microsoft SQL Server</simpara>
+<simpara>Anforderungsanalyse</simpara>
+<simpara>Microsoft SQL Server 2008 R2 (relational, SSAS, SSIS)</simpara>
+</section>
+</section>
+<section xml:id="_012010_082010_henkel_ag_co_kgaa">
+<title>01/2010 - 08/2010; Henkel AG &amp; Co. KGaA</title>
+<section xml:id="_globis_global_business_information_system_color_common_local_profitability_reporting_microsoft_bi_analyse_plattform_microsoft_bi_architekt_und_entwickler">
+<title>GLOBIS (Global Business Information System), COLOR (Common Local Profitability Reporting), Microsoft BI-Analyse-Plattform: Microsoft BI Architekt und Entwickler</title>
+<simpara>BI Design und Entwicklung mit Microsoft SQL Server</simpara>
+<simpara>Anforderungsanalyse</simpara>
+<simpara>Microsoft SQL Server 2008 R2 (relational, SSAS, SSIS)</simpara>
+</section>
+</section>
+<section xml:id="_012003_042010_vivantes_gmbh_netzwerk_für_gesundheit">
+<title>01/2003 - 04/2010; Vivantes GmbH - Netzwerk für Gesundheit</title>
+<simpara>&gt;10.000 Mitarbeiter</simpara>
+<simpara>Sonstiges</simpara>
+<section xml:id="_krankenhaus_zentralen_finanz_und_drg_berichtswesen_microsoft_bi_analyse_plattform_microsoft_bi_architekt_und_entwickler">
+<title>Krankenhaus - zentralen Finanz- und DRG-Berichtswesen, Microsoft BI-Analyse-Plattform: Microsoft BI Architekt und Entwickler</title>
+<simpara>Projektinhalte:</simpara>
+<simpara>Bereiche</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Controlling</simpara>
+</listitem>
+<listitem>
+<simpara>Kostenträgerrechnung</simpara>
+</listitem>
+<listitem>
+<simpara>Qualitäts- und Prozessmanagement</simpara>
+</listitem>
+<listitem>
+<simpara>&#8230;&#8203;</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Inhalte</simpara>
+<itemizedlist>
+<listitem>
+<simpara>technische Konzeption</simpara>
+</listitem>
+<listitem>
+<simpara>Modellierung und Betreuung des zentralen Finanz-Berichtswesens und des DRG-Berichtswesens</simpara>
+</listitem>
+<listitem>
+<simpara>Coaching bei der Verwendung der Benutzerschnittstellen (Frontends) zum Aufbau des Berichtswesens</simpara>
+</listitem>
+<listitem>
+<simpara>laufende Betreuung</simpara>
+</listitem>
+<listitem>
+<simpara>Durchführung von Schulungen und Trainings zur praktischen Arbeit mit den OLAP-Datenbanken</simpara>
+</listitem>
+<listitem>
+<simpara>Migration MS SQL Server 2000 auf MS SQL Server 2005</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Datenquellen:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>SAP</simpara>
+</listitem>
+<listitem>
+<simpara>Excel</simpara>
+</listitem>
+<listitem>
+<simpara>Textdateien</simpara>
+</listitem>
+<listitem>
+<simpara>Access</simpara>
+</listitem>
+<listitem>
+<simpara>&#8230;&#8203;</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Anforderungsanalyse, Konzeption, Kommunikation mit Fachbereich, Entwicklung, Dokumentation, Test, Performance Optimierung, Wartung, Beratung, Berichtswesen</simpara>
+<simpara>Microsoft SQL Server 2000 (relational, MSAS, DTS), Microsoft SQL Server 2005 (relational, SSAS, SSIS), Bissantz Deltamaster, Softpro CubePlayer, MIS Plain, MIS Onvision, MIS Integration Framework</simpara>
+</section>
+</section>
+<section xml:id="_102008_122009_rudolf_wöhrl_ag">
+<title>10/2008 - 12/2009; Rudolf Wöhrl AG</title>
+<simpara>1000-5000 Mitarbeiter</simpara>
+<simpara>Konsumgüter und Handel</simpara>
+<section xml:id="_bi_team_controlling_finanzen_it_microsoft_bi_analyse_plattform_microsoft_bi_architekt_und_entwickler">
+<title>BI-Team (Controlling, Finanzen, IT), Microsoft BI-Analyse-Plattform: Microsoft BI Architekt und Entwickler</title>
+<simpara>Projektinhalte:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Personalcontrolling</simpara>
+</listitem>
+<listitem>
+<simpara>Personaleinsatzplanung</simpara>
+</listitem>
+<listitem>
+<simpara>Migration MS SQL Server 2000, 2005 auf MS SQL Server 2008</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Datenquellen:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>diverse</simpara>
+</listitem>
+</itemizedlist>
+</section>
+</section>
+<section xml:id="_092005_012009_landwirtschaftliche_rentenbank">
+<title>09/2005 - 01/2009; Landwirtschaftliche Rentenbank</title>
+<simpara>50-250 Mitarbeiter</simpara>
+<simpara>Banken und Finanzdienstleistungen</simpara>
+<section xml:id="_it_anwendungsentwicklung_bereich_datawarehouse_und_olap_microsoft_bi_analyse_plattform_microsoft_bi_architekt_und_entwickler">
+<title>IT-Anwendungsentwicklung, Bereich "Datawarehouse und OLAP", Microsoft BI-Analyse-Plattform: Microsoft BI Architekt und Entwickler</title>
+<simpara>Projektinhalte:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Konzeption von Produktionseinsatzverfahren</simpara>
+</listitem>
+<listitem>
+<simpara>Entwicklungsstandards</simpara>
+</listitem>
+<listitem>
+<simpara>Testkonzepten</simpara>
+</listitem>
+<listitem>
+<simpara>Weiterentwicklung des Datawarehouse und der OLAP-Anwendungen</simpara>
+</listitem>
+<listitem>
+<simpara>Migration SQL Server 2000 auf SQL Server 2005</simpara>
+</listitem>
+<listitem>
+<simpara>Situations- und Bedarfsanalyse der Anforderungen von Fachanwendern</simpara>
+</listitem>
+<listitem>
+<simpara>Erarbeitung fachlicher und technischer Konzepte zur Umsetzung</simpara>
+</listitem>
+<listitem>
+<simpara>Konzeption und Durchführung von Schulungen zur praktischen Arbeit mit den OLAP-Datenbanken</simpara>
+</listitem>
+<listitem>
+<simpara>fachliche Schwerpunkte:</simpara>
+</listitem>
+<listitem>
+<simpara>IAS- und HGB-Bilanzen</simpara>
+</listitem>
+<listitem>
+<simpara>Controlling</simpara>
+</listitem>
+<listitem>
+<simpara>Geldhandel und Emissionsgeschäft (Wertpapiere)</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Datenquellen:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>iSeries (AS 400)</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Anforderungsanalyse, Konzeption, Kommunikation mit Fachbereich, Entwicklung, Dokumentation, Test, Performance Optimierung, Wartung, Beratung, Berichtswesen</simpara>
+<simpara>Microsoft SQL Server 2000 (relational, MSAS, DTS), Microsoft SQL Server 2005 (relational, SSAS, SSIS, SSRS), MIS Plain, Datawarehouse Explorer</simpara>
+</section>
+</section>
+<section xml:id="_092004_102004_id_gmbh">
+<title>09/2004 - 10/2004; ID GmbH</title>
+<simpara>10-50 Mitarbeiter</simpara>
+<simpara>Sonstiges</simpara>
+<section xml:id="_entwicklung_eines_analytischen_zusatzmoduls_für_einen_drg_grouper_inklusive_szenarien_und_kostenmodul_microsoft_bi_architekt_und_entwickler">
+<title>Entwicklung eines analytischen Zusatzmoduls für einen DRG-Grouper, inklusive Szenarien und Kostenmodul: Microsoft BI Architekt und Entwickler</title>
+<simpara>Datenquellen:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>§21 Daten</simpara>
+</listitem>
+<listitem>
+<simpara>IMC Daten oder andere Formate</simpara>
+</listitem>
+<listitem>
+<simpara>obige Quellen Input für DRG-Grouper</simpara>
+</listitem>
+<listitem>
+<simpara>zusätzlich optional fallbezogene Kosten-Daten</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Microsoft SQL Server 2000 (relational, DTS, MSAS), Excel, Cubeware Analysesystem</simpara>
+</section>
+</section>
+<section xml:id="_091999_092004_mis_gmbh">
+<title>09/1999 - 09/2004; MIS GmbH</title>
+<simpara>500-1000 Mitarbeiter</simpara>
+<simpara>Sonstiges</simpara>
+<section xml:id="_angestellter_bi_architekt_und_entwickler">
+<title>angestellter BI Architekt und Entwickler</title>
+<simpara>Projektinhalte:</simpara>
+<simpara>Kunden- und Projektakquisition</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Führen von Erstkontaktgesprächen</simpara>
+</listitem>
+<listitem>
+<simpara>Präsentation des MIS Leistungsangebotes</simpara>
+</listitem>
+<listitem>
+<simpara>Betreuung von Interessenten auf Akquisitionsveranstaltungen mit dem Ziel der Neukundengewinnung</simpara>
+</listitem>
+<listitem>
+<simpara>Durchführung von Akquisitionsworkshops</simpara>
+</listitem>
+<listitem>
+<simpara>Angebotserstellung</simpara>
+</listitem>
+<listitem>
+<simpara>Situationsanalyse beim Kunden</simpara>
+</listitem>
+<listitem>
+<simpara>Erfassen der betriebswirtschaftlichen u. technischen Kundenanforderungen an DV-Systeme</simpara>
+</listitem>
+<listitem>
+<simpara>Erarbeitung von betriebswirtschaftlichen u. technischen Konzepten gemeinsam mit dem Kunden</simpara>
+</listitem>
+<listitem>
+<simpara>Durchführung von Konzeptionsworkshops</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Implementierung von Analyse- und Reportingsystemen</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Übernahme von Projektverantwortung</simpara>
+</listitem>
+<listitem>
+<simpara>Realisierung von Aufgabenlösungen unter Zuhilfenahme gängiger Datenbank-Technologien und Programmiersprachen</simpara>
+</listitem>
+<listitem>
+<simpara>Abstimmung der Aufgabenlösung im Hinblick auf die Gesamtlösung gegenüber dem Projektteam</simpara>
+</listitem>
+<listitem>
+<simpara>Abstimmung der Aufgabenlösung in Hinsicht auf das betriebswirtschaftliche Konzept mit den Kunden</simpara>
+</listitem>
+<listitem>
+<simpara>Konzeption und Durchführung von individuellen Kundenschulungen</simpara>
+</listitem>
+</itemizedlist>
+<simpara>mehrfache Migrationen von MIS Alea auf MSAS 2000 (Microsoft Analysis Services)</simpara>
+</section>
+<section xml:id="_folgende_projekte_wurden_als_berater_für_business_intelligence_bei_kunden_der_mis_durchgeführt_bei_den_namentlich_genannten_firmen_handelt_es_sich_um_referenzkunden_der_mis_gmbh_jetzt_infor">
+<title>folgende Projekte wurden als Berater für Business Intelligence bei Kunden der MIS durchgeführt. Bei den namentlich genannten Firmen handelt es sich um Referenzkunden der MIS GmbH (jetzt infor)</title>
+
+</section>
+<section xml:id="_012004_052004_konzeption_und_umsetzung_der_21_drg_analyse_für_krankenhäuser">
+<title>01/2004 - 05/2004 Konzeption und Umsetzung der "*21-DRG-Analyse" (für Krankenhäuser)</title>
+<simpara>Datenquellen:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>21 Daten, IMC Daten; Bewertungsdaten von DRG-Groupern; zusätzlich optional fallbezogene Kosten-Leistungsdaten</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Datawarehouse: Microsoft SQL Server</simpara>
+<simpara>ETL: TSQL, DTS</simpara>
+<simpara>OLAP-Datenbanken: Microsoft Analysis Services (MSAS), MIS Alea</simpara>
+</section>
+<section xml:id="_052001_052004_medienhaus_aschendorff_über_mis_gmbh">
+<title>05/2001 - 05/2004; Medienhaus Aschendorff (über MIS GmbH)</title>
+<simpara>500-1000 Mitarbeiter</simpara>
+<simpara>Medien und Verlage</simpara>
+<section xml:id="_konzeption_und_implementierung_eines_anzeigeninformationssystems_ais_angestellter_bi_architekt_und_entwickler">
+<title>Konzeption und Implementierung eines Anzeigeninformationssystems (AIS): angestellter BI Architekt und Entwickler</title>
+<simpara>Konzeption und Implementierung eines Anzeigeninformationssystems (AIS)</simpara>
+<simpara>Konzeption, Modellierung und Betreuung der analytischen Datenbank und der dazugehörigen ETL-Prozesse. Erweiterung des bestehenden Datawarehouse.</simpara>
+<simpara>Betreuung und Schulung bei der Verwendung von MIS Plain zur Erstellung des Berichtswesens.</simpara>
+<simpara>Datenquellen: VI&amp;VA, eine SAP basierte operative Erweiterung für Zeitungsverlage, einige andere Datenquellen</simpara>
+<simpara>Datawarehouse: Microsoft SQL Server, konkret wurde "VIVAinfo" (ein spezielles Datawarehouse basierend auf VI&amp;VA), um Objekte und ETL-Prozesse erweitert, so dass die analytische Datenbank gefüllt werden kann.</simpara>
+<simpara>ETL: TSQL und DTS</simpara>
+<simpara>Analytische Datenbank: Microsoft Analysis Services (MSAS)</simpara>
+</section>
+</section>
+<section xml:id="_012004_052004_mis_gmbh">
+<title>01/2004 - 05/2004; MIS GmbH</title>
+<simpara>250-500 Mitarbeiter</simpara>
+<simpara>Sonstiges</simpara>
+<section xml:id="_konzeption_und_umsetzung_der_21_drg_analyse_für_krankenhäuser">
+<title>Konzeption und Umsetzung der "§21-DRG-Analyse" (für Krankenhäuser)</title>
+<simpara>Datenquellen: §21 Daten, IMC Daten; Bewertungsdaten von DRG-Groupern; zusätzlich optional fallbezogene Kosten- Leistungsdaten</simpara>
+<simpara>Datawarehouse: Microsoft SQL Server</simpara>
+<simpara>ETL: TSQL, DTS</simpara>
+<simpara>OLAP-Datenbanken: Microsoft Analysis Services (MSAS), MIS Alea</simpara>
+<simpara>Benutzerschnittstellen (Frontends): MIS Onvision, MIS Plain</simpara>
+</section>
+</section>
+<section xml:id="_012004_042004_vze_verein_zur_errichtung_evangelischer_krankenhäuser">
+<title>01/2004 - 04/2004; VzE - Verein zur Errichtung evangelischer Krankenhäuser</title>
+<simpara>5000-10.000 Mitarbeiter</simpara>
+<simpara>Sonstiges</simpara>
+<section xml:id="_medizincontrolling_drg_controlling_und_berichtswesen_konzeption_modellierung_und_betreuung_der_relationalen_und_analytischen_datenbanken_und_der_dazugehörigen_etl_prozesse">
+<title>Medizincontrolling, DRG-Controlling und -Berichtswesen Konzeption, Modellierung und Betreuung der relationalen und analytischen Datenbanken und der dazugehörigen ETL-Prozesse</title>
+<simpara>Coaching bei der Verwendung verschiedener Benutzerschnittstellen (Frontends) (MIS Plain, MIS Onvision) zur Erstellung des Berichtswesens.</simpara>
+<simpara>Durchführung von Schulungen zur Benutzung der Software und zur Arbeit mit den Datenbanken.</simpara>
+<simpara>Datenquellen: diverse: *21 Daten, manuelle Quellen, SAP, &#8230;&#8203;</simpara>
+<simpara>Datawarehouse: Microsoft SQL Server</simpara>
+<simpara>ETL: TSQL, DTS</simpara>
+<simpara>OLAP-Datenbanken: Microsoft Analysis Services (MSAS)</simpara>
+<simpara>Benutzerschnittstellen (Frontends): MIS Onvision, MIS Plain</simpara>
+</section>
+</section>
+<section xml:id="_092001_122003_kcc_über_mis_gmbh">
+<title>09/2001 - 12/2003; KCC (über MIS GmbH)</title>
+<simpara>10-50 Mitarbeiter</simpara>
+<simpara>Sonstiges</simpara>
+<section xml:id="_branche_krankenhäuser_konzeption_entwicklung_und_betreuung_der_drc_diagnosis_related_costs_für_verschiedene_darstellungen_der_kostenträgerrechnung_gemeinsam_mit_einem_partner_der_mis">
+<title>(Branche Krankenhäuser) Konzeption, Entwicklung und Betreuung der "DRC" (Diagnosis Related Costs) für verschiedene Darstellungen der Kostenträgerrechnung. Gemeinsam mit einem Partner der MIS</title>
+<simpara>So wie es sich bei den DRG&#8217;s um Erlöse handelt, ermöglichen die DRC&#8217;s eine strukturidentische Gegenkalkulation der Kosten.</simpara>
+<simpara>Deckungsbeitragsberechnungen.</simpara>
+<simpara>Die DRC&#8217;s wurden in verschiedenen Krankenhäusern eingesetzt.</simpara>
+<simpara>Datenquellen: je nach Krankenhaus unterschiedliche Quellen</simpara>
+<simpara>Datawarehouse: Microsoft SQL Server</simpara>
+<simpara>ETL: TSQL, DTS, MS Access, MS Excel</simpara>
+<simpara>OLAP-Datenbanken: Microsoft Analysis Services (MSAS)</simpara>
+<simpara>Benutzerschnittstellen (Frontends): MIS Onvision, MIS Plain</simpara>
+</section>
+</section>
+<section xml:id="_092000_032002_märkische_oderzeitung_über_mis_gmbh">
+<title>09/2000 - 03/2002; Märkische Oderzeitung (über MIS GmbH)</title>
+<simpara>Medien und Verlage</simpara>
+<section xml:id="_anzeigeninformationssystem_ais_basierend_auf_daten_aus_viva">
+<title>Anzeigeninformationssystem (AIS), basierend auf Daten aus VI&amp;VA</title>
+<simpara>Datenquellen: SAP, VI&amp;VA.</simpara>
+<simpara>ETL: Access, Excel</simpara>
+<simpara>analytische Datenbank: MIS Alea</simpara>
+<simpara>Frontend: MIS Alea Excel Integration</simpara>
+</section>
+</section>
+<section xml:id="_012001_122001_mis_gmbh">
+<title>01/2001 - 12/2001; MIS GmbH</title>
+<simpara>250-500 Mitarbeiter</simpara>
+<simpara>Sonstiges</simpara>
+<section xml:id="_konzeption_und_umsetzung_der_mis_business_solution_krankenhäuser">
+<title>Konzeption und Umsetzung der "MIS Business Solution Krankenhäuser"</title>
+<simpara>Datawarehouse: Microsoft SQL Server</simpara>
+<simpara>ETL: TSQL, DTS</simpara>
+<simpara>analytische Datenbanken: MIS Alea, Microsoft Analysis Services (MSAS)</simpara>
+</section>
+</section>
+<section xml:id="_121999_092000_deutsche_telekom_über_mis_gmbh">
+<title>12/1999 - 09/2000; Deutsche Telekom (über MIS GmbH)</title>
+<simpara>&gt;10.000 Mitarbeiter</simpara>
+<simpara>Telekommunikation</simpara>
+<section xml:id="_umstellung_einer_analytischen_anwendung_von_mis_alea_auf_ms_analysis_services_bzw_damals_noch_ms_olap_services_unter_beibehaltung_des_bestehenden_berichtswesens_und_andere_anpassungen">
+<title>Umstellung einer analytischen Anwendung von MIS Alea auf MS Analysis Services (bzw. damals noch MS OLAP Services) unter Beibehaltung des bestehenden Berichtswesens und andere Anpassungen</title>
+<simpara>technische Projektleitung</simpara>
+<simpara>Datawarehouse: Microsoft SQL Server</simpara>
+<simpara>ETL: TSQL, DTS</simpara>
+<simpara>analytische Datenbanken: MIS Alea, Microsoft OLAP Services</simpara>
+<simpara>Frontend: MIS Alea Excel Integration</simpara>
+</section>
+</section>
+<section xml:id="_091999_052004_diverse_projekte_diverse_branchen_u_a_energiewirtschaft_versicherungen_banken">
+<title>09/1999 - 05/2004 diverse Projekte / diverse Branchen (u. a. Energiewirtschaft, Versicherungen, Banken, &#8230;&#8203;)</title>
+
+</section>
+</section>
+</section>
+<section xml:id="_referenzen_bewertungen_für_germo_görtz">
+<title>Referenzen / Bewertungen für Germo Görtz</title>
+<section xml:id="_würth_logistics_ag">
+<title>Würth Logistics AG</title>
+<blockquote>
+<attribution>
+Business Analyst (Matthias Gerber)
+</attribution>
+<simpara>Herr Görtz ist ein höchst profesionller Consulter. Herr Görtz hat während den ersten zwei Wochen vom Aufbau unserem DWH hervorragende Arbeit im initialen Setting und bei der Schulung der Mitarbeiter im Analytics Creator inkl. SSIS / SSAS geleistet. Nach den zwei Wochen sind wir in der Lage, einen grossteil der DWH Struktur und Logiken eigenständig zu pflegen und warten.</simpara>
+</blockquote>
+</section>
+<section xml:id="_öffentlich_rechtliche_versicherung">
+<title>Öffentlich-rechtliche Versicherung</title>
+<blockquote>
+<attribution>
+Projektleiter
+</attribution>
+<simpara>Herr Görtz hat uns in unserem Projekt mehr als 1 Jahr als Haupt-Entwickler unterstützt. Dabei war er zuständig für die Programmierung von Partner- und Vertragsdaten im neu aufgebauten DWH. Herr Görtz hat die Programmierung mit hoher Eigenmotivation und zügig durchgeführt. Daneben war sehr positiv, dass er einen sehr regelmäßigen, konstruktiven und intensiven Austausch mit den Fachkonzeptionierern gehaltet hat und somit stets Dinge hinterfragt und für die Programmierung verbessert hat.</simpara>
+</blockquote>
+</section>
+<section xml:id="_drk_kliniken_berlin">
+<title>DRK Kliniken Berlin</title>
+<blockquote>
+<attribution>
+Abteilungsleiter Controlling
+</attribution>
+<simpara>In der Zusammenarbeit mit dem Berater profitieren wir zum einen von seinem fundierten Geschäftswissen aus dem Bereich der stationären &amp; ambulanten Patientenversorgung, und zum anderen von seiner sehr eigenständigen, zielgerichteten Arbeitsweise, welche den Abstimmungsbedarf deutlich reduziert. Wir sind dabei, mit ihm ein <literal>'wirklich'</literal> integriertes Datenmodell im Krankenhaus umzusetzen, Projektschritte wie Materialwirtschafts-, Belegungs-, OP- und DRG-Informationssystem sind schon erfolgreich abgeschlossen. [&#8230;&#8203;] Auch die Zusammenarbeit zwischen uns, dem Berater und einer weiteren externen beratenden Firma lief und läuft reibungslos. Der Berater hat sich auf professionelle Art sehr gut ins Team integriert, so dass er&#8201;&#8212;&#8201;wie gewünscht&#8201;&#8212;&#8201;für alle Mitarbeiter ein Ansprechpartner ist , ohne dass durch die Pflege von Sozialkontakten zu viel Projektzeit verloren geht.</simpara>
+</blockquote>
+<simpara><link xl:href="http://www.drk-kliniken-berlin.de">http://www.drk-kliniken-berlin.de</link></simpara>
+</section>
+<section xml:id="_vivantes_krankenhauskonzern_1">
+<title>Vivantes - Krankenhauskonzern (1)</title>
+<simpara>Projekt Behandlungspfadcontrolling und Controlling Hämotherapie, 01/07 - 07/07</simpara>
+<blockquote>
+<attribution>
+Abteilungsleiterin Prozessmanagement
+<citetitle>Vivantes - vom 14.02.08</citetitle>
+</attribution>
+<simpara>Die Zusammenarbeit mit dem Consultant war hervorragend, insbesondere die Fähigkeit, ganz exakt Ziele des Projektes zu verstehen und für den Kunden umzusetzen, dabei Verständnis und Geduld zu besitzen, dass in der Entwicklung auf der Kundenseite neue Ideen und Aspekte immer wieder entstehen, die zu Erweiterungen und Änderungenswünschen führen. Das sehr große Engagement in der Sache, die Bereitschaft auch unter Zeitdruck für das Projekt zu arbeiten und die sehr sympathische Art, Dinge und Computeranwendungen 'auch relativen Laien' zu erklären, ist großartig. Darüber hinaus schätze ich an dem Consultant, dass er die Kunden 'selbstlos', also auch gegen den eigenen Vorteil, berät. Von Beratern, die vorrangig nur ihre Leistung verkaufen wollen, unterscheidet sich der Consultant durch die Charaktereigenschaft, nur Dinge anzubieten, die aus seiner Sicht auch wirklich für den Kunden nutzbringend sind. Ich kann nur Gutes von der Zusammenarbeit in den Projekten mit dem Consultant berichten und hoffe, dass sich auch in Zukunft Gelegenheit dafür bietet.</simpara>
+</blockquote>
+<simpara><link xl:href="https://www.vivantes.de/">https://www.vivantes.de/</link></simpara>
+</section>
+<section xml:id="_vivantes_krankenhauskonzern_2">
+<title>Vivantes - Krankenhauskonzern (2)</title>
+<blockquote>
+<attribution>
+Verantwortlicher für zentrales Berichtswesen
+</attribution>
+<simpara>Die vom Berater erstellten und betreuten MS SQL-Server- und OLAP-Datenbanken sind Grundlage des zentralen Berichtswesens. Mehrere Datenbankanwendungen werden von vielen zentralen und dezentralen Unternehmensbereichen wie z.B. Controlling, strategische Unternehmensentwicklung, sowie im Qualitäts- und Prozessmanagement regelmäßig genutzt. Die Projekte wurden von der Spezifikation über die Entwicklungs- und Testphase bis hin zur Inbetriebnahme begleitet. Auch Anwenderschulungen wurden vom Berater auf Kundenwunsch durchgeführt. Die bestehenden Anwendungen werden betreut und entsprechend unseren Anforderungen weiterentwickelt. Auch sehr komplexe Anforderungen werden zuverlässig, schnell, kompetent, mit großer Einsatzbereitschaft zu unserer vollsten Zufriedenheit umgesetzt. Dabei trägt der Berater mit eigenen Ideen und vielen Erfahrungen aus anderen Projekten wesentlich dazu bei, den Nutzen unserer Datenbankanwendungen zu optimieren und zu maximieren. Die Kommunikation und Zusammenarbeit mit uns Fachanwendern klappt hervorragend. Wir blicken inzwischen auf eine fünfjährige, erfolgreiche Zusammenarbeit zurück, die wir sehr gerne in der Zukunft fortsetzen möchten, und können den Berater auf jeden Fall weiterempfehlen.</simpara>
+</blockquote>
+<simpara><link xl:href="https://www.vivantes.de/">https://www.vivantes.de/</link></simpara>
+</section>
+<section xml:id="_bezirkskliniken_mittelfranken">
+<title>Bezirkskliniken Mittelfranken</title>
+<blockquote>
+<attribution>
+Verantwortlicher für zentrales Berichtswesen
+</attribution>
+<simpara>Der Berater hat im Bereich Personal und Rechnungswesen anspruchsvolle IT-Lösungen sowie hochkomplexe OLAP-Datenbanken mit Belegungs- und Falldaten für unser unternehmensweites Reporting entwickelt und aufgebaut. Er verfügt über umfassende Fachkenntnisse im Krankenhausbereich und konnte deshalb alle Anforderungen stets zu unserer vollsten Zufriedenheit umsetzen. Ihn zeichnen besonders seine Zuverlässigkeit, seine große Einsatzbereitschaft, Engagement und Termintreue aus. Wir blicken auf eine gute Zusammenarbeit seit nun fast vier Jahren zurück, die wir auch gerne zukünftig fortsetzen möchten.</simpara>
+</blockquote>
+<simpara><link xl:href="http://www.bezirkskliniken-mfr.de/">http://www.bezirkskliniken-mfr.de/</link></simpara>
+</section>
+<section xml:id="_gfs_gesellschaft_für_standortsicherung_unternehmensberatung_mbh">
+<title>GfS Gesellschaft für Standortsicherung Unternehmensberatung mbH</title>
+<simpara>Projekt Krankenhauscontrolling mit MS SQL Analysis Services, 10/05 - 02/08</simpara>
+<blockquote>
+<attribution>
+Geschäftsführer
+<citetitle>Unternehmensberatung (10 MA) - vom 18.02.08</citetitle>
+</attribution>
+<simpara>Der Consultant entwickelt für uns seit mehr als 2 Jahren OLAP-Datenbanken für Controllinganwendungen im Krankenhausbereich. Ich schätze an ihm seine absolute Zuverlässigkeit, seine Termintreue, sein hohes Engagement und seine Kreativität. Wir werden mit ihm auch zukünftig gerne zusammenarbeiten.</simpara>
+</blockquote>
+<simpara><link xl:href="http://www.gesundheitsconsult.de/">http://www.gesundheitsconsult.de/</link></simpara>
+</section>
+<section xml:id="_opel">
+<title>Opel</title>
+<blockquote>
+<attribution>
+BI Manager (Pete Sansom)
+</attribution>
+<simpara>I recently worked with Germo on a BI project to analyse customer behaviour. I found Germo&#8217;s technical skills on the Microsoft stack to be very high and him to be generally very experienced in data modeling and BI. Germo is a diligent and responsible professional.</simpara>
+<simpara>He is determined to do a good job and offers good value for his customers. I would recommend Germo and would not hesitate to work with him in the future.</simpara>
+</blockquote>
+</section>
+<section xml:id="_henkel_ag_co_kgaa">
+<title>Henkel AG &amp; Co. KGaA</title>
+<blockquote>
+<attribution>
+IT Projektleiter
+</attribution>
+<simpara>Auch sehr komplexe Anforderungen werden zuverlässig, schnell, kompetent, mit großer Einsatzbereitschaft zu unserer vollsten Zufriedenheit umgesetzt. Die Kommunikation und Zusammenarbeit mit den Fachanwendern wie auch mit den IT Kollegen klappt hervorragend. Aufgrund seines zielgerichteten von großer Sorgfalt, Systematik, Selbstständigkeit und Verantwortungsbewußtsein geprägten Arbeitsstils gelang es ihm, komplexe Lösungen stets erfolgreich umzusetzen. Er bewieß zudem, dass er flexibel auf neue Anforunden eingehen kann um diese innovativ zu lösen und umzusetzen. Wir haben den Mitarbeiter als einen außerordentlich belastbaren und ausdauernden Mitarbeiter kennen gelernt, der seinen Tätigkeiten mit Fleiß und Zielstrebigkeit durchgeführt hat. Wir können den Berater auf jeden Fall und uneingeschränkt weiterempfehlen.</simpara>
+</blockquote>
+<simpara><link xl:href="http://www.henkel.de">http://www.henkel.de</link></simpara>
+</section>
+<section xml:id="_investitionsgüterhersteller_20_000_ma">
+<title>Investitionsgüterhersteller (&gt;20.000 MA)</title>
+<blockquote>
+<attribution>
+Projektmanager
+</attribution>
+<simpara>Der Berater besitzt sehr gute Kenntnisse im Aufbau und Betrieb von komplexen Data Warehouse Systemen und rund um die Themen BI-Solutions. Mit seinem umfassenden fachlichen Know-How und Erfahrungen konnte er die anspruchsvollen Anforderungen innovativ und zur unserer vollsten Zufriedenheit umsetzen. Die Zusammenarbeit und Kommunikation klappt hervorragend. Neben seinem tiefgehenden Fachwissen sind vor allem seine hohe Einsatzbereitschaft, Engagement und Anpassungsfähigkeit sowie seine sorgfältige, innovative und selbständige Arbeitsweise hervorzuheben. Wir bedanken uns für die erfolgreiche Zusammenarbeit und werden mit ihm auch in der Zukunft gerne zusammenarbeiten.</simpara>
+</blockquote>
+</section>
+<section xml:id="_kelvion_holding_gmbh">
+<title>Kelvion Holding GmbH</title>
+<blockquote>
+<attribution>
+Teamlead Business Intelligence
+</attribution>
+<simpara>Der Consultant war im Rahmen eines größeren Projektes zur Einführung eines Datawarehouses in unserem Unternehmen für die Architektur und Programmierung mehrer Analysis-Services-Cubes auf Basis von SQl-Server 2016 verantwortlich. Er überzeugte durch ein hohes Maß an fachlichem und technischen Wissen und legte bei der Konzeptionierung der Lösung großen Wert auf Transparenz und Flexibilität. Wir sind mit seiner Arbeit äußerst zufrieden und empfehlen ihn uneingeschränkt weiter!</simpara>
+</blockquote>
+<simpara><link xl:href="https://de.kelvion.com/">https://de.kelvion.com/</link></simpara>
+</section>
+<section xml:id="_volkswagen_nutzfahrzeuge">
+<title>Volkswagen Nutzfahrzeuge</title>
+<blockquote>
+<attribution>
+Auftraggeber
+<citetitle>Fachbereich Restwertmanagement VWN</citetitle>
+</attribution>
+<simpara>Der Consultant war bei uns mit der (Weiter-)entwicklung des mathematisch- / statistischen Teils unseres Projektes betraut, insbesondere mit dem Aufbau komplexer Prognosemodelle, unter anderem mit Künstlichen Neuronalen Netzen (KNN), multipler Regression und weiteren statistischen Verfahren (BI im Microsoft-Umfeld + Statistica und Tableau). Aus den Outputdaten des KNN und zahlreichen weiteren Datenquellen konzipierte und entwickelte der Consultant nach Kundenvorgabe eigenständig Visualisierungen in Tableau (Standardberichte für Fachbereiche, Dashboards, Decision Support). Der Consultant verfügt über ein beeindruckendes Auffassungsvermögen; vor dem Hintergrund der hohen Komplexität des bestehenden Systems und des sehr spezifischen Fachgebietes arbeitete er sich extrem schnell in die bestehenden Workflows, Prozesse und auch in das für ihn völlig neue Fachgebiet ein. Nach kürzester Zeit entdeckte (und behob) er bestehende Fehler und hatte stets einen Lösungsvorschlag auch für neue, komplexe Problemstellungen parat. Neben seinem hohen analytischen Denkvermögen zeichnet ihn besonders seine Fähigkeit zum 'Querdenken' aus, was im Team dazu anregt, den Status Quo zu überdenken, bestehende Strukturen aufzubrechen und gegebenenfalls neue (Lösungs-)Wege zu beschreiten. Ich danke dem Consultant für die gute und bereichernde Zusammenarbeit und wünsche ihm für seinen weiteren privaten und beruflichen Lebensweg viel Erfolg und alles Gute.</simpara>
+</blockquote>
+<simpara><link xl:href="http://www.volkswagen-nutzfahrzeuge.de">http://www.volkswagen-nutzfahrzeuge.de</link></simpara>
+</section>
+<section xml:id="_nestlé">
+<title>Nestlé</title>
+<blockquote>
+<attribution>
+Project Manager Dynamic Forecast
+</attribution>
+<simpara>The consultant has been an asset to our project. He is hard working and has a strong sense of Customer Service. He is able to break down complex requirements into logical tasks and has frequently demonstrated his ability to come up with innovative solutions to some of the challenges that we have faced. I would consider him to be an expert in his area.</simpara>
+</blockquote>
+<simpara><link xl:href="http://www.nestle.com/">http://www.nestle.com/</link></simpara>
+</section>
+<section xml:id="_landwirtschaftliche_rentenbank">
+<title>Landwirtschaftliche Rentenbank</title>
+<blockquote>
+<attribution>
+Leiter Anwendungsentwicklung OLAP DWH Java
+</attribution>
+<simpara>Der Berater besitzt sehr gute Kenntnisse bei der Entwicklung und im Design von IT-Anwendungssystemen. Darüber hinaus sind seine sehr guten Kenntnisse in der Modellierung von anspruchsvollen OLAP-Lösungen hervorzuheben. Der Berater hat durch seine Arbeitweise, die durch Selbstständigkeit, Einsatzbereitschaft und Zielorientierung gekennzeichnet ist, durch kreative Lösungsansätze und den aktiven Austausch von Know-How mit anderen Teammitgliedern maßgeblich zu den Erfolgen in den Projekten beigetragen. Die ihm übertragenen Aufgaben führte er zu unserer vollsten Zufriedenheit aus. Unsere Fachanwender loben die schnelle und kompetente Umsetzung ihrer Anforderungen sowie die erhaltene praktische Hilfe bei der Verwendung der analytischen Anwendungen. Sein Verhalten war stets einwandfrei und kooperativ. Wir bedanken uns für die gute Mitarbeit beim Berater und hoffen auf eine weitere unternehmerische Zusammenarbeit.</simpara>
+</blockquote>
+<simpara><link xl:href="https://www.rentenbank.de/">https://www.rentenbank.de/</link></simpara>
+</section>
+<section xml:id="_mis_ag">
+<title>MIS AG</title>
+<simpara>Projekt im Rahmen einer Festanstellung durchgeführt</simpara>
+<blockquote>
+<attribution>
+Geschäftsführer
+<citetitle>BI-Software u. -Beratung (460 MA) - vom 28.06.04</citetitle>
+</attribution>
+<simpara><literal>[&#8230;&#8203;]</literal> Als technischer Projektleiter arbeitete sich der Mitarbeiter zielorientiert mit viel Engagement und Eigeninitiative in komplexe Arbeitsgebiete ein und bewältigte neue Arbeitssituationen stets gut und sicher. Er verfügte über umfassende und vielseitige Fachkenntnisse, die er stets ktualisierte und erweiterte. In bereichsübergreifenden Zusammenhängen setzte er die richtigen Prioritäten und überzeugte mit guten Lösungsvorschlägen. Aufgrund seines zielgerichteten von großer Sorgfalt, Systematik, Selbstständigkeit und Verantwortungsbewußtsein geprägten Arbeitsstils gelang es ihm, komplexe Lösungen stets erfolgreich umzusetzen. Auf Grund seiner umfassenden Kenntnisse im Krankenhaus- und Verlagsbereich war der Mitarbeiter federführend an der Entwicklung der '`[&#8230;&#8203;]` Business Solution Krankenhäuser', der 'DRC&#8217;s (Diagnosis Related Costs)', der '§21-DRG-Analyse' für Krankenhäuser und der '`[&#8230;&#8203;]` Business Solution - Anzeigeninformationssystem für Verlage' beteiligt. Der Mitarbeiter konzipierte und implementierte verschiedene kundenspezifische Lösungen für das Medizin- und Krankenhauscontrolling und das Verlagswesen. Wir bescheinigen dem Mitarbeiter, dass er über ausgeprägte analytische Fähigkeiten und eine starke IT-Ausrichtung verfügt, die er erfolgreich in seine Arbeit integriert. Der Mitarbeiter nahm im Rahmen seiner Tätigkeit an den Schulungen der <literal>[&#8230;&#8203;]</literal> Academy teil und erwarb sich hier umfangreiches, qualifiziertes Wissen in Projektmanagement und Teamführung. Immer wieder verstand er es, in seinem Arbeitsgebiet wichtige Impulse zu geben und neue Wege zu beschreiten. Seine Innovationsbereitschaft, sein Verantwortungsbewusstsein, seine Kompetenz und seine Zuverlässigkeit waren ein wichtiger Beitrag für unser Unternehmen und ein Indikator für Wachstum und Erfolg. Der Mitarbeiter erfüllte die ihm obliegenden Aufgaben stets zu unserer vollsten Zufriedenheit. Das Verhalten des Mitarbeites gegenüber der Unternehmensleitung und seinen Kollegen waren gleichermaßen vorbildlich. Gleiches gilt für seinen von Aktivität und Serviceorientierung geprägten Umgang mit Kunden. Der Mitarbeiter stellte die Unternehmensziele beim Kunden stets erfolgreich in den Vordergrund. Er war ein engagierter und begeisterungsfähiger Mitarbeiter, der wegen seiner kooperativen und hilfsbereiten, sachlichen Art gleichermaßen bei Vorgesetzten, Mitarbeitern und Kunden beliebt war. Wir haben den Mitarbeiter als einen außerordentlich belastbaren und ausdauernden Mitarbeiter kennen gelernt, der seinen Tätigkeiten mit Fleiß und unverkennbarer Freude nachgeht. <literal>[&#8230;&#8203;]</literal> Wir bedauern sehr, in ihm einen ausgezeichneten Mitarbeiter zu verlieren und danken ihm für die zu jedem Zeitpunkt sehr guten Leistungen und die angenehme Zusammenarbeit. <literal>[&#8230;&#8203;]</literal></simpara>
+</blockquote>
+<simpara><link xl:href="http://www.infor.de">http://www.infor.de</link></simpara>
+</section>
+</section>
+</article>

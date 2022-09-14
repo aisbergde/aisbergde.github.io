@@ -4,17 +4,17 @@
 :subtitle: Microsoft BI Architekt + Entwickler. MS SQL Server, SSAS, DWH, ELT statt ETL, automatisierte Dokumentation
 :tags: ["MS SQL Server", "DWH", "SSAS", "Antora"]
 
-// `image::/assets/img/Germo_Goertz_345x460.jpg[]`
+`image::/assets/img/Germo_Goertz_345x460.jpg[]`
 
-// image::/assets/img/Germo_Goertz_345x460.jpg[]
+image::/assets/img/Germo_Goertz_345x460.jpg[]
 
-// `image::./assets/img/Germo_Goertz_345x460.jpg[]`
+`image::./assets/img/Germo_Goertz_345x460.jpg[]`
 
 image::./assets/img/Germo_Goertz_345x460.jpg[]
 
-// `image::../assets/img/Germo_Goertz_345x460.jpg[]`
+`image::../assets/img/Germo_Goertz_345x460.jpg[]`
 
-// image::../assets/img/Germo_Goertz_345x460.jpg[]
+image::../assets/img/Germo_Goertz_345x460.jpg[]
 
 Berlin
 

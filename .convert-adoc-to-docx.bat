@@ -3,6 +3,7 @@ rem use input filename as parameter
 rem example:
 rem .convert-adoc-to-docx.bat test.adoc
 rem .convert-adoc-to-docx.bat Germo_Goertz_IT_profile.adoc
+rem .convert-adoc-to-docx.bat Germo_Goertz_IT_profile_2.adoc
 rem .convert-adoc-to-docx.bat "test ccc ddd.adoc"
 rem .convert-adoc-to-docx.bat adoc-syntax-quick-reference.adoc
 rem mit folgendem Aufruf werden Bilder nicht exportiert, Der Aufruf muss also im Verzeichnis der zu exportierenden Datei erfolgen
