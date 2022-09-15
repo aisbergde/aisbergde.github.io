@@ -18,7 +18,9 @@ Germo Görtz
 
 Wenn ein title definiert wurde, dann wird der statt des Header 1 angezeigt. Wenn kein title definiert wurde, wird der Header 1 verwendet.
 
-subtitle erscheint auch. Man muss die richtigen Attribute korrekt definieren. Insbesondere mit prefix "page-"
+subtitle erscheint auch im jekyll. Man muss die richtigen Attribute korrekt definieren. Insbesondere mit prefix "page-"
+
+subtitle erscheint aber nicht im gerenderten AciiDoc, also auch nicht im docx. Da muss man noch eine Lösung finden.
 
 == Header 2
 

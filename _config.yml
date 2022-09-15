@@ -19,10 +19,10 @@ author: Germo Görtz
 
 navbar-links:
   Germo Görtz:
-    - Profil (de) test: "Germo_Goertz_IT_profile"
     - Profil (de): "goertz_profile_de"
-    - Projekthistorie: "goertz_project_history_de"
-    - Referenzen / Bewertungen: "goertz_references"
+    # - Profil (de) test: "Germo_Goertz_IT_profile"
+    # - Projekthistorie: "goertz_project_history_de"
+    # - Referenzen / Bewertungen: "goertz_references"
   Tag Index: "tags"
   DataHandwerk:
     - Dokumentation: "https://datahandwerk.gitlab.io"
@@ -273,7 +273,7 @@ exclude:
   - LICENSE
   - README.md
   - screenshot.png
-  # - docs/
+  - docs/
 
 plugins:
   - jekyll-paginate

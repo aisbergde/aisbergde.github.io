@@ -3,59 +3,121 @@
 :slug: profil-germo-gortz-de-
 :subtitle: Microsoft BI Architekt + Entwickler. MS SQL Server, SSAS, DWH, ELT statt ETL, automatisierte Dokumentation
 :tags: ["MS SQL Server", "DWH", "SSAS", "Antora"]
-:imagesdir: ./assets/img
 
-Probleme mit Bildern:
-
-* die erste und dritte Variante funktionieren im Web, aber nicht hier im Editor oder im Word Export
-* die zweite Variante funktioniert für den Export in Word, aber nicht im Web
-
-`image::/assets/img/Germo_Goertz_345x460.jpg[]`
-
-image::/assets/img/Germo_Goertz_345x460.jpg[]
-
-`image::./assets/img/Germo_Goertz_345x460.jpg[]`
-
-image::./assets/img/Germo_Goertz_345x460.jpg[]
-
-`image::../assets/img/Germo_Goertz_345x460.jpg[]`
-
-image::../assets/img/Germo_Goertz_345x460.jpg[]
-
-folgendes kann zusammen mit dem Attribute imagesdir getestet werden. +
-If an image macro’s target is an absolute path or URL, the value of imagesdir is not added to the target path. +
-Man müsste das mit einer Option versehen und den jeweiligen Konverter abfragen +
-https://docs.asciidoctor.org/asciidoc/latest/attributes/document-attributes-ref/#intrinsic-attributes[] +
-aktueller Inhalt: `./assets/img`
-
-`\{backend\}` {backend}
-
-ist beim Export in Word: `docbook5` +
-und im Web? `html5`
-
-
-`\{basebackend\}` {basebackend}
-
-ist beim Export in Word: `docbook` +
-und im Web? `html`
-
-Das ist es zwar auch im VSC Browser, aber dann ist das eben so.
-
-\{safe-mode-name\} {safe-mode-name} +
-ist im VSC: `unsafe`
-
-\{user-home\} {user-home} +
-ist im VSC: `C:\Users\ggoer`
-
-`image::Germo_Goertz_345x460.jpg[]`
-
-image::Germo_Goertz_345x460.jpg[]
-
-Und jetzt den Inhalt des Attributs ändern in `/assets/img`
-
+// Webserver und lokale Umgebung benötigen unterschiedliche Pfade zu Bildern
+// default für jekyll auf Server env-server: /assets/img
+// env-local: ./assets/img
 :imagesdir: /assets/img
 
+ifdef::basebackend-html[]
+ifeval::["{user-home}" == "/root"]
+//it's executed on gitlab server
+:env-server:
+:imagesdir: /assets/img
+endif::[]
+endif::basebackend-html[]
+
+ifeval::["{user-home}" != "/root"]
+//it's executed locally
+:env-local:
+:imagesdir: ./assets/img
+endif::[]
+
+ifdef::basebackend-html[]
+ifeval::["{user-home}" != "/root"]
+//it's executed locally
+:env-local-html:
+endif::[]
+endif::basebackend-html[]
+
+ifdef::basebackend-docbook[]
+ifeval::["{user-home}" != "/root"]
+//it's executed locally
+:env-local-docbook:
+endif::[]
+endif::basebackend-docbook[]
+
+// {user-home}
+
+// {backend}
+
+// {basebackend}
+
+// {basebackend-html}
+
+// {basebackend-docbook}
+
+// {safe-mode-name}
+
+// {env-vscode}
+
+// {env-server}
+
+// {env-local}
+
+// {env-local-html}
+
+// {env-local-docbook}
+
+// `image::Germo_Goertz_345x460.jpg[]`
+
 image::Germo_Goertz_345x460.jpg[]
+
+
+// Probleme mit Bildern:
+
+// * die erste und dritte Variante funktionieren im Web, aber nicht hier im Editor oder im Word Export
+// * die zweite Variante funktioniert für den Export in Word, aber nicht im Web
+
+// `image::/assets/img/Germo_Goertz_345x460.jpg[]`
+
+// image::/assets/img/Germo_Goertz_345x460.jpg[]
+
+// `image::./assets/img/Germo_Goertz_345x460.jpg[]`
+
+// image::./assets/img/Germo_Goertz_345x460.jpg[]
+
+// `image::../assets/img/Germo_Goertz_345x460.jpg[]`
+
+// image::../assets/img/Germo_Goertz_345x460.jpg[]
+
+
+// folgendes kann zusammen mit dem Attribute imagesdir getestet werden. +
+// If an image macro’s target is an absolute path or URL, the value of imagesdir is not added to the target path. +
+// Man müsste das mit einer Option versehen und den jeweiligen Konverter abfragen +
+// https://docs.asciidoctor.org/asciidoc/latest/attributes/document-attributes-ref/#intrinsic-attributes[] +
+// aktueller Inhalt: `./assets/img`
+
+// `\{backend\}` {backend}
+
+// ist beim Export in Word: `docbook5` +
+// und im Web? `html5`
+
+
+// `\{basebackend\}` {basebackend}
+
+// ist beim Export in Word: `docbook` +
+// und im Web? `html`
+
+// Das ist es zwar auch im VSC Browser, aber dann ist das eben so.
+
+// \{safe-mode-name\} {safe-mode-name} +
+// ist im VSC: `unsafe` +
+// ist auf gitlab: `safe`
+
+// \{user-home\} {user-home} +
+// ist im VSC: `C:\Users\ggoer` +
+// ist auf gitlab: `/root`
+
+// `image::Germo_Goertz_345x460.jpg[]`
+
+// image::Germo_Goertz_345x460.jpg[]
+
+// Und jetzt den Inhalt des Attributs ändern in `/assets/img`
+
+// :imagesdir: /assets/img
+
+// image::Germo_Goertz_345x460.jpg[]
 
 
 Berlin
