@@ -118,8 +118,9 @@ https://datahandwerk.aisberg.de/Germo_Goertz_IT_profile.docx[Germo_Goertz_IT_pro
 
 == BI-Architekt und -Entwickler mit Microsoft BI
 
-:fn-blog-docs: footnote:blog-docs[Mehr dazu im Blog-Artikel https://datahandwerk.aisberg.de/2021-04-20-docs-code-mit-asciidoc-und-antora/[]]
-:fn-blog-dhw: footnote:blog-dhw[Warum es das Projekt gibt: im Blog-Artikel https://datahandwerk.aisberg.de/2021-03-23-datahandwerk-toolkit-mssql/[]]
+:fn-blog-docs: footnote:blog-docs[Mehr zum Docs-as-Code im Blog-Artikel https://datahandwerk.aisberg.de/2021-04-20-docs-code-mit-asciidoc-und-antora/[]]
+:fn-blog-dhw: footnote:blog-dhw[Warum es das DataHandwerk Projekt gibt: im Blog-Artikel https://datahandwerk.aisberg.de/2021-03-23-datahandwerk-toolkit-mssql/[]]
+:fn-blog-warum-ac: footnote:blog-warum-ac[Warum AnalyticsCreator statt Wherescape? https://datahandwerk.aisberg.de/2020-04-26-warum-analyticscreator/[]]
 
 * AISBERG - **A**nalytische **I**nformations**S**ysteme und **BER**atung im **G**esundheitswesen (und in anderen Branchen)
 * Business Intelligence (BI, Geschäftsanalyse):
@@ -135,7 +136,7 @@ https://datahandwerk.aisberg.de/Germo_Goertz_IT_profile.docx[Germo_Goertz_IT_pro
 *** Planungssystemen
 *** Berichtssystemen
 * Implementierung von Geschäftsprozessen und -logiken
-* automatisierte versionisierte Dokumentation mit https://datahandwerk.gitlab.io/[DataHandwerk DocsGenerator]{fn-blog-docs} (Kombination von technischer und fachlicher Dokumentation; https://docs.asciidoctor.org/asciidoc/latest/[Asciidoc], https://antora.org/[*Antora* (Docs as Code)])
+* automatisierte versionisierte Dokumentation mit https://datahandwerk.gitlab.io/dhw/user-guide/documentation-generator.html/[DataHandwerk DocsGenerator]{fn-blog-docs} (Kombination von technischer und fachlicher Dokumentation; https://docs.asciidoctor.org/asciidoc/latest/[Asciidoc], https://antora.org/[*Antora* (Docs as Code)])
 * technische Umsetzung regulatorischer Anforderungen (Historisierung, Versionierung, Data Lineage, DSGVO, ...)
 * Automatisierung (Import, ELT, Code-Generierung, DWH, Dokumentation)
 * unter Verwendung von https://www.microsoft.com/de-de/sql-server/sql-server-2019[*Microsoft SQL Server*], einschließlich https://docs.microsoft.com/de-de/analysis-services/analysis-services-overview?view=asallproducts-allversions[*SSAS* (SQL Server Analysis Services)], https://docs.microsoft.com/de-de/sql/integration-services/sql-server-integration-services?view=sql-server-ver15[*SSIS* (SQL Server Integration Services)], https://docs.microsoft.com/de-de/sql/reporting-services/create-deploy-and-manage-mobile-and-paginated-reports?view=sql-server-ver15[SSRS (SQL Server Reporting Services)] und verschiedener https://azure.microsoft.com/de-de/[Microsoft Azure] Technologien
@@ -153,10 +154,10 @@ open Source Dokumentations-Framework, insbesondere für technische versionisiert
 ** https://www.xlcubed.com/[XLcubed] +
 einziges brauchbares Excel-Addin für SSAS
 ** https://www.analyticscreator.com/[AnalyticsCreator] +
-DWH Automatisierung - besser, flexibler und preiswerter als https://www.wherescape.com/[WhereScape], mit dem ich auch gearbeitet habe
+DWH Automatisierung - besser, flexibler und preiswerter als https://www.wherescape.com/[WhereScape], mit dem ich auch gearbeitet habe{fn-blog-warum-ac}
 ** https://git-scm.com/[git (Versionskontrollsystem)] +
 alle meine Projekte werden grundsätzlich versionisiert
-** Datenmodellierung mit https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/[Dimensional modeling (DM)] als Bestandteil der "Business Dimensional Lifecycle methodology" entwickelt von  Ralph *Kimball*
+** Datenmodellierung mit https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/[Dimensional modeling (DM)] als Bestandteil der "Business Dimensional Lifecycle methodology" entwickelt von Ralph *Kimball*
 ** Datenmodellierung nach *Data Vault*
 ** ...
 
@@ -164,7 +165,7 @@ alle meine Projekte werden grundsätzlich versionisiert
 
 Erfolgsfaktoren meiner Tätigkeit als BI-Architekt und -Entwickler:
 
-:fn-blog-kh-autobauer: footnote:kh-autobauer[Hintergründe im Blog-Artikel https://datahandwerk.aisberg.de/2022-09-15-krankenhaus-autobauer/[]]
+:fn-blog-kh-autobauer: footnote:kh-autobauer[Hintergründe zu "Technokratie statt Demokratie" im "Gleichnis vom Krankenhaus" https://datahandwerk.aisberg.de/2022-09-15-krankenhaus-autobauer/[]]
 
 * Exzellenz durch Kompetenz
 * Handwerk statt Fließband
