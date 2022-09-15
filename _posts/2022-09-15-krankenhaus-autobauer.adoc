@@ -1,7 +1,7 @@
 = Gleichnis vom Krankenhaus in der Stadt der Autobauer
 :page-subtitle: Gleichnis von der inklusiven und diversen Teilhabe progressiver Automechaniker an der Behandlung von Patienten durch demokratische Überwindung der konservativen Schulmedizin, verkörpert durch alte weiße Chirurgen.
 :page-last-updated: 2022-09-15
-:page-tags: ["Krankenhaus", "Automechaniker", "Teilhabe", "Technokratie", "Sieben auf einen Streich"]
+:page-tags: ["Krankenhaus", "Automechaniker", "Teilhabe", "Technokratie", "Sieben auf einen Streich", "Inklusion", "Technokratie", "Gleichnis", "Diversität", "alte weiße Chirurgen"]
 
 
 // `#pldnm - Patients' lives does not matter.` Gleichnis von der inklusiven und diversen Teilhabe progressiver Automechaniker an der Behandlung von Patienten durch demokratische Überwindung der konservativen Schulmedizin, verkörpert durch alte weiße Chirurgen.
