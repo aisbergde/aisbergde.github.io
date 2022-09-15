@@ -113,7 +113,7 @@
 <simpara>Implementierung von Geschäftsprozessen und -logiken</simpara>
 </listitem>
 <listitem>
-<simpara>automatisierte versionisierte Dokumentation mit <link xl:href="https://datahandwerk.gitlab.io/">DataHandwerk DocsGenerator</link><footnote xml:id="blog-docs"><simpara>Mehr dazu im Blog-Artikel <link xl:href="https://datahandwerk.aisberg.de/2021-04-20-Docs-as-code-mit-asciidoc/">https://datahandwerk.aisberg.de/2021-04-20-Docs-as-code-mit-asciidoc/</link></simpara></footnote> (Kombination von technischer und fachlicher Dokumentation; <link xl:href="https://docs.asciidoctor.org/asciidoc/latest/">Asciidoc</link>, <link xl:href="https://antora.org/"><emphasis role="strong">Antora</emphasis> (Docs as Code)</link>)</simpara>
+<simpara>automatisierte versionisierte Dokumentation mit <link xl:href="https://datahandwerk.gitlab.io/">DataHandwerk DocsGenerator</link><footnote xml:id="blog-docs"><simpara>Mehr dazu im Blog-Artikel <link xl:href="https://datahandwerk.aisberg.de/2021-04-20-docs-code-mit-asciidoc-und-antora/">https://datahandwerk.aisberg.de/2021-04-20-docs-code-mit-asciidoc-und-antora/</link></simpara></footnote> (Kombination von technischer und fachlicher Dokumentation; <link xl:href="https://docs.asciidoctor.org/asciidoc/latest/">Asciidoc</link>, <link xl:href="https://antora.org/"><emphasis role="strong">Antora</emphasis> (Docs as Code)</link>)</simpara>
 </listitem>
 <listitem>
 <simpara>technische Umsetzung regulatorischer Anforderungen (Historisierung, Versionierung, Data Lineage, DSGVO, &#8230;&#8203;)</simpara>
@@ -129,7 +129,7 @@
 <itemizedlist>
 <listitem>
 <simpara><link xl:href="https://datahandwerk.gitlab.io"><emphasis role="strong">DataHandwerk-toolkit-mssql</emphasis></link><?asciidoc-br?>
-mein open source Projekt<footnote xml:id="blog-dhw"><simpara>Warum es das Projekt gibt: im Blog-Artikel <link xl:href="https://datahandwerk.aisberg.de/2021-03-23-DataHandwerk-toolkit-mssql/">https://datahandwerk.aisberg.de/2021-03-23-DataHandwerk-toolkit-mssql/</link></simpara></footnote>, enthält auch einen Datenbank-Dokumentations-Generator</simpara>
+mein open source Projekt<footnote xml:id="blog-dhw"><simpara>Warum es das Projekt gibt: im Blog-Artikel <link xl:href="https://datahandwerk.aisberg.de/2021-03-23-datahandwerk-toolkit-mssql/">https://datahandwerk.aisberg.de/2021-03-23-datahandwerk-toolkit-mssql/</link></simpara></footnote>, enthält auch einen Datenbank-Dokumentations-Generator</simpara>
 </listitem>
 <listitem>
 <simpara><link xl:href="https://azure.microsoft.com/de-de/services/devops/">Azure DevOps</link><?asciidoc-br?>
