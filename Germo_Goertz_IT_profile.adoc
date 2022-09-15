@@ -118,8 +118,8 @@ https://datahandwerk.aisberg.de/Germo_Goertz_IT_profile.docx[Germo_Goertz_IT_pro
 
 == BI-Architekt und -Entwickler mit Microsoft BI
 
-:fn-blog-docs: footnote:blog-docs[Mehr dazu im Blog-Artikel https://datahandwerk.aisberg.de/2021-04-20-Docs-as-code-mit-asciidoc/[]]
-:fn-blog-dhw: footnote:blog-dhw[Warum es das Projekt gibt: im Blog-Artikel https://datahandwerk.aisberg.de/2021-03-23-DataHandwerk-toolkit-mssql/[]]
+:fn-blog-docs: footnote:blog-docs[Mehr dazu im Blog-Artikel https://datahandwerk.aisberg.de/2021-04-20-docs-code-mit-asciidoc-und-antora/[]]
+:fn-blog-dhw: footnote:blog-dhw[Warum es das Projekt gibt: im Blog-Artikel https://datahandwerk.aisberg.de/2021-03-23-datahandwerk-toolkit-mssql/[]]
 
 * AISBERG - **A**nalytische **I**nformations**S**ysteme und **BER**atung im **G**esundheitswesen (und in anderen Branchen)
 * Business Intelligence (BI, Geschäftsanalyse):
