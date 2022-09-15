@@ -1,40 +1,114 @@
 = IT Profil Germo Görtz (de)
-:date: 2021-01-06
+:page-subtitle: Microsoft BI Architekt + Entwickler. MS SQL Server, SSAS, DWH, ELT statt ETL, automatisierte Dokumentation
+:page-last-updated: 2022-09-15
 :slug: profil-germo-gortz-de-
-:subtitle: Microsoft BI Architekt + Entwickler. MS SQL Server, SSAS, DWH, ELT statt ETL, automatisierte Dokumentation
-:tags: ["MS SQL Server", "DWH", "SSAS", "Antora"]
+:page-tags: ["MS SQL Server", "DWH", "SSAS", "Antora"]
+//für kompatibilität mit beworbenen Links:
+:page-permalink: /goertz_profile_de/
+
+:toc: auto
+:toclevels: 1
+
+// Webserver und lokale Umgebung benötigen unterschiedliche Pfade zu Bildern
+// default für jekyll auf Server env-server: /assets/img
+// env-local: ./assets/img
+:imagesdir: /assets/img
+
+ifdef::basebackend-html[]
+ifeval::["{user-home}" == "/root"]
+//it's executed on gitlab server
+:env-server:
+:imagesdir: /assets/img
+endif::[]
+endif::basebackend-html[]
+
+ifeval::["{user-home}" != "/root"]
+//it's executed locally
+:env-local:
+:imagesdir: ./assets/img
+endif::[]
+
+ifdef::basebackend-html[]
+ifeval::["{user-home}" != "/root"]
+//it's executed locally
+:env-local-html:
+endif::[]
+endif::basebackend-html[]
+
+ifdef::basebackend-docbook[]
+ifeval::["{user-home}" != "/root"]
+//it's executed locally
+:env-local-docbook:
+endif::[]
+endif::basebackend-docbook[]
 
 
+// auf dem Server wird der :page-subtitle: unter dem Titel angezeigt
+// local nicht, also blenden wir ihn ein
+// docbook könnte mit spezieller Syntax auch einen subtitle anzeigen, das geht aber nicht mit html5
+// https://docs.asciidoctor.org/asciidoc/latest/document/subtitle/
+ifdef::env-local[]
 
-// `image::/assets/img/Germo_Goertz_345x460.jpg[]`
+[discrete] 
+=== {page-subtitle}
 
-// image::/assets/img/Germo_Goertz_345x460.jpg[]
+endif::env-local[]
 
-// `image::./assets/img/Germo_Goertz_345x460.jpg[]`
 
-image::./assets/img/Germo_Goertz_345x460.jpg[]
+// {user-home}
 
-// `image::../assets/img/Germo_Goertz_345x460.jpg[]`
+// {backend}
 
-// image::../assets/img/Germo_Goertz_345x460.jpg[]
+// {basebackend}
 
-Berlin
+// {basebackend-html}
 
-== Download des IT-Profils (inklusive Projekthistorie und Referenzen)
+// {basebackend-docbook}
 
-https://datahandwerk.aisberg.de/Germo_Goertz_IT_profile.docx[Germo_Goertz_IT_profile.docx]
+// {safe-mode-name}
 
+// {env-vscode}
+
+// {env-server}
+
+// {env-local}
+
+// {env-local-html}
+
+// {env-local-docbook}
+
+// `image::Germo_Goertz_345x460.jpg[]`
+
+[frame=none,grid=none]
+[cols="1a,1a"]
+|===
+|
+image::Germo_Goertz_345x460.jpg[]
+
+14089 Berlin
+
+|
+[discrete] 
 == Abschluss
 
-in English:
-
-Diplom-Mediziner, Biophysiker, http://pirogov-university.com/academics/programs-and-degrees/undergraduate/medical-cybernetics/[Arzt-Kybernetiker] +
+* in English:
+** Diplom-Mediziner, Biophysiker, http://pirogov-university.com/academics/programs-and-degrees/undergraduate/medical-cybernetics/[Arzt-Kybernetiker (medical cybernetics)] +
 http://pirogov-university.com/[Pirogov Russian National Research Medical University]
-
-на русском:
-
-https://rsmu.ru/academics/undergraduate/medical-cybernetics/[Программа специалитета «Медицинская кибернетика»] +
+* на русском:
+** https://rsmu.ru/academics/undergraduate/medical-cybernetics/[Программа специалитета «Медицинская кибернетика»] +
 http://rsmu.ru/[Российский национальный исследовательский медицинский университет имени Н.И. Пирогова]
+
+
+// |Cell in column 1, row 2
+// |Cell in column 2, row 2
+
+// |Cell in column 1, row 3
+// |Cell in column 2, row 3
+
+|===
+
+Download des IT-Profils als Word-Datei: 
+https://datahandwerk.aisberg.de/Germo_Goertz_IT_profile.docx[Germo_Goertz_IT_profile.docx]
 
 == Sprachkenntnisse
 
@@ -42,57 +116,60 @@ http://rsmu.ru/[Российский национальный исследова
 * russisch (studiert und gearbeitet in Russland)
 * englisch
 
-'''
-
 == BI-Architekt und -Entwickler mit Microsoft BI
+
+:fn-blog-docs: footnote:blog-docs[Mehr dazu im Blog-Artikel https://datahandwerk.aisberg.de/2021-04-20-Docs-as-code-mit-asciidoc/[]]
+:fn-blog-dhw: footnote:blog-dhw[Warum es das Projekt gibt: im Blog-Artikel https://datahandwerk.aisberg.de/2021-03-23-DataHandwerk-toolkit-mssql/[]]
 
 * AISBERG - **A**nalytische **I**nformations**S**ysteme und **BER**atung im **G**esundheitswesen (und in anderen Branchen)
 * Business Intelligence (BI, Geschäftsanalyse):
- ** Anforderungsanalyse
- ** Architektur
- ** Konzeption
- ** Einführung und
- ** Umsetzung von
-  *** Data Warehouse (DWH)
-  *** ELT (Extrahieren, Laden, Transformieren von Daten) statt ETL
-  *** Datenmodellen
-  *** Analyseverfahren
-  *** Planungssystemen
-  *** Berichtssystemen
+** Anforderungsanalyse
+** Architektur
+** Konzeption
+** Einführung und
+** Umsetzung von
+*** Data Warehouse (DWH)
+*** ELT (Extrahieren, Laden, Transformieren von Daten) statt ETL
+*** Datenmodellen
+*** Analyseverfahren
+*** Planungssystemen
+*** Berichtssystemen
 * Implementierung von Geschäftsprozessen und -logiken
-* automatisierte versionisierte Dokumentation mit https://datahandwerk.gitlab.io/[DataHandwerk DocsGenerator] (Kombination von technischer und fachlicher Dokumentation; https://docs.asciidoctor.org/asciidoc/latest/[Asciidoc], link:[https:](https://antora.org/)[Antora (Docs as Code)])
+* automatisierte versionisierte Dokumentation mit https://datahandwerk.gitlab.io/[DataHandwerk DocsGenerator]{fn-blog-docs} (Kombination von technischer und fachlicher Dokumentation; https://docs.asciidoctor.org/asciidoc/latest/[Asciidoc], https://antora.org/[*Antora* (Docs as Code)])
 * technische Umsetzung regulatorischer Anforderungen (Historisierung, Versionierung, Data Lineage, DSGVO, ...)
 * Automatisierung (Import, ELT, Code-Generierung, DWH, Dokumentation)
 * unter Verwendung von https://www.microsoft.com/de-de/sql-server/sql-server-2019[*Microsoft SQL Server*], einschließlich https://docs.microsoft.com/de-de/analysis-services/analysis-services-overview?view=asallproducts-allversions[*SSAS* (SQL Server Analysis Services)], https://docs.microsoft.com/de-de/sql/integration-services/sql-server-integration-services?view=sql-server-ver15[*SSIS* (SQL Server Integration Services)], https://docs.microsoft.com/de-de/sql/reporting-services/create-deploy-and-manage-mobile-and-paginated-reports?view=sql-server-ver15[SSRS (SQL Server Reporting Services)] und verschiedener https://azure.microsoft.com/de-de/[Microsoft Azure] Technologien
 * und von Software und Technologie rund um die Microsoft BI Plattform oder zur Entwicklung
- ** https://datahandwerk.gitlab.io[*DataHandwerk-toolkit-mssql*] +
-mein open source Projekt, enthält auch einen Datenbank-Dokumentations-Generator
- ** https://azure.microsoft.com/de-de/services/devops/[Azure DevOps] +
-  Tool für DevOps, agiles Projekt-Controlling, Issue-Tracking, Code-Versionierung. Leider keine Asciidoc-Unterstützung in Wiki oder Repository-Preview
- ** https://powerbi.microsoft.com/de-de/[Microsoft Power BI] +
-  Microsoft Frontend für Berichtswesen
- ** link:[https:](https://antora.org/)[Antora (Docs as Code)] +
-  open Source Dokumentations-Framework, insbesondere für technische versionisierte Dokumentation, basierend auf Asciidoc
- ** https://www.bissantz.de/software/[Deltamaster (SSAS Frontend)]
- ** https://www.oreus.hr/products/cubeplayer[CubePlayer (SSAS Frontend)]
- ** https://www.xlcubed.com/[XLcubed] +
-  einziges brauchbares Excel-Addin für SSAS
- ** https://www.analyticscreator.com/[AnalyticsCreator] +
-  DWH Automatisierung - besser, flexibler und preiswerter als https://www.wherescape.com/[WhereScape], mit dem ich auch gearbeitet habe
- ** https://git-scm.com/[git (Versionskontrollsystem)] +
-  alle meine Projekte werden grundsätzlich versionisiert
- ** Datenmodellierung mit https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/[Dimensional modeling (DM)] als Bestandteil der "Business Dimensional Lifecycle methodology" entwickelt von  Ralph *Kimball*
- ** Datenmodellierung nach *Data Vault*
- ** ...
+** https://datahandwerk.gitlab.io[*DataHandwerk-toolkit-mssql*] +
+mein open source Projekt{fn-blog-dhw}, enthält auch einen Datenbank-Dokumentations-Generator
+** https://azure.microsoft.com/de-de/services/devops/[Azure DevOps] +
+Tool für DevOps, agiles Projekt-Controlling, Issue-Tracking, Code-Versionierung. Leider keine Asciidoc-Unterstützung in Wiki oder Repository-Preview
+** https://powerbi.microsoft.com/de-de/[Microsoft Power BI] +
+Microsoft Frontend für Berichtswesen
+** https://antora.org/[Antora (Docs as Code)] +
+open Source Dokumentations-Framework, insbesondere für technische versionisierte Dokumentation, basierend auf Asciidoc
+** https://www.bissantz.de/software/[Deltamaster (SSAS Frontend)]
+** https://www.oreus.hr/products/cubeplayer[CubePlayer (SSAS Frontend)]
+** https://www.xlcubed.com/[XLcubed] +
+einziges brauchbares Excel-Addin für SSAS
+** https://www.analyticscreator.com/[AnalyticsCreator] +
+DWH Automatisierung - besser, flexibler und preiswerter als https://www.wherescape.com/[WhereScape], mit dem ich auch gearbeitet habe
+** https://git-scm.com/[git (Versionskontrollsystem)] +
+alle meine Projekte werden grundsätzlich versionisiert
+** Datenmodellierung mit https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/[Dimensional modeling (DM)] als Bestandteil der "Business Dimensional Lifecycle methodology" entwickelt von  Ralph *Kimball*
+** Datenmodellierung nach *Data Vault*
+** ...
 
 == Soft Skills
 
 Erfolgsfaktoren meiner Tätigkeit als BI-Architekt und -Entwickler:
 
+:fn-blog-kh-autobauer: footnote:kh-autobauer[Hintergründe im Blog-Artikel https://datahandwerk.aisberg.de/2022-09-15-krankenhaus-autobauer/[]]
+
 * Exzellenz durch Kompetenz
 * Handwerk statt Fließband
 * Technokratie statt Demokratie: +
-Vertrauen in Experten
+Vertrauen in Experten{fn-blog-kh-autobauer}
 
 Als http://pirogov-university.com/academics/programs-and-degrees/undergraduate/medical-cybernetics/[Arzt-Kybernetiker] bin ich "kybernetisch im Denken und Handeln"
 
@@ -105,15 +182,15 @@ Soziale Kompetenz, Auffassungsgabe und Ehrgeiz sorgen dafür, dass fachliche Anf
 kompetent, zielorientiert, auch querdenkend und nonkonformistisch, +
 analytisch, exakt, verantwortungsbewusst, selbständig, schnell, effektiv und effizient.
 
-Ich halte mehr von *DevOps* (**Dev**elopment + IT **Op**eration**s** in Kombination) und weniger von einer Trennung in Entwicklung und späteren Betrieb (durch Offshore- oder Nearshore-Mitarbeiter).
-
 == Sonstiges
+
+Ich halte mehr von *DevOps* (**Dev**elopment + IT **Op**eration**s** in Kombination) und weniger von einer Trennung in Entwicklung und späteren Betrieb (durch Offshore- oder Nearshore-Mitarbeiter).
 
 === keine AÜL, Rentenversicherung, Scheinselbständigkeit, Vollzeit
 
 Ich habe _kein_ Interesse an einer festen Anstellung, insbesondere auch nicht an einer Arbeitnehmerüberlassung (AÜL), da ich jeden unnötigen Kontakt mit der "Deutschen Rentenversicherung" vermeiden will, die gemeinsam mit der Politik dafür verantwortlich ist, dass immer mehr Kunden Angst haben, in Deutschland mit Freiberuflern zusammenzuarbeiten.
 
-Die Gefahr der sogenannten "Scheinselbständigkeit" ist auch ein Grund dafür, warum ich möglichst nicht mehr in einem einzigen Projekt vollzeit tätig sein will, sondern zwecks Risiko-Minimierung lieber in mehreren Projekten gleichzeitig.
+// Die Gefahr der sogenannten "Scheinselbständigkeit" ist auch ein Grund dafür, warum ich möglichst nicht mehr in einem einzigen Projekt vollzeit tätig sein will, sondern zwecks Risiko-Minimierung lieber in mehreren Projekten gleichzeitig.
 
 === Anmerkungen zu SSAS (SQL Server Analysis Services)
 
@@ -134,6 +211,12 @@ Die Tabular-Technologie wird von Microsoft gepusht. SSAS Tabular hat einige Stä
 
 Die Abfragesprache http://de.wikipedia.org/wiki/Multidimensional_Expressions[MDX (Multidimensional Expressions)] kann für beide Technologien verwendet werden, https://docs.microsoft.com/de-de/dax/[DAX (Data Analysis Expressions)] kann nur für SSAS Tabular verwendet werden.
 
+//folgendes soll ein page break sein, wird aber von pandoc zu docx ignoriert (oder von welchem Konverter auch immer)
+
+<<<
+
 include::goertz-project-history-de.adoc[leveloffset=+1]
+
+<<<
 
 include::goertz-references.adoc[leveloffset=+1]

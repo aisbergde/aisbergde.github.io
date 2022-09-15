@@ -12,6 +12,15 @@ body
 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+p {
+  line-height: 1.5;
+  margin: 0.5rem 0;
+}
+
+h1, h2, h3, h4 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
 
 .navbar-custom .navbar-nav .nav-item {
   text-transform: none;

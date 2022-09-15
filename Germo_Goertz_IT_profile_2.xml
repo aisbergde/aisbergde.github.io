@@ -4,65 +4,24 @@
 <article xmlns="http://docbook.org/ns/docbook" xmlns:xl="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en">
 <info>
 <title>IT Profil Germo Görtz (de)</title>
-<date>2022-09-14</date>
+<date>2022-09-15</date>
 </info>
-<simpara>Probleme mit Bildern:</simpara>
-<itemizedlist>
-<listitem>
-<simpara>die erste und dritte Variante funktionieren im Web, aber nicht hier im Editor oder im Word Export</simpara>
-</listitem>
-<listitem>
-<simpara>die zweite Variante funktioniert für den Export in Word, aber nicht im Web</simpara>
-</listitem>
-</itemizedlist>
-<simpara><literal>image::/assets/img/Germo_Goertz_345x460.jpg[]</literal></simpara>
-<informalfigure>
-<mediaobject>
-<imageobject>
-<imagedata fileref="/assets/img/Germo_Goertz_345x460.jpg"/>
-</imageobject>
-<textobject><phrase>Germo Goertz 345x460</phrase></textobject>
-</mediaobject>
-</informalfigure>
-<simpara><literal>image::./assets/img/Germo_Goertz_345x460.jpg[]</literal></simpara>
-<informalfigure>
-<mediaobject>
-<imageobject>
-<imagedata fileref="./assets/img/assets/img/Germo_Goertz_345x460.jpg"/>
-</imageobject>
-<textobject><phrase>Germo Goertz 345x460</phrase></textobject>
-</mediaobject>
-</informalfigure>
-<simpara><literal>image::../assets/img/Germo_Goertz_345x460.jpg[]</literal></simpara>
-<informalfigure>
-<mediaobject>
-<imageobject>
-<imagedata fileref="./assets/assets/img/Germo_Goertz_345x460.jpg"/>
-</imageobject>
-<textobject><phrase>Germo Goertz 345x460</phrase></textobject>
-</mediaobject>
-</informalfigure>
-<simpara>folgendes kann zusammen mit dem Attribute imagesdir getestet werden.<?asciidoc-br?>
-If an image macro’s target is an absolute path or URL, the value of imagesdir is not added to the target path.<?asciidoc-br?>
-Man müsste das mit einer Option versehen und den jeweiligen Konverter abfragen<?asciidoc-br?>
-<link xl:href="https://docs.asciidoctor.org/asciidoc/latest/attributes/document-attributes-ref/#intrinsic-attributes">https://docs.asciidoctor.org/asciidoc/latest/attributes/document-attributes-ref/#intrinsic-attributes</link><?asciidoc-br?>
-aktueller Inhalt: <literal>./assets/img</literal></simpara>
-<simpara><literal>docbook5</literal> docbook5</simpara>
-<simpara><literal>docbook</literal> docbook</simpara>
+<simpara>C:/Users/ggoer</simpara>
+<simpara>docbook5</simpara>
+<simpara>docbook</simpara>
+<simpara>{basebackend-html}</simpara>
+<simpara></simpara>
+<simpara>unsafe</simpara>
+<simpara>{env-vscode}</simpara>
+<simpara>{env-server}</simpara>
+<simpara></simpara>
+<simpara>{env-local-html}</simpara>
+<simpara></simpara>
 <simpara><literal>image::Germo_Goertz_345x460.jpg[]</literal></simpara>
 <informalfigure>
 <mediaobject>
 <imageobject>
 <imagedata fileref="./assets/img/Germo_Goertz_345x460.jpg"/>
-</imageobject>
-<textobject><phrase>Germo Goertz 345x460</phrase></textobject>
-</mediaobject>
-</informalfigure>
-<simpara>Und jetzt den Inhalt des Attributs ändern in <literal>/assets/img</literal></simpara>
-<informalfigure>
-<mediaobject>
-<imageobject>
-<imagedata fileref="/assets/img/Germo_Goertz_345x460.jpg"/>
 </imageobject>
 <textobject><phrase>Germo Goertz 345x460</phrase></textobject>
 </mediaobject>

@@ -34,7 +34,7 @@ ECHO filename=%%~ni
 ECHO fileextension=%%~xi
 ECHO fullpath=%%~fni
 echo asciidoctor -b docbook "%%~fni"
-echo pandoc -f docbook -t docx -s "%%~pi%%~ni.xml" -o "%%~pi%%~ni.docx"
+echo pandoc -f docbook -t docx --reference-doc=reference.docx -s "%%~pi%%~ni.xml" -o "%%~pi%%~ni.docx"
 asciidoctor -b docbook "%%~fni"
 pandoc -f docbook -t docx --reference-doc=reference.docx -s "%%~pi%%~ni.xml" -o "%%~pi%%~ni.docx"
 )

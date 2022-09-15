@@ -16,5 +16,23 @@
         "workspaceRoot": null,
         "workspacePath": null,
         "id": "yN9RJtV3SHqKjdZQ"
+    },
+    {
+        "type": "File",
+        "name": "d:\\Repos\\gitlab\\aisbergde\\aisbergde.gitlab.io\\assets\\css\\custom-styles.css",
+        "parent_id": null,
+        "fsPath": "d:\\Repos\\gitlab\\aisbergde\\aisbergde.gitlab.io\\assets\\css\\custom-styles.css",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "c2q7lPXe8kWYQIB5"
+    },
+    {
+        "type": "File",
+        "name": "d:\\Repos\\gitlab\\aisbergde\\aisbergde.gitlab.io\\assets\\css\\beautifuljekyll.css",
+        "parent_id": null,
+        "fsPath": "d:\\Repos\\gitlab\\aisbergde\\aisbergde.gitlab.io\\assets\\css\\beautifuljekyll.css",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "gwibk2KOrYP80Qoc"
     }
 ]

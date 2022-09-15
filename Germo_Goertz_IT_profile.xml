@@ -4,30 +4,51 @@
 <article xmlns="http://docbook.org/ns/docbook" xmlns:xl="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en">
 <info>
 <title>IT Profil Germo Görtz (de)</title>
-<date>2022-09-14</date>
+<date>2022-09-15</date>
 </info>
-<informalfigure>
+<bridgehead xml:id="_microsoft_bi_architekt_entwickler_ms_sql_server_ssas_dwh_elt_statt_etl_automatisierte_dokumentation" renderas="sect2">Microsoft BI Architekt + Entwickler. MS SQL Server, SSAS, DWH, ELT statt ETL, automatisierte Dokumentation</bridgehead>
+<informaltable frame="none" rowsep="0" colsep="0">
+<tgroup cols="2">
+<colspec colname="col_1" colwidth="50*"/>
+<colspec colname="col_2" colwidth="50*"/>
+<tbody>
+<row>
+<entry align="left" valign="top"><informalfigure>
 <mediaobject>
 <imageobject>
-<imagedata fileref="assets/img/Germo_Goertz_345x460.jpg"/>
+<imagedata fileref="./assets/img/Germo_Goertz_345x460.jpg"/>
 </imageobject>
 <textobject><phrase>Germo Goertz 345x460</phrase></textobject>
 </mediaobject>
 </informalfigure>
-<simpara>Berlin</simpara>
-<section xml:id="_download_des_it_profils_inklusive_projekthistorie_und_referenzen">
-<title>Download des IT-Profils (inklusive Projekthistorie und Referenzen)</title>
-<simpara><link xl:href="https://datahandwerk.aisberg.de/Germo_Goertz_IT_profile.docx">Germo_Goertz_IT_profile.docx</link></simpara>
-</section>
-<section xml:id="_abschluss">
-<title>Abschluss</title>
+<simpara>14089 Berlin</simpara></entry>
+<entry align="left" valign="top"><bridgehead xml:id="_abschluss" renderas="sect1">Abschluss</bridgehead>
+<itemizedlist>
+<listitem>
 <simpara>in English:</simpara>
-<simpara>Diplom-Mediziner, Biophysiker, <link xl:href="http://pirogov-university.com/academics/programs-and-degrees/undergraduate/medical-cybernetics/">Arzt-Kybernetiker</link><?asciidoc-br?>
+<itemizedlist>
+<listitem>
+<simpara>Diplom-Mediziner, Biophysiker, <link xl:href="http://pirogov-university.com/academics/programs-and-degrees/undergraduate/medical-cybernetics/">Arzt-Kybernetiker (medical cybernetics)</link><?asciidoc-br?>
 <link xl:href="http://pirogov-university.com/">Pirogov Russian National Research Medical University</link></simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
 <simpara>на русском:</simpara>
+<itemizedlist>
+<listitem>
 <simpara><link xl:href="https://rsmu.ru/academics/undergraduate/medical-cybernetics/">Программа специалитета «Медицинская кибернетика»</link><?asciidoc-br?>
 <link xl:href="http://rsmu.ru/">Российский национальный исследовательский медицинский университет имени Н.И. Пирогова</link></simpara>
-</section>
+</listitem>
+</itemizedlist>
+</listitem>
+</itemizedlist></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+<simpara>Download des IT-Profils als Word-Datei:
+<link xl:href="https://datahandwerk.aisberg.de/Germo_Goertz_IT_profile.docx">Germo_Goertz_IT_profile.docx</link></simpara>
 <section xml:id="_sprachkenntnisse">
 <title>Sprachkenntnisse</title>
 <itemizedlist>
@@ -41,7 +62,6 @@
 <simpara>englisch</simpara>
 </listitem>
 </itemizedlist>
-<simpara><?asciidoc-hr?></simpara>
 </section>
 <section xml:id="_bi_architekt_und_entwickler_mit_microsoft_bi">
 <title>BI-Architekt und -Entwickler mit Microsoft BI</title>
@@ -93,7 +113,7 @@
 <simpara>Implementierung von Geschäftsprozessen und -logiken</simpara>
 </listitem>
 <listitem>
-<simpara>automatisierte versionisierte Dokumentation mit <link xl:href="https://datahandwerk.gitlab.io/">DataHandwerk DocsGenerator</link> (Kombination von technischer und fachlicher Dokumentation; <link xl:href="https://docs.asciidoctor.org/asciidoc/latest/">Asciidoc</link>, <link xl:href="">https:</link>(<link xl:href="https://antora.org/)">Antora (Docs as Code)</link>)</simpara>
+<simpara>automatisierte versionisierte Dokumentation mit <link xl:href="https://datahandwerk.gitlab.io/">DataHandwerk DocsGenerator</link><footnote xml:id="blog-docs"><simpara>Mehr dazu im Blog-Artikel <link xl:href="https://datahandwerk.aisberg.de/2021-04-20-Docs-as-code-mit-asciidoc/">https://datahandwerk.aisberg.de/2021-04-20-Docs-as-code-mit-asciidoc/</link></simpara></footnote> (Kombination von technischer und fachlicher Dokumentation; <link xl:href="https://docs.asciidoctor.org/asciidoc/latest/">Asciidoc</link>, <link xl:href="https://antora.org/"><emphasis role="strong">Antora</emphasis> (Docs as Code)</link>)</simpara>
 </listitem>
 <listitem>
 <simpara>technische Umsetzung regulatorischer Anforderungen (Historisierung, Versionierung, Data Lineage, DSGVO, &#8230;&#8203;)</simpara>
@@ -109,7 +129,7 @@
 <itemizedlist>
 <listitem>
 <simpara><link xl:href="https://datahandwerk.gitlab.io"><emphasis role="strong">DataHandwerk-toolkit-mssql</emphasis></link><?asciidoc-br?>
-mein open source Projekt, enthält auch einen Datenbank-Dokumentations-Generator</simpara>
+mein open source Projekt<footnote xml:id="blog-dhw"><simpara>Warum es das Projekt gibt: im Blog-Artikel <link xl:href="https://datahandwerk.aisberg.de/2021-03-23-DataHandwerk-toolkit-mssql/">https://datahandwerk.aisberg.de/2021-03-23-DataHandwerk-toolkit-mssql/</link></simpara></footnote>, enthält auch einen Datenbank-Dokumentations-Generator</simpara>
 </listitem>
 <listitem>
 <simpara><link xl:href="https://azure.microsoft.com/de-de/services/devops/">Azure DevOps</link><?asciidoc-br?>
@@ -120,7 +140,7 @@ Tool für DevOps, agiles Projekt-Controlling, Issue-Tracking, Code-Versionierung
 Microsoft Frontend für Berichtswesen</simpara>
 </listitem>
 <listitem>
-<simpara><link xl:href="">https:</link>(<link xl:href="https://antora.org/)">Antora (Docs as Code)</link><?asciidoc-br?>
+<simpara><link xl:href="https://antora.org/">Antora (Docs as Code)</link><?asciidoc-br?>
 open Source Dokumentations-Framework, insbesondere für technische versionisierte Dokumentation, basierend auf Asciidoc</simpara>
 </listitem>
 <listitem>
@@ -166,7 +186,7 @@ alle meine Projekte werden grundsätzlich versionisiert</simpara>
 </listitem>
 <listitem>
 <simpara>Technokratie statt Demokratie:<?asciidoc-br?>
-Vertrauen in Experten</simpara>
+Vertrauen in Experten<footnote xml:id="kh-autobauer"><simpara>Hintergründe im Blog-Artikel <link xl:href="https://datahandwerk.aisberg.de/2022-09-15-krankenhaus-autobauer/">https://datahandwerk.aisberg.de/2022-09-15-krankenhaus-autobauer/</link></simpara></footnote></simpara>
 </listitem>
 </itemizedlist>
 <simpara>Als <link xl:href="http://pirogov-university.com/academics/programs-and-degrees/undergraduate/medical-cybernetics/">Arzt-Kybernetiker</link> bin ich "kybernetisch im Denken und Handeln"</simpara>
@@ -187,14 +207,13 @@ Vertrauen in Experten</simpara>
 <simpara>Soziale Kompetenz, Auffassungsgabe und Ehrgeiz sorgen dafür, dass fachliche Anforderungen genau erfasst und mit maximaler Kunden-Zufriedenheit umgesetzt werden:<?asciidoc-br?>
 kompetent, zielorientiert, auch querdenkend und nonkonformistisch,<?asciidoc-br?>
 analytisch, exakt, verantwortungsbewusst, selbständig, schnell, effektiv und effizient.</simpara>
-<simpara>Ich halte mehr von <emphasis role="strong">DevOps</emphasis> (<emphasis role="strong">Dev</emphasis>elopment + IT <emphasis role="strong">Op</emphasis>eration<emphasis role="strong">s</emphasis> in Kombination) und weniger von einer Trennung in Entwicklung und späteren Betrieb (durch Offshore- oder Nearshore-Mitarbeiter).</simpara>
 </section>
 <section xml:id="_sonstiges">
 <title>Sonstiges</title>
+<simpara>Ich halte mehr von <emphasis role="strong">DevOps</emphasis> (<emphasis role="strong">Dev</emphasis>elopment + IT <emphasis role="strong">Op</emphasis>eration<emphasis role="strong">s</emphasis> in Kombination) und weniger von einer Trennung in Entwicklung und späteren Betrieb (durch Offshore- oder Nearshore-Mitarbeiter).</simpara>
 <section xml:id="_keine_aül_rentenversicherung_scheinselbständigkeit_vollzeit">
 <title>keine AÜL, Rentenversicherung, Scheinselbständigkeit, Vollzeit</title>
 <simpara>Ich habe <emphasis>kein</emphasis> Interesse an einer festen Anstellung, insbesondere auch nicht an einer Arbeitnehmerüberlassung (AÜL), da ich jeden unnötigen Kontakt mit der "Deutschen Rentenversicherung" vermeiden will, die gemeinsam mit der Politik dafür verantwortlich ist, dass immer mehr Kunden Angst haben, in Deutschland mit Freiberuflern zusammenzuarbeiten.</simpara>
-<simpara>Die Gefahr der sogenannten "Scheinselbständigkeit" ist auch ein Grund dafür, warum ich möglichst nicht mehr in einem einzigen Projekt vollzeit tätig sein will, sondern zwecks Risiko-Minimierung lieber in mehreren Projekten gleichzeitig.</simpara>
 </section>
 <section xml:id="_anmerkungen_zu_ssas_sql_server_analysis_services">
 <title>Anmerkungen zu SSAS (SQL Server Analysis Services)</title>
@@ -213,6 +232,7 @@ analytisch, exakt, verantwortungsbewusst, selbständig, schnell, effektiv und ef
 <simpara>Die Tabular-Technologie wird von Microsoft gepusht. SSAS Tabular hat einige Stärken und wird besser von Power BI unterstützt, welches intern auch diese Technologie verwendet. Die Unterstützung von Power BI für multidimensionale Datenbanken ist mangelhaft; vielleicht, um diese Technologie langsam sterben zu lassen. Allerdings gibt es immer noch viele Stärken der multidimensionalen Technologie, welche sich mit der tabularischen Technologie (noch) nicht umsetzen lassen.</simpara>
 <simpara>=&gt; Was sich mit SSAS Tabular sinnvoll realisieren lässt, wird von mir pragmatisch mit Tabular gemacht. Falls nötig und sinnvoll, gibt es weiter die multidimensionale Technologie.</simpara>
 <simpara>Die Abfragesprache <link xl:href="http://de.wikipedia.org/wiki/Multidimensional_Expressions">MDX (Multidimensional Expressions)</link> kann für beide Technologien verwendet werden, <link xl:href="https://docs.microsoft.com/de-de/dax/">DAX (Data Analysis Expressions)</link> kann nur für SSAS Tabular verwendet werden.</simpara>
+<simpara><?asciidoc-pagebreak?></simpara>
 </section>
 </section>
 <section xml:id="_projekthistorie_germo_görtz_de">
@@ -1217,7 +1237,7 @@ Wirtschaftsinformatik (WI 2017), St. Gallen, S. 1205-1219</simpara>
 </section>
 <section xml:id="_091999_052004_diverse_projekte_diverse_branchen_u_a_energiewirtschaft_versicherungen_banken">
 <title>09/1999 - 05/2004 diverse Projekte / diverse Branchen (u. a. Energiewirtschaft, Versicherungen, Banken, &#8230;&#8203;)</title>
-
+<simpara><?asciidoc-pagebreak?></simpara>
 </section>
 </section>
 </section>

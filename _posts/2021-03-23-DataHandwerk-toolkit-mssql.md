@@ -7,12 +7,12 @@ tags:
   - mssql
   - DHW
   - open source
-last-updated: 2021-03-25T23:09:49.452Z
+last-updated: 2022-09-15
 head-extra: head_extra.html
 slug: datahandwerk-toolkit-mssql
 ---
 
-Der AnalyticsCreator (AC) hat einen vorgesehenen Kontext: die Automatisierung der Erstellung von DWH, inklusive ETL und SSAS Datenbanken. In den letzten 4 Jahren habe ich versucht, den AC für alle Arten von Datenbank-Entwicklungen zu verwenden. Dabei musste ich auf einige Features des SQL Servers verzichten, wie temporale Tabellen (die in den SQL Server eingebaute Historisierung von Daten) oder Graph-Tabellen (Node und Edge). Oft habe ich über Feature Requests angeregt, den AC in ein Instrument für die Erstellung beliebiger Datenbanken erweitern zu lassen. Viele Features wurden implementiert und ich denke, dass ich mit meinen Ideen sehr zur Vielseitigkeit des AC beigetragen habe, der ein ganz hervorragendes Produkt ist und bleibt. Gleichzeitig kann ich vom Produkt-Management nicht erwarten, dass sich der AC nur an meinen Bedürfnissen orientiert. Der AC hat zahlende Kunden mit zum Teil anderen Bedürfnissen, und die Priorisierung der Entwicklung obliegt dem AC.
+Der AnalyticsCreator (AC) hat einen vorgesehenen Kontext: die Automatisierung der Erstellung von DWH, inklusive ELT und SSAS Datenbanken. In den letzten 4 Jahren habe ich versucht, den AC für alle Arten von Datenbank-Entwicklungen zu verwenden. Dabei musste ich auf einige Features des SQL Servers verzichten, wie temporale Tabellen (die in den SQL Server eingebaute Historisierung von Daten) oder Graph-Tabellen (Node und Edge). Oft habe ich über Feature Requests angeregt, den AC in ein Instrument für die Erstellung beliebiger Datenbanken erweitern zu lassen. Viele Features wurden implementiert und ich denke, dass ich mit meinen Ideen sehr zur Vielseitigkeit des AC beigetragen habe, der ein ganz hervorragendes Produkt ist und bleibt. Gleichzeitig kann ich vom Produkt-Management nicht erwarten, dass sich der AC nur an meinen Bedürfnissen orientiert. Der AC hat zahlende Kunden mit zum Teil anderen Bedürfnissen, und die Priorisierung der Entwicklung obliegt dem AC.
 
 
 **Azure Synapse Analytics** hat eine teilweise andere Syntax, als der *normale* SQL Server, und nicht einmal Microsoft selbst schafft es, eine einfache Migration vom normalen SQL Server zu Synapse zu ermöglichen. Da wäre es vermessen, so etwas von Fremdprodukten wie dem AC zu verlangen.

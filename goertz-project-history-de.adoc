@@ -24,8 +24,8 @@ Prozess- und Zeitanalysen in Krankenhäusern (beispielsweise OP Zeiten, OP Wechs
 http://www.visality.de/healthcarecontrolcenter.html?&L=0%22Dirk
 
 * smarte Stromzähler, Zeitanalysen von Stromverbräuchen
- ** IoT
- ** SQL Server, Python
+** IoT
+** SQL Server, Python
 
 == 08/2021 - 06/2022; SYSKRON - im House of Krones
 
@@ -393,17 +393,17 @@ Projektinhalte:
 * Krankenhauscontrolling
 * Medizincontrolling
 * Konzeption und Entwicklung von Datenmodellen, Analyseverfahren und Berichtssystemen für folgende Einsatzgebiete:
- ** Markt- und Wettbewerbscontrolling der medizinischen Leistungen
- ** Leistungsstrukturvergleiche
- ** Kennzahlen-Leistungsvergleiche (Benchmark)
- ** Einweisercontrolling
- ** Controlling medizinischer Behandlungspfade / Versorgungspfade
- ** Finanzcontrolling
- ** Fallbezogene Kostenträgerrechnung mit Fallroherträgen und Deckungsbeiträgen oder als Vollkostenrechnung
- ** Wirtschaftsplanung
- ** Personaldatencontrolling
- ** Belegungscontrolling
- ** Leistungsvergleiche zwischen Abteilungen und Häusern innerhalb eines Konzerns oder Klinikverbundes
+** Markt- und Wettbewerbscontrolling der medizinischen Leistungen
+** Leistungsstrukturvergleiche
+** Kennzahlen-Leistungsvergleiche (Benchmark)
+** Einweisercontrolling
+** Controlling medizinischer Behandlungspfade / Versorgungspfade
+** Finanzcontrolling
+** Fallbezogene Kostenträgerrechnung mit Fallroherträgen und Deckungsbeiträgen oder als Vollkostenrechnung
+** Wirtschaftsplanung
+** Personaldatencontrolling
+** Belegungscontrolling
+** Leistungsvergleiche zwischen Abteilungen und Häusern innerhalb eines Konzerns oder Klinikverbundes
 
 Datenquellen:
 

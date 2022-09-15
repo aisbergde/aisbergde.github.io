@@ -1,0 +1,104 @@
+= Gleichnis vom Krankenhaus in der Stadt der Autobauer
+:page-subtitle: Gleichnis von der inklusiven und diversen Teilhabe progressiver Automechaniker an der Behandlung von Patienten durch demokratische Überwindung der konservativen Schulmedizin, verkörpert durch alte weiße Chirurgen.
+:page-last-updated: 2022-09-15
+:page-tags: ["Krankenhaus", "Automechaniker", "Teilhabe", "Technokratie", "Sieben auf einen Streich"]
+
+
+// `#pldnm - Patients' lives does not matter.` Gleichnis von der inklusiven und diversen Teilhabe progressiver Automechaniker an der Behandlung von Patienten durch demokratische Überwindung der konservativen Schulmedizin, verkörpert durch alte weiße Chirurgen.
+
+//Man könnte auch ein include verwenden?
+
+// Webserver und lokale Umgebung benötigen unterschiedliche Pfade zu Bildern
+// default für jekyll auf Server env-server: /assets/img
+// env-local: ./assets/img
+:imagesdir: /assets/img
+
+ifdef::basebackend-html[]
+ifeval::["{user-home}" == "/root"]
+//it's executed on gitlab server
+:env-server:
+:imagesdir: /assets/img
+endif::[]
+endif::basebackend-html[]
+
+ifeval::["{user-home}" != "/root"]
+//it's executed locally
+:env-local:
+:imagesdir: ./assets/img
+endif::[]
+
+ifdef::basebackend-html[]
+ifeval::["{user-home}" != "/root"]
+//it's executed locally
+:env-local-html:
+endif::[]
+endif::basebackend-html[]
+
+ifdef::basebackend-docbook[]
+ifeval::["{user-home}" != "/root"]
+//it's executed locally
+:env-local-docbook:
+endif::[]
+endif::basebackend-docbook[]
+
+
+// auf dem Server wird der :page-subtitle: unter dem Titel angezeigt
+// local nicht, also blenden wir ihn ein
+// docbook könnte mit spezieller Syntax auch einen subtitle anzeigen, das geht aber nicht mit html5
+// https://docs.asciidoctor.org/asciidoc/latest/document/subtitle/
+ifdef::env-local[]
+
+[discrete] 
+=== {page-subtitle}
+
+endif::env-local[]
+
+
+Es war einmal eine Stadt der Autobauer. Die gebauten Autos waren gut und teuer, sie wurden auf der ganzen Welt erfolgreich verkauft. Am Fließband der Motorenproduktion arbeiteten qualifizierte und motivierte Automechaniker. Jeder von ihnen kannte den Motor, und damit die Arbeit nicht langweilig wurde, arbeitete jeder Automechaniker jeden Tag an einem anderen Produktionsschritt. Es gab genaue Anleitungen für jeden Schritt. Die Motoren wurden getestet, und am Ende der Strecke gab es eine Ampel, die rot oder grün leuchtete, und das "grüne Licht" war wichtig für das Wohlbefinden der Automechaniker.
+
+Eines Tages beschloss die Stadt der Autobauer, ein Krankenhaus zu bauen. Und da man sich mit Autos auskannte, betrieb man das Krankenhaus wie die Produktion von Motoren: mit Automechanikern am Patienten-Fließband. "Sieben auf einen Streich" nannte man das Krankenhaus, denn es operierten 7 Automechaniker einen Patienten, und jeder Mechaniker war gleichzeitig an der Behandlung von 7 Patienten beteiligt.
+
+Die Behandlungen erfolgten nach "agilen Methoden", sie wurden jeweils für 2 Wochen im Voraus geplant. Die Idee der "2-Wochen-Sprints" wurde von den Kollegen der Software-Entwicklung übernommen.
+
+Die Automechaniker waren stolz auf ihre Arbeit, die sie für effizient hielten, und die Operation war nur ein kleiner Teil der Behandlung:
+
+* Vor jeder Operation wurde eine detaillierte Anleitung geschrieben, sodass auch ein Automechaniker, der zuvor noch nie operiert hatte, mitmachen konnte. Es waren "inklusive" Operationen.
+* Täglich besprach man den Fortschritt der Operationen und jeden möglichen Schnitt.
+* Man vermied komplexe Operationen, stattdessen wurden viele Patienten täglich, manche sogar mehrmals täglich, operiert.
+* Nach jeder Operation prüften 2 Automechaniker, ob die Operation korrekt durchgeführt wurde, sie öffneten dazu die Nähte und verglichen, was sie sahen, mit dem OP-Protokoll.
+* Besonders stolz waren die Automechaniker auf ihre Tests: Zu jeder Operation wurden neue Tests erstellt, was zwar aufwendiger war, als die Operation, doch wenn am Ende aller Tests die Ampeln "grün" leuchteten, dann waren die Automechaniker glücklich, denn so kannten sie es vom Motoren-Fließband.
+
+Irgendwann erfuhr das Krankenhaus, dass es Mediziner gibt, und unter diesen Chirurgen, die sich auf Operationen spezialisiert hatten. Also beschloss das Krankenhaus, einen erfahrenen Chirurgen anzuwerben. Dieser Chirurg war naiv und dachte, dass er nun (als einziger Mediziner unter Automechanikern) für die Operationen verantwortlich sein würde. Er hoffte sogar, dass er gelegentlich Operationen alleine durchführen dürfe, wie er es gelernt hatte und seit vielen Jahren erfolgreich praktizierte. Doch man erklärte ihm, dass das Krankenhaus ein werte-orientiertes demokratisches Krankenhaus sei. Teilhabe, Inklusion und Diversität: Jeder, der operieren will, dürfe das auch, unabhängig von seiner Qualifikation, und die Mehrheit würde darüber entscheiden, wie die Behandlungen durchgeführt werden. Doch gerne dürfe der Chirurg sich am täglichen Diskurs beteiligen und sein Experten-Wissen einbringen, um die Mehrheit mit Argumenten zu überzeugen, wie man behandeln und operieren sollte.
+
+Auch hätte man gehört, dass es in Krankenhäusern weniger Komplikationen gäbe, wenn ein Arzt nicht autokratisch für die Behandlung verantwortlich wäre, sondern wenn sich alle Mitarbeiter des Krankenhauses an den Entscheidungen beteiligen dürften. Denn mehr Köpfe wissen und sehen mehr, als ein Kopf. Und auch wenn es eine Schulmedizin gäbe, so könne es doch sein, dass ein Student oder Lehrling und insbesondere ein Quereinsteiger etwas besser macht, als der Meister. Insbesondere Automechaniker könnten die Medizin revolutionieren, denn sie bringen ihre innovativen Methoden der automatisierten Fließband-Produktion in die konservative Schulmedizin.
+
+"Legen wir fest, in welcher Reihenfolge und Dringlichkeit die Patienten behandelt werden?" - fragte der Chirurg. "Nein, das bestimmt die Leitung des Krankenhauses, denn die bezahlt uns." +
+Für die Automechaniker war das selbstverständlich, denn die Produktion von Autos lief nach vorgegebenen Prioritäten. Sie konnten sich nur schwer vorstellen, dass in Krankenhäusern Ärzte über die Dringlichkeit entscheiden.
+
+Der Chirurg wunderte sich auch über die ausführlichen Anleitungen, die vor jeder Operation erstellt wurden. Und er schlug vor, dass man stattdessen den Patienten eine Haupt- und ein paar Nebendiagnosen nach https://www.dimdi.de/dynamic/de/klassifikationen/icd/[ICD-Katalog] stellen sollte und sie dann gemäß https://www.bfarm.de/DE/Kodiersysteme/Klassifikationen/OPS-ICHI/OPS/_node.html[Operationen- und Prozeduren-Schlüssel (OPS)] behandelt, denn darin sind alle Operationen und Behandlungsmaßnahmen systematisch erfasst. Und man erklärte ihm, dass das diskriminierend wäre, denn der Mediziner hätte das Hoheitswissen der alten weißen Chirurgen, das den (in der Mehrheit weiblichen) Automechanikern nicht vorläge. Der Chirurg würde eine Vormacht-Stellung im OP anstreben, was dieser offen bestätigte, denn genau das war sein Ziel.
+
+Die Automechaniker hatten eine große Sorge: Was würde passieren, wenn der Arzt krank ist, Urlaub macht oder gar das Krankenhaus verlässt? Eine Abhängigkeit vom Experten-Wissen der Ärzte müsse vermieden werden. Daher sind die Anleitungen so zu erstellen, dass auch Automechaniker die Behandlungen durchführen können. Automechaniker gab es genug in der Stadt.
+
+Viele Vorschläge des Chirurgen wurde demokratisch überstimmt. Ein Sieg der Gleichbehandlung und Antidiskriminierung. Die Wertschätzung der Automechaniker war ein hohes Gut in der Stadt der Autobauer.
+
+Ebenso wunderte sich der Chirurg über die Tests, denn jeder Automechaniker erstellte seine eigenen Tests für die eigene Arbeit. "Wäre es nicht sinnvoller, Behandlung und Qualitätskontrolle zu trennen, um blinde Flecken zu vermeiden?" - fragte der Chirurg. "Hauptsache, die Ampeln sind grün" - antwortete man ihm.
+
+Der Chirurg bekam einen Schlüssel, doch dieser passte nur in den Pausenraum der Mitarbeiter, von dem aus man durch eine große Glasscheibe die Operationen verfolgen konnte. So konnte er sich auch nur in diesem öffentlichen Raum mit den Automechanikern unterhalten, während diese mit ihren Schlüsseln auch kleine Besprechungsräume nutzen konnten.
+
+Gerne hätte der Chirurg operiert, doch er bekam keinen Zutritt zum OP, denn auch dort passten nur die Schlüssel der Automechaniker. Doch immerhin durfte der Chirurg durch die große Glasscheibe zuschauen, wie die Automechaniker täglich operierten. Gelegentlich fragten die Automechaniker den Chirurgen nach Stunden harter Arbeit, warum etwas nicht so funktionierte, wie erwartet. Dann durfte der Chirurg seine Erfahrung einbringen, denn er kannte viele Probleme und wusste, wie sie zu vermeiden sind. Die Automechaniker waren begeistert, wieder etwas Neues gelernt zu haben und operierten weiter ohne den Chirurgen, dessen Schlüssel weiter nicht passte. Ein wenig war der Chirurg auch froh, dass er nicht operieren durfte, denn die Automechaniker verwendeten nicht die ihm bekannten Operations-Instrumente, sondern sehr andersartige Werkzeuge, wie sie in der Motorenproduktion üblich sind.
+
+Und so waren alle glücklich: Die Stadt der Autobauer hatte ihr eigenes Krankenhaus und ein innovatives, diverses, interdisziplinäres und inklusives Team aus Automechanikern und einem Alibi-Mediziner. Quoten wurden übererfüllt. Für diese Vorbildlichkeit gab es staatliche Förderungen und Prämien. Die Automechaniker hatten jeden Tag viel zu tun und waren stolz auf die ihrer Meinung nach effiziente Arbeit. Die Operationen wurden so lange und so oft durchgeführt, bis alle Tests "grün" anzeigten und die Patienten entlassen werden konnten. Recht viele Patienten bekamen die Entlassungsgründe `07` (Tod), `10` (Entlassung in eine Pflegeeinrichtung), `11` (Entlassung in ein Hospiz) oder `13` (externe Verlegung zur psychiatrischen Behandlung). Doch wo gehobelt wird, da fallen Späne, und jede Behandlung konnte abgerechnet werden, denn es gab Fallpauschalen.
+
+Der Chirurg schlug vor, dass man die Überlebensquote steigern könnte, wenn Notfall-Operationen mit höherer Priorität durchgeführt würden, und wenn man sich dabei primär an einer Hauptdiagnose orientiert und lebenserhaltende Eingriffe durchführt. Dieses Vorgehen war den Autobauern zu radikal. Einen Motor konnte man schließlich auch in sicheren kleinen Schritten bauen und sich dafür die nötige Zeit nehmen. https://www.careelite.de/geduld-zitate-durchhaltevermoegen-sprueche/[„Was lange währt, wird endlich gut.“ (Ovid)]
+
+Auch versuchte der Arzt es mit Vergleichen zur Automobilproduktion: Wenn man einen Lkw bauen will, verwendet man dazu nicht die Basis eines Kleinwagens. Das verstanden sie. Doch wer würde kurz vor Fertigstellung des Lkw diesen wieder demontieren? Die Autobauer würden so einen Lkw ausliefern, um den versprochenen Termin einzuhalten, und dem Käufer die vorläufig eingeschränkten Möglichkeiten der Nutzung erklären. Hauptsache, der Lkw sieht wie einer aus. Und in einem Jahr (oder so) gibt es vielleicht ein Softwareupdate. Künstliche Intelligenz und virtuelle Realität werden auf wundersame Weise die Gesetze der Physik überwinden. Wenn Windmühlen ohne Wind und Solarpanels ohne Sonne bei Nacht Strom liefern werden, wenn die Wirtschaft auch ohne russisches Gas blüht und gedeiht, dann sind Lkw oder gesunde Patienten ein Klacks dagegen. Wichtig ist, dass man den Patienten zum geplanten Termin entlassen kann, und dass dann das Licht grün leuchten wird.
+
+Der Chirurg nutzte die Zeit hinter der Glasscheibe, um sich Gedanken über den Wechsel in ein konservatives Krankenhaus zu machen, in welchem der OP-Betrieb von Ärzten und OP-Schwestern durchgeführt wird, mit einem autokratischen oder wenigstens technokratischen Chef-Chirurgen, der Operationen mit seinem Team in wenigen Stunden erfolgreich abschließt, mit dem Wissen und der Erfahrung eines Meister-Chirurgen und mit OP-Instrumenten. Und lange überlegte der Chirurg, was er von den grün leuchtenden Ampeln halten sollte, denn auch er war an Qualität interessiert. Doch er war rot-grün-farbschwach, und wenn schon Tests, dann doch bitte in rot-blau:
+
+* https://www.bissantz.de/bissantz-denkt-nach/apropos-farben-zwei-reichen-rot-und-blau/[Apropos Farben: Zwei reichen - Rot und Blau]
+* https://www.bissantz.de/bissantz-denkt-nach/rot-blau-grau/[Neutral? Egal!]
+* https://www.tableau.com/de-de/about/blog/examining-data-viz-rules-dont-use-red-green-together[5 Tipps zur Gestaltung von Visualisierungen, die auf Farbenblindheit Rücksicht nehmen]
+
+Eines Tages beschloss das Krankenhaus, keine Patienten mehr zu behandeln, sondern in die Chemieproduktion zu wechseln. Autos verbrauchten Benzin und Diesel, welche aus undemokratischem russischen Öl hergestellt wurden. Dieses galt es zu ersetzen, wie und wodurch auch immer.
+
+Und da der Arzt sein Handwerk in Russland gelernt hatte, überlegte er, ob er sich an einem russischen Krankenhaus bewerben sollte: in diesem Land gab es Gas, Diesel für seinen SUV, billigen Atomstrom, Getreide, Fleisch, Wodka, milchsaure Gurken, Pflanzenöl und sogar Toilettenpapier. Die dortigen Eingeborenen durften warm und ausgiebig duschen und im Winter ihre Wohnungen beheizen. In Krankenhäusern operierten Chirurgen: klassisch, undemokratisch und technokratisch. Alle Buchstaben aller Alphabete waren erlaubt.
