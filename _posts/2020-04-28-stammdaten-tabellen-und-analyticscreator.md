@@ -3,6 +3,7 @@ title: Stammdaten-Tabellen und AnalyticsCreator
 tags: [analyticscreator, stammdaten, masterdata, mds, sqlserver]
 ---
 
+
 In vielen meiner Projekte besteht die Notwendigkeit, Stammdaten nicht nur zu importieren, sondern auch die Eingabe und Änderung von Stammdaten zu ermöglichen. Dazu habe ich bisher verschiedene Möglichkeiten genutzt:
 
 - [Microsoft Master Data Services (MDS)](http://docs.microsoft.com/de-de/sql/master-data-services/master-data-services-overview-mds?view=sql-server-ver15)
