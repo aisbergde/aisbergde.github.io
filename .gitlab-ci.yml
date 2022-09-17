@@ -6,6 +6,7 @@ variables:
 
 before_script:
   - gem install bundler
+  - gem install asciidoctor-diagram
   - bundle install
 
 test:
