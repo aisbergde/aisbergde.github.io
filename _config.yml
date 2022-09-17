@@ -276,9 +276,24 @@ exclude:
   - docs/
 
 plugins:
+  - asciidoctor-diagram
   - jekyll-asciidoc
   - jekyll-paginate
   - jekyll-sitemap
+
+# wird insbesondere für asciidoctor-diagram benötigt:
+keep_files:
+- images
+
+asciidoctor:
+  base_dir: :docdir
+  safe: unsafe
+  attributes:
+    imagesdir: /images
+    # # folgendes ist der Standard für "normale" Inhalte,
+    # # wird auf jeder Seite definiert
+    # # und für lokale Arbeit dort auch je nach env modifiziert
+    # imagesdir: /assets/img
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189

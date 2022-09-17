@@ -162,7 +162,7 @@ http://rsmu.ru/[Российский национальный исследова
   *** Planungssystemen
   *** Berichtssystemen
 * Implementierung von Geschäftsprozessen und -logiken
-* automatisierte versionisierte Dokumentation mit https://datahandwerk.gitlab.io/[DataHandwerk DocsGenerator] (Kombination von technischer und fachlicher Dokumentation; https://docs.asciidoctor.org/asciidoc/latest/[Asciidoc], link:[https:](https://antora.org/)[Antora (Docs as Code)])
+* automatisierte versionisierte Dokumentation mit https://datahandwerk.gitlab.io/[DataHandwerk DocsGenerator] (Kombination von technischer und fachlicher Dokumentation; https://asciidoc.org/[AsciiDoc], link:[https:](https://antora.org/)[Antora (Docs as Code)])
 * technische Umsetzung regulatorischer Anforderungen (Historisierung, Versionierung, Data Lineage, DSGVO, ...)
 * Automatisierung (Import, ELT, Code-Generierung, DWH, Dokumentation)
 * unter Verwendung von https://www.microsoft.com/de-de/sql-server/sql-server-2019[*Microsoft SQL Server*], einschließlich https://docs.microsoft.com/de-de/analysis-services/analysis-services-overview?view=asallproducts-allversions[*SSAS* (SQL Server Analysis Services)], https://docs.microsoft.com/de-de/sql/integration-services/sql-server-integration-services?view=sql-server-ver15[*SSIS* (SQL Server Integration Services)], https://docs.microsoft.com/de-de/sql/reporting-services/create-deploy-and-manage-mobile-and-paginated-reports?view=sql-server-ver15[SSRS (SQL Server Reporting Services)] und verschiedener https://azure.microsoft.com/de-de/[Microsoft Azure] Technologien
@@ -170,11 +170,11 @@ http://rsmu.ru/[Российский национальный исследова
  ** https://datahandwerk.gitlab.io[*DataHandwerk-toolkit-mssql*] +
 mein open source Projekt, enthält auch einen Datenbank-Dokumentations-Generator
  ** https://azure.microsoft.com/de-de/services/devops/[Azure DevOps] +
-  Tool für DevOps, agiles Projekt-Controlling, Issue-Tracking, Code-Versionierung. Leider keine Asciidoc-Unterstützung in Wiki oder Repository-Preview
+  Tool für DevOps, agiles Projekt-Controlling, Issue-Tracking, Code-Versionierung. Leider keine AsciiDoc-Unterstützung in Wiki oder Repository-Preview
  ** https://powerbi.microsoft.com/de-de/[Microsoft Power BI] +
   Microsoft Frontend für Berichtswesen
  ** link:[https:](https://antora.org/)[Antora (Docs as Code)] +
-  open Source Dokumentations-Framework, insbesondere für technische versionisierte Dokumentation, basierend auf Asciidoc
+  open Source Dokumentations-Framework, insbesondere für technische versionisierte Dokumentation, basierend auf AsciiDoc
  ** https://www.bissantz.de/software/[Deltamaster (SSAS Frontend)]
  ** https://www.oreus.hr/products/cubeplayer[CubePlayer (SSAS Frontend)]
  ** https://www.xlcubed.com/[XLcubed] +

@@ -7,13 +7,13 @@ tags:
   - markdown
   - Antora
   - open source
-last-updated: 2022-01-08
+last-updated: 2022-09-17
 head-extra: head_extra.html
 slug: docs-code-mit-asciidoc-und-antora
 lastmod: 2021-04-20T06:16:33.421Z
 ---
 
-Mit meinem open-Source-Projekt [DataHandwerk-toolkit-mssql](https://datahandwerk.github.io) möchte ich auch Erfahrungen zur Dokumentation zukünftiger Projekte sammeln. Warum habe ich mich für die Auszeichnungssprache [AsciiDoc](https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/) statt für Markdown, und warum für das Dokumentations-Framework [Antora](https://antora.org/) entschieden? Wie wurden Diagramme in der [Architektur-Beschreibung](https://datahandwerk.github.io/dhw/0.1.0/arc/architecture.html) erstellt? Und wie erfolgt die Darstellung von Objekt- und Spalten-Referenzen?
+Mit meinem open-Source-Projekt [DataHandwerk-toolkit-mssql](https://datahandwerk.github.io) möchte ich auch Erfahrungen zur Dokumentation zukünftiger Projekte sammeln. Warum habe ich mich für die Auszeichnungssprache [AsciiDoc](https://asciidoc.org) statt für Markdown, und warum für das Dokumentations-Framework [Antora](https://antora.org/) entschieden? Wie wurden Diagramme in der [Architektur-Beschreibung](https://datahandwerk.github.io/dhw/0.1.0/arc/architecture.html) erstellt? Und wie erfolgt die Darstellung von Objekt- und Spalten-Referenzen?
 
 ### Auszeichungssprache Markdown?
 
@@ -42,8 +42,8 @@ Und ich bin begeistert von den Möglichkeiten, die AsciiDoc im Vergleich zu Mark
 
 [AsciiDoc Syntax Quick Reference](https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/)
 
-Allerdings werde ich für normale Notizen vorerst weiter Markdown verwenden müssen, wenn ich sowohl auf Android als auch am Rechner an diesen Dokumenten arbeiten will. Denn mein Android-Editor **Markor** hat leider noch keine AsciiDoc-Unterstütung implementiert: [Add format: AsciiDoc (Highlighter, TextActions)](https://github.com/gsantner/markor/issues/808)  
-Und ich habe auch noch keinen anderen Android-AscciDoc-Editor gefunden.
+Allerdings werde ich für normale Notizen vorerst weiter Markdown verwenden müssen, wenn ich sowohl auf Android als auch am Rechner an diesen Dokumenten arbeiten will. Denn mein Android-Editor **Markor** hat leider noch keine AsciiDoc-Unterstützung implementiert: [Add format: AsciiDoc (Highlighter, TextActions)](https://github.com/gsantner/markor/issues/808)  
+Und ich habe auch noch keinen anderen Android-AsciiDoc-Editor gefunden.
 
 **Update:** obwohl es immer noch keinen Android Editor mit AsciiDoc Unterstützung gibt, habe ich mein Notizen-System von Markdown auf AsciiDoc umgestellt. Die Notizen befinden sich in einem privaten Repository auf Gitlab, es gibt für Android einen Git-Client [MGit](
 https://github.com/maks/Mgit), als Editor verwende ich weiter Markor und der Preview erfolgt über einen lokalen Webserver (NiM Webserver), die Anzeige mit der AsciiDoc Preview Extension für Chrome Desktop. Da man im Chrome Android keine Erweiterungen installieren kann, verwende ich dafür den Kiwi-Browser. Auch einige andere Browser ermöglichen die Verwendung von Erweiterungen (Yandex,...). Das scheint etwas kompliziert, muss aber nur einmal eingerichtet werden. Und AsciiDoc ist auch ohne Preview gut lesbar.
@@ -124,7 +124,7 @@ Definition meiner Architektur-Diagramme in "Structurizr DSL": [dhw.dsl](https://
 
 ### Antora
 
-Nachdem ich es mit docToolchain nicht geschafft hatte, eine Website zur Projekt- und Datenbank-Dokumentation mit einem TOC zu erstellen, der meinen Vorstellungen entsprach, schaute ich mir [Antora](https://antora.org/) an, da dieses Werkzeug von den gleichen Entwicklern erstellt und gepflegt wird, die auch AsciiDoctor entwickeln. Folgende Dokumentationen werden ebenfalls mit Antora erstellt und sie bieten das, was ich mir unter einer guten Dokumentation vorstelle. Und sie basieren ausschließlich auf meinem neuen Liebling AsciiDoc
+Nachdem ich es mit docToolchain nicht geschafft hatte, eine Website zur Projekt- und Datenbank-Dokumentation mit einem TOC zu erstellen, der meinen Vorstellungen entsprach, schaute ich mir [Antora](https://antora.org/) an, da dieses Werkzeug von den gleichen Entwicklern erstellt und gepflegt wird, die auch Asciidoctor entwickeln. Folgende Dokumentationen werden ebenfalls mit Antora erstellt und sie bieten das, was ich mir unter einer guten Dokumentation vorstelle. Und sie basieren ausschließlich auf meinem neuen Liebling AsciiDoc
 
 * [Antora Documentation](https://docs.antora.org/)
 * [Asciidoctor Documentation Home](https://docs.asciidoctor.org/)
@@ -148,7 +148,7 @@ Auch das Ergebnis der DataHandwerk-Datenbank-Dokumentation kann man sich anschau
 
 ### PlantUML
 
-Die Visualisierungen erstelle ich direkt aus dem SQL Server heraus für jedes Objekt als [PlantUML](https://plantuml.com/) Diagramme. Diese Diagramme werden vom AsciiDoctor bzw. einer entsprechenden Erweiterung gerendert. Pro Datenbank-Objekt erstelle ich derzeit 5 Diagramme
+Die Visualisierungen erstelle ich direkt aus dem SQL Server heraus für jedes Objekt als [PlantUML](https://plantuml.com/) Diagramme. Diese Diagramme werden vom Asciidoctor bzw. einer entsprechenden Erweiterung gerendert. Pro Datenbank-Objekt erstelle ich derzeit 5 Diagramme
 
 - **Objekt-Referenzen** mit jeweils einem Level der Vorgänger und einem Level der Nachfolger
 - **Zeilen-Referenzen** mit jeweils einem Level der Vorgänger und einem Level der Nachfolger

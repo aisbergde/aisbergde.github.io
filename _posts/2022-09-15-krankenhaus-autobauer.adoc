@@ -9,49 +9,30 @@
 //Man könnte auch ein include verwenden?
 
 // Webserver und lokale Umgebung benötigen unterschiedliche Pfade zu Bildern
-// default für jekyll auf Server env-server: /assets/img
-// env-local: ./assets/img
+// ob wir auf dem Server sind, kann abgefragt werden über {env-site}
+// default für jekyll auf Server (env-site): /assets/img
+// local: ./assets/img
+
 :imagesdir: /assets/img
 
-ifdef::basebackend-html[]
-ifeval::["{user-home}" == "/root"]
-//it's executed on gitlab server
-:env-server:
+ifndef::env-site[]
+//it's not executed on gitlab server in jekyll
+//locally (VCS, export to docx) we need a different :imagesdir:
 :imagesdir: /assets/img
-endif::[]
-endif::basebackend-html[]
+endif::env-site[]
 
-ifeval::["{user-home}" != "/root"]
-//it's executed locally
-:env-local:
-:imagesdir: ./assets/img
-endif::[]
 
-ifdef::basebackend-html[]
-ifeval::["{user-home}" != "/root"]
-//it's executed locally
-:env-local-html:
-endif::[]
-endif::basebackend-html[]
-
-ifdef::basebackend-docbook[]
-ifeval::["{user-home}" != "/root"]
-//it's executed locally
-:env-local-docbook:
-endif::[]
-endif::basebackend-docbook[]
-
+ifndef::env-site[]
 
 // auf dem Server wird der :page-subtitle: unter dem Titel angezeigt
 // local nicht, also blenden wir ihn ein
 // docbook könnte mit spezieller Syntax auch einen subtitle anzeigen, das geht aber nicht mit html5
 // https://docs.asciidoctor.org/asciidoc/latest/document/subtitle/
-ifdef::env-local[]
 
 [discrete] 
 === {page-subtitle}
 
-endif::env-local[]
+endif::env-site[]
 
 
 Es war einmal eine Stadt der Autobauer. Die gebauten Autos waren gut und teuer, sie wurden auf der ganzen Welt erfolgreich verkauft. Am Fließband der Motorenproduktion arbeiteten qualifizierte und motivierte Automechaniker. Jeder von ihnen kannte den Motor, und damit die Arbeit nicht langweilig wurde, arbeitete jeder Automechaniker jeden Tag an einem anderen Produktionsschritt. Es gab genaue Anleitungen für jeden Schritt. Die Motoren wurden getestet, und am Ende der Strecke gab es eine Ampel, die rot oder grün leuchtete, und das "grüne Licht" war wichtig für das Wohlbefinden der Automechaniker.

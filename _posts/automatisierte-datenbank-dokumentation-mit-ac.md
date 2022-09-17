@@ -4,19 +4,19 @@ subtitle: Markdown Kommentare in Datenbank-Dokumentationen
 tags: [analyticscreator, schemaspy, markdown, dokumentation]
 ---
 
-- [Ziel: vollständige, verständliche und mit geringem Aufwand aktualisierbare Datenbankdokumentation mit MarkDown-Beschreibungen](#ziel-vollständige-verständliche-und-mit-geringem-aufwand-aktualisierbare-datenbankdokumentation-mit-markdown-beschreibungen)
-  - [Programme zur Erstellung der Dokumentation per Knopfdruck](#programme-zur-erstellung-der-dokumentation-per-knopfdruck)
-    - [SqlSpec von Elsasoft](#sqlspec-von-elsasoft)
-    - [SchemaSpy](#schemaspy)
-      - [SchemaMeta, der Link zu AnalyticsCreator Repository](#schemameta-der-link-zu-analyticscreator-repository)
-- [Wie vereinfacht der AnalyticsCreator die in-code-Dokumentation von DWH?](#wie-vereinfacht-der-analyticscreator-die-in-code-dokumentation-von-dwh)
-  - [AC-Parameter für die Vererbung und automatische Erstellung von Beschreibungen](#ac-parameter-für-die-vererbung-und-automatische-erstellung-von-beschreibungen)
-  - [individuelle Überschreibung der Vererbung der Beschreibung pro Transformation / Tabelle](#individuelle-überschreibung-der-vererbung-der-beschreibung-pro-transformation--tabelle)
-  - [Vererbung pro Spalte, individuelle Überschreibung](#vererbung-pro-spalte-individuelle-überschreibung)
-- [Erstellung einer Datenbank-Dokumentation](#erstellung-einer-datenbank-dokumentation)
-  - [Datenbank-Dokumentation mit dem AC](#datenbank-dokumentation-mit-dem-ac)
-  - [Datenbank-Dokumentation mit SchemaSpy](#datenbank-dokumentation-mit-schemaspy)
-    - [Erstellung der benötigten XML-Dateien mit dem RepoManipulator](#erstellung-der-benötigten-xml-dateien-mit-dem-repomanipulator)
+* [Ziel: vollständige, verständliche und mit geringem Aufwand aktualisierbare Datenbankdokumentation mit MarkDown-Beschreibungen](#ziel-vollständige-verständliche-und-mit-geringem-aufwand-aktualisierbare-datenbankdokumentation-mit-markdown-beschreibungen)
+  * [Programme zur Erstellung der Dokumentation per Knopfdruck](#programme-zur-erstellung-der-dokumentation-per-knopfdruck)
+    * [SqlSpec von Elsasoft](#sqlspec-von-elsasoft)
+    * [SchemaSpy](#schemaspy)
+      * [SchemaMeta, der Link zu AnalyticsCreator Repository](#schemameta-der-link-zu-analyticscreator-repository)
+* [Wie vereinfacht der AnalyticsCreator die in-code-Dokumentation von DWH?](#wie-vereinfacht-der-analyticscreator-die-in-code-dokumentation-von-dwh)
+  * [AC-Parameter für die Vererbung und automatische Erstellung von Beschreibungen](#ac-parameter-für-die-vererbung-und-automatische-erstellung-von-beschreibungen)
+  * [individuelle Überschreibung der Vererbung der Beschreibung pro Transformation / Tabelle](#individuelle-überschreibung-der-vererbung-der-beschreibung-pro-transformation--tabelle)
+  * [Vererbung pro Spalte, individuelle Überschreibung](#vererbung-pro-spalte-individuelle-überschreibung)
+* [Erstellung einer Datenbank-Dokumentation](#erstellung-einer-datenbank-dokumentation)
+  * [Datenbank-Dokumentation mit dem AC](#datenbank-dokumentation-mit-dem-ac)
+  * [Datenbank-Dokumentation mit SchemaSpy](#datenbank-dokumentation-mit-schemaspy)
+    * [Erstellung der benötigten XML-Dateien mit dem RepoManipulator](#erstellung-der-benötigten-xml-dateien-mit-dem-repomanipulator)
 
 ## Ziel: vollständige, verständliche und mit geringem Aufwand aktualisierbare Datenbankdokumentation mit MarkDown-Beschreibungen
 
@@ -35,7 +35,7 @@ Ein vollständiges DWH würde ich nicht manuell dokumentieren, da sich früher o
     * Möglichst viele Informationen und Metadaten sollen **direkt in der Datenbank** enthalten sein
 * Jede für das Verständnis wichtige Tabelle und Spalte soll eine sinnvolle **Beschreibung** erhalten
     * **Zeilenumbrüche** in Beschreibungen müssen möglich sein und angezeigt werden
-    * die optionale Verwendung von **Auszeichnungssprachen** (Markdown, Asciidoc) in Beschreibungen wäre gut:  
+    * die optionale Verwendung von **Auszeichnungssprachen** (Markdown, AsciiDoc) in Beschreibungen wäre gut:  
     Diese Sprachen lassen sich auch dann noch gut lesen, wenn sie nicht für die Darstellung gerendert werden
     * Beschreibungen sollen erstellt werden, **während ich die Datenbank entwickle**
 * **Beziehungen** zwischen Objekten sollen dokumentiert werden

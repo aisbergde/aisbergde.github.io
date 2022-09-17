@@ -15,18 +15,141 @@ Germo Görtz
 // :page-layout: info
 :page-layout: post
 
+// Webserver und lokale Umgebung benötigen unterschiedliche Pfade zu Bildern
+// ob wir auf dem Server sind, kann abgefragt werden über {env-site}
+// default für jekyll auf Server (env-site): /assets/img
+// local: ./assets/img
+
+:imagesdir: /assets/img
+
+ifndef::env-site[]
+//it's not executed on gitlab server in jekyll
+//locally (VCS, export to docx) we need a different :imagesdir:
+:imagesdir: /assets/img
+endif::env-site[]
+
+
+ifndef::env-site[]
+
+// auf dem Server wird der :page-subtitle: unter dem Titel angezeigt
+// local nicht, also blenden wir ihn ein
+// docbook könnte mit spezieller Syntax auch einen subtitle anzeigen, das geht aber nicht mit html5
+// https://docs.asciidoctor.org/asciidoc/latest/document/subtitle/
+
+[discrete] 
+=== {page-subtitle}
+
+endif::env-site[]
 
 Wenn ein title definiert wurde, dann wird der statt des Header 1 angezeigt. Wenn kein title definiert wurde, wird der Header 1 verwendet.
 
+[frame=none,grid=none]
+[cols="1a,1a"]
+|===
+|
+image::Germo_Goertz_345x460.jpg[]
 
-env-site: 
-{env-site}
+14089 Berlin
+
+|
+[discrete] 
+== Abschluss
+
+* in English:
+** Diplom-Mediziner, Biophysiker, http://pirogov-university.com/academics/programs-and-degrees/undergraduate/medical-cybernetics/[Arzt-Kybernetiker (medical cybernetics)] +
+http://pirogov-university.com/[Pirogov Russian National Research Medical University]
+* на русском:
+** https://rsmu.ru/academics/undergraduate/medical-cybernetics/[Программа специалитета «Медицинская кибернетика»] +
+http://rsmu.ru/[Российский национальный исследовательский медицинский университет имени Н.И. Пирогова]
+
+
+// |Cell in column 1, row 2
+// |Cell in column 2, row 2
+
+// |Cell in column 1, row 3
+// |Cell in column 2, row 3
+
+|===
+
+
+== test einiger Attribute
+
+backend:
+{backend}
+
+basebackend:
+{basebackend}
+
+basebackend-html:
+{basebackend-html}
+
+basebackend-docbook:
+{basebackend-docbook}
+
+safe-mode-name:
+{safe-mode-name}
 
 env: 
 {env}
 
-site-gen:
-{site-gen} 
+env-vscode:
+{env-vscode}
+
+{env-server}
+
+kommen über jekyll asciidoc
+
+* env-site: 
+{env-site}
+* site-gen:
+{site-gen}
+* user-home:
+{user-home}
+
+die folgen gibt es eigentlich nicht, war mal ein test von mir
+
+env-local:
+{env-local}
+
+env-local-html:
+{env-local-html}
+
+env-local-docbook:
+{env-local-docbook}
+
+// ifdef::basebackend-html[]
+// ifeval::["{user-home}" == "/root"]
+// //it's executed on gitlab server
+// :env-server:
+// :imagesdir: /assets/img
+// endif::[]
+// endif::basebackend-html[]
+
+// ifeval::["{user-home}" != "/root"]
+// //it's executed locally
+// :env-local:
+// :imagesdir: ./assets/img
+// endif::[]
+
+// ifdef::basebackend-html[]
+// ifeval::["{user-home}" != "/root"]
+// //it's executed locally
+// :env-local-html:
+// endif::[]
+// endif::basebackend-html[]
+
+// ifdef::basebackend-docbook[]
+// ifeval::["{user-home}" != "/root"]
+// //it's executed locally
+// :env-local-docbook:
+// endif::[]
+// endif::basebackend-docbook[]
+
+
+
+
+`image::Germo_Goertz_345x460.jpg[]`
+
 
 subtitle erscheint auch im jekyll. Man muss die richtigen Attribute korrekt definieren. Insbesondere mit prefix "page-"
 
@@ -43,27 +166,57 @@ Asciidoctor
 
 In addition to the built-in attributes in AsciiDoc, the following additional AsciiDoc attributes are automatically defined by this plugin and available to all AsciiDoc-based pages:
 
-----
-site-root=(absolute path of root directory)
-site-source=(absolute path of source directory)
-site-destination=(absolute path of output directory)
-site-baseurl=(value of the baseurl config option)
-site-url=(value of the url config option)
-env=site
-env-site
-site-gen=jekyll
-site-gen-jekyll
-builder=jekyll
-builder-jekyll
-jekyll-version=(value of the Jekyll::VERSION constant)
-idprefix
-idseparator=-
-linkattrs=@
-----
+site-root=(absolute path of root directory) +
+{site-root}
+
+site-source=(absolute path of source directory) +
+{site-source}
+
+site-destination=(absolute path of output directory) +
+{site-destination}
+
+site-baseurl=(value of the baseurl config option) +
+{site-baseurl}
+
+site-url=(value of the url config option) +
+{site-url}
+
+env=site +
+{env}
+
+env-site +
+{env-site}
+
+site-gen=jekyll +
+{site-gen}
+site-gen-jekyll +
+{site-gen-jekyll}
+
+builder=jekyll +
+{builder}
+
+builder-jekyll +
+{builder-jekyll}
+
+jekyll-version=(value of the Jekyll::VERSION constant) +
+{jekyll-version}
+
+idprefix +
+{idprefix}
+
+idseparator=- +
+{idseparator}
+
+linkattrs=@ +
+{linkattrs}
+
 
 The following additional attributes are defined per page:
 
-  outpath=(path of page relative to baseurl
+outpath=(path of page relative to baseurl +
+{outpath}
+
+
 
 
 You can pass custom attributes to AsciiDoc, or override default attributes provided by the plugin, using the attributes option of the asciidoctor block in your _config.yml. The value of this option can either be an Array containing key-value pairs:
@@ -72,7 +225,17 @@ You can pass custom attributes to AsciiDoc, or override default attributes provi
 
 Asciidoctor Diagram is a set of extensions for Asciidoctor that allow you to embed diagrams generated by PlantUML, Graphviz, ditaa, Shaape, and other plain-text diagram tools inside your AsciiDoc documents. In order to use Asciidoctor Diagram in a Jekyll project successfully, you must use a version of this plugin >= 2.0.0. Other combinations are known to have issues.
 
+== Diagram Sample
 
+[graphviz,dot-example,svg]
+....
+digraph g {
+    a -> b
+    b -> c
+    c -> d
+    d -> a
+}
+....
 
 === Header 3
 

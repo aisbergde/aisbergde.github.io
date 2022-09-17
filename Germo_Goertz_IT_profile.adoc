@@ -10,74 +10,31 @@
 :toclevels: 1
 
 // Webserver und lokale Umgebung benötigen unterschiedliche Pfade zu Bildern
-// default für jekyll auf Server env-server: /assets/img
-// env-local: ./assets/img
+// ob wir auf dem Server sind, kann abgefragt werden über {env-site}
+// default für jekyll auf Server (env-site): /assets/img
+// local: ./assets/img
+
 :imagesdir: /assets/img
 
-ifdef::basebackend-html[]
-ifeval::["{user-home}" == "/root"]
-//it's executed on gitlab server
-:env-server:
+ifndef::env-site[]
+//it's not executed on gitlab server in jekyll
+//locally (VCS, export to docx) we need a different :imagesdir:
 :imagesdir: /assets/img
-endif::[]
-endif::basebackend-html[]
+endif::env-site[]
 
-ifeval::["{user-home}" != "/root"]
-//it's executed locally
-:env-local:
-:imagesdir: ./assets/img
-endif::[]
 
-ifdef::basebackend-html[]
-ifeval::["{user-home}" != "/root"]
-//it's executed locally
-:env-local-html:
-endif::[]
-endif::basebackend-html[]
-
-ifdef::basebackend-docbook[]
-ifeval::["{user-home}" != "/root"]
-//it's executed locally
-:env-local-docbook:
-endif::[]
-endif::basebackend-docbook[]
-
+ifndef::env-site[]
 
 // auf dem Server wird der :page-subtitle: unter dem Titel angezeigt
 // local nicht, also blenden wir ihn ein
 // docbook könnte mit spezieller Syntax auch einen subtitle anzeigen, das geht aber nicht mit html5
 // https://docs.asciidoctor.org/asciidoc/latest/document/subtitle/
-ifdef::env-local[]
 
 [discrete] 
 === {page-subtitle}
 
-endif::env-local[]
+endif::env-site[]
 
-
-// {user-home}
-
-// {backend}
-
-// {basebackend}
-
-// {basebackend-html}
-
-// {basebackend-docbook}
-
-// {safe-mode-name}
-
-// {env-vscode}
-
-// {env-server}
-
-// {env-local}
-
-// {env-local-html}
-
-// {env-local-docbook}
-
-// `image::Germo_Goertz_345x460.jpg[]`
 
 [frame=none,grid=none]
 [cols="1a,1a"]
@@ -136,7 +93,7 @@ https://datahandwerk.aisberg.de/Germo_Goertz_IT_profile.docx[Germo_Goertz_IT_pro
 *** Planungssystemen
 *** Berichtssystemen
 * Implementierung von Geschäftsprozessen und -logiken
-* automatisierte versionisierte Dokumentation mit https://datahandwerk.gitlab.io/dhw/user-guide/documentation-generator.html/[DataHandwerk DocsGenerator]{fn-blog-docs} (Kombination von technischer und fachlicher Dokumentation; https://docs.asciidoctor.org/asciidoc/latest/[Asciidoc], https://antora.org/[*Antora* (Docs as Code)])
+* automatisierte versionisierte Dokumentation mit https://datahandwerk.gitlab.io/dhw/user-guide/documentation-generator.html/[DataHandwerk DocsGenerator]{fn-blog-docs} (Kombination von technischer und fachlicher Dokumentation; https://asciidoc.org/[AsciiDoc], https://antora.org/[*Antora* (Docs as Code)])
 * technische Umsetzung regulatorischer Anforderungen (Historisierung, Versionierung, Data Lineage, DSGVO, ...)
 * Automatisierung (Import, ELT, Code-Generierung, DWH, Dokumentation)
 * unter Verwendung von https://www.microsoft.com/de-de/sql-server/sql-server-2019[*Microsoft SQL Server*], einschließlich https://docs.microsoft.com/de-de/analysis-services/analysis-services-overview?view=asallproducts-allversions[*SSAS* (SQL Server Analysis Services)], https://docs.microsoft.com/de-de/sql/integration-services/sql-server-integration-services?view=sql-server-ver15[*SSIS* (SQL Server Integration Services)], https://docs.microsoft.com/de-de/sql/reporting-services/create-deploy-and-manage-mobile-and-paginated-reports?view=sql-server-ver15[SSRS (SQL Server Reporting Services)] und verschiedener https://azure.microsoft.com/de-de/[Microsoft Azure] Technologien
@@ -144,11 +101,11 @@ https://datahandwerk.aisberg.de/Germo_Goertz_IT_profile.docx[Germo_Goertz_IT_pro
 ** https://datahandwerk.gitlab.io[*DataHandwerk-toolkit-mssql*] +
 mein open source Projekt{fn-blog-dhw}, enthält auch einen Datenbank-Dokumentations-Generator
 ** https://azure.microsoft.com/de-de/services/devops/[Azure DevOps] +
-Tool für DevOps, agiles Projekt-Controlling, Issue-Tracking, Code-Versionierung. Leider keine Asciidoc-Unterstützung in Wiki oder Repository-Preview
+Tool für DevOps, agiles Projekt-Controlling, Issue-Tracking, Code-Versionierung. Leider keine AsciiDoc-Unterstützung in Wiki oder Repository-Preview
 ** https://powerbi.microsoft.com/de-de/[Microsoft Power BI] +
 Microsoft Frontend für Berichtswesen
 ** https://antora.org/[Antora (Docs as Code)] +
-open Source Dokumentations-Framework, insbesondere für technische versionisierte Dokumentation, basierend auf Asciidoc
+open Source Dokumentations-Framework, insbesondere für technische versionisierte Dokumentation, basierend auf AsciiDoc
 ** https://www.bissantz.de/software/[Deltamaster (SSAS Frontend)]
 ** https://www.oreus.hr/products/cubeplayer[CubePlayer (SSAS Frontend)]
 ** https://www.xlcubed.com/[XLcubed] +
