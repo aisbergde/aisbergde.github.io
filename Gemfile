@@ -6,5 +6,6 @@ gemspec
 gem "jekyll"
 
 group :jekyll_plugins do
-  # gem 'jekyll-asciidoc'
+  gem 'asciidoctor-diagram'
+  gem 'jekyll-asciidoc'
 end
