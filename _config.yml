@@ -91,7 +91,7 @@ social-network-links:
 # If you don't want to show an RSS link, remove the following line.
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: Aisberg über AnalyticsCreator
+rss-description: Aisberg über DataHandwerk
 
 # --- General options --- #
 
@@ -190,11 +190,12 @@ google_analytics: "UA-169285367-1"
 # "repository" (make sure the repository is public), (2) Enable Issues in your repository,
 # (3) Install the Utterances app in your repository https://github.com/apps/utterances
 # See more details about the parameters below at https://utteranc.es/
-utterances:
-  repository: aisbergde/aisbergde.github.io # GitHub username/repository eg. "daattali/beautiful-jekyll"
-  issue-term: title   # Mapping between blog posts and GitHub issues
-  theme: github-light # Utterances theme
-  label: blog-comments # Label that will be assigned to GitHub Issues created by Utterances
+
+# utterances:
+#   repository: aisbergde/aisbergde.github.io # GitHub username/repository eg. "daattali/beautiful-jekyll"
+#   issue-term: title   # Mapping between blog posts and GitHub issues
+#   theme: github-light # Utterances theme
+#   label: blog-comments # Label that will be assigned to GitHub Issues created by Utterances
 
 # To use Staticman comments, uncomment the following section. You may leave the reCaptcha
 # section commented if you aren't using reCaptcha for spam protection. 
@@ -215,16 +216,35 @@ utterances:
 # (2) Install the giscus app in your repository (details at https://giscus.app),
 # (3) Fill in *all* the parameters below 
 # See more details about giscus and each of the following parameters at https://giscus.app
+
+# <script src="https://giscus.app/client.js"
+#         data-repo="aisbergde/aisbergde.github.io"
+#         data-repo-id="MDEwOlJlcG9zaXRvcnkyNzE2MzU3NzY="
+#         data-category="General"
+#         data-category-id="DIC_kwDOEDDVQM4B_lar"
+#         data-mapping="pathname"
+#         data-strict="0"
+#         data-reactions-enabled="1"
+#         data-emit-metadata="0"
+#         data-input-position="bottom"
+#         data-theme="light"
+#         data-lang="de"
+#         crossorigin="anonymous"
+#         async>
+# </script>
+
+
 giscus:
  hostname: giscus.app # Replace with your giscus instance's hostname if self-hosting
  repository: "aisbergde/aisbergde.github.io" # GitHub username/repository eg. "daattali/beautiful-jekyll"
- repository-id: # ID of your repository, retrieve this info from https://giscus.app
- category: Announcements # Category name of your GitHub Discussion posts
- category-id: # ID of your category, retrieve this info from https://giscus.app
- mapping: pathname
+ repository-id: "MDEwOlJlcG9zaXRvcnkyNzE2MzU3NzY=" # ID of your repository, retrieve this info from https://giscus.app
+ category: "General" # Category name of your GitHub Discussion posts
+ category-id: "DIC_kwDOEDDVQM4B_lar" # ID of your category, retrieve this info from https://giscus.app
+ mapping: "pathname"
  reactions-enabled: 1
  emit-metadata: 0
- theme: light
+ theme: "light"
+ lang: "de"
 
 # --- Misc --- #
 

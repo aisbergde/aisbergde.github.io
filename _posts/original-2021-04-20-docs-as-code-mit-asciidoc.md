@@ -36,7 +36,7 @@ Doch Markdown hat auch entscheidende Schwächen:
 
 ### Auszeichnungssprache AsciiDoc!
 
-Die GitHub Wiki hat Markdown Support, will oder kann aber nicht einen automatischen TOC erstellen. Doch GitHub Wiki und readme Dateien unterstützen nicht nur Markdown, sondern auch AsciiDoc. Und AsciiDoc kann den TOC "out of the box" erstellen. So fand ich zu AsciiDoc.
+Die GitHub Wiki hat Markdown Support, will oder kann aber nicht einen automatischen TOC erstellen. Doch GitHub Wiki und readme Dateien unterstützen nicht nur Markdown, sondern auch [AsciiDoc](https://asciidoc.org). Und AsciiDoc kann den TOC "out of the box" erstellen. So fand ich zu AsciiDoc.
 
 Und ich bin begeistert von den Möglichkeiten, die AsciiDoc im Vergleich zu Markdown bietet, wenn es darum geht, eine gut formatierte Dokumentation zu erstellen. Besonders wertvoll ist die Möglichkeit, auch Inhalte aus anderen Dokumenten als "**includes**" einzubinden. **Variablen** können verwendet werden. Es gibt **_eine_** Syntax, und nicht dutzende Dialekte. Dabei ist die Syntax ähnlich einfach, wie die von Markdown:
 

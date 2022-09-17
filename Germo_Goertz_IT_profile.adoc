@@ -1,7 +1,7 @@
 = IT Profil Germo Görtz (de)
 :page-subtitle: Microsoft BI Architekt + Entwickler. MS SQL Server, SSAS, DWH, ELT statt ETL, automatisierte Dokumentation
 :page-last-updated: 2022-09-15
-:slug: profil-germo-gortz-de-
+:page-slug: profil-germo-gortz-de-
 :page-tags: ["MS SQL Server", "DWH", "SSAS", "Antora"]
 //für kompatibilität mit beworbenen Links:
 :page-permalink: /goertz_profile_de/
@@ -118,7 +118,7 @@ alle meine Projekte werden grundsätzlich versionisiert
 
 Erfolgsfaktoren meiner Tätigkeit als BI-Architekt und -Entwickler:
 
-:fn-blog-kh-autobauer: footnote:kh-autobauer[Hintergründe zu "Technokratie statt Demokratie" im "Gleichnis vom Krankenhaus" https://datahandwerk.aisberg.de/2022-09-15-krankenhaus-autobauer/[]]
+:fn-blog-kh-autobauer: footnote:kh-autobauer[Hintergründe zu "Technokratie statt Demokratie" im "Gleichnis vom Krankenhaus der Autobauer" https://datahandwerk.aisberg.de/2022-09-15-krankenhaus-autobauer/[]]
 
 * Exzellenz durch Kompetenz
 * Handwerk statt Fließband
