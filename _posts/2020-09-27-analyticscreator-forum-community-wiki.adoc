@@ -1,0 +1,39 @@
+= AnalyticsCreator Forum, Community und WIKI
+:page-subtitle: Upddate: Ich habe es mit Herzblut aufgebaut, aber letztendlich wird es kaum genutzt.
+:page-last-updated: 2020-09-30
+:page-tags: ["analyticscreator", "forum", "community", "wiki"]
+:toc: auto
+:toclevels: 2
+
+:imagesdir: ../assets/img/blog
+
+ifndef::env-site[]
+
+// auf dem Server wird der :page-subtitle: unter dem Titel angezeigt
+// local nicht, also blenden wir ihn ein
+// docbook könnte mit spezieller Syntax auch einen subtitle anzeigen, das geht aber nicht mit html5
+// https://docs.asciidoctor.org/asciidoc/latest/document/subtitle/
+
+[discrete] 
+=== {page-subtitle}
+
+endif::env-site[]
+
+Es ist mir wichtig, eine AnalyticsCreator Community aufzubauen. Je mehr Entwickler den AC verwenden, desto mehr AC-Projekte wird es geben, das sollte zu mehr Verkäufen führen und dann können mehr Ressourcen für die Entwicklung bereitgestellt werden. Und so ergibt sich ein Kreislauf, eine größere Wahrscheinlichkeit, dass ich den AC in Projekten einsetzen kann.
+
+Um dieses Ziel zu erreichen, gibt es nun:
+
+* ein https://forum.analyticscreator.com/[AnylyticsCreator Forum]
+* die https://dev.azure.com/AnalyticsCreator/AnalyticsCreator/_wiki/wikis/AnalyticsCreator.wiki[AnalyticsCreator Wiki]
+* als Teil des https://dev.azure.com/AnalyticsCreator/AnalyticsCreator[AnalyticsCreator Community Project] +
+einige meiner Pläne sind dort als Features im Bord beschrieben
+ ** Mit dem https://dev.azure.com/AnalyticsCreator/AnalyticsCreator/_workitems/edit/5/[AC SchemaCompare into AC] wird es möglich sein, bestehende Datenbanken in den AnalyticsCreator zu importieren (in ein AC-Repository)
+ ** [Repo branches (sync, merge)]{https://dev.azure.com/AnalyticsCreator/AnalyticsCreator/_workitems/edit/16/} hat das Ziel, dass man mit AR Repos ähnlixh wie in Software-Projekten arbeiten kann, also in Branchen, die dann wieder zusammengafügt werden können
+* den offiziellen https://www.youtube.com/channel/UC95xNZUE2e7Wr8n3IluXgrQ[YouTube Kanal AnalyticsCreator] gibt es schon länger +
+in diesem  Kanal werde ich den AnalyticsCreator auch mit meinen Videos unterstützen. Weiter unten der Link zu meinem ersten Video.
+
+Die Wiki wird hoffentlich sowohl von der Community als auch vom Hersteller mit Inhalt befüllt. Aktuell ist die Wiki noch recht leer und enthält nur einige Einträge von mir.
+
+Unter anderen habe ich bereits die https://dev.azure.com/AnalyticsCreator/AnalyticsCreator/_wiki/wikis/AnalyticsCreator.wiki/73/repository-extension[Repository Extension] entwickelt, bereitgestellt und dokumentiert.
+
+https://dev.azure.com/AnalyticsCreator/AnalyticsCreator/_wiki/wikis/AnalyticsCreator.wiki/75/repository-templates[Repository Templates] erleichtern den Start neuer Projekte und die Übernahme von Entwicklungen aus einem Projekt in ein anderes. Dazu habe ich auch ein Vidoe erstellt: https://youtu.be/-cwCsKq-488[AnalyticsCreator Projekt aus Template - Repository Daten Synchronisation].

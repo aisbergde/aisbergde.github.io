@@ -6,18 +6,9 @@
 :toc: auto
 :toclevels: 2
 
-// Webserver und lokale Umgebung benötigen unterschiedliche Pfade zu Bildern
-// ob wir auf dem Server sind, kann abgefragt werden über {env-site}
-// default für jekyll auf Server (env-site): /assets/img
-// local: ./assets/img
-
 :imagesdir: ../assets/img/blog
 
 ifndef::env-site[]
-
-//it's not executed on gitlab server in jekyll
-//locally (VCS, export to docx) we need a different :imagesdir:
-:imagesdir: ../assets/img/blog
 
 // auf dem Server wird der :page-subtitle: unter dem Titel angezeigt
 // local nicht, also blenden wir ihn ein
@@ -29,11 +20,11 @@ ifndef::env-site[]
 
 endif::env-site[]
 
-test images
+// test images
 
-image::../Germo_Goertz_345x460.jpg[]
+// image::../Germo_Goertz_345x460.jpg[]
 
-image::diag-0bf5f1995c8ae8616bc1d60bab130dc49bf24c43.svg[Column Reference Diagram]
+// image::diag-0bf5f1995c8ae8616bc1d60bab130dc49bf24c43.svg[Column Reference Diagram]
 
 
 Mit meinem open-Source-Projekt https://datahandwerk.github.io[DataHandwerk-toolkit-mssql] möchte ich auch Erfahrungen zur Dokumentation zukünftiger Projekte sammeln. Warum habe ich mich für die Auszeichnungssprache https://asciidoc.org[AsciiDoc] statt für Markdown, und warum für das Dokumentations-Framework https://antora.org/[Antora] entschieden? Wie wurden Diagramme in der https://datahandwerk.github.io/dhw/0.1.0/arc/architecture.html[Architektur-Beschreibung] erstellt? Und wie erfolgt die Darstellung von Objekt- und Spalten-Referenzen?

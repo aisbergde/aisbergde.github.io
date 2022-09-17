@@ -1,0 +1,97 @@
+= Stammdaten-Tabellen und AnalyticsCreator
+:page-subtitle: ein (etwas umständlicher) Versuch, Tabellen zur Wartung von Stammdaten mit dem AnalyticsCreator zu realisieren
+:page-tags: ["analyticscreator", "stammdaten", "masterdata", "mds", "sqlserver"]
+// :toc: auto
+// :toclevels: 2
+
+:imagesdir: ../assets/img/blog
+
+ifndef::env-site[]
+
+// auf dem Server wird der :page-subtitle: unter dem Titel angezeigt
+// local nicht, also blenden wir ihn ein
+// docbook könnte mit spezieller Syntax auch einen subtitle anzeigen, das geht aber nicht mit html5
+// https://docs.asciidoctor.org/asciidoc/latest/document/subtitle/
+
+[discrete] 
+=== {page-subtitle}
+
+endif::env-site[]
+
+In vielen meiner Projekte besteht die Notwendigkeit, Stammdaten nicht nur zu importieren, sondern auch die Eingabe und Änderung von Stammdaten zu ermöglichen. Dazu habe ich bisher verschiedene Möglichkeiten genutzt:
+
+* http://docs.microsoft.com/de-de/sql/master-data-services/master-data-services-overview-mds?view=sql-server-ver15[Microsoft Master Data Services (MDS)]
+* Sharepoint-Listen und deren Import
+* Stammdaten-Tabellen im SQL-Server und Zugriff auf diese Tabellen über SSMS, über Microsoft Access und ODBC, über Web-Anwendungen, über speziell programmierte Frontends zur Eingabe der Daten
+
+In diesem Beitrag möchte ich die Verwendung separater Stammdaten-Tabellen näher beschreiben.
+
+Sehr einfach ist es, eine separate Datenbank nur für die Stammdaten zu erstellen. Die Tabellen können untereinander mit Fremdschlüsseln verknüpft werden, die Fremdschlüssel sorgen für konsistente Daten, Delete Rules und Update Rules können verwendet werden. Seit SQL Server 2016 bietet die Verwendung http://docs.microsoft.com/de-de/sql/relational-databases/tables/temporal-tables?view=sqlallproducts-allversions[temporaler Tabellen] auch eine eingebaute Historisierung der Daten. Diese Tabellen lassen sich inklusive benötigter Fremdschlüssel sehr einfach ohne den AnalyticsCreator erstellen.
+
+Der AnalyticsCreator kann dann diese Datenbank als Connector verwenden: entweder als SQL Server Connector, wobei die Daten in das Haupt-DWH importiert werden (dann kann sich die Datenbank auch auf einer anderen Instanz befinden) oder als "Direct Connector", bei dem sich die zu verbindende Datenbank auf der gleichen Instanz, wie die Hauptdatenbank befindet. Die Verbindung erfolgt dabei über Sichten, so dass keine separaten Import-Prozesse und Import-Tabellen nötig sind.
+
+*Doch was mache ich, wenn ich die Stammdaten nicht in einer separaten Datenbank pflegen will, sondern im Haupt-DWH?*
+
+Mögliche Gründe dafür gibt es mehrere:
+
+* man möchte nur eine Datenbank
+* die Fremdschlüssel beziehen sich auf andere Stammdaten, die in das Haupt-DWH aus anderen Quellen importiert werden.
+* ...
+
+Wie erstellt man mit dem AnalyticsCreator echte Fremdschlüssel? Ein Feature-Request dazu habe ich bereits angelegt:
+
+http://www.analyticscreator.com/mantisbt/view.php?id=490[0000490: Erstellung echter physischer Fremdschlüssel im Ziel-DWH]
+
+Ein Vorschlag vom AC-Chef-Entwickler:
+
+____
+Das einfachste ist -- erstelle ein Post-Deployment Script mit ALTER TABLE ADD CONSTRAINT +
+Die ALTER TABLE Kommandos kannst du entweder manuell oder aus dem Repository mit einem SQL Script erstellen.
+____
+
+Das ist eine pragmatische Lösung und zeigt wieder einmal, dass man mit dem AnalyticsCreator auch Dinge umsetzen kann, die noch nicht implementiert wurden.
+
+== Meine Lösung:
+
+* ich verwende "Add externally filled table", um eine neue Tabelle hinzuzufügen
+* auf physische Fremdschlüssel werde ich wahrscheinlich verzichten, stattdessen verwende ich im AnalyticsCreator zumindest logische Referenzen, weil ich diese immer und überall verwende
+* Allerdings soll beim Verzicht auf physische Fremdschlüssel das Frontend Nachschlage-Listen für die möglichen Einträge anbieten, um dem Anwender die Eingabe konsistenter Daten zu vereinfachen. +
+Microsoft Access mit ODBC-Verbindungen zu den Tabellen bietet sich dafür an.
+* auf die Tabelle folgt eine Transformation, welche prüft, ob die eingetragenen Inhalte zu den anderen Stammdaten passen
+* _nur konsistente Einträge werden historisiert_
+* für nicht konsistente Einträge gibt es eine optionale Sicht, die dem Anwender, der die Tabelle befüllt, nicht-konsistente Einträge anzeigen kann
+
+Auf dem folgenden Bild sieht man in der untersten Zeile von Links nach rechts:
+
+* die Tabelle für die Eingabe der Daten
+* eine Transformation, die mit allen Nachschlage-Tabellen verbunden ist
+* eine weitere Transformation mit einer WHERE Bedingung, in welcher geprüft wird, ob es einen match mit den Nachschlage-Tabellen gibt:
+
+[,sql]
+----
+NOT Assetmanager_match IS NULL
+AND NOT AusrichtungAT_match IS NULL
+AND NOT Disponibilität_match IS NULL
+AND NOT Eingriff_match IS NULL
+/*Länderzone ist kein Pflichtfeld*/
+--AND NOT Länderzone_match IS NULL
+AND NOT Mehrhalterfonds_code_match IS NULL
+AND NOT PortfolioType_PerformanceType_match IS NULL
+AND NOT Steuerung_M_MM_match IS NULL
+AND NOT Mandant_or_MetaMandant_match IS NULL
+----
+
+diese Transformation ist die Quelle der *Historisierung*
+
+in der zweiten Zeile von unten gibt es über der Quell-Transformation für die Historisierung eine Transformation, die alle Datensätze liefert, die nicht matchen. Der Filter lautet:
+
+[,sql]
+----
+NOT EXISTS
+(SELECT f.File_BaseName
+FROM mdt.Steuerung f
+WHERE T1.File_BaseName = f.File_BaseName
+)
+----
+
+image::Anmerkung_2020-04-28_174816.jpg[]

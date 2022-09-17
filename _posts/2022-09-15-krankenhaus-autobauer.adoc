@@ -3,23 +3,9 @@
 :page-last-updated: 2022-09-15
 :page-tags: ["Krankenhaus", "Automechaniker", "Teilhabe", "Technokratie", "Sieben auf einen Streich", "Inklusion", "Technokratie", "Gleichnis", "Diversität", "alte weiße Chirurgen"]
 
-
-// `#pldnm - Patients' lives does not matter.` Gleichnis von der inklusiven und diversen Teilhabe progressiver Automechaniker an der Behandlung von Patienten durch demokratische Überwindung der konservativen Schulmedizin, verkörpert durch alte weiße Chirurgen.
-
-//Man könnte auch ein include verwenden?
-
-// Webserver und lokale Umgebung benötigen unterschiedliche Pfade zu Bildern
-// ob wir auf dem Server sind, kann abgefragt werden über {env-site}
-// default für jekyll auf Server (env-site): /assets/img
-// local: ./assets/img
-
-:imagesdir: /assets/img
+:imagesdir: ../assets/img/blog
 
 ifndef::env-site[]
-
-//it's not executed on gitlab server in jekyll
-//locally (VCS, export to docx) we need a different :imagesdir:
-:imagesdir: ./assets/img
 
 // auf dem Server wird der :page-subtitle: unter dem Titel angezeigt
 // local nicht, also blenden wir ihn ein
