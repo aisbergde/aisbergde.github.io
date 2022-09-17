@@ -25,7 +25,11 @@ Germo Görtz
 ifndef::env-site[]
 //it's not executed on gitlab server in jekyll
 //locally (VCS, export to docx) we need a different :imagesdir:
-:imagesdir: /assets/img
+
+debug: env-site ist nicht gesetzt
+
+:imagesdir: ./assets/img
+
 endif::env-site[]
 
 
