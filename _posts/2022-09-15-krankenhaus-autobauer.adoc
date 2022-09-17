@@ -16,13 +16,10 @@
 :imagesdir: /assets/img
 
 ifndef::env-site[]
+
 //it's not executed on gitlab server in jekyll
 //locally (VCS, export to docx) we need a different :imagesdir:
-:imagesdir: /assets/img
-endif::env-site[]
-
-
-ifndef::env-site[]
+:imagesdir: ./assets/img
 
 // auf dem Server wird der :page-subtitle: unter dem Titel angezeigt
 // local nicht, also blenden wir ihn ein

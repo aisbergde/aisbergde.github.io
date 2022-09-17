@@ -3,6 +3,8 @@
 :slug: profil-germo-gortz-de-
 :subtitle: Microsoft BI Architekt + Entwickler. MS SQL Server, SSAS, DWH, ELT statt ETL, automatisierte Dokumentation
 :tags: ["MS SQL Server", "DWH", "SSAS", "Antora"]
+:toc: auto
+:toclevels: 1
 
 // Webserver und lokale Umgebung benötigen unterschiedliche Pfade zu Bildern
 // default für jekyll auf Server env-server: /assets/img
