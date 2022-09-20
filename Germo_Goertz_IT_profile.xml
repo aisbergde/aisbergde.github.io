@@ -235,80 +235,233 @@ analytisch, exakt, verantwortungsbewusst, selbständig, schnell, effektiv und ef
 <simpara><?asciidoc-pagebreak?></simpara>
 </section>
 </section>
-<section xml:id="_projekthistorie_germo_görtz_de">
-<title>Projekthistorie Germo Görtz (de)</title>
+<section xml:id="_projekthistorie">
+<title>Projekthistorie</title>
 <simpara>zeitlich sortiert nach Projekt-Ende</simpara>
 <section xml:id="_052022_bis_jetzt_nomura_asset_management_europe_kvg_mbh">
 <title>05/2022 - bis jetzt; Nomura Asset Management Europe KVG mbH</title>
-<itemizedlist>
+<variablelist>
+<varlistentry>
+<term>Branche</term>
 <listitem>
-<simpara>Aufbau neues DWH, Migration aus altem DWH</simpara>
+<simpara>Banken und Finanzdienstleistungen</simpara>
 </listitem>
+</varlistentry>
+</variablelist>
+<section xml:id="_aufbau_neues_dwh_migration_aus_altem_dwh">
+<title>Aufbau neues DWH, Migration aus altem DWH</title>
+<itemizedlist>
 <listitem>
 <simpara>DWH und ELT werden mit AnalyticsCreator erstellt</simpara>
 </listitem>
+<listitem>
+<simpara>Microsoft SQL Server (on-premise)</simpara>
+</listitem>
+<listitem>
+<simpara>AnalyticsCreator</simpara>
+</listitem>
+<listitem>
+<simpara>DataHandwerk</simpara>
+</listitem>
+<listitem>
+<simpara>Antora</simpara>
+</listitem>
+<listitem>
+<simpara>git</simpara>
+</listitem>
 </itemizedlist>
+</section>
 </section>
 <section xml:id="_092019_bis_jetzt_iconcare_binovis_visality">
 <title>09/2019 - bis jetzt; iconcare (BInovis &amp; Visality)</title>
+<variablelist>
+<varlistentry>
+<term>Branche</term>
+<listitem>
+<simpara>Gesundheitswesen, Krankenhaus, Logistik</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Größe</term>
+<listitem>
 <simpara>10-50 Mitarbeiter</simpara>
-<simpara>Sonstiges</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
 <section xml:id="_microsoft_bi_architekt_und_entwickler">
 <title>Microsoft BI Architekt und Entwickler</title>
-<itemizedlist>
-<listitem>
-<simpara>EventAnalytics<?asciidoc-br?>
-Prozess- und Zeitanalysen in Krankenhäusern (beispielsweise OP Zeiten, OP Wechselzeiten, OP Auslastung, Personal Auslastung)</simpara>
-</listitem>
-<listitem>
-<simpara>Healthcare-Control-Center-Tool<?asciidoc-br?>
-Übertragung von Steuerungsmethoden aus der Aviation-Branche in ein innovatives IT-Tool zur Planung, Steuerung und Optimierung von Krankenhaus-Prozessen</simpara>
-</listitem>
-</itemizedlist>
+<section xml:id="_eventanalytics">
+<title>EventAnalytics</title>
+<simpara>Prozess- und Zeitanalysen in Krankenhäusern (beispielsweise OP Zeiten, OP Wechselzeiten, OP Auslastung, Personal Auslastung)</simpara>
+</section>
+<section xml:id="_healthcare_control_center_tool">
+<title>Healthcare-Control-Center-Tool</title>
+<simpara>Übertragung von Steuerungsmethoden aus der Aviation-Branche in ein innovatives IT-Tool zur Planung, Steuerung und Optimierung von Krankenhaus-Prozessen</simpara>
 <simpara><link xl:href="http://www.visality.de/healthcarecontrolcenter.html?&amp;L=0%22Dirk">http://www.visality.de/healthcarecontrolcenter.html?&amp;L=0%22Dirk</link></simpara>
-<itemizedlist>
-<listitem>
-<simpara>smarte Stromzähler, Zeitanalysen von Stromverbräuchen</simpara>
+</section>
+<section xml:id="_smarte_stromzähler_zeitanalysen_von_stromverbräuchen_iot">
+<title>smarte Stromzähler, Zeitanalysen von Stromverbräuchen, IoT</title>
 <itemizedlist>
 <listitem>
 <simpara>IoT</simpara>
 </listitem>
 <listitem>
-<simpara>SQL Server, Python</simpara>
+<simpara>Microsoft SQL Server (on-premise)</simpara>
+</listitem>
+<listitem>
+<simpara>Python</simpara>
 </listitem>
 </itemizedlist>
+</section>
+<section xml:id="_tools">
+<title>Tools</title>
+<itemizedlist>
+<listitem>
+<simpara>Python</simpara>
+</listitem>
+<listitem>
+<simpara>Microsoft SQL Server (on-premise)</simpara>
+</listitem>
+<listitem>
+<simpara>Power BI</simpara>
+</listitem>
+<listitem>
+<simpara>Deltamaster</simpara>
+</listitem>
+<listitem>
+<simpara>DataHandwerk</simpara>
+</listitem>
+<listitem>
+<simpara>Antora</simpara>
+</listitem>
+<listitem>
+<simpara>git</simpara>
 </listitem>
 </itemizedlist>
+</section>
 </section>
 </section>
 <section xml:id="_082021_062022_syskron_im_house_of_krones">
 <title>08/2021 - 06/2022; SYSKRON - im House of Krones</title>
+<variablelist>
+<varlistentry>
+<term>Branche</term>
+<listitem>
+<simpara>Industrie und Maschinenbau</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
+<simpara>Krones ist Weltmarktführer für Abfüllanlagen</simpara>
+<variablelist>
+<varlistentry>
+<term>Größe</term>
+<listitem>
+<simpara>&gt; 10.000 Mitarbeiten</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
+<section xml:id="_unterstützung_im_bereich_microsoft_sql_server_bi">
+<title>Unterstützung im Bereich Microsoft SQL Server / BI</title>
 <itemizedlist>
 <listitem>
-<simpara>Unterstützung im Bereich MS SQL Server / BI</simpara>
+<simpara>Microsoft SQL Server (on-premise)</simpara>
+</listitem>
+<listitem>
+<simpara>Power BI</simpara>
+</listitem>
+<listitem>
+<simpara>DataHandwerk</simpara>
+</listitem>
+<listitem>
+<simpara>Antora</simpara>
+</listitem>
+<listitem>
+<simpara>git</simpara>
+</listitem>
+<listitem>
+<simpara>jira</simpara>
 </listitem>
 </itemizedlist>
+</section>
 </section>
 <section xml:id="_012022_042022_roller">
 <title>01/2022 - 04/2022; Roller</title>
+<variablelist>
+<varlistentry>
+<term>Branche</term>
+<listitem>
+<simpara>Konsumgüter und Handel</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
+<section xml:id="_unterstützung_im_bereich_microsoft_sql_server_bi_2">
+<title>Unterstützung im Bereich Microsoft SQL Server / BI</title>
 <itemizedlist>
 <listitem>
-<simpara>Unterstützung im Bereich MS SQL Server / BI</simpara>
+<simpara>Microsoft SQL Server (on-premise)</simpara>
+</listitem>
+<listitem>
+<simpara>Power BI</simpara>
+</listitem>
+<listitem>
+<simpara>BimlExpress</simpara>
+</listitem>
+<listitem>
+<simpara>git</simpara>
 </listitem>
 </itemizedlist>
+</section>
 </section>
 <section xml:id="_032022_042022_betty_barclay">
 <title>03/2022 - 04/2022; Betty Barclay</title>
+<variablelist>
+<varlistentry>
+<term>Branche</term>
+<listitem>
+<simpara>Konsumgüter und Handel</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Größe</term>
+<listitem>
+<simpara>1000 - 5000 Mitarbeiter</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
+<section xml:id="_unterstützung_im_bereich_microsoft_sql_server_bi_3">
+<title>Unterstützung im Bereich Microsoft SQL Server / BI</title>
 <itemizedlist>
 <listitem>
-<simpara>Unterstützung im Bereich MS SQL Server / BI</simpara>
+<simpara>Microsoft SQL Server (on-premise)</simpara>
+</listitem>
+<listitem>
+<simpara>Power BI</simpara>
+</listitem>
+<listitem>
+<simpara>BimlExpress</simpara>
+</listitem>
+<listitem>
+<simpara>git</simpara>
 </listitem>
 </itemizedlist>
 </section>
+</section>
 <section xml:id="_082021_122021_abcfinance">
 <title>08/2021 - 12/2021; abcfinance</title>
-<simpara>500-1000 Mitarbeiter</simpara>
+<variablelist>
+<varlistentry>
+<term>Branche</term>
+<listitem>
 <simpara>Banken und Finanzdienstleistungen</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Größe</term>
+<listitem>
+<simpara>500-1000 Mitarbeiter</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
 <section xml:id="_konzeption_und_poc_für_eine_source_to_target_dokumentation_für_das_zentrale_dwh_über_die_verschiedenen_schichten_u_a_data_vault_starschema_und_tabulare_modelle">
 <title>Konzeption und PoC für eine «Source to target» - Dokumentation für das zentrale DWH über die verschiedenen Schichten (u. a. Data Vault, Starschema und tabulare Modelle)</title>
 <itemizedlist>
@@ -324,13 +477,40 @@ Prozess- und Zeitanalysen in Krankenhäusern (beispielsweise OP Zeiten, OP Wechs
 <listitem>
 <simpara>Einführung eines entsprechenden Werkzeugs</simpara>
 </listitem>
+<listitem>
+<simpara>Microsoft SQL Server (on-premise)</simpara>
+</listitem>
+<listitem>
+<simpara>DataHandwerk</simpara>
+</listitem>
+<listitem>
+<simpara>Antora</simpara>
+</listitem>
+<listitem>
+<simpara>git</simpara>
+</listitem>
+<listitem>
+<simpara>TFVC</simpara>
+</listitem>
 </itemizedlist>
 </section>
 </section>
 <section xml:id="_042021_062021_peter_hahn_gmbh">
 <title>04/2021 - 06/2021; Peter Hahn GmbH</title>
+<variablelist>
+<varlistentry>
+<term>Branche</term>
+<listitem>
+<simpara>Konsumgüter und Handel</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Größe</term>
+<listitem>
 <simpara>&gt;1.000 Mitarbeiter</simpara>
-<simpara>Handel (Bekleidung)</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
 <section xml:id="_power_bi_expert">
 <title>Power BI Expert</title>
 <itemizedlist>
@@ -344,13 +524,34 @@ Umsetzen von Anforderungen in technische BI Lösungen</simpara>
 <listitem>
 <simpara>Zusammenarbeit mit anderen Teilprojekten und Zuarbeit von Ergebnissen</simpara>
 </listitem>
+<listitem>
+<simpara>Microsoft SQL Server (on-premise)</simpara>
+</listitem>
+<listitem>
+<simpara>Power BI</simpara>
+</listitem>
+<listitem>
+<simpara>TFVC</simpara>
+</listitem>
 </itemizedlist>
 </section>
 </section>
 <section xml:id="_022020_032021_meag_munich_ergo_assetmanagement_gmbh">
 <title>02/2020 - 03/2021; MEAG - Munich ERGO Assetmanagement GmbH</title>
-<simpara>500-1000 Mitarbeiter</simpara>
+<variablelist>
+<varlistentry>
+<term>Branche</term>
+<listitem>
 <simpara>Banken und Finanzdienstleistungen</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Größe</term>
+<listitem>
+<simpara>500-1000 Mitarbeiter</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
 <section xml:id="_performancemessung_reporting_microsoft_bi_architekt_und_entwickler">
 <title>Performancemessung Reporting: Microsoft BI Architekt und Entwickler</title>
 <itemizedlist>
@@ -363,13 +564,37 @@ Umsetzen von Anforderungen in technische BI Lösungen</simpara>
 <listitem>
 <simpara>einzelne Module mit Python, Powershell</simpara>
 </listitem>
+<listitem>
+<simpara>Microsoft SQL Server (on-premise)</simpara>
+</listitem>
+<listitem>
+<simpara>AnalyticsCreator</simpara>
+</listitem>
+<listitem>
+<simpara>Power BI</simpara>
+</listitem>
+<listitem>
+<simpara>git</simpara>
+</listitem>
 </itemizedlist>
 </section>
 </section>
 <section xml:id="_092019032020_swisscom">
 <title>09/2019&#8201;&#8212;&#8201;03/2020; Swisscom</title>
-<simpara>&gt;10.000 Mitarbeiter</simpara>
+<variablelist>
+<varlistentry>
+<term>Branche</term>
+<listitem>
 <simpara>Telekommunikation</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Größe</term>
+<listitem>
+<simpara>&gt;10.000 Mitarbeiter</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
 <section xml:id="_import_und_verarbeitung_von_daten_aus_service_now_für_ein_reporting_erstellung_dwh_mit_analyticscreator_berichte_mit_power_bi">
 <title>Import und Verarbeitung von Daten aus Service Now für ein Reporting, Erstellung DWH mit AnalyticsCreator, Berichte mit Power BI</title>
 <itemizedlist>
@@ -388,13 +613,37 @@ Umsetzen von Anforderungen in technische BI Lösungen</simpara>
 <listitem>
 <simpara>DWH, ELT und SSAS werden mit AnalyticsCreator erstellt</simpara>
 </listitem>
+<listitem>
+<simpara>Microsoft SQL Server (on-premise)</simpara>
+</listitem>
+<listitem>
+<simpara>AnalyticsCreator</simpara>
+</listitem>
+<listitem>
+<simpara>git</simpara>
+</listitem>
+<listitem>
+<simpara>jira</simpara>
+</listitem>
 </itemizedlist>
 </section>
 </section>
 <section xml:id="_112010_122019_drk_kliniken_berlin">
 <title>11/2010 - 12/2019; DRK Kliniken Berlin</title>
+<variablelist>
+<varlistentry>
+<term>Branche</term>
+<listitem>
+<simpara>Gesundheitswesen, Krankenhaus</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Größe</term>
+<listitem>
 <simpara>1000-5000 Mitarbeiter</simpara>
-<simpara>Sonstiges</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
 <section xml:id="_krankenhaus_dwh_microsoft_bi_architekt_und_entwickler">
 <title>Krankenhaus DWH: Microsoft BI Architekt und Entwickler</title>
 <simpara>Projektinhalte:</simpara>
@@ -445,7 +694,16 @@ Umsetzen von Anforderungen in technische BI Lösungen</simpara>
 <simpara>Produkte:</simpara>
 <itemizedlist>
 <listitem>
-<simpara>Microsoft SQL Server 2008 R2 (relational, SSAS, SSIS, SSRS), Microsoft Access, Cubeplayer</simpara>
+<simpara>Microsoft SQL Server 2008 R2 on-premise (relational, SSAS, SSIS, SSRS)</simpara>
+</listitem>
+<listitem>
+<simpara>Microsoft Access</simpara>
+</listitem>
+<listitem>
+<simpara>Cubeplayer</simpara>
+</listitem>
+<listitem>
+<simpara>Subversion</simpara>
 </listitem>
 </itemizedlist>
 <simpara>Aktuell: regelmäßiger Support, um das System "am Laufen zu halten", bis irgendwann die vollständige Migration in ein klinisches DWH des KISAnbieters abgeschlossen sein wird.</simpara>
@@ -453,8 +711,20 @@ Umsetzen von Anforderungen in technische BI Lösungen</simpara>
 </section>
 <section xml:id="_112019_122019_würth_logistics_ag">
 <title>11/2019 - 12/2019; Würth Logistics AG</title>
-<simpara>50-250 Mitarbeiter</simpara>
+<variablelist>
+<varlistentry>
+<term>Branche</term>
+<listitem>
 <simpara>Transport und Logistik</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Größe</term>
+<listitem>
+<simpara>50-250 Mitarbeiter</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
 <section xml:id="_erstellung_eines_dwh_mit_dem_analyticscreator">
 <title>Erstellung eines DWH mit dem AnalyticsCreator</title>
 <simpara>Verwendung des <emphasis role="strong">AnalyticsCreator</emphasis> zur Erstellung eines Reporting-DWH für Daten der Logistik im SQL Server + Analytische Datenbank (SSAS Tabular) als Grundlage eines flexiblen Berichtswesens mit PowerBI oder anderen Frontends.</simpara>
@@ -466,23 +736,76 @@ Umsetzen von Anforderungen in technische BI Lösungen</simpara>
 </listitem>
 </itemizedlist>
 <simpara>Das schweizer Logistik-Unternehmen ist zuständig für die weltweite Koordination der Logistik eines deutschen Großkonzerns, des Weltmarktführers für den Vertrieb von Montage- und Befestigungsmaterial.</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Microsoft SQL Server (on-premise)</simpara>
+</listitem>
+<listitem>
+<simpara>AnalyticsCreator</simpara>
+</listitem>
+<listitem>
+<simpara>git</simpara>
+</listitem>
+</itemizedlist>
 </section>
 </section>
 <section xml:id="_102018_092019_provinzial_nord_west">
 <title>10/2018 - 09/2019; Provinzial Nord-West</title>
-<simpara>5000-10.000 Mitarbeiter</simpara>
+<variablelist>
+<varlistentry>
+<term>Branche</term>
+<listitem>
 <simpara>Versicherungen</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Größe</term>
+<listitem>
+<simpara>5000-10.000 Mitarbeiter</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
 <section xml:id="_aufbau_neues_dwh_microsoft_bi_architekt_und_entwickler_microsoft_bi_analyse_plattform_analyticscreator">
 <title>Aufbau neues DWH: Microsoft BI Architekt und Entwickler, Microsoft BI-Analyse-Plattform, Analyticscreator</title>
 <simpara>Aufbau eines neuen DWH, gehostet auf Microsoft Azure, basierend auf Microsoft SQL BI Technologien</simpara>
-<simpara>Microsoft SQL Server (relational, SSAS, SSIS), Power BI, AnalyticsCreator</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Microsoft SQL Server (relational, SSAS, SSIS) on-premise und Azure Cloud</simpara>
+</listitem>
+<listitem>
+<simpara>Power BI</simpara>
+</listitem>
+<listitem>
+<simpara>AnalyticsCreator</simpara>
+</listitem>
+<listitem>
 <simpara>Big Data</simpara>
+</listitem>
+<listitem>
+<simpara>jira</simpara>
+</listitem>
+<listitem>
+<simpara>git</simpara>
+</listitem>
+</itemizedlist>
 </section>
 </section>
 <section xml:id="_082018_102018_zeiss_group">
 <title>08/2018 - 10/2018; ZEISS Group</title>
-<simpara>&gt;10.000 Mitarbeiter</simpara>
+<variablelist>
+<varlistentry>
+<term>Branche</term>
+<listitem>
 <simpara>Industrie und Maschinenbau</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Größe</term>
+<listitem>
+<simpara>&gt;10.000 Mitarbeiter</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
 <section xml:id="_durchlaufzeiten_von_produktionsschritten_microsoft_bi_architekt_und_entwickler_microsoft_bi_analyse_plattform_analyticscreator">
 <title>Durchlaufzeiten von Produktionsschritten: Microsoft BI Architekt und Entwickler, Microsoft BI-Analyse-Plattform, Analyticscreator</title>
 <itemizedlist>
@@ -498,19 +821,53 @@ Umsetzen von Anforderungen in technische BI Lösungen</simpara>
 <listitem>
 <simpara>DWH, ELT und SSAS werden mit AnalyticsCreator erstellt.</simpara>
 </listitem>
+<listitem>
+<simpara>Microsoft SQL Server (on-premise)</simpara>
+</listitem>
+<listitem>
+<simpara>AnalyticsCreator</simpara>
+</listitem>
+<listitem>
+<simpara>Power BI</simpara>
+</listitem>
+<listitem>
+<simpara>TFVC</simpara>
+</listitem>
+<listitem>
+<simpara>git</simpara>
+</listitem>
 </itemizedlist>
-<simpara>andere Projekte:</simpara>
+</section>
+<section xml:id="_microsoft_azure_unterstützung_bei_verwendung_von_azure_diensten_migration_von_ssas_lösungen_zu_azure_etl_elt_diverses">
+<title>Microsoft Azure - Unterstützung bei Verwendung von Azure Diensten, Migration von SSAS Lösungen zu Azure, ETL / ELT, diverses</title>
 <itemizedlist>
 <listitem>
-<simpara>Microsoft Azure - Unterstützung bei Verwendung von Azure Diensten, Migration von SSAS Lösungen zu Azure, ETL / ELT, diverses</simpara>
+<simpara>SQL Server (on-premise und Azure Cloud)</simpara>
 </listitem>
 </itemizedlist>
 </section>
 </section>
 <section xml:id="_032016_092018_zeiss_group">
 <title>03/2016 - 09/2018; ZEISS Group</title>
-<simpara>&gt;10.000 Mitarbeiter</simpara>
+<variablelist>
+<varlistentry>
+<term>Branche</term>
+<listitem>
 <simpara>Industrie und Maschinenbau</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Größe</term>
+<listitem>
+<simpara>&gt;10.000 Mitarbeiter</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Microsoft SQL Server (on-premise)</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+</varlistentry>
+</variablelist>
 <section xml:id="_bicc_bi_competence_center_dashboards_mit_datazen_microsoft_bi_analyse_plattform_microsoft_bi_architekt_und_entwickler">
 <title>BICC (BI Competence Center) - Dashboards mit Datazen, Microsoft BI-Analyse- Plattform: Microsoft BI Architekt und Entwickler</title>
 <itemizedlist>
@@ -520,11 +877,20 @@ Umsetzen von Anforderungen in technische BI Lösungen</simpara>
 <listitem>
 <simpara>Import von Daten aus SAP und Essbase</simpara>
 </listitem>
+<listitem>
+<simpara>SAP-Anbindung mit cMORE/Connect for SAP (basiert auf Theobald SAP Integration)</simpara>
+</listitem>
 </itemizedlist>
 <simpara>Produkte:</simpara>
 <itemizedlist>
 <listitem>
-<simpara>Datazen, Microsoft SQL Server (relational)</simpara>
+<simpara>Datazen</simpara>
+</listitem>
+<listitem>
+<simpara>Microsoft SQL Server (on-premise)</simpara>
+</listitem>
+<listitem>
+<simpara>TFVC</simpara>
 </listitem>
 </itemizedlist>
 <simpara>Kernprojekt 03.2016 - 04.0216, Danach bis 09.2018 laufender Support bis und einschließlich Migration auf ServiceNow</simpara>
@@ -532,8 +898,20 @@ Umsetzen von Anforderungen in technische BI Lösungen</simpara>
 </section>
 <section xml:id="_112017_072018_adecco_germany_holding_sa_co_kg">
 <title>11/2017 - 07/2018; Adecco Germany Holding SA &amp; Co. KG</title>
+<variablelist>
+<varlistentry>
+<term>Branche</term>
+<listitem>
+<simpara>Personaldienstleiter</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Größe</term>
+<listitem>
 <simpara>&gt;10.000 Mitarbeiter</simpara>
-<simpara>Sonstiges</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
 <section xml:id="_candidate_cube_microsoft_bi_architekt_und_entwickler_microsoft_bi_analyse_plattform_analyticscreator">
 <title>"Candidate-Cube": Microsoft BI Architekt und Entwickler, Microsoft BI-Analyse-Plattform, Analyticscreator</title>
 <simpara>Das bestehende Datawarehouse soll um ein "Candidate-Cube" erweitert werden:</simpara>
@@ -566,15 +944,36 @@ Umsetzen von Anforderungen in technische BI Lösungen</simpara>
 <simpara>Produkte:</simpara>
 <itemizedlist>
 <listitem>
-<simpara>Microsoft SQL Server (relational, SSAS, SSIS), Power BI, AnalyticsCreator</simpara>
+<simpara>Microsoft SQL Server (relational, SSAS, SSIS) on-premise</simpara>
+</listitem>
+<listitem>
+<simpara>Power BI</simpara>
+</listitem>
+<listitem>
+<simpara>AnalyticsCreator</simpara>
+</listitem>
+<listitem>
+<simpara>TFVC</simpara>
 </listitem>
 </itemizedlist>
 </section>
 </section>
 <section xml:id="_052017_112017_adam_opel_gmbh">
 <title>05/2017 - 11/2017; Adam Opel GmbH</title>
-<simpara>&gt;10.000 Mitarbeiter</simpara>
+<variablelist>
+<varlistentry>
+<term>Branche</term>
+<listitem>
 <simpara>Automobil und Fahrzeugbau</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Größe</term>
+<listitem>
+<simpara>&gt;10.000 Mitarbeiter</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
 <section xml:id="_churn_prevention_microsoft_bi_architekt_und_entwickler_microsoft_bi_analyse_plattform_analyticscreator">
 <title>Churn-Prevention: Microsoft BI Architekt und Entwickler, Microsoft BI-Analyse-Plattform, Analyticscreator</title>
 <itemizedlist>
@@ -585,45 +984,134 @@ Umsetzen von Anforderungen in technische BI Lösungen</simpara>
 <simpara>Data Vault, Data Mining, Prediction</simpara>
 </listitem>
 <listitem>
-<simpara>Microsoft SQL Server (relational, SSAS, SSIS), Power BI, AnalyticsCreator</simpara>
+<simpara>Microsoft SQL Server (relational, SSAS, SSIS) on-premise</simpara>
 </listitem>
 <listitem>
-<simpara>DWH, ELT und SSAS werden mit AnalyticsCreator erstellt.</simpara>
+<simpara>Power BI</simpara>
+</listitem>
+<listitem>
+<simpara>AnalyticsCreator</simpara>
+</listitem>
+<listitem>
+<simpara>DWH, ELT und SSAS werden mit AnalyticsCreator erstellt</simpara>
+</listitem>
+<listitem>
+<simpara>TFVC oder git</simpara>
 </listitem>
 </itemizedlist>
 </section>
 </section>
 <section xml:id="_072016_062017_kelvion">
 <title>07/2016 - 06/2017; Kelvion</title>
-<simpara>1000-5000 Mitarbeiter</simpara>
+<variablelist>
+<varlistentry>
+<term>Branche</term>
+<listitem>
 <simpara>Industrie und Maschinenbau</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Größe</term>
+<listitem>
+<simpara>1000-5000 Mitarbeiter</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
 <section xml:id="_ssas_datenbanken_für_planungssystem_im_zusammenhang_mit_tagetik_microsoft_bi_architekt_und_entwickler_microsoft_bi_analyse_plattform">
 <title>SSAS Datenbanken für Planungssystem im Zusammenhang mit Tagetik: Microsoft BI Architekt und Entwickler, Microsoft BI-Analyse-Plattform</title>
-<simpara>Microsoft SQL Server 2016 (relational, SSAS, SSIS, SSRS), cMORE/Connect for SAP, cMORE/XL (XLCubed), Targit</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Microsoft SQL Server 2016 (relational, SSAS, SSIS, SSRS) on-premise</simpara>
+</listitem>
+<listitem>
+<simpara>cMORE/Connect for SAP (basiert auf Theobald SAP Integration)</simpara>
+</listitem>
+<listitem>
+<simpara>cMORE/XL (XLCubed)</simpara>
+</listitem>
+<listitem>
+<simpara>Targit</simpara>
+</listitem>
+<listitem>
+<simpara>Power BI</simpara>
+</listitem>
+<listitem>
+<simpara>git</simpara>
+</listitem>
+</itemizedlist>
 </section>
 </section>
 <section xml:id="_042017_052017_kuhn_und_bülow_versicherungsmakler_group">
 <title>04/2017 - 05/2017; Kuhn und Bülow Versicherungsmakler Group</title>
-<simpara>10-50 Mitarbeiter</simpara>
+<variablelist>
+<varlistentry>
+<term>Branche</term>
+<listitem>
 <simpara>Versicherungen</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Größe</term>
+<listitem>
+<simpara>10-50 Mitarbeiter</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
 <section xml:id="_berichtswesen_und_statistiken_mit_power_bi">
 <title>Berichtswesen und Statistiken mit Power BI</title>
 <simpara>Grundlagen für Statistiken und Berichte erstellen, um basierend auf Daten des operativen Systems Auswertungen nach Versicherungsnehmern, Versicherern, Schäden und Prämien zu ermöglichen.</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Power BI</simpara>
+</listitem>
+<listitem>
+<simpara>TFVC</simpara>
+</listitem>
+</itemizedlist>
 </section>
 </section>
 <section xml:id="_092016_122016_airberlin">
 <title>09/2016 - 12/2016; airberlin</title>
-<simpara>5000-10.000 Mitarbeiter</simpara>
+<variablelist>
+<varlistentry>
+<term>Branche</term>
+<listitem>
 <simpara>Transport und Logistik</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Größe</term>
+<listitem>
+<simpara>5000-10.000 Mitarbeiter</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
 <section xml:id="_customer_segmentation_ancillaries_microsoft_bi_architekt_und_entwickler">
 <title>Customer Segmentation, Ancillaries: Microsoft BI Architekt und Entwickler</title>
-<simpara>Microsoft SQL Server 2014 (relational, SSAS, SSIS)</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Microsoft SQL Server 2014 (relational, SSAS, SSIS) on-premise</simpara>
+</listitem>
+<listitem>
+<simpara>jira</simpara>
+</listitem>
+<listitem>
+<simpara>TFVC</simpara>
+</listitem>
+</itemizedlist>
 </section>
 </section>
 <section xml:id="_062016_072016_proxcel_gmbh">
 <title>06/2016 - 07/2016; proXcel GmbH</title>
 <simpara>10-50 Mitarbeiter</simpara>
-<simpara>Sonstiges</simpara>
+<variablelist>
+<varlistentry>
+<term>Branche</term>
+<listitem>
+<simpara>Beratung</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
 <section xml:id="_unterstützung_bei_analyse_bearbeitung_und_auswertung_komplexer_datenpakete_eines_produktionsprozesses_mit_microsoft_bi_analyse_plattform_data_mining">
 <title>Unterstützung bei Analyse, Bearbeitung und Auswertung komplexer Datenpakete eines Produktionsprozesses mit Microsoft-BI-Analyse-Plattform, Data Mining</title>
 
@@ -631,17 +1119,48 @@ Umsetzen von Anforderungen in technische BI Lösungen</simpara>
 </section>
 <section xml:id="_052016_052016_heraeus_kulzer">
 <title>05/2016 - 05/2016; Heraeus Kulzer</title>
-<simpara>1000-5000 Mitarbeiter</simpara>
+<variablelist>
+<varlistentry>
+<term>Branche</term>
+<listitem>
 <simpara>Industrie und Maschinenbau</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Größe</term>
+<listitem>
+<simpara>1000-5000 Mitarbeiter</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
 <section xml:id="_bi_support_microsoft_bi_analyse_plattform">
 <title>BI Support, Microsoft BI-Analyse-Plattform</title>
-<simpara>Microsoft SQL Server (relational, SSAS, SSIS)</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Microsoft SQL Server (relational, SSAS, SSIS) on-premise</simpara>
+</listitem>
+<listitem>
+<simpara>TFVC</simpara>
+</listitem>
+</itemizedlist>
 </section>
 </section>
 <section xml:id="_062015_032016_volkswagen_gebrauchtfahrzeughandels_und_service_gmbh_vgsg">
 <title>06/2015 - 03/2016; Volkswagen Gebrauchtfahrzeughandels und Service GmbH (VGSG)</title>
-<simpara>&gt;10.000 Mitarbeiter</simpara>
+<variablelist>
+<varlistentry>
+<term>Branche</term>
+<listitem>
 <simpara>Automobil und Fahrzeugbau</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Größe</term>
+<listitem>
+<simpara>&gt;10.000 Mitarbeiter</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
 <section xml:id="_bi_competence_center_volkswagen_nutzfahrzeuge_datamining_neuronale_netze_visualisierung_microsoft_bi_analyse_plattform_microsoft_bi_architekt_und_entwickler">
 <title>BI Competence Center Volkswagen Nutzfahrzeuge, Datamining, neuronale Netze, Visualisierung, Microsoft BI-Analyse-Plattform: Microsoft BI Architekt und Entwickler</title>
 <simpara>DML: Data Mining Leasing, DM VGSG - Data Mining VGSG (junge Gebrauchte)</simpara>
@@ -668,7 +1187,13 @@ Umsetzen von Anforderungen in technische BI Lösungen</simpara>
 <simpara>Visualisierungen mit Tableau</simpara>
 </listitem>
 <listitem>
-<simpara>BI Entwicklung mit Microsoft SQL Server (relational, SSAS, SSIS), Wherescape.</simpara>
+<simpara>BI Entwicklung mit Microsoft SQL Server (relational, SSAS, SSIS) on-premise</simpara>
+</listitem>
+<listitem>
+<simpara>Wherescape</simpara>
+</listitem>
+<listitem>
+<simpara>TFVC oder jira</simpara>
 </listitem>
 </itemizedlist>
 <simpara>der wissenschaftliche Hintergrund wird hier genauer erklärt:<?asciidoc-br?>
@@ -681,8 +1206,20 @@ Wirtschaftsinformatik (WI 2017), St. Gallen, S. 1205-1219</simpara>
 </section>
 <section xml:id="_082012_052015_henkel_ag_co_kgaa">
 <title>08/2012 - 05/2015; Henkel AG &amp; Co. KGaA</title>
-<simpara>&gt;10.000 Mitarbeiter</simpara>
+<variablelist>
+<varlistentry>
+<term>Branche</term>
+<listitem>
 <simpara>Konsumgüter und Handel</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Größe</term>
+<listitem>
+<simpara>&gt;10.000 Mitarbeiter</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
 <section xml:id="_scout_supply_chain_optimization_unified_toolbox_microsoft_bi_analyse_plattform_microsoft_bi_architekt_und_entwickler">
 <title>SCOUT (= Supply Chain Optimization Unified Toolbox), Microsoft BI-Analyse- Plattform: Microsoft BI Architekt und Entwickler</title>
 <itemizedlist>
@@ -708,15 +1245,38 @@ Wirtschaftsinformatik (WI 2017), St. Gallen, S. 1205-1219</simpara>
 <simpara>Slow Mover Detection for financial devaluation</simpara>
 </listitem>
 </itemizedlist>
-<simpara>Migration und vor allem Erweiterung einer Anwendung von SAP BW auf MS SQL Server</simpara>
-<simpara>BI Design und Entwicklung mit Microsoft SQL Server 2012</simpara>
+<simpara>Migration und vor allem Erweiterung einer Anwendung von SAP BW auf Microsoft SQL Server</simpara>
+<simpara>BI Design und Entwicklung mit Microsoft SQL Server 2012 on-premise</simpara>
 <simpara>Hauptfokus: SSAS, Datamart, auch SSIS</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Berichtswesen mit XLCubed</simpara>
+</listitem>
+<listitem>
+<simpara>SAP-Anbindung mit cMORE/Connect for SAP (basiert auf Theobald SAP Integration)</simpara>
+</listitem>
+<listitem>
+<simpara>TFVC</simpara>
+</listitem>
+</itemizedlist>
 </section>
 </section>
 <section xml:id="_102005_082012_bezirkskliniken_mittelfranken_ansbach">
 <title>10/2005 - 08/2012; Bezirkskliniken Mittelfranken, Ansbach</title>
+<variablelist>
+<varlistentry>
+<term>Branche</term>
+<listitem>
+<simpara>Gesundheitswesen, Krankenhaus</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Größe</term>
+<listitem>
 <simpara>1000-5000 Mitarbeiter</simpara>
-<simpara>Sonstiges</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
 <section xml:id="_krankenhaus_konzeption_und_realisierung_analytischer_anwendungen_für_das_controlling_und_personalwesen_microsoft_bi_analyse_plattform_microsoft_bi_architekt_und_entwickler">
 <title>Krankenhaus: Konzeption und Realisierung analytischer Anwendungen für das Controlling und Personalwesen, Microsoft BI-Analyse-Plattform: Microsoft BI Architekt und Entwickler</title>
 <simpara>Psychiatrische Krankenhäuser, Ressort Controlling, Zentrales Personalwesen</simpara>
@@ -739,7 +1299,7 @@ Wirtschaftsinformatik (WI 2017), St. Gallen, S. 1205-1219</simpara>
 </listitem>
 </itemizedlist>
 <simpara>laufende Betreuung</simpara>
-<simpara>Migration MS SQL Server 2000 auf MS SQL Server 2005 bzw. 2008</simpara>
+<simpara>Migration Microsoft SQL Server 2000 auf Microsoft SQL Server 2005 bzw. 2008 (on-premise)</simpara>
 <simpara>Datenquellen:</simpara>
 <itemizedlist>
 <listitem>
@@ -759,8 +1319,20 @@ Wirtschaftsinformatik (WI 2017), St. Gallen, S. 1205-1219</simpara>
 </section>
 <section xml:id="_022011_052012_nestlé_suisse_s_a">
 <title>02/2011 - 05/2012; Nestlé Suisse S.A</title>
-<simpara>&gt;10.000 Mitarbeiter</simpara>
+<variablelist>
+<varlistentry>
+<term>Branche</term>
+<listitem>
 <simpara>Konsumgüter und Handel</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Größe</term>
+<listitem>
+<simpara>&gt;10.000 Mitarbeiter</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
 <section xml:id="_dynamic_planning_framework_dynamic_forecast_microsoft_bi_architekt_und_entwickler">
 <title>Dynamic Planning Framework - Dynamic Forecast: Microsoft BI Architekt und Entwickler</title>
 <itemizedlist>
@@ -772,13 +1344,25 @@ Wirtschaftsinformatik (WI 2017), St. Gallen, S. 1205-1219</simpara>
 </listitem>
 </itemizedlist>
 <simpara>Anforderungsanalyse, Konzeption, Kommunikation mit Fachbereich, Entwicklung, Dokumentation, Test, Performance Optimierung, Wartung, Beratung</simpara>
-<simpara>Microsoft SQL Server 2005, MS SQL Server 2008 R2</simpara>
+<simpara>Microsoft SQL Server 2005, Microsoft SQL Server 2008 R2 (on-premise)</simpara>
 </section>
 </section>
 <section xml:id="_102011_042012_mts_mobile_telesystems_ojsc_moskau_russland">
 <title>10/2011 - 04/2012; MTS (Mobile TeleSystems OJSC), Moskau (Russland)</title>
-<simpara>&gt;10.000 Mitarbeiter</simpara>
+<variablelist>
+<varlistentry>
+<term>Branche</term>
+<listitem>
 <simpara>Telekommunikation</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Größe</term>
+<listitem>
+<simpara>&gt;10.000 Mitarbeiter</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
 <section xml:id="_einkaufscontrolling_procurement_performance_management_ppm_spend_control_supplier_consolidation_bi_entwickler">
 <title>Einkaufscontrolling - Procurement Performance Management (PPM), Spend Control, Supplier Consolidation: BI Entwickler</title>
 <itemizedlist>
@@ -791,12 +1375,23 @@ Wirtschaftsinformatik (WI 2017), St. Gallen, S. 1205-1219</simpara>
 <listitem>
 <simpara>Supplier Consolidation</simpara>
 </listitem>
+<listitem>
+<simpara>Microsoft SQL Server (on-premise) und SSAS</simpara>
+</listitem>
 </itemizedlist>
 <simpara>Details: <link xl:href="http://www.orpheus-it.com/">http://www.orpheus-it.com/</link></simpara>
 </section>
 </section>
 <section xml:id="_102005_122011_hgc_gesundheitsconsult_gmbh">
 <title>10/2005 - 12/2011; HGC GesundheitsConsult GmbH</title>
+<variablelist>
+<varlistentry>
+<term>Branche</term>
+<listitem>
+<simpara>Gesundheitswesen, Krankenhaus</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
 <section xml:id="_freie_mitarbeit_als_experte_für_geschäftsanalyse_bi_in_krankenhäusern_microsoft_bi_analyse_plattform_microsoft_bi_architekt_und_entwickler">
 <title>freie Mitarbeit als Experte für Geschäftsanalyse (BI) in Krankenhäusern, Microsoft BI-Analyse-Plattform: Microsoft BI Architekt und Entwickler</title>
 <simpara>Partner: GfS (Gesellschaft für Standortsicherung) =&gt; HGC GesundheitsConsult GmbH =&gt; Vendus</simpara>
@@ -852,14 +1447,29 @@ Wirtschaftsinformatik (WI 2017), St. Gallen, S. 1205-1219</simpara>
 <listitem>
 <simpara>diverse (SAP, ORBIS, Textdateien, Excel, &#8230;&#8203;)</simpara>
 </listitem>
+<listitem>
+<simpara>Microsoft SQL Server (2000, 2005, 2008) relational, MSAS, SSAS, DTS, SSIS (on-premise)</simpara>
+</listitem>
+<listitem>
+<simpara>Bissantz Deltamaster</simpara>
+</listitem>
+<listitem>
+<simpara>Subversion</simpara>
+</listitem>
 </itemizedlist>
-<simpara>Microsoft SQL Server (2000, 2005, 2008) relational, MSAS, SSAS, DTS, SSIS, Bissantz Deltamaster</simpara>
 </section>
 </section>
 <section xml:id="_112010_022011_otto_group">
 <title>11/2010 - 02/2011; otto group</title>
 <simpara>&gt;10.000 Mitarbeiter</simpara>
+<variablelist>
+<varlistentry>
+<term>Branche</term>
+<listitem>
 <simpara>Konsumgüter und Handel</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
 <section xml:id="_p4p_coredwh_datamartsreports_microsoft_bi_analyse_plattform_microsoft_bi_architekt_und_entwickler">
 <title>P4P CoreDWH - Datamarts/Reports, Microsoft BI-Analyse-Plattform: Microsoft BI Architekt und Entwickler</title>
 <itemizedlist>
@@ -875,33 +1485,81 @@ Wirtschaftsinformatik (WI 2017), St. Gallen, S. 1205-1219</simpara>
 </itemizedlist>
 <simpara>BI Konzeption, Design und Entwicklung mit Microsoft SQL Server</simpara>
 <simpara>Anforderungsanalyse, Konzeption, Kommunikation mit Fachbereich, Entwicklung, Dokumentation, Test, Performance Optimierung, Wartung, Beratung, Berichtswesen</simpara>
-<simpara>Microsoft SQL Server 2008 R2 (relational, SSAS, SSIS)</simpara>
+<simpara>Microsoft SQL Server 2008 R2 (relational, SSAS, SSIS) (on-premise)</simpara>
 </section>
 </section>
 <section xml:id="_092010_112010_krones_ag">
 <title>09/2010 - 11/2010; Krones AG</title>
-<simpara>&gt;10.000 Mitarbeiter</simpara>
+<variablelist>
+<varlistentry>
+<term>Branche</term>
+<listitem>
 <simpara>Industrie und Maschinenbau</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Größe</term>
+<listitem>
+<simpara>&gt;10.000 Mitarbeiter</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
 <section xml:id="_migration_auftragseingangsstatistik_von_sap_bw_auf_microsoft_sql_server_microsoft_bi_architekt_und_entwickler">
 <title>Migration Auftragseingangsstatistik von SAP BW auf Microsoft SQL Server: Microsoft BI Architekt und Entwickler</title>
 <simpara>BI Design und Entwicklung mit Microsoft SQL Server</simpara>
 <simpara>Anforderungsanalyse</simpara>
-<simpara>Microsoft SQL Server 2008 R2 (relational, SSAS, SSIS)</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Microsoft SQL Server 2008 R2 (relational, SSAS, SSIS) (on-premise)</simpara>
+</listitem>
+<listitem>
+<simpara>SAP-Anbindung mit cMORE/Connect for SAP (basiert auf Theobald SAP Integration)</simpara>
+</listitem>
+<listitem>
+<simpara>TFVC (?)</simpara>
+</listitem>
+</itemizedlist>
 </section>
 </section>
 <section xml:id="_012010_082010_henkel_ag_co_kgaa">
 <title>01/2010 - 08/2010; Henkel AG &amp; Co. KGaA</title>
+<variablelist>
+<varlistentry>
+<term>Branche</term>
+<listitem>
+<simpara>Konsumgüter und Handel</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Größe</term>
+<listitem>
+<simpara>&gt;10.000 Mitarbeiter</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
 <section xml:id="_globis_global_business_information_system_color_common_local_profitability_reporting_microsoft_bi_analyse_plattform_microsoft_bi_architekt_und_entwickler">
 <title>GLOBIS (Global Business Information System), COLOR (Common Local Profitability Reporting), Microsoft BI-Analyse-Plattform: Microsoft BI Architekt und Entwickler</title>
 <simpara>BI Design und Entwicklung mit Microsoft SQL Server</simpara>
 <simpara>Anforderungsanalyse</simpara>
-<simpara>Microsoft SQL Server 2008 R2 (relational, SSAS, SSIS)</simpara>
+<simpara>Microsoft SQL Server 2008 R2 (relational, SSAS, SSIS) (on-premise)</simpara>
 </section>
 </section>
 <section xml:id="_012003_042010_vivantes_gmbh_netzwerk_für_gesundheit">
 <title>01/2003 - 04/2010; Vivantes GmbH - Netzwerk für Gesundheit</title>
+<variablelist>
+<varlistentry>
+<term>Branche</term>
+<listitem>
+<simpara>Gesundheitswesen, Krankenhaus</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Größe</term>
+<listitem>
 <simpara>&gt;10.000 Mitarbeiter</simpara>
-<simpara>Sonstiges</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
 <section xml:id="_krankenhaus_zentralen_finanz_und_drg_berichtswesen_microsoft_bi_analyse_plattform_microsoft_bi_architekt_und_entwickler">
 <title>Krankenhaus - zentralen Finanz- und DRG-Berichtswesen, Microsoft BI-Analyse-Plattform: Microsoft BI Architekt und Entwickler</title>
 <simpara>Projektinhalte:</simpara>
@@ -938,7 +1596,7 @@ Wirtschaftsinformatik (WI 2017), St. Gallen, S. 1205-1219</simpara>
 <simpara>Durchführung von Schulungen und Trainings zur praktischen Arbeit mit den OLAP-Datenbanken</simpara>
 </listitem>
 <listitem>
-<simpara>Migration MS SQL Server 2000 auf MS SQL Server 2005</simpara>
+<simpara>Migration Microsoft SQL Server 2000 auf Microsoft SQL Server 2005</simpara>
 </listitem>
 </itemizedlist>
 <simpara>Datenquellen:</simpara>
@@ -960,13 +1618,50 @@ Wirtschaftsinformatik (WI 2017), St. Gallen, S. 1205-1219</simpara>
 </listitem>
 </itemizedlist>
 <simpara>Anforderungsanalyse, Konzeption, Kommunikation mit Fachbereich, Entwicklung, Dokumentation, Test, Performance Optimierung, Wartung, Beratung, Berichtswesen</simpara>
-<simpara>Microsoft SQL Server 2000 (relational, MSAS, DTS), Microsoft SQL Server 2005 (relational, SSAS, SSIS), Bissantz Deltamaster, Softpro CubePlayer, MIS Plain, MIS Onvision, MIS Integration Framework</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Microsoft SQL Server 2000 (relational, MSAS, DTS) (on-premise)</simpara>
+</listitem>
+<listitem>
+<simpara>Microsoft SQL Server 2005 (relational, SSAS, SSIS) (on-premise)</simpara>
+</listitem>
+<listitem>
+<simpara>Bissantz Deltamaster</simpara>
+</listitem>
+<listitem>
+<simpara>Softpro CubePlayer</simpara>
+</listitem>
+<listitem>
+<simpara>MIS Plain</simpara>
+</listitem>
+<listitem>
+<simpara>MIS Onvision</simpara>
+</listitem>
+<listitem>
+<simpara>MIS Integration Framework</simpara>
+</listitem>
+<listitem>
+<simpara>Subversion</simpara>
+</listitem>
+</itemizedlist>
 </section>
 </section>
 <section xml:id="_102008_122009_rudolf_wöhrl_ag">
 <title>10/2008 - 12/2009; Rudolf Wöhrl AG</title>
-<simpara>1000-5000 Mitarbeiter</simpara>
+<variablelist>
+<varlistentry>
+<term>Branche</term>
+<listitem>
 <simpara>Konsumgüter und Handel</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Größe</term>
+<listitem>
+<simpara>1000-5000 Mitarbeiter</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
 <section xml:id="_bi_team_controlling_finanzen_it_microsoft_bi_analyse_plattform_microsoft_bi_architekt_und_entwickler">
 <title>BI-Team (Controlling, Finanzen, IT), Microsoft BI-Analyse-Plattform: Microsoft BI Architekt und Entwickler</title>
 <simpara>Projektinhalte:</simpara>
@@ -978,7 +1673,13 @@ Wirtschaftsinformatik (WI 2017), St. Gallen, S. 1205-1219</simpara>
 <simpara>Personaleinsatzplanung</simpara>
 </listitem>
 <listitem>
-<simpara>Migration MS SQL Server 2000, 2005 auf MS SQL Server 2008</simpara>
+<simpara>Migration Microsoft SQL Server 2000, 2005 auf Microsoft SQL Server 2008 (on-premise)</simpara>
+</listitem>
+<listitem>
+<simpara>Berichtswesen mit Bissantz Deltamaster</simpara>
+</listitem>
+<listitem>
+<simpara>Subversion (?)</simpara>
 </listitem>
 </itemizedlist>
 <simpara>Datenquellen:</simpara>
@@ -991,14 +1692,29 @@ Wirtschaftsinformatik (WI 2017), St. Gallen, S. 1205-1219</simpara>
 </section>
 <section xml:id="_092005_012009_landwirtschaftliche_rentenbank">
 <title>09/2005 - 01/2009; Landwirtschaftliche Rentenbank</title>
-<simpara>50-250 Mitarbeiter</simpara>
+<variablelist>
+<varlistentry>
+<term>Branche</term>
+<listitem>
 <simpara>Banken und Finanzdienstleistungen</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Größe</term>
+<listitem>
+<simpara>50-250 Mitarbeiter</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
 <section xml:id="_it_anwendungsentwicklung_bereich_datawarehouse_und_olap_microsoft_bi_analyse_plattform_microsoft_bi_architekt_und_entwickler">
 <title>IT-Anwendungsentwicklung, Bereich "Datawarehouse und OLAP", Microsoft BI-Analyse-Plattform: Microsoft BI Architekt und Entwickler</title>
 <simpara>Projektinhalte:</simpara>
 <itemizedlist>
 <listitem>
-<simpara>Konzeption von Produktionseinsatzverfahren</simpara>
+<simpara>Konzeption</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Produktionseinsatzverfahren (Workflow, Verwendung von Subversion)</simpara>
 </listitem>
 <listitem>
 <simpara>Entwicklungsstandards</simpara>
@@ -1006,11 +1722,13 @@ Wirtschaftsinformatik (WI 2017), St. Gallen, S. 1205-1219</simpara>
 <listitem>
 <simpara>Testkonzepten</simpara>
 </listitem>
+</itemizedlist>
+</listitem>
 <listitem>
 <simpara>Weiterentwicklung des Datawarehouse und der OLAP-Anwendungen</simpara>
 </listitem>
 <listitem>
-<simpara>Migration SQL Server 2000 auf SQL Server 2005</simpara>
+<simpara>Migration Microsoft SQL Server 2000 auf Microsoft SQL Server 2005</simpara>
 </listitem>
 <listitem>
 <simpara>Situations- und Bedarfsanalyse der Anforderungen von Fachanwendern</simpara>
@@ -1041,13 +1759,41 @@ Wirtschaftsinformatik (WI 2017), St. Gallen, S. 1205-1219</simpara>
 </listitem>
 </itemizedlist>
 <simpara>Anforderungsanalyse, Konzeption, Kommunikation mit Fachbereich, Entwicklung, Dokumentation, Test, Performance Optimierung, Wartung, Beratung, Berichtswesen</simpara>
-<simpara>Microsoft SQL Server 2000 (relational, MSAS, DTS), Microsoft SQL Server 2005 (relational, SSAS, SSIS, SSRS), MIS Plain, Datawarehouse Explorer</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Microsoft SQL Server 2000 (relational, MSAS, DTS) (on-premise)</simpara>
+</listitem>
+<listitem>
+<simpara>Microsoft SQL Server 2005 (relational, SSAS, SSIS, SSRS) (on-premise)</simpara>
+</listitem>
+<listitem>
+<simpara>MIS Plain</simpara>
+</listitem>
+<listitem>
+<simpara>Datawarehouse Explorer</simpara>
+</listitem>
+<listitem>
+<simpara>Subversion</simpara>
+</listitem>
+</itemizedlist>
 </section>
 </section>
 <section xml:id="_092004_102004_id_gmbh">
 <title>09/2004 - 10/2004; ID GmbH</title>
+<variablelist>
+<varlistentry>
+<term>Branche</term>
+<listitem>
+<simpara>Gesundheitswesen, Krankenhaus</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Größe</term>
+<listitem>
 <simpara>10-50 Mitarbeiter</simpara>
-<simpara>Sonstiges</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
 <section xml:id="_entwicklung_eines_analytischen_zusatzmoduls_für_einen_drg_grouper_inklusive_szenarien_und_kostenmodul_microsoft_bi_architekt_und_entwickler">
 <title>Entwicklung eines analytischen Zusatzmoduls für einen DRG-Grouper, inklusive Szenarien und Kostenmodul: Microsoft BI Architekt und Entwickler</title>
 <simpara>Datenquellen:</simpara>
@@ -1064,14 +1810,34 @@ Wirtschaftsinformatik (WI 2017), St. Gallen, S. 1205-1219</simpara>
 <listitem>
 <simpara>zusätzlich optional fallbezogene Kosten-Daten</simpara>
 </listitem>
+<listitem>
+<simpara>Microsoft SQL Server 2000 (relational, DTS, MSAS) (on-premise)</simpara>
+</listitem>
+<listitem>
+<simpara>Excel</simpara>
+</listitem>
+<listitem>
+<simpara>Cubeware Analysesystem</simpara>
+</listitem>
 </itemizedlist>
-<simpara>Microsoft SQL Server 2000 (relational, DTS, MSAS), Excel, Cubeware Analysesystem</simpara>
 </section>
 </section>
 <section xml:id="_091999_092004_mis_gmbh">
 <title>09/1999 - 09/2004; MIS GmbH</title>
+<variablelist>
+<varlistentry>
+<term>Brache</term>
+<listitem>
+<simpara>Beratung</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Größe</term>
+<listitem>
 <simpara>500-1000 Mitarbeiter</simpara>
-<simpara>Sonstiges</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
 <section xml:id="_angestellter_bi_architekt_und_entwickler">
 <title>angestellter BI Architekt und Entwickler</title>
 <simpara>Projektinhalte:</simpara>
@@ -1137,14 +1903,26 @@ Wirtschaftsinformatik (WI 2017), St. Gallen, S. 1205-1219</simpara>
 <simpara>21 Daten, IMC Daten; Bewertungsdaten von DRG-Groupern; zusätzlich optional fallbezogene Kosten-Leistungsdaten</simpara>
 </listitem>
 </itemizedlist>
-<simpara>Datawarehouse: Microsoft SQL Server</simpara>
+<simpara>Datawarehouse: Microsoft SQL Server (on-premise)</simpara>
 <simpara>ETL: TSQL, DTS</simpara>
 <simpara>OLAP-Datenbanken: Microsoft Analysis Services (MSAS), MIS Alea</simpara>
 </section>
 <section xml:id="_052001_052004_medienhaus_aschendorff_über_mis_gmbh">
 <title>05/2001 - 05/2004; Medienhaus Aschendorff (über MIS GmbH)</title>
-<simpara>500-1000 Mitarbeiter</simpara>
+<variablelist>
+<varlistentry>
+<term>Branche</term>
+<listitem>
 <simpara>Medien und Verlage</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Größe</term>
+<listitem>
+<simpara>500-1000 Mitarbeiter</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
 <section xml:id="_konzeption_und_implementierung_eines_anzeigeninformationssystems_ais_angestellter_bi_architekt_und_entwickler">
 <title>Konzeption und Implementierung eines Anzeigeninformationssystems (AIS): angestellter BI Architekt und Entwickler</title>
 <simpara>Konzeption und Implementierung eines Anzeigeninformationssystems (AIS)</simpara>
@@ -1158,10 +1936,30 @@ Wirtschaftsinformatik (WI 2017), St. Gallen, S. 1205-1219</simpara>
 </section>
 <section xml:id="_012004_052004_mis_gmbh">
 <title>01/2004 - 05/2004; MIS GmbH</title>
+<variablelist>
+<varlistentry>
+<term>Branche</term>
+<listitem>
+<simpara>Beratung</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Größe</term>
+<listitem>
 <simpara>250-500 Mitarbeiter</simpara>
-<simpara>Sonstiges</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
 <section xml:id="_konzeption_und_umsetzung_der_21_drg_analyse_für_krankenhäuser">
 <title>Konzeption und Umsetzung der "§21-DRG-Analyse" (für Krankenhäuser)</title>
+<variablelist>
+<varlistentry>
+<term>Branche</term>
+<listitem>
+<simpara>Gesundheitswesen, Krankenhaus</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
 <simpara>Datenquellen: §21 Daten, IMC Daten; Bewertungsdaten von DRG-Groupern; zusätzlich optional fallbezogene Kosten- Leistungsdaten</simpara>
 <simpara>Datawarehouse: Microsoft SQL Server</simpara>
 <simpara>ETL: TSQL, DTS</simpara>
@@ -1171,8 +1969,20 @@ Wirtschaftsinformatik (WI 2017), St. Gallen, S. 1205-1219</simpara>
 </section>
 <section xml:id="_012004_042004_vze_verein_zur_errichtung_evangelischer_krankenhäuser">
 <title>01/2004 - 04/2004; VzE - Verein zur Errichtung evangelischer Krankenhäuser</title>
+<variablelist>
+<varlistentry>
+<term>Branche</term>
+<listitem>
+<simpara>Gesundheitswesen, Krankenhaus</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Größe</term>
+<listitem>
 <simpara>5000-10.000 Mitarbeiter</simpara>
-<simpara>Sonstiges</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
 <section xml:id="_medizincontrolling_drg_controlling_und_berichtswesen_konzeption_modellierung_und_betreuung_der_relationalen_und_analytischen_datenbanken_und_der_dazugehörigen_etl_prozesse">
 <title>Medizincontrolling, DRG-Controlling und -Berichtswesen Konzeption, Modellierung und Betreuung der relationalen und analytischen Datenbanken und der dazugehörigen ETL-Prozesse</title>
 <simpara>Coaching bei der Verwendung verschiedener Benutzerschnittstellen (Frontends) (MIS Plain, MIS Onvision) zur Erstellung des Berichtswesens.</simpara>
@@ -1186,8 +1996,20 @@ Wirtschaftsinformatik (WI 2017), St. Gallen, S. 1205-1219</simpara>
 </section>
 <section xml:id="_092001_122003_kcc_über_mis_gmbh">
 <title>09/2001 - 12/2003; KCC (über MIS GmbH)</title>
+<variablelist>
+<varlistentry>
+<term>Branche</term>
+<listitem>
+<simpara>Gesundheitswesen, Krankenhaus</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Größe</term>
+<listitem>
 <simpara>10-50 Mitarbeiter</simpara>
-<simpara>Sonstiges</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
 <section xml:id="_branche_krankenhäuser_konzeption_entwicklung_und_betreuung_der_drc_diagnosis_related_costs_für_verschiedene_darstellungen_der_kostenträgerrechnung_gemeinsam_mit_einem_partner_der_mis">
 <title>(Branche Krankenhäuser) Konzeption, Entwicklung und Betreuung der "DRC" (Diagnosis Related Costs) für verschiedene Darstellungen der Kostenträgerrechnung. Gemeinsam mit einem Partner der MIS</title>
 <simpara>So wie es sich bei den DRG&#8217;s um Erlöse handelt, ermöglichen die DRC&#8217;s eine strukturidentische Gegenkalkulation der Kosten.</simpara>
@@ -1202,7 +2024,14 @@ Wirtschaftsinformatik (WI 2017), St. Gallen, S. 1205-1219</simpara>
 </section>
 <section xml:id="_092000_032002_märkische_oderzeitung_über_mis_gmbh">
 <title>09/2000 - 03/2002; Märkische Oderzeitung (über MIS GmbH)</title>
+<variablelist>
+<varlistentry>
+<term>Branche</term>
+<listitem>
 <simpara>Medien und Verlage</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
 <section xml:id="_anzeigeninformationssystem_ais_basierend_auf_daten_aus_viva">
 <title>Anzeigeninformationssystem (AIS), basierend auf Daten aus VI&amp;VA</title>
 <simpara>Datenquellen: SAP, VI&amp;VA.</simpara>
@@ -1213,8 +2042,20 @@ Wirtschaftsinformatik (WI 2017), St. Gallen, S. 1205-1219</simpara>
 </section>
 <section xml:id="_012001_122001_mis_gmbh">
 <title>01/2001 - 12/2001; MIS GmbH</title>
+<variablelist>
+<varlistentry>
+<term>Branche</term>
+<listitem>
+<simpara>Gesundheitswesen, Krankenhaus</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Größe</term>
+<listitem>
 <simpara>250-500 Mitarbeiter</simpara>
-<simpara>Sonstiges</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
 <section xml:id="_konzeption_und_umsetzung_der_mis_business_solution_krankenhäuser">
 <title>Konzeption und Umsetzung der "MIS Business Solution Krankenhäuser"</title>
 <simpara>Datawarehouse: Microsoft SQL Server</simpara>
@@ -1224,8 +2065,20 @@ Wirtschaftsinformatik (WI 2017), St. Gallen, S. 1205-1219</simpara>
 </section>
 <section xml:id="_121999_092000_deutsche_telekom_über_mis_gmbh">
 <title>12/1999 - 09/2000; Deutsche Telekom (über MIS GmbH)</title>
-<simpara>&gt;10.000 Mitarbeiter</simpara>
+<variablelist>
+<varlistentry>
+<term>Branche</term>
+<listitem>
 <simpara>Telekommunikation</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Größe</term>
+<listitem>
+<simpara>&gt;10.000 Mitarbeiter</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
 <section xml:id="_umstellung_einer_analytischen_anwendung_von_mis_alea_auf_ms_analysis_services_bzw_damals_noch_ms_olap_services_unter_beibehaltung_des_bestehenden_berichtswesens_und_andere_anpassungen">
 <title>Umstellung einer analytischen Anwendung von MIS Alea auf MS Analysis Services (bzw. damals noch MS OLAP Services) unter Beibehaltung des bestehenden Berichtswesens und andere Anpassungen</title>
 <simpara>technische Projektleitung</simpara>
@@ -1241,8 +2094,8 @@ Wirtschaftsinformatik (WI 2017), St. Gallen, S. 1205-1219</simpara>
 </section>
 </section>
 </section>
-<section xml:id="_referenzen_bewertungen_für_germo_görtz">
-<title>Referenzen / Bewertungen für Germo Görtz</title>
+<section xml:id="_referenzen_bewertungen">
+<title>Referenzen / Bewertungen</title>
 <section xml:id="_würth_logistics_ag">
 <title>Würth Logistics AG</title>
 <blockquote>

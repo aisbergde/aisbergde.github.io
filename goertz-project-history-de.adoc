@@ -1,49 +1,101 @@
-= Projekthistorie Germo Görtz (de)
+= Projekthistorie
 :tags: ["Projekthistorie"]
 
 zeitlich sortiert nach Projekt-Ende
 
 == 05/2022 - bis jetzt; Nomura Asset Management Europe KVG mbH
 
-* Aufbau neues DWH, Migration aus altem DWH
+Branche:: Banken und Finanzdienstleistungen
+
+=== Aufbau neues DWH, Migration aus altem DWH
+
 * DWH und ELT werden mit AnalyticsCreator erstellt
+* Microsoft SQL Server (on-premise)
+* AnalyticsCreator
+* DataHandwerk
+* Antora
+* git
 
 == 09/2019 - bis jetzt; iconcare (BInovis & Visality)
 
-10-50 Mitarbeiter
+Branche:: Gesundheitswesen, Krankenhaus, Logistik
 
-Sonstiges
+Größe:: 10-50 Mitarbeiter
 
 === Microsoft BI Architekt und Entwickler
 
-* EventAnalytics +
+==== EventAnalytics
+
 Prozess- und Zeitanalysen in Krankenhäusern (beispielsweise OP Zeiten, OP Wechselzeiten, OP Auslastung, Personal Auslastung)
-* Healthcare-Control-Center-Tool +
+
+==== Healthcare-Control-Center-Tool
+
 Übertragung von Steuerungsmethoden aus der Aviation-Branche in ein innovatives IT-Tool zur Planung, Steuerung und Optimierung von Krankenhaus-Prozessen
 
 http://www.visality.de/healthcarecontrolcenter.html?&L=0%22Dirk
 
-* smarte Stromzähler, Zeitanalysen von Stromverbräuchen
-** IoT
-** SQL Server, Python
+==== smarte Stromzähler, Zeitanalysen von Stromverbräuchen, IoT
+
+* IoT
+* Microsoft SQL Server (on-premise)
+* Python
+
+==== Tools
+
+* Python
+* Microsoft SQL Server (on-premise)
+* Power BI
+* Deltamaster
+* DataHandwerk
+* Antora
+* git
 
 == 08/2021 - 06/2022; SYSKRON - im House of Krones
 
-* Unterstützung im Bereich MS SQL Server / BI
+Branche:: Industrie und Maschinenbau
+
+Krones ist Weltmarktführer für Abfüllanlagen
+
+Größe:: > 10.000 Mitarbeiten
+
+=== Unterstützung im Bereich Microsoft SQL Server / BI
+
+* Microsoft SQL Server (on-premise)
+* Power BI
+* DataHandwerk
+* Antora
+* git
+* jira
 
 == 01/2022 - 04/2022; Roller
 
-* Unterstützung im Bereich MS SQL Server / BI
+Branche:: Konsumgüter und Handel
+
+=== Unterstützung im Bereich Microsoft SQL Server / BI
+
+* Microsoft SQL Server (on-premise)
+* Power BI
+* BimlExpress
+* git
 
 == 03/2022 - 04/2022; Betty Barclay
 
-* Unterstützung im Bereich MS SQL Server / BI
+Branche:: Konsumgüter und Handel
+
+Größe:: 1000 - 5000 Mitarbeiter
+
+=== Unterstützung im Bereich Microsoft SQL Server / BI
+
+* Microsoft SQL Server (on-premise)
+* Power BI
+* BimlExpress
+* git
 
 == 08/2021 - 12/2021; abcfinance
 
-500-1000 Mitarbeiter
+Branche:: Banken und Finanzdienstleistungen
 
-Banken und Finanzdienstleistungen
+Größe:: 500-1000 Mitarbeiter
 
 === Konzeption und PoC für eine «Source to target» - Dokumentation für das zentrale DWH über die verschiedenen Schichten (u. a. Data Vault, Starschema und tabulare Modelle)
 
@@ -51,12 +103,17 @@ Banken und Finanzdienstleistungen
 * Unterstützung bei Umsetzung der Lösung
 * Entwicklung entsprechender Prozesse/Workloads für die Erzeugung und Aktualisierung der Dokumentation
 * Einführung eines entsprechenden Werkzeugs
+* Microsoft SQL Server (on-premise)
+* DataHandwerk
+* Antora
+* git
+* TFVC
 
 == 04/2021 - 06/2021; Peter Hahn GmbH
 
->1.000 Mitarbeiter
+Branche:: Konsumgüter und Handel
 
-Handel (Bekleidung)
+Größe:: >1.000 Mitarbeiter
 
 === Power BI Expert
 
@@ -64,24 +121,31 @@ Handel (Bekleidung)
 * Beratung und Erstellung von Mappings & BI Umsetzungen +
 Umsetzen von Anforderungen in technische BI Lösungen
 * Zusammenarbeit mit anderen Teilprojekten und Zuarbeit von Ergebnissen
+* Microsoft SQL Server (on-premise)
+* Power BI
+* TFVC
 
 == 02/2020 - 03/2021; MEAG - Munich ERGO Assetmanagement GmbH
 
-500-1000 Mitarbeiter
+Branche:: Banken und Finanzdienstleistungen
 
-Banken und Finanzdienstleistungen
+Größe:: 500-1000 Mitarbeiter
 
 === Performancemessung Reporting: Microsoft BI Architekt und Entwickler
 
 * Entwicklung eines Reporting-Tools mittels Power BI, mit dem Ziel der automatisierten Report-Erstellung aus Sim Corp Dimension anstelle des bisherigen Reportings mittels Excel-Sheets.
 * DWH, ELT und SSAS werden mit AnalyticsCreator erstellt.
 * einzelne Module mit Python, Powershell
+* Microsoft SQL Server (on-premise)
+* AnalyticsCreator
+* Power BI
+* git
 
 == 09/2019 -- 03/2020; Swisscom
 
->10.000 Mitarbeiter
+Branche:: Telekommunikation
 
-Telekommunikation
+Größe:: >10.000 Mitarbeiter
 
 === Import und Verarbeitung von Daten aus Service Now für ein Reporting, Erstellung DWH mit AnalyticsCreator, Berichte mit Power BI
 
@@ -90,12 +154,16 @@ Telekommunikation
 * Analytische Datenbank mit SSAS
 * Berichte im Power BI
 * DWH, ELT und SSAS werden mit AnalyticsCreator erstellt
+* Microsoft SQL Server (on-premise)
+* AnalyticsCreator
+* git
+* jira
 
 == 11/2010 - 12/2019; DRK Kliniken Berlin
 
-1000-5000 Mitarbeiter
+Branche:: Gesundheitswesen, Krankenhaus
 
-Sonstiges
+Größe:: 1000-5000 Mitarbeiter
 
 === Krankenhaus DWH: Microsoft BI Architekt und Entwickler
 
@@ -122,15 +190,18 @@ Kenntnisse:
 
 Produkte:
 
-* Microsoft SQL Server 2008 R2 (relational, SSAS, SSIS, SSRS), Microsoft Access, Cubeplayer
+* Microsoft SQL Server 2008 R2 on-premise (relational, SSAS, SSIS, SSRS)
+* Microsoft Access
+* Cubeplayer
+* Subversion
 
 Aktuell: regelmäßiger Support, um das System "am Laufen zu halten", bis irgendwann die vollständige Migration in ein klinisches DWH des KISAnbieters abgeschlossen sein wird.
 
 == 11/2019 - 12/2019; Würth Logistics AG
 
-50-250 Mitarbeiter
+Branche:: Transport und Logistik
 
-Transport und Logistik
+Größe:: 50-250 Mitarbeiter
 
 === Erstellung eines DWH mit dem AnalyticsCreator
 
@@ -144,25 +215,32 @@ Datenquelle:
 
 Das schweizer Logistik-Unternehmen ist zuständig für die weltweite Koordination der Logistik eines deutschen Großkonzerns, des Weltmarktführers für den Vertrieb von Montage- und Befestigungsmaterial.
 
+* Microsoft SQL Server (on-premise)
+* AnalyticsCreator
+* git
+
 == 10/2018 - 09/2019; Provinzial Nord-West
 
-5000-10.000 Mitarbeiter
+Branche:: Versicherungen
 
-Versicherungen
+Größe:: 5000-10.000 Mitarbeiter
 
 === Aufbau neues DWH: Microsoft BI Architekt und Entwickler, Microsoft BI-Analyse-Plattform, Analyticscreator
 
 Aufbau eines neuen DWH, gehostet auf Microsoft Azure, basierend auf Microsoft SQL BI Technologien
 
-Microsoft SQL Server (relational, SSAS, SSIS), Power BI, AnalyticsCreator
-
-Big Data
+* Microsoft SQL Server (relational, SSAS, SSIS) on-premise und Azure Cloud
+* Power BI
+* AnalyticsCreator
+* Big Data
+* jira
+* git
 
 == 08/2018 - 10/2018; ZEISS Group
 
->10.000 Mitarbeiter
+Branche:: Industrie und Maschinenbau
 
-Industrie und Maschinenbau
+Größe:: >10.000 Mitarbeiter
 
 === Durchlaufzeiten von Produktionsschritten: Microsoft BI Architekt und Entwickler, Microsoft BI-Analyse-Plattform, Analyticscreator
 
@@ -170,33 +248,43 @@ Industrie und Maschinenbau
 * Re-Design einer bestehenden Power BI Lösung: Konvertierung in DWH + SSAS Tabular zwecks Performance-Optimierung und Verbesserung der Auswertungsmöglichkeiten.
 * Kombination von Logik im DWH (Microsoft SQL Server) und in SSAS Tabular
 * DWH, ELT und SSAS werden mit AnalyticsCreator erstellt.
+* Microsoft SQL Server (on-premise)
+* AnalyticsCreator
+* Power BI
+* TFVC
+* git
 
-andere Projekte:
+=== Microsoft Azure - Unterstützung bei Verwendung von Azure Diensten, Migration von SSAS Lösungen zu Azure, ETL / ELT, diverses
 
-* Microsoft Azure - Unterstützung bei Verwendung von Azure Diensten, Migration von SSAS Lösungen zu Azure, ETL / ELT, diverses
+* SQL Server (on-premise und Azure Cloud)
 
 == 03/2016 - 09/2018; ZEISS Group
 
->10.000 Mitarbeiter
+Branche:: Industrie und Maschinenbau
 
-Industrie und Maschinenbau
+Größe:: >10.000 Mitarbeiter
+
+* Microsoft SQL Server (on-premise)
 
 === BICC (BI Competence Center) - Dashboards mit Datazen, Microsoft BI-Analyse- Plattform: Microsoft BI Architekt und Entwickler
 
 * ETL, DWH und Berichte: Dashboards für das Projekt-Controlling mit Datazen
 * Import von Daten aus SAP und Essbase
+* SAP-Anbindung mit cMORE/Connect for SAP (basiert auf Theobald SAP Integration)
 
 Produkte:
 
-* Datazen, Microsoft SQL Server (relational)
+* Datazen
+* Microsoft SQL Server (on-premise)
+* TFVC
 
 Kernprojekt 03.2016 - 04.0216, Danach bis 09.2018 laufender Support bis und einschließlich Migration auf ServiceNow
 
 == 11/2017 - 07/2018; Adecco Germany Holding SA & Co. KG
 
->10.000 Mitarbeiter
+Branche:: Personaldienstleiter
 
-Sonstiges
+Größe:: >10.000 Mitarbeiter
 
 === "Candidate-Cube": Microsoft BI Architekt und Entwickler, Microsoft BI-Analyse-Plattform, Analyticscreator
 
@@ -213,74 +301,91 @@ Das bestehende Datawarehouse soll um ein "Candidate-Cube" erweitert werden:
 
 Produkte:
 
-* Microsoft SQL Server (relational, SSAS, SSIS), Power BI, AnalyticsCreator
+* Microsoft SQL Server (relational, SSAS, SSIS) on-premise
+* Power BI
+* AnalyticsCreator
+* TFVC
 
 == 05/2017 - 11/2017; Adam Opel GmbH
 
->10.000 Mitarbeiter
+Branche:: Automobil und Fahrzeugbau
 
-Automobil und Fahrzeugbau
+Größe:: >10.000 Mitarbeiter
 
 === Churn-Prevention: Microsoft BI Architekt und Entwickler, Microsoft BI-Analyse-Plattform, Analyticscreator
 
 * Vorhersage von Churn-Quoten (Wechsel zu anderen Herstellern), Auswertungen
 * Data Vault, Data Mining, Prediction
-* Microsoft SQL Server (relational, SSAS, SSIS), Power BI, AnalyticsCreator
-* DWH, ELT und SSAS werden mit AnalyticsCreator erstellt.
+* Microsoft SQL Server (relational, SSAS, SSIS) on-premise
+* Power BI
+* AnalyticsCreator
+* DWH, ELT und SSAS werden mit AnalyticsCreator erstellt
+* TFVC oder git
 
 == 07/2016 - 06/2017; Kelvion
 
-1000-5000 Mitarbeiter
+Branche:: Industrie und Maschinenbau
 
-Industrie und Maschinenbau
+Größe:: 1000-5000 Mitarbeiter
 
 === SSAS Datenbanken für Planungssystem im Zusammenhang mit Tagetik: Microsoft BI Architekt und Entwickler, Microsoft BI-Analyse-Plattform
 
-Microsoft SQL Server 2016 (relational, SSAS, SSIS, SSRS), cMORE/Connect for SAP, cMORE/XL (XLCubed), Targit
+* Microsoft SQL Server 2016 (relational, SSAS, SSIS, SSRS) on-premise
+* cMORE/Connect for SAP (basiert auf Theobald SAP Integration)
+* cMORE/XL (XLCubed)
+* Targit
+* Power BI
+* git
 
 == 04/2017 - 05/2017; Kuhn und Bülow Versicherungsmakler Group
 
-10-50 Mitarbeiter
+Branche:: Versicherungen
 
-Versicherungen
+Größe:: 10-50 Mitarbeiter
 
 === Berichtswesen und Statistiken mit Power BI
 
 Grundlagen für Statistiken und Berichte erstellen, um basierend auf Daten des operativen Systems Auswertungen nach Versicherungsnehmern, Versicherern, Schäden und Prämien zu ermöglichen.
 
+* Power BI
+* TFVC
+
 == 09/2016 - 12/2016; airberlin
 
-5000-10.000 Mitarbeiter
+Branche:: Transport und Logistik
 
-Transport und Logistik
+Größe:: 5000-10.000 Mitarbeiter
 
 === Customer Segmentation, Ancillaries: Microsoft BI Architekt und Entwickler
 
-Microsoft SQL Server 2014 (relational, SSAS, SSIS)
+* Microsoft SQL Server 2014 (relational, SSAS, SSIS) on-premise
+* jira
+* TFVC
 
 == 06/2016 - 07/2016; proXcel GmbH
 
 10-50 Mitarbeiter
 
-Sonstiges
+Branche:: Beratung
 
 === Unterstützung bei Analyse, Bearbeitung und Auswertung komplexer Datenpakete eines Produktionsprozesses mit Microsoft-BI-Analyse-Plattform, Data Mining
 
 == 05/2016 - 05/2016; Heraeus Kulzer
 
-1000-5000 Mitarbeiter
+Branche:: Industrie und Maschinenbau
 
-Industrie und Maschinenbau
+Größe:: 1000-5000 Mitarbeiter
 
 === BI Support, Microsoft BI-Analyse-Plattform
 
-Microsoft SQL Server (relational, SSAS, SSIS)
+* Microsoft SQL Server (relational, SSAS, SSIS) on-premise
+* TFVC
 
 == 06/2015 - 03/2016; Volkswagen Gebrauchtfahrzeughandels und Service GmbH (VGSG)
 
->10.000 Mitarbeiter
+Branche:: Automobil und Fahrzeugbau
 
-Automobil und Fahrzeugbau
+Größe:: >10.000 Mitarbeiter
 
 === BI Competence Center Volkswagen Nutzfahrzeuge, Datamining, neuronale Netze, Visualisierung, Microsoft BI-Analyse-Plattform: Microsoft BI Architekt und Entwickler
 
@@ -293,7 +398,9 @@ DML: Data Mining Leasing, DM VGSG - Data Mining VGSG (junge Gebrauchte)
 * PuRAS: Profitabilitäts- und Rechnungsanalyse After Sales
 * Stammdaten-Management
 * Visualisierungen mit Tableau
-* BI Entwicklung mit Microsoft SQL Server (relational, SSAS, SSIS), Wherescape.
+* BI Entwicklung mit Microsoft SQL Server (relational, SSAS, SSIS) on-premise
+* Wherescape
+* TFVC oder jira
 
 der wissenschaftliche Hintergrund wird hier genauer erklärt: +
 https://www.wi2017.ch/images/wi2017-0173.pdf +
@@ -304,9 +411,9 @@ Wirtschaftsinformatik (WI 2017), St. Gallen, S. 1205-1219
 
 == 08/2012 - 05/2015; Henkel AG & Co. KGaA
 
->10.000 Mitarbeiter
+Branche:: Konsumgüter und Handel
 
-Konsumgüter und Handel
+Größe:: >10.000 Mitarbeiter
 
 === SCOUT (= Supply Chain Optimization Unified Toolbox), Microsoft BI-Analyse- Plattform: Microsoft BI Architekt und Entwickler
 
@@ -318,17 +425,22 @@ Konsumgüter und Handel
 * Days of Supply
 * Slow Mover Detection for financial devaluation
 
-Migration und vor allem Erweiterung einer Anwendung von SAP BW auf MS SQL Server
+Migration und vor allem Erweiterung einer Anwendung von SAP BW auf Microsoft SQL Server
 
-BI Design und Entwicklung mit Microsoft SQL Server 2012
+BI Design und Entwicklung mit Microsoft SQL Server 2012 on-premise
 
 Hauptfokus: SSAS, Datamart, auch SSIS
 
+* Berichtswesen mit XLCubed
+* SAP-Anbindung mit cMORE/Connect for SAP (basiert auf Theobald SAP Integration)
+* TFVC
+
+
 == 10/2005 - 08/2012; Bezirkskliniken Mittelfranken, Ansbach
 
-1000-5000 Mitarbeiter
+Branche:: Gesundheitswesen, Krankenhaus
 
-Sonstiges
+Größe:: 1000-5000 Mitarbeiter
 
 === Krankenhaus: Konzeption und Realisierung analytischer Anwendungen für das Controlling und Personalwesen, Microsoft BI-Analyse-Plattform: Microsoft BI Architekt und Entwickler
 
@@ -344,7 +456,7 @@ Konzeption und Realisierung analytischer Anwendungen für:
 
 laufende Betreuung
 
-Migration MS SQL Server 2000 auf MS SQL Server 2005 bzw. 2008
+Migration Microsoft SQL Server 2000 auf Microsoft SQL Server 2005 bzw. 2008 (on-premise)
 
 Datenquellen:
 
@@ -355,9 +467,9 @@ Datenquellen:
 
 == 02/2011 - 05/2012; Nestlé Suisse S.A
 
->10.000 Mitarbeiter
+Branche:: Konsumgüter und Handel
 
-Konsumgüter und Handel
+Größe:: >10.000 Mitarbeiter
 
 === Dynamic Planning Framework - Dynamic Forecast: Microsoft BI Architekt und Entwickler
 
@@ -366,23 +478,26 @@ Konsumgüter und Handel
 
 Anforderungsanalyse, Konzeption, Kommunikation mit Fachbereich, Entwicklung, Dokumentation, Test, Performance Optimierung, Wartung, Beratung
 
-Microsoft SQL Server 2005, MS SQL Server 2008 R2
+Microsoft SQL Server 2005, Microsoft SQL Server 2008 R2 (on-premise)
 
 == 10/2011 - 04/2012; MTS (Mobile TeleSystems OJSC), Moskau (Russland)
 
->10.000 Mitarbeiter
+Branche:: Telekommunikation
 
-Telekommunikation
+Größe:: >10.000 Mitarbeiter
 
 === Einkaufscontrolling - Procurement Performance Management (PPM), Spend Control, Supplier Consolidation: BI Entwickler
 
 * Procurement Performance Management (PPM)
 * Spend Control
 * Supplier Consolidation
+* Microsoft SQL Server (on-premise) und SSAS
 
 Details: http://www.orpheus-it.com/
 
 == 10/2005 - 12/2011; HGC GesundheitsConsult GmbH
+
+Branche:: Gesundheitswesen, Krankenhaus
 
 === freie Mitarbeit als Experte für Geschäftsanalyse (BI) in Krankenhäusern, Microsoft BI-Analyse-Plattform: Microsoft BI Architekt und Entwickler
 
@@ -409,13 +524,15 @@ Datenquellen:
 
 * diverse (SAP, ORBIS, Textdateien, Excel, ...)
 
-Microsoft SQL Server (2000, 2005, 2008) relational, MSAS, SSAS, DTS, SSIS, Bissantz Deltamaster
+* Microsoft SQL Server (2000, 2005, 2008) relational, MSAS, SSAS, DTS, SSIS (on-premise)
+* Bissantz Deltamaster
+* Subversion
 
 == 11/2010 - 02/2011; otto group
 
 >10.000 Mitarbeiter
 
-Konsumgüter und Handel
+Branche:: Konsumgüter und Handel
 
 === P4P CoreDWH - Datamarts/Reports, Microsoft BI-Analyse-Plattform: Microsoft BI Architekt und Entwickler
 
@@ -427,13 +544,13 @@ BI Konzeption, Design und Entwicklung mit Microsoft SQL Server
 
 Anforderungsanalyse, Konzeption, Kommunikation mit Fachbereich, Entwicklung, Dokumentation, Test, Performance Optimierung, Wartung, Beratung, Berichtswesen
 
-Microsoft SQL Server 2008 R2 (relational, SSAS, SSIS)
+Microsoft SQL Server 2008 R2 (relational, SSAS, SSIS) (on-premise)
 
 == 09/2010 - 11/2010; Krones AG
 
->10.000 Mitarbeiter
+Branche:: Industrie und Maschinenbau
 
-Industrie und Maschinenbau
+Größe:: >10.000 Mitarbeiter
 
 === Migration Auftragseingangsstatistik von SAP BW auf Microsoft SQL Server: Microsoft BI Architekt und Entwickler
 
@@ -441,9 +558,15 @@ BI Design und Entwicklung mit Microsoft SQL Server
 
 Anforderungsanalyse
 
-Microsoft SQL Server 2008 R2 (relational, SSAS, SSIS)
+* Microsoft SQL Server 2008 R2 (relational, SSAS, SSIS) (on-premise)
+* SAP-Anbindung mit cMORE/Connect for SAP (basiert auf Theobald SAP Integration)
+* TFVC (?)
 
 == 01/2010 - 08/2010; Henkel AG & Co. KGaA
+
+Branche:: Konsumgüter und Handel
+
+Größe:: >10.000 Mitarbeiter
 
 === GLOBIS (Global Business Information System), COLOR (Common Local Profitability Reporting), Microsoft BI-Analyse-Plattform: Microsoft BI Architekt und Entwickler
 
@@ -451,13 +574,13 @@ BI Design und Entwicklung mit Microsoft SQL Server
 
 Anforderungsanalyse
 
-Microsoft SQL Server 2008 R2 (relational, SSAS, SSIS)
+Microsoft SQL Server 2008 R2 (relational, SSAS, SSIS) (on-premise)
 
 == 01/2003 - 04/2010; Vivantes GmbH - Netzwerk für Gesundheit
 
->10.000 Mitarbeiter
+Branche:: Gesundheitswesen, Krankenhaus
 
-Sonstiges
+Größe:: >10.000 Mitarbeiter
 
 === Krankenhaus - zentralen Finanz- und DRG-Berichtswesen, Microsoft BI-Analyse-Plattform: Microsoft BI Architekt und Entwickler
 
@@ -477,7 +600,7 @@ Inhalte
 * Coaching bei der Verwendung der Benutzerschnittstellen (Frontends) zum Aufbau des Berichtswesens
 * laufende Betreuung
 * Durchführung von Schulungen und Trainings zur praktischen Arbeit mit den OLAP-Datenbanken
-* Migration MS SQL Server 2000 auf MS SQL Server 2005
+* Migration Microsoft SQL Server 2000 auf Microsoft SQL Server 2005
 
 Datenquellen:
 
@@ -489,13 +612,20 @@ Datenquellen:
 
 Anforderungsanalyse, Konzeption, Kommunikation mit Fachbereich, Entwicklung, Dokumentation, Test, Performance Optimierung, Wartung, Beratung, Berichtswesen
 
-Microsoft SQL Server 2000 (relational, MSAS, DTS), Microsoft SQL Server 2005 (relational, SSAS, SSIS), Bissantz Deltamaster, Softpro CubePlayer, MIS Plain, MIS Onvision, MIS Integration Framework
+* Microsoft SQL Server 2000 (relational, MSAS, DTS) (on-premise)
+* Microsoft SQL Server 2005 (relational, SSAS, SSIS) (on-premise)
+* Bissantz Deltamaster
+* Softpro CubePlayer
+* MIS Plain
+* MIS Onvision
+* MIS Integration Framework
+* Subversion
 
 == 10/2008 - 12/2009; Rudolf Wöhrl AG
 
-1000-5000 Mitarbeiter
+Branche:: Konsumgüter und Handel
 
-Konsumgüter und Handel
+Größe:: 1000-5000 Mitarbeiter
 
 === BI-Team (Controlling, Finanzen, IT), Microsoft BI-Analyse-Plattform: Microsoft BI Architekt und Entwickler
 
@@ -503,7 +633,9 @@ Projektinhalte:
 
 * Personalcontrolling
 * Personaleinsatzplanung
-* Migration MS SQL Server 2000, 2005 auf MS SQL Server 2008
+* Migration Microsoft SQL Server 2000, 2005 auf Microsoft SQL Server 2008 (on-premise)
+* Berichtswesen mit Bissantz Deltamaster
+* Subversion (?)
 
 Datenquellen:
 
@@ -511,19 +643,20 @@ Datenquellen:
 
 == 09/2005 - 01/2009; Landwirtschaftliche Rentenbank
 
-50-250 Mitarbeiter
+Branche:: Banken und Finanzdienstleistungen
 
-Banken und Finanzdienstleistungen
+Größe:: 50-250 Mitarbeiter
 
 === IT-Anwendungsentwicklung, Bereich "Datawarehouse und OLAP", Microsoft BI-Analyse-Plattform: Microsoft BI Architekt und Entwickler
 
 Projektinhalte:
 
-* Konzeption von Produktionseinsatzverfahren
-* Entwicklungsstandards
-* Testkonzepten
+* Konzeption 
+** Produktionseinsatzverfahren (Workflow, Verwendung von Subversion)
+** Entwicklungsstandards
+** Testkonzepten
 * Weiterentwicklung des Datawarehouse und der OLAP-Anwendungen
-* Migration SQL Server 2000 auf SQL Server 2005
+* Migration Microsoft SQL Server 2000 auf Microsoft SQL Server 2005
 * Situations- und Bedarfsanalyse der Anforderungen von Fachanwendern
 * Erarbeitung fachlicher und technischer Konzepte zur Umsetzung
 * Konzeption und Durchführung von Schulungen zur praktischen Arbeit mit den OLAP-Datenbanken
@@ -538,13 +671,17 @@ Datenquellen:
 
 Anforderungsanalyse, Konzeption, Kommunikation mit Fachbereich, Entwicklung, Dokumentation, Test, Performance Optimierung, Wartung, Beratung, Berichtswesen
 
-Microsoft SQL Server 2000 (relational, MSAS, DTS), Microsoft SQL Server 2005 (relational, SSAS, SSIS, SSRS), MIS Plain, Datawarehouse Explorer
+* Microsoft SQL Server 2000 (relational, MSAS, DTS) (on-premise)
+* Microsoft SQL Server 2005 (relational, SSAS, SSIS, SSRS) (on-premise)
+* MIS Plain
+* Datawarehouse Explorer
+* Subversion
 
 == 09/2004 - 10/2004; ID GmbH
 
-10-50 Mitarbeiter
+Branche:: Gesundheitswesen, Krankenhaus
 
-Sonstiges
+Größe:: 10-50 Mitarbeiter
 
 === Entwicklung eines analytischen Zusatzmoduls für einen DRG-Grouper, inklusive Szenarien und Kostenmodul: Microsoft BI Architekt und Entwickler
 
@@ -555,13 +692,15 @@ Datenquellen:
 * obige Quellen Input für DRG-Grouper
 * zusätzlich optional fallbezogene Kosten-Daten
 
-Microsoft SQL Server 2000 (relational, DTS, MSAS), Excel, Cubeware Analysesystem
+* Microsoft SQL Server 2000 (relational, DTS, MSAS) (on-premise)
+* Excel
+* Cubeware Analysesystem
 
 == 09/1999 - 09/2004; MIS GmbH
 
-500-1000 Mitarbeiter
+Brache:: Beratung
 
-Sonstiges
+Größe:: 500-1000 Mitarbeiter
 
 === angestellter BI Architekt und Entwickler
 
@@ -597,7 +736,7 @@ Datenquellen:
 
 * 21 Daten, IMC Daten; Bewertungsdaten von DRG-Groupern; zusätzlich optional fallbezogene Kosten-Leistungsdaten
 
-Datawarehouse: Microsoft SQL Server
+Datawarehouse: Microsoft SQL Server (on-premise)
 
 ETL: TSQL, DTS
 
@@ -605,9 +744,9 @@ OLAP-Datenbanken: Microsoft Analysis Services (MSAS), MIS Alea
 
 === 05/2001 - 05/2004; Medienhaus Aschendorff (über MIS GmbH)
 
-500-1000 Mitarbeiter
+Branche:: Medien und Verlage
 
-Medien und Verlage
+Größe:: 500-1000 Mitarbeiter
 
 ==== Konzeption und Implementierung eines Anzeigeninformationssystems (AIS): angestellter BI Architekt und Entwickler
 
@@ -627,11 +766,13 @@ Analytische Datenbank: Microsoft Analysis Services (MSAS)
 
 === 01/2004 - 05/2004; MIS GmbH
 
-250-500 Mitarbeiter
+Branche:: Beratung
 
-Sonstiges
+Größe:: 250-500 Mitarbeiter
 
 ==== Konzeption und Umsetzung der "§21-DRG-Analyse" (für Krankenhäuser)
+
+Branche:: Gesundheitswesen, Krankenhaus
 
 Datenquellen: §21 Daten, IMC Daten; Bewertungsdaten von DRG-Groupern; zusätzlich optional fallbezogene Kosten- Leistungsdaten
 
@@ -645,9 +786,9 @@ Benutzerschnittstellen (Frontends): MIS Onvision, MIS Plain
 
 === 01/2004 - 04/2004; VzE - Verein zur Errichtung evangelischer Krankenhäuser
 
-5000-10.000 Mitarbeiter
+Branche:: Gesundheitswesen, Krankenhaus
 
-Sonstiges
+Größe:: 5000-10.000 Mitarbeiter
 
 ==== Medizincontrolling, DRG-Controlling und -Berichtswesen Konzeption, Modellierung und Betreuung der relationalen und analytischen Datenbanken und der dazugehörigen ETL-Prozesse
 
@@ -667,9 +808,9 @@ Benutzerschnittstellen (Frontends): MIS Onvision, MIS Plain
 
 === 09/2001 - 12/2003; KCC (über MIS GmbH)
 
-10-50 Mitarbeiter
+Branche:: Gesundheitswesen, Krankenhaus
 
-Sonstiges
+Größe:: 10-50 Mitarbeiter
 
 ==== (Branche Krankenhäuser) Konzeption, Entwicklung und Betreuung der "DRC" (Diagnosis Related Costs) für verschiedene Darstellungen der Kostenträgerrechnung. Gemeinsam mit einem Partner der MIS
 
@@ -691,7 +832,7 @@ Benutzerschnittstellen (Frontends): MIS Onvision, MIS Plain
 
 === 09/2000 - 03/2002; Märkische Oderzeitung (über MIS GmbH)
 
-Medien und Verlage
+Branche:: Medien und Verlage
 
 ==== Anzeigeninformationssystem (AIS), basierend auf Daten aus VI&VA
 
@@ -705,9 +846,9 @@ Frontend: MIS Alea Excel Integration
 
 === 01/2001 - 12/2001; MIS GmbH
 
-250-500 Mitarbeiter
+Branche:: Gesundheitswesen, Krankenhaus
 
-Sonstiges
+Größe:: 250-500 Mitarbeiter
 
 ==== Konzeption und Umsetzung der "MIS Business Solution Krankenhäuser"
 
@@ -719,9 +860,9 @@ analytische Datenbanken: MIS Alea, Microsoft Analysis Services (MSAS)
 
 === 12/1999 - 09/2000; Deutsche Telekom (über MIS GmbH)
 
->10.000 Mitarbeiter
+Branche:: Telekommunikation
 
-Telekommunikation
+Größe:: >10.000 Mitarbeiter
 
 ==== Umstellung einer analytischen Anwendung von MIS Alea auf MS Analysis Services (bzw. damals noch MS OLAP Services) unter Beibehaltung des bestehenden Berichtswesens und andere Anpassungen
 
