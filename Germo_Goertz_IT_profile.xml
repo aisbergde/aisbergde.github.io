@@ -247,6 +247,12 @@ analytisch, exakt, verantwortungsbewusst, selbständig, schnell, effektiv und ef
 <simpara>Banken und Finanzdienstleistungen</simpara>
 </listitem>
 </varlistentry>
+<varlistentry>
+<term>Größe</term>
+<listitem>
+<simpara>10-50 Mitarbeiter</simpara>
+</listitem>
+</varlistentry>
 </variablelist>
 <section xml:id="_aufbau_neues_dwh_migration_aus_altem_dwh">
 <title>Aufbau neues DWH, Migration aus altem DWH</title>
@@ -356,7 +362,7 @@ analytisch, exakt, verantwortungsbewusst, selbständig, schnell, effektiv und ef
 <varlistentry>
 <term>Größe</term>
 <listitem>
-<simpara>&gt; 10.000 Mitarbeiten</simpara>
+<simpara>&gt; 10.000 Mitarbeiter (Krones)</simpara>
 </listitem>
 </varlistentry>
 </variablelist>
@@ -1103,12 +1109,17 @@ Umsetzen von Anforderungen in technische BI Lösungen</simpara>
 </section>
 <section xml:id="_062016_072016_proxcel_gmbh">
 <title>06/2016 - 07/2016; proXcel GmbH</title>
-<simpara>10-50 Mitarbeiter</simpara>
 <variablelist>
 <varlistentry>
 <term>Branche</term>
 <listitem>
 <simpara>Beratung</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Größe</term>
+<listitem>
+<simpara>10-50 Mitarbeiter</simpara>
 </listitem>
 </varlistentry>
 </variablelist>
@@ -1389,6 +1400,12 @@ Wirtschaftsinformatik (WI 2017), St. Gallen, S. 1205-1219</simpara>
 <term>Branche</term>
 <listitem>
 <simpara>Gesundheitswesen, Krankenhaus</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Größe</term>
+<listitem>
+<simpara>10-50 Mitarbeiter</simpara>
 </listitem>
 </varlistentry>
 </variablelist>
