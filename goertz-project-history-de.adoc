@@ -73,6 +73,8 @@ Größe:: > 10.000 Mitarbeiter (Krones)
 
 Branche:: Konsumgüter und Handel
 
+Größe:: ?
+
 === Unterstützung im Bereich Microsoft SQL Server / BI
 
 * Microsoft SQL Server (on-premise)

@@ -4,9 +4,9 @@
 <article xmlns="http://docbook.org/ns/docbook" xmlns:xl="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en">
 <info>
 <title>IT Profil Germo Görtz (de)</title>
-<date>2022-09-17</date>
+<date>2022-09-21</date>
 </info>
-<bridgehead xml:id="_microsoft_bi_architekt_entwickler_ms_sql_server_ssas_dwh_elt_statt_etl_automatisierte_dokumentation" renderas="sect2">Microsoft BI Architekt + Entwickler. MS SQL Server, SSAS, DWH, ELT statt ETL, automatisierte Dokumentation</bridgehead>
+<bridgehead xml:id="_microsoft_bi_architekt_entwickler_ms_sql_server_ssas_dwh_elt_statt_etl_automatisierte_dokumentation_datahandwerk_analyticscreator" renderas="sect2">Microsoft BI Architekt + Entwickler. MS SQL Server, SSAS, DWH, ELT statt ETL, automatisierte Dokumentation, DataHandwerk, AnalyticsCreator</bridgehead>
 <informaltable frame="none" rowsep="0" colsep="0">
 <tgroup cols="2">
 <colspec colname="col_1" colwidth="50*"/>
@@ -113,13 +113,13 @@
 <simpara>Implementierung von Geschäftsprozessen und -logiken</simpara>
 </listitem>
 <listitem>
-<simpara>automatisierte versionisierte Dokumentation mit <link xl:href="https://datahandwerk.gitlab.io/dhw/user-guide/documentation-generator.html/">DataHandwerk DocsGenerator</link><footnote xml:id="blog-docs"><simpara>Mehr zum Docs-as-Code im Blog-Artikel <link xl:href="https://datahandwerk.aisberg.de/2021-04-20-docs-code-mit-asciidoc-und-antora/">https://datahandwerk.aisberg.de/2021-04-20-docs-code-mit-asciidoc-und-antora/</link></simpara></footnote> (Kombination von technischer und fachlicher Dokumentation; <link xl:href="https://asciidoc.org/">AsciiDoc</link>, <link xl:href="https://antora.org/"><emphasis role="strong">Antora</emphasis> (Docs as Code)</link>)</simpara>
+<simpara>automatisierte versionisierte Dokumentation mit <link xl:href="https://datahandwerk.gitlab.io/dhw/user-guide/documentation-generator.html/">DataHandwerk DocsGenerator</link><footnote xml:id="blog-docs"><simpara>Mehr zum Docs-as-Code und meinem Dokumentationsgenerator: <link xl:href="https://datahandwerk.aisberg.de/2021-04-20-docs-code-mit-asciidoc-und-antora/">https://datahandwerk.aisberg.de/2021-04-20-docs-code-mit-asciidoc-und-antora/</link></simpara></footnote> (Kombination von technischer und fachlicher Dokumentation; <link xl:href="https://asciidoc.org/">AsciiDoc</link>, <link xl:href="https://antora.org/"><emphasis role="strong">Antora</emphasis> (Docs as Code)</link>)</simpara>
 </listitem>
 <listitem>
 <simpara>technische Umsetzung regulatorischer Anforderungen (Historisierung, Versionierung, Data Lineage, DSGVO, &#8230;&#8203;)</simpara>
 </listitem>
 <listitem>
-<simpara>Automatisierung (Import, ELT, Code-Generierung, DWH, Dokumentation)</simpara>
+<simpara>Automatisierung (Daten-Import und -Export, ELT, Code-Generierung, DWH, Dokumentation)</simpara>
 </listitem>
 <listitem>
 <simpara>unter Verwendung von <link xl:href="https://www.microsoft.com/de-de/sql-server/sql-server-2019"><emphasis role="strong">Microsoft SQL Server</emphasis></link>, einschließlich <link xl:href="https://docs.microsoft.com/de-de/analysis-services/analysis-services-overview?view=asallproducts-allversions"><emphasis role="strong">SSAS</emphasis> (SQL Server Analysis Services)</link>, <link xl:href="https://docs.microsoft.com/de-de/sql/integration-services/sql-server-integration-services?view=sql-server-ver15"><emphasis role="strong">SSIS</emphasis> (SQL Server Integration Services)</link>, <link xl:href="https://docs.microsoft.com/de-de/sql/reporting-services/create-deploy-and-manage-mobile-and-paginated-reports?view=sql-server-ver15">SSRS (SQL Server Reporting Services)</link> und verschiedener <link xl:href="https://azure.microsoft.com/de-de/">Microsoft Azure</link> Technologien</simpara>
@@ -128,20 +128,52 @@
 <simpara>und von Software und Technologie rund um die Microsoft BI Plattform oder zur Entwicklung</simpara>
 <itemizedlist>
 <listitem>
-<simpara><link xl:href="https://datahandwerk.gitlab.io"><emphasis role="strong">DataHandwerk-toolkit-mssql</emphasis></link><?asciidoc-br?>
-mein open source Projekt<footnote xml:id="blog-dhw"><simpara>Warum es das DataHandwerk Projekt gibt: im Blog-Artikel <link xl:href="https://datahandwerk.aisberg.de/2021-03-23-datahandwerk-toolkit-mssql/">https://datahandwerk.aisberg.de/2021-03-23-datahandwerk-toolkit-mssql/</link></simpara></footnote>, enthält auch einen Datenbank-Dokumentations-Generator</simpara>
+<simpara>Programmier- und Abfragesprachen für Datenbanken</simpara>
+<itemizedlist>
+<listitem>
+<simpara><link xl:href="https://de.wikipedia.org/wiki/Transact-SQL">Transact-SQL (T-SQL)</link></simpara>
 </listitem>
 <listitem>
-<simpara><link xl:href="https://azure.microsoft.com/de-de/services/devops/">Azure DevOps</link><?asciidoc-br?>
-Tool für DevOps, agiles Projekt-Controlling, Issue-Tracking, Code-Versionierung. Leider keine AsciiDoc-Unterstützung in Wiki oder Repository-Preview</simpara>
+<simpara><link xl:href="http://de.wikipedia.org/wiki/Multidimensional_Expressions">MDX (Multidimensional Expressions)</link></simpara>
 </listitem>
+<listitem>
+<simpara><link xl:href="https://docs.microsoft.com/de-de/dax/">DAX (Data Analysis Expressions)</link></simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara><link xl:href="https://datahandwerk.gitlab.io"><emphasis role="strong">DataHandwerk-toolkit-mssql</emphasis></link><?asciidoc-br?>
+mein open source Projekt<footnote xml:id="blog-dhw"><simpara>Warum es das DataHandwerk Projekt gibt: <link xl:href="https://datahandwerk.aisberg.de/2021-03-23-datahandwerk-toolkit-mssql/">https://datahandwerk.aisberg.de/2021-03-23-datahandwerk-toolkit-mssql/</link></simpara></footnote>, enthält auch einen Datenbank-Dokumentations-Generator</simpara>
+</listitem>
+<listitem>
+<simpara><link xl:href="https://git-scm.com/">git (Versionskontrollsystem)</link><?asciidoc-br?>
+alle meine Projekte werden grundsätzlich versionisiert, vorzugsweise auf <link xl:href="https://about.gitlab.com/">GitLab</link></simpara>
+</listitem>
+<listitem>
+<simpara>Software und Technologien zur Erstellung und Wartung von Dokumentationen</simpara>
+<itemizedlist>
+<listitem>
+<simpara><link xl:href="https://antora.org/">Antora (Docs as Code)</link><?asciidoc-br?>
+open Source Dokumentations-Framework, insbesondere für technische und versionisierte versionisierte Dokumentation</simpara>
+</listitem>
+<listitem>
+<simpara>basiert auf der Auszeichnungssprache <link xl:href="https://asciidoc.org/">AsciiDoc</link></simpara>
+</listitem>
+<listitem>
+<simpara>formalisierte Erstellung von Software Architektur Diagrammen mit <link xl:href="https://structurizr.com/">Structurizr</link> und <link xl:href="https://github.com/structurizr/cli">github.com/structurizr/cli</link></simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Frontends</simpara>
+<itemizedlist>
 <listitem>
 <simpara><link xl:href="https://powerbi.microsoft.com/de-de/">Microsoft Power BI</link><?asciidoc-br?>
 Microsoft Frontend für Berichtswesen</simpara>
 </listitem>
 <listitem>
-<simpara><link xl:href="https://antora.org/">Antora (Docs as Code)</link><?asciidoc-br?>
-open Source Dokumentations-Framework, insbesondere für technische versionisierte Dokumentation, basierend auf AsciiDoc</simpara>
+<simpara><link xl:href="https://www.xlcubed.com/">XLcubed</link><?asciidoc-br?>
+einziges brauchbares Excel-Addin für SSAS</simpara>
 </listitem>
 <listitem>
 <simpara><link xl:href="https://www.bissantz.de/software/">Deltamaster (SSAS Frontend)</link></simpara>
@@ -149,17 +181,15 @@ open Source Dokumentations-Framework, insbesondere für technische versionisiert
 <listitem>
 <simpara><link xl:href="https://www.oreus.hr/products/cubeplayer">CubePlayer (SSAS Frontend)</link></simpara>
 </listitem>
-<listitem>
-<simpara><link xl:href="https://www.xlcubed.com/">XLcubed</link><?asciidoc-br?>
-einziges brauchbares Excel-Addin für SSAS</simpara>
+</itemizedlist>
 </listitem>
 <listitem>
 <simpara><link xl:href="https://www.analyticscreator.com/">AnalyticsCreator</link><?asciidoc-br?>
 DWH Automatisierung - besser, flexibler und preiswerter als <link xl:href="https://www.wherescape.com/">WhereScape</link>, mit dem ich auch gearbeitet habe<footnote xml:id="blog-warum-ac"><simpara>Warum AnalyticsCreator statt Wherescape? <link xl:href="https://datahandwerk.aisberg.de/2020-04-26-warum-analyticscreator/">https://datahandwerk.aisberg.de/2020-04-26-warum-analyticscreator/</link></simpara></footnote></simpara>
 </listitem>
 <listitem>
-<simpara><link xl:href="https://git-scm.com/">git (Versionskontrollsystem)</link><?asciidoc-br?>
-alle meine Projekte werden grundsätzlich versionisiert</simpara>
+<simpara><link xl:href="https://azure.microsoft.com/de-de/services/devops/">Azure DevOps</link><?asciidoc-br?>
+Tool für DevOps, agiles Projekt-Controlling, Issue-Tracking, Code-Versionierung. Leider keine AsciiDoc-Unterstützung in Wiki oder Repository-Preview</simpara>
 </listitem>
 <listitem>
 <simpara>Datenmodellierung mit <link xl:href="https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/">Dimensional modeling (DM)</link> als Bestandteil der "Business Dimensional Lifecycle methodology" entwickelt von Ralph <emphasis role="strong">Kimball</emphasis></simpara>
@@ -185,8 +215,12 @@ alle meine Projekte werden grundsätzlich versionisiert</simpara>
 <simpara>Handwerk statt Fließband</simpara>
 </listitem>
 <listitem>
-<simpara>Technokratie statt Demokratie:<?asciidoc-br?>
-Vertrauen in Experten<footnote xml:id="kh-autobauer"><simpara>Hintergründe zu "Technokratie statt Demokratie" im "Gleichnis vom Krankenhaus der Autobauer" <link xl:href="https://datahandwerk.aisberg.de/2022-09-15-krankenhaus-autobauer/">https://datahandwerk.aisberg.de/2022-09-15-krankenhaus-autobauer/</link></simpara></footnote></simpara>
+<simpara>Technokratie statt Demokratie<footnote xml:id="kh-autobauer"><simpara>Hintergründe zu "Technokratie statt Demokratie" im "Gleichnis vom Krankenhaus der Autobauer" <link xl:href="https://datahandwerk.aisberg.de/2022-09-15-krankenhaus-autobauer/">https://datahandwerk.aisberg.de/2022-09-15-krankenhaus-autobauer/</link></simpara></footnote></simpara>
+<itemizedlist>
+<listitem>
+<simpara>Vertrauen in Experten</simpara>
+</listitem>
+</itemizedlist>
 </listitem>
 </itemizedlist>
 <simpara>Als <link xl:href="http://pirogov-university.com/academics/programs-and-degrees/undergraduate/medical-cybernetics/">Arzt-Kybernetiker</link> bin ich "kybernetisch im Denken und Handeln"</simpara>
@@ -208,15 +242,14 @@ Vertrauen in Experten<footnote xml:id="kh-autobauer"><simpara>Hintergründe zu "
 kompetent, zielorientiert, auch querdenkend und nonkonformistisch,<?asciidoc-br?>
 analytisch, exakt, verantwortungsbewusst, selbständig, schnell, effektiv und effizient.</simpara>
 </section>
-<section xml:id="_sonstiges">
-<title>Sonstiges</title>
-<simpara>Ich halte mehr von <emphasis role="strong">DevOps</emphasis> (<emphasis role="strong">Dev</emphasis>elopment + IT <emphasis role="strong">Op</emphasis>eration<emphasis role="strong">s</emphasis> in Kombination) und weniger von einer Trennung in Entwicklung und späteren Betrieb (durch Offshore- oder Nearshore-Mitarbeiter).</simpara>
-<section xml:id="_keine_aül_rentenversicherung_scheinselbständigkeit_vollzeit">
-<title>keine AÜL, Rentenversicherung, Scheinselbständigkeit, Vollzeit</title>
-<simpara>Ich habe <emphasis>kein</emphasis> Interesse an einer festen Anstellung, insbesondere auch nicht an einer Arbeitnehmerüberlassung (AÜL), da ich jeden unnötigen Kontakt mit der "Deutschen Rentenversicherung" vermeiden will, die gemeinsam mit der Politik dafür verantwortlich ist, dass immer mehr Kunden Angst haben, in Deutschland mit Freiberuflern zusammenzuarbeiten.</simpara>
-</section>
-<section xml:id="_anmerkungen_zu_ssas_sql_server_analysis_services">
-<title>Anmerkungen zu SSAS (SQL Server Analysis Services)</title>
+<section xml:id="_anmerkungen">
+<title>Anmerkungen</title>
+<note>
+<bridgehead xml:id="_keine_aül_rentenversicherung_scheinselbständigkeit" renderas="sect2">keine AÜL, Rentenversicherung, Scheinselbständigkeit</bridgehead>
+<simpara>Ich habe <emphasis role="strong"><emphasis>kein</emphasis></emphasis> Interesse an einer festen Anstellung, insbesondere auch nicht an einer Arbeitnehmerüberlassung (AÜL), da ich jeden unnötigen Kontakt mit der "Deutschen Rentenversicherung" vermeiden will, die gemeinsam mit der Politik dafür verantwortlich ist, dass immer mehr Kunden Angst haben, in Deutschland mit Freiberuflern zusammenzuarbeiten. Die Gefahr der sogenannten "Scheinselbständigkeit" ist seit über 2 Jahrzehnten ohne Lösung und behindert die Arbeit von Freiberuflern und Selbständigen.</simpara>
+</note>
+<note>
+<bridgehead xml:id="_über_ssas_sql_server_analysis_services_und_power_bi" renderas="sect2">Über SSAS (SQL Server Analysis Services) und Power BI</bridgehead>
 <simpara>Unter dem gleichen Oberbegriff <emphasis role="strong">SSAS</emphasis> (<link xl:href="http://docs.microsoft.com/de-de/analysis-services/analysis-services-overview?view=asallproducts-allversions">SQL Server Analysis Services</link>) vereint Microsoft zwei unterschiedliche Technologien:</simpara>
 <itemizedlist>
 <listitem>
@@ -229,11 +262,12 @@ analytisch, exakt, verantwortungsbewusst, selbständig, schnell, effektiv und ef
 <simpara>Das kann (und soll?) verwirren, da es sich um unterschiedliche Technologien handelt. Die Dokumentation von Microsoft: <link xl:href="http://docs.microsoft.com/de-de/analysis-services/comparing-tabular-and-multidimensional-solutions-ssas?view=asallproducts-allversions">Vergleichen von tabellarischen und mehrdimensionalen Lösungen</link></simpara>
 <simpara>Mit den <emphasis role="strong">multidimensionalen</emphasis> Datenbanken arbeite ich seit 1999, damals noch "OLAP Services 7.0", ab 2000 "MSAS" (Microsoft Analysis Services). Ab 2005 gab es mit "SSAS" (SQL Server Analysis Services) wieder eine neue Technologie, welche grundsätzlich der heutigen mehrdimensionalen Technologie entspricht. Typische Begriffe dieser multidimensionalen Technologie sind <emphasis role="strong">Würfel (Cubes)</emphasis> und <emphasis role="strong">Dimensionen</emphasis>.</simpara>
 <simpara>Seit SQL Server 2012 gibt es zusätzlich <emphasis role="strong">SSAS Tabular</emphasis>, eine auf Tabellen basierende Technologie, wie sie auch in Power Pivot und <link xl:href="http://powerbi.microsoft.com/de-de/">Power BI</link> verwendet wird.</simpara>
-<simpara>Die Tabular-Technologie wird von Microsoft gepusht. SSAS Tabular hat einige Stärken und wird besser von Power BI unterstützt, welches intern auch diese Technologie verwendet. Die Unterstützung von Power BI für multidimensionale Datenbanken ist mangelhaft; vielleicht, um diese Technologie langsam sterben zu lassen. Allerdings gibt es immer noch viele Stärken der multidimensionalen Technologie, welche sich mit der tabularischen Technologie (noch) nicht umsetzen lassen.</simpara>
+<simpara>Die Tabular-Technologie wird von Microsoft gepusht. SSAS Tabular hat einige Stärken und wird wesentlich besser von <emphasis role="strong">Power BI</emphasis> unterstützt. Die Unterstützung von Power BI für multidimensionale Datenbanken ist mangelhaft; vielleicht, um diese Technologie langsam sterben zu lassen. Allerdings gibt es immer noch viele Stärken der multidimensionalen Technologie, welche sich mit der tabularischen Technologie (noch) nicht umsetzen lassen.</simpara>
+<simpara>Da Power BI intern die SSAS-Tabular-Technologie verwendet, ist es möglich und oft sinnvoll, mit Power BI erstellte Modelle in SSAS Tabular Datenbanken zu migrieren. Auf diese Datenbanken kann man dann auch mit anderen Frontends zugreifen. Dann gibt es <emphasis>zentrale</emphasis> Modelle, statt eines "Power BI Tourismus", der genauso schlimm ist, wie "Excel Tourismus" (jeder Controller hat seine <emphasis>eigenen</emphasis> Daten und Modelle).</simpara>
 <simpara>=&gt; Was sich mit SSAS Tabular sinnvoll realisieren lässt, wird von mir pragmatisch mit Tabular gemacht. Falls nötig und sinnvoll, gibt es weiter die multidimensionale Technologie.</simpara>
 <simpara>Die Abfragesprache <link xl:href="http://de.wikipedia.org/wiki/Multidimensional_Expressions">MDX (Multidimensional Expressions)</link> kann für beide Technologien verwendet werden, <link xl:href="https://docs.microsoft.com/de-de/dax/">DAX (Data Analysis Expressions)</link> kann nur für SSAS Tabular verwendet werden.</simpara>
+</note>
 <simpara><?asciidoc-pagebreak?></simpara>
-</section>
 </section>
 <section xml:id="_projekthistorie">
 <title>Projekthistorie</title>

@@ -1,5 +1,5 @@
 = IT Profil Germo Görtz (de)
-:page-subtitle: Microsoft BI Architekt + Entwickler. MS SQL Server, SSAS, DWH, ELT statt ETL, automatisierte Dokumentation
+:page-subtitle: Microsoft BI Architekt + Entwickler. MS SQL Server, SSAS, DWH, ELT statt ETL, automatisierte Dokumentation, DataHandwerk, AnalyticsCreator
 :page-last-updated: 2022-09-15
 :page-slug: profil-germo-gortz-de-
 :page-tags: ["MS SQL Server", "DWH", "SSAS", "Antora"]
@@ -71,8 +71,8 @@ https://datahandwerk.aisberg.de/Germo_Goertz_IT_profile.docx[Germo_Goertz_IT_pro
 
 == BI-Architekt und -Entwickler mit Microsoft BI
 
-:fn-blog-docs: footnote:blog-docs[Mehr zum Docs-as-Code im Blog-Artikel https://datahandwerk.aisberg.de/2021-04-20-docs-code-mit-asciidoc-und-antora/[]]
-:fn-blog-dhw: footnote:blog-dhw[Warum es das DataHandwerk Projekt gibt: im Blog-Artikel https://datahandwerk.aisberg.de/2021-03-23-datahandwerk-toolkit-mssql/[]]
+:fn-blog-docs: footnote:blog-docs[Mehr zum Docs-as-Code und meinem Dokumentationsgenerator: https://datahandwerk.aisberg.de/2021-04-20-docs-code-mit-asciidoc-und-antora/[]]
+:fn-blog-dhw: footnote:blog-dhw[Warum es das DataHandwerk Projekt gibt: https://datahandwerk.aisberg.de/2021-03-23-datahandwerk-toolkit-mssql/[]]
 :fn-blog-warum-ac: footnote:blog-warum-ac[Warum AnalyticsCreator statt Wherescape? https://datahandwerk.aisberg.de/2020-04-26-warum-analyticscreator/[]]
 
 * AISBERG - **A**nalytische **I**nformations**S**ysteme und **BER**atung im **G**esundheitswesen (und in anderen Branchen)
@@ -91,25 +91,33 @@ https://datahandwerk.aisberg.de/Germo_Goertz_IT_profile.docx[Germo_Goertz_IT_pro
 * Implementierung von Geschäftsprozessen und -logiken
 * automatisierte versionisierte Dokumentation mit https://datahandwerk.gitlab.io/dhw/user-guide/documentation-generator.html/[DataHandwerk DocsGenerator]{fn-blog-docs} (Kombination von technischer und fachlicher Dokumentation; https://asciidoc.org/[AsciiDoc], https://antora.org/[*Antora* (Docs as Code)])
 * technische Umsetzung regulatorischer Anforderungen (Historisierung, Versionierung, Data Lineage, DSGVO, ...)
-* Automatisierung (Import, ELT, Code-Generierung, DWH, Dokumentation)
+* Automatisierung (Daten-Import und -Export, ELT, Code-Generierung, DWH, Dokumentation)
 * unter Verwendung von https://www.microsoft.com/de-de/sql-server/sql-server-2019[*Microsoft SQL Server*], einschließlich https://docs.microsoft.com/de-de/analysis-services/analysis-services-overview?view=asallproducts-allversions[*SSAS* (SQL Server Analysis Services)], https://docs.microsoft.com/de-de/sql/integration-services/sql-server-integration-services?view=sql-server-ver15[*SSIS* (SQL Server Integration Services)], https://docs.microsoft.com/de-de/sql/reporting-services/create-deploy-and-manage-mobile-and-paginated-reports?view=sql-server-ver15[SSRS (SQL Server Reporting Services)] und verschiedener https://azure.microsoft.com/de-de/[Microsoft Azure] Technologien
 * und von Software und Technologie rund um die Microsoft BI Plattform oder zur Entwicklung
+** Programmier- und Abfragesprachen für Datenbanken
+*** https://de.wikipedia.org/wiki/Transact-SQL[Transact-SQL (T-SQL)]
+*** http://de.wikipedia.org/wiki/Multidimensional_Expressions[MDX (Multidimensional Expressions)]
+*** https://docs.microsoft.com/de-de/dax/[DAX (Data Analysis Expressions)]
 ** https://datahandwerk.gitlab.io[*DataHandwerk-toolkit-mssql*] +
 mein open source Projekt{fn-blog-dhw}, enthält auch einen Datenbank-Dokumentations-Generator
-** https://azure.microsoft.com/de-de/services/devops/[Azure DevOps] +
-Tool für DevOps, agiles Projekt-Controlling, Issue-Tracking, Code-Versionierung. Leider keine AsciiDoc-Unterstützung in Wiki oder Repository-Preview
-** https://powerbi.microsoft.com/de-de/[Microsoft Power BI] +
+** https://git-scm.com/[git (Versionskontrollsystem)] +
+alle meine Projekte werden grundsätzlich versionisiert, vorzugsweise auf https://about.gitlab.com/[GitLab]
+** Software und Technologien zur Erstellung und Wartung von Dokumentationen
+*** https://antora.org/[Antora (Docs as Code)] +
+open Source Dokumentations-Framework, insbesondere für technische und versionisierte versionisierte Dokumentation
+*** basiert auf der Auszeichnungssprache https://asciidoc.org/[AsciiDoc]
+*** formalisierte Erstellung von Software Architektur Diagrammen mit https://structurizr.com/[Structurizr] und https://github.com/structurizr/cli[github.com/structurizr/cli]
+** Frontends
+*** https://powerbi.microsoft.com/de-de/[Microsoft Power BI] +
 Microsoft Frontend für Berichtswesen
-** https://antora.org/[Antora (Docs as Code)] +
-open Source Dokumentations-Framework, insbesondere für technische versionisierte Dokumentation, basierend auf AsciiDoc
-** https://www.bissantz.de/software/[Deltamaster (SSAS Frontend)]
-** https://www.oreus.hr/products/cubeplayer[CubePlayer (SSAS Frontend)]
-** https://www.xlcubed.com/[XLcubed] +
+*** https://www.xlcubed.com/[XLcubed] +
 einziges brauchbares Excel-Addin für SSAS
+*** https://www.bissantz.de/software/[Deltamaster (SSAS Frontend)]
+*** https://www.oreus.hr/products/cubeplayer[CubePlayer (SSAS Frontend)]
 ** https://www.analyticscreator.com/[AnalyticsCreator] +
 DWH Automatisierung - besser, flexibler und preiswerter als https://www.wherescape.com/[WhereScape], mit dem ich auch gearbeitet habe{fn-blog-warum-ac}
-** https://git-scm.com/[git (Versionskontrollsystem)] +
-alle meine Projekte werden grundsätzlich versionisiert
+** https://azure.microsoft.com/de-de/services/devops/[Azure DevOps] +
+Tool für DevOps, agiles Projekt-Controlling, Issue-Tracking, Code-Versionierung. Leider keine AsciiDoc-Unterstützung in Wiki oder Repository-Preview
 ** Datenmodellierung mit https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/[Dimensional modeling (DM)] als Bestandteil der "Business Dimensional Lifecycle methodology" entwickelt von Ralph *Kimball*
 ** Datenmodellierung nach *Data Vault*
 ** ...
@@ -122,8 +130,8 @@ Erfolgsfaktoren meiner Tätigkeit als BI-Architekt und -Entwickler:
 
 * Exzellenz durch Kompetenz
 * Handwerk statt Fließband
-* Technokratie statt Demokratie: +
-Vertrauen in Experten{fn-blog-kh-autobauer}
+* Technokratie statt Demokratie{fn-blog-kh-autobauer}
+** Vertrauen in Experten
 
 Als http://pirogov-university.com/academics/programs-and-degrees/undergraduate/medical-cybernetics/[Arzt-Kybernetiker] bin ich "kybernetisch im Denken und Handeln"
 
@@ -136,17 +144,35 @@ Soziale Kompetenz, Auffassungsgabe und Ehrgeiz sorgen dafür, dass fachliche Anf
 kompetent, zielorientiert, auch querdenkend und nonkonformistisch, +
 analytisch, exakt, verantwortungsbewusst, selbständig, schnell, effektiv und effizient.
 
-== Sonstiges
+== Anmerkungen
 
-Ich halte mehr von *DevOps* (**Dev**elopment + IT **Op**eration**s** in Kombination) und weniger von einer Trennung in Entwicklung und späteren Betrieb (durch Offshore- oder Nearshore-Mitarbeiter).
+// [NOTE]
+// ====
 
-=== keine AÜL, Rentenversicherung, Scheinselbständigkeit, Vollzeit
+// [discrete]
+// === DevOps statt Offshore
 
-Ich habe _kein_ Interesse an einer festen Anstellung, insbesondere auch nicht an einer Arbeitnehmerüberlassung (AÜL), da ich jeden unnötigen Kontakt mit der "Deutschen Rentenversicherung" vermeiden will, die gemeinsam mit der Politik dafür verantwortlich ist, dass immer mehr Kunden Angst haben, in Deutschland mit Freiberuflern zusammenzuarbeiten.
+// Ich halte mehr von *DevOps* (**Dev**elopment + IT **Op**eration**s** in Kombination) und weniger von einer Trennung in Entwicklung und späteren Betrieb (durch Offshore- oder Nearshore-Mitarbeiter).
+// ====
+
+
+[NOTE]
+====
+
+[discrete]
+=== keine AÜL, Rentenversicherung, Scheinselbständigkeit
+
+Ich habe *_kein_* Interesse an einer festen Anstellung, insbesondere auch nicht an einer Arbeitnehmerüberlassung (AÜL), da ich jeden unnötigen Kontakt mit der "Deutschen Rentenversicherung" vermeiden will, die gemeinsam mit der Politik dafür verantwortlich ist, dass immer mehr Kunden Angst haben, in Deutschland mit Freiberuflern zusammenzuarbeiten. Die Gefahr der sogenannten "Scheinselbständigkeit" ist seit über 2 Jahrzehnten ohne Lösung und behindert die Arbeit von Freiberuflern und Selbständigen.
 
 // Die Gefahr der sogenannten "Scheinselbständigkeit" ist auch ein Grund dafür, warum ich möglichst nicht mehr in einem einzigen Projekt vollzeit tätig sein will, sondern zwecks Risiko-Minimierung lieber in mehreren Projekten gleichzeitig.
+====
 
-=== Anmerkungen zu SSAS (SQL Server Analysis Services)
+
+[NOTE]
+====
+
+[discrete]
+=== Über SSAS (SQL Server Analysis Services) und Power BI
 
 Unter dem gleichen Oberbegriff *SSAS* (http://docs.microsoft.com/de-de/analysis-services/analysis-services-overview?view=asallproducts-allversions[SQL Server Analysis Services]) vereint Microsoft zwei unterschiedliche Technologien:
 
@@ -159,11 +185,15 @@ Mit den *multidimensionalen* Datenbanken arbeite ich seit 1999, damals noch "OLA
 
 Seit SQL Server 2012 gibt es zusätzlich *SSAS Tabular*, eine auf Tabellen basierende Technologie, wie sie auch in Power Pivot und http://powerbi.microsoft.com/de-de/[Power BI] verwendet wird.
 
-Die Tabular-Technologie wird von Microsoft gepusht. SSAS Tabular hat einige Stärken und wird besser von Power BI unterstützt, welches intern auch diese Technologie verwendet. Die Unterstützung von Power BI für multidimensionale Datenbanken ist mangelhaft; vielleicht, um diese Technologie langsam sterben zu lassen. Allerdings gibt es immer noch viele Stärken der multidimensionalen Technologie, welche sich mit der tabularischen Technologie (noch) nicht umsetzen lassen.
+Die Tabular-Technologie wird von Microsoft gepusht. SSAS Tabular hat einige Stärken und wird wesentlich besser von *Power BI* unterstützt. Die Unterstützung von Power BI für multidimensionale Datenbanken ist mangelhaft; vielleicht, um diese Technologie langsam sterben zu lassen. Allerdings gibt es immer noch viele Stärken der multidimensionalen Technologie, welche sich mit der tabularischen Technologie (noch) nicht umsetzen lassen.
+
+Da Power BI intern die SSAS-Tabular-Technologie verwendet, ist es möglich und oft sinnvoll, mit Power BI erstellte Modelle in SSAS Tabular Datenbanken zu migrieren. Auf diese Datenbanken kann man dann auch mit anderen Frontends zugreifen. Dann gibt es _zentrale_ Modelle, statt eines "Power BI Tourismus", der genauso schlimm ist, wie "Excel Tourismus" (jeder Controller hat seine _eigenen_ Daten und Modelle).
 
 \=> Was sich mit SSAS Tabular sinnvoll realisieren lässt, wird von mir pragmatisch mit Tabular gemacht. Falls nötig und sinnvoll, gibt es weiter die multidimensionale Technologie.
 
 Die Abfragesprache http://de.wikipedia.org/wiki/Multidimensional_Expressions[MDX (Multidimensional Expressions)] kann für beide Technologien verwendet werden, https://docs.microsoft.com/de-de/dax/[DAX (Data Analysis Expressions)] kann nur für SSAS Tabular verwendet werden.
+
+====
 
 //folgendes soll ein page break sein, wird aber von pandoc zu docx ignoriert (oder von welchem Konverter auch immer)
 
