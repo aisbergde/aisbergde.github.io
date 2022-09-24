@@ -433,6 +433,12 @@ analytisch, exakt, verantwortungsbewusst, selbständig, schnell, effektiv und ef
 <simpara>Konsumgüter und Handel</simpara>
 </listitem>
 </varlistentry>
+<varlistentry>
+<term>Größe</term>
+<listitem>
+<simpara>?</simpara>
+</listitem>
+</varlistentry>
 </variablelist>
 <section xml:id="_unterstützung_im_bereich_microsoft_sql_server_bi_2">
 <title>Unterstützung im Bereich Microsoft SQL Server / BI</title>
@@ -668,7 +674,7 @@ Umsetzen von Anforderungen in technische BI Lösungen</simpara>
 </itemizedlist>
 </section>
 </section>
-<section xml:id="_112010_122019_drk_kliniken_berlin">
+<section xml:id="project_drkkliniken_2019">
 <title>11/2010 - 12/2019; DRK Kliniken Berlin</title>
 <variablelist>
 <varlistentry>
@@ -747,9 +753,10 @@ Umsetzen von Anforderungen in technische BI Lösungen</simpara>
 </listitem>
 </itemizedlist>
 <simpara>Aktuell: regelmäßiger Support, um das System "am Laufen zu halten", bis irgendwann die vollständige Migration in ein klinisches DWH des KISAnbieters abgeschlossen sein wird.</simpara>
+<simpara>Referenz: <xref linkend="referenz_drkkliniken"/></simpara>
 </section>
 </section>
-<section xml:id="_112019_122019_würth_logistics_ag">
+<section xml:id="project_wuerth_logistics_2019">
 <title>11/2019 - 12/2019; Würth Logistics AG</title>
 <variablelist>
 <varlistentry>
@@ -787,9 +794,10 @@ Umsetzen von Anforderungen in technische BI Lösungen</simpara>
 <simpara>git</simpara>
 </listitem>
 </itemizedlist>
+<simpara>Referenz: <xref linkend="referenz_wuerth_logistics"/></simpara>
 </section>
 </section>
-<section xml:id="_102018_092019_provinzial_nord_west">
+<section xml:id="project_provinzial_2019">
 <title>10/2018 - 09/2019; Provinzial Nord-West</title>
 <variablelist>
 <varlistentry>
@@ -828,6 +836,7 @@ Umsetzen von Anforderungen in technische BI Lösungen</simpara>
 <simpara>git</simpara>
 </listitem>
 </itemizedlist>
+<simpara>Referenz: <xref linkend="referenz_provinzial"/></simpara>
 </section>
 </section>
 <section xml:id="_082018_102018_zeiss_group">
@@ -887,7 +896,7 @@ Umsetzen von Anforderungen in technische BI Lösungen</simpara>
 </itemizedlist>
 </section>
 </section>
-<section xml:id="_032016_092018_zeiss_group">
+<section xml:id="project_zeiss_2018">
 <title>03/2016 - 09/2018; ZEISS Group</title>
 <variablelist>
 <varlistentry>
@@ -934,6 +943,7 @@ Umsetzen von Anforderungen in technische BI Lösungen</simpara>
 </listitem>
 </itemizedlist>
 <simpara>Kernprojekt 03.2016 - 04.0216, Danach bis 09.2018 laufender Support bis und einschließlich Migration auf ServiceNow</simpara>
+<simpara>Referenz: <xref linkend="referenz_zeiss"/></simpara>
 </section>
 </section>
 <section xml:id="_112017_072018_adecco_germany_holding_sa_co_kg">
@@ -998,7 +1008,7 @@ Umsetzen von Anforderungen in technische BI Lösungen</simpara>
 </itemizedlist>
 </section>
 </section>
-<section xml:id="_052017_112017_adam_opel_gmbh">
+<section xml:id="project_opel_2017">
 <title>05/2017 - 11/2017; Adam Opel GmbH</title>
 <variablelist>
 <varlistentry>
@@ -1039,9 +1049,10 @@ Umsetzen von Anforderungen in technische BI Lösungen</simpara>
 <simpara>TFVC oder git</simpara>
 </listitem>
 </itemizedlist>
+<simpara>Referenz: <xref linkend="referenz_opel"/></simpara>
 </section>
 </section>
-<section xml:id="_072016_062017_kelvion">
+<section xml:id="project_kelvion_2017">
 <title>07/2016 - 06/2017; Kelvion</title>
 <variablelist>
 <varlistentry>
@@ -1079,6 +1090,7 @@ Umsetzen von Anforderungen in technische BI Lösungen</simpara>
 <simpara>git</simpara>
 </listitem>
 </itemizedlist>
+<simpara>Referenz: <xref linkend="referenz_kelvion"/></simpara>
 </section>
 </section>
 <section xml:id="_042017_052017_kuhn_und_bülow_versicherungsmakler_group">
@@ -1190,7 +1202,7 @@ Umsetzen von Anforderungen in technische BI Lösungen</simpara>
 </itemizedlist>
 </section>
 </section>
-<section xml:id="_062015_032016_volkswagen_gebrauchtfahrzeughandels_und_service_gmbh_vgsg">
+<section xml:id="project_vgsg_2016">
 <title>06/2015 - 03/2016; Volkswagen Gebrauchtfahrzeughandels und Service GmbH (VGSG)</title>
 <variablelist>
 <varlistentry>
@@ -1247,9 +1259,10 @@ Gleue, C.; Eilers, D.; von Mettenheim, H.-J.; Breitner, M. H. (2017):<?asciidoc-
 Decision Support for the Automotive Industry: Forecasting Residual Values using Artificial Neural Networks,<?asciidoc-br?>
 in Leimeister, J.M.; Brenner, W. (Hrsg.): Proceedings der 13. Internationalen Tagung<?asciidoc-br?>
 Wirtschaftsinformatik (WI 2017), St. Gallen, S. 1205-1219</simpara>
+<simpara>Referenz: <xref linkend="referenz_vgsg"/></simpara>
 </section>
 </section>
-<section xml:id="_082012_052015_henkel_ag_co_kgaa">
+<section xml:id="project_henkel_2015">
 <title>08/2012 - 05/2015; Henkel AG &amp; Co. KGaA</title>
 <variablelist>
 <varlistentry>
@@ -1304,9 +1317,10 @@ Wirtschaftsinformatik (WI 2017), St. Gallen, S. 1205-1219</simpara>
 <simpara>TFVC</simpara>
 </listitem>
 </itemizedlist>
+<simpara>Referenz: <xref linkend="referenz_henkel"/></simpara>
 </section>
 </section>
-<section xml:id="_102005_082012_bezirkskliniken_mittelfranken_ansbach">
+<section xml:id="project_bkm_2012">
 <title>10/2005 - 08/2012; Bezirkskliniken Mittelfranken, Ansbach</title>
 <variablelist>
 <varlistentry>
@@ -1360,9 +1374,10 @@ Wirtschaftsinformatik (WI 2017), St. Gallen, S. 1205-1219</simpara>
 <simpara>andere</simpara>
 </listitem>
 </itemizedlist>
+<simpara>Referenz: <xref linkend="referenz_bkm"/></simpara>
 </section>
 </section>
-<section xml:id="_022011_052012_nestlé_suisse_s_a">
+<section xml:id="project_nestle_2012">
 <title>02/2011 - 05/2012; Nestlé Suisse S.A</title>
 <variablelist>
 <varlistentry>
@@ -1390,6 +1405,7 @@ Wirtschaftsinformatik (WI 2017), St. Gallen, S. 1205-1219</simpara>
 </itemizedlist>
 <simpara>Anforderungsanalyse, Konzeption, Kommunikation mit Fachbereich, Entwicklung, Dokumentation, Test, Performance Optimierung, Wartung, Beratung</simpara>
 <simpara>Microsoft SQL Server 2005, Microsoft SQL Server 2008 R2 (on-premise)</simpara>
+<simpara>Referenz: <xref linkend="referenz_nestle"/></simpara>
 </section>
 </section>
 <section xml:id="_102011_042012_mts_mobile_telesystems_ojsc_moskau_russland">
@@ -1427,7 +1443,7 @@ Wirtschaftsinformatik (WI 2017), St. Gallen, S. 1205-1219</simpara>
 <simpara>Details: <link xl:href="http://www.orpheus-it.com/">http://www.orpheus-it.com/</link></simpara>
 </section>
 </section>
-<section xml:id="_102005_122011_hgc_gesundheitsconsult_gmbh">
+<section xml:id="project_hgc_gfs_2011">
 <title>10/2005 - 12/2011; HGC GesundheitsConsult GmbH</title>
 <variablelist>
 <varlistentry>
@@ -1508,6 +1524,7 @@ Wirtschaftsinformatik (WI 2017), St. Gallen, S. 1205-1219</simpara>
 <simpara>Subversion</simpara>
 </listitem>
 </itemizedlist>
+<simpara>Referenz: <xref linkend="referenz_gfs"/></simpara>
 </section>
 </section>
 <section xml:id="_112010_022011_otto_group">
@@ -1600,7 +1617,7 @@ Wirtschaftsinformatik (WI 2017), St. Gallen, S. 1205-1219</simpara>
 <simpara>Microsoft SQL Server 2008 R2 (relational, SSAS, SSIS) (on-premise)</simpara>
 </section>
 </section>
-<section xml:id="_012003_042010_vivantes_gmbh_netzwerk_für_gesundheit">
+<section xml:id="project_vivantes_2010">
 <title>01/2003 - 04/2010; Vivantes GmbH - Netzwerk für Gesundheit</title>
 <variablelist>
 <varlistentry>
@@ -1700,6 +1717,9 @@ Wirtschaftsinformatik (WI 2017), St. Gallen, S. 1205-1219</simpara>
 <simpara>Subversion</simpara>
 </listitem>
 </itemizedlist>
+<simpara>Referenzen:
+* <xref linkend="referenz_vivantes_1"/>
+* <xref linkend="referenz_vivantes_2"/></simpara>
 </section>
 </section>
 <section xml:id="_102008_122009_rudolf_wöhrl_ag">
@@ -1746,7 +1766,7 @@ Wirtschaftsinformatik (WI 2017), St. Gallen, S. 1205-1219</simpara>
 </itemizedlist>
 </section>
 </section>
-<section xml:id="_092005_012009_landwirtschaftliche_rentenbank">
+<section xml:id="project_rentenbank_2009">
 <title>09/2005 - 01/2009; Landwirtschaftliche Rentenbank</title>
 <variablelist>
 <varlistentry>
@@ -1832,6 +1852,7 @@ Wirtschaftsinformatik (WI 2017), St. Gallen, S. 1205-1219</simpara>
 <simpara>Subversion</simpara>
 </listitem>
 </itemizedlist>
+<simpara>Referenz: <xref linkend="referenz_rentenbank"/></simpara>
 </section>
 </section>
 <section xml:id="_092004_102004_id_gmbh">
@@ -1946,8 +1967,9 @@ Wirtschaftsinformatik (WI 2017), St. Gallen, S. 1205-1219</simpara>
 </listitem>
 </itemizedlist>
 <simpara>mehrfache Migrationen von MIS Alea auf MSAS 2000 (Microsoft Analysis Services)</simpara>
+<simpara>Referenz: <xref linkend="referenz_infor"/></simpara>
 </section>
-<section xml:id="_folgende_projekte_wurden_als_berater_für_business_intelligence_bei_kunden_der_mis_durchgeführt_bei_den_namentlich_genannten_firmen_handelt_es_sich_um_referenzkunden_der_mis_gmbh_jetzt_infor">
+<section xml:id="project_infor_2004">
 <title>folgende Projekte wurden als Berater für Business Intelligence bei Kunden der MIS durchgeführt. Bei den namentlich genannten Firmen handelt es sich um Referenzkunden der MIS GmbH (jetzt infor)</title>
 
 </section>
@@ -2152,7 +2174,7 @@ Wirtschaftsinformatik (WI 2017), St. Gallen, S. 1205-1219</simpara>
 </section>
 <section xml:id="_referenzen_bewertungen">
 <title>Referenzen / Bewertungen</title>
-<section xml:id="_würth_logistics_ag">
+<section xml:id="referenz_wuerth_logistics">
 <title>Würth Logistics AG</title>
 <blockquote>
 <attribution>
@@ -2160,8 +2182,9 @@ Business Analyst (Matthias Gerber)
 </attribution>
 <simpara>Herr Görtz ist ein höchst profesionller Consulter. Herr Görtz hat während den ersten zwei Wochen vom Aufbau unserem DWH hervorragende Arbeit im initialen Setting und bei der Schulung der Mitarbeiter im Analytics Creator inkl. SSIS / SSAS geleistet. Nach den zwei Wochen sind wir in der Lage, einen grossteil der DWH Struktur und Logiken eigenständig zu pflegen und warten.</simpara>
 </blockquote>
+<simpara>Projekt: <xref linkend="project_wuerth_logistics_2019"/></simpara>
 </section>
-<section xml:id="_öffentlich_rechtliche_versicherung">
+<section xml:id="referenz_provinzial">
 <title>Öffentlich-rechtliche Versicherung</title>
 <blockquote>
 <attribution>
@@ -2169,8 +2192,9 @@ Projektleiter
 </attribution>
 <simpara>Herr Görtz hat uns in unserem Projekt mehr als 1 Jahr als Haupt-Entwickler unterstützt. Dabei war er zuständig für die Programmierung von Partner- und Vertragsdaten im neu aufgebauten DWH. Herr Görtz hat die Programmierung mit hoher Eigenmotivation und zügig durchgeführt. Daneben war sehr positiv, dass er einen sehr regelmäßigen, konstruktiven und intensiven Austausch mit den Fachkonzeptionierern gehaltet hat und somit stets Dinge hinterfragt und für die Programmierung verbessert hat.</simpara>
 </blockquote>
+<simpara>Projekt: <xref linkend="project_provinzial_2019"/></simpara>
 </section>
-<section xml:id="_drk_kliniken_berlin">
+<section xml:id="referenz_drkkliniken">
 <title>DRK Kliniken Berlin</title>
 <blockquote>
 <attribution>
@@ -2179,8 +2203,9 @@ Abteilungsleiter Controlling
 <simpara>In der Zusammenarbeit mit dem Berater profitieren wir zum einen von seinem fundierten Geschäftswissen aus dem Bereich der stationären &amp; ambulanten Patientenversorgung, und zum anderen von seiner sehr eigenständigen, zielgerichteten Arbeitsweise, welche den Abstimmungsbedarf deutlich reduziert. Wir sind dabei, mit ihm ein <literal>'wirklich'</literal> integriertes Datenmodell im Krankenhaus umzusetzen, Projektschritte wie Materialwirtschafts-, Belegungs-, OP- und DRG-Informationssystem sind schon erfolgreich abgeschlossen. [&#8230;&#8203;] Auch die Zusammenarbeit zwischen uns, dem Berater und einer weiteren externen beratenden Firma lief und läuft reibungslos. Der Berater hat sich auf professionelle Art sehr gut ins Team integriert, so dass er&#8201;&#8212;&#8201;wie gewünscht&#8201;&#8212;&#8201;für alle Mitarbeiter ein Ansprechpartner ist , ohne dass durch die Pflege von Sozialkontakten zu viel Projektzeit verloren geht.</simpara>
 </blockquote>
 <simpara><link xl:href="http://www.drk-kliniken-berlin.de">http://www.drk-kliniken-berlin.de</link></simpara>
+<simpara>Projekt: <xref linkend="project_drkkliniken_2019"/></simpara>
 </section>
-<section xml:id="_vivantes_krankenhauskonzern_1">
+<section xml:id="referenz_vivantes_1">
 <title>Vivantes - Krankenhauskonzern (1)</title>
 <simpara>Projekt Behandlungspfadcontrolling und Controlling Hämotherapie, 01/07 - 07/07</simpara>
 <blockquote>
@@ -2191,8 +2216,9 @@ Abteilungsleiterin Prozessmanagement
 <simpara>Die Zusammenarbeit mit dem Consultant war hervorragend, insbesondere die Fähigkeit, ganz exakt Ziele des Projektes zu verstehen und für den Kunden umzusetzen, dabei Verständnis und Geduld zu besitzen, dass in der Entwicklung auf der Kundenseite neue Ideen und Aspekte immer wieder entstehen, die zu Erweiterungen und Änderungenswünschen führen. Das sehr große Engagement in der Sache, die Bereitschaft auch unter Zeitdruck für das Projekt zu arbeiten und die sehr sympathische Art, Dinge und Computeranwendungen 'auch relativen Laien' zu erklären, ist großartig. Darüber hinaus schätze ich an dem Consultant, dass er die Kunden 'selbstlos', also auch gegen den eigenen Vorteil, berät. Von Beratern, die vorrangig nur ihre Leistung verkaufen wollen, unterscheidet sich der Consultant durch die Charaktereigenschaft, nur Dinge anzubieten, die aus seiner Sicht auch wirklich für den Kunden nutzbringend sind. Ich kann nur Gutes von der Zusammenarbeit in den Projekten mit dem Consultant berichten und hoffe, dass sich auch in Zukunft Gelegenheit dafür bietet.</simpara>
 </blockquote>
 <simpara><link xl:href="https://www.vivantes.de/">https://www.vivantes.de/</link></simpara>
+<simpara>Projekt: <xref linkend="project_vivantes_2010"/></simpara>
 </section>
-<section xml:id="_vivantes_krankenhauskonzern_2">
+<section xml:id="referenz_vivantes_2">
 <title>Vivantes - Krankenhauskonzern (2)</title>
 <blockquote>
 <attribution>
@@ -2201,8 +2227,9 @@ Verantwortlicher für zentrales Berichtswesen
 <simpara>Die vom Berater erstellten und betreuten MS SQL-Server- und OLAP-Datenbanken sind Grundlage des zentralen Berichtswesens. Mehrere Datenbankanwendungen werden von vielen zentralen und dezentralen Unternehmensbereichen wie z.B. Controlling, strategische Unternehmensentwicklung, sowie im Qualitäts- und Prozessmanagement regelmäßig genutzt. Die Projekte wurden von der Spezifikation über die Entwicklungs- und Testphase bis hin zur Inbetriebnahme begleitet. Auch Anwenderschulungen wurden vom Berater auf Kundenwunsch durchgeführt. Die bestehenden Anwendungen werden betreut und entsprechend unseren Anforderungen weiterentwickelt. Auch sehr komplexe Anforderungen werden zuverlässig, schnell, kompetent, mit großer Einsatzbereitschaft zu unserer vollsten Zufriedenheit umgesetzt. Dabei trägt der Berater mit eigenen Ideen und vielen Erfahrungen aus anderen Projekten wesentlich dazu bei, den Nutzen unserer Datenbankanwendungen zu optimieren und zu maximieren. Die Kommunikation und Zusammenarbeit mit uns Fachanwendern klappt hervorragend. Wir blicken inzwischen auf eine fünfjährige, erfolgreiche Zusammenarbeit zurück, die wir sehr gerne in der Zukunft fortsetzen möchten, und können den Berater auf jeden Fall weiterempfehlen.</simpara>
 </blockquote>
 <simpara><link xl:href="https://www.vivantes.de/">https://www.vivantes.de/</link></simpara>
+<simpara>Projekt: <xref linkend="project_vivantes_2010"/></simpara>
 </section>
-<section xml:id="_bezirkskliniken_mittelfranken">
+<section xml:id="referenz_bkm">
 <title>Bezirkskliniken Mittelfranken</title>
 <blockquote>
 <attribution>
@@ -2211,8 +2238,9 @@ Verantwortlicher für zentrales Berichtswesen
 <simpara>Der Berater hat im Bereich Personal und Rechnungswesen anspruchsvolle IT-Lösungen sowie hochkomplexe OLAP-Datenbanken mit Belegungs- und Falldaten für unser unternehmensweites Reporting entwickelt und aufgebaut. Er verfügt über umfassende Fachkenntnisse im Krankenhausbereich und konnte deshalb alle Anforderungen stets zu unserer vollsten Zufriedenheit umsetzen. Ihn zeichnen besonders seine Zuverlässigkeit, seine große Einsatzbereitschaft, Engagement und Termintreue aus. Wir blicken auf eine gute Zusammenarbeit seit nun fast vier Jahren zurück, die wir auch gerne zukünftig fortsetzen möchten.</simpara>
 </blockquote>
 <simpara><link xl:href="http://www.bezirkskliniken-mfr.de/">http://www.bezirkskliniken-mfr.de/</link></simpara>
+<simpara>Projekt: <xref linkend="project_bkm_2012"/></simpara>
 </section>
-<section xml:id="_gfs_gesellschaft_für_standortsicherung_unternehmensberatung_mbh">
+<section xml:id="referenz_gfs">
 <title>GfS Gesellschaft für Standortsicherung Unternehmensberatung mbH</title>
 <simpara>Projekt Krankenhauscontrolling mit MS SQL Analysis Services, 10/05 - 02/08</simpara>
 <blockquote>
@@ -2223,8 +2251,9 @@ Geschäftsführer
 <simpara>Der Consultant entwickelt für uns seit mehr als 2 Jahren OLAP-Datenbanken für Controllinganwendungen im Krankenhausbereich. Ich schätze an ihm seine absolute Zuverlässigkeit, seine Termintreue, sein hohes Engagement und seine Kreativität. Wir werden mit ihm auch zukünftig gerne zusammenarbeiten.</simpara>
 </blockquote>
 <simpara><link xl:href="http://www.gesundheitsconsult.de/">http://www.gesundheitsconsult.de/</link></simpara>
+<simpara>Projekt: <xref linkend="project_hgc_gfs_2011"/></simpara>
 </section>
-<section xml:id="_opel">
+<section xml:id="referenz_opel">
 <title>Opel</title>
 <blockquote>
 <attribution>
@@ -2233,8 +2262,9 @@ BI Manager (Pete Sansom)
 <simpara>I recently worked with Germo on a BI project to analyse customer behaviour. I found Germo&#8217;s technical skills on the Microsoft stack to be very high and him to be generally very experienced in data modeling and BI. Germo is a diligent and responsible professional.</simpara>
 <simpara>He is determined to do a good job and offers good value for his customers. I would recommend Germo and would not hesitate to work with him in the future.</simpara>
 </blockquote>
+<simpara>Projekt: <xref linkend="project_opel_2017"/></simpara>
 </section>
-<section xml:id="_henkel_ag_co_kgaa">
+<section xml:id="referenz_henkel">
 <title>Henkel AG &amp; Co. KGaA</title>
 <blockquote>
 <attribution>
@@ -2243,8 +2273,9 @@ IT Projektleiter
 <simpara>Auch sehr komplexe Anforderungen werden zuverlässig, schnell, kompetent, mit großer Einsatzbereitschaft zu unserer vollsten Zufriedenheit umgesetzt. Die Kommunikation und Zusammenarbeit mit den Fachanwendern wie auch mit den IT Kollegen klappt hervorragend. Aufgrund seines zielgerichteten von großer Sorgfalt, Systematik, Selbstständigkeit und Verantwortungsbewußtsein geprägten Arbeitsstils gelang es ihm, komplexe Lösungen stets erfolgreich umzusetzen. Er bewieß zudem, dass er flexibel auf neue Anforunden eingehen kann um diese innovativ zu lösen und umzusetzen. Wir haben den Mitarbeiter als einen außerordentlich belastbaren und ausdauernden Mitarbeiter kennen gelernt, der seinen Tätigkeiten mit Fleiß und Zielstrebigkeit durchgeführt hat. Wir können den Berater auf jeden Fall und uneingeschränkt weiterempfehlen.</simpara>
 </blockquote>
 <simpara><link xl:href="http://www.henkel.de">http://www.henkel.de</link></simpara>
+<simpara>Projekt: <xref linkend="project_henkel_2015"/></simpara>
 </section>
-<section xml:id="_investitionsgüterhersteller_20_000_ma">
+<section xml:id="referenz_zeiss">
 <title>Investitionsgüterhersteller (&gt;20.000 MA)</title>
 <blockquote>
 <attribution>
@@ -2252,8 +2283,9 @@ Projektmanager
 </attribution>
 <simpara>Der Berater besitzt sehr gute Kenntnisse im Aufbau und Betrieb von komplexen Data Warehouse Systemen und rund um die Themen BI-Solutions. Mit seinem umfassenden fachlichen Know-How und Erfahrungen konnte er die anspruchsvollen Anforderungen innovativ und zur unserer vollsten Zufriedenheit umsetzen. Die Zusammenarbeit und Kommunikation klappt hervorragend. Neben seinem tiefgehenden Fachwissen sind vor allem seine hohe Einsatzbereitschaft, Engagement und Anpassungsfähigkeit sowie seine sorgfältige, innovative und selbständige Arbeitsweise hervorzuheben. Wir bedanken uns für die erfolgreiche Zusammenarbeit und werden mit ihm auch in der Zukunft gerne zusammenarbeiten.</simpara>
 </blockquote>
+<simpara>Projekt: <xref linkend="project_zeiss_2018"/></simpara>
 </section>
-<section xml:id="_kelvion_holding_gmbh">
+<section xml:id="referenz_kelvion">
 <title>Kelvion Holding GmbH</title>
 <blockquote>
 <attribution>
@@ -2262,8 +2294,9 @@ Teamlead Business Intelligence
 <simpara>Der Consultant war im Rahmen eines größeren Projektes zur Einführung eines Datawarehouses in unserem Unternehmen für die Architektur und Programmierung mehrer Analysis-Services-Cubes auf Basis von SQl-Server 2016 verantwortlich. Er überzeugte durch ein hohes Maß an fachlichem und technischen Wissen und legte bei der Konzeptionierung der Lösung großen Wert auf Transparenz und Flexibilität. Wir sind mit seiner Arbeit äußerst zufrieden und empfehlen ihn uneingeschränkt weiter!</simpara>
 </blockquote>
 <simpara><link xl:href="https://de.kelvion.com/">https://de.kelvion.com/</link></simpara>
+<simpara>Projekt: <xref linkend="project_kelvion_2017"/></simpara>
 </section>
-<section xml:id="_volkswagen_nutzfahrzeuge">
+<section xml:id="referenz_vgsg">
 <title>Volkswagen Nutzfahrzeuge</title>
 <blockquote>
 <attribution>
@@ -2273,8 +2306,9 @@ Auftraggeber
 <simpara>Der Consultant war bei uns mit der (Weiter-)entwicklung des mathematisch- / statistischen Teils unseres Projektes betraut, insbesondere mit dem Aufbau komplexer Prognosemodelle, unter anderem mit Künstlichen Neuronalen Netzen (KNN), multipler Regression und weiteren statistischen Verfahren (BI im Microsoft-Umfeld + Statistica und Tableau). Aus den Outputdaten des KNN und zahlreichen weiteren Datenquellen konzipierte und entwickelte der Consultant nach Kundenvorgabe eigenständig Visualisierungen in Tableau (Standardberichte für Fachbereiche, Dashboards, Decision Support). Der Consultant verfügt über ein beeindruckendes Auffassungsvermögen; vor dem Hintergrund der hohen Komplexität des bestehenden Systems und des sehr spezifischen Fachgebietes arbeitete er sich extrem schnell in die bestehenden Workflows, Prozesse und auch in das für ihn völlig neue Fachgebiet ein. Nach kürzester Zeit entdeckte (und behob) er bestehende Fehler und hatte stets einen Lösungsvorschlag auch für neue, komplexe Problemstellungen parat. Neben seinem hohen analytischen Denkvermögen zeichnet ihn besonders seine Fähigkeit zum 'Querdenken' aus, was im Team dazu anregt, den Status Quo zu überdenken, bestehende Strukturen aufzubrechen und gegebenenfalls neue (Lösungs-)Wege zu beschreiten. Ich danke dem Consultant für die gute und bereichernde Zusammenarbeit und wünsche ihm für seinen weiteren privaten und beruflichen Lebensweg viel Erfolg und alles Gute.</simpara>
 </blockquote>
 <simpara><link xl:href="http://www.volkswagen-nutzfahrzeuge.de">http://www.volkswagen-nutzfahrzeuge.de</link></simpara>
+<simpara>Projekt: <xref linkend="project_vgsg_2016"/></simpara>
 </section>
-<section xml:id="_nestlé">
+<section xml:id="referenz_nestle">
 <title>Nestlé</title>
 <blockquote>
 <attribution>
@@ -2283,8 +2317,9 @@ Project Manager Dynamic Forecast
 <simpara>The consultant has been an asset to our project. He is hard working and has a strong sense of Customer Service. He is able to break down complex requirements into logical tasks and has frequently demonstrated his ability to come up with innovative solutions to some of the challenges that we have faced. I would consider him to be an expert in his area.</simpara>
 </blockquote>
 <simpara><link xl:href="http://www.nestle.com/">http://www.nestle.com/</link></simpara>
+<simpara>Projekt: <xref linkend="project_nestle_2012"/></simpara>
 </section>
-<section xml:id="_landwirtschaftliche_rentenbank">
+<section xml:id="referenz_rentenbank">
 <title>Landwirtschaftliche Rentenbank</title>
 <blockquote>
 <attribution>
@@ -2293,8 +2328,9 @@ Leiter Anwendungsentwicklung OLAP DWH Java
 <simpara>Der Berater besitzt sehr gute Kenntnisse bei der Entwicklung und im Design von IT-Anwendungssystemen. Darüber hinaus sind seine sehr guten Kenntnisse in der Modellierung von anspruchsvollen OLAP-Lösungen hervorzuheben. Der Berater hat durch seine Arbeitweise, die durch Selbstständigkeit, Einsatzbereitschaft und Zielorientierung gekennzeichnet ist, durch kreative Lösungsansätze und den aktiven Austausch von Know-How mit anderen Teammitgliedern maßgeblich zu den Erfolgen in den Projekten beigetragen. Die ihm übertragenen Aufgaben führte er zu unserer vollsten Zufriedenheit aus. Unsere Fachanwender loben die schnelle und kompetente Umsetzung ihrer Anforderungen sowie die erhaltene praktische Hilfe bei der Verwendung der analytischen Anwendungen. Sein Verhalten war stets einwandfrei und kooperativ. Wir bedanken uns für die gute Mitarbeit beim Berater und hoffen auf eine weitere unternehmerische Zusammenarbeit.</simpara>
 </blockquote>
 <simpara><link xl:href="https://www.rentenbank.de/">https://www.rentenbank.de/</link></simpara>
+<simpara>Projekt: <xref linkend="project_rentenbank_2009"/></simpara>
 </section>
-<section xml:id="_mis_ag">
+<section xml:id="referenz_infor">
 <title>MIS AG</title>
 <simpara>Projekt im Rahmen einer Festanstellung durchgeführt</simpara>
 <blockquote>
@@ -2305,6 +2341,7 @@ Geschäftsführer
 <simpara><literal>[&#8230;&#8203;]</literal> Als technischer Projektleiter arbeitete sich der Mitarbeiter zielorientiert mit viel Engagement und Eigeninitiative in komplexe Arbeitsgebiete ein und bewältigte neue Arbeitssituationen stets gut und sicher. Er verfügte über umfassende und vielseitige Fachkenntnisse, die er stets ktualisierte und erweiterte. In bereichsübergreifenden Zusammenhängen setzte er die richtigen Prioritäten und überzeugte mit guten Lösungsvorschlägen. Aufgrund seines zielgerichteten von großer Sorgfalt, Systematik, Selbstständigkeit und Verantwortungsbewußtsein geprägten Arbeitsstils gelang es ihm, komplexe Lösungen stets erfolgreich umzusetzen. Auf Grund seiner umfassenden Kenntnisse im Krankenhaus- und Verlagsbereich war der Mitarbeiter federführend an der Entwicklung der '`[&#8230;&#8203;]` Business Solution Krankenhäuser', der 'DRC&#8217;s (Diagnosis Related Costs)', der '§21-DRG-Analyse' für Krankenhäuser und der '`[&#8230;&#8203;]` Business Solution - Anzeigeninformationssystem für Verlage' beteiligt. Der Mitarbeiter konzipierte und implementierte verschiedene kundenspezifische Lösungen für das Medizin- und Krankenhauscontrolling und das Verlagswesen. Wir bescheinigen dem Mitarbeiter, dass er über ausgeprägte analytische Fähigkeiten und eine starke IT-Ausrichtung verfügt, die er erfolgreich in seine Arbeit integriert. Der Mitarbeiter nahm im Rahmen seiner Tätigkeit an den Schulungen der <literal>[&#8230;&#8203;]</literal> Academy teil und erwarb sich hier umfangreiches, qualifiziertes Wissen in Projektmanagement und Teamführung. Immer wieder verstand er es, in seinem Arbeitsgebiet wichtige Impulse zu geben und neue Wege zu beschreiten. Seine Innovationsbereitschaft, sein Verantwortungsbewusstsein, seine Kompetenz und seine Zuverlässigkeit waren ein wichtiger Beitrag für unser Unternehmen und ein Indikator für Wachstum und Erfolg. Der Mitarbeiter erfüllte die ihm obliegenden Aufgaben stets zu unserer vollsten Zufriedenheit. Das Verhalten des Mitarbeites gegenüber der Unternehmensleitung und seinen Kollegen waren gleichermaßen vorbildlich. Gleiches gilt für seinen von Aktivität und Serviceorientierung geprägten Umgang mit Kunden. Der Mitarbeiter stellte die Unternehmensziele beim Kunden stets erfolgreich in den Vordergrund. Er war ein engagierter und begeisterungsfähiger Mitarbeiter, der wegen seiner kooperativen und hilfsbereiten, sachlichen Art gleichermaßen bei Vorgesetzten, Mitarbeitern und Kunden beliebt war. Wir haben den Mitarbeiter als einen außerordentlich belastbaren und ausdauernden Mitarbeiter kennen gelernt, der seinen Tätigkeiten mit Fleiß und unverkennbarer Freude nachgeht. <literal>[&#8230;&#8203;]</literal> Wir bedauern sehr, in ihm einen ausgezeichneten Mitarbeiter zu verlieren und danken ihm für die zu jedem Zeitpunkt sehr guten Leistungen und die angenehme Zusammenarbeit. <literal>[&#8230;&#8203;]</literal></simpara>
 </blockquote>
 <simpara><link xl:href="http://www.infor.de">http://www.infor.de</link></simpara>
+<simpara>Projekt: <xref linkend="project_infor_2004"/></simpara>
 </section>
 </section>
 </article>

@@ -163,6 +163,7 @@ Größe:: >10.000 Mitarbeiter
 * git
 * jira
 
+[#project_drkkliniken_2019]
 == 11/2010 - 12/2019; DRK Kliniken Berlin
 
 Branche:: Gesundheitswesen, Krankenhaus
@@ -201,6 +202,9 @@ Produkte:
 
 Aktuell: regelmäßiger Support, um das System "am Laufen zu halten", bis irgendwann die vollständige Migration in ein klinisches DWH des KISAnbieters abgeschlossen sein wird.
 
+Referenz: xref:goertz-references.adoc#referenz_drkkliniken[]
+
+[#project_wuerth_logistics_2019]
 == 11/2019 - 12/2019; Würth Logistics AG
 
 Branche:: Transport und Logistik
@@ -223,6 +227,10 @@ Das schweizer Logistik-Unternehmen ist zuständig für die weltweite Koordinatio
 * AnalyticsCreator
 * git
 
+Referenz: xref:goertz-references.adoc#referenz_wuerth_logistics[]
+
+
+[#project_provinzial_2019]
 == 10/2018 - 09/2019; Provinzial Nord-West
 
 Branche:: Versicherungen
@@ -239,6 +247,8 @@ Aufbau eines neuen DWH, gehostet auf Microsoft Azure, basierend auf Microsoft SQ
 * Big Data
 * jira
 * git
+
+Referenz: xref:goertz-references.adoc#referenz_provinzial[]
 
 == 08/2018 - 10/2018; ZEISS Group
 
@@ -262,6 +272,7 @@ Größe:: >10.000 Mitarbeiter
 
 * SQL Server (on-premise und Azure Cloud)
 
+[#project_zeiss_2018]
 == 03/2016 - 09/2018; ZEISS Group
 
 Branche:: Industrie und Maschinenbau
@@ -283,6 +294,8 @@ Produkte:
 * TFVC
 
 Kernprojekt 03.2016 - 04.0216, Danach bis 09.2018 laufender Support bis und einschließlich Migration auf ServiceNow
+
+Referenz: xref:goertz-references.adoc#referenz_zeiss[]
 
 == 11/2017 - 07/2018; Adecco Germany Holding SA & Co. KG
 
@@ -310,6 +323,7 @@ Produkte:
 * AnalyticsCreator
 * TFVC
 
+[#project_opel_2017]
 == 05/2017 - 11/2017; Adam Opel GmbH
 
 Branche:: Automobil und Fahrzeugbau
@@ -326,6 +340,9 @@ Größe:: >10.000 Mitarbeiter
 * DWH, ELT und SSAS werden mit AnalyticsCreator erstellt
 * TFVC oder git
 
+Referenz: xref:goertz-references.adoc#referenz_opel[]
+
+[#project_kelvion_2017]
 == 07/2016 - 06/2017; Kelvion
 
 Branche:: Industrie und Maschinenbau
@@ -340,6 +357,8 @@ Größe:: 1000-5000 Mitarbeiter
 * Targit
 * Power BI
 * git
+
+Referenz: xref:goertz-references.adoc#referenz_kelvion[]
 
 == 04/2017 - 05/2017; Kuhn und Bülow Versicherungsmakler Group
 
@@ -385,6 +404,7 @@ Größe:: 1000-5000 Mitarbeiter
 * Microsoft SQL Server (relational, SSAS, SSIS) on-premise
 * TFVC
 
+[#project_vgsg_2016]
 == 06/2015 - 03/2016; Volkswagen Gebrauchtfahrzeughandels und Service GmbH (VGSG)
 
 Branche:: Automobil und Fahrzeugbau
@@ -413,6 +433,9 @@ Decision Support for the Automotive Industry: Forecasting Residual Values using 
 in Leimeister, J.M.; Brenner, W. (Hrsg.): Proceedings der 13. Internationalen Tagung +
 Wirtschaftsinformatik (WI 2017), St. Gallen, S. 1205-1219
 
+Referenz: xref:goertz-references.adoc#referenz_vgsg[]
+
+[#project_henkel_2015]
 == 08/2012 - 05/2015; Henkel AG & Co. KGaA
 
 Branche:: Konsumgüter und Handel
@@ -439,7 +462,9 @@ Hauptfokus: SSAS, Datamart, auch SSIS
 * SAP-Anbindung mit cMORE/Connect for SAP (basiert auf Theobald SAP Integration)
 * TFVC
 
+Referenz: xref:goertz-references.adoc#referenz_henkel[]
 
+[#project_bkm_2012]
 == 10/2005 - 08/2012; Bezirkskliniken Mittelfranken, Ansbach
 
 Branche:: Gesundheitswesen, Krankenhaus
@@ -469,6 +494,9 @@ Datenquellen:
 * Excel
 * andere
 
+Referenz: xref:goertz-references.adoc#referenz_bkm[]
+
+[#project_nestle_2012]
 == 02/2011 - 05/2012; Nestlé Suisse S.A
 
 Branche:: Konsumgüter und Handel
@@ -483,6 +511,8 @@ Größe:: >10.000 Mitarbeiter
 Anforderungsanalyse, Konzeption, Kommunikation mit Fachbereich, Entwicklung, Dokumentation, Test, Performance Optimierung, Wartung, Beratung
 
 Microsoft SQL Server 2005, Microsoft SQL Server 2008 R2 (on-premise)
+
+Referenz: xref:goertz-references.adoc#referenz_nestle[]
 
 == 10/2011 - 04/2012; MTS (Mobile TeleSystems OJSC), Moskau (Russland)
 
@@ -499,6 +529,7 @@ Größe:: >10.000 Mitarbeiter
 
 Details: http://www.orpheus-it.com/
 
+[#project_hgc_gfs_2011]
 == 10/2005 - 12/2011; HGC GesundheitsConsult GmbH
 
 Branche:: Gesundheitswesen, Krankenhaus
@@ -533,6 +564,8 @@ Datenquellen:
 * Microsoft SQL Server (2000, 2005, 2008) relational, MSAS, SSAS, DTS, SSIS (on-premise)
 * Bissantz Deltamaster
 * Subversion
+
+Referenz: xref:goertz-references.adoc#referenz_gfs[]
 
 == 11/2010 - 02/2011; otto group
 
@@ -582,6 +615,7 @@ Anforderungsanalyse
 
 Microsoft SQL Server 2008 R2 (relational, SSAS, SSIS) (on-premise)
 
+[#project_vivantes_2010]
 == 01/2003 - 04/2010; Vivantes GmbH - Netzwerk für Gesundheit
 
 Branche:: Gesundheitswesen, Krankenhaus
@@ -627,6 +661,11 @@ Anforderungsanalyse, Konzeption, Kommunikation mit Fachbereich, Entwicklung, Dok
 * MIS Integration Framework
 * Subversion
 
+Referenzen:
+* xref:goertz-references.adoc#referenz_vivantes_1[]
+* xref:goertz-references.adoc#referenz_vivantes_2[]
+
+
 == 10/2008 - 12/2009; Rudolf Wöhrl AG
 
 Branche:: Konsumgüter und Handel
@@ -647,6 +686,7 @@ Datenquellen:
 
 * diverse
 
+[#project_rentenbank_2009]
 == 09/2005 - 01/2009; Landwirtschaftliche Rentenbank
 
 Branche:: Banken und Finanzdienstleistungen
@@ -682,6 +722,8 @@ Anforderungsanalyse, Konzeption, Kommunikation mit Fachbereich, Entwicklung, Dok
 * MIS Plain
 * Datawarehouse Explorer
 * Subversion
+
+Referenz: xref:goertz-references.adoc#referenz_rentenbank[]
 
 == 09/2004 - 10/2004; ID GmbH
 
@@ -734,6 +776,9 @@ Implementierung von Analyse- und Reportingsystemen
 
 mehrfache Migrationen von MIS Alea auf MSAS 2000 (Microsoft Analysis Services)
 
+Referenz: xref:goertz-references.adoc#referenz_infor[]
+
+[#project_infor_2004]
 === folgende Projekte wurden als Berater für Business Intelligence bei Kunden der MIS durchgeführt. Bei den namentlich genannten Firmen handelt es sich um Referenzkunden der MIS GmbH (jetzt infor)
 
 === 01/2004 - 05/2004 Konzeption und Umsetzung der "*21-DRG-Analyse" (für Krankenhäuser)

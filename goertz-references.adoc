@@ -1,6 +1,7 @@
 = Referenzen / Bewertungen
 :tags: ["Referenzen", "Bewertungen"]
 
+[#referenz_wuerth_logistics]
 == Würth Logistics AG
 
 //Business Analyst ( Matthias Gerber )
@@ -10,6 +11,9 @@ ____
 Herr Görtz ist ein höchst profesionller Consulter. Herr Görtz hat während den ersten zwei Wochen vom Aufbau unserem DWH hervorragende Arbeit im initialen Setting und bei der Schulung der Mitarbeiter im Analytics Creator inkl. SSIS / SSAS geleistet. Nach den zwei Wochen sind wir in der Lage, einen grossteil der DWH Struktur und Logiken eigenständig zu pflegen und warten.
 ____
 
+Projekt: xref:goertz-project-history-de.adoc#project_wuerth_logistics_2019[]
+
+[#referenz_provinzial]
 == Öffentlich-rechtliche Versicherung
 
 //Projektleiter
@@ -19,6 +23,9 @@ ____
 Herr Görtz hat uns in unserem Projekt mehr als 1 Jahr als Haupt-Entwickler unterstützt. Dabei war er zuständig für die Programmierung von Partner- und Vertragsdaten im neu aufgebauten DWH. Herr Görtz hat die Programmierung mit hoher Eigenmotivation und zügig durchgeführt. Daneben war sehr positiv, dass er einen sehr regelmäßigen, konstruktiven und intensiven Austausch mit den Fachkonzeptionierern gehaltet hat und somit stets Dinge hinterfragt und für die Programmierung verbessert hat.
 ____
 
+Projekt: xref:goertz-project-history-de.adoc#project_provinzial_2019[]
+
+[#referenz_drkkliniken]
 == DRK Kliniken Berlin
 
 [quote, Abteilungsleiter Controlling]
@@ -28,6 +35,9 @@ ____
 
 http://www.drk-kliniken-berlin.de
 
+Projekt: xref:goertz-project-history-de.adoc#project_drkkliniken_2019[]
+
+[#referenz_vivantes_1]
 == Vivantes - Krankenhauskonzern (1)
 
 //Abteilungsleiterin Prozessmanagement
@@ -43,6 +53,9 @@ ____
 
 https://www.vivantes.de/
 
+Projekt: xref:goertz-project-history-de.adoc#project_vivantes_2010[]
+
+[#referenz_vivantes_2]
 == Vivantes - Krankenhauskonzern (2)
 
 [quote, Verantwortlicher für zentrales Berichtswesen]
@@ -52,6 +65,9 @@ ____
 
 https://www.vivantes.de/
 
+Projekt: xref:goertz-project-history-de.adoc#project_vivantes_2010[]
+
+[#referenz_bkm]
 == Bezirkskliniken Mittelfranken
 
 [quote, Verantwortlicher für zentrales Berichtswesen]
@@ -61,6 +77,9 @@ ____
 
 http://www.bezirkskliniken-mfr.de/
 
+Projekt: xref:goertz-project-history-de.adoc#project_bkm_2012[]
+
+[#referenz_gfs]
 == GfS Gesellschaft für Standortsicherung Unternehmensberatung mbH
 
 //Geschäftsführer
@@ -75,9 +94,10 @@ ____
 
 http://www.gesundheitsconsult.de/
 
+Projekt: xref:goertz-project-history-de.adoc#project_hgc_gfs_2011[]
+
+[#referenz_opel]
 == Opel
-
-
 
 [quote, BI Manager (Pete Sansom)]
 ____
@@ -86,9 +106,10 @@ I recently worked with Germo on a BI project to analyse customer behaviour. I fo
 He is determined to do a good job and offers good value for his customers. I would recommend Germo and would not hesitate to work with him in the future.
 ____
 
+Projekt: xref:goertz-project-history-de.adoc#project_opel_2017[]
+
+[#referenz_henkel]
 == Henkel AG & Co. KGaA
-
-
 
 [quote, IT Projektleiter]
 ____
@@ -97,18 +118,20 @@ ____
 
 http://www.henkel.de
 
+Projekt: xref:goertz-project-history-de.adoc#project_henkel_2015[]
+
+[#referenz_zeiss]
 == Investitionsgüterhersteller (>20.000 MA)
-
-
 
 [quote, Projektmanager]
 ____
 Der Berater besitzt sehr gute Kenntnisse im Aufbau und Betrieb von komplexen Data Warehouse Systemen und rund um die Themen BI-Solutions. Mit seinem umfassenden fachlichen Know-How und Erfahrungen konnte er die anspruchsvollen Anforderungen innovativ und zur unserer vollsten Zufriedenheit umsetzen. Die Zusammenarbeit und Kommunikation klappt hervorragend. Neben seinem tiefgehenden Fachwissen sind vor allem seine hohe Einsatzbereitschaft, Engagement und Anpassungsfähigkeit sowie seine sorgfältige, innovative und selbständige Arbeitsweise hervorzuheben. Wir bedanken uns für die erfolgreiche Zusammenarbeit und werden mit ihm auch in der Zukunft gerne zusammenarbeiten.
 ____
 
+Projekt: xref:goertz-project-history-de.adoc#project_zeiss_2018[]
+
+[#referenz_kelvion]
 == Kelvion Holding GmbH
-
-
 
 [quote, Teamlead Business Intelligence]
 ____
@@ -117,9 +140,10 @@ ____
 
 https://de.kelvion.com/
 
+Projekt: xref:goertz-project-history-de.adoc#project_kelvion_2017[]
+
+[#referenz_vgsg]
 == Volkswagen Nutzfahrzeuge
-
-
 
 [quote, Auftraggeber, Fachbereich Restwertmanagement VWN]
 ____
@@ -128,9 +152,10 @@ ____
 
 http://www.volkswagen-nutzfahrzeuge.de
 
+Projekt: xref:goertz-project-history-de.adoc#project_vgsg_2016[]
+
+[#referenz_nestle]
 == Nestlé
-
-
 
 [quote, Project Manager Dynamic Forecast]
 ____
@@ -139,6 +164,9 @@ ____
 
 http://www.nestle.com/
 
+Projekt: xref:goertz-project-history-de.adoc#project_nestle_2012[]
+
+[#referenz_rentenbank]
 == Landwirtschaftliche Rentenbank
 
 //Leiter Anwendungsentwicklung OLAP, DWH, Java
@@ -150,6 +178,9 @@ ____
 
 https://www.rentenbank.de/
 
+Projekt: xref:goertz-project-history-de.adoc#project_rentenbank_2009[]
+
+[#referenz_infor]
 == MIS AG
 
 //Geschäftsführer
@@ -166,3 +197,6 @@ ____
 ____
 
 http://www.infor.de
+
+Projekt: xref:goertz-project-history-de.adoc#project_infor_2004[]
+
