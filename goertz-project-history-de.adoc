@@ -744,6 +744,7 @@ Datenquellen:
 * Excel
 * Cubeware Analysesystem
 
+[#project_infor_2004]
 == 09/1999 - 09/2004; MIS GmbH
 
 Brache:: Beratung
@@ -778,7 +779,6 @@ mehrfache Migrationen von MIS Alea auf MSAS 2000 (Microsoft Analysis Services)
 
 Referenz: xref:goertz-references.adoc#referenz_infor[]
 
-[#project_infor_2004]
 === folgende Projekte wurden als Berater für Business Intelligence bei Kunden der MIS durchgeführt. Bei den namentlich genannten Firmen handelt es sich um Referenzkunden der MIS GmbH (jetzt infor)
 
 === 01/2004 - 05/2004 Konzeption und Umsetzung der "*21-DRG-Analyse" (für Krankenhäuser)
