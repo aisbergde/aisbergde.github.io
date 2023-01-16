@@ -32,6 +32,11 @@ http://www.visality.de/healthcarecontrolcenter.html?&L=0%22Dirk
 * Microsoft SQL Server (on-premise)
 * Python
 
+== 11/2022 - 12/2022; TÜV Rheinland i-sec GmbH
+
+* Coaching Datenmodellierung SSAS und Power BI
+* Microsoft BI und Microsoft SQL Server Beratung
+
 == 05/2022 - 12/2022; Nomura Asset Management Europe KVG mbH
 
 Branche:: Banken und Finanzdienstleistungen
