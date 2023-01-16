@@ -7,9 +7,9 @@
 
 ifndef::env-site[]
 
-// auf dem Server wird der :page-subtitle: unter dem Titel angezeigt
-// local nicht, also blenden wir ihn ein
-// docbook könnte mit spezieller Syntax auch einen subtitle anzeigen, das geht aber nicht mit html5
+// on the jekyll server, the :page-subtitle: is displayed below the title.
+// but it is not shown, when rendered in html5, and the site is rendered in html5, when working locally
+// so we show it additionally only, when we work locally
 // https://docs.asciidoctor.org/asciidoc/latest/document/subtitle/
 
 [discrete] 

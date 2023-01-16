@@ -3,21 +3,6 @@
 
 zeitlich sortiert nach Projekt-Ende
 
-== 05/2022 - bis jetzt; Nomura Asset Management Europe KVG mbH
-
-Branche:: Banken und Finanzdienstleistungen
-
-Größe:: 10-50 Mitarbeiter
-
-=== Aufbau neues DWH, Migration aus altem DWH
-
-* DWH und ELT werden mit AnalyticsCreator erstellt
-* Microsoft SQL Server (on-premise)
-* AnalyticsCreator
-* DataHandwerk
-* Antora
-* git
-
 == 09/2019 - bis jetzt; iconcare (BInovis & Visality)
 
 Branche:: Gesundheitswesen, Krankenhaus, Logistik
@@ -36,18 +21,28 @@ Prozess- und Zeitanalysen in Krankenhäusern (beispielsweise OP Zeiten, OP Wechs
 
 http://www.visality.de/healthcarecontrolcenter.html?&L=0%22Dirk
 
-==== smarte Stromzähler, Zeitanalysen von Stromverbräuchen, IoT
+=== SmartHome
 
+* überwachtes Wohnen in Heimen
+* smarte Stromzähler
+* Zeitanalysen von Stromverbräuchen
+* HomeAssistant
 * IoT
+* MQTT
 * Microsoft SQL Server (on-premise)
 * Python
 
-==== Tools
+== 05/2022 - 12/2022; Nomura Asset Management Europe KVG mbH
 
-* Python
+Branche:: Banken und Finanzdienstleistungen
+
+Größe:: 10-50 Mitarbeiter
+
+=== Aufbau neues DWH, Migration aus altem DWH
+
+* DWH und ELT werden mit AnalyticsCreator erstellt
 * Microsoft SQL Server (on-premise)
-* Power BI
-* Deltamaster
+* AnalyticsCreator
 * DataHandwerk
 * Antora
 * git

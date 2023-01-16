@@ -1,0 +1,2 @@
+asciidoctor-reducer -o Germo_Goertz_IT_profile_full.adoc Germo_Goertz_IT_profile.adoc
+npx downdoc Germo_Goertz_IT_profile_full.adoc

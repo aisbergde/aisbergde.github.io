@@ -4,7 +4,7 @@
 <article xmlns="http://docbook.org/ns/docbook" xmlns:xl="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en">
 <info>
 <title>IT Profil Germo Görtz (de)</title>
-<date>2022-09-21</date>
+<date>2023-01-16</date>
 </info>
 <bridgehead xml:id="_microsoft_bi_architekt_entwickler_ms_sql_server_ssas_dwh_elt_statt_etl_automatisierte_dokumentation_datahandwerk_analyticscreator" renderas="sect2">Microsoft BI Architekt + Entwickler. MS SQL Server, SSAS, DWH, ELT statt ETL, automatisierte Dokumentation, DataHandwerk, AnalyticsCreator</bridgehead>
 <informaltable frame="none" rowsep="0" colsep="0">
@@ -272,8 +272,66 @@ analytisch, exakt, verantwortungsbewusst, selbständig, schnell, effektiv und ef
 <section xml:id="_projekthistorie">
 <title>Projekthistorie</title>
 <simpara>zeitlich sortiert nach Projekt-Ende</simpara>
-<section xml:id="_052022_bis_jetzt_nomura_asset_management_europe_kvg_mbh">
-<title>05/2022 - bis jetzt; Nomura Asset Management Europe KVG mbH</title>
+<section xml:id="_092019_bis_jetzt_iconcare_binovis_visality">
+<title>09/2019 - bis jetzt; iconcare (BInovis &amp; Visality)</title>
+<variablelist>
+<varlistentry>
+<term>Branche</term>
+<listitem>
+<simpara>Gesundheitswesen, Krankenhaus, Logistik</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Größe</term>
+<listitem>
+<simpara>10-50 Mitarbeiter</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
+<section xml:id="_microsoft_bi_architekt_und_entwickler">
+<title>Microsoft BI Architekt und Entwickler</title>
+<section xml:id="_eventanalytics">
+<title>EventAnalytics</title>
+<simpara>Prozess- und Zeitanalysen in Krankenhäusern (beispielsweise OP Zeiten, OP Wechselzeiten, OP Auslastung, Personal Auslastung)</simpara>
+</section>
+<section xml:id="_healthcare_control_center_tool">
+<title>Healthcare-Control-Center-Tool</title>
+<simpara>Übertragung von Steuerungsmethoden aus der Aviation-Branche in ein innovatives IT-Tool zur Planung, Steuerung und Optimierung von Krankenhaus-Prozessen</simpara>
+<simpara><link xl:href="http://www.visality.de/healthcarecontrolcenter.html?&amp;L=0%22Dirk">http://www.visality.de/healthcarecontrolcenter.html?&amp;L=0%22Dirk</link></simpara>
+</section>
+</section>
+<section xml:id="_smarthome">
+<title>SmartHome</title>
+<itemizedlist>
+<listitem>
+<simpara>überwachtes Wohnen in Heimen</simpara>
+</listitem>
+<listitem>
+<simpara>smarte Stromzähler</simpara>
+</listitem>
+<listitem>
+<simpara>Zeitanalysen von Stromverbräuchen</simpara>
+</listitem>
+<listitem>
+<simpara>HomeAssistant</simpara>
+</listitem>
+<listitem>
+<simpara>IoT</simpara>
+</listitem>
+<listitem>
+<simpara>MQTT</simpara>
+</listitem>
+<listitem>
+<simpara>Microsoft SQL Server (on-premise)</simpara>
+</listitem>
+<listitem>
+<simpara>Python</simpara>
+</listitem>
+</itemizedlist>
+</section>
+</section>
+<section xml:id="_052022_122022_nomura_asset_management_europe_kvg_mbh">
+<title>05/2022 - 12/2022; Nomura Asset Management Europe KVG mbH</title>
 <variablelist>
 <varlistentry>
 <term>Branche</term>
@@ -310,75 +368,6 @@ analytisch, exakt, verantwortungsbewusst, selbständig, schnell, effektiv und ef
 <simpara>git</simpara>
 </listitem>
 </itemizedlist>
-</section>
-</section>
-<section xml:id="_092019_bis_jetzt_iconcare_binovis_visality">
-<title>09/2019 - bis jetzt; iconcare (BInovis &amp; Visality)</title>
-<variablelist>
-<varlistentry>
-<term>Branche</term>
-<listitem>
-<simpara>Gesundheitswesen, Krankenhaus, Logistik</simpara>
-</listitem>
-</varlistentry>
-<varlistentry>
-<term>Größe</term>
-<listitem>
-<simpara>10-50 Mitarbeiter</simpara>
-</listitem>
-</varlistentry>
-</variablelist>
-<section xml:id="_microsoft_bi_architekt_und_entwickler">
-<title>Microsoft BI Architekt und Entwickler</title>
-<section xml:id="_eventanalytics">
-<title>EventAnalytics</title>
-<simpara>Prozess- und Zeitanalysen in Krankenhäusern (beispielsweise OP Zeiten, OP Wechselzeiten, OP Auslastung, Personal Auslastung)</simpara>
-</section>
-<section xml:id="_healthcare_control_center_tool">
-<title>Healthcare-Control-Center-Tool</title>
-<simpara>Übertragung von Steuerungsmethoden aus der Aviation-Branche in ein innovatives IT-Tool zur Planung, Steuerung und Optimierung von Krankenhaus-Prozessen</simpara>
-<simpara><link xl:href="http://www.visality.de/healthcarecontrolcenter.html?&amp;L=0%22Dirk">http://www.visality.de/healthcarecontrolcenter.html?&amp;L=0%22Dirk</link></simpara>
-</section>
-<section xml:id="_smarte_stromzähler_zeitanalysen_von_stromverbräuchen_iot">
-<title>smarte Stromzähler, Zeitanalysen von Stromverbräuchen, IoT</title>
-<itemizedlist>
-<listitem>
-<simpara>IoT</simpara>
-</listitem>
-<listitem>
-<simpara>Microsoft SQL Server (on-premise)</simpara>
-</listitem>
-<listitem>
-<simpara>Python</simpara>
-</listitem>
-</itemizedlist>
-</section>
-<section xml:id="_tools">
-<title>Tools</title>
-<itemizedlist>
-<listitem>
-<simpara>Python</simpara>
-</listitem>
-<listitem>
-<simpara>Microsoft SQL Server (on-premise)</simpara>
-</listitem>
-<listitem>
-<simpara>Power BI</simpara>
-</listitem>
-<listitem>
-<simpara>Deltamaster</simpara>
-</listitem>
-<listitem>
-<simpara>DataHandwerk</simpara>
-</listitem>
-<listitem>
-<simpara>Antora</simpara>
-</listitem>
-<listitem>
-<simpara>git</simpara>
-</listitem>
-</itemizedlist>
-</section>
 </section>
 </section>
 <section xml:id="_082021_062022_syskron_im_house_of_krones">
