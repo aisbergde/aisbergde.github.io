@@ -1,0 +1,30 @@
+----
+node -e "require('fs').writeFileSync('package.json', '{}')"
+
+npm list --depth 0.
+
+# https://github.com/opendevise/downdoc
+
+npm i downdoc
+
+npm list --depth 0.
+----
+
+
+
+downdoc:
+
+Currently, include directives are not processed. However, you can first run the document through Asciidoctor Reducer to fold in the content from any included files. If you then run downdoc on the output of that step, it will convert the entire document, includes and all.
+
+-Ausführung im separaten Terminal mit Admin-Rechten
+----
+ruby -v
+gem install asciidoctor-reducer
+----
+
+----
+asciidoctor-reducer -h
+
+asciidoctor-reducer -o Germo_Goertz_IT_profile_full.adoc Germo_Goertz_IT_profile.adoc
+npx downdoc Germo_Goertz_IT_profile_full.adoc
+----
