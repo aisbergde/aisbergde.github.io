@@ -28,3 +28,5 @@ asciidoctor-reducer -h
 asciidoctor-reducer -o Germo_Goertz_IT_profile_full.adoc Germo_Goertz_IT_profile.adoc
 npx downdoc Germo_Goertz_IT_profile_full.adoc
 ----
+
+IMPORTANT: Germo_Goertz_IT_profile_full.adoc muss dann aber wieder gelöscht werden, sonst kommt es wegen `:page-permalink: /goertz_profile_de/` zu Problemen, weil das dann in der Original-Datei und auch hier enthalten wäre.
