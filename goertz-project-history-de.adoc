@@ -330,7 +330,7 @@ Branche:: Automobil und Fahrzeugbau
 
 Größe:: >10.000 Mitarbeiter
 
-=== Churn-Prevention: Microsoft BI Architekt und Entwickler, Microsoft BI-Analyse-Plattform, Analyticscreator
+=== Churn-Prevention: Microsoft BI Architekt und Entwickler, Microsoft BI-Analyse-Plattform, Analyticscreator, Data Scientist
 
 * Vorhersage von Churn-Quoten (Wechsel zu anderen Herstellern), Auswertungen
 * Data Vault, Data Mining, Prediction
@@ -411,7 +411,7 @@ Branche:: Automobil und Fahrzeugbau
 
 Größe:: >10.000 Mitarbeiter
 
-=== BI Competence Center Volkswagen Nutzfahrzeuge, Datamining, neuronale Netze, Visualisierung, Microsoft BI-Analyse-Plattform: Microsoft BI Architekt und Entwickler
+=== BI Competence Center Volkswagen Nutzfahrzeuge, Datamining, neuronale Netze, Visualisierung, Microsoft BI-Analyse-Plattform: Microsoft BI Architekt und Entwickler, Data Scientist
 
 DML: Data Mining Leasing, DM VGSG - Data Mining VGSG (junge Gebrauchte)
 
