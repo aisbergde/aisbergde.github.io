@@ -31,7 +31,7 @@ Größe:: 10-50 Mitarbeiter
 
 === Microsoft BI Architekt und Entwickler
 
-==== Hospital Process Analyzer
+=== Hospital Process Analyzer
 
 https://iconcare.eu/index.php/hospital-process-analyzer/
 
