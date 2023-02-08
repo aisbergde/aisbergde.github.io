@@ -3,41 +3,12 @@
 
 zeitlich sortiert nach Projekt-Ende
 
-== 09/2019 - bis jetzt; iconcare (BInovis & Visality)
-
-Branche:: Gesundheitswesen, Krankenhaus, Logistik
-
-Größe:: 10-50 Mitarbeiter
-
-=== Microsoft BI Architekt und Entwickler
-
-==== EventAnalytics
-
-Prozess- und Zeitanalysen in Krankenhäusern (beispielsweise OP Zeiten, OP Wechselzeiten, OP Auslastung, Personal Auslastung)
-
-==== Healthcare-Control-Center-Tool
-
-Übertragung von Steuerungsmethoden aus der Aviation-Branche in ein innovatives IT-Tool zur Planung, Steuerung und Optimierung von Krankenhaus-Prozessen
-
-http://www.visality.de/healthcarecontrolcenter.html?&L=0%22Dirk
-
-=== SmartHome
-
-* überwachtes Wohnen in Heimen
-* smarte Stromzähler
-* Zeitanalysen von Stromverbräuchen
-* HomeAssistant
-* IoT
-* MQTT
-* Microsoft SQL Server (on-premise)
-* Python
-
-== 11/2022 - 12/2022; TÜV Rheinland i-sec GmbH
+== 11/2022 - bis jetzt; TÜV Rheinland i-sec GmbH
 
 * Coaching Datenmodellierung SSAS und Power BI
 * Microsoft BI und Microsoft SQL Server Beratung
 
-== 05/2022 - 12/2022; Nomura Asset Management Europe KVG mbH
+== 05/2022 - bis jetzt; Nomura Asset Management Europe KVG mbH
 
 Branche:: Banken und Finanzdienstleistungen
 
@@ -51,6 +22,41 @@ Größe:: 10-50 Mitarbeiter
 * DataHandwerk
 * Antora
 * git
+
+== 09/2019 - bis jetzt; iconcare (BInovis & Visality)
+
+Branche:: Gesundheitswesen, Krankenhaus, Logistik
+
+Größe:: 10-50 Mitarbeiter
+
+=== Microsoft BI Architekt und Entwickler
+
+==== Hospital Process Analyzer
+
+https://iconcare.eu/index.php/hospital-process-analyzer/
+
+30 Jahre Erfahrung aus der Prozesssteuerung von Krankenhäusern und Flughäfen stecken in diesem von iconcare für die Prozesssteuerung entwickelten Werkzeug.
+
+Ziel des Projektes war die Entwicklung eines standardisierten Steuerungswerkzeuges zur Optimierung der OP-Planung und -Steuerung in Krankenhäusern mit bis dahin nicht am Markt verfügbaren Merkmalen – insbesondere zur frühzeitigen Erkennung von und zur rechtzeitigen Reaktion auf sich abzeichnende Prozessstörungen.
+
+Prozess- und Zeitanalysen in Krankenhäusern (beispielsweise OP Zeiten, OP Wechselzeiten, OP Auslastung, Personal Auslastung)
+
+=== SmartHome
+
+* überwachtes Wohnen in Heimen
+* smarte Stromzähler
+* Zeitanalysen von Stromverbräuchen
+* HomeAssistant
+* IoT
+* MQTT
+* Microsoft SQL Server (on-premise)
+* Python
+
+== 09/2022 - 09/2022; Kerkhoff Experts GmbH
+
+=== Quick Scan für den Einkauf
+
+* Spend-Cube mit Microsoft Power BI
 
 == 08/2021 - 06/2022; SYSKRON - im House of Krones
 
