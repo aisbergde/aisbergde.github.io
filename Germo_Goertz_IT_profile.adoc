@@ -162,7 +162,11 @@ analytisch, exakt, verantwortungsbewusst, selbständig, schnell, effektiv und ef
 [discrete]
 === keine AÜL, Rentenversicherung, Scheinselbständigkeit
 
-Ich habe *_kein_* Interesse an einer festen Anstellung, insbesondere auch nicht an einer Arbeitnehmerüberlassung (AÜL), da ich jeden unnötigen Kontakt mit der "Deutschen Rentenversicherung" vermeiden will, die gemeinsam mit der Politik dafür verantwortlich ist, dass immer mehr Kunden Angst haben, in Deutschland mit Freiberuflern zusammenzuarbeiten. Die Gefahr der sogenannten "Scheinselbständigkeit" ist seit über 2 Jahrzehnten ohne Lösung und behindert die Arbeit von Freiberuflern und Selbständigen.
+Ich habe *_kein_* Interesse an einer festen Anstellung, insbesondere auch nicht an einer Arbeitnehmerüberlassung (AÜL), da ich jeden unnötigen Kontakt mit der "Deutschen Rentenversicherung" vermeiden will.
+
+// , die gemeinsam mit der Politik dafür verantwortlich ist, dass immer mehr Kunden Angst haben, in Deutschland mit Freiberuflern zusammenzuarbeiten. 
+
+// Die Gefahr der sogenannten "Scheinselbständigkeit" ist seit über 2 Jahrzehnten ohne Lösung und behindert die Arbeit von Freiberuflern und Selbständigen.
 
 // Die Gefahr der sogenannten "Scheinselbständigkeit" ist auch ein Grund dafür, warum ich möglichst nicht mehr in einem einzigen Projekt vollzeit tätig sein will, sondern zwecks Risiko-Minimierung lieber in mehreren Projekten gleichzeitig.
 ====
@@ -185,7 +189,7 @@ Mit den *multidimensionalen* Datenbanken arbeite ich seit 1999, damals noch "OLA
 
 Seit SQL Server 2012 gibt es zusätzlich *SSAS Tabular*, eine auf Tabellen basierende Technologie, wie sie auch in Power Pivot und http://powerbi.microsoft.com/de-de/[Power BI] verwendet wird.
 
-Die Tabular-Technologie wird von Microsoft gepusht. SSAS Tabular hat einige Stärken und wird wesentlich besser von *Power BI* unterstützt. Die Unterstützung von Power BI für multidimensionale Datenbanken ist mangelhaft; vielleicht, um diese Technologie langsam sterben zu lassen. Allerdings gibt es immer noch viele Stärken der multidimensionalen Technologie, welche sich mit der tabularischen Technologie (noch) nicht umsetzen lassen.
+Die Tabular-Technologie wird von Microsoft gepusht. SSAS Tabular hat einige Stärken und wird wesentlich besser von *Power BI* unterstützt. Die Unterstützung von Power BI für multidimensionale Datenbanken ist mangelhaft. Allerdings gibt es immer noch viele Stärken der multidimensionalen Technologie, welche sich mit der tabularischen Technologie (noch) nicht umsetzen lassen.
 
 Da Power BI intern die SSAS-Tabular-Technologie verwendet, ist es möglich und oft sinnvoll, mit Power BI erstellte Modelle in SSAS Tabular Datenbanken zu migrieren. Auf diese Datenbanken kann man dann auch mit anderen Frontends zugreifen. Dann gibt es _zentrale_ Modelle, statt eines "Power BI Tourismus", der genauso schlimm ist, wie "Excel Tourismus" (jeder Controller hat seine _eigenen_ Daten und Modelle).
 
