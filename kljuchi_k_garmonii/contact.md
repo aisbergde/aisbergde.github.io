@@ -4,4 +4,4 @@ layout:     redirect
 ---
 Umleitung funktioniert nicht
 
-http://germo-g.de/aisberg/kljuchi_k_garmonii
+http://kljuchi-k-garmonii.aisberg.de/
