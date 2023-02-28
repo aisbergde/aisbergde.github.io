@@ -1,0 +1,64 @@
+Ich möchte mein nicht skalierbares Erwerbsmodell "Arbeitszeit gegen Geld" durch skalierbares Einkommen ergänzen. Gemäß meinem Mindset "Sein => tun => haben" und basierend auf meinen Ergebnissen mit Immobilien-Investments sagte ich mir:
+
+. Ich bin der-Immobilien-Investor.de und Experte für BI,
+. investiere in Immobilien und unterstütze andere bei ihren Investments
+. um mir passives Einkommen zu erwirtschaften, unabhängiger von BI-Auftraggebern zu werden und in Überfluss und Wohlstand zu leben.
+
+Also dachte ich mir, ich sollte ein Blog zu dem Thema erstellen. Und die ersten Artikel-Entwürfe wurden recht Text-lastig. Grafiken könnten die Inhalte verständlicher machen. Grafiken könnte ich mit Excel erstellen, und ich bin andererseits Spezialist für BI, kann man da was machen?
+
+
+== Power BI statt Excel?
+
+Um für eine konkrete Investition den Cashflow und andere Parameter zu berechnen, ist Excel sehr gut geeignet. Dafür gibt es fertige Vorlagen, die man für geringes Geld oder mit eingeschränkter Funktionalität kostenlos verwenden kann. Mir gefällt das https://start.immocation.de/kalkulationstool-roter-faden/[Immocation Kalkulationstool]
+
+Mein Ziel war es, ein Modell zu erstellen, mit dem ich verschiedene Investitionen mit verschiedenen Parametern vergleichen kann. 
+Statt einfach nur Inputparameter in Excel einzugeben, wollte ich diese auch für verschiedene Analysen gegeneinander in Pivottabellen verwenden können, jeweils in Spalten und Zeilen. Dazu wollte ich ein analytisches Datenmodell erstellen. Die Berichte sollen interaktiv sein, öffentlich zugänglich, und kostenlos gehostet.
+
+Welche Technologien beherrsche ich? Tableau bietet sehr schöne und kostenlos gehostete Möglichkeiten, wenn die Berichte öffentlich sein sollen. Doch wie bekomme ich da mein Datenmodell rein? Ich modelliere normalerweise mit Microsoft SSAS, nicht mit oder in Tableau. Die gleiche Technologie, wie in SSAS Tabular steckt auch in Power BI. Power BI Berichte mögen weniger sexy und unflexibler sein, als Tableau-Berichte, doch Power BI und SSAS sind Teil meines täglichen Geschäfts. 
+
+Und es gibt die Möglichkeit, auch mit "Power BI Free" Berichte kostenlos zu hosten und öffentlich zugänglich zu machen. Allerdings stellte sich bei der Umsetzung heraus, dass es dabei recht viele Einschränkungen gibt:
+
+* Es gibt eine einzige Adresse für einen öffentlich freigegeben Bericht, also keine Favoriten, die auf dem gleichen Bericht basieren, auf unterschiedliche Seiten verweisen, mit unterschiedlichen Einstellungen den Bericht filtern
+* das größte Problem ist: +
+**Filter werden zwar angewendet, aber nicht angezeigt.**
+** Man erkennt weder, mit welchen Filtern eine konkrete Seite gefiltert wird
+** noch kann der Anwender diese flexibel verändern
+** normalerweise wäre das schon ein No-Go. Leider wurde mir das erst klar, nachdem ich schon einige Energie in die Modellierung gesteckt hatte. So wurde dieses No-Go zu einer Herausforderung, die irgendwie gelöst werden musste. Denn wie lesen wir bei Hänsel und Gretel: "Wer A sagt, muss auch B sagen."
+* Slicer werden angezeigt und funktionieren, da aber eine Seite nur begrenzten Platz bietet, passen auf eine Seite maximal etwa 60 Slicer, dann wäre aber kein Platz mehr für andere Visuals
+** Man kann diese Slicer aber mit anderen Seiten synchronisieren
+* Überhaupt ist das Konzept von Power BI, dass man pro Seite nur sehr begrenzten Platz hat und nicht zumindest nach unten scrollen kann, eines der Dinge, die mir an Power BI am meisten missfallen.
+* Die Inhalte einiger Visuals werden nicht angezeigt, wenn die Berechnungen zu viel Hauptspeicher benötigen. +
+=> Man muss auf manche Berechnungen verzichten oder das Modell optimieren.
+* Einen kostenlosen SSAS Dienst gibt es nicht, also muss das ganze Modell direkt in Power BI gebaut werden. +
+Das ist wiederum kein Problem. Im Gegenteil ist es eine große Stärke von Power BI, dass man ähnliche oder sogar gleiche Modelle mit SSAS Tabular oder mit Power BI aufbauen kann. Power BI liefert dieses Backend mit, was für mich der Hauptgrund ist, Power BI für mein Vorhaben zu verwenden.
+
+=== Tabellen für jeden Eingabe-Parameter?
+
+Im Excel ist es sehr einfach, die Inhalte beliebiger Zellen als Eingabe-Parameter zu verwenden.
+
+In Power BI gibt es Input Parameter. Bei deren Verwendung wird letztlich auch nur jeweils eine neue Tabelle definiert, so dass sich deren Verwendung nicht von importierten oder anders definierten Tabellen unterscheidet.
+
+Es gibt auch Query Parameter. Deren Verwendung für diesen Zweck erschließt sich mir nicht, da sie lediglich als Parameter für die Datenquellen dienen, nicht als Parameter zur Laufzeit der Berichte.
+
+Also kann man für jeden geplanten Parameter eine eigene Tabellen-Spalte verwenden, die sowohl in Data Slicern als auch in Matrix-Visuals oder Diagrammen verwendet werden kann. Das läuft auf eine Tabelle pro Parameter hinaus, wenn diese Parameter voneinander unabhängig sein sollen.
+
+Für ein Datenmodell sind viele Parameter kein Problem: Modelle haben oft eine sehr große Anzahl an Spalten. Problematisch ist vielmehr die Aufgabe, diese Parameter so zu verwenden, dass man auch im öffentlich bereitgestellten Bericht damit sinnvoll und flexibel arbeiten kann. Denn dort werden Filter nicht angezeigt.
+
+=== Ersatz für die fehlenden Filter?
+
+=== Das Modell - zwei Investitionen mit je zwei Finanzierungen
+
+Mein Modell besteht aus zwei Investitionen, so dass man optional zwei Investitionen mit unterschiedlichen Parametern vergleichen kann.
+
+Jede Investition beinhaltet zwei voneinander unabhängige Finanzierungen, so dass man entsprechende Business Modelle abbilden kann.
+
+Eine Finanzierung kann über die `Tilgungsart` folgende Varianten abbilden:
+
+* Annuitätendarlehen
+* konstante Tilgung
+* Tilgungsersatz und endfällige Tilgung
+* Tilgungsersatz ohne dazugehörigen Kredit
+
+Zu jeder Investition wird als Benchmark eine alternative Investition des Cashflows in eine Anlage mit alternativer Rendite berechnet. Als Gegenstück wird für den Cashflow bis zur Auflösung der Investition durch Verkauf der interne Zinsfluss berechnet, der angibt, mit welcher Rendite der Cashflow alternativ investiert werden müsste, um nach Verkauf der Investitionen das gleiche Ergebnis zu erhalten.
+
+
