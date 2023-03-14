@@ -1,0 +1,41 @@
+= My asciidoc post title
+:page-layout: page
+:page-header: no
+:eqnums:
+:stem: latexmath
+:toc:
+
+Eine kurze Beschreibung des Artikels. Hier kommt noch ein wenig Text. Und noch etwas mehr.
+
+== Das ist H2
+
+
+stem:[\sqrt 4 = 2]
+
+latexmath:[$$C = \alpha + \beta Y^{\gamma} + \epsilon$$]
+
+This is a numbered equation \eqref{myequation}
+[stem]
+++++
+\begin{equation}\label{myequation}
+c^2 = a^2 + b^2 + 5
+\end{equation}
+++++
+
+[plantuml, diagram-classes, png]
+....
+A --|> B : ablink
+B --|> C : bclink
+A --|> C : aclink
+....
+
+NOTE: Das ist eine Note
+
+WARNING: Das ist ein Warning
+
+Notwendige Schritte sind hier beschrieben:
+
+https://www.crystal-growth.net/etc/basic-jekyll-site.html
+
+
+Aber das führt dazu, dass die Grafik für das Diagramm permanennt neu erstellt wird.

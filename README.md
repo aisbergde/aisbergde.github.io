@@ -225,3 +225,27 @@ You can also contribute by becoming an [official sponsor](https://github.com/spo
 This template was not made *entirely* from scratch. I'd like to give special thanks to [Jekyll Now](https://github.com/barryclark/jekyll-now) and [Bootstrap Clean Blog](https://github.com/IronSummitMedia/startbootstrap-clean-blog), from whom I've taken several ideas initially.
 
 I'd also like to thank [Dr. Jekyll's Themes](https://drjekyllthemes.github.io/), [Jekyll Themes](http://jekyllthemes.org/), and another [Jekyll Themes](http://jekyllrc.github.io/jekyllthemes/) for featuring Beautiful Jekyll in their Jekyll theme directories.
+
+# Ergänzungen GG
+
+lokaler build
+
+evtl. mit Admin-Rechten
+
+    bundle
+
+lokal laufen lassen
+
+    bundle exec jekyll serve
+
+im Browser anschauen: `http://127.0.0.1:4000/` oder `http://localhost:4000`
+
+um auch das anzuzeigen, was unter `_drafts` liegt
+
+    jekyll server --watch
+
+    jekyll server --watch --drafts
+
+weil es noch Fehler gab: `cannot load such file – webrick`, vorher noch
+
+    bundle add webrick

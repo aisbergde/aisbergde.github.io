@@ -1,0 +1,22 @@
+= Post mit AsciDoc Test
+:page-layout: page
+:page-subheadline:  "Das ist eine subheadline, Sie wird über dem Titel angezeigt, nicht darunter. Besser wäre: SuperHeadline"
+:page-teaser: "Das ist ein Teaser, der vielleicht auch ein wenig länger sein kann. Es wird also nicht automatisch der erste Abschnitt verwendet. Er funktioniert wie sonst ein subtitle, wird also auch über dem TOC angezeigt."
+:page-tags: ["analyticscreator", "dwh-automatisierung", "etl", "elt", "dwh", "wherescape", "data-lineage", "slow-changing-dimension", "scd", "ssas-tabular", "ssas"]
+:page-header: { title: Test des Page-Headers }
+:toc: auto
+:toclevels: 2
+
+Das ist die Zeile 1.
+Es folgt Zeile 2.
+Man könnte das auch als ersten Abschnitt verstehen, der vom Thema auf der Liste der Posts angezeigt wird. Zwar ohne besondere Formatierung, aber immerhin.
+
+Und hier ein neuer Abschnitt, nach einer leeren Zeile.
+
+== Das ist ein H2
+
+qwert asdfg
+
+=== ein H3
+
+yxcvb

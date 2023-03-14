@@ -3,10 +3,21 @@
 
 zeitlich sortiert nach Projekt-Ende
 
+== 03/2023 - bis jetzt; softwareONE
+
+* BI Entwicklung
+* Migration von SSAS OLAP über SSAS Tabular in Power BI Premium
+
 == 11/2022 - bis jetzt; TÜV Rheinland i-sec GmbH
 
 * Coaching Datenmodellierung SSAS und Power BI
-* Microsoft BI und Microsoft SQL Server Beratung
+* Coaching Microsoft BI und Microsoft SQL Server
+
+== 09/2022 - bis jetzt; Kerkhoff Experts GmbH
+
+=== Quick Scan für den Einkauf
+
+* Spend-Cube mit Microsoft Power BI
 
 == 05/2022 - bis jetzt; Nomura Asset Management Europe KVG mbH
 
@@ -51,12 +62,6 @@ Prozess- und Zeitanalysen in Krankenhäusern (beispielsweise OP Zeiten, OP Wechs
 * MQTT
 * Microsoft SQL Server (on-premise)
 * Python
-
-== 09/2022 - 09/2022; Kerkhoff Experts GmbH
-
-=== Quick Scan für den Einkauf
-
-* Spend-Cube mit Microsoft Power BI
 
 == 08/2021 - 06/2022; SYSKRON - im House of Krones
 

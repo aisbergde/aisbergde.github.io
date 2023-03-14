@@ -1,16 +1,28 @@
-# project
-_site
-.sass-cache
-.vagrant
-
 # general
 .DS_Store
 Thumbs.db
 ehthumbs.db
 
+# Ruby Gem
+*.gem
+# beautiful-jekyll-theme-*.gem
+.bundle
 Gemfile.lock
+**/vendor/bundle
 
-beautiful-jekyll-theme-*.gem
+# macOS
+.DS_Store
+
+# Jekyll generated files
+.jekyll-cache
+.jekyll-metadata
+.sass-cache
+_asset_bundler_cache
+_site
+
+# project
+.vagrant
+
 /node_modules
 package.json
 package-lock.json

@@ -235,16 +235,16 @@ google_analytics: "UA-169285367-1"
 
 
 giscus:
- hostname: giscus.app # Replace with your giscus instance's hostname if self-hosting
- repository: "aisbergde/aisbergde.github.io" # GitHub username/repository eg. "daattali/beautiful-jekyll"
- repository-id: "MDEwOlJlcG9zaXRvcnkyNzE2MzU3NzY=" # ID of your repository, retrieve this info from https://giscus.app
- category: "General" # Category name of your GitHub Discussion posts
- category-id: "DIC_kwDOEDDVQM4B_lar" # ID of your category, retrieve this info from https://giscus.app
- mapping: "pathname"
- reactions-enabled: 1
- emit-metadata: 0
- theme: "light"
- lang: "de"
+  hostname: giscus.app # Replace with your giscus instance's hostname if self-hosting
+  repository: "aisbergde/aisbergde.github.io" # GitHub username/repository eg. "daattali/beautiful-jekyll"
+  repository-id: "MDEwOlJlcG9zaXRvcnkyNzE2MzU3NzY=" # ID of your repository, retrieve this info from https://giscus.app
+  category: "General" # Category name of your GitHub Discussion posts
+  category-id: "DIC_kwDOEDDVQM4B_lar" # ID of your category, retrieve this info from https://giscus.app
+  mapping: "pathname"
+  reactions-enabled: 1
+  emit-metadata: 0
+  theme: "light"
+  lang: "de"
 
 # --- Misc --- #
 
@@ -257,7 +257,7 @@ date_format: "%-d %B %Y"
 # --- You don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "	Europe/Berlin"
+timezone: "Europe/Berlin"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
@@ -310,6 +310,12 @@ asciidoctor:
   base_dir: :docdir
   safe: unsafe
   attributes:
+    source-highlighter: coderay
+    coderay-css: style
+    icons: font
+    # Folgende Ergänzungen für Diagramme
+    imagesdir: /assets/images/
+    imagesoutdir: assets/images
     # imagesdir: /images
     # # folgendes ist der Standard für "normale" Inhalte,
     # # wird auf jeder Seite definiert
