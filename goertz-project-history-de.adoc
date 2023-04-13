@@ -52,6 +52,11 @@ Ziel des Projektes war die Entwicklung eines standardisierten Steuerungswerkzeug
 
 Prozess- und Zeitanalysen in Krankenhäusern (beispielsweise OP Zeiten, OP Wechselzeiten, OP Auslastung, Personal Auslastung)
 
+verwendete Technologien:
+
+* Microsoft SQL Server
+* Power BI
+
 === SmartHome
 
 * überwachtes Wohnen in Heimen
