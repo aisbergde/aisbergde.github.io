@@ -1,6 +1,6 @@
 = IT Profil Germo Görtz (de)
 :page-subtitle: Microsoft BI Architekt + Entwickler. MS SQL Server, Power BI, SSAS (OLAP und Tabular), DWH, ELT, ETL, automatisierte Dokumentation, DataHandwerk
-:page-last-updated: 2022-09-15
+:page-last-updated: 2023-04-20
 :page-slug: profil-germo-gortz-de-
 :page-tags: ["MS SQL Server", "DWH", "SSAS", "Antora"]
 //für kompatibilität mit beworbenen Links:
