@@ -19,21 +19,6 @@ zeitlich sortiert nach Projekt-Ende
 
 * Spend-Cube mit Microsoft Power BI
 
-== 05/2022 - bis jetzt; Nomura Asset Management Europe KVG mbH
-
-Branche:: Banken und Finanzdienstleistungen
-
-Größe:: 10-50 Mitarbeiter
-
-=== Aufbau neues DWH, Migration aus altem DWH
-
-* DWH und ELT werden mit AnalyticsCreator erstellt
-* Microsoft SQL Server (on-premise)
-* AnalyticsCreator
-* DataHandwerk
-* Antora
-* git
-
 == 09/2019 - bis jetzt; iconcare (BInovis & Visality)
 
 Branche:: Gesundheitswesen, Krankenhaus, Logistik
@@ -67,6 +52,21 @@ verwendete Technologien:
 * MQTT
 * Microsoft SQL Server (on-premise)
 * Python
+
+== 05/2022 - bis 01/2023; Nomura Asset Management Europe KVG mbH
+
+Branche:: Banken und Finanzdienstleistungen
+
+Größe:: 10-50 Mitarbeiter
+
+=== Aufbau neues DWH, Migration aus altem DWH
+
+* DWH und ELT werden mit AnalyticsCreator erstellt
+* Microsoft SQL Server (on-premise)
+* AnalyticsCreator
+* DataHandwerk
+* Antora
+* git
 
 == 08/2021 - 06/2022; SYSKRON - im House of Krones
 
