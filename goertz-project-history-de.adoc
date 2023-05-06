@@ -6,7 +6,9 @@ zeitlich sortiert nach Projekt-Ende
 == 03/2023 - bis jetzt; softwareONE
 
 * BI Entwicklung
-* Migration von SSAS OLAP über SSAS Tabular in Power BI Premium
+* Migrationen
+** von SSAS OLAP über SSAS Tabular zu Power BI Premium
+** von on premise Data Warehouse zu Data Lakehouse
 
 == 11/2022 - bis jetzt; TÜV Rheinland i-sec GmbH
 
