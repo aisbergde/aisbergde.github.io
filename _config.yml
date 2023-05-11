@@ -314,8 +314,8 @@ asciidoctor:
     coderay-css: style
     icons: font
     # Folgende Ergänzungen für Diagramme
-    imagesdir: /assets/images/
-    imagesoutdir: assets/images
+    imagesdir: /assets/img/
+    imagesoutdir: assets/img
     # imagesdir: /images
     # # folgendes ist der Standard für "normale" Inhalte,
     # # wird auf jeder Seite definiert
