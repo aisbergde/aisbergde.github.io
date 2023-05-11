@@ -26,6 +26,7 @@ ifndef::env-site[]
 // docbook könnte mit spezieller Syntax auch einen subtitle anzeigen, das geht aber nicht mit html5
 // https://docs.asciidoctor.org/asciidoc/latest/document/subtitle/
 
+
 [discrete] 
 === {page-subtitle}
 

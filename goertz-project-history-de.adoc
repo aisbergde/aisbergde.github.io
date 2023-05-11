@@ -10,17 +10,6 @@ zeitlich sortiert nach Projekt-Ende
 ** von SSAS OLAP über SSAS Tabular zu Power BI Premium
 ** von on premise Data Warehouse zu Data Lakehouse
 
-== 11/2022 - bis jetzt; TÜV Rheinland i-sec GmbH
-
-* Coaching Datenmodellierung SSAS und Power BI
-* Coaching Microsoft BI und Microsoft SQL Server
-
-== 09/2022 - bis jetzt; Kerkhoff Experts GmbH
-
-=== Quick Scan für den Einkauf
-
-* Spend-Cube mit Microsoft Power BI
-
 == 09/2019 - bis jetzt; iconcare (BInovis & Visality)
 
 Branche:: Gesundheitswesen, Krankenhaus, Logistik
@@ -55,7 +44,7 @@ verwendete Technologien:
 * Microsoft SQL Server (on-premise)
 * Python
 
-== 05/2022 - bis 01/2023; Nomura Asset Management Europe KVG mbH
+== 05/2022 - 01/2023; Nomura Asset Management Europe KVG mbH
 
 Branche:: Banken und Finanzdienstleistungen
 
@@ -69,6 +58,17 @@ Größe:: 10-50 Mitarbeiter
 * DataHandwerk
 * Antora
 * git
+
+== 11/2022 - 12/2022; TÜV Rheinland i-sec GmbH
+
+* Coaching Datenmodellierung SSAS und Power BI
+* Coaching Microsoft BI und Microsoft SQL Server
+
+== 09/2022 - 12/2022; Kerkhoff Experts GmbH
+
+=== Quick Scan für den Einkauf
+
+* Spend-Cube mit Microsoft Power BI
 
 == 08/2021 - 06/2022; SYSKRON - im House of Krones
 
