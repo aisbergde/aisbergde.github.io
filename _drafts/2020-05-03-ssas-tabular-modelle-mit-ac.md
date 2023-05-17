@@ -81,7 +81,7 @@ Eine SSAS Modellierung erfolgt exklusiv über Datamart-Transformationen - spezie
 
 Hier sehen wir ein Datamart, die Pfeile zwischen den Transformationen entsprechen Tabellen-Beziehungen:
 
-![AnalyticsCreator: Tabellen in einem Datamart Schema](/assets/img/blog/ac_datamart_01.jpg)
+![AnalyticsCreator: Tabellen in einem Datamart Schema](/assets/img/ac_datamart_01.jpg)
 
 Leider kann man aktuell im Diagramm nicht erkennen, ob es ein- oder zweiseitige Beziehungen sind. Ein paar Feature-Request dazu gibt es:
 
@@ -96,7 +96,7 @@ Wenn ein **FriendlyName** festgelegt wurde, dann wird dieser für den Namen der 
 
 Auf der rechten Seite gibt es weitere wichtige Einstellungen:
 
-![AnalyticsCreator: DataMart Tabellen Optionen für den Export in SSAS](/assets/img/blog/ac_dm_table_01.jpg)
+![AnalyticsCreator: DataMart Tabellen Optionen für den Export in SSAS](/assets/img/ac_dm_table_01.jpg)
 
 - "Export to OLAP"  
   legt fest, ob die Tabelle überhaupt in das SSAS Modell übernommen wird. Standard ist "aktiv"
@@ -151,14 +151,14 @@ Mein Custom value:
 
 Mir ist der Default Value entschieden zu lang. Ich riskiere es lieber, dass ich versehentlich gleichnamige Measures definiere, was dann natürlich zu einem Fehler führt, denn Spalten und Measures müssen modell-übergreifend eindeutig sein. Bei Bedarf verwende ich als optionalen Prefix eine Abkürzung des Tabellen-Namen.
 
-![AnalyticsCreator: Defintion von SSAS Measures, Bild 1](/assets/img/blog/ac_measures_01.jpg)
+![AnalyticsCreator: Defintion von SSAS Measures, Bild 1](/assets/img/ac_measures_01.jpg)
 
 Es ist somit sehr einfach, Standard-Measures mit Standard-Aggregationen zu erstellen.
 
 Natürlich können auch aufwendigere Measures definiert werden. Hier sehen wir einfache Divisionen. Zeilenumbrüche werden unterstützt, in den Formeln und in den Beschreibungen. Formatstring und DisplayFolder können zugeordnet werden. Auch die Zuordnung zu mehreren Displayfoldern gleichzeitig ist möglich, wenn ein ";" verwendet wird:  
 Measures\MW;Measures\Average (Date)
 
-![AnalyticsCreator: Defintion von SSAS Measures, Bild 2](/assets/img/blog/ac_measures_02.jpg)
+![AnalyticsCreator: Defintion von SSAS Measures, Bild 2](/assets/img/ac_measures_02.jpg)
 
 Mit den Measures funktioniert das ganz gut. Wenn man Platzhalter verwendet, passen sich auch die Namen der Measures an die neuen FriendlyName an. Was aber auch zu Problemen führen kann, wenn man mit festen Namen in Formeln arbeitet. Folgende Formel ohne Platzhalter funktioniert nur, solange der Name der Quell-Measure `[MW PF_PW daily]` gleich bleibt:
 
@@ -195,7 +195,7 @@ Die Verwendung von "Referenced Column" ist aber nicht zwingend nötig, man kann 
 
 Um nun tatsächlich eine Tabellen-Beziehung herzustellen, ist eine Referenz zwar notwendig, aber nicht ausreichend. Ob aus einer Referenz tatsächlich eine Beziehung wird, wird über die Eigenschaft einer Spalte auf der "n"-Seite einer 1:n-Beziehung festgelegt:
 
-![AnalyticsCreator: Datamart Tabellen - Definition von SSAS Tabellen-Beziehungen](/assets/img/blog/ac_dm_table_02.jpg)
+![AnalyticsCreator: Datamart Tabellen - Definition von SSAS Tabellen-Beziehungen](/assets/img/ac_dm_table_02.jpg)
 
 - mit der Eigenschaft "OLAP Reference" wird über eine Auswahlliste festgelegt, mit welcher (Dimensions)-Tabelle die Verbindung hergestellt werden soll
 - über "2-sided" wird festgelegt, ob es sich um eine ein- oder ein zweiseitige Verbindung handeln soll
@@ -225,13 +225,13 @@ Natürlich können auch Hierarchien definiert werden:
 - Datamart
 - Button "Hierarchies"
 - Auswahl des entsprechenden Hierarchie per Doppelklick  
-![AnalyticsCreator: Definition von SSAS Hierarchien](/assets/img/blog/ac_hierarchies_01.jpg)
+![AnalyticsCreator: Definition von SSAS Hierarchien](/assets/img/ac_hierarchies_01.jpg)
 
 ### Partitionen
 
 Die Definition von Partitionen erfolgt im Baum unter "Partitions" und ist intuitiv und selbsterklärend.
 
-![AnalyticsCreator: Definition von SSAS-Tabellen-Partitionen](/assets/img/blog/ac_tree_ssas_partitions.jpg)
+![AnalyticsCreator: Definition von SSAS-Tabellen-Partitionen](/assets/img/ac_tree_ssas_partitions.jpg)
 
 ### Perspektiven
 
@@ -251,7 +251,7 @@ In den Deployments für SSAS Tabular XMLA-Skripte sind alle SSIS Pakete deaktivi
 
 "Deploy SSIS_Configurations" sollte auch deaktiviert werden, damit der AC gar nicht erst versucht, sich mit dem unter "Server" eingetragenen Server zu verbinden. Wenn es den nicht gibt, dann dauert alles länger, es kommen Verbindungsfehler usw.
 
-![AnalyticsCreator: SSAS Deployment](/assets/img/blog/ac_deployment_ssas_02.jpg)
+![AnalyticsCreator: SSAS Deployment](/assets/img/ac_deployment_ssas_02.jpg)
 
 **Name** des Deployment  
 So heißt auch das erstellte VS-Projekt. Da dieses von mir aber nicht als Projekt verwendet wird, weil ich den Model-Namen nicht im AC konfigurieren kann, ist der Name egal.
@@ -305,7 +305,7 @@ Wenn man sich das erstellte Modell auch optisch ansehen will, wenn man es unter 
 
 Dazu wählt man im Visual Studio "Create a new project", als Projekt-Typ "Import from Server (Tabular)", vergibt im nächsten Schritt einen Namen und legt ein Verzeichnis fest:
 
-![Visual Studio: Create new project - import from Server (Tabular)](/assets/img/blog/ac_vs_create_new_project_import_tabular.jpg)
+![Visual Studio: Create new project - import from Server (Tabular)](/assets/img/ac_vs_create_new_project_import_tabular.jpg)
 
 Ich verwende immer den gleichen Namen und das gleiche Verzeichnis. Ältere Versionen in diesem Verzeichnis benenne ich um oder lösche sie.
 
@@ -313,13 +313,13 @@ Dann auswählen, ob der integrated Workspace oder ein konkreter Server verwendet
 
 Dieses kann man sich nun anschauen: ob die Beziehungen optisch korrekt aussehen usw.
 
-![Visual Studio: SSAS Projekt, Tabellen-Diagramm](/assets/img/blog/ac_vs_ssas_diagram.jpg)
+![Visual Studio: SSAS Projekt, Tabellen-Diagramm](/assets/img/ac_vs_ssas_diagram.jpg)
 
 Nun in den Eigenschaften des Projekts einstellen, wie es bereitgestellt werden soll. Hier wird mir als Standard Model Name nun "Model" vorgeschlagen. 
 
 Wie man im Screenshot sieht, wähle ich normalerweise die Option "nur bereitstellen, nicht verarbeiten". Das liegt auch an VS-Bugs: wenn es beim Deployment einen Verarbeitungsfehler gibt und man das Fenster verlässt, kann es sehr schwer werden, das Fenster wieder zu finden, um es zu schließen. Man muss dann VS im Taskmanager abschießen.
 
-![Visual Studio: SSAS Projekt Eigenschaften](/assets/img/blog/ac_ssas_vs_properties.jpg)
+![Visual Studio: SSAS Projekt Eigenschaften](/assets/img/ac_ssas_vs_properties.jpg)
 
 Dann das Projekt bereitstellen.
 

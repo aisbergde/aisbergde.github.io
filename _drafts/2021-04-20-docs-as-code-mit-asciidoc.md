@@ -99,7 +99,7 @@ Ich war begeistert, wie schnell sich docToolchain nicht nur installieren ließ, 
 
 Einfach ist es auch, basierend auf dem Template [github.com/docToolchain/arc42-template-project](https://github.com/docToolchain/arc42-template-project) auf Knopfdruck eine fertige Mico-Site zu erstellen: [arc42-demo.netlify.app](https://arc42-demo.netlify.app/) Diese Idee gefiel mir so gut, dass ich ursprünglich damit auch meine Projekt- und Datenbank-Dokumentation erstellen wollte. Im Beispiel sieht das auch alles sehr schön aus, in der Praxis ist aber der TOC auf der linken Seite fest eingebaut und hat keine vertikale Scrollbar. So dass damit Inhalte am unteren Rand abgeschnitten werden und nicht erreichbar sind:  
 
-![](/assets/img/blog/Docs-as-code-mit-asciidoc_2021-03-26-01-41-35.png)
+![](/assets/img/Docs-as-code-mit-asciidoc_2021-03-26-01-41-35.png)
 
 Leider habe ich nicht gefunden, wie man das im CSS (oder wo auch immer) ändern könnte oder müsste. Und irgendwann habe ich aufgegeben:  
 [toc is static without scrollbars. long toc are hard to use. very different view in preview and on the website](https://github.com/docToolchain/arc42-template-project/issues/7)  
@@ -160,16 +160,16 @@ Quelle für die Diagramme ist die DataHandwerk-Repository-Datenbank, welche auch
 
 #### Object Reference Diagram
 
-![Object Reference Diagram](../assets/img/blog/diag-c1f9c5ff578eda6e752306d73c950b1c2790e9a1.svg)
+![Object Reference Diagram](../assets/img/diag-c1f9c5ff578eda6e752306d73c950b1c2790e9a1.svg)
 
 #### Object Reference Diagram - Referenced
 
-![Object Reference Diagram - Referenced](../assets/img/blog/diag-268b90f3ab722a926fd4e7cb9e0bf080002e5043.svg)
+![Object Reference Diagram - Referenced](../assets/img/diag-268b90f3ab722a926fd4e7cb9e0bf080002e5043.svg)
 
 #### Object Reference Diagram - Referencing
 
-![Object Reference Diagram - Referencing](../assets/img/blog/diag-755ad76f331c708d02fe78287acfb61e2605df47.svg)
+![Object Reference Diagram - Referencing](../assets/img/diag-755ad76f331c708d02fe78287acfb61e2605df47.svg)
 
 #### Column Reference Diagram
 
-![Column Reference Diagram](../assets/img/blog/diag-0bf5f1995c8ae8616bc1d60bab130dc49bf24c43.svg)
+![Column Reference Diagram](../assets/img/diag-0bf5f1995c8ae8616bc1d60bab130dc49bf24c43.svg)

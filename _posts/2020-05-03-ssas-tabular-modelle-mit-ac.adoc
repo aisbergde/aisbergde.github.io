@@ -5,7 +5,7 @@
 :toc: auto
 :toclevels: 2
 
-:imagesdir: ../assets/img/blog
+:imagesdir: ../assets/img
 
 ifndef::env-site[]
 
@@ -241,7 +241,7 @@ Natürlich können auch Hierarchien definiert werden:
 * Datamart
 * Button "Hierarchies"
 * Auswahl des entsprechenden Hierarchie per Doppelklick +
-image:/assets/img/blog/ac_hierarchies_01.jpg[AnalyticsCreator: Definition von SSAS Hierarchien]
+image:/assets/img/ac_hierarchies_01.jpg[AnalyticsCreator: Definition von SSAS Hierarchien]
 
 === Partitionen
 

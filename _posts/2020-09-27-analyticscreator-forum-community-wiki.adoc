@@ -5,7 +5,7 @@
 :toc: auto
 :toclevels: 2
 
-:imagesdir: ../assets/img/blog
+:imagesdir: ../assets/img
 
 ifndef::env-site[]
 

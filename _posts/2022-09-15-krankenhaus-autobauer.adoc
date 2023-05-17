@@ -3,7 +3,7 @@
 :page-last-updated: 2022-09-15
 :page-tags: ["Krankenhaus", "Automechaniker", "Teilhabe", "Technokratie", "Sieben auf einen Streich", "Inklusion", "Gleichnis", "Diversität", "alte weiße Chirurgen"]
 
-:imagesdir: ../assets/img/blog
+:imagesdir: ../assets/img
 
 ifndef::env-site[]
 

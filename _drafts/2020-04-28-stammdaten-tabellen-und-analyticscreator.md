@@ -76,7 +76,7 @@ WHERE T1.File_BaseName = f.File_BaseName
 )
 ```
 
-![](/assets/img/blog/Anmerkung_2020-04-28_174816.jpg)
+![](/assets/img/Anmerkung_2020-04-28_174816.jpg)
 
 *[AC]: AnalyticsCreator
 *[ODBC]: Open Database Connectivity

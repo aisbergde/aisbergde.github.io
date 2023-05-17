@@ -33,7 +33,7 @@ Im Jahrbuch des deutschen Handwerks von 1935 heißt es dazu:
 
 Das Handwerkszeichen war von 1934 war bis 1994 das offizielle Emblem des deutschen Handwerks, auch in der DDR, in abgewandelter Form dort auch als Symbol der Produktionsgenossenschaften des Handwerks (PGH). Es wird auch heute noch verschiedentlich benutzt. 
 
-![DHW](../assets/img/blog/DatenHandwerk-toolkit-mssql.svg)
+![DHW](../assets/img/DatenHandwerk-toolkit-mssql.svg)
 
 ## Architektur des Projekts
 
@@ -45,13 +45,13 @@ Meine wichtigste Anforderung ist, dass man in einer Datenbank selbst entwickeln 
 
 Hier einige Diagramme aus der Architekturbeschreibung:
 
-![structurizr-SystemLandscape](../assets/img/blog/structurizr-SystemLandscape.svg)
+![structurizr-SystemLandscape](../assets/img/structurizr-SystemLandscape.svg)
 
-![structurizr-DWHBDevelopment-Container](../assets/img/blog/structurizr-DWHBDevelopment-Container.svg)
+![structurizr-DWHBDevelopment-Container](../assets/img/structurizr-DWHBDevelopment-Container.svg)
 
-![structurizr-DWHBDevelopment-DWHdbDevelopmentProjectB-Component](../assets/img/blog/structurizr-DWHBDevelopment-DWHdbDevelopmentProjectB-Component.svg)
+![structurizr-DWHBDevelopment-DWHdbDevelopmentProjectB-Component](../assets/img/structurizr-DWHBDevelopment-DWHdbDevelopmentProjectB-Component.svg)
 
-![structurizr-DWHBDevelopment-RepositorydbProjectB-Component](../assets/img/blog/structurizr-DWHBDevelopment-RepositorydbProjectB-Component.svg)
+![structurizr-DWHBDevelopment-RepositorydbProjectB-Component](../assets/img/structurizr-DWHBDevelopment-RepositorydbProjectB-Component.svg)
 
 ## Stand der Entwicklung
 
@@ -98,6 +98,6 @@ Zur Visualisierung von Beziehungen zwischen Objekten scheint [SchemaCrawler](htt
 Der [dbml-renderer](https://github.com/softwaretechnik-berlin/dbml-renderer) scheint geeignet, um DBML-Skripte als ER-diagramme zu visualisieren. Diese DBML-Skripte könnte man auch interaktiv aus dem DataHandwerk-Repository erstellen.
 
 Ich habe auch getestet, [Power BI](https://powerbi.microsoft.com/de-de/) zur Visualisierung von Referenzen zu verwenden, die als Node und Edges definiert sind. Es funktioniert, ist aber auch noch nicht so, wie ich mir das vorstelle:  
-![](../assets/img/blog/power-bi-references-01.png)
+![](../assets/img/power-bi-references-01.png)
 
 Irgendwie schwebt mir schon so etwas vor, was der AnalyticsCreator bietet. Also mit einer Navigation innerhalb des Diagramms.
