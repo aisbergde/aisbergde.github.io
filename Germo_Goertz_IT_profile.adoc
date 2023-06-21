@@ -1,6 +1,6 @@
 = IT Profil Germo Görtz (de)
-:page-subtitle: Microsoft BI Architekt + Entwickler. MS SQL Server, Power BI, SSAS (OLAP und Tabular), Data Warehouse, Lakehouse, ELT, ETL, automatisierte Dokumentation, DataHandwerk
-:page-last-updated: 2023-04-20
+:page-subtitle: Microsoft BI Architekt + Entwickler. MS SQL Server, Power BI, SSAS (OLAP, Tabular), Data Warehouse, Lakehouse, ELT, ETL, automatisierte Dokumentation, DataHandwerk, Microsoft Fabric
+:page-last-updated: 2023-06-21
 :page-slug: profil-germo-gortz-de-
 :page-tags: ["MS SQL Server", "DWH", "SSAS", "Antora"]
 //für kompatibilität mit beworbenen Links:
@@ -179,7 +179,7 @@ Ich habe *_kein_* Interesse an einer festen Anstellung, insbesondere auch nicht 
 [NOTE]
 ====
 
-[discrete
+[discrete]
 === Über SSAS (SQL Server Analysis Services), Power BI und Microsoft Fabric
 
 Unter dem gleichen Oberbegriff *SSAS* (http://docs.microsoft.com/de-de/analysis-services/analysis-services-overview?view=asallproducts-allversions[SQL Server Analysis Services]) vereint Microsoft zwei unterschiedliche Technologien:

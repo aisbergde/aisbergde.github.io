@@ -4,9 +4,9 @@
 <article xmlns="http://docbook.org/ns/docbook" xmlns:xl="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en">
 <info>
 <title>IT Profil Germo Görtz (de)</title>
-<date>2023-05-11</date>
+<date>2023-06-21</date>
 </info>
-<bridgehead xml:id="_microsoft_bi_architekt_entwickler_ms_sql_server_power_bi_ssas_olap_und_tabular_dwh_elt_etl_automatisierte_dokumentation_datahandwerk" renderas="sect2">Microsoft BI Architekt + Entwickler. MS SQL Server, Power BI, SSAS (OLAP und Tabular), DWH, ELT, ETL, automatisierte Dokumentation, DataHandwerk</bridgehead>
+<bridgehead xml:id="_microsoft_bi_architekt_entwickler_ms_sql_server_power_bi_ssas_olap_tabular_data_warehouse_lakehouse_elt_etl_automatisierte_dokumentation_datahandwerk_microsoft_fabric" renderas="sect2">Microsoft BI Architekt + Entwickler. MS SQL Server, Power BI, SSAS (OLAP, Tabular), Data Warehouse, Lakehouse, ELT, ETL, automatisierte Dokumentation, DataHandwerk, Microsoft Fabric</bridgehead>
 <informaltable frame="none" rowsep="0" colsep="0">
 <tgroup cols="2">
 <colspec colname="col_1" colwidth="50*"/>
@@ -89,6 +89,9 @@
 <itemizedlist>
 <listitem>
 <simpara>Data Warehouse (DWH)</simpara>
+</listitem>
+<listitem>
+<simpara>Data Lakehouse (Databricks, data lake)</simpara>
 </listitem>
 <listitem>
 <simpara>ELT (Extrahieren, Laden, Transformieren von Daten), ETL</simpara>
@@ -244,7 +247,7 @@ analytisch, exakt, verantwortungsbewusst, selbständig, schnell, effektiv und ef
 <simpara>Ich habe <emphasis role="strong"><emphasis>kein</emphasis></emphasis> Interesse an einer festen Anstellung, insbesondere auch nicht an einer Arbeitnehmerüberlassung (AÜL), da ich jeden unnötigen Kontakt mit der "Deutschen Rentenversicherung" vermeiden will.</simpara>
 </note>
 <note>
-<bridgehead xml:id="_über_ssas_sql_server_analysis_services_und_power_bi" renderas="sect2">Über SSAS (SQL Server Analysis Services) und Power BI</bridgehead>
+<bridgehead xml:id="_über_ssas_sql_server_analysis_services_power_bi_und_microsoft_fabric" renderas="sect2">Über SSAS (SQL Server Analysis Services), Power BI und Microsoft Fabric</bridgehead>
 <simpara>Unter dem gleichen Oberbegriff <emphasis role="strong">SSAS</emphasis> (<link xl:href="http://docs.microsoft.com/de-de/analysis-services/analysis-services-overview?view=asallproducts-allversions">SQL Server Analysis Services</link>) vereint Microsoft zwei unterschiedliche Technologien:</simpara>
 <itemizedlist>
 <listitem>
@@ -257,8 +260,9 @@ analytisch, exakt, verantwortungsbewusst, selbständig, schnell, effektiv und ef
 <simpara>Bei gleichem Namen handelt es sich um unterschiedliche Technologien. Die Dokumentation von Microsoft: <link xl:href="http://docs.microsoft.com/de-de/analysis-services/comparing-tabular-and-multidimensional-solutions-ssas?view=asallproducts-allversions">Vergleichen von tabellarischen und mehrdimensionalen Lösungen</link></simpara>
 <simpara>Mit den <emphasis role="strong">multidimensionalen</emphasis> Datenbanken arbeite ich seit 1999, damals noch "OLAP Services 7.0", ab 2000 "MSAS" (Microsoft Analysis Services). Ab 2005 gab es mit "SSAS" (SQL Server Analysis Services) wieder eine neue Technologie, welche grundsätzlich der heutigen mehrdimensionalen Technologie entspricht. Typische Begriffe dieser multidimensionalen Technologie sind <emphasis role="strong">OLAP</emphasis>, <emphasis role="strong">Würfel (Cubes)</emphasis> und <emphasis role="strong">Dimensionen</emphasis>.</simpara>
 <simpara>Seit SQL Server 2012 gibt es zusätzlich <emphasis role="strong">SSAS Tabular</emphasis>, eine auf Tabellen basierende Technologie, wie sie auch in Power Pivot und <emphasis role="strong"><link xl:href="http://powerbi.microsoft.com/de-de/">Power BI</link></emphasis> verwendet wird.</simpara>
-<simpara>Microsoft sieht die Zukunft in den <emphasis role="strong">Power BI Services</emphasis> in der Cloud. Die Tabular-Technologie hat viele Stärken und Vorteile. Allerdings gibt es immer noch Stärken der multidimensionalen Technologie, welche sich mit der tabularischen Technologie nicht oder nicht so gut umsetzen lassen.</simpara>
-<simpara>=&gt; Was sich mit Power BI oder SSAS Tabular realisieren lässt, wird von mir pragmatisch mit Tabular gemacht. Falls nötig und sinnvoll, gibt es weiter OLAP.</simpara>
+<simpara>Microsoft sieht die Zukunft in der Cloud: <emphasis role="strong">Power BI Services</emphasis>; und inzwischen <emphasis role="strong">Microsoft Fabric</emphasis>, basierend auf einem <emphasis role="strong">OneLake</emphasis>.</simpara>
+<simpara>Die Tabular-Technologie hat viele Stärken und Vorteile. Allerdings gibt es immer noch Stärken der multidimensionalen Technologie, welche sich mit der tabularischen Technologie nicht oder nicht so gut umsetzen lassen.</simpara>
+<simpara>=&gt; Was sich mit Power BI oder SSAS Tabular realisieren lässt, wird von mir pragmatisch mit Tabular gemacht. Falls nötig und sinnvoll, gibt es weiter OLAP (Man fragt sich, wie lange noch, und wie zukunftssicher neue OLAP Modelle wohl wären). Vermutlich verschiebt sich die Modellierung aus SSAS oder Power BI in den OneLake der Microsoft Fabric.</simpara>
 <simpara>Die Abfragesprache <link xl:href="http://de.wikipedia.org/wiki/Multidimensional_Expressions">MDX (Multidimensional Expressions)</link> kann für beide Technologien verwendet werden, <link xl:href="https://docs.microsoft.com/de-de/dax/">DAX (Data Analysis Expressions)</link> kann nur für SSAS Tabular verwendet werden.</simpara>
 </note>
 <simpara><?asciidoc-pagebreak?></simpara>
@@ -266,25 +270,6 @@ analytisch, exakt, verantwortungsbewusst, selbständig, schnell, effektiv und ef
 <section xml:id="_projekthistorie">
 <title>Projekthistorie</title>
 <simpara>zeitlich sortiert nach Projekt-Ende</simpara>
-<section xml:id="_032023_bis_jetzt_softwareone">
-<title>03/2023 - bis jetzt; softwareONE</title>
-<itemizedlist>
-<listitem>
-<simpara>BI Entwicklung</simpara>
-</listitem>
-<listitem>
-<simpara>Migrationen</simpara>
-<itemizedlist>
-<listitem>
-<simpara>von SSAS OLAP über SSAS Tabular zu Power BI Premium</simpara>
-</listitem>
-<listitem>
-<simpara>von on premise Data Warehouse zu Data Lakehouse</simpara>
-</listitem>
-</itemizedlist>
-</listitem>
-</itemizedlist>
-</section>
 <section xml:id="_092019_bis_jetzt_iconcare_binovis_visality">
 <title>09/2019 - bis jetzt; iconcare (BInovis &amp; Visality)</title>
 <variablelist>
@@ -319,6 +304,9 @@ analytisch, exakt, verantwortungsbewusst, selbständig, schnell, effektiv und ef
 <listitem>
 <simpara>Power BI</simpara>
 </listitem>
+<listitem>
+<simpara>Microsoft Fabric</simpara>
+</listitem>
 </itemizedlist>
 </section>
 <section xml:id="_smarthome">
@@ -350,6 +338,25 @@ analytisch, exakt, verantwortungsbewusst, selbständig, schnell, effektiv und ef
 </listitem>
 </itemizedlist>
 </section>
+</section>
+<section xml:id="_032023_072023_softwareone">
+<title>03/2023 - 07/2023; softwareONE</title>
+<itemizedlist>
+<listitem>
+<simpara>BI Entwicklung</simpara>
+</listitem>
+<listitem>
+<simpara>Migrationen</simpara>
+<itemizedlist>
+<listitem>
+<simpara>von SSAS OLAP über SSAS Tabular zu Power BI Premium</simpara>
+</listitem>
+<listitem>
+<simpara>von on premise Data Warehouse zu Data Lakehouse</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+</itemizedlist>
 </section>
 <section xml:id="_052022_012023_nomura_asset_management_europe_kvg_mbh">
 <title>05/2022 - 01/2023; Nomura Asset Management Europe KVG mbH</title>

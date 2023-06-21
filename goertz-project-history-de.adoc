@@ -3,13 +3,6 @@
 
 zeitlich sortiert nach Projekt-Ende
 
-== 03/2023 - bis jetzt; softwareONE
-
-* BI Entwicklung
-* Migrationen
-** von SSAS OLAP über SSAS Tabular zu Power BI Premium
-** von on premise Data Warehouse zu Data Lakehouse
-
 == 09/2019 - bis jetzt; iconcare (BInovis & Visality)
 
 Branche:: Gesundheitswesen, Krankenhaus, Logistik
@@ -32,6 +25,7 @@ verwendete Technologien:
 
 * Microsoft SQL Server
 * Power BI
+* Microsoft Fabric
 
 === SmartHome
 
@@ -43,6 +37,13 @@ verwendete Technologien:
 * MQTT
 * Microsoft SQL Server (on-premise)
 * Python
+
+== 03/2023 - 07/2023; softwareONE
+
+* BI Entwicklung
+* Migrationen
+** von SSAS OLAP über SSAS Tabular zu Power BI Premium
+** von on premise Data Warehouse zu Data Lakehouse
 
 == 05/2022 - 01/2023; Nomura Asset Management Europe KVG mbH
 
