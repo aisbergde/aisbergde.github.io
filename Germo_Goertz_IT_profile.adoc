@@ -199,7 +199,7 @@ Die Tabular-Technologie hat viele Stärken und Vorteile. Allerdings gibt es imme
 
 // Da Power BI intern die SSAS-Tabular-Technologie verwendet, ist es möglich und oft sinnvoll, mit Power BI erstellte Modelle in SSAS Tabular Datenbanken zu migrieren. Auf diese Datenbanken kann man dann auch mit anderen Frontends zugreifen. Dann gibt es _zentrale_ Modelle, statt eines "Power BI Tourismus", der genauso schlimm ist, wie "Excel Tourismus" (jeder Controller hat seine _eigenen_ Daten und Modelle).
 
-\=> Was sich mit Power BI oder SSAS Tabular realisieren lässt, wird von mir pragmatisch mit Tabular gemacht. Falls nötig und sinnvoll, gibt es weiter OLAP (Man fragt sich, wie lange noch, und wie zukunftssicher neue OLAP Modelle wohl wären). Vermutlich verschiebt sich die Modellierung aus SSAS oder Power BI in den OneLake der Microsoft Fabric.
+\=> Was sich mit Power BI oder SSAS Tabular realisieren lässt, wird von mir pragmatisch mit Tabular gemacht. Falls nötig und sinnvoll, gibt es weiter OLAP.
 
 Die Abfragesprache http://de.wikipedia.org/wiki/Multidimensional_Expressions[MDX (Multidimensional Expressions)] kann für beide Technologien verwendet werden, https://docs.microsoft.com/de-de/dax/[DAX (Data Analysis Expressions)] kann nur für SSAS Tabular verwendet werden.
 

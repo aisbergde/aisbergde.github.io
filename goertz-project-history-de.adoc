@@ -3,6 +3,13 @@
 
 zeitlich sortiert nach Projekt-Ende
 
+== 07/2023 - bis jetzt; Rhenus Logistics
+
+Branche:: Logistik
+
+* BI-Entwicklung
+* Migration von Cognos zu Microsoft BI
+
 == 09/2019 - bis jetzt; iconcare (BInovis & Visality)
 
 Branche:: Gesundheitswesen, Krankenhaus, Logistik
@@ -29,7 +36,7 @@ verwendete Technologien:
 
 === SmartHome
 
-* überwachtes Wohnen in Heimen
+* überwachtes Wohnen
 * smarte Stromzähler
 * Zeitanalysen von Stromverbräuchen
 * HomeAssistant
