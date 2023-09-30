@@ -30,6 +30,8 @@ navbar-links:
     - Community on Zulip: "https://datahandwerk.zulipchat.com/"
     # - Discussions: "https://github.com/DataHandwerk/DataHandwerk-toolkit-mssql/discussions"
     # - Azure Boards: "https://dev.azure.com/DataHandwerk/89a7b008-69b9-42e4-b31f-4c2dfb6bd49a/_boards/board/t/f3077374-71b6-4a5b-bfd6-24a792bbc352/Microsoft.RequirementCategory/"
+  Vermögensberatung:
+    - Der Immobilien-Investor: "https://der-immobilien-investor.de/"
   # AnalyticsCreator:
   #   - WebPage: "https://www.analyticscreator.com/"
   #   - Forum: "https://forum.analyticscreator.com/"
@@ -68,6 +70,7 @@ social-network-links:
   github: aisbergde
 #  twitter: GermoGortz
 #  patreon:
+  youtube: user/GermoGoertz
 #  medium: yourname
 #  reddit: yourname
   linkedin: germo-görtz
@@ -75,7 +78,6 @@ social-network-links:
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
 #  instagram: germogoertz
-  youtube: user/GermoGoertz
 #  spotify: yourname
 #  telephone: +14159998888
 #  steam: deanat78
@@ -86,6 +88,10 @@ social-network-links:
 #  mastodon: instance.url/@username
 #  ORCID: your ORCID ID
 #  google-scholar: your google scholar
+#  discord: "invite_code" or "users/userid" or "invite/invite_code" 
+#  kaggle: yourname
+#  hackerrank: yourname
+  gitlab: aisbergde
 
 # If you want to show a link to an RSS in the footer, add the site description here.
 # If you don't want to show an RSS link, remove the following line.
