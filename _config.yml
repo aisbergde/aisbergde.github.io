@@ -318,7 +318,7 @@ asciidoctor:
   attributes:
     source-highlighter: coderay
     coderay-css: style
-    icons: font
+    # icons: font
     # Folgende Ergänzungen für Diagramme
     imagesdir: /assets/img/
     imagesoutdir: assets/img
