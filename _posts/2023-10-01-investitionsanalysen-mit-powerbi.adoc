@@ -1,0 +1,81 @@
+= Analysen von Immobilien-Investments und Finanzierungen mit Power BI
+:page-subtitle: Vergleiche von Investitions- und Finanzierungsszenarien mit Power BI
+:page-tags: ["Alternative Investition", "Power BI", "Szenarien"]
+:toc: auto
+:toclevels: 2
+include::_footnotes.adoc[]
+
+:imagesdir: ../assets/img
+
+== Warum Power BI?
+
+
+Als freiberuflicher Microsoft BI Architekt (https://www.aisberg.de[www.aisberg.de]) ist mein bevorzugtes Werkzeug zur Modellierung, Analyse und für Berichte https://powerbi.microsoft.com/de-de/[Microsoft Power BI]. Warum also nicht Power BI auch zur Analyse von Immobilien-Investitionen verwenden? Insbesondere ware die Idee, einen interaktiven Bericht in den https://app.powerbi.com/home?experience=power-bi[Power BI Diensten] öffentlich bereitzustellen. Prinzipiell funktioniert das auch. Allerdings sind die Ressourcen bei der kostenlosen Benutzung der Power BI Dienste etwas eingeschränkt. Das führt dazu, dass einige Visualisierungen mit manchen Parametern nicht funktionieren: 
+
+image::investitionsanalysen-mit-powerbi_2023-09-29-21-25-48.png[]
+
+Eine Möglichkeit, mehr Ressourcen zu bekommen, wäre die kostenpflichtige Verwendung von Power BI Pro.
+
+== Modellierung mit Parametern
+
+Power BI verwendet tabellarische Modelle, also auf Tabellen basierende Modelle. Man kann nicht wie in Excel einen Wert in einer Zelle frei eingeben und mit diesem Wert rechnen. Stattdessen benötigt man für jeden Parameter eine eigene Spalte in einer Tabelle. Und da das Kreuzprodukt aus den verschiedenen Elementen pro Parameter sehr groß ist, verwende ich meistens eine eigene Tabelle mit nur einer Spalte:
+
+image::investitionsanalysen-mit-powerbi_2023-09-29-21-39-23.png[]
+
+Die Tabellen-Spalten können dann in Filtern verwendet werden:
+
+image::investitionsanalysen-mit-powerbi_2023-09-29-21-41-06.png[]
+
+== Lesezeichen
+
+Sehr praktisch und hilfreich ist die Möglichkeit der Lesezeichen. In den Lesezeichen können insbesondere auch die Inhalte der Filter gespeichert werden.
+
+image::investitionsanalysen-mit-powerbi_2023-09-29-21-43-32.png[]
+
+Man kann die Lesezeichen auch direkt im Bericht als Knöpfe bereitstellen:
+
+image::investitionsanalysen-mit-powerbi_2023-09-29-21-44-57.png[]
+
+== Datenmodell
+
+Das Datenmodell ermöglicht den Vergleich von zwei Investitionen `i1` und `i2`. Für jede der beiden Investitionen können zwei Finanzierungen `f1` und `f2` und eine spezielle Finanzierung `Bausparen` (`b1`) kombiniert werden. Daraus ergeben sich 6 Finanzierungen `i1f1`, `i1f2`, `i1b1`, `i2f1`, `i2f2`, `i2b1`
+
+Es gibt Parameter pro Investition. Und es gibt Paramter pro Kombination aus Investition und Finanzierung:
+
+image::investitionsanalysen-mit-powerbi_2023-09-29-21-51-38.png[]
+
+Die Ergebnisse der Modellierung werden als Liniendiagramm zum zeitlichen Verlauf der beiden Investitionen angezeigt:
+
+image::investitionsanalysen-mit-powerbi_2023-09-29-21-54-16.png[]
+
+Über das Kontext-Menü der Diagramme kann man das Diagram fokusieren und auch die einzelnen Datenpunkte als Tabelle sehen.
+
+image::investitionsanalysen-mit-powerbi_2023-09-29-21-55-11.png[]
+
+== Alternative Investition
+
+Besonders wichtig für die Bewertung einer Investition ist die Kennzahl `Alternativ kum`{fn-blog-alternativ-kum}. Verschiedene Größen haben Einfluss auf die Berechnung:
+
+* `i InvestEndMonat`{fn-blog-i-investendmonat}
+* `i AlternativRendite %`{fn-blog-i-alternativrendite}
+* `Outperformance VVÜ CF kum`{fn-blog-outperformance-vvü-cf}
+** `VVÜ kum`{fn-blog-vvü-kum}
+** `CF NachSteuern kum`{fn-blog-cf-nachsteuern-kum}
+
+Die Berechnung der alternativen Rendite{fn-blog-i-alternativrendite} erfordert besonders viele Ressourcen und führt zum oben beschriebenen Fehler der Ressourcen-Überschreitung. Um die Berechnung zu optimieren, wird zuerst der kumulierte Cashflow pro Jahr bis zum Ende der Investition hochgezinst und von diesem Endwert auf die einzelnen Jahre zurückgerechnet. Daher wird auch `i InvestEndMonat`{fn-blog-i-investendmonat} berücksichtigt.
+
+Einzelne Szenarien für Investitionen und Finanzierungen werden in separaten Artikeln auf dieser Website beschrieben: https://der-immobilien-investor.de/[]
+
+// [NOTE]
+// --
+// das ist ein Problem mit diesem Theme
+// --
+
+// NOTE: This is a note
+
+// normal text
+
+// WARNING: this is a warning
+
+//um die Fußnoten besser abzugrenzen:
+{empty} +
