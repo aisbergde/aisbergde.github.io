@@ -1,6 +1,6 @@
 = Analysen von Immobilien-Investments und Finanzierungen mit Power BI
 :page-subtitle: Vergleiche von Investitions- und Finanzierungsszenarien mit Power BI
-:page-tags: ["Alternative Investition", "Power BI", "Szenarien"]
+:page-tags: ["Alternative Investition", "Power BI", "Szenarien", "Immobilien", "Immobilien-Investment"]
 :toc: auto
 :toclevels: 2
 include::_footnotes.adoc[]
@@ -40,7 +40,7 @@ image::investitionsanalysen-mit-powerbi_2023-09-29-21-44-57.png[]
 
 Das Datenmodell ermöglicht den Vergleich von zwei Investitionen `i1` und `i2`. Für jede der beiden Investitionen können zwei Finanzierungen `f1` und `f2` und eine spezielle Finanzierung `Bausparen` (`b1`) kombiniert werden. Daraus ergeben sich 6 Finanzierungen `i1f1`, `i1f2`, `i1b1`, `i2f1`, `i2f2`, `i2b1`
 
-Es gibt Parameter pro Investition. Und es gibt Paramter pro Kombination aus Investition und Finanzierung:
+Es gibt Parameter pro Investition. Und es gibt Parameter pro Kombination aus Investition und Finanzierung:
 
 image::investitionsanalysen-mit-powerbi_2023-09-29-21-51-38.png[]
 
@@ -48,7 +48,7 @@ Die Ergebnisse der Modellierung werden als Liniendiagramm zum zeitlichen Verlauf
 
 image::investitionsanalysen-mit-powerbi_2023-09-29-21-54-16.png[]
 
-Über das Kontext-Menü der Diagramme kann man das Diagram fokusieren und auch die einzelnen Datenpunkte als Tabelle sehen.
+Über das Kontext-Menü der Diagramme kann man das Diagramm fokussieren und auch die einzelnen Datenpunkte als Tabelle sehen.
 
 image::investitionsanalysen-mit-powerbi_2023-09-29-21-55-11.png[]
 

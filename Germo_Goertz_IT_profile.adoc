@@ -126,9 +126,7 @@ Tool für DevOps, agiles Projekt-Controlling, Issue-Tracking, Code-Versionierung
 ** Datenmodellierung nach *Data Vault*
 ** ...
 
-== Soft Skills
-
-Erfolgsfaktoren meiner Tätigkeit als BI-Architekt und -Entwickler:
+== Erfolgsfaktoren meiner Tätigkeit
 
 :fn-blog-kh-autobauer: footnote:kh-autobauer[Hintergründe zu "Technokratie statt Demokratie" im "Gleichnis vom Krankenhaus der Autobauer" https://datahandwerk.aisberg.de/2022-09-15-krankenhaus-autobauer/[]]
 
@@ -140,9 +138,9 @@ Erfolgsfaktoren meiner Tätigkeit als BI-Architekt und -Entwickler:
 Als http://pirogov-university.com/academics/programs-and-degrees/undergraduate/medical-cybernetics/[Arzt-Kybernetiker] bin ich "kybernetisch im Denken und Handeln"
 
 * *Soll* und *Ist* analysieren,
-* verschiedene Wege identifizieren,
-* Ursachen und Wirkungen berücksichtigen,
-* Störgrößen ermitteln und auf diese reagieren.
+* *verschiedene Wege* identifizieren,
+* *Ursachen* und *Wirkungen* berücksichtigen,
+* *Störgrößen* ermitteln und auf diese reagieren.
 
 Soziale Kompetenz, Auffassungsgabe und Ehrgeiz sorgen dafür, dass fachliche Anforderungen genau erfasst und mit maximaler Kunden-Zufriedenheit umgesetzt werden: +
 kompetent, zielorientiert, auch querdenkend und nonkonformistisch, +
