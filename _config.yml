@@ -30,8 +30,9 @@ navbar-links:
     - Community on Zulip: "https://datahandwerk.zulipchat.com/"
     # - Discussions: "https://github.com/DataHandwerk/DataHandwerk-toolkit-mssql/discussions"
     # - Azure Boards: "https://dev.azure.com/DataHandwerk/89a7b008-69b9-42e4-b31f-4c2dfb6bd49a/_boards/board/t/f3077374-71b6-4a5b-bfd6-24a792bbc352/Microsoft.RequirementCategory/"
-  Vermögensberatung:
+  Immobilien-Beratung:
     - Der Immobilien-Investor: "https://der-immobilien-investor.de/"
+    - YouTube: "https://www.youtube.com/@der-immobilien-Investor"
   # AnalyticsCreator:
   #   - WebPage: "https://www.analyticscreator.com/"
   #   - Forum: "https://forum.analyticscreator.com/"

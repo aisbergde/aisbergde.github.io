@@ -46,7 +46,7 @@ h1, h2, h3, h4 {
 }
 
 /* original
-@media (min-width: 768px)
+@media (min-width : 768px)
 .intro-header .page-heading h1 {
     font-size: 5rem;
 }
@@ -55,3 +55,10 @@ h1, h2, h3, h4 {
 .post-preview a {
   color: #1e4586;
 }
+
+.footnote {
+  /* font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; */
+  font-size: .85em;
+  margin: .5em 0 0 0
+}
+

@@ -4,7 +4,7 @@
 <article xmlns="http://docbook.org/ns/docbook" xmlns:xl="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en">
 <info>
 <title>IT Profil Germo Görtz (de)</title>
-<date>2023-09-27</date>
+<date>2023-10-22</date>
 </info>
 <bridgehead xml:id="_microsoft_bi_architekt_entwickler_ms_sql_server_power_bi_ssas_olap_tabular_data_warehouse_lakehouse_elt_etl_automatisierte_dokumentation_datahandwerk_microsoft_fabric" renderas="sect2">Microsoft BI Architekt + Entwickler. MS SQL Server, Power BI, SSAS (OLAP, Tabular), Data Warehouse, Lakehouse, ELT, ETL, automatisierte Dokumentation, DataHandwerk, Microsoft Fabric</bridgehead>
 <informaltable frame="none" rowsep="0" colsep="0">
@@ -202,9 +202,8 @@ Tool für DevOps, agiles Projekt-Controlling, Issue-Tracking, Code-Versionierung
 </listitem>
 </itemizedlist>
 </section>
-<section xml:id="_soft_skills">
-<title>Soft Skills</title>
-<simpara>Erfolgsfaktoren meiner Tätigkeit als BI-Architekt und -Entwickler:</simpara>
+<section xml:id="_erfolgsfaktoren_meiner_tätigkeit">
+<title>Erfolgsfaktoren meiner Tätigkeit</title>
 <itemizedlist>
 <listitem>
 <simpara>Exzellenz durch Kompetenz</simpara>
@@ -227,13 +226,13 @@ Tool für DevOps, agiles Projekt-Controlling, Issue-Tracking, Code-Versionierung
 <simpara><emphasis role="strong">Soll</emphasis> und <emphasis role="strong">Ist</emphasis> analysieren,</simpara>
 </listitem>
 <listitem>
-<simpara>verschiedene Wege identifizieren,</simpara>
+<simpara><emphasis role="strong">verschiedene Wege</emphasis> identifizieren,</simpara>
 </listitem>
 <listitem>
-<simpara>Ursachen und Wirkungen berücksichtigen,</simpara>
+<simpara><emphasis role="strong">Ursachen</emphasis> und <emphasis role="strong">Wirkungen</emphasis> berücksichtigen,</simpara>
 </listitem>
 <listitem>
-<simpara>Störgrößen ermitteln und auf diese reagieren.</simpara>
+<simpara><emphasis role="strong">Störgrößen</emphasis> ermitteln und auf diese reagieren.</simpara>
 </listitem>
 </itemizedlist>
 <simpara>Soziale Kompetenz, Auffassungsgabe und Ehrgeiz sorgen dafür, dass fachliche Anforderungen genau erfasst und mit maximaler Kunden-Zufriedenheit umgesetzt werden:<?asciidoc-br?>
