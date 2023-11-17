@@ -1,5 +1,5 @@
 = IT Profil Germo Görtz (de)
-:page-subtitle: Microsoft BI Architekt + Entwickler. MS SQL Server, Power BI, SSAS (OLAP, Tabular), Data Warehouse, Lakehouse, ELT, ETL, automatisierte Dokumentation, DataHandwerk, Microsoft Fabric
+:page-subtitle: Microsoft BI Architekt + Entwickler. MS SQL Server, Power BI, Fabric, SSAS (OLAP, Tabular), Data Warehouse, Lakehouse, ELT, ETL, automatisierte Dokumentation, DataHandwerk, Azure
 :page-last-updated: 2023-06-21
 :page-slug: profil-germo-gortz-de-
 :page-tags: ["MS SQL Server", "DWH", "SSAS", "Antora"]
@@ -64,11 +64,28 @@ http://rsmu.ru/[Российский национальный исследова
 Download des IT-Profils als Word-Datei: 
 https://datahandwerk.aisberg.de/Germo_Goertz_IT_profile.docx[Germo_Goertz_IT_profile.docx]
 
-== Sprachkenntnisse
+== meine Erfahrung für Ihren Erfolg
 
-* deutsch (Muttersprache)
-* russisch (studiert und gearbeitet in Russland)
-* englisch
+:fn-blog-kh-autobauer: footnote:kh-autobauer[Hintergründe zu "Technokratie statt Demokratie" im "Gleichnis vom Krankenhaus der Autobauer" https://datahandwerk.aisberg.de/2022-09-15-krankenhaus-autobauer/[]]
+
+* Exzellenz durch Kompetenz
+* Handwerk statt Fließband
+* Technokratie statt Demokratie{fn-blog-kh-autobauer}: Vertrauen in Experten
+
+Soziale Kompetenz, Auffassungsgabe und Ehrgeiz sorgen dafür, dass Ihre fachlichen Anforderungen genau erfasst und *zu Ihrer vollen Zufriedenheit umgesetzt werden*: +
+kompetent, zielorientiert, auch querdenkend und nonkonformistisch, +
+analytisch, exakt, verantwortungsbewusst, selbständig, schnell, effektiv und effizient.
+
+Als http://pirogov-university.com/academics/programs-and-degrees/undergraduate/medical-cybernetics/[Arzt-Kybernetiker] bin ich "kybernetisch im Denken und Handeln"
+
+* *Ist* und *Soll* analysieren,
+* *verschiedene Wege* identifizieren,
+* *Ursachen* und *Wirkungen* berücksichtigen,
+* *Störgrößen* ermitteln und auf diese reagieren.
+
+=== Ihre Investition in meine Dienstleistungen -> Ihr Gewinn
+
+Am Ende des Profils finden Sie *Referenzen zufriedener Kunden*.
 
 == BI-Architekt und -Entwickler mit Microsoft BI
 
@@ -103,7 +120,8 @@ https://datahandwerk.aisberg.de/Germo_Goertz_IT_profile.docx[Germo_Goertz_IT_pro
 ** https://datahandwerk.gitlab.io[*DataHandwerk-toolkit-mssql*] +
 mein open source Projekt{fn-blog-dhw}, enthält auch einen Datenbank-Dokumentations-Generator
 ** https://git-scm.com/[git (Versionskontrollsystem)] +
-alle meine Projekte werden grundsätzlich versionisiert, vorzugsweise auf https://about.gitlab.com/[GitLab]
+alle meine Projekte werden grundsätzlich versionisiert
+// , vorzugsweise auf https://about.gitlab.com/[GitLab]
 ** Software und Technologien zur Erstellung und Wartung von Dokumentationen
 *** https://antora.org/[Antora (Docs as Code)] +
 open Source Dokumentations-Framework, insbesondere für technische und versionisierte versionisierte Dokumentation
@@ -119,32 +137,19 @@ einziges brauchbares Excel-Addin für SSAS
 // ** https://www.analyticscreator.com/[AnalyticsCreator] +
 // DWH Automatisierung - besser, flexibler und preiswerter als https://www.wherescape.com/[WhereScape], mit dem ich auch gearbeitet habe{fn-blog-warum-ac}
 ** https://azure.microsoft.com/de-de/services/devops/[Azure DevOps] +
-Tool für DevOps, agiles Projekt-Controlling, Issue-Tracking, Code-Versionierung. Leider keine AsciiDoc-Unterstützung in Wiki oder Repository-Preview (GitLab und GitHub sind diesbezüglich besser)
+Tool für DevOps, agiles Projekt-Controlling, Issue-Tracking, Code-Versionierung
+// . Leider keine AsciiDoc-Unterstützung in Wiki oder Repository-Preview (GitLab und GitHub sind diesbezüglich besser)
 ** https://azure.microsoft.com/de-de[Microsoft Azure]
 *** diverse Dienste und Produkte
 ** Datenmodellierung mit https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/[Dimensional modeling (DM)] als Bestandteil der "Business Dimensional Lifecycle methodology" entwickelt von Ralph *Kimball*
 ** Datenmodellierung nach *Data Vault*
 ** ...
 
-== Erfolgsfaktoren meiner Tätigkeit
+== Sprachkenntnisse
 
-:fn-blog-kh-autobauer: footnote:kh-autobauer[Hintergründe zu "Technokratie statt Demokratie" im "Gleichnis vom Krankenhaus der Autobauer" https://datahandwerk.aisberg.de/2022-09-15-krankenhaus-autobauer/[]]
-
-* Exzellenz durch Kompetenz
-* Handwerk statt Fließband
-* Technokratie statt Demokratie{fn-blog-kh-autobauer}
-** Vertrauen in Experten
-
-Als http://pirogov-university.com/academics/programs-and-degrees/undergraduate/medical-cybernetics/[Arzt-Kybernetiker] bin ich "kybernetisch im Denken und Handeln"
-
-* *Soll* und *Ist* analysieren,
-* *verschiedene Wege* identifizieren,
-* *Ursachen* und *Wirkungen* berücksichtigen,
-* *Störgrößen* ermitteln und auf diese reagieren.
-
-Soziale Kompetenz, Auffassungsgabe und Ehrgeiz sorgen dafür, dass fachliche Anforderungen genau erfasst und mit maximaler Kunden-Zufriedenheit umgesetzt werden: +
-kompetent, zielorientiert, auch querdenkend und nonkonformistisch, +
-analytisch, exakt, verantwortungsbewusst, selbständig, schnell, effektiv und effizient.
+* deutsch (Muttersprache)
+* russisch (studiert und gearbeitet in Russland)
+* englisch
 
 == Anmerkungen
 
@@ -162,22 +167,6 @@ analytisch, exakt, verantwortungsbewusst, selbständig, schnell, effektiv und ef
 ====
 
 [discrete]
-=== keine AÜL, Rentenversicherung, Scheinselbständigkeit
-
-Ich habe *_kein_* Interesse an einer festen Anstellung, insbesondere auch nicht an einer Arbeitnehmerüberlassung (AÜL), da ich jeden unnötigen Kontakt mit der "Deutschen Rentenversicherung" vermeiden will.
-
-// , die gemeinsam mit der Politik dafür verantwortlich ist, dass immer mehr Kunden Angst haben, in Deutschland mit Freiberuflern zusammenzuarbeiten. 
-
-// Die Gefahr der sogenannten "Scheinselbständigkeit" ist seit über 2 Jahrzehnten ohne Lösung und behindert die Arbeit von Freiberuflern und Selbständigen.
-
-// Die Gefahr der sogenannten "Scheinselbständigkeit" ist auch ein Grund dafür, warum ich möglichst nicht mehr in einem einzigen Projekt vollzeit tätig sein will, sondern zwecks Risiko-Minimierung lieber in mehreren Projekten gleichzeitig.
-====
-
-
-[NOTE]
-====
-
-[discrete]
 === Über SSAS (SQL Server Analysis Services), Power BI und Microsoft Fabric
 
 Unter dem gleichen Oberbegriff *SSAS* (http://docs.microsoft.com/de-de/analysis-services/analysis-services-overview?view=asallproducts-allversions[SQL Server Analysis Services]) vereint Microsoft zwei unterschiedliche Technologien:
@@ -189,11 +178,11 @@ Bei gleichem Namen handelt es sich um unterschiedliche Technologien. Die Dokumen
 
 Mit den *multidimensionalen* Datenbanken arbeite ich seit 1999, damals noch "OLAP Services 7.0", ab 2000 "MSAS" (Microsoft Analysis Services). Ab 2005 gab es mit "SSAS" (SQL Server Analysis Services) wieder eine neue Technologie, welche grundsätzlich der heutigen mehrdimensionalen Technologie entspricht. Typische Begriffe dieser multidimensionalen Technologie sind *OLAP*, *Würfel (Cubes)* und *Dimensionen*.
 
-Seit SQL Server 2012 gibt es zusätzlich *SSAS Tabular*, eine auf Tabellen basierende Technologie, wie sie auch in Power Pivot und *http://powerbi.microsoft.com/de-de/[Power BI]* verwendet wird.
+Seit SQL Server 2012 gibt es zusätzlich *SSAS Tabular*, eine auf Tabellen basierende Technologie, wie sie auch in *http://powerbi.microsoft.com/de-de/[Power BI]* verwendet wird.
 
-Microsoft sieht die Zukunft in der Cloud: *Power BI Services*; und inzwischen *Microsoft Fabric*, basierend auf einem *OneLake*.
+Microsoft sieht die Zukunft in der Cloud: *Power BI Services*; *Microsoft Fabric*, basierend auf einem *OneLake*.
 
-Die Tabular-Technologie hat viele Stärken und Vorteile. Allerdings gibt es immer noch Stärken der multidimensionalen Technologie, welche sich mit der tabularischen Technologie nicht oder nicht so gut umsetzen lassen.
+// Die Tabular-Technologie hat viele Stärken und Vorteile. Allerdings gibt es immer noch Stärken der multidimensionalen Technologie, welche sich mit der tabularischen Technologie nicht oder nicht so gut umsetzen lassen.
 
 // Da Power BI intern die SSAS-Tabular-Technologie verwendet, ist es möglich und oft sinnvoll, mit Power BI erstellte Modelle in SSAS Tabular Datenbanken zu migrieren. Auf diese Datenbanken kann man dann auch mit anderen Frontends zugreifen. Dann gibt es _zentrale_ Modelle, statt eines "Power BI Tourismus", der genauso schlimm ist, wie "Excel Tourismus" (jeder Controller hat seine _eigenen_ Daten und Modelle).
 
@@ -202,6 +191,22 @@ Die Tabular-Technologie hat viele Stärken und Vorteile. Allerdings gibt es imme
 Die Abfragesprache http://de.wikipedia.org/wiki/Multidimensional_Expressions[MDX (Multidimensional Expressions)] kann für beide Technologien verwendet werden, https://docs.microsoft.com/de-de/dax/[DAX (Data Analysis Expressions)] kann nur für SSAS Tabular verwendet werden.
 
 ====
+
+[NOTE]
+====
+
+[discrete]
+=== keine AÜL, Rentenversicherung, Scheinselbständigkeit
+
+Ich habe *_kein_* Interesse an einer festen Anstellung, auch nicht an einer Arbeitnehmerüberlassung (AÜL), da ich jeden unnötigen Kontakt mit der "Deutschen Rentenversicherung" vermeiden will.
+
+// , die gemeinsam mit der Politik dafür verantwortlich ist, dass immer mehr Kunden Angst haben, in Deutschland mit Freiberuflern zusammenzuarbeiten. 
+
+// Die Gefahr der sogenannten "Scheinselbständigkeit" ist seit über 2 Jahrzehnten ohne Lösung und behindert die Arbeit von Freiberuflern und Selbständigen.
+
+// Die Gefahr der sogenannten "Scheinselbständigkeit" ist auch ein Grund dafür, warum ich möglichst nicht mehr in einem einzigen Projekt vollzeit tätig sein will, sondern zwecks Risiko-Minimierung lieber in mehreren Projekten gleichzeitig.
+====
+
 
 //folgendes soll ein page break sein, wird aber von pandoc zu docx ignoriert (oder von welchem Konverter auch immer)
 
