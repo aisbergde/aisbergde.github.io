@@ -29,5 +29,6 @@ image::AisbergLogo.svg[]
 |===
 
 
-Am Ende meines link:goertz_profile_de[IT-Profils] finden Sie link:goertz_profile_de#referenzen[*Referenzen zufriedener Kunden*].
+Am Ende meines link:goertz_profile_de[*IT-Profils*] finden Sie link:goertz_profile_de#referenzen[*Referenzen zufriedener Kunden*].
 
+Es folgen Blog-Artikel:
