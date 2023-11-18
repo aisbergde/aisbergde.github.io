@@ -6,7 +6,7 @@
 # --- Required options --- #
 
 # Name of website
-title: "AISBERG: unsere Erfahrung für Ihren Erfolg"
+title: "AISBERG - unsere Erfahrung für Ihren Erfolg"
 
 # # Short description of your site
 # # gibt es im aktuellen Template nicht mehr, funktioniert es noch?
@@ -24,13 +24,13 @@ navbar-links:
     # - Projekthistorie: "goertz_project_history_de"
     # - Referenzen / Bewertungen: "goertz_references"
   Tag Index: "tags"
-  DataHandwerk:
+  DataHandwerk (open source):
     - Dokumentation: "https://datahandwerk.gitlab.io"
     - GitLab Projekt: "https://gitlab.com/datahandwerk/DataHandwerk-toolkit-mssql"
     - Community on Zulip: "https://datahandwerk.zulipchat.com/"
     # - Discussions: "https://github.com/DataHandwerk/DataHandwerk-toolkit-mssql/discussions"
     # - Azure Boards: "https://dev.azure.com/DataHandwerk/89a7b008-69b9-42e4-b31f-4c2dfb6bd49a/_boards/board/t/f3077374-71b6-4a5b-bfd6-24a792bbc352/Microsoft.RequirementCategory/"
-  Immobilien-Finanzierung:
+  Investitionen in Immobilien:
     - Der Immobilien-Investor: "https://der-immobilien-investor.de/"
     - YouTube: "https://www.youtube.com/@der-immobilien-Investor"
   # AnalyticsCreator:
