@@ -1,4 +1,4 @@
-= AISBERG - unsere Erfahrung für Ihren Erfolg
+= AISBERG - meine Erfahrung für Ihren Erfolg
 :page-layout: home
 :page-subtitle: "Ihre Investition in unsere Dienstleistungen → Ihr Gewinn. Microsoft BI Architekt + Entwickler. MS SQL Server, Power BI, Fabric, SSAS (OLAP, Tabular), Data Warehouse, Lakehouse, ELT, ETL, automatisierte Dokumentation, DataHandwerk, Azure"
 :toc: auto
