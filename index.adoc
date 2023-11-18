@@ -29,5 +29,5 @@ image::AisbergLogo.svg[]
 |===
 
 
-Am Ende meines xref:goertz_profile_de.adoc[IT-Profils] finden Sie xref:goertz_profile_de.adoc#referenzen[*Referenzen zufriedener Kunden*].
+Am Ende meines link:goertz_profile_de[IT-Profils] finden Sie link:goertz_profile_de#referenzen[*Referenzen zufriedener Kunden*].
 
