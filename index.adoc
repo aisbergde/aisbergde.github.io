@@ -1,0 +1,33 @@
+= AISBERG - unsere Erfahrung für Ihren Erfolg
+:page-layout: home
+:page-subtitle: "Ihre Investition in unsere Dienstleistungen → Ihr Gewinn. Microsoft BI Architekt + Entwickler. MS SQL Server, Power BI, Fabric, SSAS (OLAP, Tabular), Data Warehouse, Lakehouse, ELT, ETL, automatisierte Dokumentation, DataHandwerk, Azure"
+:toc: auto
+:toclevels: 2
+include::_posts/_footnotes.adoc[]
+
+:imagesdir: assets/img
+
+// include::_posts/2023-10-01-investitionsanalysen-mit-powerbi.adoc[tag=outferpormance]
+
+// TIP: Ergänzend gibt es einen https://www.youtube.com/@der-immobilien-Investor[Youtube-Kanal "Der Immobilien-Investor"], in dem ich versuche, die Blog-Artikel etwas ausführlicher und verständlicher zu erklären.
+
+// include::_posts/_modul_baufinanzierung.adoc[]
+
+// image::Germo_Goertz_345x460.jpg[]
+
+// image::AisbergLogo.svg[]
+
+[frame=none,grid=none]
+[cols="3a,7a"]
+|===
+
+|
+image::Germo_Goertz_345x460.jpg[]
+|
+image::AisbergLogo.svg[]
+
+|===
+
+
+Am Ende meines xref:goertz_profile_de.adoc[IT-Profils] finden Sie xref:goertz_profile_de.adoc#referenzen[*Referenzen zufriedener Kunden*].
+

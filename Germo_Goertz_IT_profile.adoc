@@ -85,7 +85,8 @@ Als http://pirogov-university.com/academics/programs-and-degrees/undergraduate/m
 
 === Ihre Investition in meine Dienstleistungen -> Ihr Gewinn
 
-Am Ende des Profils finden Sie *Referenzen zufriedener Kunden*.
+// Am Ende des Profils finden Sie *Referenzen zufriedener Kunden*.
+Am Ende meines IT-Profils finden Sie xref:goertz-references.adoc#referenzen[*Referenzen zufriedener Kunden*].
 
 == BI-Architekt und -Entwickler mit Microsoft BI
 
