@@ -199,7 +199,7 @@ Die Abfragesprache http://de.wikipedia.org/wiki/Multidimensional_Expressions[MDX
 [discrete]
 === keine AÜL, Rentenversicherung, Scheinselbständigkeit
 
-Ich habe *_kein_* Interesse an einer festen Anstellung, auch nicht an einer Arbeitnehmerüberlassung (AÜL), da ich jeden unnötigen Kontakt mit der "Deutschen Rentenversicherung" vermeiden will.
+Ich habe *_kein_* Interesse an einer festen Anstellung, auch nicht an einer Arbeitnehmerüberlassung (AÜL), da ich jeden unnötigen Kontakt mit der _Deutschen Rentenversicherung_ vermeiden will.
 
 // , die gemeinsam mit der Politik dafür verantwortlich ist, dass immer mehr Kunden Angst haben, in Deutschland mit Freiberuflern zusammenzuarbeiten. 
 
