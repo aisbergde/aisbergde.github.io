@@ -1,9 +1,9 @@
 @ECHO OFF
 rem use input filename as parameter
 rem example:
-rem .convert-adoc-to-docx.bat test.adoc
 rem .convert-adoc-to-docx.bat Germo_Goertz_IT_profile.adoc
 rem .convert-adoc-to-docx.bat Germo_Goertz_IT_profile_2.adoc
+rem .convert-adoc-to-docx.bat test.adoc
 rem .convert-adoc-to-docx.bat "test ccc ddd.adoc"
 rem .convert-adoc-to-docx.bat adoc-syntax-quick-reference.adoc
 rem mit folgendem Aufruf werden Bilder nicht exportiert, Der Aufruf muss also im Verzeichnis der zu exportierenden Datei erfolgen
@@ -19,12 +19,17 @@ rem pandoc -f docbook -t markdown -s android-editor.xml -o android-editor.md
 
 rem for %%f in (.\*.md) do kramdoc --lazy-ids --auto-id-prefix=_ --auto-id-separator=_ "%%f"
 
-rem Install asciidoctor
-rem asciidoctor --version
-rem gem install asciidoctor
-
+rem notwendige Installationen: pandoc, asciidoctor
+rem choco install pandoc -y
 rem sometimes pandoc doesn't work, check version:
 rem pandoc --version
+
+rem Install asciidoctor:
+rem - zuerst ruby installieren, dann mit ruby asciidoctor
+rem choco install ruby -y
+rem gem install asciidoctor
+rem asciidoctor --version
+
 
 FOR %%i IN (%*) DO (
 ECHO %%i

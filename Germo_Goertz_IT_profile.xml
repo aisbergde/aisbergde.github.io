@@ -4,7 +4,7 @@
 <article xmlns="http://docbook.org/ns/docbook" xmlns:xl="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en">
 <info>
 <title>IT Profil Germo Görtz (de)</title>
-<date>2023-11-18</date>
+<date>2023-12-12</date>
 </info>
 <bridgehead xml:id="_microsoft_bi_architekt_entwickler_ms_sql_server_power_bi_fabric_ssas_olap_tabular_data_warehouse_lakehouse_elt_etl_automatisierte_dokumentation_datahandwerk_azure" renderas="sect2">Microsoft BI Architekt + Entwickler. MS SQL Server, Power BI, Fabric, SSAS (OLAP, Tabular), Data Warehouse, Lakehouse, ELT, ETL, automatisierte Dokumentation, DataHandwerk, Azure</bridgehead>
 <informaltable frame="none" rowsep="0" colsep="0">
@@ -138,6 +138,23 @@ analytisch, exakt, verantwortungsbewusst, selbständig, schnell, effektiv und ef
 <simpara>Implementierung von Geschäftsprozessen und -logiken</simpara>
 </listitem>
 <listitem>
+<simpara>Datenmodellierung als pragmatische Kombination verschiedener sinnvoller Konzepte</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Datenmodellierung nach Bill <emphasis role="strong">Inmon</emphasis>. Inmon definiert ein Data Warehouse als "subjektorientierte, nichtflüchtige, integrierte, zeitvariante Sammlung von Daten zur Unterstützung von Managemententscheidungen". DWH als einheitliche Quelle der Wahrheit.</simpara>
+</listitem>
+<listitem>
+<simpara>Datenmodellierung nach <emphasis role="strong">Data Vault</emphasis>. Insbesondere scheinen mir Hubs, Satelliten und Links oft sinnvoll.</simpara>
+</listitem>
+<listitem>
+<simpara>Datenmodellierung mit <link xl:href="https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/">Dimensional modeling (DM)</link> als Bestandteil der "Business Dimensional Lifecycle methodology" entwickelt von Ralph <emphasis role="strong">Kimball</emphasis>, insbesondere bei der Verwendung multidimensionaler OLAP-Datenbanken (die immer mehr von tabularen Datenbanken abgelöst werden)</simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Data Lakehouse</emphasis></simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
 <simpara>automatisierte versionisierte Dokumentation mit <link xl:href="https://datahandwerk.gitlab.io/dhw/user-guide/documentation-generator.html/">DataHandwerk DocsGenerator</link><footnote xml:id="blog-docs"><simpara>Mehr zum Docs-as-Code und meinem Dokumentationsgenerator: <link xl:href="https://datahandwerk.aisberg.de/2021-04-20-docs-code-mit-asciidoc-und-antora/">https://datahandwerk.aisberg.de/2021-04-20-docs-code-mit-asciidoc-und-antora/</link></simpara></footnote> (Kombination von technischer und fachlicher Dokumentation; <link xl:href="https://asciidoc.org/">AsciiDoc</link>, <link xl:href="https://antora.org/"><emphasis role="strong">Antora</emphasis> (Docs as Code)</link>)</simpara>
 </listitem>
 <listitem>
@@ -210,15 +227,6 @@ Tool für DevOps, agiles Projekt-Controlling, Issue-Tracking, Code-Versionierung
 <simpara>diverse Dienste und Produkte</simpara>
 </listitem>
 </itemizedlist>
-</listitem>
-<listitem>
-<simpara>Datenmodellierung mit <link xl:href="https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/">Dimensional modeling (DM)</link> als Bestandteil der "Business Dimensional Lifecycle methodology" entwickelt von Ralph <emphasis role="strong">Kimball</emphasis></simpara>
-</listitem>
-<listitem>
-<simpara>Datenmodellierung nach <emphasis role="strong">Data Vault</emphasis></simpara>
-</listitem>
-<listitem>
-<simpara>&#8230;&#8203;</simpara>
 </listitem>
 </itemizedlist>
 </listitem>

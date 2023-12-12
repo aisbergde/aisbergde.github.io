@@ -109,6 +109,11 @@ Am Ende meines IT-Profils finden Sie xref:goertz-references.adoc#referenzen[*Ref
 *** Planungssystemen
 *** Berichtssystemen
 * Implementierung von Geschäftsprozessen und -logiken
+* Datenmodellierung als pragmatische Kombination verschiedener sinnvoller Konzepte
+** Datenmodellierung nach Bill *Inmon*. Inmon definiert ein Data Warehouse als "subjektorientierte, nichtflüchtige, integrierte, zeitvariante Sammlung von Daten zur Unterstützung von Managemententscheidungen". DWH als einheitliche Quelle der Wahrheit.
+** Datenmodellierung nach *Data Vault*. Insbesondere scheinen mir Hubs, Satelliten und Links oft sinnvoll.
+** Datenmodellierung mit https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/[Dimensional modeling (DM)] als Bestandteil der "Business Dimensional Lifecycle methodology" entwickelt von Ralph *Kimball*, insbesondere bei der Verwendung multidimensionaler OLAP-Datenbanken (die immer mehr von tabularen Datenbanken abgelöst werden)
+** *Data Lakehouse*
 * automatisierte versionisierte Dokumentation mit https://datahandwerk.gitlab.io/dhw/user-guide/documentation-generator.html/[DataHandwerk DocsGenerator]{fn-blog-docs} (Kombination von technischer und fachlicher Dokumentation; https://asciidoc.org/[AsciiDoc], https://antora.org/[*Antora* (Docs as Code)])
 * technische Umsetzung regulatorischer Anforderungen (Historisierung, Versionierung, Data Lineage, DSGVO, ...)
 * Automatisierung (Daten-Import und -Export, ELT, Code-Generierung, DWH, Dokumentation)
@@ -142,9 +147,6 @@ Tool für DevOps, agiles Projekt-Controlling, Issue-Tracking, Code-Versionierung
 // . Leider keine AsciiDoc-Unterstützung in Wiki oder Repository-Preview (GitLab und GitHub sind diesbezüglich besser)
 ** https://azure.microsoft.com/de-de[Microsoft Azure]
 *** diverse Dienste und Produkte
-** Datenmodellierung mit https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/[Dimensional modeling (DM)] als Bestandteil der "Business Dimensional Lifecycle methodology" entwickelt von Ralph *Kimball*
-** Datenmodellierung nach *Data Vault*
-** ...
 
 == Sprachkenntnisse
 
