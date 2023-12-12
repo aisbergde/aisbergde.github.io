@@ -1,6 +1,6 @@
-= AISBERG - unsere Erfahrung für Ihren Erfolg
+= AISBERG - meine Erfahrung für Ihren Erfolg
 :page-layout: home
-:page-subtitle: "Ihre Investition in unsere Dienstleistungen → Ihr Gewinn. Microsoft BI Architekt + Entwickler. MS SQL Server, Power BI, Fabric, SSAS (OLAP, Tabular), Data Warehouse, Lakehouse, ELT, ETL, automatisierte Dokumentation, DataHandwerk, Azure"
+:page-subtitle: "Ihre Investition in meine Dienstleistungen → Ihr Gewinn. Microsoft BI Architekt + Entwickler. MS SQL Server, Power BI, Fabric, SSAS (OLAP, Tabular), Data Warehouse, Lakehouse, ELT, ETL, automatisierte Dokumentation, DataHandwerk, Azure"
 :toc: auto
 :toclevels: 2
 include::_posts/_footnotes.adoc[]
@@ -29,5 +29,6 @@ image::AisbergLogo.svg[]
 |===
 
 
-Am Ende meines link:goertz_profile_de[IT-Profils] finden Sie link:goertz_profile_de#referenzen[*Referenzen zufriedener Kunden*].
+Am Ende meines link:goertz_profile_de[*IT-Profils*] finden Sie link:goertz_profile_de#referenzen[*Referenzen zufriedener Kunden*].
 
+Es folgen Blog-Artikel:
