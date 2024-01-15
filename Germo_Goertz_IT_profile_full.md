@@ -51,7 +51,7 @@ Download des IT-Profils als Word-Datei:
     * basiert auf der Auszeichnungssprache [AsciiDoc](https://asciidoc.org/)
     * formalisierte Erstellung von Software Architektur Diagrammen mit [Structurizr](https://structurizr.com/) und [github.com/structurizr/cli](https://github.com/structurizr/cli)
   * Frontends
-    * [Microsoft Power BI](https://powerbi.microsoft.com/de-de/)\
+    * [Microsoft Power BI](https://www.microsoft.com/de-de/power-platform/products/power-bi/?market=de)\
     Microsoft Frontend für Berichtswesen
     * [XLcubed](https://www.xlcubed.com/)\
     einziges brauchbares Excel-Addin für SSAS
@@ -1128,7 +1128,7 @@ Projekt: [](goertz-project-history-de.adoc#project_vivantes_2010)
 >
 > — Verantwortlicher für zentrales Berichtswesen
 
-http://www.bezirkskliniken-mfr.de/
+https://www.bezirkskliniken-mfr.de/
 
 Projekt: [](goertz-project-history-de.adoc#project_bkm_2012)
 
@@ -1178,7 +1178,7 @@ Projekt: [](goertz-project-history-de.adoc#project_zeiss_2018)
 >
 > — Teamlead Business Intelligence
 
-https://de.kelvion.com/
+https://www.kelvion.com/
 
 Projekt: [](goertz-project-history-de.adoc#project_kelvion_2017)
 

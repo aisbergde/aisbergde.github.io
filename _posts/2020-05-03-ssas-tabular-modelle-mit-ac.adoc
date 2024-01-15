@@ -241,7 +241,7 @@ Natürlich können auch Hierarchien definiert werden:
 * Datamart
 * Button "Hierarchies"
 * Auswahl des entsprechenden Hierarchie per Doppelklick +
-image:/assets/img/ac_hierarchies_01.jpg[AnalyticsCreator: Definition von SSAS Hierarchien]
+image:ac_hierarchies_01.jpg[AnalyticsCreator: Definition von SSAS Hierarchien]
 
 === Partitionen
 
@@ -298,7 +298,7 @@ SQL Server Standard-Edition unterstützt weder Partitionen noch Perspektiven, al
 
 offener Feature-Request:
 
-* https://www.analyticscreator.com/mantisbt/view.php?id=438[0000438: SSAS Tabular Generator - Möglichkeit, den Namen des Modells zu bestimmen]
+* 0000438: SSAS Tabular Generator - Möglichkeit, den Namen des Modells zu bestimmen
 
 Wenn ich die Möglichkeit hätte, das erstellte Modell "Model" zu nennen, was der Standard-Name im SSAS ist (ob das sinnvoll ist oder nicht, ist eine andere Frage), dann könnte ich das vom AC erstellte XMLA-Skript jetzt so verwenden, wie es ist. Leider hat das vom AC erstellte Modell einen anderen Namen (den des Deployments?).
 

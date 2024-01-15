@@ -59,6 +59,7 @@ http://rsmu.ru/[Российский национальный исследова
 // |Cell in column 1, row 3
 // |Cell in column 2, row 3
 
+
 |===
 
 Download des IT-Profils als Word-Datei: 
@@ -134,7 +135,7 @@ open Source Dokumentations-Framework, insbesondere für technische und versionis
 *** basiert auf der Auszeichnungssprache https://asciidoc.org/[AsciiDoc]
 // *** formalisierte Erstellung von Software Architektur Diagrammen mit https://structurizr.com/[Structurizr] und https://github.com/structurizr/cli[github.com/structurizr/cli]
 ** bevorzugte Frontends
-*** https://powerbi.microsoft.com/de-de/[Microsoft Power BI] +
+*** https://www.microsoft.com/de-de/power-platform/products/power-bi/?market=de[Microsoft Power BI] +
 Microsoft Frontend für Berichtswesen
 *** https://www.xlcubed.com/[XLcubed] +
 einziges brauchbares Excel-Addin für SSAS

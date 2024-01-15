@@ -9,7 +9,7 @@ Es ist mir wichtig, eine AnalyticsCreator Community aufzubauen. Je mehr Entwickl
 
 Um dieses Ziel zu erreichen, gibt es nun:
 
-- ein [AnylyticsCreator Forum](https://forum.analyticscreator.com/)
+- ein AnylyticsCreator Forum (gibt es nicht mehr)
 - die [AnalyticsCreator Wiki](https://dev.azure.com/AnalyticsCreator/AnalyticsCreator/_wiki/wikis/AnalyticsCreator.wiki)
 - als Teil des [AnalyticsCreator Community Project](https://dev.azure.com/AnalyticsCreator/AnalyticsCreator)  
   einige meiner Pläne sind dort als Features im Bord beschrieben

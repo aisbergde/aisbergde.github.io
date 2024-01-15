@@ -13,7 +13,7 @@ slug: docs-code-mit-asciidoc-und-antora
 lastmod: 2021-04-20T06:16:33.421Z
 ---
 
-Mit meinem open-Source-Projekt [DataHandwerk-toolkit-mssql](https://datahandwerk.github.io) möchte ich auch Erfahrungen zur Dokumentation zukünftiger Projekte sammeln. Warum habe ich mich für die Auszeichnungssprache [AsciiDoc](https://asciidoc.org) statt für Markdown, und warum für das Dokumentations-Framework [Antora](https://antora.org/) entschieden? Wie wurden Diagramme in der [Architektur-Beschreibung](https://datahandwerk.github.io/dhw/0.1.0/arc/architecture.html) erstellt? Und wie erfolgt die Darstellung von Objekt- und Spalten-Referenzen?
+Mit meinem open-Source-Projekt [DataHandwerk-toolkit-mssql](https://datahandwerk.github.io) möchte ich auch Erfahrungen zur Dokumentation zukünftiger Projekte sammeln. Warum habe ich mich für die Auszeichnungssprache [AsciiDoc](https://asciidoc.org) statt für Markdown, und warum für das Dokumentations-Framework [Antora](https://antora.org/) entschieden? Wie wurden Diagramme in der [Architektur-Beschreibung](https://datahandwerk.gitlab.io/dhw/arc/architecture.html) erstellt? Und wie erfolgt die Darstellung von Objekt- und Spalten-Referenzen?
 
 ### Auszeichungssprache Markdown?
 
@@ -22,7 +22,7 @@ Sehr oft erfolgt die Dokumentation unter Verwendung der Auszeichungssprache [Mar
 - in den mir bekannten Wiki-Systemen wird mit Markdown gearbeitet (manchmal auch zusätzlich mit weiteren Auszeichungssprachen)
 - Es gibt viel und gute Software-Unterstützung für Markdown
   - Am PC verwende ich [Visual Studio Code](https://code.visualstudio.com/) zum Editieren und zur Vorschau von Markdown. Und es gibt genügend andere Möglichkeiten, mit Markdown zu arbeiten
-  - Auf Android verwende ich [Markor](https://gsantner.net/project/markor.html), gelegentlich auch [Epsilon Notes](http://epsilonexpert.com/e/index.php?i=1)
+  - Auf Android verwende ich [Markor](https://github.com/gsantner/markor#readme), gelegentlich auch [Epsilon Notes](http://epsilonexpert.com/e/index.php?i=1)
 - Diese Website hier wird mit dem Generator für statische Seiten [Jekyll](https://jekyllrb.com/) erstellt und seine Inhalte sind in Markdown geschrieben
 - Meine Notizen schreibe ich in Markdown, womit auch ein sehr einfacher Austausch zwischen Smartphone und PC möglich ist. Die Notizen können auch mit jedem beliebigen Plain-Text-Editor gelesen und bearbeitet werden. Ich werde nicht zum Sklaven einer Notiz-Software.
 - Zur technischen Projektbeschreibung in Markdown gibt ein gutes open-source-Projekt: [mkdocs.org](https://www.mkdocs.org/). Darauf basierend gibt es [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
@@ -58,14 +58,14 @@ https://github.com/maks/Mgit), als Editor verwende ich weiter Markor und der Pre
 
 **Docs-as-Code** und **AsciiDoc** passen auch sehr gut zu meiner langjährigen Begeisterung für das, was ich **Code-as-Docs** nenne: die Dokumentation direkt aus dem Code oder unter Verwendung des Codes zu erstellen. Denn mit AsciiDoc kann man den Inhalt anderer Dokumente einbeziehen. Diese Inhalte können somit im Code (beispielsweise in Kommentaren) vorbereitet werden.
 
-Ein Beispiel sieht man auf dieser Seite meiner DataHandwerk-Projekt-Dokumentation: [Create, update and connect repository database](https://datahandwerk.github.io/dhw/0.1.0/manual/create-update-connect-repo-db.html)  
+Ein Beispiel sieht man auf dieser Seite meiner DataHandwerk-Projekt-Dokumentation: [Create, update and connect repository database](https://datahandwerk.gitlab.io/dhw/user-guide/create-update-connect-repo-db.html)  
 Hier werden
 
 - Text-Inhalte anderer Dokumente _eingebunden_ und manchmal _zitiert_
 - die ~~gleichen~~ selben (!) in PlantUML definierten Diagramme verwendet, wie auch in den Architektur-Dokumenten
 - Am Ende des Dokuments wird der SQL Code einer Prozedur eingebunden. Wenn sich der Code ändert, kommen diese Änderungen auch in der Dokumentation an.
 - Eigenschaften wie eine Beschreibung oder ein Anwendungs-Beispiel der Prozedur können im Kommentar einer Prozedur definiert werden, um dann auf der Dokumenations-Seite der Prozedur zu erscheinen:  
-  [config.usp_connect_database](https://datahandwerk.github.io/dhw/0.1.0/sqldb/config.usp_connect_database.html)
+  [config.usp_connect_database](https://datahandwerk.gitlab.io/dhw/sqldb/config.usp_connect_database.html)
 
 ```sql
 /*
@@ -113,13 +113,13 @@ doctoolchain ist mit den Leuten von [arc42](https://arc42.org/) verbandelt.
 
 >arc42 enthält ein erprobtes und pragmatisches Template zur Entwicklung, Dokumentation und Kommunikation von Softwarearchitekturen. Tausende zufriedene Nutzer weltweit.
 
-Also habe ich mir das angeschaut und für gut befunden. Das DataHandwerk-Architektur-Dokument basiert auf diesem Template: [Architecture](https://datahandwerk.github.io/dhw/0.1.0/arc/architecture.html)
+Also habe ich mir das angeschaut und für gut befunden. Das DataHandwerk-Architektur-Dokument basiert auf diesem Template: [Architecture](https://datahandwerk.gitlab.io/dhw/arc/architecture.html)
 
 ### Structurizr DSL und das C4 Modell für die Visualizierung von Software-Architektur
 
 Meine ersten Architektur-Diagramme erstellte ich noch manuell und individuell mit [PlantUML](https://plantuml.com/). Dann fand ich [Structurizr](https://structurizr.com/) und [github.com/structurizr/cli](https://github.com/structurizr/cli), um Software Architektur Diagramme formalisierter zu erstellen. Die Definition erfolgt in _einem_ Skript in einer eigenen und einfachen Skript-Sprache [Structurizr DSL](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md), und aus diesem _einen_ Skript können verschiedene **in sich konsistente Diagramme** erstellt werden. Man ändert beispielsweise Beschreibungen oder Beziehungen im Skript und alle Teil-Diagramme übernehmen diese Änderungen.
 
-Beispiele finden sich in der DataHandwerk-Architektur-Dokumentation: [03 System Scope and Context](https://datahandwerk.github.io/dhw/0.1.0/arc/architecture.html#section-system-scope-and-context)  
+Beispiele finden sich in der DataHandwerk-Architektur-Dokumentation: [03 System Scope and Context](https://datahandwerk.gitlab.io/dhw/arc/architecture.html#section-system-scope-and-context)  
 Definition meiner Architektur-Diagramme in "Structurizr DSL": [dhw.dsl](https://github.com/DataHandwerk/DataHandwerk-docs/blob/main/docs/modules/arc/partials/c4_dsl/dhw.dsl)
 
 ### Antora
@@ -135,11 +135,11 @@ Ein wichtiges Konzept sind dabei "virtuelle Datei Objekte": Antora sammelt die D
 
 [How Antora Works](https://docs.antora.org/antora/2.3/how-antora-works/)
 
-Im DataHandwerk-Projekt beschreibe ich, wie man aus der Repository-Datenbank automatisch generierte Datenbank-Dokumentationen erstellen kann, die final von Antora gerendert werden: [Database documentation generator](https://datahandwerk.github.io/dhw/0.1.0/manual/documentation-generator.html).
+Im DataHandwerk-Projekt beschreibe ich, wie man aus der Repository-Datenbank automatisch generierte Datenbank-Dokumentationen erstellen kann, die final von Antora gerendert werden: [Database documentation generator](https://datahandwerk.gitlab.io/dhw/user-guide/documentation-generator.html).
 
 Ich hatte auch versucht, das Datenbank-Projekt mit seinem Code für alle Objekte direkt in Antora einzubinden. Mit doctoolchain wäre das recht einfach gewesen. Für Antora mussten dazu die Inhalte das Datenbank-Projekts in ein separates Repository kopiert werden, damit die Inhalte in der von Antora benötigten Form vorliegen. Das funktionierte, allerdings habe ich diese Idee verworfen und exportiere alle Inhalte für die Datenbank-Dokumentation direkt aus der Repository-Datenbank.
 
-Auch das Ergebnis der DataHandwerk-Datenbank-Dokumentation kann man sich anschauen.  Beispielsweise [docs.RepoObject_Adoc](https://datahandwerk.github.io/dhw/0.1.0/sqldb/docs.RepoObject_Adoc.html)
+Auch das Ergebnis der DataHandwerk-Datenbank-Dokumentation kann man sich anschauen.  Beispielsweise [docs.RepoObject_Adoc](https://datahandwerk.gitlab.io/dhw/sqldb/docs.repoobject_adoc.html)
 
 * eine Seite pro Datenbank-Objekt
 * Dokumentation realer und **virtueller** Primary Keys
@@ -156,7 +156,7 @@ Die Visualisierungen erstelle ich direkt aus dem SQL Server heraus für jedes Ob
 - Objekt-Referenzen mit Nachfolgern _aller_ Level
 - Beziehungen zwischen realen und virtuellen Fremdschlüsseln (nur für Tabellen und Sichten)
 
-Quelle für die Diagramme ist die DataHandwerk-Repository-Datenbank, welche auch die Definition virtueller Indizes, virtueller PK und die Ermittlung von Spalten-Referenzen unter Verwendung von [sqlparse](https://pypi.org/project/sqlparse/) beinhaltet. Hier ein paar Beispiele für die Sicht [sqlparse.RepoObject_SqlModules_21_statement_children_helper](https://datahandwerk.github.io/dhw/0.1.0/sqldb/sqlparse.RepoObject_SqlModules_21_statement_children_helper.html)
+Quelle für die Diagramme ist die DataHandwerk-Repository-Datenbank, welche auch die Definition virtueller Indizes, virtueller PK und die Ermittlung von Spalten-Referenzen unter Verwendung von [sqlparse](https://pypi.org/project/sqlparse/) beinhaltet. Hier ein paar Beispiele für die Sicht [sqlparse.RepoObject_SqlModules_21_statement_children_helper](https://datahandwerk.gitlab.io/dhw/sqldb/sqlparse.repoobject_sqlmodules_21_statement_children_helper.html)
 
 #### Object Reference Diagram
 

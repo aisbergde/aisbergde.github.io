@@ -6,23 +6,23 @@ last-updated: 2020-09-18
 
 Da ich in letzter Zeit immer öfter auch SSAS Tabular Modelle erstelle, habe ich mich vom Chefentwickler des AnalyticsCreators überzeugen lassen, den SSAS Generator für Tabular Modelle zu evaluieren. Tabular-Modelle sind technisch einfacher aufgebaut, als multidimensionale Modelle. Ein Tabular-Modell besteht aus Tabellen, die miteinander verbunden sind. Die Verbindung kann ein- oder zweiseitig sein. Es gibt Measures mit ein paar Eigenschaften, und das lässt sich recht gut automatisieren. Also habe ich ab September 2019 einige SSAS Tabular Modelle mit dem AnalyticsCreator erstellt und war positiv beeindruckt.
 
-- [SSAS multidimensional vs Tabular](#ssas-multidimensional-vs-tabular)
-- [Warum ich den AnalyticsCreator nicht für die Erstellung multidimensionaler Modelle verwende](#warum-ich-den-analyticscreator-nicht-für-die-erstellung-multidimensionaler-modelle-verwende)
-- [AnalyticsCreator zur Modellierung von SSAS Tabular Modellen](#analyticscreator-zur-modellierung-von-ssas-tabular-modellen)
-  - [Datamart-Transformationen als Basis der SSAS-Modellierung](#datamart-transformationen-als-basis-der-ssas-modellierung)
-    - [Definition von SSAS-Tabellen](#definition-von-ssas-tabellen)
-    - [Definition von SSAS-Tabellen-Attributen (Spalten)](#definition-von-ssas-tabellen-attributen-spalten)
-    - [Definition von SSAS-Measures](#definition-von-ssas-measures)
-    - [Definition von Tabellen-Beziehungen](#definition-von-tabellen-beziehungen)
-  - [zusätzliche XMLA Scripte](#zusätzliche-xmla-scripte)
-  - [Hierarchien](#hierarchien)
-  - [Partitionen](#partitionen)
-  - [Perspektiven](#perspektiven)
-  - [Vom AC-Deployment zur SSAS Tabular-Datenbank](#vom-ac-deployment-zur-ssas-tabular-datenbank)
-    - [AC-Deployment](#ac-deployment)
-    - [XMLA-Skript im SSMS ausführen](#xmla-skript-im-ssms-ausführen)
-    - [SSAS-Tabular VS-Projekt erstellen](#ssas-tabular-vs-projekt-erstellen)
-    - [finales XMLA mit SSMS erstellen](#finales-xmla-mit-ssms-erstellen)
+* [SSAS multidimensional vs Tabular](#ssas-multidimensional-vs-tabular)
+* [Warum ich den AnalyticsCreator nicht für die Erstellung multidimensionaler Modelle verwende](#warum-ich-den-analyticscreator-nicht-für-die-erstellung-multidimensionaler-modelle-verwende)
+* [AnalyticsCreator zur Modellierung von SSAS Tabular Modellen](#analyticscreator-zur-modellierung-von-ssas-tabular-modellen)
+  * [Datamart-Transformationen als Basis der SSAS-Modellierung](#datamart-transformationen-als-basis-der-ssas-modellierung)
+    * [Definition von SSAS-Tabellen](#definition-von-ssas-tabellen)
+    * [Definition von SSAS-Tabellen-Attributen (Spalten)](#definition-von-ssas-tabellen-attributen-spalten)
+    * [Definition von SSAS-Measures](#definition-von-ssas-measures)
+    * [Definition von Tabellen-Beziehungen](#definition-von-tabellen-beziehungen)
+  * [zusätzliche XMLA Scripte](#zusätzliche-xmla-scripte)
+  * [Hierarchien](#hierarchien)
+  * [Partitionen](#partitionen)
+  * [Perspektiven](#perspektiven)
+  * [Vom AC-Deployment zur SSAS Tabular-Datenbank](#vom-ac-deployment-zur-ssas-tabular-datenbank)
+    * [AC-Deployment](#ac-deployment)
+    * [XMLA-Skript im SSMS ausführen](#xmla-skript-im-ssms-ausführen)
+    * [SSAS-Tabular VS-Projekt erstellen](#ssas-tabular-vs-projekt-erstellen)
+    * [finales XMLA mit SSMS erstellen](#finales-xmla-mit-ssms-erstellen)
 
 ## SSAS multidimensional vs Tabular
 
@@ -85,8 +85,8 @@ Hier sehen wir ein Datamart, die Pfeile zwischen den Transformationen entspreche
 
 Leider kann man aktuell im Diagramm nicht erkennen, ob es ein- oder zweiseitige Beziehungen sind. Ein paar Feature-Request dazu gibt es:
 
-- [0000478: Datamart: verbesserte Anzeige von Referenzen im "normalen" Diagram](http://www.analyticscreator.com/mantisbt/view.php?id=478)
-- [0000498: Diagram - zweiseitige SSAS-Verbindungen anders anzeigen, als einseitige](http://www.analyticscreator.com/mantisbt/view.php?id=498)
+- 0000478: Datamart: verbesserte Anzeige von Referenzen im "normalen" Diagram
+- 0000498: Diagram - zweiseitige SSAS-Verbindungen anders anzeigen, als einseitige
 
 #### Definition von SSAS-Tabellen
 
@@ -282,7 +282,7 @@ Block **Tabular OLAP deployment**
 
 offener Feature-Request:
 
-- [0000438: SSAS Tabular Generator - Möglichkeit, den Namen des Modells zu bestimmen](https://www.analyticscreator.com/mantisbt/view.php?id=438)
+- [0000438: SSAS Tabular Generator - Möglichkeit, den Namen des Modells zu bestimmen]
 
 Wenn ich die Möglichkeit hätte, das erstellte Modell "Model" zu nennen, was der Standard-Name im SSAS ist (ob das sinnvoll ist oder nicht, ist eine andere Frage), dann könnte ich das vom AC erstellte XMLA-Skript jetzt so verwenden, wie es ist. Leider hat das vom AC erstellte Modell einen anderen Namen (den des Deployments?).
 

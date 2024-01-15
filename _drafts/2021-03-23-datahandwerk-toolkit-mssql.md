@@ -37,7 +37,7 @@ Das Handwerkszeichen war von 1934 war bis 1994 das offizielle Emblem des deutsch
 
 ## Architektur des Projekts
 
-Die [Architektur](https://datahandwerk.github.io/dhw/0.1.0/arc/architecture.html) wird in der Dokumentation ausführlich auf Englisch beschrieben. Hier die Grundideen:
+Die [Architektur](https://datahandwerk.gitlab.io/dhw/arc/architecture.html) wird in der Dokumentation ausführlich auf Englisch beschrieben. Hier die Grundideen:
 
 Statt eine fertige Datenbank vollständig (und reproduzierbar) aus einem Repository zu erstellen, wie es der AC und einige andere Tools zu Automatisierung machen, liegt bei mir der Fokus auf der selbständigen Arbeit in der Datenbank, die um ein Repository ergänzt wird.
 
@@ -97,7 +97,7 @@ Zur Visualisierung von Beziehungen zwischen Objekten scheint [SchemaCrawler](htt
 
 Der [dbml-renderer](https://github.com/softwaretechnik-berlin/dbml-renderer) scheint geeignet, um DBML-Skripte als ER-diagramme zu visualisieren. Diese DBML-Skripte könnte man auch interaktiv aus dem DataHandwerk-Repository erstellen.
 
-Ich habe auch getestet, [Power BI](https://powerbi.microsoft.com/de-de/) zur Visualisierung von Referenzen zu verwenden, die als Node und Edges definiert sind. Es funktioniert, ist aber auch noch nicht so, wie ich mir das vorstelle:  
+Ich habe auch getestet, [Power BI](https://www.microsoft.com/de-de/power-platform/products/power-bi/?market=de) zur Visualisierung von Referenzen zu verwenden, die als Node und Edges definiert sind. Es funktioniert, ist aber auch noch nicht so, wie ich mir das vorstelle:  
 ![](../assets/img/power-bi-references-01.png)
 
 Irgendwie schwebt mir schon so etwas vor, was der AnalyticsCreator bietet. Also mit einer Navigation innerhalb des Diagramms.

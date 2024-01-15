@@ -63,7 +63,7 @@ Diplom-Mediziner, Biophysiker, [Arzt-Kybernetiker](http://pirogov-university.com
       mein open source Projekt, enthält auch einen Datenbank-Dokumentations-Generator
     - [Azure DevOps](https://azure.microsoft.com/de-de/services/devops/)  
     Tool für DevOps, agiles Projekt-Controlling, Issue-Tracking, Code-Versionierung. Leider keine Asciidoc-Unterstützung in Wiki oder Repository-Preview
-    - [Microsoft Power BI](https://powerbi.microsoft.com/de-de/)  
+    - [Microsoft Power BI](https://www.microsoft.com/de-de/power-platform/products/power-bi/?market=de)  
     Microsoft Frontend für Berichtswesen
     - [Antora (Docs as Code)]([https:](https://antora.org/))  
     open Source Dokumentations-Framework, insbesondere für technische versionisierte Dokumentation, basierend auf Asciidoc

@@ -1,7 +1,9 @@
 @ECHO OFF
 rem use input filename as parameter
 rem example:
+rem das hier verwenden:
 rem .convert-adoc-to-docx.bat Germo_Goertz_IT_profile.adoc
+rem _
 rem .convert-adoc-to-docx.bat Germo_Goertz_IT_profile_2.adoc
 rem .convert-adoc-to-docx.bat test.adoc
 rem .convert-adoc-to-docx.bat "test ccc ddd.adoc"
