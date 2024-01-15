@@ -37,7 +37,7 @@ Und noch ein paar **subjektive Anmerkungen**:
 
 Mit den **multidimensionalen** Datenbanken arbeite ich seit 1999, damals noch "OLAP Services 7.0", ab 2000 "MSAS" (Microsoft Analysis Services), ab 2005 gab es mit "SSAS" (SQL Server Analysis Services) wieder eine neue Technologie, welche grundsätzlich der heutigen mehrdimensionalen Technologie entspricht. Typische Begriffe dieser multidimensionalen Technologie sind **Würfel (Cubes)** und **Dimensionen**. Ich bin ein sehr guter Experte für diese mehrdimensionalen Modelle.
 
-Seit SQL Server 2012 gibt es zusätzlich **SSAS Tabular**, eine auf Tabellen basierende Technologie, wie sie auch in Power Pivot und [Power BI](http://powerbi.microsoft.com/de-de/) verwendet wird.
+Seit SQL Server 2012 gibt es zusätzlich **SSAS Tabular**, eine auf Tabellen basierende Technologie, wie sie auch in Power Pivot und [Power BI](https://www.microsoft.com/en-us/power-platform/products/power-bi) verwendet wird.
 
 Die Tabular Technologie wird von Microsoft sehr gepusht, für die sehr ausgereifte multidimensionale Technologie gibt es in letzter Zeit kaum Änderungen. SSAS Tabular hat sehr viele Stärken und wird sehr gut von Power BI unterstützt, welches intern auch diese Technologie verwendet. Die Unterstützung von Power BI für multidimensionale Datenbanken ist mangelhaft, vielleicht, um diese Technologie langsam sterben zu lassen. Allerdings gibt es sehr viele Stärken der multidimensionalen Technologie, welche sich mit der tabularischen Technologie (noch) nicht umsetzen lassen.
 
@@ -73,7 +73,7 @@ Das alles hat funktioniert, war allerdings fragil.
 
 Im Dezember 2019 wurde für Anfang 2020 ein verbesserter SSAS Generator versprochen, der dann auch nach und nach kam.
 
-Inzwischen liegt ein sehr brauchbarer SSAS-Generator vor, gelegentlich gibt es Bugs, diese kann man im [AC-Bugtracker](https://www.analyticscreator.com/mantisbt) eintragen, und sie werden schneller oder langsamer behoben.
+Inzwischen liegt ein sehr brauchbarer SSAS-Generator vor, gelegentlich gibt es Bugs, diese kann man im (nicht mehr bestehenden) AC-Bugtracker eintragen, und sie werden schneller oder langsamer behoben.
 
 ### Datamart-Transformationen als Basis der SSAS-Modellierung
 

@@ -1,7 +1,7 @@
 = Meine Vision eines Werkzeugkastens für Daten-Handwerker
 :page-subtitle: Handwerk statt Massenproduktion, Werkzeugkasten statt beengendem Korsett
 :page-last-updated: 2021-03-23 12:20:18 UTC
-:page-slug: meine-vision-eines-werkzeugkastens-fur-daten-handwerker
+:page-slug: vision-eines-werkzeugkastens-fur-daten-handwerker
 :page-tags: ["Handwerk", "DWH", "mssql", "DataHandwerk", "DHW"]
 :toc: auto
 :toclevels: 2

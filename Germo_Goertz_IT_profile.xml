@@ -261,7 +261,7 @@ Tool für DevOps, agiles Projekt-Controlling, Issue-Tracking, Code-Versionierung
 </itemizedlist>
 <simpara>Bei gleichem Namen handelt es sich um unterschiedliche Technologien. Die Dokumentation von Microsoft: <link xl:href="http://docs.microsoft.com/de-de/analysis-services/comparing-tabular-and-multidimensional-solutions-ssas?view=asallproducts-allversions">Vergleichen von tabellarischen und mehrdimensionalen Lösungen</link></simpara>
 <simpara>Mit den <emphasis role="strong">multidimensionalen</emphasis> Datenbanken arbeite ich seit 1999, damals noch "OLAP Services 7.0", ab 2000 "MSAS" (Microsoft Analysis Services). Ab 2005 gab es mit "SSAS" (SQL Server Analysis Services) wieder eine neue Technologie, welche grundsätzlich der heutigen mehrdimensionalen Technologie entspricht. Typische Begriffe dieser multidimensionalen Technologie sind <emphasis role="strong">OLAP</emphasis>, <emphasis role="strong">Würfel (Cubes)</emphasis> und <emphasis role="strong">Dimensionen</emphasis>.</simpara>
-<simpara>Seit SQL Server 2012 gibt es zusätzlich <emphasis role="strong">SSAS Tabular</emphasis>, eine auf Tabellen basierende Technologie, wie sie auch in <emphasis role="strong"><link xl:href="http://powerbi.microsoft.com/de-de/">Power BI</link></emphasis> verwendet wird.</simpara>
+<simpara>Seit SQL Server 2012 gibt es zusätzlich <emphasis role="strong">SSAS Tabular</emphasis>, eine auf Tabellen basierende Technologie, wie sie auch in <emphasis role="strong"><link xl:href="https://www.microsoft.com/en-us/power-platform/products/power-bi">Power BI</link></emphasis> verwendet wird.</simpara>
 <simpara>Microsoft sieht die Zukunft in der Cloud: <emphasis role="strong">Power BI Services</emphasis>; <emphasis role="strong">Microsoft Fabric</emphasis>, basierend auf einem <emphasis role="strong">OneLake</emphasis>.</simpara>
 <simpara>=&gt; Was sich mit Power BI oder SSAS Tabular realisieren lässt, wird von mir pragmatisch mit Tabular gemacht. Falls nötig und sinnvoll, gibt es weiter OLAP.</simpara>
 <simpara>Die Abfragesprache <link xl:href="http://de.wikipedia.org/wiki/Multidimensional_Expressions">MDX (Multidimensional Expressions)</link> kann für beide Technologien verwendet werden, <link xl:href="https://docs.microsoft.com/de-de/dax/">DAX (Data Analysis Expressions)</link> kann nur für SSAS Tabular verwendet werden.</simpara>
@@ -2300,7 +2300,7 @@ Verantwortlicher für zentrales Berichtswesen
 </attribution>
 <simpara>Der Berater hat im Bereich Personal und Rechnungswesen anspruchsvolle IT-Lösungen sowie hochkomplexe OLAP-Datenbanken mit Belegungs- und Falldaten für unser unternehmensweites Reporting entwickelt und aufgebaut. Er verfügt über umfassende Fachkenntnisse im Krankenhausbereich und konnte deshalb alle Anforderungen stets zu unserer vollsten Zufriedenheit umsetzen. Ihn zeichnen besonders seine Zuverlässigkeit, seine große Einsatzbereitschaft, Engagement und Termintreue aus. Wir blicken auf eine gute Zusammenarbeit seit nun fast vier Jahren zurück, die wir auch gerne zukünftig fortsetzen möchten.</simpara>
 </blockquote>
-<simpara><link xl:href="http://www.bezirkskliniken-mfr.de/">http://www.bezirkskliniken-mfr.de/</link></simpara>
+<simpara><link xl:href="https://www.bezirkskliniken-mfr.de/">https://www.bezirkskliniken-mfr.de/</link></simpara>
 <simpara>Projekt: <xref linkend="project_bkm_2012"/></simpara>
 </section>
 <section xml:id="referenz_gfs">
@@ -2356,7 +2356,7 @@ Teamlead Business Intelligence
 </attribution>
 <simpara>Der Consultant war im Rahmen eines größeren Projektes zur Einführung eines Datawarehouses in unserem Unternehmen für die Architektur und Programmierung mehrer Analysis-Services-Cubes auf Basis von SQl-Server 2016 verantwortlich. Er überzeugte durch ein hohes Maß an fachlichem und technischen Wissen und legte bei der Konzeptionierung der Lösung großen Wert auf Transparenz und Flexibilität. Wir sind mit seiner Arbeit äußerst zufrieden und empfehlen ihn uneingeschränkt weiter!</simpara>
 </blockquote>
-<simpara><link xl:href="https://de.kelvion.com/">https://de.kelvion.com/</link></simpara>
+<simpara><link xl:href="https://www.kelvion.com/de/">https://www.kelvion.com/de/</link></simpara>
 <simpara>Projekt: <xref linkend="project_kelvion_2017"/></simpara>
 </section>
 <section xml:id="referenz_vgsg">

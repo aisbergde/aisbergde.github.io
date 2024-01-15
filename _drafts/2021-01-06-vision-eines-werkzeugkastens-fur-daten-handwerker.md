@@ -9,7 +9,7 @@ tags:
   - DHW
 last-updated: 2021-03-23T12:20:18.822Z
 head-extra: head_extra.html
-slug: meine-vision-eines-werkzeugkastens-fur-daten-handwerker
+slug: vision-eines-werkzeugkastens-fur-daten-handwerker
 lastmod: 2021-03-23T12:20:18.822Z
 ---
 

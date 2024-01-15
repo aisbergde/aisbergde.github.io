@@ -182,7 +182,7 @@ Bei gleichem Namen handelt es sich um unterschiedliche Technologien. Die Dokumen
 
 Mit den *multidimensionalen* Datenbanken arbeite ich seit 1999, damals noch "OLAP Services 7.0", ab 2000 "MSAS" (Microsoft Analysis Services). Ab 2005 gab es mit "SSAS" (SQL Server Analysis Services) wieder eine neue Technologie, welche grundsätzlich der heutigen mehrdimensionalen Technologie entspricht. Typische Begriffe dieser multidimensionalen Technologie sind *OLAP*, *Würfel (Cubes)* und *Dimensionen*.
 
-Seit SQL Server 2012 gibt es zusätzlich *SSAS Tabular*, eine auf Tabellen basierende Technologie, wie sie auch in *http://powerbi.microsoft.com/de-de/[Power BI]* verwendet wird.
+Seit SQL Server 2012 gibt es zusätzlich *SSAS Tabular*, eine auf Tabellen basierende Technologie, wie sie auch in *https://www.microsoft.com/en-us/power-platform/products/power-bi[Power BI]* verwendet wird.
 
 Microsoft sieht die Zukunft in der Cloud: *Power BI Services*; *Microsoft Fabric*, basierend auf einem *OneLake*.
 

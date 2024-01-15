@@ -110,7 +110,7 @@ Das kann (und soll?) verwirren, da es sich um unterschiedliche Technologien hand
 
 Mit den **multidimensionalen** Datenbanken arbeite ich seit 1999, damals noch "OLAP Services 7.0", ab 2000 "MSAS" (Microsoft Analysis Services). Ab 2005 gab es mit "SSAS" (SQL Server Analysis Services) wieder eine neue Technologie, welche grundsätzlich der heutigen mehrdimensionalen Technologie entspricht. Typische Begriffe dieser multidimensionalen Technologie sind **Würfel (Cubes)** und **Dimensionen**.
 
-Seit SQL Server 2012 gibt es zusätzlich **SSAS Tabular**, eine auf Tabellen basierende Technologie, wie sie auch in Power Pivot und [Power BI](http://powerbi.microsoft.com/de-de/) verwendet wird.
+Seit SQL Server 2012 gibt es zusätzlich **SSAS Tabular**, eine auf Tabellen basierende Technologie, wie sie auch in Power Pivot und [Power BI](https://www.microsoft.com/en-us/power-platform/products/power-bi) verwendet wird.
 
 Die Tabular-Technologie wird von Microsoft gepusht. SSAS Tabular hat einige Stärken und wird wesentlich besser von **Power BI** unterstützt. Die Unterstützung von Power BI für multidimensionale Datenbanken ist mangelhaft; vielleicht, um diese Technologie langsam sterben zu lassen. Allerdings gibt es immer noch viele Stärken der multidimensionalen Technologie, welche sich mit der tabularischen Technologie (noch) nicht umsetzen lassen.
 

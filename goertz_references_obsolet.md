@@ -50,7 +50,7 @@ Verantwortlicher für zentrales Berichtswesen
 
 Der Berater hat im Bereich Personal und Rechnungswesen anspruchsvolle IT-Lösungen sowie hochkomplexe OLAP-Datenbanken mit Belegungs- und Falldaten für unser unternehmensweites Reporting entwickelt und aufgebaut. Er verfügt über umfassende Fachkenntnisse im Krankenhausbereich und konnte deshalb alle Anforderungen stets zu unserer vollsten Zufriedenheit umsetzen. Ihn zeichnen besonders seine Zuverlässigkeit, seine große Einsatzbereitschaft, Engagement und Termintreue aus. Wir blicken auf eine gute Zusammenarbeit seit nun fast vier Jahren zurück, die wir auch gerne zukünftig fortsetzen möchten.
 
-<http://www.bezirkskliniken-mfr.de/>
+<https://www.bezirkskliniken-mfr.de/>
 
 ## GfS Gesellschaft für Standortsicherung Unternehmensberatung mbH
 
@@ -92,7 +92,7 @@ Teamlead Business Intelligence
 
 Der Consultant war im Rahmen eines größeren Projektes zur Einführung eines Datawarehouses in unserem Unternehmen für die Architektur und Programmierung mehrer Analysis-Services-Cubes auf Basis von SQl-Server 2016 verantwortlich. Er überzeugte durch ein hohes Maß an fachlichem und technischen Wissen und legte bei der Konzeptionierung der Lösung großen Wert auf Transparenz und Flexibilität. Wir sind mit seiner Arbeit äußerst zufrieden und empfehlen ihn uneingeschränkt weiter!
 
-<https://de.kelvion.com/>
+<https://www.kelvion.com/de/>
 
 ## Volkswagen Nutzfahrzeuge
 

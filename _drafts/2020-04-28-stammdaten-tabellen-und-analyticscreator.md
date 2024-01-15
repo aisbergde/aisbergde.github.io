@@ -26,7 +26,7 @@ Mögliche Gründe dafür gibt es mehrere:
 
 Wie erstellt man mit dem AnalyticsCreator echte Fremdschlüssel? Ein Feature-Request dazu habe ich bereits angelegt:
 
-[0000490: Erstellung echter physischer Fremdschlüssel im Ziel-DWH](http://www.analyticscreator.com/mantisbt/view.php?id=490)
+0000490: Erstellung echter physischer Fremdschlüssel im Ziel-DWH
 
 Ein Vorschlag vom AC-Chef-Entwickler:
 
