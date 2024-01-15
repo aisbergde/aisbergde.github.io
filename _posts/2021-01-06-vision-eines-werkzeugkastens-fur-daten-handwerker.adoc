@@ -27,7 +27,7 @@ image::Deutsches_Handwerkszeichen_Hindenburg.svg.200x200.png[Deutsches_Handwerks
 
 == AnalyticsCreator und Daten-Handwerker
 
-Seit 2017 verwende ich den link:www.analyticscreator.com[AnalyticsCreator]. Das Konzept des AnalyticsCreators besteht u. a. darin, ein DWH mit den dazugehörigen ETL-Prozessen und sogar SSAS-Datenbanken _vollständig_ über ein Repository zu definieren und mit dem AnalyticsCreator zu erstellen. Neben vielen Vorteilen, die ich in einem anderen Artikel link:../2020-04-26-warum-analyticscreator/["Warum AnalyticsCreator"] beschrieb, gibt es auch _Einschränkungen_:
+Seit 2017 verwende ich den https://www.analyticscreator.com/[AnalyticsCreator]. Das Konzept des AnalyticsCreators besteht u. a. darin, ein DWH mit den dazugehörigen ETL-Prozessen und sogar SSAS-Datenbanken _vollständig_ über ein Repository zu definieren und mit dem AnalyticsCreator zu erstellen. Neben vielen Vorteilen, die ich in einem anderen Artikel link:../2020-04-26-warum-analyticscreator/["Warum AnalyticsCreator"] beschrieb, gibt es auch _Einschränkungen_:
 
 * Es können nur die *Features und Methoden* des SQL Server oder der Azure Produkte verwendet werden, die sich im Repository und durch den AC abbilden lassen.
 * Wenn etwas nicht funktionieren sollte oder man nicht weiß, wie man es mit dem AC realisieren kann, ist man auf *Sofort-Support* angewiesen oder benötigt ausreichende Erfahrung, um einen Workaround zu finden und anzuwenden.
