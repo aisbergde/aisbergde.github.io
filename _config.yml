@@ -15,6 +15,9 @@ title: "meine Erfahrung - Ihr Erfolg"
 # Your name to show in the footer
 author: Germo Görtz
 
+# 2024-02-23
+favicon: "/favicon.ico"
+
 # --- List of links in the navigation bar --- #
 
 navbar-links:
