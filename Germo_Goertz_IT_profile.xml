@@ -4,7 +4,7 @@
 <article xmlns="http://docbook.org/ns/docbook" xmlns:xl="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en">
 <info>
 <title>IT Profil Germo Görtz (de)</title>
-<date>2024-02-21</date>
+<date>2024-02-23</date>
 </info>
 <bridgehead xml:id="_seit_1999_microsoft_bi_architekt_entwickler_ms_sql_server_power_bi_fabric_ssas_olap_tabular_data_warehouse_lakehouse_elt_etl_automatisierte_dokumentation_datahandwerk_azure" renderas="sect2">seit 1999: Microsoft BI Architekt + Entwickler. MS SQL Server, Power BI, Fabric, SSAS (OLAP, Tabular), Data Warehouse, Lakehouse, ELT, ETL, automatisierte Dokumentation, DataHandwerk, Azure</bridgehead>
 <informaltable frame="none" rowsep="0" colsep="0">
@@ -66,6 +66,14 @@
 kompetent, zielorientiert, auch querdenkend und nonkonformistisch,<?asciidoc-br?>
 analytisch, exakt, verantwortungsbewusst, selbständig, schnell, effektiv und effizient.</simpara>
 <simpara>Als <link xl:href="http://pirogov-university.com/academics/programs-and-degrees/undergraduate/medical-cybernetics/">Arzt-Kybernetiker</link> bin ich "kybernetisch im Denken und Handeln"</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="./assets/img/kybernetik03-left_right.svg"/>
+</imageobject>
+<textobject><phrase>kybernetik03 left right</phrase></textobject>
+</mediaobject>
+</informalfigure>
 <itemizedlist>
 <listitem>
 <simpara><emphasis role="strong">Ist</emphasis> und <emphasis role="strong">Soll</emphasis> analysieren,</simpara>

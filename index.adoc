@@ -28,6 +28,14 @@ image::AisbergLogo.svg[]
 
 |===
 
+Als http://pirogov-university.com/academics/programs-and-degrees/undergraduate/medical-cybernetics/[Arzt-Kybernetiker] bin ich "kybernetisch im Denken und Handeln"
+
+image::kybernetik03-left_right.svg[]
+
+* *Ist* und *Soll* analysieren,
+* *verschiedene Wege* identifizieren,
+* *Ursachen* und *Wirkungen* berücksichtigen,
+* *Störgrößen* ermitteln und auf diese reagieren.
 
 Am Ende meines link:goertz_profile_de[*IT-Profils*] finden Sie link:goertz_profile_de#referenzen[*Referenzen zufriedener Kunden*].
 

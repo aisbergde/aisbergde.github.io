@@ -79,6 +79,8 @@ analytisch, exakt, verantwortungsbewusst, selbständig, schnell, effektiv und ef
 
 Als http://pirogov-university.com/academics/programs-and-degrees/undergraduate/medical-cybernetics/[Arzt-Kybernetiker] bin ich "kybernetisch im Denken und Handeln"
 
+image::kybernetik03-left_right.svg[]
+
 * *Ist* und *Soll* analysieren,
 * *verschiedene Wege* identifizieren,
 * *Ursachen* und *Wirkungen* berücksichtigen,
