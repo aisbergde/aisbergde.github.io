@@ -1,6 +1,5 @@
 = IT Profil Germo Görtz (de)
-:page-subtitle: seit 1999: Microsoft BI Architekt + Entwickler. MS SQL Server, Power BI, Fabric, SSAS (OLAP, Tabular), Data Warehouse, Lakehouse, ELT, ETL, automatisierte Dokumentation, DataHandwerk, Azure
-:page-last-updated: 2023-06-21
+:page-subtitle: "Ihre Investition in meine Erfahrung ist ein Schlüssel zu Ihrem Erfolg. seit 1999: Microsoft BI Architekt + Entwickler. MS SQL Server, Power BI, Fabric, SSAS (OLAP, Tabular), Data Warehouse, Lakehouse, ELT, ETL, automatisierte Dokumentation, Azure"
 :page-slug: profil-germo-gortz-de-
 :page-tags: ["MS SQL Server", "DWH", "SSAS", "Antora"]
 //für kompatibilität mit beworbenen Links:
@@ -77,9 +76,14 @@ Soziale Kompetenz, Auffassungsgabe und Ehrgeiz sorgen dafür, dass Ihre fachlich
 kompetent, zielorientiert, auch querdenkend und nonkonformistisch, +
 analytisch, exakt, verantwortungsbewusst, selbständig, schnell, effektiv und effizient.
 
+// für Word Export leere Zeile
+{empty} +
+{empty} +
+
+
 Als http://pirogov-university.com/academics/programs-and-degrees/undergraduate/medical-cybernetics/[Arzt-Kybernetiker] bin ich "kybernetisch im Denken und Handeln"
 
-image::kybernetik03-left_right.svg[]
+image::kybernetik04-left_right.svg[]
 
 * *Ist* und *Soll* analysieren,
 * *verschiedene Wege* identifizieren,

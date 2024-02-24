@@ -1,6 +1,6 @@
-= AISBERG - meine Erfahrung für Ihren Erfolg
+= meine Erfahrung für Ihren Erfolg
 :page-layout: home
-:page-subtitle: "Ihre Investition in meine Erfahrung ist ein Schlüssel zu Ihrem Erfolg. seit 1999: Microsoft BI Architekt + Entwickler. MS SQL Server, Power BI, Fabric, SSAS (OLAP, Tabular), Data Warehouse, Lakehouse, ELT, ETL, automatisierte Dokumentation, DataHandwerk, Azure"
+:page-subtitle: "Ihre Investition in meine Erfahrung ist ein Schlüssel zu Ihrem Erfolg. seit 1999: Microsoft BI Architekt + Entwickler. MS SQL Server, Power BI, Fabric, SSAS (OLAP, Tabular), Data Warehouse, Lakehouse, ELT, ETL, automatisierte Dokumentation, Azure"
 :toc: auto
 :toclevels: 2
 include::_posts/_footnotes.adoc[]
@@ -30,7 +30,7 @@ image::AisbergLogo.svg[]
 
 Als http://pirogov-university.com/academics/programs-and-degrees/undergraduate/medical-cybernetics/[Arzt-Kybernetiker] bin ich "kybernetisch im Denken und Handeln"
 
-image::kybernetik03-left_right.svg[]
+image::kybernetik04-left_right.svg[]
 
 * *Ist* und *Soll* analysieren,
 * *verschiedene Wege* identifizieren,
