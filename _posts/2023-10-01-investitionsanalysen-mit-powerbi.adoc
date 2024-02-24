@@ -10,7 +10,7 @@ include::_footnotes.adoc[]
 == Warum Power BI?
 
 
-Als freiberuflicher Microsoft BI Architekt (https://www.germo-goertz.de[www.germo-goertz.de]) ist mein bevorzugtes Werkzeug zur Modellierung, Analyse und für Berichte https://www.microsoft.com/de-de/power-platform/products/power-bi/?market=de[Microsoft Power BI]. Warum also nicht Power BI auch zur Analyse von Immobilien-Investitionen verwenden? Insbesondere ware die Idee, einen interaktiven Bericht in den https://app.powerbi.com/home?experience=power-bi[Power BI Diensten] öffentlich bereitzustellen. Prinzipiell funktioniert das auch. Allerdings sind die Ressourcen bei der kostenlosen Benutzung der Power BI Dienste etwas eingeschränkt. Das führt dazu, dass einige Visualisierungen mit manchen Parametern nicht funktionieren: 
+Als freiberuflicher Microsoft BI Architekt (https://germo-goertz.de[germo-goertz.de]) ist mein bevorzugtes Werkzeug zur Modellierung, Analyse und für Berichte https://www.microsoft.com/de-de/power-platform/products/power-bi/?market=de[Microsoft Power BI]. Warum also nicht Power BI auch zur Analyse von Immobilien-Investitionen verwenden? Insbesondere ware die Idee, einen interaktiven Bericht in den https://app.powerbi.com/home?experience=power-bi[Power BI Diensten] öffentlich bereitzustellen. Prinzipiell funktioniert das auch. Allerdings sind die Ressourcen bei der kostenlosen Benutzung der Power BI Dienste etwas eingeschränkt. Das führt dazu, dass einige Visualisierungen mit manchen Parametern nicht funktionieren: 
 
 image::investitionsanalysen-mit-powerbi_2023-09-29-21-25-48.png[]
 
