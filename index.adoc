@@ -30,9 +30,9 @@ image::AisbergLogo.svg[]
 
 Als http://pirogov-university.com/academics/programs-and-degrees/undergraduate/medical-cybernetics/[Arzt-Kybernetiker] bin ich "kybernetisch im Denken und Handeln"
 
-image::kybernetik04-left_right.svg[]
+image::kybernetik05-left_right.svg[]
 
-* *Ist* und *Soll* analysieren,
+* *Ist*-Zustand und *Ziel*-Zustand analysieren,
 * *verschiedene Wege* identifizieren,
 * *Ursachen* und *Wirkungen* berücksichtigen,
 * *Störgrößen* ermitteln und auf diese reagieren.
