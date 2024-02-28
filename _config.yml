@@ -21,21 +21,28 @@ favicon: "/favicon.ico"
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  Über mich (Profil de): "goertz_profile_de"
-    # - Profil (de): "goertz_profile_de"
-    # - Profil (de) test: "Germo_Goertz_IT_profile"
-    # - Projekthistorie: "goertz_project_history_de"
-    # - Referenzen / Bewertungen: "goertz_references"
-  Tag Index: "tags"
-  DataHandwerk:
-    - Dokumentation: "https://datahandwerk.gitlab.io"
-    - GitLab Projekt: "https://gitlab.com/datahandwerk/DataHandwerk-toolkit-mssql"
-    - Community on Zulip: "https://datahandwerk.zulipchat.com/"
-    # - Discussions: "https://github.com/DataHandwerk/DataHandwerk-toolkit-mssql/discussions"
-    # - Azure Boards: "https://dev.azure.com/DataHandwerk/89a7b008-69b9-42e4-b31f-4c2dfb6bd49a/_boards/board/t/f3077374-71b6-4a5b-bfd6-24a792bbc352/Microsoft.RequirementCategory/"
+  Akademie: "https://akademie.germo-goertz.de"
   Immobilien:
     - Der Immobilien-Investor: "https://der-immobilien-investor.de/"
     - YouTube: "https://www.youtube.com/@der-immobilien-Investor"
+  open source:
+    - DataHandwerk:
+      - Dokumentation: "https://datahandwerk.gitlab.io"
+      - GitLab Projekt: "https://gitlab.com/datahandwerk/DataHandwerk-toolkit-mssql"
+      - Community on Zulip: "https://datahandwerk.zulipchat.com/"
+    # - Discussions: "https://github.com/DataHandwerk/DataHandwerk-toolkit-mssql/discussions"
+    # - Azure Boards: "https://dev.azure.com/DataHandwerk/89a7b008-69b9-42e4-b31f-4c2dfb6bd49a/_boards/board/t/f3077374-71b6-4a5b-bfd6-24a792bbc352/Microsoft.RequirementCategory/"
+  Tag Index: "tags"
+  Über mich:
+    - Germo Görtz - Profil (de): "goertz_profile_de"
+    - Impressum: "impressum"
+    - Datenschutzerklärung: "privacy-policy"
+    # - Profil (de) test: "Germo_Goertz_IT_profile"
+    # - Projekthistorie: "goertz_project_history_de"
+    # - Referenzen / Bewertungen: "goertz_references"
+  # Impressum: "impressum"
+#  AISBERG: "https://www.aisberg.de"
+# nav-search: "search"
   # AnalyticsCreator:
   #   - WebPage: "https://www.analyticscreator.com/"
   #   - Forum: "https://forum.analyticscreator.com/"
@@ -43,9 +50,6 @@ navbar-links:
   #   - Community Project: "https://dev.azure.com/AnalyticsCreator/AnalyticsCreator"
   #   - YouTube: "https://www.youtube.com/channel/UC95xNZUE2e7Wr8n3IluXgrQ"
   #   # - (Github - old) AnalyticsCreator Toolkit: "https://github.com/aisbergde/AnalyticsCreator_Toolkit"
-  Impressum: "impressum"
-#  AISBERG: "https://www.aisberg.de"
-# nav-search: "search"
 
 # --- Logo --- #
 
