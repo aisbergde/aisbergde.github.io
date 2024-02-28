@@ -21,7 +21,7 @@ favicon: "/favicon.ico"
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  Akademie: "https://akademie.germo-goertz.de"
+  # Akademie: "https://akademie.germo-goertz.de"
   Immobilien:
     - Der Immobilien-Investor: "https://der-immobilien-investor.de/"
     - YouTube: "https://www.youtube.com/@der-immobilien-Investor"
