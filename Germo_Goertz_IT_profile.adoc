@@ -65,11 +65,11 @@ image::Germo_Goertz_345x460.jpg[]
 // |===
 
 Download des IT-Profils als Word-Datei: 
-https://datahandwerk.aisberg.de/Germo_Goertz_IT_profile.docx[Germo_Goertz_IT_profile.docx]
+https://blog.germo-goertz.de//Germo_Goertz_IT_profile.docx[Germo_Goertz_IT_profile.docx]
 
 == meine Erfahrung für Ihren Erfolg
 
-:fn-blog-kh-autobauer: footnote:kh-autobauer[Hintergründe zu "Technokratie statt Demokratie" im "Gleichnis vom Krankenhaus der Autobauer" https://datahandwerk.aisberg.de/2022-09-15-krankenhaus-autobauer/[]]
+:fn-blog-kh-autobauer: footnote:kh-autobauer[Hintergründe zu "Technokratie statt Demokratie" im "Gleichnis vom Krankenhaus der Autobauer" https://blog.germo-goertz.de/2022-09-15-krankenhaus-autobauer/[]]
 
 * Exzellenz durch Kompetenz
 * Handwerk statt Fließband
@@ -103,9 +103,9 @@ image::kybernetik05-left_right.svg[]
 
 == BI-Architekt und -Entwickler mit Microsoft BI
 
-:fn-blog-docs: footnote:blog-docs[Mehr zum Docs-as-Code und meinem Dokumentationsgenerator: https://datahandwerk.aisberg.de/2021-04-20-docs-code-mit-asciidoc-und-antora/[]]
-:fn-blog-dhw: footnote:blog-dhw[Warum es das DataHandwerk Projekt gibt: https://datahandwerk.aisberg.de/2021-03-23-datahandwerk-toolkit-mssql/[]]
-:fn-blog-warum-ac: footnote:blog-warum-ac[Warum AnalyticsCreator statt Wherescape? https://datahandwerk.aisberg.de/2020-04-26-warum-analyticscreator/[]]
+:fn-blog-docs: footnote:blog-docs[Mehr zum Docs-as-Code und meinem Dokumentationsgenerator: https://blog.germo-goertz.de/2021-04-20-docs-code-mit-asciidoc-und-antora/[]]
+:fn-blog-dhw: footnote:blog-dhw[Warum es das DataHandwerk Projekt gibt: https://blog.germo-goertz.de/2021-03-23-datahandwerk-toolkit-mssql/[]]
+:fn-blog-warum-ac: footnote:blog-warum-ac[Warum AnalyticsCreator statt Wherescape? https://blog.germo-goertz.de/2020-04-26-warum-analyticscreator/[]]
 
 * AISBERG - **A**nalytische **I**nformations**S**ysteme und **BER**atung im **G**esundheitswesen (und in anderen Branchen)
 * Business Intelligence (BI, Geschäftsanalyse):

@@ -17,7 +17,7 @@
 </informalfigure>
 <simpara>14089 Berlin</simpara>
 <simpara>Download des IT-Profils als Word-Datei:
-<link xl:href="https://datahandwerk.aisberg.de/Germo_Goertz_IT_profile.docx">Germo_Goertz_IT_profile.docx</link></simpara>
+<link xl:href="https://blog.germo-goertz.de//Germo_Goertz_IT_profile.docx">Germo_Goertz_IT_profile.docx</link></simpara>
 <section xml:id="_meine_erfahrung_für_ihren_erfolg">
 <title>meine Erfahrung für Ihren Erfolg</title>
 <itemizedlist>
@@ -28,7 +28,7 @@
 <simpara>Handwerk statt Fließband</simpara>
 </listitem>
 <listitem>
-<simpara>Technokratie statt Demokratie<footnote xml:id="kh-autobauer"><simpara>Hintergründe zu "Technokratie statt Demokratie" im "Gleichnis vom Krankenhaus der Autobauer" <link xl:href="https://datahandwerk.aisberg.de/2022-09-15-krankenhaus-autobauer/">https://datahandwerk.aisberg.de/2022-09-15-krankenhaus-autobauer/</link></simpara></footnote>: Vertrauen in Experten</simpara>
+<simpara>Technokratie statt Demokratie<footnote xml:id="kh-autobauer"><simpara>Hintergründe zu "Technokratie statt Demokratie" im "Gleichnis vom Krankenhaus der Autobauer" <link xl:href="https://blog.germo-goertz.de/2022-09-15-krankenhaus-autobauer/">https://blog.germo-goertz.de/2022-09-15-krankenhaus-autobauer/</link></simpara></footnote>: Vertrauen in Experten</simpara>
 </listitem>
 </itemizedlist>
 <simpara>Soziale Kompetenz, Auffassungsgabe und Ehrgeiz sorgen dafür, dass Ihre fachlichen Anforderungen genau erfasst und <emphasis role="strong">zu Ihrer vollen Zufriedenheit umgesetzt werden</emphasis>:<?asciidoc-br?>
@@ -132,7 +132,7 @@ analytisch, exakt, verantwortungsbewusst, selbständig, schnell, effektiv und ef
 </itemizedlist>
 </listitem>
 <listitem>
-<simpara>automatisierte versionisierte Dokumentation mit <link xl:href="https://datahandwerk.gitlab.io/dhw/user-guide/documentation-generator.html/">DataHandwerk DocsGenerator</link><footnote xml:id="blog-docs"><simpara>Mehr zum Docs-as-Code und meinem Dokumentationsgenerator: <link xl:href="https://datahandwerk.aisberg.de/2021-04-20-docs-code-mit-asciidoc-und-antora/">https://datahandwerk.aisberg.de/2021-04-20-docs-code-mit-asciidoc-und-antora/</link></simpara></footnote> (Kombination von technischer und fachlicher Dokumentation; <link xl:href="https://asciidoc.org/">AsciiDoc</link>, <link xl:href="https://antora.org/"><emphasis role="strong">Antora</emphasis> (Docs as Code)</link>)</simpara>
+<simpara>automatisierte versionisierte Dokumentation mit <link xl:href="https://datahandwerk.gitlab.io/dhw/user-guide/documentation-generator.html/">DataHandwerk DocsGenerator</link><footnote xml:id="blog-docs"><simpara>Mehr zum Docs-as-Code und meinem Dokumentationsgenerator: <link xl:href="https://blog.germo-goertz.de/2021-04-20-docs-code-mit-asciidoc-und-antora/">https://blog.germo-goertz.de/2021-04-20-docs-code-mit-asciidoc-und-antora/</link></simpara></footnote> (Kombination von technischer und fachlicher Dokumentation; <link xl:href="https://asciidoc.org/">AsciiDoc</link>, <link xl:href="https://antora.org/"><emphasis role="strong">Antora</emphasis> (Docs as Code)</link>)</simpara>
 </listitem>
 <listitem>
 <simpara>technische Umsetzung regulatorischer Anforderungen (Historisierung, Versionierung, Data Lineage, DSGVO, &#8230;&#8203;)</simpara>
@@ -162,7 +162,7 @@ analytisch, exakt, verantwortungsbewusst, selbständig, schnell, effektiv und ef
 </listitem>
 <listitem>
 <simpara><link xl:href="https://datahandwerk.gitlab.io"><emphasis role="strong">DataHandwerk-toolkit-mssql</emphasis></link><?asciidoc-br?>
-mein open source Projekt<footnote xml:id="blog-dhw"><simpara>Warum es das DataHandwerk Projekt gibt: <link xl:href="https://datahandwerk.aisberg.de/2021-03-23-datahandwerk-toolkit-mssql/">https://datahandwerk.aisberg.de/2021-03-23-datahandwerk-toolkit-mssql/</link></simpara></footnote>, enthält auch einen Datenbank-Dokumentations-Generator</simpara>
+mein open source Projekt<footnote xml:id="blog-dhw"><simpara>Warum es das DataHandwerk Projekt gibt: <link xl:href="https://blog.germo-goertz.de/2021-03-23-datahandwerk-toolkit-mssql/">https://blog.germo-goertz.de/2021-03-23-datahandwerk-toolkit-mssql/</link></simpara></footnote>, enthält auch einen Datenbank-Dokumentations-Generator</simpara>
 </listitem>
 <listitem>
 <simpara><link xl:href="https://git-scm.com/">git (Versionskontrollsystem)</link><?asciidoc-br?>
