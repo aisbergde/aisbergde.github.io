@@ -4,6 +4,10 @@ rem example:
 rem das hier verwenden:
 rem .convert-adoc-to-docx.bat Germo_Goertz_IT_profile.adoc
 rem _
+rem da es oft Probleme mit pandoc gibt, erst mal testen
+rem pandoc -v
+rem pandoc --version
+rem _
 rem .convert-adoc-to-docx.bat Germo_Goertz_IT_profile_2.adoc
 rem .convert-adoc-to-docx.bat test.adoc
 rem .convert-adoc-to-docx.bat "test ccc ddd.adoc"
