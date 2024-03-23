@@ -4,16 +4,10 @@
 <article xmlns="http://docbook.org/ns/docbook" xmlns:xl="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en">
 <info>
 <title>IT Profil Germo Görtz (de)</title>
-<date>2024-02-24</date>
+<date>2024-03-04</date>
 </info>
-<bridgehead xml:id="_ihre_investition_in_meine_erfahrung_ist_ein_schlüssel_zu_ihrem_erfolg_seit_1999_microsoft_bi_architekt_entwickler_ms_sql_server_power_bi_fabric_ssas_olap_tabular_data_warehouse_lakehouse_elt_etl_automatisierte_dokumentation_azure" renderas="sect2">"Ihre Investition in meine Erfahrung ist ein Schlüssel zu Ihrem Erfolg. seit 1999: Microsoft BI Architekt + Entwickler. MS SQL Server, Power BI, Fabric, SSAS (OLAP, Tabular), Data Warehouse, Lakehouse, ELT, ETL, automatisierte Dokumentation, Azure"</bridgehead>
-<informaltable frame="none" rowsep="0" colsep="0">
-<tgroup cols="2">
-<colspec colname="col_1" colwidth="50*"/>
-<colspec colname="col_2" colwidth="50*"/>
-<tbody>
-<row>
-<entry align="left" valign="top"><informalfigure>
+<bridgehead xml:id="_ihre_investition_in_meine_erfahrung_ist_ein_schlüssel_zu_ihrem_erfolg_seit_1999_microsoft_bi_architekt_entwickler_ms_sql_server_power_bi_fabric_ssas_olap_tabular_data_warehouse_lakehouse_elt_etl_azure" renderas="sect2">"Ihre Investition in meine Erfahrung ist ein Schlüssel zu Ihrem Erfolg. seit 1999: Microsoft BI Architekt + Entwickler. MS SQL Server, Power BI, Fabric, SSAS (OLAP, Tabular), Data Warehouse, Lakehouse, ELT, ETL, Azure"</bridgehead>
+<informalfigure>
 <mediaobject>
 <imageobject>
 <imagedata fileref="./assets/img/Germo_Goertz_345x460.jpg"/>
@@ -21,34 +15,9 @@
 <textobject><phrase>Germo Goertz 345x460</phrase></textobject>
 </mediaobject>
 </informalfigure>
-<simpara>14089 Berlin</simpara></entry>
-<entry align="left" valign="top"><bridgehead xml:id="_abschluss" renderas="sect1">Abschluss</bridgehead>
-<itemizedlist>
-<listitem>
-<simpara>in English:</simpara>
-<itemizedlist>
-<listitem>
-<simpara>Diplom-Mediziner, Biophysiker, <link xl:href="http://pirogov-university.com/academics/programs-and-degrees/undergraduate/medical-cybernetics/">Arzt-Kybernetiker (medical cybernetics)</link><?asciidoc-br?>
-<link xl:href="http://pirogov-university.com/">Pirogov Russian National Research Medical University</link></simpara>
-</listitem>
-</itemizedlist>
-</listitem>
-<listitem>
-<simpara>на русском:</simpara>
-<itemizedlist>
-<listitem>
-<simpara><link xl:href="https://rsmu.ru/academics/undergraduate/medical-cybernetics/">Программа специалитета «Медицинская кибернетика»</link><?asciidoc-br?>
-<link xl:href="http://rsmu.ru/">Российский национальный исследовательский медицинский университет имени Н.И. Пирогова</link></simpara>
-</listitem>
-</itemizedlist>
-</listitem>
-</itemizedlist></entry>
-</row>
-</tbody>
-</tgroup>
-</informaltable>
+<simpara>14089 Berlin</simpara>
 <simpara>Download des IT-Profils als Word-Datei:
-<link xl:href="https://datahandwerk.aisberg.de/Germo_Goertz_IT_profile.docx">Germo_Goertz_IT_profile.docx</link></simpara>
+<link xl:href="https://blog.germo-goertz.de//Germo_Goertz_IT_profile.docx">Germo_Goertz_IT_profile.docx</link></simpara>
 <section xml:id="_meine_erfahrung_für_ihren_erfolg">
 <title>meine Erfahrung für Ihren Erfolg</title>
 <itemizedlist>
@@ -59,13 +28,15 @@
 <simpara>Handwerk statt Fließband</simpara>
 </listitem>
 <listitem>
-<simpara>Technokratie statt Demokratie<footnote xml:id="kh-autobauer"><simpara>Hintergründe zu "Technokratie statt Demokratie" im "Gleichnis vom Krankenhaus der Autobauer" <link xl:href="https://datahandwerk.aisberg.de/2022-09-15-krankenhaus-autobauer/">https://datahandwerk.aisberg.de/2022-09-15-krankenhaus-autobauer/</link></simpara></footnote>: Vertrauen in Experten</simpara>
+<simpara>Technokratie statt Demokratie<footnote xml:id="kh-autobauer"><simpara>Hintergründe zu "Technokratie statt Demokratie" im "Gleichnis vom Krankenhaus der Autobauer" <link xl:href="https://blog.germo-goertz.de/2022-09-15-krankenhaus-autobauer/">https://blog.germo-goertz.de/2022-09-15-krankenhaus-autobauer/</link></simpara></footnote>: Vertrauen in Experten</simpara>
 </listitem>
 </itemizedlist>
 <simpara>Soziale Kompetenz, Auffassungsgabe und Ehrgeiz sorgen dafür, dass Ihre fachlichen Anforderungen genau erfasst und <emphasis role="strong">zu Ihrer vollen Zufriedenheit umgesetzt werden</emphasis>:<?asciidoc-br?>
 kompetent, zielorientiert, auch querdenkend und nonkonformistisch,<?asciidoc-br?>
 analytisch, exakt, verantwortungsbewusst, selbständig, schnell, effektiv und effizient.</simpara>
+<simpara>Am Ende meines IT-Profils finden Sie <link linkend="referenzen"><emphasis role="strong">Referenzen zufriedener Kunden</emphasis></link>.</simpara>
 <simpara><?asciidoc-br?>
+<?asciidoc-br?>
 <?asciidoc-br?></simpara>
 <simpara>Als <link xl:href="http://pirogov-university.com/academics/programs-and-degrees/undergraduate/medical-cybernetics/">Arzt-Kybernetiker</link> bin ich "kybernetisch im Denken und Handeln"</simpara>
 <informalfigure>
@@ -90,10 +61,6 @@ analytisch, exakt, verantwortungsbewusst, selbständig, schnell, effektiv und ef
 <simpara><emphasis role="strong">Störgrößen</emphasis> ermitteln und auf diese reagieren.</simpara>
 </listitem>
 </itemizedlist>
-<section xml:id="_ihre_investition_in_meine_dienstleistungen_ihr_gewinn">
-<title>Ihre Investition in meine Dienstleistungen &#8594; Ihr Gewinn</title>
-<simpara>Am Ende meines IT-Profils finden Sie <link linkend="referenzen"><emphasis role="strong">Referenzen zufriedener Kunden</emphasis></link>.</simpara>
-</section>
 </section>
 <section xml:id="_bi_architekt_und_entwickler_mit_microsoft_bi">
 <title>BI-Architekt und -Entwickler mit Microsoft BI</title>
@@ -165,7 +132,7 @@ analytisch, exakt, verantwortungsbewusst, selbständig, schnell, effektiv und ef
 </itemizedlist>
 </listitem>
 <listitem>
-<simpara>automatisierte versionisierte Dokumentation mit <link xl:href="https://datahandwerk.gitlab.io/dhw/user-guide/documentation-generator.html/">DataHandwerk DocsGenerator</link><footnote xml:id="blog-docs"><simpara>Mehr zum Docs-as-Code und meinem Dokumentationsgenerator: <link xl:href="https://datahandwerk.aisberg.de/2021-04-20-docs-code-mit-asciidoc-und-antora/">https://datahandwerk.aisberg.de/2021-04-20-docs-code-mit-asciidoc-und-antora/</link></simpara></footnote> (Kombination von technischer und fachlicher Dokumentation; <link xl:href="https://asciidoc.org/">AsciiDoc</link>, <link xl:href="https://antora.org/"><emphasis role="strong">Antora</emphasis> (Docs as Code)</link>)</simpara>
+<simpara>automatisierte versionisierte Dokumentation mit <link xl:href="https://datahandwerk.gitlab.io/dhw/user-guide/documentation-generator.html/">DataHandwerk DocsGenerator</link><footnote xml:id="blog-docs"><simpara>Mehr zum Docs-as-Code und meinem Dokumentationsgenerator: <link xl:href="https://blog.germo-goertz.de/2021-04-20-docs-code-mit-asciidoc-und-antora/">https://blog.germo-goertz.de/2021-04-20-docs-code-mit-asciidoc-und-antora/</link></simpara></footnote> (Kombination von technischer und fachlicher Dokumentation; <link xl:href="https://asciidoc.org/">AsciiDoc</link>, <link xl:href="https://antora.org/"><emphasis role="strong">Antora</emphasis> (Docs as Code)</link>)</simpara>
 </listitem>
 <listitem>
 <simpara>technische Umsetzung regulatorischer Anforderungen (Historisierung, Versionierung, Data Lineage, DSGVO, &#8230;&#8203;)</simpara>
@@ -195,7 +162,7 @@ analytisch, exakt, verantwortungsbewusst, selbständig, schnell, effektiv und ef
 </listitem>
 <listitem>
 <simpara><link xl:href="https://datahandwerk.gitlab.io"><emphasis role="strong">DataHandwerk-toolkit-mssql</emphasis></link><?asciidoc-br?>
-mein open source Projekt<footnote xml:id="blog-dhw"><simpara>Warum es das DataHandwerk Projekt gibt: <link xl:href="https://datahandwerk.aisberg.de/2021-03-23-datahandwerk-toolkit-mssql/">https://datahandwerk.aisberg.de/2021-03-23-datahandwerk-toolkit-mssql/</link></simpara></footnote>, enthält auch einen Datenbank-Dokumentations-Generator</simpara>
+mein open source Projekt<footnote xml:id="blog-dhw"><simpara>Warum es das DataHandwerk Projekt gibt: <link xl:href="https://blog.germo-goertz.de/2021-03-23-datahandwerk-toolkit-mssql/">https://blog.germo-goertz.de/2021-03-23-datahandwerk-toolkit-mssql/</link></simpara></footnote>, enthält auch einen Datenbank-Dokumentations-Generator</simpara>
 </listitem>
 <listitem>
 <simpara><link xl:href="https://git-scm.com/">git (Versionskontrollsystem)</link><?asciidoc-br?>
@@ -206,7 +173,7 @@ alle meine Projekte werden grundsätzlich versionisiert</simpara>
 <itemizedlist>
 <listitem>
 <simpara><link xl:href="https://antora.org/">Antora (Docs as Code)</link><?asciidoc-br?>
-open Source Dokumentations-Framework, insbesondere für technische und versionisierte versionisierte Dokumentation</simpara>
+open Source Dokumentations-Framework, insbesondere für technische und versionisierte Dokumentation</simpara>
 </listitem>
 <listitem>
 <simpara>basiert auf der Auszeichnungssprache <link xl:href="https://asciidoc.org/">AsciiDoc</link></simpara>
@@ -242,24 +209,10 @@ Tool für DevOps, agiles Projekt-Controlling, Issue-Tracking, Code-Versionierung
 </listitem>
 </itemizedlist>
 </section>
-<section xml:id="_sprachkenntnisse">
-<title>Sprachkenntnisse</title>
-<itemizedlist>
-<listitem>
-<simpara>deutsch (Muttersprache)</simpara>
-</listitem>
-<listitem>
-<simpara>russisch (studiert und gearbeitet in Russland)</simpara>
-</listitem>
-<listitem>
-<simpara>englisch</simpara>
-</listitem>
-</itemizedlist>
-</section>
 <section xml:id="_anmerkungen">
 <title>Anmerkungen</title>
-<note>
-<bridgehead xml:id="_über_ssas_sql_server_analysis_services_power_bi_und_microsoft_fabric" renderas="sect2">Über SSAS (SQL Server Analysis Services), Power BI und Microsoft Fabric</bridgehead>
+<section xml:id="_über_ssas_sql_server_analysis_services_power_bi_und_microsoft_fabric">
+<title>Über SSAS (SQL Server Analysis Services), Power BI und Microsoft Fabric</title>
 <simpara>Unter dem gleichen Oberbegriff <emphasis role="strong">SSAS</emphasis> (<link xl:href="http://docs.microsoft.com/de-de/analysis-services/analysis-services-overview?view=asallproducts-allversions">SQL Server Analysis Services</link>) vereint Microsoft zwei unterschiedliche Technologien:</simpara>
 <itemizedlist>
 <listitem>
@@ -275,11 +228,48 @@ Tool für DevOps, agiles Projekt-Controlling, Issue-Tracking, Code-Versionierung
 <simpara>Microsoft sieht die Zukunft in der Cloud: <emphasis role="strong">Power BI Services</emphasis>; <emphasis role="strong">Microsoft Fabric</emphasis>, basierend auf einem <emphasis role="strong">OneLake</emphasis>.</simpara>
 <simpara>=&gt; Was sich mit Power BI oder SSAS Tabular realisieren lässt, wird von mir pragmatisch mit Tabular gemacht. Falls nötig und sinnvoll, gibt es weiter OLAP.</simpara>
 <simpara>Die Abfragesprache <link xl:href="http://de.wikipedia.org/wiki/Multidimensional_Expressions">MDX (Multidimensional Expressions)</link> kann für beide Technologien verwendet werden, <link xl:href="https://docs.microsoft.com/de-de/dax/">DAX (Data Analysis Expressions)</link> kann nur für SSAS Tabular verwendet werden.</simpara>
-</note>
-<note>
-<bridgehead xml:id="_keine_aül_rentenversicherung_scheinselbständigkeit" renderas="sect2">keine AÜL, Rentenversicherung, Scheinselbständigkeit</bridgehead>
+</section>
+<section xml:id="_keine_aül_rentenversicherung_scheinselbständigkeit">
+<title>keine AÜL, Rentenversicherung, Scheinselbständigkeit</title>
 <simpara>Ich habe <emphasis role="strong"><emphasis>kein</emphasis></emphasis> Interesse an einer festen Anstellung, auch nicht an einer Arbeitnehmerüberlassung (AÜL), da ich jeden unnötigen Kontakt mit der <emphasis>Deutschen Rentenversicherung</emphasis> vermeiden will.</simpara>
-</note>
+</section>
+</section>
+<section xml:id="_abschluss">
+<title>Abschluss</title>
+<itemizedlist>
+<listitem>
+<simpara>in English:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Diplom-Mediziner, Biophysiker, <link xl:href="http://pirogov-university.com/academics/programs-and-degrees/undergraduate/medical-cybernetics/">Arzt-Kybernetiker (medical cybernetics)</link><?asciidoc-br?>
+<link xl:href="http://pirogov-university.com/">Pirogov Russian National Research Medical University</link></simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>на русском:</simpara>
+<itemizedlist>
+<listitem>
+<simpara><link xl:href="https://rsmu.ru/academics/undergraduate/medical-cybernetics/">Программа специалитета «Медицинская кибернетика»</link><?asciidoc-br?>
+<link xl:href="http://rsmu.ru/">Российский национальный исследовательский медицинский университет имени Н.И. Пирогова</link></simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+</itemizedlist>
+</section>
+<section xml:id="_sprachkenntnisse">
+<title>Sprachkenntnisse</title>
+<itemizedlist>
+<listitem>
+<simpara>deutsch (Muttersprache)</simpara>
+</listitem>
+<listitem>
+<simpara>russisch (studiert und gearbeitet in Russland)</simpara>
+</listitem>
+<listitem>
+<simpara>englisch</simpara>
+</listitem>
+</itemizedlist>
 <simpara><?asciidoc-pagebreak?></simpara>
 </section>
 <section xml:id="_projekthistorie">
