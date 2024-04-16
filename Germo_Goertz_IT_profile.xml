@@ -704,11 +704,11 @@ Umsetzen von Anforderungen in technische BI Lösungen</simpara>
 </listitem>
 </varlistentry>
 </variablelist>
-<section xml:id="_import_und_verarbeitung_von_daten_aus_service_now_für_ein_reporting_erstellung_dwh_mit_analyticscreator_berichte_mit_power_bi">
-<title>Import und Verarbeitung von Daten aus Service Now für ein Reporting, Erstellung DWH mit AnalyticsCreator, Berichte mit Power BI</title>
+<section xml:id="_import_und_verarbeitung_von_daten_aus_servicenow_für_ein_reporting_erstellung_dwh_mit_analyticscreator_berichte_mit_power_bi">
+<title>Import und Verarbeitung von Daten aus ServiceNow für ein Reporting, Erstellung DWH mit AnalyticsCreator, Berichte mit Power BI</title>
 <itemizedlist>
 <listitem>
-<simpara>Import von Daten aus Service Now über die API (mit Python)</simpara>
+<simpara>Import von Daten aus ServiceNow über die API (mit Python)</simpara>
 </listitem>
 <listitem>
 <simpara>Import, Integration und Transformation in einem DWH im SQL Server</simpara>

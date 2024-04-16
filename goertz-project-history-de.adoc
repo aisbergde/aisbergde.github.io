@@ -177,9 +177,9 @@ Branche:: Telekommunikation
 
 Größe:: >10.000 Mitarbeiter
 
-=== Import und Verarbeitung von Daten aus Service Now für ein Reporting, Erstellung DWH mit AnalyticsCreator, Berichte mit Power BI
+=== Import und Verarbeitung von Daten aus ServiceNow für ein Reporting, Erstellung DWH mit AnalyticsCreator, Berichte mit Power BI
 
-* Import von Daten aus Service Now über die API (mit Python)
+* Import von Daten aus ServiceNow über die API (mit Python)
 * Import, Integration und Transformation in einem DWH im SQL Server
 * Analytische Datenbank mit SSAS
 * Berichte im Power BI

@@ -29,6 +29,9 @@ rem notwendige Installationen: pandoc, asciidoctor
 rem choco install pandoc -y
 rem sometimes pandoc doesn't work, check version:
 rem pandoc --version
+rem sometime force helps
+rem choco install pandoc -y -force
+
 
 rem Install asciidoctor:
 rem - zuerst ruby installieren, dann mit ruby asciidoctor
