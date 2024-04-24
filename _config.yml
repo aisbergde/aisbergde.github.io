@@ -23,9 +23,10 @@ favicon: "/favicon.ico"
 navbar-links:
   Akademie: "https://akademie.germo-goertz.de"
   Immobilien:
+    - online-Kurs Grundlagen der Baufinanzierung: "https://akademie.germo-goertz.de/customer-new/free-course/double?course_id=THURE752WAFH"
     - Der Immobilien-Investor: "https://der-immobilien-investor.de/"
     - YouTube: "https://www.youtube.com/@der-immobilien-Investor"
-  open Source:
+  DataHandwerk:
     - DataHandwerk Dokumentation: "https://datahandwerk.gitlab.io"
     - DataHandwerk GitLab Projekt: "https://gitlab.com/datahandwerk/DataHandwerk-toolkit-mssql"
     - DataHandwerk Community on Zulip: "https://datahandwerk.zulipchat.com/"
