@@ -1,5 +1,5 @@
 = IT Profil Germo Görtz (de)
-:page-subtitle: "Ihre Investition in meine Erfahrung ist ein Schlüssel zu Ihrem Erfolg. seit 1999: Microsoft BI Architekt + Entwickler. MS SQL Server, Power BI, Fabric, SSAS (OLAP, Tabular), Data Warehouse, Lakehouse, ELT, ETL, Azure"
+:page-subtitle: seit 1999: Microsoft BI Architekt + Entwickler. MS SQL Server, Power BI, Fabric, SSAS (OLAP, Tabular), Data Warehouse, Lakehouse, ELT, ETL, Azure
 :page-slug: profil-germo-gortz-de-
 :page-tags: ["MS SQL Server", "DWH", "SSAS", "Antora"]
 //für kompatibilität mit beworbenen Links:
@@ -91,7 +91,7 @@ Als http://pirogov-university.com/academics/programs-and-degrees/undergraduate/m
 
 image::kybernetik05-left_right.svg[]
 
-* *Ist* und *Soll* analysieren,
+* *Ist*-Zustand und *Ziel*-Zustand analysieren,
 * *verschiedene Wege* identifizieren,
 * *Ursachen* und *Wirkungen* berücksichtigen,
 * *Störgrößen* ermitteln und auf diese reagieren.

@@ -1,6 +1,6 @@
 = meine Erfahrung für Ihren Erfolg
 :page-layout: home
-:page-subtitle: "Ihre Investition in meine Erfahrung ist ein Schlüssel zu Ihrem Erfolg. seit 1999: Microsoft BI Architekt + Entwickler. MS SQL Server, Power BI, Fabric, SSAS (OLAP, Tabular), Data Warehouse, Lakehouse, ELT, ETL, automatisierte Dokumentation, Azure"
+:page-subtitle: seit 1999: Microsoft BI Architekt + Entwickler. MS SQL Server, Power BI, Fabric, SSAS (OLAP, Tabular), Data Warehouse, Lakehouse, ELT, ETL, automatisierte Dokumentation, Azure
 :toc: auto
 :toclevels: 2
 include::_posts/_footnotes.adoc[]

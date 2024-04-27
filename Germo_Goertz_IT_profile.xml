@@ -4,9 +4,9 @@
 <article xmlns="http://docbook.org/ns/docbook" xmlns:xl="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en">
 <info>
 <title>IT Profil Germo Görtz (de)</title>
-<date>2024-03-04</date>
+<date>2024-04-24</date>
 </info>
-<bridgehead xml:id="_ihre_investition_in_meine_erfahrung_ist_ein_schlüssel_zu_ihrem_erfolg_seit_1999_microsoft_bi_architekt_entwickler_ms_sql_server_power_bi_fabric_ssas_olap_tabular_data_warehouse_lakehouse_elt_etl_azure" renderas="sect2">"Ihre Investition in meine Erfahrung ist ein Schlüssel zu Ihrem Erfolg. seit 1999: Microsoft BI Architekt + Entwickler. MS SQL Server, Power BI, Fabric, SSAS (OLAP, Tabular), Data Warehouse, Lakehouse, ELT, ETL, Azure"</bridgehead>
+<bridgehead xml:id="_seit_1999_microsoft_bi_architekt_entwickler_ms_sql_server_power_bi_fabric_ssas_olap_tabular_data_warehouse_lakehouse_elt_etl_azure" renderas="sect2">seit 1999: Microsoft BI Architekt + Entwickler. MS SQL Server, Power BI, Fabric, SSAS (OLAP, Tabular), Data Warehouse, Lakehouse, ELT, ETL, Azure</bridgehead>
 <informalfigure>
 <mediaobject>
 <imageobject>
@@ -49,7 +49,7 @@ analytisch, exakt, verantwortungsbewusst, selbständig, schnell, effektiv und ef
 </informalfigure>
 <itemizedlist>
 <listitem>
-<simpara><emphasis role="strong">Ist</emphasis> und <emphasis role="strong">Soll</emphasis> analysieren,</simpara>
+<simpara><emphasis role="strong">Ist</emphasis>-Zustand und <emphasis role="strong">Ziel</emphasis>-Zustand analysieren,</simpara>
 </listitem>
 <listitem>
 <simpara><emphasis role="strong">verschiedene Wege</emphasis> identifizieren,</simpara>
@@ -704,11 +704,11 @@ Umsetzen von Anforderungen in technische BI Lösungen</simpara>
 </listitem>
 </varlistentry>
 </variablelist>
-<section xml:id="_import_und_verarbeitung_von_daten_aus_service_now_für_ein_reporting_erstellung_dwh_mit_analyticscreator_berichte_mit_power_bi">
-<title>Import und Verarbeitung von Daten aus Service Now für ein Reporting, Erstellung DWH mit AnalyticsCreator, Berichte mit Power BI</title>
+<section xml:id="_import_und_verarbeitung_von_daten_aus_servicenow_für_ein_reporting_erstellung_dwh_mit_analyticscreator_berichte_mit_power_bi">
+<title>Import und Verarbeitung von Daten aus ServiceNow für ein Reporting, Erstellung DWH mit AnalyticsCreator, Berichte mit Power BI</title>
 <itemizedlist>
 <listitem>
-<simpara>Import von Daten aus Service Now über die API (mit Python)</simpara>
+<simpara>Import von Daten aus ServiceNow über die API (mit Python)</simpara>
 </listitem>
 <listitem>
 <simpara>Import, Integration und Transformation in einem DWH im SQL Server</simpara>
