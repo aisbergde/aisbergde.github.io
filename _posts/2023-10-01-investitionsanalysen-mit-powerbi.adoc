@@ -66,16 +66,12 @@ Die Berechnung der alternativen Rendite{fn-blog-i-alternativrendite} erfordert b
 
 Einzelne Szenarien für Investitionen und Finanzierungen werden in separaten Artikeln auf dieser Website beschrieben: https://der-immobilien-investor.de/[]
 
-// [NOTE]
-// --
-// das ist ein Problem mit diesem Theme
-// --
+include::_modul_ueber_mich.adoc[]
 
-// NOTE: This is a note
+//um die Fußnoten besser abzugrenzen:
+{empty} +
 
-// normal text
-
-// WARNING: this is a warning
+include::_modul_ueber_mich.adoc[]
 
 //um die Fußnoten besser abzugrenzen:
 {empty} +

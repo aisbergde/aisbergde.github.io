@@ -53,3 +53,8 @@ Unter anderem sollten von mir auch bestehende ETL Prozesse zum Import von Daten 
 So nebenbei: andere Entwickler verwendeten fast nur das, was man im AnalyticsCreator "manuelle Tranformationen" nennt, also von Hand erstellten Code für Sichten und Prozeduren. Wozu ein Automatisierungstool verwenden, wenn der Code in großen Teilen nicht automatisiert erstellt wird?
 
 Auch der *AnalyticsCreator* hatte bei meinen ersten Tests sehr vieles nicht, was ich mir wünschte. Allerdings war und ist der Entwickler extrem kooperativ und sehr aufgeschlossen meinen Vorschlägen gegenüber. Es gibt auch immer die Möglichkeit manueller Transformationen. So gab es beispielsweise lange Zeit keine formalisierte UNION Transformation, und man konnte das sehr einfach mit einer manuellen Transformation überbrücken. Oder Historisierungen: Viele Features der aktuellen Historisierung sind meinen Feature-Requests zu verdanken, so auch die Übernahme eine bestehenden Historisierung. Und solange das nicht implementiert war, konnte man sich den Code der Historisierungs-Prozedur automatisch erstellen, dann auf manuell umstellen und manipulieren.
+
+include::_modul_ueber_mich.adoc[]
+
+//um die Fußnoten besser abzugrenzen:
+{empty} +

@@ -97,3 +97,7 @@ ____
 . *Dataflows Gen2*: users can use Dataflows Gen2 with familiar Power Query experiences to transform data and load into the Warehouse.
 ____
 
+include::_modul_ueber_mich.adoc[]
+
+//um die Fußnoten besser abzugrenzen:
+{empty} +

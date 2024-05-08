@@ -1,0 +1,32 @@
+= Ihre Nachricht wurde verschickt
+:page-subtitle: Und kommt hoffentlich auch an.
+//für kompatibilität mit beworbenen Links:
+// :page-permalink: /goertz_profile_de/
+:toc: auto
+:toclevels: 2
+:sectnums:
+include::_posts/_footnotes.adoc[]
+
+:imagesdir: /assets/img
+
+ifndef::env-site[]
+
+//it's not executed on gitlab server in jekyll
+//locally (VCS, export to docx) we need a different :imagesdir:
+:imagesdir: ./assets/img
+
+// auf dem Server wird der :page-subtitle: unter dem Titel angezeigt
+// local nicht, also blenden wir ihn ein
+// docbook könnte mit spezieller Syntax auch einen subtitle anzeigen, das geht aber nicht mit html5
+// https://docs.asciidoctor.org/asciidoc/latest/document/subtitle/
+
+[discrete] 
+=== {page-subtitle}
+
+endif::env-site[]
+
+Ich setze mit Ihnen in Verbindung.
+
+Für den Fall, dass ich mich nicht melde, hier meine Telefonnummer: +
+Germo Görtz +
++49 179 5460319

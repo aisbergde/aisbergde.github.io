@@ -11,7 +11,6 @@ include::_posts/_footnotes.adoc[]
 
 // TIP: Ergänzend gibt es einen https://www.youtube.com/@der-immobilien-Investor[Youtube-Kanal "Der Immobilien-Investor"], in dem ich versuche, die Blog-Artikel etwas ausführlicher und verständlicher zu erklären.
 
-// include::_posts/_modul_baufinanzierung.adoc[]
 
 // image::Germo_Goertz_345x460.jpg[]
 
@@ -38,5 +37,11 @@ image::kybernetik05-left_right.svg[]
 * *Störgrößen* ermitteln und auf diese reagieren.
 
 Am Ende meines link:goertz_profile_de[*IT-Profils*] finden Sie link:goertz_profile_de#referenzen[*Referenzen zufriedener Kunden*].
+
+include::_posts/_modul_ueber_mich.adoc[]
+
+//um die Fußnoten besser abzugrenzen:
+{empty} +
+
 
 Es folgen Blog-Artikel:

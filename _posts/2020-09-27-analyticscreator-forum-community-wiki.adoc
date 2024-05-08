@@ -37,3 +37,8 @@ Die Wiki wird hoffentlich sowohl von der Community als auch vom Hersteller mit I
 Unter anderen habe ich bereits die https://dev.azure.com/AnalyticsCreator/AnalyticsCreator/_wiki/wikis/AnalyticsCreator.wiki/73/repository-extension[Repository Extension] entwickelt, bereitgestellt und dokumentiert.
 
 https://dev.azure.com/AnalyticsCreator/AnalyticsCreator/_wiki/wikis/AnalyticsCreator.wiki/75/repository-templates[Repository Templates] erleichtern den Start neuer Projekte und die Übernahme von Entwicklungen aus einem Projekt in ein anderes. Dazu habe ich auch ein Vidoe erstellt: https://youtu.be/-cwCsKq-488[AnalyticsCreator Projekt aus Template - Repository Daten Synchronisation].
+
+include::_modul_ueber_mich.adoc[]
+
+//um die Fußnoten besser abzugrenzen:
+{empty} +

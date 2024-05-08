@@ -116,3 +116,8 @@ Ich habe auch getestet, https://www.microsoft.com/de-de/power-platform/products/
 image::power-bi-references-01.png[]
 
 Irgendwie schwebt mir schon so etwas vor, was der AnalyticsCreator bietet. Also mit einer Navigation innerhalb des Diagramms.
+
+include::_modul_ueber_mich.adoc[]
+
+//um die Fußnoten besser abzugrenzen:
+{empty} +

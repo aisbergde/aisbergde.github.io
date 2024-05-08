@@ -1,3 +1,8 @@
 = Historisierung, Persistierung, AnalyticsCreator vs DataHandWerk
 
-Der AnalyticsCreator (AC) bietet zwei Technologien, um Daten in Tabellen hineinzuschreiben: AC-Historisierungen und AC-Persistierungen. AC-Persistierungen verwenden normalerweise AC-Transformationen (SQL Server Sichten) als Quelle, um die Daten aus diesen Sichten in eine Tabelle zu "persistieren". 
+Der AnalyticsCreator (AC) bietet zwei Technologien, um Daten in Tabellen hineinzuschreiben: AC-Historisierungen und AC-Persistierungen. AC-Persistierungen verwenden normalerweise AC-Transformationen (SQL Server Sichten) als Quelle, um die Daten aus diesen Sichten in eine Tabelle zu "persistieren".
+
+include::_modul_ueber_mich.adoc[]
+
+//um die Fußnoten besser abzugrenzen:
+{empty} +

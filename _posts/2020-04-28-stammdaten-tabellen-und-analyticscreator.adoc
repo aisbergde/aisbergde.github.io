@@ -95,3 +95,8 @@ WHERE T1.File_BaseName = f.File_BaseName
 ----
 
 image::Anmerkung_2020-04-28_174816.jpg[]
+
+include::_modul_ueber_mich.adoc[]
+
+//um die Fußnoten besser abzugrenzen:
+{empty} +

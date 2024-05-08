@@ -32,3 +32,8 @@ Wenn der AnalyticsCreator "DWH Automatisierung" verspricht, dann klingt das erst
 Wenn der Hersteller des AnalyticsCreator den Prozess mit der Automatisierung der Automobilproduktion durch Ford vergleicht, dann empfinde ich das eher als eine Bedrohung. Ich sehe allerdings gute Möglichkeiten, Prozesse zu standardisieren, statt zu automatisieren. So wie ich meine eigene Vorgehensweise in verschiedenen Projekten anwende, bekommen auch und gerade Beratungshäuser die Möglichkeit, Prozesse zu standardisieren, "Beste Vorgehensweisen" zu definieren, Mitarbeiter könnten einfacher in bestehende Projekte eingearbeitet werden. "DWH nach Kochbuch mit dem AnalyticsCreator" würde mir besser gefallen, als "DWH am Fließband wie in der Massenproduktion von Autos". Mir fällt dabei der "Thermomix" ein, den sogar Schüler in Koch-Arbeitesgemeinschaften verwenden. Und ich sehe im Thermomix keine Bedrohung für einen Koch-Profi, sondern die Möglichkeit, Intereressenten an das Kochen heranzuführen.
 
 Ich kenne aus der Vergangenheit verschiedene Projekte, in denen ein Praktikant oder Junior-Consultant die monotone, wenig kreative Arbeit erledigen musste. Hunderte Importe, Historisierungen, .. Und hinterher muss man man auch noch kontrollieren, ob nicht geschlampt wurde. Noch öfter gab es keinen Junior-Consultant und ich musste diese Arbeit selbst erledigen. Man kann das vielleicht auch positiv sehen, wie einen Meditations-Prozess, es wird ja auch bezahlt. Und es wird trotzdem irgendwann langweilig. "AnalyticsCreator statt Junior-Consultant" trifft es ganz gut.
+
+include::_modul_ueber_mich.adoc[]
+
+//um die Fußnoten besser abzugrenzen:
+{empty} +
