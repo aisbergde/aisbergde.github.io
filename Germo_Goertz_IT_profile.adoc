@@ -73,7 +73,8 @@ https://blog.germo-goertz.de//Germo_Goertz_IT_profile.docx[Germo_Goertz_IT_profi
 
 * Exzellenz durch Kompetenz
 * Handwerk statt Fließband
-* Technokratie statt Demokratie{fn-blog-kh-autobauer}: Vertrauen in Experten
+* In Projekten: Technokratie statt Demokratie{fn-blog-kh-autobauer}
+** Wesentlich dabei: Vertrauen in Experten
 
 Soziale Kompetenz, Auffassungsgabe und Ehrgeiz sorgen dafür, dass Ihre fachlichen Anforderungen genau erfasst und *zu Ihrer vollen Zufriedenheit umgesetzt werden*: +
 kompetent, zielorientiert, auch querdenkend und nonkonformistisch, +

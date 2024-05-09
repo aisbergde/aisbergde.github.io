@@ -1,0 +1,40 @@
+= e-learning, online-Marketing, Baufinanzierung, KI und Meta-Prompt
+:page-subtitle: blablabla
+:page-last-updated: 2024-03-02
+:page-tags: ["e-learning", "Baufinanzierung", "online Marketing"]
+
+:imagesdir: ../assets/img
+
+ifndef::env-site[]
+
+// on the jekyll server, the :page-subtitle: is displayed below the title.
+// but it is not shown, when rendered in html5, and the site is rendered in html5, when working locally
+// so we show it additionally only, when we work locally
+// https://docs.asciidoctor.org/asciidoc/latest/document/subtitle/
+
+[discrete] 
+=== {page-subtitle}
+
+endif::env-site[]
+
+Meine Tätigkeit als freiberuflicher Experte für Business Intelligence ist schwer skalierbar, solange ich Zeit gegen Geld tausche: wöchentliche Stunden und Stundensatz sind begrenzt.
+
+Kürzlich besuchte ich ein Webinar zum Thema online-Marketing mit online-Kursen und die Idee begeisterte mich sehr. Es gibt verschiedene sehr plausible Möglichkeiten, online-Kurse oder im erweiterten Sinne e-learning als Marketing-Instrumente zu verwenden oder mit diesen Geld zu verdienen. Erst fragte ich mich, warum jemand online-Kurse belegen sollte, wenn es doch so viele Inhalte auf Youtube oder allgemein im Internet schon gibt, und das sogar kostenlos. Und ich lernte: je mehr es bereits gibt, desto besser ist das, denn das bedeutet, dass es auch eine hohe Nachfrage gibt. Ich meldete mich sofort (nachdem ich mich überzeugt hatte, dass dieses Produkt aufgrund des Gesamtkonzepts und des Preis-Leistungs-Verhältnisses besser zu mir passt, als andere Angebote) bei [Mentortools] an und stieg auch gleich als Affiliate-Partner ein. Hier gibt es den passenden kostenlosen Kurs "7   ".
+
+Wie kann ich online-Kurse für mein Marketing nutzen?
+
+* BI-Kundenprojekte bekomme ich normalerweise über Personalvermittler, die konkrete Projekte besetzen. Online-Kurse werden die Zahl der angefragten Projekte nicht erhöhen.
+
+* Ich könnte Inhalte zum PowerBI Themen erstellen, die meine Kunden gelegentlich nachfragen und zu denen ich sie trainiere. Das wäre dann sinnvoll, wenn ähnliche Inhalte mehrfach benötigt werden.
+
+* Und dann wäre da noch die **Baufinanzierung**. Ich selbst habe mehrere Immobilien erworben und die Finanzierung lief immer über einen der besten Baufinanzierungsvermittler Deutschlands, den Baufi-Papst Glenn Schütte. Und ich habe ihn auch anderen Endkunden und Immobilienmaklern empfohlen, die Dank seiner Finanzierung ihre Abschlussquoten deutlich verbessern konnten, weil eine sichere Finanzierung zwingend notwendig ist für einen erfolgreichen Verkauf. Warum also nicht mit Baufinanzierung ein zweites Standbein aufbauen? Neubauten und Verkäufe gehen zwar aufgrund gestiegener Zinsen aktuell zurück, doch gerade darum ist eine solide Finanzierung um so wichtiger. Also lege ich demnächst bei der IHK die "Sachkundeprüfung Immobiliardarlehensvermittler (34i)" ab. Und natürlich bin ich in der Struktur von Glenn Schütte, der somit als mein Mentor sehr an meinem Erfolg interessiert ist und seine Expertise kommt unseren Kunden zugute.
+
+Es zeichnet sich ein mehrstufiges Konzept für mein Baufinanzierungs-Marketing ab:
+
+* kostenlose online-Kurse für Käufer von Immobilien als Marketing Instrument zwecks Vermittlung von Baufinanzierungen
+* weitere Immobilienmakler als Partner gewinnen, denen ich durch deutschlandweit bestmögliche Konzepte und Konditionen zu höheren Abschlussquoten verhelfe
+* online-Kurse zur Gewinnung und Schulung neuer Mitarbeiter
+
+Bei der Erstellung der Struktur und Inhalte meines ersten Kursen nutzte ich auf Anregung von Mentortools auch KI. Dabei stellte ich fest, dass ChatGPT und Google Gemini recht brauchbare Werkzeuge sind, die auch auf meine Anforderungen eingehen. Wohingegen ich von Microsoft Copilot recht enttäuscht bin. Dieser geht nicht auf meine konkreten Anforderungen ein, sondern halluziniert nicht nur seine Antworten, sondern scheint auch meine Anfragen nicht recht verstehen zu wollen oder zu können.
+
+Bisher habe ich ja immer alle Inhalte ohne KI selbst erstellt. KI ist allerdings sehr gut geeignet, Strukturen für Kurse vorzuschlagen, Zusammenfassungen zu liefern und auch Ideen zu liefern, die man aufgreifen und optimieren kann. Sehr interessant war für mich auch die Erkenntnis, dass man einen von mir sogenannten Meta-Prompt nutzen kann, um überhaupt erst einmal einen guten Prompt zu erstellen. Man verwendet KI dazu, seine Abfrage an die KI zu optimieren.
