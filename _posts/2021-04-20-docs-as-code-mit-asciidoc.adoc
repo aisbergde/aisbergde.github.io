@@ -208,3 +208,8 @@ image::diag-755ad76f331c708d02fe78287acfb61e2605df47.svg[Object Reference Diagra
 ==== Column Reference Diagram
 
 image::diag-0bf5f1995c8ae8616bc1d60bab130dc49bf24c43.svg[Column Reference Diagram]
+
+include::_modul_ueber_mich.adoc[]
+
+//um die Fußnoten besser abzugrenzen:
+{empty} +

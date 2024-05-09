@@ -66,3 +66,8 @@ Der Chirurg nutzte die Zeit hinter der Glasscheibe, um sich Gedanken über den W
 Eines Tages beschloss das Krankenhaus, keine Patienten mehr zu behandeln, sondern in die Chemieproduktion zu wechseln. Autos verbrauchten Benzin und Diesel, welche aus undemokratischem russischen Öl hergestellt wurden. Dieses galt es zu ersetzen, wie und wodurch auch immer.
 
 Und da der Arzt sein Handwerk in Russland gelernt hatte, überlegte er, ob er sich an einem russischen Krankenhaus bewerben sollte: in diesem Land gab es Gas, Diesel für seinen SUV, billigen Atomstrom, Getreide, Fleisch, Wodka, milchsaure Gurken, Pflanzenöl und sogar Toilettenpapier. Die dortigen Eingeborenen durften warm und ausgiebig duschen und im Winter ihre Wohnungen beheizen. In Krankenhäusern operierten Chirurgen: klassisch, undemokratisch und technokratisch. Alle Buchstaben aller Alphabete waren erlaubt.
+
+include::_modul_ueber_mich.adoc[]
+
+//um die Fußnoten besser abzugrenzen:
+{empty} +

@@ -62,3 +62,33 @@ h1, h2, h3, h4 {
   margin: .5em 0 0 0
 }
 
+/*Aus Default AsciiDoc CCS rauskopiert - sidebarblock*/
+
+.sidebarblock {
+  border: 1px solid #dbdbd6;
+  margin-bottom: 1.25em;
+  padding: 1.25em;
+  background: #f3f3f2;
+  border-radius: 4px;
+}
+
+.sidebarblock>.content>.title {
+  color: #7a2518;
+  margin-top: 0;
+  text-align: center;
+}
+
+
+/*
+Eingabe-Elemente Web Formular:
+*/
+
+input.input {
+  width: 90%;
+}
+
+textarea {
+  width: 90%;
+  height: 200px;
+}
+

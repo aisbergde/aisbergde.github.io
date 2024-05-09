@@ -349,3 +349,8 @@ Ich gehe den Zwischenschritt über die Erstellung eines SSAS-Projekts auch aus G
 
 * ob unerwartet Beziehungen dazugekommen sind, was passieren kann, wenn neue Beziehungen in das DM-Schema vererbt werden und der AC daraus erst einmal automatisch neue SSAS-Beziehungen erstellt
 * ob unerwartet bestehende Beziehungen verschwunden sind, was auch passiert, und wofür ich dann im Bugtracker neue Einträge anlege.
+
+include::_modul_ueber_mich.adoc[]
+
+//um die Fußnoten besser abzugrenzen:
+{empty} +
