@@ -1,8 +1,8 @@
 == Über mich
 
-Mein Name ist Germo Görtz und ich bin darauf spezialisiert, analytische Systeme und Berichts-Systeme zu konzipieren und zu implementieren, damit sie letztendlich auch funktionieren.
+Mein Name ist Germo Görtz und ich bin darauf spezialisiert, analytische Informations-Systeme und Berichts-Systeme zu konzipieren und zu implementieren, damit sie letztendlich auch funktionieren.
 
-Dabei nutze ich meine in Jahrzehnten erworbenen Kenntnisse und Erfahrungen mit der Microsoft BI Plattform: SQL Server, Power BI, Azure, relationale und analytische Datenbanken, maschinelles Lernen. Meine besondere Stärke ist die Erstellung von Datenmodellen. 
+Dabei nutze ich meine in Jahrzehnten erworbenen Kenntnisse und Erfahrungen mit der Microsoft BI Plattform: SQL Server, Power BI, relationale und analytische Datenbanken, maschinelles Lernen. Meine besondere Stärke ist die Erstellung von Datenmodellen. 
 
 
 // // tag::message[]
