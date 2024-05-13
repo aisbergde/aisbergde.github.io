@@ -1,4 +1,4 @@
-= Titrl
+= Titel
 :page-subtitle: blablabla
 :page-last-updated: 2022-09-15
 :page-tags: ["Krankenhaus", "Automechaniker", "alte weiße Chirurgen"]

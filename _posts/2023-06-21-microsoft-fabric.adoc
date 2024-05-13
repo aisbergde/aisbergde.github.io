@@ -1,6 +1,6 @@
 = Microsoft Fabric - kann das Konzept BI Entwicklung revolutionieren?
 :page-subtitle: Kürzlich stellte Microsoft sein neues Konzept "Microsoft Fabric" vor, welches bestehende Technologien wie Data Warehouse, Power BI, Data Factory, Pipeline mit einem auf dem Delta Lake (open source) basierenden OneLake kombiniert, in dem Daten an einem Ort in einheitlichem Format abgelegt und gemeinsam genutzt werden können. Das Konzept ist überzeugend: statt Daten von hier nach da zu schaufeln, hier das eine zu provisionieren, dort etwas anderes, läuft alles in einer "Kapazität". Und diese ist so skalierbar, dass auch schon kleine Firmen ab ca. 300 € pro Monat dabeisein könnten.
-:page-last-updated: 2023-06-11
+:page-last-updated: 2023-06-22
 :page-tags: ["Microsoft Fabric", "Power BI", "DWH", "Lakehouse","git","SSMS"]
 :toc:
 

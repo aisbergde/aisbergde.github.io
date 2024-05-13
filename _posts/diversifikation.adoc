@@ -1,0 +1,22 @@
+= Diversifikation meiner Tätigkeit
+:page-subtitle: blablabla
+:page-last-updated: 2022-09-15
+:page-tags: ["Krankenhaus", "Automechaniker", "alte weiße Chirurgen"]
+
+:imagesdir: ../assets/img
+
+ifndef::env-site[]
+
+// on the jekyll server, the :page-subtitle: is displayed below the title.
+// but it is not shown, when rendered in html5, and the site is rendered in html5, when working locally
+// so we show it additionally only, when we work locally
+// https://docs.asciidoctor.org/asciidoc/latest/document/subtitle/
+
+[discrete] 
+=== {page-subtitle}
+
+endif::env-site[]
+
+Nachdem ich erleben musste, wie brutal werte-westliche Firmen ihre Produkte und Dienstleistungen einem Markt entziehen, wenn sie beispielsweise Länder wie Russland oder China vernichten wollen oder sollen, wurde mir wieder einmal klar, wie riskant meine sehr ausgeprägte Abhängigkeit von Microsoft-Produkten ist und wie existenzbedrohend sie sein kann. So sehr ich Microsoft BI Produkte mag, so wenig kann und will ich es mir leisten, von diesen so stark abhängig zu sein, wie bisher. Insbesondere wird der Konflikt mit meinen Werten immer größer.
+
+Eine Diversifikation meiner Tätigkeit ist somit zwingend notwendig. Und da ich seit vielen Jahren erfolgreich in Immobilien investiere, und weil mein Baufinanzierer einer der besten Baufinanzierungs-Vermittler Deutschlands ist, hatte ich mich 2022 entschlossen, seinem Team beizutreten. Der Aufwand, das nötige Wissen zu erwerben und die gesetzlich vorgeschriebenen Sachkundeprüfungen zu bestehen, gehörten und gehören dazu. Ich betrachte das als Investition in meine Zukunft. Inzwischen bin ich auch als Immobiliardarlehensvermittler im vermittlerregister.info eingetragen.

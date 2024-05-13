@@ -26,3 +26,6 @@ _site
 /node_modules
 package.json
 package-lock.json
+
+# Synology Drive
+.drive_sync
