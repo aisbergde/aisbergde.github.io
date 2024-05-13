@@ -7,6 +7,7 @@ include::_posts/_footnotes.adoc[]
 
 :imagesdir: assets/img
 
+
 // include::_posts/2023-10-01-investitionsanalysen-mit-powerbi.adoc[tag=outferpormance]
 
 // TIP: Ergänzend gibt es einen https://www.youtube.com/@der-immobilien-Investor[Youtube-Kanal "Der Immobilien-Investor"], in dem ich versuche, die Blog-Artikel etwas ausführlicher und verständlicher zu erklären.
@@ -27,18 +28,19 @@ image::AisbergLogo.svg[]
 
 |===
 
-Als http://pirogov-university.com/academics/programs-and-degrees/undergraduate/medical-cybernetics/[Arzt-Kybernetiker] bin ich "kybernetisch im Denken und Handeln"
+// Als http://pirogov-university.com/academics/programs-and-degrees/undergraduate/medical-cybernetics/[Arzt-Kybernetiker] bin ich "kybernetisch im Denken und Handeln"
 
-image::kybernetik05-left_right.svg[]
+// image::kybernetik06.svg[]
 
-* *Ist*-Zustand und *Ziel*-Zustand analysieren,
-* *verschiedene Wege* identifizieren,
-* *Ursachen* und *Wirkungen* berücksichtigen,
-* *Störgrößen* ermitteln und auf diese reagieren.
+// * *Ist*-Zustand und *Ziel*-Zustand analysieren,
+// * *verschiedene Wege* identifizieren,
+// * *Ursachen* und *Wirkungen* berücksichtigen,
+// * *Störgrößen* ermitteln und auf diese reagieren.
 
-Am Ende meines link:goertz_profile_de[*IT-Profils*] finden Sie link:goertz_profile_de#referenzen[*Referenzen zufriedener Kunden*].
+// Am Ende meines link:goertz_profile_de[*IT-Profils*] finden Sie link:goertz_profile_de#referenzen[*Referenzen zufriedener Kunden*].
 
 include::_posts/_modul_ueber_mich.adoc[]
+
 
 //um die Fußnoten besser abzugrenzen:
 {empty} +

@@ -1,8 +1,47 @@
+// tag::message01[]
+
 == Über mich
 
-Mein Name ist Germo Görtz und ich bin darauf spezialisiert, analytische Systeme und Berichts-Systeme zu konzipieren und zu implementieren, damit sie letztendlich auch funktionieren.
+:fn-blog-kh-autobauer: footnote:kh-autobauer[Hintergründe zu "Technokratie statt Demokratie" im "Gleichnis vom Krankenhaus der Autobauer" https://blog.germo-goertz.de/2022-09-15-krankenhaus-autobauer/[]]
 
-Dabei nutze ich meine in Jahrzehnten erworbenen Kenntnisse und Erfahrungen mit der Microsoft BI Plattform: SQL Server, Power BI, Azure, relationale und analytische Datenbanken, maschinelles Lernen. Meine besondere Stärke ist die Erstellung von Datenmodellen. 
+Mein Name ist Germo Görtz. Und ich bin darauf spezialisiert, analytische Informations-Systeme und Berichts-Systeme technisch zu konzipieren und zu implementieren, damit sie **fachlich funktionieren**.
+
+Meine Kunden erwarten von mir keine strategische Beratung, denn sie sind Profis, kennen ihr Fach und ihre Ziele. +
+Ich bin der Weihnachtsmann des kompetenten Controllers. +
+Je kniffliger die Aufgabe, desto größer mein Mehrwert.
+
+Ihr Kittel brennt? Ich bin Ihr Feuerlöscher!
+
+image::kybernetik06.svg[]
+
+Sie wissen, wo Sie hinwollen. Ich analysiere und verstehe Ihre Ziele, dann werde ich Ihr Pfadfinder und führe oder fahre oder fliege Sie zu Ihren Zielen.
+
+
+
+Meine _technische und konzeptionelle_ Erfahrung ergänzt Ihre _fachliche_ Erfahrung => für Ihre Karriere und Ihren Erfolg!
+
+Folgende Faktoren machen unser gemeinsames Projekt besonders fruchtbar:
+
+* Exzellenz durch Kompetenz
+* Handwerk statt Fließband
+* Vertrauen in Experten (Technokratie statt Demokratie{fn-blog-kh-autobauer})
+
+Für die Umsetzung nutze ich primär meine in Jahrzehnten erworbenen Kenntnisse und Erfahrungen mit der *Microsoft BI Plattform*: SQL Server, Power BI, relationale und analytische Datenbanken, maschinelles Lernen. Meine besondere Stärke ist die Erstellung von Datenmodellen.
+
+Vergütung:
+
+* Besonders motivierend ist eine Zusammenarbeit, bei der ich Expertise und Zeit investieren kann, um am messbaren Erfolg beteiligt zu werden.
+* Gewerke und Festpreise sind möglich.
+* Ansonsten tausche ich Zeit gegen Geld und werde nach Stunden bezahlt.
+
+
+Am Ende meines IT-Profils finden Sie link:https://blog.germo-goertz.de/goertz_profile_de/#referenzen[*Referenzen zufriedener Kunden*].
+
+// end::message01[]
+
+
+Lernen Sie mich kennen, bewerben Sie sich mit Ihren Ideen und Projekten, investieren Sie in die Zusammenarbeit mit mir => für Ihren Erfolg! +
+Schreiben Sie mir, rufen Sie mich an, buchen Sie einen Termin!
 
 
 // // tag::message[]

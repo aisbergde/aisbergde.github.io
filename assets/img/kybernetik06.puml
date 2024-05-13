@@ -1,0 +1,25 @@
+@startuml
+'top to bottom direction
+left to right direction
+
+'skinparam monochrome reverse
+
+state "Ist Zustand" as ist
+state "Ziel Zustand" as ziel
+state "Störgrößen" as stoer <<fork>>
+
+[*] --> stoer : Ursachen
+
+ist --> ziel : Weg 1
+ist --> ziel : Weg 2
+ist --> stoer : Weg 3
+stoer --> ziel : Weg 3 a
+stoer --> ziel : Weg 3 b
+
+note right of stoer
+  Störgrößen
+end note
+
+ziel --> [*] : Wirkungen
+
+@enduml

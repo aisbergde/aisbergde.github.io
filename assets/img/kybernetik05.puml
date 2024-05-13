@@ -1,0 +1,18 @@
+@startuml
+'top to bottom direction
+left to right direction
+
+'skinparam monochrome reverse
+
+state "Ist Zustand" as ist
+state "Ziel Zustand" as ziel
+
+[*] --> ist : Ursachen
+
+ist --> ziel : Weg 1
+ist --> ziel : Weg 2
+ist --> ziel : Weg 3
+
+ziel --> [*] : Wirkungen
+
+@enduml

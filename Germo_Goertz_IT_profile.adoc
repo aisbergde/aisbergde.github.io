@@ -67,39 +67,41 @@ image::Germo_Goertz_345x460.jpg[]
 Download des IT-Profils als Word-Datei: 
 https://blog.germo-goertz.de//Germo_Goertz_IT_profile.docx[Germo_Goertz_IT_profile.docx]
 
-== meine Erfahrung für Ihren Erfolg
+include::_posts/_modul_ueber_mich.adoc[tag=message01]
 
-:fn-blog-kh-autobauer: footnote:kh-autobauer[Hintergründe zu "Technokratie statt Demokratie" im "Gleichnis vom Krankenhaus der Autobauer" https://blog.germo-goertz.de/2022-09-15-krankenhaus-autobauer/[]]
+// == meine Erfahrung für Ihren Erfolg
 
-* Exzellenz durch Kompetenz
-* Handwerk statt Fließband
-* Technokratie statt Demokratie{fn-blog-kh-autobauer}: Vertrauen in Experten
+// :fn-blog-kh-autobauer: footnote:kh-autobauer[Hintergründe zu "Technokratie statt Demokratie" im "Gleichnis vom Krankenhaus der Autobauer" https://blog.germo-goertz.de/2022-09-15-krankenhaus-autobauer/[]]
 
-Soziale Kompetenz, Auffassungsgabe und Ehrgeiz sorgen dafür, dass Ihre fachlichen Anforderungen genau erfasst und *zu Ihrer vollen Zufriedenheit umgesetzt werden*: +
-kompetent, zielorientiert, auch querdenkend und nonkonformistisch, +
-analytisch, exakt, verantwortungsbewusst, selbständig, schnell, effektiv und effizient.
+// * Exzellenz durch Kompetenz
+// * Handwerk statt Fließband
+// * Technokratie statt Demokratie{fn-blog-kh-autobauer}: Vertrauen in Experten
 
-Am Ende meines IT-Profils finden Sie xref:goertz-references.adoc#referenzen[*Referenzen zufriedener Kunden*].
+// Soziale Kompetenz, Auffassungsgabe und Ehrgeiz sorgen dafür, dass Ihre fachlichen Anforderungen genau erfasst und *zu Ihrer vollen Zufriedenheit umgesetzt werden*: +
+// kompetent, zielorientiert, auch querdenkend und nonkonformistisch, +
+// analytisch, exakt, verantwortungsbewusst, selbständig, schnell, effektiv und effizient.
 
-// für Word Export leere Zeile
-{empty} +
-{empty} +
-{empty} +
-
-
-Als http://pirogov-university.com/academics/programs-and-degrees/undergraduate/medical-cybernetics/[Arzt-Kybernetiker] bin ich "kybernetisch im Denken und Handeln"
-
-image::kybernetik05-left_right.svg[]
-
-* *Ist*-Zustand und *Ziel*-Zustand analysieren,
-* *verschiedene Wege* identifizieren,
-* *Ursachen* und *Wirkungen* berücksichtigen,
-* *Störgrößen* ermitteln und auf diese reagieren.
-
-// === Ihre Investition in meine Dienstleistungen -> Ihr Gewinn
-
-// // Am Ende des Profils finden Sie *Referenzen zufriedener Kunden*.
 // Am Ende meines IT-Profils finden Sie xref:goertz-references.adoc#referenzen[*Referenzen zufriedener Kunden*].
+
+// // für Word Export leere Zeile
+// {empty} +
+// {empty} +
+// {empty} +
+
+
+// Als http://pirogov-university.com/academics/programs-and-degrees/undergraduate/medical-cybernetics/[Arzt-Kybernetiker] bin ich "kybernetisch im Denken und Handeln"
+
+// image::kybernetik06.svg[]
+
+// * *Ist*-Zustand und *Ziel*-Zustand analysieren,
+// * *verschiedene Wege* identifizieren,
+// * *Ursachen* und *Wirkungen* berücksichtigen,
+// * *Störgrößen* ermitteln und auf diese reagieren.
+
+// // === Ihre Investition in meine Dienstleistungen -> Ihr Gewinn
+
+// // // Am Ende des Profils finden Sie *Referenzen zufriedener Kunden*.
+// // Am Ende meines IT-Profils finden Sie xref:goertz-references.adoc#referenzen[*Referenzen zufriedener Kunden*].
 
 == BI-Architekt und -Entwickler mit Microsoft BI
 
@@ -107,7 +109,7 @@ image::kybernetik05-left_right.svg[]
 :fn-blog-dhw: footnote:blog-dhw[Warum es das DataHandwerk Projekt gibt: https://blog.germo-goertz.de/2021-03-23-datahandwerk-toolkit-mssql/[]]
 :fn-blog-warum-ac: footnote:blog-warum-ac[Warum AnalyticsCreator statt Wherescape? https://blog.germo-goertz.de/2020-04-26-warum-analyticscreator/[]]
 
-* AISBERG - **A**nalytische **I**nformations**S**ysteme und **BER**atung im **G**esundheitswesen (und in anderen Branchen)
+* AISBERG - **A**nalytische **I**nformations**S**ysteme und **BER**atung im **G**esundheitswesen
 * Business Intelligence (BI, Geschäftsanalyse):
 ** Anforderungsanalyse
 ** Architektur
@@ -118,6 +120,8 @@ image::kybernetik05-left_right.svg[]
 *** Data Lakehouse (Databricks, data lake)
 *** ELT (Extrahieren, Laden, Transformieren von Daten), ETL
 *** Datenmodellen
+**** relational
+**** analytisch / semantisch
 *** Analyseverfahren
 *** Planungssystemen
 *** Berichtssystemen
@@ -127,7 +131,7 @@ image::kybernetik05-left_right.svg[]
 ** Datenmodellierung nach *Data Vault*. Insbesondere scheinen mir Hubs, Satelliten und Links oft sinnvoll.
 ** Datenmodellierung mit https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/[Dimensional modeling (DM)] als Bestandteil der "Business Dimensional Lifecycle methodology" entwickelt von Ralph *Kimball*, insbesondere bei der Verwendung multidimensionaler OLAP-Datenbanken (die immer mehr von tabularen Datenbanken abgelöst werden)
 ** *Data Lakehouse*
-* automatisierte versionisierte Dokumentation mit https://datahandwerk.gitlab.io/dhw/user-guide/documentation-generator.html/[DataHandwerk DocsGenerator]{fn-blog-docs} (Kombination von technischer und fachlicher Dokumentation; https://asciidoc.org/[AsciiDoc], https://antora.org/[*Antora* (Docs as Code)])
+* automatisierte versionisierte Dokumentation mit meinem https://datahandwerk.gitlab.io/dhw/user-guide/documentation-generator.html/[DataHandwerk DocsGenerator]{fn-blog-docs} (Kombination von technischer und fachlicher Dokumentation; https://asciidoc.org/[AsciiDoc], https://antora.org/[*Antora* (Docs as Code)])
 * technische Umsetzung regulatorischer Anforderungen (Historisierung, Versionierung, Data Lineage, DSGVO, ...)
 * Automatisierung (Daten-Import und -Export, ELT, Code-Generierung, DWH, Dokumentation)
 * unter Verwendung von https://www.microsoft.com/de-de/sql-server/sql-server-2019[*Microsoft SQL Server*], einschließlich https://docs.microsoft.com/de-de/analysis-services/analysis-services-overview?view=asallproducts-allversions[*SSAS* (SQL Server Analysis Services)], https://docs.microsoft.com/de-de/sql/integration-services/sql-server-integration-services?view=sql-server-ver15[*SSIS* (SQL Server Integration Services)], https://docs.microsoft.com/de-de/sql/reporting-services/create-deploy-and-manage-mobile-and-paginated-reports?view=sql-server-ver15[SSRS (SQL Server Reporting Services)] und verschiedener https://azure.microsoft.com/de-de/[Microsoft Azure] Technologien
@@ -177,7 +181,10 @@ Tool für DevOps, agiles Projekt-Controlling, Issue-Tracking, Code-Versionierung
 // ====
 
 // [discrete]
+
 === Über SSAS (SQL Server Analysis Services), Power BI und Microsoft Fabric
+
+****
 
 Unter dem gleichen Oberbegriff *SSAS* (http://docs.microsoft.com/de-de/analysis-services/analysis-services-overview?view=asallproducts-allversions[SQL Server Analysis Services]) vereint Microsoft zwei unterschiedliche Technologien:
 
@@ -200,13 +207,18 @@ Microsoft sieht die Zukunft in der Cloud: *Power BI Services*; *Microsoft Fabric
 
 Die Abfragesprache http://de.wikipedia.org/wiki/Multidimensional_Expressions[MDX (Multidimensional Expressions)] kann für beide Technologien verwendet werden, https://docs.microsoft.com/de-de/dax/[DAX (Data Analysis Expressions)] kann nur für SSAS Tabular verwendet werden.
 
+****
+
 // ====
 
 // [NOTE]
 // ====
 
 // [discrete]
+
 === keine AÜL, Rentenversicherung, Scheinselbständigkeit
+
+****
 
 Ich habe *_kein_* Interesse an einer festen Anstellung, auch nicht an einer Arbeitnehmerüberlassung (AÜL), da ich jeden unnötigen Kontakt mit der _Deutschen Rentenversicherung_ vermeiden will.
 
@@ -215,15 +227,16 @@ Ich habe *_kein_* Interesse an einer festen Anstellung, auch nicht an einer Arbe
 // Die Gefahr der sogenannten "Scheinselbständigkeit" ist seit über 2 Jahrzehnten ohne Lösung und behindert die Arbeit von Freiberuflern und Selbständigen.
 
 // Die Gefahr der sogenannten "Scheinselbständigkeit" ist auch ein Grund dafür, warum ich möglichst nicht mehr in einem einzigen Projekt vollzeit tätig sein will, sondern zwecks Risiko-Minimierung lieber in mehreren Projekten gleichzeitig.
+
+****
+
 // ====
 
 == Abschluss
 
-* in English:
-** Diplom-Mediziner, Biophysiker, http://pirogov-university.com/academics/programs-and-degrees/undergraduate/medical-cybernetics/[Arzt-Kybernetiker (medical cybernetics)] +
+* Diplom-Mediziner, Biophysiker, http://pirogov-university.com/academics/programs-and-degrees/undergraduate/medical-cybernetics/[Arzt-Kybernetiker (medical cybernetics)] +
 http://pirogov-university.com/[Pirogov Russian National Research Medical University]
-* на русском:
-** https://rsmu.ru/academics/undergraduate/medical-cybernetics/[Программа специалитета «Медицинская кибернетика»] +
+* на русском: https://rsmu.ru/academics/undergraduate/medical-cybernetics/[Программа специалитета «Медицинская кибернетика»] +
 http://rsmu.ru/[Российский национальный исследовательский медицинский университет имени Н.И. Пирогова]
 
 == Sprachkenntnisse
