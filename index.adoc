@@ -46,4 +46,4 @@ include::_posts/_modul_ueber_mich.adoc[]
 {empty} +
 
 
-Es folgen Blog-Artikel:
+// Es folgen Blog-Artikel:
