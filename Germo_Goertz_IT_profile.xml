@@ -34,7 +34,8 @@ Je kniffliger die Aufgabe, desto größer mein Mehrwert.</simpara>
 </mediaobject>
 </informalfigure>
 <simpara>Sie wissen, wo Sie hinwollen. Ich analysiere und verstehe Ihre Ziele, dann werde ich Ihr Pfadfinder und führe oder fahre oder fliege Sie zu Ihren Zielen.</simpara>
-<simpara>Meine <emphasis>technische und konzeptionelle</emphasis> Erfahrung ergänzt Ihre <emphasis>fachliche</emphasis> Erfahrung &#8658; für Ihre Karriere und Ihren Erfolg!</simpara>
+<simpara>Meine <emphasis>technische und konzeptionelle</emphasis> Erfahrung ergänzt Ihre <emphasis>fachliche</emphasis> Erfahrung<?asciidoc-br?>
+&#8658; für Ihre Karriere und Ihren Erfolg!</simpara>
 <simpara>Folgende Faktoren machen unser gemeinsames Projekt besonders fruchtbar:</simpara>
 <itemizedlist>
 <listitem>
@@ -277,6 +278,18 @@ Tool für DevOps, agiles Projekt-Controlling, Issue-Tracking, Code-Versionierung
 <section xml:id="_projekthistorie">
 <title>Projekthistorie</title>
 <simpara>zeitlich sortiert nach Projekt-Ende</simpara>
+<section xml:id="_102023_bis_jetzt_der_immobilien_investor">
+<title>10/2023 - bis jetzt; Der-Immobilien-Investor</title>
+<simpara>Performance-Messung und -Simulation von Immobilien-Investitionen. Vergleiche von Investitions- und Finanzierungsszenarien mit Power BI.</simpara>
+<variablelist>
+<varlistentry>
+<term>Branche</term>
+<listitem>
+<simpara>Immobilien, Finanz</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
+</section>
 <section xml:id="_092019_bis_jetzt_iconcare_binovis_visality">
 <title>09/2019 - bis jetzt; iconcare (BInovis &amp; Visality)</title>
 <variablelist>

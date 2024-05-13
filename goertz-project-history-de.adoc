@@ -3,6 +3,12 @@
 
 zeitlich sortiert nach Projekt-Ende
 
+== 10/2023 - bis jetzt; Der-Immobilien-Investor
+
+Performance-Messung und -Simulation von Immobilien-Investitionen. Vergleiche von Investitions- und Finanzierungsszenarien mit Power BI.
+
+Branche:: Immobilien, Finanz
+
 == 09/2019 - bis jetzt; iconcare (BInovis & Visality)
 
 Branche:: Gesundheitswesen, Krankenhaus, Logistik
