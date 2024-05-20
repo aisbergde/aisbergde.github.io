@@ -240,6 +240,12 @@ lokal laufen lassen
 
 im Browser anschauen: `http://127.0.0.1:4000/` oder `http://localhost:4000`
 
+nur erstellen:
+
+    bundle exec jekyll build
+
+
+
 um auch das anzuzeigen, was unter `_drafts` liegt
 
     jekyll server --watch
@@ -249,3 +255,12 @@ um auch das anzuzeigen, was unter `_drafts` liegt
 weil es noch Fehler gab: `cannot load such file – webrick`, vorher noch
 
     bundle add webrick
+
+<!-- https://jekyllrb.com/docs/usage/
+
+-   `jekyll build` or `jekyll b` - Performs a one off build your site to `./_site` (by default).
+-   `jekyll serve` or `jekyll s` - Builds your site any time a source file changes and serves it locally.
+-   `jekyll clean` - Removes all generated files: destination folder, metadata file, Sass and Jekyll caches.
+-   `jekyll help` - Shows help, optionally for a given subcommand, e.g. `jekyll help build`.
+-   `jekyll new-theme` - Creates a new Jekyll theme scaffold.
+-   `jekyll doctor` - Outputs any deprecation or configuration issues. -->

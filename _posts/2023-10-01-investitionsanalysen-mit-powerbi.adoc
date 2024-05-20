@@ -3,9 +3,10 @@
 :page-tags: ["Alternative Investition", "Power BI", "Szenarien", "Immobilien", "Immobilien-Investment"]
 :toc: auto
 :toclevels: 2
-include::_footnotes.adoc[]
 
 :imagesdir: ../assets/img
+
+include::_footnotes.adoc[]
 
 == Warum Power BI?
 

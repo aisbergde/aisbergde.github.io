@@ -6,7 +6,8 @@
 
 Mein Name ist Germo Görtz. Und ich bin darauf spezialisiert, analytische Informations-Systeme und Berichts-Systeme technisch zu konzipieren und zu implementieren, damit sie **fachlich funktionieren**.
 
-Meine Kunden erwarten von mir keine strategische Beratung, denn sie sind Profis, kennen ihr Fach und ihre Ziele. +
+Meine Kunden erwarten von mir keine strategische Beratung, denn sie sind Profis, kennen ihr Fach und ihre Ziele.
+
 Ich bin der Weihnachtsmann des kompetenten Controllers. +
 Je kniffliger die Aufgabe, desto größer mein Mehrwert.
 
