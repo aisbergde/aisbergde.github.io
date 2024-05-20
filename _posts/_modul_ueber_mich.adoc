@@ -41,7 +41,8 @@ Am Ende meines IT-Profils finden Sie link:https://blog.germo-goertz.de/goertz_pr
 // end::message01[]
 
 
-Lernen Sie mich kennen, bewerben Sie sich mit Ihren Ideen und Projekten, investieren Sie in die Zusammenarbeit mit mir => für Ihren Erfolg! +
+Lernen Sie mich kennen, bewerben Sie sich mit Ihren Ideen und Projekten, investieren Sie in die Zusammenarbeit mit mir: +
+=> für Ihren Erfolg! +
 Schreiben Sie mir, rufen Sie mich an, buchen Sie einen Termin!
 
 
