@@ -1,0 +1,96 @@
+= Ist Russophilie im russophoben  Geschäftsleben noch tragbar?
+:page-subtitle: blablabla
+:page-last-updated: 2024-10-26
+:page-tags: ["Russland", "Russophobie", "Russophilie"]
+
+:imagesdir: ../assets/img
+
+ifndef::env-site[]
+
+// on the jekyll server, the :page-subtitle: is displayed below the title.
+// but it is not shown, when rendered in html5, and the site is rendered in html5, when working locally
+// so we show it additionally only, when we work locally
+// https://docs.asciidoctor.org/asciidoc/latest/document/subtitle/
+
+[discrete] 
+=== {page-subtitle}
+
+endif::env-site[]
+
+
+Kürzlich rief mich ein langjähriger Partner an: Ich wäre für seine Firma ein geschäftliches Risiko, denn seine Firma hätte sich verpflichtet, die Sanktionen gegen Russland zu unterstützen oder einzuhalten, sonst würde man Auftraggeber verlieren. Eine offensichtliche Zusammenarbeit mit mir würde seine potentiellen Kunden irritieren. Denn meine Position ist öffentlich sichtbar und wird von seinen Auftraggebern bemerkt. Das könne er sich nicht leisten. Schon der Hinweis auf meinen Abschluss einer russischen Universität in meinen Profilen wäre heutzutage bedenklich.
+
+Er war so offen, mir das ehrlich mitzuteilen. Wieviele andere Partner mögen so denken wie er, ohne mir das mitzuteilen? Wieviele potentielle Auftraggeber schrecken vor einer Zusammenarbeit mit mir zurück, weil Russophilie heutzutage nicht tragbar ist?
+
+Geschäftspartner und Auftraggeber kennen mich: Ich bin Ossi, habe in Russland studiert und gearbeitet, war dort 13 Jahre, habe Verwandtschaft und Freunde und mache regelmäßig Urlaub in Russland. Frieden und Freundschaft mit Russland sind mir wichtig und ich stehe dazu. Denn Russland ist für mich wie eine zweite Heimat.
+
+Doch Russophobie durchdringt unser Land und den Werte-Westen. Wir sind involviert in einen hybriden Krieg gegen Russland und die sogenannten "Sanktionen" schaden Deutschland mehr als Russland. Wer im Westen Geschäfte machen will, muss sich demonstrativ von Russland lossagen. Unsere NATO-Bündnis-"Partner" sprengen uns Nordstream weg, es handelte sich um den größten Terroranschlag seit dem zweiten Weltkrieg, und wir müssen tatenlos zuschauen, wie man unsere Energieversorgung sabotiert, um die deutsche Wirtschaft mindestens zu schädigen, vielleicht sogar zu vernichten.
+
+Manche Politiker träumen von neuen Kriegen zwischen Deutschland und Russland und propagieren das offen. Da ist wenig Platz für Positionen, die sich für Verhandlungen und Frieden mit Russland einsetzen. Und noch weniger Platz ist für den Ruf nach Freundschaft und Zusammenarbeit. Die 1949 gegründete Gesellschaft für Deutsch-Sowjetische Freundschaft (DSF) gehörte mit 6,4 Millionen Mitgliedern zu den größten Massenorganisationen der DDR. Sie propagierte die Politik, Kultur, Kunst und Literatur der Völker der Sowjetunion. Sie hat mich geprägt: meine Kindheit, meine Jugend, mein ganzes Leben.
+
+Auch durch den Rückzug von IT Firmen aus Russland versucht der Westen, Russland in die Knie zu zwingen. Google, Meta, Microsoft, Oracle, SAP und viele andere große Player beteiligen sich am hybriden Krieg gegen Russland. Nun also auch Linux: Kürzlich warf man russische Maintainer raus. Sie würden für sanktionierte russische Unternehmen arbeiten, und da sich ein großer Teil der Infrastruktur der Linux-Entwicklung in den USA befindet, will oder besser muss man sich an die Sanktionen halten, um selbst nicht unter die Räder zu kommen.
+
+Ich selbst bin gegen Sanktionen und halte deren Rechtmäßigkeit für fraglich. Sanktionen sind meiner Meinung nach ein beliebtes Mittel im hybriden Krieg des Werte-Westens gegen Länder mit anderen Werten, oder wenn es um Ressourcen geht.
+
+Geschichte wiederholt sich: "Kauft nicht beim Juden!", "Kauft nicht beim Russen!". Und verkauft ihnen nichts, und haltet euch fern von ihnen. Jagt sie, enteignet sie, ...
+
+Für mich ergeben sich daraus Probleme:
+
+* Auftraggeber oder Partner meiden mich, wenn und weil ich mich nicht von Russland distanziere. +
+So läuft das Spiel, so sind die Regeln, und wer diese Regeln nicht mag, ist draußen.
+* Meine IT-Expertise basiert seit über 20 Jahren zu 100 % auf den Produkten von Microsoft.
+* Microsoft beteiligt sich am hybriden Krieg gegen Russland, und meine Microsoft Expertise wäre in Russland nichts mehr wert.
+* Microsoft wird sich auch an hybriden Kriegen gegen andere dem Werte-Westen gegenüber Abtrünnige beteiligen.
+* Ich habe auf das falsche Pferd Microsoft gesetzt. Meine Motivation zur Benutzung meiner Microsoft Expertise ist stark gesunken.
+
+=> Mein neues Pferd ist Immobilienfinanzierung. Die ist weniger politisch, davon verstehe ich eine ganze Menge, und es gibt immer verschiedene Wege zum Ziel.
+
+Wir haben zwar ein Grundgesetz
+
+[quote, Grundgesetz, Artikel 3]
+____
+(3) Niemand darf wegen seines Geschlechtes, seiner Abstammung, seiner Rasse, seiner Sprache, seiner Heimat und Herkunft, seines Glaubens, seiner religiösen oder politischen Anschauungen benachteiligt oder bevorzugt werden. Niemand darf wegen seiner Behinderung benachteiligt werden.
+____
+
+Doch wen interessiert das schon? Wir haben zwar jede Menge Antidiskriminierungsbeauftragte, doch diese scheinen sich nur für (oder gegen) ganz bestimmte Diskriminierungen einzusetzen.
+
+Man bekennt sich offen zu den Gründen einer Benachteiligung, ist stolz darauf und nennt das "Haltung zeigen": Mitglieder und Wähler von Oppositions-Parteien werden beschimpft, stolz verkündet man, dass solche Personen nicht als Angestellte gewünscht sind, und dafür gibt es Applaus und Anerkennung.
+
+Regenbogen-Flaggen und Ukraine-Flaggen, wohin das Auge schaut. Der Buchstabe 'Z' und russische Flaggen sind verboten, und schon mit der deutschen Flagge kann es zu Problemen kommen. Erstaunlich, wie man es geschafft hat, vielen Deutschen den Stolz auf das eigene Land auszutreiben.
+
+//Nun sind wir also im Krieg mit Russland, auch da scheint es immer nützlicher, Haltung zu zeigen. Auch Israel scheint mir ein sehr heikles Thema.
+
+Aber Zensur? Haben wir nicht. Dafür Faktenchecker, Haltung zeigen, einen Öffentlichen Rundfunk und Qualitäts-Medien. Begleitetes Denken. Natürlich haben wir Meinungsfreiheit. Und wenn es nicht die "richtige" Meinung ist, dann muss man mit den Konsequenzen leben. "Trusted Flagger" - bezeichnend auf englisch. "Digitaler Blockwart" wäre zu offen und zu verständlich.
+
+Wer nicht anecken will, der betreibe Selbst-Zensur. Ich erinnere mich an mein Studium in Russland. Da gab es Kommilitonen, die hatten erst dann eine öffentliche Meinung, nachdem sie das 'Neue Deutschland' oder die 'Junge Welt' gelesen hatten. Dass jemand gleichzeitig verschiedene Meinungen hatte, war durchaus normal: eine im kleinen Freundeskreis, eine öffentliche Meinung, und eine in der Parteigruppe. Insofern hat sich das nicht geändert.
+
+Kämpfer gegen Hass sind voller Hass auf Andersdenkende. Die Antifa sind die einzigen mir bekannten tatsächlichen Faschisten. Die nach Toleranz Rufenden sind die personifizierte Intoleranz. Anti-Rassisten betreiben Rassismus gegen Weiße. Die Diskriminierung von Mehrheiten nennt man Antidiskriminierung. Gegner von gentechnisch veränderten Lebensmitteln lassen sich selbst durch mRNA genetisch verändern. Gegner von Kohlendioxid (das ich als Mediziner und Biologe für eines der wichtigsten und nützlichsten Gase für das Leben auf unserem Planeten halte) sind gegen Kohlendioxid-freie Kernenergie und für Kohle-Kraftwerke. Die deutsche Automobilindustrie, ehemals führend bei Verbrennungsmotoren, begeht freiwillig Selbstmord durch Elektro-Mobilität. Alles ist so absurd.
+  
+
+In meinen 13 Jahren in Russland habe ich verschiedene Deutsche erlebt, die nach Russland kamen, um dort Geschäfte zu machen. Einige Besser-Wessis wussten alles besser und meinten den Russen beibringen zu müssen, wie es laufen sollte, westlich eben. Je mehr sie Russland durch die eigene Brille betrachteten, desto eher scheiterten sie. Ich halte die häufig anzutreffende westliche Überheblichkeit und Besserwisserei für ein großes Problem. Und der Westen scheint wenig lernfähig. Auch Sanktionen kehren als Boomerang zurück.
+
+* Man will China, Russland, dem Iran und anderen Ländern den Zugang zu wichtigen Technologien und Ressourcen sperren und wundert sich dann, dass es denen gelingt, sich unabhängig davon zu machen.
+* Es gibt einen globalen Kampf gegen KMU (kleine und mittlere Unternehmen). Deren weltweite Vernichtung und Enteignung sind ein langjähriges und wichtiges Ziel, denn gibt es noch sehr viel Eigentum, dass sich umverteilen lässt.
+** Das Lieferkettengesetz ist eine weitere Waffe im Kampf gegen KMU
+** Zölle gegen China => Die Gegenmaßnahmen werden europäische Produzenten und Exporteure treffen, insbesondere KMU.
+* US-Dollar-Verbot als Waffe => der Einfluss des USD wird sich verringern und irgendwann wird sich die USA nicht mehr durch die Notenpresse auf Kosten anderer Länder finanzieren können.
+* SWIFT-Ausschluss als Waffe => mit BRICS Pay wird es ein dezentrales Zahlungssystem geben.
+* Mastercard und Visa boykottieren Russland => man zahlt mit dem russischen MIR System oder ganz einfach von Telefonnummer zu Telefonnummer.
+* Selbständigkeit wird abgestraft
+** Immobilien-Finanzierungen sind schwieriger und teurer für Selbständige im Vergleich zu Angestellten, Ratenkredite oft gar nicht erhältlich
+** "Scheinselbständigkeit" gibt es seit fast 3 Jahrzehnten, auf Wunsch der Politik und immer noch bewusst und gewollt ohne klare Regeln.
+** Der Trend geht zum "bedingungslosen Grundeinkommen", aktuell nennt man es Bürgergeld. Nutztier-Herden bekommen bedingungslos Stall und Futter. Was könnte wohl das Ziel von Herdenhaltung sein? Nutztiere werden letztendlich "genutzt".
+* Massen-Menschen-Haltung verschiebt sich von Bodenhaltung oder Freilandhaltung in Konzentrations-Städte mit immer kleiner werdenden Wohnkäfigen. 
+* In Sachen Digitalisierung war und ist man in Russland schon seit Jahrzehnten weiter, als der Westen.
+** Schon 1992 arbeitete die von mir geleitete Produktion eines russischen Telefon- und Adressbuchverlags voll digital, während unsere deutschen Investoren noch mit Papier und Schere die Anzeigen zusammensetzten.
+** Eine Kombination aus Stadtplan und Anzeigen ließ ich in den 90ern programmieren, wie wir sie heute ähnlich bei Google Maps oder OpenStreetMap kennen, doch das durfte nicht sein, weil es so etwas bei unseren deutschen Investoren nicht gab und die sich das nicht mal vorstellen konnten.
+* Der Westen will und darf kein Gas oder Öl aus Russland kaufen => Russland wird seine Energieträger an den Rest der Welt verkaufen. Und wir erleben eine Deindustrialisierung, denn stabile und preiswerte Energie aus Russland war Jahrzehnte lang eine Grundvoraussetzung für den Erfolg Deutschlands.
+** Deutschlands Versuche, dem Verlust russischer Ressourcen mit einer "Energiewende" in Richtung Flatter-Energie entgegenzuwirken sind unbezahlbar und der Rest der Welt schaut erstaunt zu, wie sich Deutschland freiwillig in den Abgrund reitet.
+** Die ganze Welt setzt auf Kernenergie, und man hat es geschafft, dass Deutschland sich von dieser sauberen und preiswerten Energie befreit. +
+Der russische Experte für Geo-Energetik Boris Martsinkevitsch (Борис Марцинкевич) sagte einmal sehr treffend: Den Grad der Souveränität eines Landes erkennt man am Anteil, den Kernenergie an der Energieversorgung ausmacht.
+
+Russen sind unwahrscheinlich kreativ, Deutsche sind (oder waren?) exzellente Umsetzer von Ideen in die Praxis. 
+Immer wieder erlebte ich, dass die Deutschen in Russland sehr beliebte und geachtete Ausländer waren.
+Russland und Deutschland sollten Ihre Ressourcen, Kräfte und Talente vereinen.
+
+Ich bin ein großer Fan der Idee von Professor Igor Nikolajewitsch Panarin: einer geopolitischen Vereinigung GIAROSSIA - Germany, Italy, Austria, Russia, Belarus. 
