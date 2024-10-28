@@ -1,0 +1,11 @@
+:toc-title: Inhalt
+:caution-caption: Vorsicht
+:important-caption: Wichtig
+:note-caption: Anmerkung
+:tip-caption: Tipp
+:warning-caption: Gefahr
+:table-caption: Tabelle
+:example-caption: Beispiel
+
+
+// https://docs.asciidoctor.org/asciidoc/latest/attributes/document-attributes-ref

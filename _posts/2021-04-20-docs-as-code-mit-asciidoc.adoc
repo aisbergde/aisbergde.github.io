@@ -29,7 +29,7 @@ endif::env-site[]
 
 Mit meinem open-Source-Projekt https://datahandwerk.github.io[DataHandwerk-toolkit-mssql] möchte ich auch Erfahrungen zur Dokumentation zukünftiger Projekte sammeln. Warum habe ich mich für die Auszeichnungssprache https://asciidoc.org[AsciiDoc] statt für Markdown, und warum für das Dokumentations-Framework https://antora.org/[Antora] entschieden? Wie wurden Diagramme in der https://datahandwerk.gitlab.io/dhw/arc/architecture.html[Architektur-Beschreibung] erstellt? Und wie erfolgt die Darstellung von Objekt- und Spalten-Referenzen?
 
-=== Auszeichungssprache Markdown?
+== Auszeichungssprache Markdown?
 
 Sehr oft erfolgt die Dokumentation unter Verwendung der Auszeichungssprache https://www.markdownguide.org/[Markdown], https://de.wikipedia.org/wiki/Markdown[Markdown Wikipedia]
 
@@ -50,7 +50,7 @@ Doch Markdown hat auch entscheidende Schwächen:
 Hier kann man testen, wie Markdown von verschiedenen Dialekten unterschiedlich in HTML konvertiert wird: {link-special}[Test mit babelmark.github.io]
 * einen automatischen eingebauten TOC (Table of Content, Inhaltsverzeichnis) gibt es nicht, dieser muss separat erstellt werden (doch dafür gibt es Tools)
 
-=== Auszeichnungssprache AsciiDoc!
+== Auszeichnungssprache AsciiDoc!
 
 Die GitHub Wiki hat Markdown Support, will oder kann aber nicht einen automatischen TOC erstellen. Doch GitHub Wiki und readme Dateien unterstützen nicht nur Markdown, sondern auch https://asciidoc.org[AsciiDoc]. Und AsciiDoc kann den TOC "out of the box" erstellen. So fand ich zu AsciiDoc.
 
@@ -61,10 +61,22 @@ https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/[AsciiDoc Sy
 Allerdings werde ich für normale Notizen vorerst weiter Markdown verwenden müssen, wenn ich sowohl auf Android als auch am Rechner an diesen Dokumenten arbeiten will. Denn mein Android-Editor *Markor* hat leider noch keine AsciiDoc-Unterstützung implementiert: https://github.com/gsantner/markor/issues/808[Add format: AsciiDoc (Highlighter, TextActions)] +
 Und ich habe auch noch keinen anderen Android-AsciiDoc-Editor gefunden.
 
-*Update:*
+*Update (2022-08):*
 
-obwohl es immer noch keinen Android Editor mit AsciiDoc Unterstützung gibt, habe ich mein Notizen-System von Markdown auf AsciiDoc umgestellt. Die Notizen befinden sich in einem privaten Repository auf Gitlab, es gibt für Android einen Git-Client https://github.com/maks/Mgit[MGit], als Editor verwende ich weiter https://github.com/gsantner/markor#readme[Markor] und der Preview erfolgt über einen lokalen Webserver https://play.google.com/store/apps/details?id=com.nimcomputing.webserver&hl=gsw&gl=US[NiM Webserver], die Anzeige mit der https://chrome.google.com/webstore/detail/asciidoctorjs-live-previe/iaalpfgpbocpdfblpnhhgllgbdbchmia?hl=en[Asciidoctor.js Live Preview] im https://kiwibrowser.com/[KiwiBrowser]
+obwohl es immer noch keinen Android Editor mit AsciiDoc Unterstützung gibt, habe ich mein Notizen-System von Markdown auf AsciiDoc umgestellt. Die Notizen befinden sich in einem privaten Repository auf Gitlab, es gibt für Android einen Git-Client https://github.com/maks/Mgit[MGit], als Editor verwende ich weiter https://github.com/gsantner/markor#readme[Markor].
 
+*Update (2024-07):*
+
+Seit längerer Zeit enthält Markor auch eine eingebaute AsciiDoc Anzeige. Der Umweg über den lokalen Webserver ist nicht mehr nötig.
+
+*obsolete (2024-07):*
+
+der Preview erfolgt über einen lokalen Webserver, ich verwendete dazu den im Play Store nicht mehr verfügbaren *NiM Webserver*, aber es gibt andere Webserver.
+// https://play.google.com/store/apps/details?id=com.nimcomputing.webserver&hl=gsw&gl=US[NiM Webserver], 
+Die Anzeige erfolgt mit der https://chrome.google.com/webstore/detail/asciidoctorjs-live-previe/iaalpfgpbocpdfblpnhhgllgbdbchmia?hl=en[Asciidoctor.js Live Preview] im https://kiwibrowser.com/[KiwiBrowser]
+
+[.line-through]
+--
 Konfiguration Nim Webserver:
 
 * Es müssen neue `Mime Type` hinzugefügt werden:
@@ -75,8 +87,9 @@ Konfiguration Nim Webserver:
 Da man im Chrome Android keine Erweiterungen installieren kann, verwende ich dafür den KiwiBrowser. Auch einige andere Browser ermöglichen die Verwendung von Erweiterungen (Yandex,...).
 
 Das scheint etwas kompliziert, muss aber nur einmal eingerichtet werden. Und AsciiDoc ist auch ohne Preview gut lesbar.
+--
 
-=== 'Docs-as-Code' und 'Code-as-Docs'
+== 'Docs-as-Code' und 'Code-as-Docs'
 
 Über AsciiDoc fand ich das Konzept "Docs-as-Code".
 
@@ -120,7 +133,7 @@ Begin
 ----
 ====
 
-=== docToolchain
+== docToolchain
 
 https://doctoolchain.github.io/docToolchain/[doctoolchain.github.io/docToolchain]
 
@@ -150,14 +163,14 @@ ____
 
 Also habe ich mir das angeschaut und für gut befunden. Das DataHandwerk-Architektur-Dokument basiert auf diesem Template: https://datahandwerk.gitlab.io/dhw/arc/architecture.html[Architecture]
 
-=== Structurizr DSL und das C4 Modell für die Visualizierung von Software-Architektur
+== Structurizr DSL und das C4 Modell für die Visualizierung von Software-Architektur
 
 Meine ersten Architektur-Diagramme erstellte ich noch manuell und individuell mit https://plantuml.com/[PlantUML]. Dann fand ich https://structurizr.com/[Structurizr] und https://github.com/structurizr/cli[github.com/structurizr/cli], um Software Architektur Diagramme formalisierter zu erstellen. Die Definition erfolgt in _einem_ Skript in einer eigenen und einfachen Skript-Sprache https://github.com/structurizr/dsl/blob/master/docs/language-reference.md[Structurizr DSL], und aus diesem _einen_ Skript können verschiedene *in sich konsistente Diagramme* erstellt werden. Man ändert beispielsweise Beschreibungen oder Beziehungen im Skript und alle Teil-Diagramme übernehmen diese Änderungen.
 
 Beispiele finden sich in der DataHandwerk-Architektur-Dokumentation: https://datahandwerk.gitlab.io/dhw/arc/architecture.html#section-system-scope-and-context[03 System Scope and Context] +
 Definition meiner Architektur-Diagramme in "Structurizr DSL": https://github.com/DataHandwerk/DataHandwerk-docs/blob/main/docs/modules/arc/partials/c4_dsl/dhw.dsl[dhw.dsl]
 
-=== Antora
+== Antora
 
 Nachdem ich es mit docToolchain nicht geschafft hatte, eine Website zur Projekt- und Datenbank-Dokumentation mit einem TOC zu erstellen, der meinen Vorstellungen entsprach, schaute ich mir https://antora.org/[Antora] an, da dieses Werkzeug von den gleichen Entwicklern erstellt und gepflegt wird, die auch Asciidoctor entwickeln. Folgende Dokumentationen werden ebenfalls mit Antora erstellt und sie bieten das, was ich mir unter einer guten Dokumentation vorstelle. Und sie basieren ausschließlich auf meinem neuen Liebling AsciiDoc
 
@@ -181,7 +194,7 @@ Auch das Ergebnis der DataHandwerk-Datenbank-Dokumentation kann man sich anschau
 * Dokumentation von Objekt-Referenzen und auch von *Zeilen-Referenzen*
 * *Visualisierung* von Referenzen und realen und virtuellen Foreign Keys als https://plantuml.com/[PlantUML]-Diagramme
 
-=== PlantUML
+== PlantUML
 
 Die Visualisierungen erstelle ich direkt aus dem SQL Server heraus für jedes Objekt als https://plantuml.com/[PlantUML] Diagramme. Diese Diagramme werden vom Asciidoctor bzw. einer entsprechenden Erweiterung gerendert. Pro Datenbank-Objekt erstelle ich derzeit 5 Diagramme
 
@@ -193,19 +206,19 @@ Die Visualisierungen erstelle ich direkt aus dem SQL Server heraus für jedes Ob
 
 Quelle für die Diagramme ist die DataHandwerk-Repository-Datenbank, welche auch die Definition virtueller Indizes, virtueller PK und die Ermittlung von Spalten-Referenzen unter Verwendung von https://pypi.org/project/sqlparse/[sqlparse] beinhaltet. Hier ein paar Beispiele für die Sicht https://datahandwerk.gitlab.io/dhw/sqldb/sqlparse.repoobject_sqlmodules_21_statement_children_helper.html[sqlparse.RepoObject_SqlModules_21_statement_children_helper]
 
-==== Object Reference Diagram
+=== Object Reference Diagram
 
 image::diag-c1f9c5ff578eda6e752306d73c950b1c2790e9a1.svg[Object Reference Diagram]
 
-==== Object Reference Diagram - Referenced
+=== Object Reference Diagram - Referenced
 
 image::diag-268b90f3ab722a926fd4e7cb9e0bf080002e5043.svg[Object Reference Diagram - Referenced]
 
-==== Object Reference Diagram - Referencing
+=== Object Reference Diagram - Referencing
 
 image::diag-755ad76f331c708d02fe78287acfb61e2605df47.svg[Object Reference Diagram - Referencing]
 
-==== Column Reference Diagram
+=== Column Reference Diagram
 
 image::diag-0bf5f1995c8ae8616bc1d60bab130dc49bf24c43.svg[Column Reference Diagram]
 

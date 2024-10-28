@@ -78,54 +78,54 @@ Schreiben Sie mir, rufen Sie mich an, buchen Sie einen Termin!
 
 // // end::message[]
 
-=== Schreiben Sie mir eine Nachricht
+// === Schreiben Sie mir eine Nachricht
 
-// Formular
-// https://www.staticforms.xyz/
-++++
-<div class="container">
-  <div class="columns">
-    <!-- Make sure you don't change the form action-->
-    <form action="https://api.staticforms.xyz/submit" method="post">
-        <!-- Replace with accesKey sent to your email -->
-        <input type="hidden" name="accessKey" value="fb830ca8-ccfe-47a9-8b08-dfe418125ad6"> <!-- Required -->
-        <input type="hidden" name="subject" value="Web-Formular blog.germo-goertz"> <!-- Optional -->
-        <div class="field">
-          <label class="label">Name:*</label>
-          <div class="control">
-            <input class="input" type="text" name="name" placeholder="Ihr Name" required>
-          </div>
-        </div>
-        <div class="field">
-          <label class="label">E-Mail:*</label>
-          <div class="control">
-            <input class="input" type="email" name="email" placeholder="Ihre E-Mail" required>
-          </div>
-        </div>
-        <div class="field">
-          <label class="label">Telefon:</label>
-          <div class="control">
-            <input class="input" name="phone" placeholder="+49 123 4567890 (optional)">
-          </div>
-        </div>
-        <div class="field">
-          <label class="label">Nachricht:*</label>
-          <div class="control">
-            <textarea class="textarea" name="message" placeholder="Ihre Nachricht (Zeilenumbrüche werden entfernt)" required></textarea>
-          </div>
-        </div>
-        <!-- Specify @ as reply to value if you want it to be customers email -->
-        <input type="hidden" name="replyTo" value="@"> <!-- Optional -->
-        <input type="submit" value="Abschicken" />
-        <!-- If we receive data in this field submission will be ignored -->
-        <input type="text" name="honeypot" style="display: none;"> <!-- Optional -->
-        <!-- If you want form to redirect to a specific url after submission -->
-        <input type="hidden" name="redirectTo" value="https://blog.germo-goertz.de/nachricht-verschickt/"> <!-- Optional -->
-    </form>
-  </div>
-</div>
-++++
+// // Formular
+// // https://www.staticforms.xyz/
+// ++++
+// <div class="container">
+//   <div class="columns">
+//     <!-- Make sure you don't change the form action-->
+//     <form action="https://api.staticforms.xyz/submit" method="post">
+//         <!-- Replace with accesKey sent to your email -->
+//         <input type="hidden" name="accessKey" value="fb830ca8-ccfe-47a9-8b08-dfe418125ad6"> <!-- Required -->
+//         <input type="hidden" name="subject" value="Web-Formular blog.germo-goertz"> <!-- Optional -->
+//         <div class="field">
+//           <label class="label">Name:*</label>
+//           <div class="control">
+//             <input class="input" type="text" name="name" placeholder="Ihr Name" required>
+//           </div>
+//         </div>
+//         <div class="field">
+//           <label class="label">E-Mail:*</label>
+//           <div class="control">
+//             <input class="input" type="email" name="email" placeholder="Ihre E-Mail" required>
+//           </div>
+//         </div>
+//         <div class="field">
+//           <label class="label">Telefon:</label>
+//           <div class="control">
+//             <input class="input" name="phone" placeholder="+49 123 4567890 (optional)">
+//           </div>
+//         </div>
+//         <div class="field">
+//           <label class="label">Nachricht:*</label>
+//           <div class="control">
+//             <textarea class="textarea" name="message" placeholder="Ihre Nachricht (Zeilenumbrüche werden entfernt)" required></textarea>
+//           </div>
+//         </div>
+//         <!-- Specify @ as reply to value if you want it to be customers email -->
+//         <input type="hidden" name="replyTo" value="@"> <!-- Optional -->
+//         <input type="submit" value="Abschicken" />
+//         <!-- If we receive data in this field submission will be ignored -->
+//         <input type="text" name="honeypot" style="display: none;"> <!-- Optional -->
+//         <!-- If you want form to redirect to a specific url after submission -->
+//         <input type="hidden" name="redirectTo" value="https://blog.germo-goertz.de/nachricht-verschickt/"> <!-- Optional -->
+//     </form>
+//   </div>
+// </div>
+// ++++
 
-....
-* Diese Felder müssen ausgefüllt werden.
-....
+// ....
+// * Diese Felder müssen ausgefüllt werden.
+// ....

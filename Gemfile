@@ -6,6 +6,10 @@ gemspec
 gem "jekyll"
 
 group :jekyll_plugins do
+  # # 2024-06-04
+  # # https://github.com/keithmifsud/jekyll-target-blank
+  # # führt leider zu einem Fehler
+  # gem 'jekyll-target-blank'
   gem 'jekyll-asciidoc'
   gem 'asciidoctor-diagram'
 end
