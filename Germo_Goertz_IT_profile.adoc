@@ -250,9 +250,9 @@ http://rsmu.ru/[Российский национальный исследова
 
 <<<
 
-include::goertz-project-history-de.adoc[leveloffset=+1]
+include::_goertz-project-history-de.adoc[leveloffset=+1]
 
 <<<
 
-include::goertz-references.adoc[leveloffset=+1]
+include::_goertz-references.adoc[leveloffset=+1]
 

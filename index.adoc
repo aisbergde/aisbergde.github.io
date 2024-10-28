@@ -3,7 +3,8 @@
 :page-subtitle: seit 1999: Microsoft BI Architekt + Entwickler. MS SQL Server, Power BI, Fabric, SSAS (OLAP, Tabular), Data Warehouse, Lakehouse, ELT, ETL, automatisierte Dokumentation, Azure
 :toc: auto
 :toclevels: 2
-include::_posts/_footnotes.adoc[]
+include::_localization.adoc[]
+include::_footnotes.adoc[]
 
 :imagesdir: assets/img
 
