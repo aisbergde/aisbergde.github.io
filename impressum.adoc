@@ -4,8 +4,9 @@
 // :toc: auto
 // :toclevels: 2
 // :sectnums:
-// include::_posts/_footnotes.adoc[]
-
+// include::_footnotes.adoc[]
+include::_localization.adoc[]
+include::_footnotes.adoc[]
 :imagesdir: /assets/img
 
 ifndef::env-site[]

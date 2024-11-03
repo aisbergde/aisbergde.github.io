@@ -19,6 +19,9 @@ ifndef::env-site[]
 
 endif::env-site[]
 
+include::../_localization.adoc[]
+include::../_footnotes.adoc[]
+
 Es ist mir wichtig, eine AnalyticsCreator Community aufzubauen. Je mehr Entwickler den AC verwenden, desto mehr AC-Projekte wird es geben, das sollte zu mehr Verkäufen führen und dann können mehr Ressourcen für die Entwicklung bereitgestellt werden. Und so ergibt sich ein Kreislauf, eine größere Wahrscheinlichkeit, dass ich den AC in Projekten einsetzen kann.
 
 Um dieses Ziel zu erreichen, gibt es nun:
@@ -38,7 +41,7 @@ Unter anderen habe ich bereits die https://dev.azure.com/AnalyticsCreator/Analyt
 
 https://dev.azure.com/AnalyticsCreator/AnalyticsCreator/_wiki/wikis/AnalyticsCreator.wiki/75/repository-templates[Repository Templates] erleichtern den Start neuer Projekte und die Übernahme von Entwicklungen aus einem Projekt in ein anderes. Dazu habe ich auch ein Vidoe erstellt: https://youtu.be/-cwCsKq-488[AnalyticsCreator Projekt aus Template - Repository Daten Synchronisation].
 
-include::_modul_ueber_mich.adoc[]
+include::../_modul_ueber_mich.adoc[]
 
 //um die Fußnoten besser abzugrenzen:
 {empty} +

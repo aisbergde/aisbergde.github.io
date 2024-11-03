@@ -20,6 +20,9 @@ ifndef::env-site[]
 
 endif::env-site[]
 
+include::../_localization.adoc[]
+include::../_footnotes.adoc[]
+
 // test images
 
 // image::Germo_Goertz_345x460.jpg[]
@@ -222,7 +225,7 @@ image::diag-755ad76f331c708d02fe78287acfb61e2605df47.svg[Object Reference Diagra
 
 image::diag-0bf5f1995c8ae8616bc1d60bab130dc49bf24c43.svg[Column Reference Diagram]
 
-include::_modul_ueber_mich.adoc[]
+include::../_modul_ueber_mich.adoc[]
 
 //um die Fußnoten besser abzugrenzen:
 {empty} +

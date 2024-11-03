@@ -40,7 +40,7 @@ image::AisbergLogo.svg[]
 
 // Am Ende meines link:goertz_profile_de[*IT-Profils*] finden Sie link:goertz_profile_de#referenzen[*Referenzen zufriedener Kunden*].
 
-include::_posts/_modul_ueber_mich.adoc[]
+include::_modul_ueber_mich.adoc[]
 
 
 //um die Fußnoten besser abzugrenzen:

@@ -1,0 +1,137 @@
+= Ist Russophilie im russophoben Geschäftsleben noch tragbar? Cancel-Culture in Aktion.
+:page-subtitle: Kürzlich rief mich ein langjähriger Partner an: Die Zusammenarbeit mit mir wäre für seine Firma ein geschäftliches Risiko, denn die Firma hätte sich verpflichtet, die Sanktionen gegen Russland zu unterstützen. Meine Position zu Russland ist öffentlich sichtbar, wird von seinen Kunden bemerkt, und er wird von diesen daraufhin angesprochen. Das könne er sich nicht leisten. Schon der Hinweis auf meinen Abschluss einer russischen Universität in meinen Profilen wäre bedenklich.
+:page-last-updated: 2024-10-26
+:page-tags: ["Russland", "Russophobie", "Russophilie"]
+
+:imagesdir: ../assets/img
+
+ifndef::env-site[]
+
+// on the jekyll server, the :page-subtitle: is displayed below the title.
+// but it is not shown, when rendered in html5, and the site is rendered in html5, when working locally
+// so we show it additionally only, when we work locally
+// https://docs.asciidoctor.org/asciidoc/latest/document/subtitle/
+
+[discrete] 
+=== {page-subtitle}
+
+endif::env-site[]
+
+include::../_localization.adoc[]
+include::../_footnotes.adoc[]
+
+// Kürzlich rief mich ein langjähriger Partner an: Ich wäre für seine Firma ein geschäftliches Risiko, denn seine Firma hätte sich verpflichtet, die Sanktionen gegen Russland zu unterstützen, sonst würde man Auftraggeber verlieren. Eine offensichtliche Zusammenarbeit mit mir würde seine potentiellen Kunden irritieren. Denn meine Position ist öffentlich sichtbar und wird von seinen Auftraggebern bemerkt. Das könne er sich nicht leisten. Schon der Hinweis auf meinen Abschluss einer russischen Universität in meinen Profilen wäre heutzutage bedenklich.
+
+Er war so offen, mir das ehrlich mitzuteilen. Wieviele andere Partner mögen so denken wie er, ohne mir das zu sagen? Wieviele potentielle Auftraggeber schrecken vor einer Zusammenarbeit zurück, weil *Russophilie* heutzutage nicht tragbar ist?
+
+Geschäftspartner und Auftraggeber kennen mich: Ich bin Ossi, habe in Russland studiert und gearbeitet, 13 Jahre lang. Ich habe Verwandtschaft und Freunde und mache regelmäßig Urlaub in Russland. *Frieden und Freundschaft mit Russland* sind mir wichtig und ich stehe dazu. Denn Russland ist für mich wie eine zweite Heimat. Ich bin froh, russische Weltliteratur im Original lesen zu können.
+
+Meine Ausbildung als Arzt-Kybernetiker an der Mediko-biologischen Fakultät (https://pirogov-university.com/academics/schools/school-biomedicine/about-the-faculty/[MBF^]; https://rsmu.ru/mbf/o-fakultete[Медико-биологический факультет, МБФ^]) der Russischen Staatlichen Medizinischen Universität war hervorragend, richtungsweisend und prägend, ich würde das immer wieder tun. Durch die *exzellenten Vorlesungen zur Evolutionstheorie von Professor* Aleksandr Ivanovich *Antochin* (https://rsmu.ru/website-information/profil-sotrudnika?cv=2850&cvview=1493&cHash=0a7c47ce0df3d72c8e4fb544b9f209ca[Антохин, Александр Иванович^]) vom Lehrstuhl für allgemeine und Zell-Biologie der MBF (https://rsmu.ru/structure/edu-dept/mbf/dept/general%26cell-biology/faculty[Кафедра общей и клеточной биологии МБФ^]) habe ich pragmatisch erfasst, dass das Modell einer Existenz Gottes (einer zielgerichteten Entwicklung) logischer und sinnvoller und die Welt besser erklärender ist, als Glaube an den puren Zufall.
+
+____
+Русский - это тот, кто любит Россию. +
+Russe ist, wer Russland liebt.
+____
+
+
+Doch *Russophobie* durchdringt unser Land und den Werte-Westen. Wir sind involviert in einen hybriden Krieg gegen Russland, und die "Sanktionen" schaden Deutschland mehr als Russland. Wer im Westen Geschäfte machen will, muss sich demonstrativ und öffentlich von Russland lossagen. Unsere NATO-"Partner" sprengen *Nordstream* weg, es handelte sich um den größten Terroranschlag seit dem zweiten Weltkrieg, und wir müssen tatenlos zuschauen, wie man unsere *Energieversorgung sabotiert*, um die deutsche Wirtschaft "nachhaltig" zu schädigen.
+
+Einige Politiker träumen von *neuen Kriegen zwischen Deutschland und Russland* und propagieren das offen. Da ist wenig Platz für Positionen, die sich für Verhandlungen und Frieden mit Russland einsetzen. Und noch weniger Platz ist für den Ruf nach Freundschaft und Zusammenarbeit.
+
+Die 1949 gegründete https://de.wikipedia.org/wiki/Gesellschaft_f%C3%BCr_Deutsch-Sowjetische_Freundschaft[Gesellschaft für Deutsch-Sowjetische Freundschaft (*DSF*)] gehörte mit 6,4 Millionen Mitgliedern zu den größten Massenorganisationen der DDR. Sie propagierte die Politik, Kultur, Kunst und Literatur der Völker der Sowjetunion. Sie hat mich geprägt: meine Kindheit, meine Jugend, mein ganzes Leben. Ich habe vor meinem Studium in der https://de.wikipedia.org/wiki/Nationale_Volksarmee[*NVA*] gedient, mit russischen Waffen und russischer Technik, und ich halte die russischen Waffen (immer noch und schon wieder) für die besten der Welt. Der Feind war die *NATO*, und auch heute sehe ich in den Mitgliedern NATO, insbesondere in den USA, die größte Bedrohung für den Frieden auf der Welt. Der einzige US-Präsident, der keinen neuen Krieg begann, Trump, wird bei uns verteufelt. Die *EU* ist für mich ein Anhängsel der NATO mit der Hauptaufgabe, NATO-Standards in Europa durchzusetzen. *Gorbatschow* ist für mich der größte Verräter, nicht nur seines eigenen Landes, sondern des ganzen Ostens: ich habe die 90er Jahre in Russland live erlebt. Und die DDR wurde meiner Meinung nach einfach nur feindlich übernommen. Lange hielt ich die https://de.wikipedia.org/wiki/Treuhandanstalt[*Treuhandanstalt*] für unfähig und ihre Tätigkeit für fehlerhaft, bis ich verstand, dass ihre Aufgabe gerade darin bestand, *meine Heimat zu plündern*. Und nun wundern sich einige, dass der Osten blau wählt.
+
+Auch durch den Rückzug von IT Firmen aus Russland versucht der Westen, Russland in die Knie zu zwingen. Google, Meta, Microsoft, Oracle, SAP und viele andere große Player beteiligen sich am *hybriden Krieg* gegen Russland. Nun auch Linux: Kürzlich warf man russische Maintainer raus. Sie würden für sanktionierte russische Unternehmen arbeiten, und da sich ein großer Teil der Infrastruktur der Linux-Entwicklung in den USA befindet, will oder muss man sich an die Sanktionen halten, um selbst nicht unter die Räder zu kommen.
+
+Ich bin *gegen Sanktionen* und halte deren Rechtmäßigkeit für fraglich. Sanktionen sind ein beliebtes Mittel im hybriden Krieg des Werte-Westens gegen Länder mit anderen Werten, oder wenn es um Ressourcen geht.
+
+*Geschichte wiederholt sich*: "Kauft nicht beim Juden!", "Kauft nicht beim Russen!". Und verkauft ihnen nichts, und haltet euch fern von ihnen, und von ihren Freunden. Jagt sie, enteignet sie, ...
+
+Für mich ergeben sich daraus Probleme:
+
+* Auftraggeber oder Partner meiden mich, wenn und weil ich mich nicht von Russland distanziere. +
+So läuft das Spiel, so sind die Regeln, und wer diese Regeln nicht mag, ist draußen.
+* Meine IT-Expertise und somit mein Broterwerb basiert seit über 20 Jahren zu 100 % auf den Produkten von *Microsoft*.
+** Microsoft beteiligt sich am hybriden Krieg gegen Russland, und meine Microsoft Expertise ist in Russland nichts mehr wert.
+** Microsoft wird sich auch an hybriden Kriegen gegen andere dem Werte-Westen gegenüber Abtrünnige beteiligen.
+** Ich habe auf das falsche Pferd Microsoft gesetzt. Meine Motivation zur Benutzung meiner Microsoft Expertise ist gesunken.
+
+Es gibt immer verschiedene Wege zum Ziel: +
+=> *Meine neuen Pferde* sind Immobilienfinanzierung und Vermögensverwaltung (https://goertz-invest.de/[goertz-invest.de^]). Diese Pferde sind etwas weniger politisch.
+
+Wir haben ein Grundgesetz, das auch aus der deutschen Geschichte heraus entstanden ist.
+
+[quote, Grundgesetz, Artikel 3]
+____
+(3) Niemand darf wegen seines Geschlechtes, seiner Abstammung, seiner Rasse, seiner Sprache, seiner Heimat und Herkunft, seines Glaubens, seiner religiösen oder politischen Anschauungen benachteiligt oder bevorzugt werden. Niemand darf wegen seiner Behinderung benachteiligt werden.
+____
+
+Doch wen interessiert das in der Praxis? Wir haben zwar jede Menge Antidiskriminierungsbeauftragte, doch diese scheinen sich nur für (oder gegen) ganz bestimmte Diskriminierungen einzusetzen.
+
+Es gibt eine neue Mode: *Cancel-Culture* und *"Haltung zeigen"*. Man diskriminiert offen und ist stolz darauf. +
+Mitglieder und Wähler von Oppositions-Parteien werden beschimpft. Stolz wird verkündet, dass man solche Personen weder als Angestellte noch als Kunden wünscht, und dafür gibt es Applaus und Anerkennung. +
+Mit der deutschen Flagge kann es zu Problemen kommen. Erstaunlich, wie man es geschafft hat, vielen Deutschen den Stolz auf das eigene Land auszutreiben. Stattdessen EU-Flaggen, Regenbogen-Flaggen und Ukraine-Flaggen, wohin das Auge schaut. Und *Lebensmittel-Märkte*, die traditionell meinen, *ihre Kunden politisch erziehen* zu müssen. https://de.wikipedia.org/wiki/Edeka#Weimarer_Republik_und_Nationalsozialismus[Schon 1932 bekannten sich Edeka-Genossen zur NSDAP^], und EDEKA profitierte durch die Judenverfolgung.
+
+//Nun sind wir also im Krieg mit Russland, auch da scheint es immer nützlicher, Haltung zu zeigen. Auch Israel scheint mir ein sehr heikles Thema.
+
+*Zensur?* Haben wir nicht. Dafür Faktenchecker, einen Öffentlichen Rundfunk und Qualitäts-Medien. Begleitetes Denken. Natürlich haben wir *Meinungsfreiheit*, zumindest wenn die Meinung dem Mainstream entspricht. Und wenn es nicht die "richtige" Meinung ist, dann muss man mit den Konsequenzen leben. Inzwischen gibt es "Trusted Flagger" - "*Digitaler Blockwart*" wäre offen, ehrlich und verständlich.
+
+Wer nicht anecken will, der betreibe *Selbst-Zensur*. Ich erinnere mich an mein Studium in Russland. Da gab es Kommilitonen, die hatten erst dann eine öffentliche Meinung, nachdem sie das 'Neue Deutschland' oder die 'Junge Welt' gelesen hatten. Dass jemand gleichzeitig verschiedene Meinungen hatte, war durchaus normal: eine im kleinen Freundeskreis, eine öffentliche Meinung, und eine in der Parteigruppe. Insofern hat sich das nicht geändert.
+
+*Kämpfer gegen Hass sind voller Hass* auf Andersdenkende. +
+Die *Antifa* sind die einzigen mir bekannten tatsächlichen Faschisten. +
+Die nach *Toleranz* Rufenden sind die personifizierte Intoleranz. +
+*Anti-Rassisten* betreiben Rassismus gegen Weiße. +
+Die Diskriminierung von Abweichlern nennt man *Antidiskriminierung*. +
+Gegner von gentechnisch veränderten Lebensmitteln lassen sich selbst durch mRNA genetisch verändern. +
+Gegner von Kohlendioxid (das ich als Mediziner und Biologe für eines der wichtigsten und nützlichsten Gase für das Leben auf unserem Planeten halte) sind gegen Kohlendioxid-freie Kernenergie und für Kohle-Kraftwerke. +
+Die deutsche *Automobilindustrie*, ehemals führend bei Verbrennungsmotoren, begeht *freiwillig Selbstmord* durch Elektro-Mobilität. +
+Und wer sich für die Einhaltung von Gesetzen, Recht und Ordnung und den Schutz der Demokratie einsetzt, darf als Nazi, Faschist und rechtsextrem beschimpft werden.
+
+In meinen 13 Jahren in Russland habe ich verschiedene Deutsche erlebt, die nach Russland kamen, um dort Geschäfte zu machen. Einige Besser-Wessis wussten alles besser und meinten den Russen beibringen zu müssen, wie es laufen sollte, westlich eben. Je mehr sie Russland durch die eigene Brille betrachteten, desto eher scheiterten sie. Ich halte die häufig anzutreffende *westliche Überheblichkeit und Besserwisserei* für ein großes internationales Problem. Und der Westen scheint wenig lernfähig. Auch Sanktionen kehren als Boomerang zurück.
+
+* *Wirtschaftskriege*
+** Man will China, Russland, dem Iran und anderen Ländern den Zugang zu wichtigen *Technologien und Ressourcen* sperren und wundert sich dann, dass es denen gelingt, sich unabhängig davon zu machen.
+** Der Westen will kein *Gas oder Öl* aus Russland (oder dem Iran) kaufen +
+=> Russland wird seine Energieträger an den Rest der Welt verkaufen. +
+Und wir erleben eine *Deindustrialisierung*, denn stabile und preiswerte Energie aus Russland war Jahrzehnte lang eine Grundvoraussetzung für den Erfolg Deutschlands.
+*** Deutschlands Versuche, dem Verzicht auf russische Ressourcen mit einer grünen "*Energiewende*" in Richtung Flatter-Energie entgegenzuwirken sind unbezahlbar, und der Rest der Welt schaut erstaunt zu, wie sich Deutschland freiwillig in den Abgrund reitet.
+*** Die ganze Welt setzt auf *Kernenergie*, und Schwarz-Grün-Rot-Gelb hat es geschafft, dass Deutschland sich von dieser sauberen und preiswerten Energie befreit. +
+Der russische Experte für Geo-Energetik Boris Martsinkevich (Борис Марцинкевич) sagte einmal sehr treffend:
++
+____
+Den Grad der Souveränität eines Landes erkennt man am Anteil, den Kernenergie an der Energieversorgung ausmacht.
+____
+
+* Es gibt einen *globalen Kampf gegen KMU* (kleine und mittlere Unternehmen). Deren weltweite Vernichtung und Enteignung sind ein langjähriges und wichtiges Ziel, denn es gibt dort noch zu viel Eigentum, dass umverteilt werden muss.
+** Das Lieferkettengesetz ist eine weitere Waffe im Kampf gegen KMU
+** Zölle gegen China => Die Gegenmaßnahmen werden europäische Produzenten und Exporteure treffen, insbesondere KMU.
+** Pandemien sind besonders effektiv bei der Enteignung und Umverteilung, und natürlich bei Beschneidung von Rechten und Freiheiten.
+* *Finanzkriege* werden härter und führen zu Gegenmaßnahmen
+** US-Dollar-Verbot +
+=> der Einfluss des USD wird sich verringern und irgendwann wird sich die USA nicht mehr durch die Notenpresse auf Kosten anderer Länder finanzieren können.
+** kein Zugang zu SWIFT +
+=> mit BRICS Pay wird es ein dezentrales Zahlungssystem geben.
+** Mastercard und Visa boykottieren Russland +
+=> man zahlt mit dem russischen MIR System oder ganz einfach von Telefonnummer zu Telefonnummer.
+* *Massen-Menschen-Haltung* verschiebt sich von Bodenhaltung oder Freilandhaltung in Konzentrations-Städte mit immer kleiner werdenden Wohnkäfigen. 
+** Der Trend geht zum "*bedingungslosen Grundeinkommen*", aktuell nennt man es Bürgergeld. Bedingungslos Stall und Futter für Menschen-Herden?
+** Was könnte wohl das Ziel von Herdenhaltung sein? Nutztiere werden letztendlich "genutzt".
+* *Selbständigkeit wird abgestraft*.
+** "*Scheinselbständigkeit*" gibt es seit über 2 Jahrzehnten, auf Wunsch der Politik und immer noch bewusst und gewollt ohne klare Regeln. +
+Immer mehr deutsche Unternehmen haben Angst vor den möglichen Folgen unklarer Regeln, arbeiten nur noch per *AÜL* (Arbeitnehmer-Überlassung) oder holen sich die Spezialisten lieber gleich aus dem Ausland.
+** Immobilien-Finanzierungen sind schwieriger und teurer für Selbständige im Vergleich zu Angestellten, Ratenkredite sind oft gar nicht erhältlich.
+** *woke Ideologien* machen die Umwelt und das System verantwortlich für persönliches Versagen. Das *heilige Opfer* möge sich wohl fühlen in Safe-Spaces und mit Trigger-Warnungen. Eigenverantwortung / Selbstverantwortung können und sollen da nicht entstehen. +
+Der Wert der Familie wird systematisch angegriffen und zerstört. +
+Kann man seine Kinder heute noch studieren lassen und sie dabei gleichzeitig vor Hirnwäsche und Indoktrination schützen?
+// * In Sachen Digitalisierung war und ist man in Russland schon seit Jahrzehnten weiter, als der Westen.
+// ** Schon 1992 arbeitete die von mir geleitete Produktion eines russischen Telefon- und Adressbuchverlags voll digital, während unsere deutschen Investoren noch mit Papier und Schere die Anzeigen zusammensetzten.
+// ** Eine Kombination aus Stadtplan und Anzeigen ließ ich in den 90ern programmieren, wie wir sie heute ähnlich bei Google Maps oder OpenStreetMap kennen, doch das durfte nicht sein, weil es so etwas bei unseren deutschen Investoren nicht gab und die sich das nicht mal vorstellen konnten.
+
+Russen sind unwahrscheinlich kreativ, Deutsche sind (oder waren?) exzellente Umsetzer von Ideen in die Praxis. +
+Immer wieder erlebte und erlebe ich, dass die Deutschen in Russland sehr beliebte und geachtete Ausländer waren und sind. +
+*Russland und Deutschland* sollten Ihre Ressourcen, Kräfte und Talente vereinen.
+
+Ich bin ein Freund der Idee von https://de.wikipedia.org/wiki/Igor_Nikolajewitsch_Panarin[Professor Igor Nikolajewitsch Panarin^]: +
+einer geopolitischen Vereinigung *GIAROSSIA - Germany, Italy, Austria, Russia, Belarus*.
+
+

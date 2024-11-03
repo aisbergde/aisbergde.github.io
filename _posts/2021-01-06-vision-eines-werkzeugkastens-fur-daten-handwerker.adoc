@@ -20,6 +20,9 @@ ifndef::env-site[]
 
 endif::env-site[]
 
+include::../_localization.adoc[]
+include::../_footnotes.adoc[]
+
 Als Handwerk werden zahlreiche gewerbliche Tätigkeiten bezeichnet, die Produkte meist auf Bestellung fertigen oder Dienstleistungen auf Nachfrage erbringen. Die handwerkliche Tätigkeit steht der industriellen Massenproduktion gegenüber. +
 "Handwerk" entspricht somit meiner Arbeit in BI-Projekten. Das ausdrückliche Ziel "meines" Werkzeugkastens ist die Unterstützung der Arbeit eines Daten-Handwerkers und nicht die Fabrik mit automatischer Fertigung.
 
@@ -132,7 +135,7 @@ Für die Entwicklung des Werkzeugkastens werden _formale_ Methoden der agilen So
 
 Für Anwender und Mit-Entwickler ist transparent, woran mit welcher Priorität gearbeitet wird und was in konkreten Sprints erreicht werden soll.
 
-include::_modul_ueber_mich.adoc[]
+include::../_modul_ueber_mich.adoc[]
 
 //um die Fußnoten besser abzugrenzen:
 {empty} +

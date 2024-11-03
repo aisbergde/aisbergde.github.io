@@ -19,6 +19,9 @@ ifndef::env-site[]
 
 endif::env-site[]
 
+include::../_localization.adoc[]
+include::../_footnotes.adoc[]
+
 Als ich mich 1999 bei der MIS  beworben hatte (Die MIS wurde 2003 von Systems Union Group gekauft, diese 2006 von infor), war in der Stellenanzeige sinngemäß die Rede davon, dass man den Kunden nicht Konfektions-Ware von der Stange verkauft, sondern maßgeschneiderte Lösungen. Das hatte mich sehr angesprochen, wobei ich nicht die geringste Ahnung von BI oder OLAP hatte. Ich sehe mich in meiner Tätigkeit als "Handwerker", mit Expertenwissen. Und ich verwende die Werkzeuge, die es mir ermöglichen, meine Ideen und meine Architektur effektiv und effizient umzusetzen. Meine Kunden sollen gut sitzende Maßanzüge bekommen, wobei die Garderobe ständig erweitert und angepasst werden kann. Handwerk mit einer Nähmaschine statt automatisierter Produktion am Fließband.
 
 Konfektionskleidung ist preiswerter und ich kaufe sie, wann immer das möglich ist (also immer). Meine vermieteten Häuser sind "von der Stange". Mein eigenes Haus http://hausbau-berlin-kladow.blogspot.com/2012/07/referenz-fur-unseren-mexikanischen.html?view=sidebar[sollte ein befreundeter mexikanischer Architekt entwerfen], sein deutscher Partner-Architekt hat http://hausbau-berlin-kladow.blogspot.com/2012/09/unbezahlbares-mexikanisches-design-und.html?view=sidebar[beim Kosten-Controlling versagt] und letztendlich habe ich "http://hausbau-berlin-kladow.blogspot.com/2012/09/selbst-ist-der-architekt-oder-auch.html?view=sidebar[ein pragmatisches Haus]" selbst entworfen, von http://hausbau-berlin-kladow.blogspot.com/2013/01/bautrager-2-runde-wir-bauen-mit-thb.html?view=sidebar[Profis] bauen und http://hausbau-berlin-kladow.blogspot.com/2013/01/finanzierung-top-vermittler.html?view=sidebar[finanzieren] lassen. "Das ist aber keine Architektur", lautete die Kritik des Mexikaners. Da hat er recht, es ist ein pragmatisches deutsches "http://hausbau-berlin-kladow.blogspot.com/2013/12/fassade-ohne-gerust.html?view=sidebar[Nikolaus-Haus]" - mit spitzem Dach, quadratisch, praktisch, gut. Manches würde ich im Nachhinein anders machen.
@@ -33,7 +36,7 @@ Wenn der Hersteller des AnalyticsCreator den Prozess mit der Automatisierung der
 
 Ich kenne aus der Vergangenheit verschiedene Projekte, in denen ein Praktikant oder Junior-Consultant die monotone, wenig kreative Arbeit erledigen musste. Hunderte Importe, Historisierungen, .. Und hinterher muss man man auch noch kontrollieren, ob nicht geschlampt wurde. Noch öfter gab es keinen Junior-Consultant und ich musste diese Arbeit selbst erledigen. Man kann das vielleicht auch positiv sehen, wie einen Meditations-Prozess, es wird ja auch bezahlt. Und es wird trotzdem irgendwann langweilig. "AnalyticsCreator statt Junior-Consultant" trifft es ganz gut.
 
-include::_modul_ueber_mich.adoc[]
+include::../_modul_ueber_mich.adoc[]
 
 //um die Fußnoten besser abzugrenzen:
 {empty} +

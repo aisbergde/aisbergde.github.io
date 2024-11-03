@@ -18,6 +18,9 @@ ifndef::env-site[]
 
 endif::env-site[]
 
+include::../_localization.adoc[]
+include::../_footnotes.adoc[]
+
 Ich habe vorher schon Kunden davon überzeugt, von SSAS on premise zu Power BI Services zu wechseln. Man bekommt für wenig Geld eine sehr gute BI-Umgebung, spart sich eine SSAS Instance.
 
 Manche Projekte laden die Daten direkt in Power BI Modelle. Doch ich sehe viele Vorteile darin, die Daten erst einmal für die Verwendung durch Power BI vorzubereiten. Und das passiert bei mir im SQL Server. Was natürlich eine SQL Server Instanz erfordert, oder Datenbanken in der Cloud.
@@ -97,7 +100,7 @@ ____
 . *Dataflows Gen2*: users can use Dataflows Gen2 with familiar Power Query experiences to transform data and load into the Warehouse.
 ____
 
-include::_modul_ueber_mich.adoc[]
+include::../_modul_ueber_mich.adoc[]
 
 //um die Fußnoten besser abzugrenzen:
 {empty} +

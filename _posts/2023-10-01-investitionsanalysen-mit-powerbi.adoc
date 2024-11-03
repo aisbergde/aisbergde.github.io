@@ -3,13 +3,29 @@
 :page-tags: ["Alternative Investition", "Power BI", "Szenarien", "Immobilien", "Immobilien-Investment"]
 :toc: auto
 :toclevels: 2
-
 :imagesdir: ../assets/img
 
-include::_footnotes.adoc[]
+ifndef::env-site[]
+
+//it's not executed on gitlab server in jekyll
+//locally (VCS, export to docx) we need a different :imagesdir:
+:imagesdir: ./assets/img
+
+// auf dem Server wird der :page-subtitle: unter dem Titel angezeigt
+// local nicht, also blenden wir ihn ein
+// docbook könnte mit spezieller Syntax auch einen subtitle anzeigen, das geht aber nicht mit html5
+// https://docs.asciidoctor.org/asciidoc/latest/document/subtitle/
+
+
+[discrete] 
+=== {page-subtitle}
+
+endif::env-site[]
+
+include::../_localization.adoc[]
+include::../_footnotes.adoc[]
 
 == Warum Power BI?
-
 
 Als freiberuflicher Microsoft BI Architekt (https://germo-goertz.de[germo-goertz.de]) ist mein bevorzugtes Werkzeug zur Modellierung, Analyse und für Berichte https://www.microsoft.com/de-de/power-platform/products/power-bi/?market=de[Microsoft Power BI]. Warum also nicht Power BI auch zur Analyse von Immobilien-Investitionen verwenden? Insbesondere ware die Idee, einen interaktiven Bericht in den https://app.powerbi.com/home?experience=power-bi[Power BI Diensten] öffentlich bereitzustellen. Prinzipiell funktioniert das auch. Allerdings sind die Ressourcen bei der kostenlosen Benutzung der Power BI Dienste etwas eingeschränkt. Das führt dazu, dass einige Visualisierungen mit manchen Parametern nicht funktionieren: 
 
@@ -67,12 +83,8 @@ Die Berechnung der alternativen Rendite{fn-blog-i-alternativrendite} erfordert b
 
 Einzelne Szenarien für Investitionen und Finanzierungen werden in separaten Artikeln auf dieser Website beschrieben: https://der-immobilien-investor.de/[]
 
-include::_modul_ueber_mich.adoc[]
+include::../_modul_ueber_mich.adoc[]
 
 //um die Fußnoten besser abzugrenzen:
 {empty} +
 
-include::_modul_ueber_mich.adoc[]
-
-//um die Fußnoten besser abzugrenzen:
-{empty} +

@@ -17,6 +17,9 @@ ifndef::env-site[]
 
 endif::env-site[]
 
+include::../_localization.adoc[]
+include::../_footnotes.adoc[]
+
 
 Es war einmal eine Stadt der Autobauer. Die gebauten Autos waren gut und teuer, sie wurden auf der ganzen Welt erfolgreich verkauft. Am Fließband der Motorenproduktion arbeiteten qualifizierte und motivierte Automechaniker. Jeder von ihnen kannte den Motor, und damit die Arbeit nicht langweilig wurde, arbeitete jeder Automechaniker jeden Tag an einem anderen Produktionsschritt. Es gab genaue Anleitungen für jeden Schritt. Die Motoren wurden getestet, und am Ende der Strecke gab es eine Ampel, die rot oder grün leuchtete, und das "grüne Licht" war wichtig für das Wohlbefinden der Automechaniker.
 
@@ -67,7 +70,7 @@ Eines Tages beschloss das Krankenhaus, keine Patienten mehr zu behandeln, sonder
 
 Und da der Arzt sein Handwerk in Russland gelernt hatte, überlegte er, ob er sich an einem russischen Krankenhaus bewerben sollte: in diesem Land gab es Gas, Diesel für seinen SUV, billigen Atomstrom, Getreide, Fleisch, Wodka, milchsaure Gurken, Pflanzenöl und sogar Toilettenpapier. Die dortigen Eingeborenen durften warm und ausgiebig duschen und im Winter ihre Wohnungen beheizen. In Krankenhäusern operierten Chirurgen: klassisch, undemokratisch und technokratisch. Alle Buchstaben aller Alphabete waren erlaubt.
 
-include::_modul_ueber_mich.adoc[]
+include::../_modul_ueber_mich.adoc[]
 
 //um die Fußnoten besser abzugrenzen:
 {empty} +

@@ -19,6 +19,9 @@ ifndef::env-site[]
 
 endif::env-site[]
 
+include::../_localization.adoc[]
+include::../_footnotes.adoc[]
+
 Da ich in letzter Zeit immer öfter auch SSAS Tabular Modelle erstelle, habe ich mich vom Chefentwickler des AnalyticsCreators überzeugen lassen, den SSAS Generator für Tabular Modelle zu evaluieren. Tabular-Modelle sind technisch einfacher aufgebaut, als multidimensionale Modelle. Ein Tabular-Modell besteht aus Tabellen, die miteinander verbunden sind. Die Verbindung kann ein- oder zweiseitig sein. Es gibt Measures mit ein paar Eigenschaften, und das lässt sich recht gut automatisieren. Also habe ich ab September 2019 einige SSAS Tabular Modelle mit dem AnalyticsCreator erstellt und war positiv beeindruckt.
 
 * <<ssas-multidimensional-vs-tabular,SSAS multidimensional vs Tabular>>
@@ -350,7 +353,7 @@ Ich gehe den Zwischenschritt über die Erstellung eines SSAS-Projekts auch aus G
 * ob unerwartet Beziehungen dazugekommen sind, was passieren kann, wenn neue Beziehungen in das DM-Schema vererbt werden und der AC daraus erst einmal automatisch neue SSAS-Beziehungen erstellt
 * ob unerwartet bestehende Beziehungen verschwunden sind, was auch passiert, und wofür ich dann im Bugtracker neue Einträge anlege.
 
-include::_modul_ueber_mich.adoc[]
+include::../_modul_ueber_mich.adoc[]
 
 //um die Fußnoten besser abzugrenzen:
 {empty} +

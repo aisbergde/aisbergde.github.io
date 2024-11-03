@@ -18,6 +18,9 @@ ifndef::env-site[]
 
 endif::env-site[]
 
+include::../_localization.adoc[]
+include::../_footnotes.adoc[]
+
 In vielen meiner Projekte besteht die Notwendigkeit, Stammdaten nicht nur zu importieren, sondern auch die Eingabe und Änderung von Stammdaten zu ermöglichen. Dazu habe ich bisher verschiedene Möglichkeiten genutzt:
 
 * http://docs.microsoft.com/de-de/sql/master-data-services/master-data-services-overview-mds?view=sql-server-ver15[Microsoft Master Data Services (MDS)]
@@ -96,7 +99,7 @@ WHERE T1.File_BaseName = f.File_BaseName
 
 image::Anmerkung_2020-04-28_174816.jpg[]
 
-include::_modul_ueber_mich.adoc[]
+include::../_modul_ueber_mich.adoc[]
 
 //um die Fußnoten besser abzugrenzen:
 {empty} +

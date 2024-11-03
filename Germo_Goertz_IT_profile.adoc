@@ -6,6 +6,8 @@
 :page-permalink: /goertz_profile_de/
 :toc: auto
 :toclevels: 1
+include::_localization.adoc[]
+include::_footnotes.adoc[]
 
 // Webserver und lokale Umgebung benötigen unterschiedliche Pfade zu Bildern
 // ob wir auf dem Server sind, kann abgefragt werden über {env-site}
@@ -65,9 +67,9 @@ image::Germo_Goertz_345x460.jpg[]
 // |===
 
 Download des IT-Profils als Word-Datei: 
-https://blog.germo-goertz.de//Germo_Goertz_IT_profile.docx[Germo_Goertz_IT_profile.docx]
+https://blog.germo-goertz.de//Germo_Goertz_IT_profile.docx[Germo_Goertz_IT_profile.docx^]
 
-include::_posts/_modul_ueber_mich.adoc[tag=message01]
+include::_modul_ueber_mich.adoc[tag=message01]
 
 // == meine Erfahrung für Ihren Erfolg
 
@@ -129,40 +131,40 @@ include::_posts/_modul_ueber_mich.adoc[tag=message01]
 * Datenmodellierung als pragmatische Kombination verschiedener sinnvoller Konzepte
 ** Datenmodellierung nach Bill *Inmon*. Inmon definiert ein Data Warehouse als "subjektorientierte, nichtflüchtige, integrierte, zeitvariante Sammlung von Daten zur Unterstützung von Managemententscheidungen". DWH als einheitliche Quelle der Wahrheit.
 ** Datenmodellierung nach *Data Vault*. Insbesondere scheinen mir Hubs, Satelliten und Links oft sinnvoll.
-** Datenmodellierung mit https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/[Dimensional modeling (DM)] als Bestandteil der "Business Dimensional Lifecycle methodology" entwickelt von Ralph *Kimball*, insbesondere bei der Verwendung multidimensionaler OLAP-Datenbanken (die immer mehr von tabularen Datenbanken abgelöst werden)
+** Datenmodellierung mit https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/[Dimensional modeling (DM)^] als Bestandteil der "Business Dimensional Lifecycle methodology" entwickelt von Ralph *Kimball*, insbesondere bei der Verwendung multidimensionaler OLAP-Datenbanken (die immer mehr von tabularen Datenbanken abgelöst werden)
 ** *Data Lakehouse*
-* automatisierte versionisierte Dokumentation mit meinem https://datahandwerk.gitlab.io/dhw/user-guide/documentation-generator.html/[DataHandwerk DocsGenerator]{fn-blog-docs} (Kombination von technischer und fachlicher Dokumentation; https://asciidoc.org/[AsciiDoc], https://antora.org/[*Antora* (Docs as Code)])
+* automatisierte versionisierte Dokumentation mit meinem https://datahandwerk.gitlab.io/dhw/user-guide/documentation-generator.html/[DataHandwerk DocsGenerator^]{fn-blog-docs} (Kombination von technischer und fachlicher Dokumentation; https://asciidoc.org/[AsciiDoc^], https://antora.org/[*Antora* (Docs as Code)^])
 * technische Umsetzung regulatorischer Anforderungen (Historisierung, Versionierung, Data Lineage, DSGVO, ...)
 * Automatisierung (Daten-Import und -Export, ELT, Code-Generierung, DWH, Dokumentation)
-* unter Verwendung von https://www.microsoft.com/de-de/sql-server/sql-server-2019[*Microsoft SQL Server*], einschließlich https://docs.microsoft.com/de-de/analysis-services/analysis-services-overview?view=asallproducts-allversions[*SSAS* (SQL Server Analysis Services)], https://docs.microsoft.com/de-de/sql/integration-services/sql-server-integration-services?view=sql-server-ver15[*SSIS* (SQL Server Integration Services)], https://docs.microsoft.com/de-de/sql/reporting-services/create-deploy-and-manage-mobile-and-paginated-reports?view=sql-server-ver15[SSRS (SQL Server Reporting Services)] und verschiedener https://azure.microsoft.com/de-de/[Microsoft Azure] Technologien
+* unter Verwendung von https://www.microsoft.com/de-de/sql-server/sql-server-2019[*Microsoft SQL Server*^], einschließlich https://docs.microsoft.com/de-de/analysis-services/analysis-services-overview?view=asallproducts-allversions[*SSAS* (SQL Server Analysis Services)^], https://docs.microsoft.com/de-de/sql/integration-services/sql-server-integration-services?view=sql-server-ver15[*SSIS* (SQL Server Integration Services)^], https://docs.microsoft.com/de-de/sql/reporting-services/create-deploy-and-manage-mobile-and-paginated-reports?view=sql-server-ver15[SSRS (SQL Server Reporting Services)^] und verschiedener https://azure.microsoft.com/de-de/[Microsoft Azure^] Technologien
 * und von Software und Technologie rund um die Microsoft BI Plattform oder zur Entwicklung
 ** Programmier- und Abfragesprachen für Datenbanken
-*** https://de.wikipedia.org/wiki/Transact-SQL[Transact-SQL (T-SQL)]
-*** http://de.wikipedia.org/wiki/Multidimensional_Expressions[MDX (Multidimensional Expressions)]
-*** https://docs.microsoft.com/de-de/dax/[DAX (Data Analysis Expressions)]
-** https://datahandwerk.gitlab.io[*DataHandwerk-toolkit-mssql*] +
+*** https://de.wikipedia.org/wiki/Transact-SQL[Transact-SQL (T-SQL)^]
+*** http://de.wikipedia.org/wiki/Multidimensional_Expressions[MDX (Multidimensional Expressions)^]
+*** https://docs.microsoft.com/de-de/dax/[DAX (Data Analysis Expressions)^]
+** https://datahandwerk.gitlab.io[*DataHandwerk-toolkit-mssql*^] +
 mein open source Projekt{fn-blog-dhw}, enthält auch einen Datenbank-Dokumentations-Generator
-** https://git-scm.com/[git (Versionskontrollsystem)] +
+** https://git-scm.com/[git (Versionskontrollsystem)^] +
 alle meine Projekte werden grundsätzlich versionisiert
-// , vorzugsweise auf https://about.gitlab.com/[GitLab]
+// , vorzugsweise auf https://about.gitlab.com/[GitLab^]
 ** Software und Technologien zur Erstellung und Wartung von Dokumentationen
-*** https://antora.org/[Antora (Docs as Code)] +
+*** https://antora.org/[Antora (Docs as Code)^] +
 open Source Dokumentations-Framework, insbesondere für technische und versionisierte Dokumentation
-*** basiert auf der Auszeichnungssprache https://asciidoc.org/[AsciiDoc]
+*** basiert auf der Auszeichnungssprache https://asciidoc.org/[AsciiDoc^]
 // *** formalisierte Erstellung von Software Architektur Diagrammen mit https://structurizr.com/[Structurizr] und https://github.com/structurizr/cli[github.com/structurizr/cli]
 ** bevorzugte Frontends
-*** https://www.microsoft.com/de-de/power-platform/products/power-bi/?market=de[Microsoft Power BI] +
+*** https://www.microsoft.com/de-de/power-platform/products/power-bi/?market=de[Microsoft Power BI^] +
 Microsoft Frontend für Berichtswesen
-*** https://www.xlcubed.com/[XLcubed] +
+*** https://www.xlcubed.com/[XLcubed^] +
 einziges brauchbares Excel-Addin für SSAS
 // *** https://www.bissantz.de/software/[Deltamaster (SSAS Frontend)]
 // *** https://www.oreus.hr/products/cubeplayer[CubePlayer (SSAS Frontend)]
 // ** https://www.analyticscreator.com/[AnalyticsCreator] +
 // DWH Automatisierung - besser, flexibler und preiswerter als https://www.wherescape.com/[WhereScape], mit dem ich auch gearbeitet habe{fn-blog-warum-ac}
-** https://azure.microsoft.com/de-de/services/devops/[Azure DevOps] +
+** https://azure.microsoft.com/de-de/services/devops/[Azure DevOps^] +
 Tool für DevOps, agiles Projekt-Controlling, Issue-Tracking, Code-Versionierung
 // . Leider keine AsciiDoc-Unterstützung in Wiki oder Repository-Preview (GitLab und GitHub sind diesbezüglich besser)
-** https://azure.microsoft.com/de-de[Microsoft Azure]
+** https://azure.microsoft.com/de-de[Microsoft Azure^]
 *** diverse Dienste und Produkte
 
 == Anmerkungen
@@ -186,16 +188,16 @@ Tool für DevOps, agiles Projekt-Controlling, Issue-Tracking, Code-Versionierung
 
 ****
 
-Unter dem gleichen Oberbegriff *SSAS* (http://docs.microsoft.com/de-de/analysis-services/analysis-services-overview?view=asallproducts-allversions[SQL Server Analysis Services]) vereint Microsoft zwei unterschiedliche Technologien:
+Unter dem gleichen Oberbegriff *SSAS* (http://docs.microsoft.com/de-de/analysis-services/analysis-services-overview?view=asallproducts-allversions[SQL Server Analysis Services^]) vereint Microsoft zwei unterschiedliche Technologien:
 
 * *multidimensionale* Datenbanken: OLAP
 * *tabellarische* Datenbanken: Tabular
 
-Bei gleichem Namen handelt es sich um unterschiedliche Technologien. Die Dokumentation von Microsoft: http://docs.microsoft.com/de-de/analysis-services/comparing-tabular-and-multidimensional-solutions-ssas?view=asallproducts-allversions[Vergleichen von tabellarischen und mehrdimensionalen Lösungen]
+Bei gleichem Namen handelt es sich um unterschiedliche Technologien. Die Dokumentation von Microsoft: http://docs.microsoft.com/de-de/analysis-services/comparing-tabular-and-multidimensional-solutions-ssas?view=asallproducts-allversions[Vergleichen von tabellarischen und mehrdimensionalen Lösungen^]
 
 Mit den *multidimensionalen* Datenbanken arbeite ich seit 1999, damals noch "OLAP Services 7.0", ab 2000 "MSAS" (Microsoft Analysis Services). Ab 2005 gab es mit "SSAS" (SQL Server Analysis Services) wieder eine neue Technologie, welche grundsätzlich der heutigen mehrdimensionalen Technologie entspricht. Typische Begriffe dieser multidimensionalen Technologie sind *OLAP*, *Würfel (Cubes)* und *Dimensionen*.
 
-Seit SQL Server 2012 gibt es zusätzlich *SSAS Tabular*, eine auf Tabellen basierende Technologie, wie sie auch in *https://www.microsoft.com/en-us/power-platform/products/power-bi[Power BI]* verwendet wird.
+Seit SQL Server 2012 gibt es zusätzlich *SSAS Tabular*, eine auf Tabellen basierende Technologie, wie sie auch in *https://www.microsoft.com/en-us/power-platform/products/power-bi[Power BI^]* verwendet wird.
 
 Microsoft sieht die Zukunft in der Cloud: *Power BI Services*; *Microsoft Fabric*, basierend auf einem *OneLake*.
 
@@ -205,7 +207,7 @@ Microsoft sieht die Zukunft in der Cloud: *Power BI Services*; *Microsoft Fabric
 
 \=> Was sich mit Power BI oder SSAS Tabular realisieren lässt, wird von mir pragmatisch mit Tabular gemacht. Falls nötig und sinnvoll, gibt es weiter OLAP.
 
-Die Abfragesprache http://de.wikipedia.org/wiki/Multidimensional_Expressions[MDX (Multidimensional Expressions)] kann für beide Technologien verwendet werden, https://docs.microsoft.com/de-de/dax/[DAX (Data Analysis Expressions)] kann nur für SSAS Tabular verwendet werden.
+Die Abfragesprache http://de.wikipedia.org/wiki/Multidimensional_Expressions[MDX (Multidimensional Expressions)^] kann für beide Technologien verwendet werden, https://docs.microsoft.com/de-de/dax/[DAX (Data Analysis Expressions)^] kann nur für SSAS Tabular verwendet werden.
 
 ****
 
@@ -234,10 +236,10 @@ Ich habe *_kein_* Interesse an einer festen Anstellung, auch nicht an einer Arbe
 
 == Abschluss
 
-* Diplom-Mediziner, Biophysiker, http://pirogov-university.com/academics/programs-and-degrees/undergraduate/medical-cybernetics/[Arzt-Kybernetiker (medical cybernetics)] +
-http://pirogov-university.com/[Pirogov Russian National Research Medical University]
-* на русском: https://rsmu.ru/academics/undergraduate/medical-cybernetics/[Программа специалитета «Медицинская кибернетика»] +
-http://rsmu.ru/[Российский национальный исследовательский медицинский университет имени Н.И. Пирогова]
+* Diplom-Mediziner, Biophysiker, http://pirogov-university.com/academics/programs-and-degrees/undergraduate/medical-cybernetics/[Arzt-Kybernetiker (medical cybernetics)^] +
+http://pirogov-university.com/[Pirogov Russian National Research Medical University^]
+* на русском: https://rsmu.ru/academics/undergraduate/medical-cybernetics/[Программа специалитета «Медицинская кибернетика»^] +
+http://rsmu.ru/[Российский национальный исследовательский медицинский университет имени Н.И. Пирогова^]
 
 == Sprachkenntnisse
 
