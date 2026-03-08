@@ -174,7 +174,7 @@ site-css:
 # --- Web Analytics Section --- #
 
 # Fill in your Google Analytics tag ID (or "Measurement ID") to track your website usage
-gtag: "G-15823YG41G"
+# gtag: "G-15823YG41G"
 
 # # Fill in your Google Analytics ID to track your website using GA
 # google_analytics: "266851467"
@@ -183,7 +183,7 @@ gtag: "G-15823YG41G"
 #cloudflare_analytics: ""
 
 # Google Tag Manager ID
-#gtm: ""
+gtm: "GTM-5MD4N9FQ"
 
 # Matomo (aka Piwik) Web statistics
 # Uncomment the following section to enable Matomo. The opt-out parameter controls

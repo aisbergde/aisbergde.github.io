@@ -4,7 +4,7 @@
 <article xmlns="http://docbook.org/ns/docbook" xmlns:xl="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en">
 <info>
 <title>IT Profil Germo Görtz (de)</title>
-<date>2024-05-13</date>
+<date>2024-11-03</date>
 </info>
 <bridgehead xml:id="_seit_1999_microsoft_bi_architekt_entwickler_ms_sql_server_power_bi_fabric_ssas_olap_tabular_data_warehouse_lakehouse_elt_etl_azure" renderas="sect2">seit 1999: Microsoft BI Architekt + Entwickler. MS SQL Server, Power BI, Fabric, SSAS (OLAP, Tabular), Data Warehouse, Lakehouse, ELT, ETL, Azure</bridgehead>
 <informalfigure>
@@ -21,8 +21,8 @@
 <section xml:id="_über_mich">
 <title>Über mich</title>
 <simpara>Mein Name ist Germo Görtz. Und ich bin darauf spezialisiert, analytische Informations-Systeme und Berichts-Systeme technisch zu konzipieren und zu implementieren, damit sie <emphasis role="strong">fachlich funktionieren</emphasis>.</simpara>
-<simpara>Meine Kunden erwarten von mir keine strategische Beratung, denn sie sind Profis, kennen ihr Fach und ihre Ziele.<?asciidoc-br?>
-Ich bin der Weihnachtsmann des kompetenten Controllers.<?asciidoc-br?>
+<simpara>Meine Kunden erwarten von mir keine strategische Beratung, denn sie sind Profis, kennen ihr Fach und ihre Ziele.</simpara>
+<simpara>Ich bin der Weihnachtsmann des kompetenten Controllers.<?asciidoc-br?>
 Je kniffliger die Aufgabe, desto größer mein Mehrwert.</simpara>
 <simpara>Ihr Kittel brennt? Ich bin Ihr Feuerlöscher!</simpara>
 <informalfigure>
@@ -1796,8 +1796,7 @@ Wirtschaftsinformatik (WI 2017), St. Gallen, S. 1205-1219</simpara>
 </listitem>
 </itemizedlist>
 <simpara>Referenzen:
-* <xref linkend="referenz_vivantes_1"/>
-* <xref linkend="referenz_vivantes_2"/></simpara>
+* <xref linkend="referenz_vivantes_1"/></simpara>
 </section>
 </section>
 <section xml:id="_102008_122009_rudolf_wöhrl_ag">
